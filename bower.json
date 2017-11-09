@@ -1,0 +1,12 @@
+{
+  "name": "scaffold",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.7"
+  },
+  "devDependencies": {
+    "closure-compiler": "http://dl.google.com/closure-compiler/compiler-latest.zip",
+    "closure-library": "git://github.com/google/closure-library.git",
+    "closure-compiler-src": "git://github.com/google/closure-compiler.git"
+  }
+}

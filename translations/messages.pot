@@ -1,0 +1,43 @@
+#. /content/pages/another.md:$title@
+msgid "Another Page"
+msgstr ""
+
+#. /content/pages/home.html:title@
+msgid "Callout 1"
+msgstr ""
+
+#. /content/pages/home.html:title@
+msgid "Callout 2"
+msgstr ""
+
+#. /content/pages/home.html:title@
+msgid "Callout 3"
+msgstr ""
+
+#. /content/pages/home.html:subtitle@
+msgid "Description 1."
+msgstr ""
+
+#. /content/pages/home.html:subtitle@
+msgid "Description 2."
+msgstr ""
+
+#. /content/pages/home.html:subtitle@
+msgid "Description 3."
+msgstr ""
+
+#. /content/pages/home.html:title@
+msgid "Hello World!"
+msgstr ""
+
+#. /content/pages/home.html:$title@
+msgid "Home"
+msgstr ""
+
+#. /content/pages/home.html:subtitle@
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+msgid "Say Hello"
+msgstr ""
+
