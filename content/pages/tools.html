@@ -1,0 +1,46 @@
+---
+$title@: Tools
+$order: 3
+---
+<div class="wrap">
+    <div class="header tools">
+        <h2>Tools</h2>
+    </div>
+    <div class="tool-wrap">
+
+        {% for item in g.docs('tools') %}
+
+        <div class="item">
+            <h3>{{item.name}}</h3>
+            <p>{{item.description}}</p>
+            <div class="options clearfix">
+                {% if item.api %}
+                    <div class="link"><a href="{{item.api}}"><img src="/static/images/settings.png" class="tooltip" title="API"></a></div>
+                {% endif %}
+                
+                {% if item.github %}
+                    <div class="link"><a href="https://github.com/{{item.github}}"><img src="/static/images/code.png" class="tooltip" title="Code"></a></div>
+                {% endif %}
+                
+                {% if item.docs %}
+                <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Document"></a></div>
+                {% endif %}
+                
+                {% if item.manuscript %}
+                <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Book"></a></div>
+                {% endif %}
+                
+                {% if item.paper %}
+                <div class="link"><a href="{{item.paper}}"><img src="/static/images/paper.png" class="tooltip" title="Paper"></a></div>
+                {% endif %}
+                
+                {% if item.user %}
+                <div class="link"><a href="https://github.com/{{item.user}}"><img src="/static/images/user-silhouette.png" class="tooltip" title="User"></a></div>
+                {% endif %}
+            </div>
+        </div>
+
+        {% endfor %}
+        
+    </div>
+</div>

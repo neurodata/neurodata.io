@@ -1,0 +1,9 @@
+name: ingest_large_vol
+description: Python 3 command line program to ingest large volume image data into the cloud using APL's BOSS spatial database.  Supports loading images from local storage or an AWS S3 bucket.
+
+api:
+github: neurodata/ingest_large_vol
+docs:
+manuscript:
+paper:
+user: falkben
