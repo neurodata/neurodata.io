@@ -1,0 +1,38 @@
+{
+  "/content/data/test.md": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ],
+  "/content/misc/contact.md": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ],
+  "/content/pages/about.md": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ],
+  "/content/pages/data.md": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ],
+  "/content/pages/home.html": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ],
+  "/content/pages/tools.md": [
+    "/content/misc/contact.md",
+    "/content/pages/about.md",
+    "/content/pages/data.md",
+    "/content/pages/tools.md"
+  ]
+}

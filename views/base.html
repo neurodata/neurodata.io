@@ -1,37 +1,93 @@
 <!DOCTYPE html>
-
-<html lang="{{doc.locale}}" dir="{{doc.locale.direction}}">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{{_(doc.title)}}</title>
-  <link rel="stylesheet" href="/static/css/main.min.css">
-  <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<title>{{_(doc.title)}}</title>
+<meta name="Description" content="" />
+<link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+<link rel="manifest" href="/static/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/static/css/styles.css" />
 </head>
+
 <body>
-  <header>
-    <img src="/static/images/grow.png">
-  </header>
-  <main>
-    {% block main %}
-      {{doc.html|render|safe}}
-    {% endblock %}
-  </main>
-  <footer>
-    <select onchange="window.location.href = this.value" class="language">
-      {% for locale in doc.locales %}
-      <option
-      {% if doc.locale == locale %} selected{% endif %}
-        value="{{doc.localize(locale).url.path}}">
-        {{locale.get_display_name(locale)}}
-      {% endfor %}
-    </select>
-  </footer>
 
-  <script src="/static/js/main.min.js"></script>
+<div class="wrapper clearfix">
+	
+	<div class="nav">
+		<a href="/" class="logo clearfix">
+			<img src="/static/images/nuerodata_logo.png">
+			<h4>{{_(doc.title)}}</h4>
+			<div class="triangle"></div>
+		</a>
+		<div class="links">
+			<ul>
+                {% for item in g.docs('pages') %}
+                {% if not doc.is_hidden %}
+                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+                {% endif %}
+                {% endfor %}
+			</ul>
+			<ul class="bottom">
+                {% for item in g.docs('misc') %}
+				<!--<li><a href="#"><h5>Sitemap</h5></a></li>-->
+                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+                {% endfor %}                
+				<li><a href="#"><h5 class="copy">&copy; Neurodata 2017</h5></a></li>
+			</ul>
+		</div>
+		<div id="mobile-nav" class="visible"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+		<div class="mobile-links">
+			<ul>
+                {% for item in g.docs('pages') %}
+                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+                {% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	<div class="main">
+		
+		{% block main %}
+        {{doc.html|render|safe}}
+        {% endblock %}
+      <!--
+    <div class="video">
+        <video autoplay muted preload loop id="video">
+            <source src="video/NeurodataIntroVideo.mp4"type="video/mp4" />
+            <source src="video/NeurodataIntroVideo.webm"type="video/webm" />
+            <source src="video/NeurodataIntroVideo.ogv"type="video/ogg" />
+        </video>
+        <img class="mobile" src="images/intro.gif">
+        <div class="copy">
+            <h1>Enabling Terascale Neuroscience</h1>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+    -->
+		
+	</div>
+	
+</div>
 
-  <script>
-    scaffold.main();
-  </script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.tooltipster.min.js"></script>
+<script type="text/javascript" src="/static/js/script.js"></script>
+
 </body>
 </html>

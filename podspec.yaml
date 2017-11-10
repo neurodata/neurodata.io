@@ -3,15 +3,31 @@ grow_version: ">=0.0.60"
 localization:
   default_locale: en_US
   locales:
-  - de_DE
   - en_US
-  - ja_JP
 
 static_dirs:
 - static_dir: /source/images/
   serve_at: /static/images/
 - static_dir: /dist/
   serve_at: /static/
+- static_dir: /source/css/
+  serve_at: /static/css/
+- static_dir: /source/favicons/
+  serve_at: /static/favicons/
+- static_dir: /source/fonts/
+  serve_at: /static/fonts/
+- static_dir: /source/js/
+  serve_at: /static/js/
+- static_dir: /source/video/
+  serve_at: /static/video/
   
+sitemap:
+  enabled: yes
+  path: "/sitemap.xml"   # Optional.
+  collections:                  # Optional.
+  - pages
+  locales:                      # Optional.
+  - en_US
+
 #preprocessors:
 #- kind: gulp

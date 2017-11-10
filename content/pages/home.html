@@ -1,33 +1,20 @@
 ---
-$title@: Home
+$title@: Neurodata
 $path: /
 
-$localization:
-  path: /intl/{locale}/
+$hidden: true
 
-hero:
-  title@: Hello World!
-  subtitle@: Lorem ipsum dolor sit amet.
-ctas:
-- title@: Callout 1
-  subtitle@: Description 1.
-- title@: Callout 2
-  subtitle@: Description 2.
-- title@: Callout 3
-  subtitle@: Description 3.
 ---
-<h1>{{_(doc.hero.title)}}</h1>
-<p>{{_(doc.hero.subtitle)}}</p>
 
-<div ng-controller="DemoController as ctrl">
-  <form ng-submit="ctrl.sayHello(ctrl.text)">
-    <input type="text" ng-model="ctrl.text">
-    <button type="submit">{{_('Say Hello')}}</button>
-  </form>
-</div>
-
-<ul>
-  {% for cta in doc.ctas %}
-  <li><b>{{_(cta.title)}}:</b> {{_(cta.subtitle)}}
-  {% endfor %}
-</ul>
+<div class="video">
+    <video autoplay muted preload loop id="video">
+      <source src="static/video/NeurodataIntroVideo.mp4"type="video/mp4" />
+      <source src="static/video/NeurodataIntroVideo.webm"type="video/webm" />
+      <source src="static/video/NeurodataIntroVideo.ogv"type="video/ogg" />
+    </video>
+    <img class="mobile" src="static/images/intro.gif">
+    <div class="copy">
+      <h1>Enabling Terascale Neuroscience</h1>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
