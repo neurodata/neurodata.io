@@ -2,37 +2,39 @@
   "/content/data/test.md": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
+    "/content/pages/data.html",
     "/content/pages/tools.md"
   ],
   "/content/misc/contact.md": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
+    "/content/pages/data.html",
     "/content/pages/tools.md"
   ],
   "/content/pages/about.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
-    "/content/pages/tools.md"
+    "/content/pages/data.html",
+    "/content/pages/tools.md",
+    "/content/people/alex.yaml",
+    "/content/people/eric.yaml"
   ],
-  "/content/pages/data.md": [
+  "/content/pages/data.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
+    "/content/pages/data.html",
     "/content/pages/tools.md"
   ],
   "/content/pages/home.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
+    "/content/pages/data.html",
     "/content/pages/tools.md"
   ],
   "/content/pages/tools.md": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
-    "/content/pages/data.md",
+    "/content/pages/data.html",
     "/content/pages/tools.md"
   ]
 }

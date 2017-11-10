@@ -33,215 +33,26 @@ $order: 3
                     <h3>The Team</h3>
                     <div class="members clearfix" id="team">
                         
+                        {% for item in g.docs('people') %}
                         <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+                            <blockquote><p>{{item.name}}<br><span class="position">{{item.position}}</span></p></blockquote>
                             <div class="bw"></div>
                             <div class="color"></div>
                             <div class="overlay">
                                 <h5>Undergraduate</h5>
                                 <p>Explore</p>
                                 <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
+                                    {% if item.github %}
+                                    <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+                                    {% else %}
+                                    <a href="#"></a>
+                                    {% endif %}
+                                    <a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+                                    <a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                            <div class="overlay">
-                                <h5>Undergraduate</h5>
-                                <p>Explore</p>
-                                <div class="contact clearfix">
-                                    <a href="#"><img class="hover" src="images/github-white.png"><img src="images/github-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/mail-white.png"><img src="images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="images/website-white.png"><img src="images/website-blue.png"></a>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                         
                     </div>
                     
