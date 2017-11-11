@@ -36,19 +36,27 @@ $order: 3
                         {% for item in g.docs('people') %}
                         <div class="col">
                             <blockquote><p>{{item.name}}<br><span class="position">{{item.position}}</span></p></blockquote>
-                            <div class="bw" style="background: url('/static/images/nonce.png')no-repeat center bottom;"></div>
-                            <div class="color"></div>
+                            {% if item.picture %}
+                                <div class="bw" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                                <div class="color" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                            {% else %}
+                                {# Default images are in style.css #}
+                                <div class="bw"></div>
+                                <div class="color"></div>
+                            {% endif %}
                             <div class="overlay">
-                                <h5>Undergraduate</h5>
+                                <!--h5>Undergraduate</h5-->
                                 <p>Explore</p>
                                 <div class="contact clearfix">
                                     {% if item.github %}
-                                    <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-                                    {% else %}
-                                    <a href="#"></a>
+                                        <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
                                     {% endif %}
-                                    <a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-                                    <a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+                                    {% if item.email %}
+                                        <a href="mailto:{{item.email}}"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+                                    {% endif %}
+                                    {% if item.website %}
+                                        <a href="{{item.website}}   "><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
