@@ -1,0 +1,26 @@
+---
+$title@: Data
+$order: 1
+
+---
+
+<div class="wrap">        
+    <div class="header about-header">
+        <h2>Data</h2>
+    </div>
+    <div class="data clearfix">
+        <h3>Collaborative Data Projects</h3>
+        <p>Our goal is to work together with neuroexperimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale. Below are featured datasets published in parternership with leading neuroexperimentalists across many different modalities.</p>
+        <div class="divider"></div>
+        {% for item in g.docs('data') %}
+        <div class="col">
+            <a href="#">
+            <img src="/static/images/data/{{item.thumb}}" />
+            <blockquote>
+                    <h5>{{item.authors}} ({{item.year}})</h5>                    
+            </blockquote>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
