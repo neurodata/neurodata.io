@@ -3,38 +3,54 @@
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md"
+    "/content/pages/tools.html"
   ],
   "/content/misc/contact.md": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md"
+    "/content/pages/tools.html"
   ],
   "/content/pages/about.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md",
+    "/content/pages/tools.html",
     "/content/people/alex.yaml",
-    "/content/people/eric.yaml"
+    "/content/people/ben.yaml",
+    "/content/people/bridgeford.yaml",
+    "/content/people/carey.yaml",
+    "/content/people/cencheng.yaml",
+    "/content/people/disa.yaml",
+    "/content/people/eric.yaml",
+    "/content/people/greg.yaml",
+    "/content/people/heather.yaml",
+    "/content/people/jesse.yaml",
+    "/content/people/jovo.yaml",
+    "/content/people/mim.yaml",
+    "/content/people/misha.yaml",
+    "/content/people/randal.yaml",
+    "/content/people/tyler.yaml",
+    "/content/people/youngser.yaml"
   ],
   "/content/pages/data.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md"
+    "/content/pages/tools.html"
   ],
   "/content/pages/home.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md"
+    "/content/pages/tools.html"
   ],
-  "/content/pages/tools.md": [
+  "/content/pages/tools.html": [
     "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
-    "/content/pages/tools.md"
+    "/content/pages/tools.html",
+    "/content/tools/ingest_large_vol.yaml",
+    "/content/tools/meda.yaml"
   ]
 }
