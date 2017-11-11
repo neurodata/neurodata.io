@@ -1,0 +1,44 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+<div class="wrap">
+    <div class="header detail" style="background: url(/static/images/data/default_header.jpg)no-repeat center bottom;">
+        <h2>{{doc.title}}</h2>
+        <div>{{doc.html|render|safe}}</div>
+        <a href="#" class="button expand">Learn More</a>
+    </div>
+    <div class="detail-wrap">
+        <div class="summary clearfix">
+            <div class="col even">
+                <h4 class="title">Analysis</h4>
+                {% for item in doc.analysis %}
+                <div class="item">
+                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                    <p>{{ item.subtext }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col even">
+                <h4 class="title">Tools</h4>
+                {% for item in doc.tools %}
+                <div class="item">
+                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                    <p>{{ item.subtext }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col even">
+                <h4 class="title">Publications</h4>
+                {% for item in doc.publications %}
+                <div class="item">
+                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
+                    <p>{{ item.subtext }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

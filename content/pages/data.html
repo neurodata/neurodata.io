@@ -14,7 +14,7 @@ $order: 1
         <div class="divider"></div>
         {% for item in g.docs('data') %}
         <div class="col">
-            <a href="#">
+            <a href="{{item.url.path}}">
             <img src="/static/images/data/{{item.thumb}}" />
             <blockquote>
                     <h5>{{item.authors}} ({{item.year}})</h5>                    

@@ -1,2 +1,2 @@
-path: /data/{slug}/
-view: /views/base.html
+path: /data/{base}/
+view: /views/data_detail.html
