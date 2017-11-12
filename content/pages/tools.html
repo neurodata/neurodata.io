@@ -23,19 +23,22 @@ $order: 2
                 {% endif %}
                 
                 {% if item.docs %}
-                <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Document"></a></div>
+                <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Docs"></a></div>
                 {% endif %}
                 
                 {% if item.manuscript %}
-                <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Book"></a></div>
+                <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Manuscript"></a></div>
                 {% endif %}
                 
-                {% if item.paper %}
-                <div class="link"><a href="{{item.paper}}"><img src="/static/images/paper.png" class="tooltip" title="Paper"></a></div>
+                {% if item.press %}
+                <div class="link"><a href="{{item.press}}"><img src="/static/images/paper.png" class="tooltip" title="Press"></a></div>
                 {% endif %}
                 
-                {% if item.user %}
-                <div class="link"><a href="https://github.com/{{item.user}}"><img src="/static/images/user-silhouette.png" class="tooltip" title="User"></a></div>
+                {% if item.github %}
+                <div class="link">
+                    <a href="https://github.com/{{item.github}}/graphs/contributors">
+                        <img src="/static/images/user-silhouette.png" class="tooltip" title="Contributors">
+                    </a></div>
                 {% endif %}
             </div>
         </div>

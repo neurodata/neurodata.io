@@ -58,7 +58,19 @@
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html",
+    "/content/tools/flashx.yaml",
     "/content/tools/ingest_large_vol.yaml",
-    "/content/tools/meda.yaml"
+    "/content/tools/lol.yaml",
+    "/content/tools/meda.yaml",
+    "/content/tools/mgc.yaml",
+    "/content/tools/ndio.yaml",
+    "/content/tools/ndmg.yaml",
+    "/content/tools/ndparse.yaml",
+    "/content/tools/ndreg.yaml",
+    "/content/tools/ndstore.yaml",
+    "/content/tools/ndviz.yaml",
+    "/content/tools/ndwebtools.yaml",
+    "/content/tools/oopsi.yaml",
+    "/content/tools/randomerforest.yaml"
   ]
 }

@@ -1,0 +1,10 @@
+name: MGC
+description: Multiscale Generalized Correlation
+
+api: 
+github: neurodata/mgc
+docs: https://neurodata-papers.github.io/MGC/
+manuscript: 
+press: https://arxiv.org/abs/1609.05148
+
+ 
