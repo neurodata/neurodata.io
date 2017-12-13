@@ -29,6 +29,10 @@ $(document).ready(function() {
 		$(".main").toggleClass('blur');
 	});
 	
+	//black homepage background
+	if($("#video").length > 0) {
+		$("body").addClass("dark");
+	}
 	//custom checkboxes
 	function paintCheckboxes() {
 		$(".table.database input[type='checkbox']").each(function(){

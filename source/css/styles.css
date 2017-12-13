@@ -2,7 +2,7 @@
 ---------------------------------------------- */
 @charset "UTF-8";
 @font-face {
-  font-family: 'Gentona Book';
+  font-family: 'Gentona Book';.header h2
   src: url("../fonts/gentona/Gentona-Book.eot");
   src: local("☺"), url("../fonts/gentona/Gentona-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/gentona/Gentona-Book.woff") format("woff"), url("../fonts/gentona/Gentona-Book.ttf") format("truetype");
   font-weight: normal;
@@ -106,10 +106,13 @@ p a:hover:not(.button) { border-color: transparent; }
 
 html, body {
 	height: 100%;
-	-webkit-font-smoothing: antialiased;
 	font: 16px/1.5 "Gentona Book", "Arial", sans-serif;
 	color: #28282e;
-	background-color: #000;
+	background-color: white;
+	-moz-osx-font-smoothing: antialiased!important;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	margin: 0px;
 }
 /* these overflow rules are required for momentum scrolling on mobile */
@@ -118,6 +121,9 @@ body{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
+}
+body.dark{
+	background:black;
 }
 h1, h2, h3, h4, h5 {
 	font-weight: normal !important;
@@ -481,12 +487,13 @@ footer.dark,
 ---------------------------------------------- */
 .nav{
 	background: #f4f4f4;
-    display: inline-block;
+/*     display: inline-block; */
     float: left;
     width: 230px;
     min-height: 100%;
     position: fixed;
     z-index: 999;
+    display:block;
 }
 .triangle{
 	width: 0;
@@ -663,7 +670,7 @@ footer.dark,
 }
 .mobile-links{
     position: fixed;
-    background: rgba(46, 46, 46, 0.85);
+    background: rgba(46, 46, 46, 0.95);
     height: 100%;
     z-index: 3;
     top: 76px;
@@ -717,16 +724,20 @@ footer.dark,
     float: left;
     width: 100%;
     padding-left: 230px;
+/*
     -webkit-filter: blur(0px);
     filter: blur(0px);
+*/
     transition:0.5s ease all;
 }
 .main .wrap{
 	padding-right:230px;
 }
 .blur{
+/*
 	-webkit-filter: blur(0px);
     filter: blur(0px);
+*/
 }
 
 /* VIDEO 
@@ -768,10 +779,11 @@ footer.dark,
 	width:100%;
 }
 .header h2{
-	color:white;
-	text-align: center;
-	padding:78px 30px;
-	margin:0px;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0px;
+    font-size:30px;
 }
 .header p{
     color: white;
@@ -797,6 +809,7 @@ footer.dark,
 .doc-nav{
 	background:#a6bcd7;
 	width:100%;
+/* 	border-top:2px solid #a6bcd7; */
 }
 .doc-nav.fixed{
 	position: fixed;
@@ -806,7 +819,7 @@ footer.dark,
 .doc-nav ul{
     padding-left: 0px;
     margin: 0px;
-    width: 935px;
+    width: 1000px;
     margin: 0 auto;
 }
 .doc-nav li{
@@ -818,7 +831,7 @@ footer.dark,
 .doc-nav li h5{
 	background:none;
 	color:#29282f;
-	padding:11px 14px 5px 14px;
+	padding:14px 14px 10px 14px;
 	transition:0.3s ease all;
 }
 .doc-nav li:hover{
@@ -1199,6 +1212,7 @@ footer.dark,
 ---------------------------------------------- */
 .header.about-header{
 	background: url("../images/about-top-hero.jpg")no-repeat center bottom;
+	background-color: black;
 }
 .about{
     padding: 50px 80px;
@@ -1246,7 +1260,7 @@ footer.dark,
 	left:0px;
 	height:100%;
 	width:100%;
-	background: url("../images/people/placeholder.jpg")no-repeat center bottom;
+	background: url("../images/people/placeholder.png")no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1262,7 +1276,7 @@ footer.dark,
 	left:0px;
 	height:100%;
 	width:100%;
-	background: url("../images/people/placeholder.jpg")no-repeat center bottom;
+	background: url("../images/people/placeholder.png")no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1714,10 +1728,11 @@ blockquote p {
 }
 @media only screen and (max-width: 1200px){
 	.doc-nav ul{
-		width:790px;
+		width:820px;
 	}
 	.doc-nav li h5{
 		font-size:13px;
+		padding:16px 14px 13px 14px;
 	}
 	.doc-nav ul.about-list{
 		width:288px;
@@ -1749,8 +1764,10 @@ blockquote p {
 }
 @media only screen and (max-width: 1024px){
 	.blur{
+/*
 		-webkit-filter: blur(10px);
 		filter: blur(10px);
+*/
 	}
 	.nav{
 		background: #f4f4f4;
