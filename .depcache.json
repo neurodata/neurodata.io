@@ -72,5 +72,11 @@
     "/content/tools/ndwebtools.yaml",
     "/content/tools/oopsi.yaml",
     "/content/tools/randomerforest.yaml"
+  ],
+  "/content/pages/ui-kit.html": [
+    "/content/misc/contact.md",
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/tools.html"
   ]
 }
