@@ -1,5 +1,22 @@
 $(document).ready(function() {
 	
+	//load homepage gif only on mobile
+	$(window).bind("load resize scroll",function(e){
+		if ( ($(window).width() < 1025) && ($(".main .video .mobile").length > 0) ){
+			//do nothing, image exists already
+		}
+		else if ($(window).width() < 1025) {
+		   $(".main .video").prepend('<img class="mobile" src="images/intro.gif">')
+		}
+	});
+	//safari bug resolved with this duplicated
+	if ( ($(window).width() < 1025) && ($(".main .video .mobile").length > 0) ){
+		//do nothing, image exists already
+	}
+	else if ($(window).width() < 1025) {
+	   $(".main .video").prepend('<img class="mobile" src="images/intro.gif">')
+	}
+	
 	//init tool tip
 	$('.tooltip').tooltipster();
 
@@ -33,6 +50,7 @@ $(document).ready(function() {
 	if($("#video").length > 0) {
 		$("body").addClass("dark");
 	}
+	
 	//custom checkboxes
 	function paintCheckboxes() {
 		$(".table.database input[type='checkbox']").each(function(){

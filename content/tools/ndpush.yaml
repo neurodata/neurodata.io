@@ -1,8 +1,8 @@
-name: ingest_large_vol
+name: ndpush
 description: Command line program to ingest large volume image data into the cloud using APL's BOSS spatial database.
 
 api:
-github: neurodata/ingest_large_vol
+github: neurodata/ndpush
 docs:
 manuscript:
 press:
