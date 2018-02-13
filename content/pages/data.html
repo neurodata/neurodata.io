@@ -4,23 +4,64 @@ $order: 1
 
 ---
 
-<div class="wrap">        
+<div class="wrap">
     <div class="header about-header">
         <h2>Data</h2>
     </div>
-    <div class="data clearfix">
-        <h3>Collaborative Data Projects</h3>
-        <p>Our goal is to work together with neuroexperimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale. Below are featured datasets published in parternership with leading neuroexperimentalists across many different modalities.</p>
-        <div class="divider"></div>
-        {% for item in g.docs('data') %}
-        <div class="col">
-            <a href="{{item.url.path}}">
-            <img src="/static/images/data/{{item.thumb}}" />
-            <blockquote>
-                    <h5>{{item.authors}} ({{item.year}})</h5>                    
-            </blockquote>
-            </a>
-        </div>
-        {% endfor %}
+    <div class="doc-nav">
+        <ul class="clearfix">
+            <li><h5>Filtered Data By:</h5></li>
+            <li><a href="#"><h5>All</h5></a></li>
+            <li><a href="#"><h5>AT</h5></a></li>
+            <li><a href="#"><h5>CLARITY</h5></a></li>
+            <li><a href="#"><h5>EM</h5></a></li>
+            <li><a href="#"><h5>EXM</h5></a></li>
+            <li><a href="#"><h5>LM</h5></a></li>
+            <li><a href="#"><h5>MRI</h5></a></li>
+            <li><a href="#"><h5>OPHYS</h5></a></li>
+            <li><a href="#"><h5>XRM</h5></a></li>
+        </ul>
+        <select>
+            <option selected="selected">Filter</option>
+            <option value="All">All</option>
+            <option value="AT">AT</option>
+            <option value="CLARITY">CLARITY</option>
+            <option value="EM">EM</option>
+            <option value="EXM">EXM</option>
+            <option value="LM">LM</option>
+            <option value="MRI">MRI</option>
+            <option value="OPHYS">OPHYS</option>
+            <option value="XRM">XRM</option>
+
+        </select>
     </div>
+    <div class="about clearfix">
+        <div class="paper" id="mission">
+            <p>Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale</p>
+            <div class="team">
+                <div class="divider"></div>
+                <div class="members clearfix" id="team">
+                    {% for item in g.docs('data') %}
+                    <div class="col">
+                        <a href="{{item.url.path}}">
+                        <blockquote>
+                            <p><span class="position">
+                                {{item.authors}} {{item.year}}
+                            </span></p>
+                        </blockquote>
+                        {% if item.thumb %}
+                            <div class="bw" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                            <div class="color" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                        {% else %}
+                            {# Default images are in style.css #}
+                            <div class="bw"></div>
+                            <div class="color"></div>
+                        {% endif %}
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>                                        
+            </div>
+        </div>
+    </div>          
 </div>
