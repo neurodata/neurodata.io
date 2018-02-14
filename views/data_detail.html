@@ -3,19 +3,30 @@
 {% block main %}
 
 <div class="wrap">
-    <div class="header detail" style="background: url(/static/images/data/default_header.jpg)no-repeat center bottom;">
+    <div class="header detail">
         <h2>{{doc.title}}</h2>
-        <div>{{doc.html|render|safe}}</div>
+        <p>{{doc.description}}</p>
+        <p class="hidden">{{doc.long_description}}</p>
         <a href="#" class="button expand">Learn More</a>
     </div>
     <div class="detail-wrap">
         <div class="summary clearfix">
             <div class="col even">
+                <h4 class="title">Data</h4>
+                {% for item in doc.data %}
+                <div class="item">
+                    <h4><a href="{{item.url}}">{{ item.name }}</a></h4>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col even">
                 <h4 class="title">Analysis</h4>
                 {% for item in doc.analysis %}
                 <div class="item">
                     <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    <p>{{ item.subtext }}</p>
+                    {% if item.subtext %}
+                        <p>{{ item.subtext }}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -24,7 +35,9 @@
                 {% for item in doc.tools %}
                 <div class="item">
                     <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    <p>{{ item.subtext }}</p>
+                    {% if item.subtext %}
+                        <p>{{ item.subtext }}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -33,7 +46,9 @@
                 {% for item in doc.publications %}
                 <div class="item">
                     <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    <p>{{ item.subtext }}</p>
+                    {% if item.subtext %}
+                        <p>{{ item.subtext }}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
