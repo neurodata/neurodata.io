@@ -1,0 +1,142 @@
+/* Data
+---------------------------------------------- */
+
+.data {
+    padding: 5%;
+    background: #1f1f23;
+}
+
+.data p {
+    color: white;
+}
+
+.data h3 {
+    color: white;
+}
+
+.data .col {
+    width: 100%;
+}
+
+.data .col {
+    border: none !important;
+}
+
+.data .col {
+    width: 24%;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 208px;
+    position: relative;
+    margin: 0.8% 0.9%;
+}
+
+
+/*
+.team .members .col:hover .bw{
+	opacity: 0;
+}
+.team .members .col:hover .overlay{
+	opacity: 1;
+}
+*/
+
+.data .col img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 312px;
+    height: 208px;
+}
+
+.data .col .color {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: url("../images/people/placeholder.jpg")no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.data .col .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(22, 21, 25, 0.8);
+    z-index: 2;
+    transition: 0.3s ease all;
+    opacity: 0;
+}
+
+.data .col>a:hover h5 {
+    color: #000;
+    background-color: #fff;
+}
+
+.data .col .overlay h5 {
+    background: none;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 0px;
+}
+
+.data .col .overlay p {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-top: 3px;
+}
+
+.data .col .contact {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+    width: 140px;
+    height: 45px;
+}
+
+.data .col .name {
+    z-index: 3;
+    position: absolute;
+    bottom: 10px;
+    font-size: 11px;
+    padding: 10px 12px;
+}
+
+.team .col .position {
+    z-index: 3;
+    font-size: 11px;
+    font-weight: 100;
+    font: 11px/1.5 "Gentona Book", "Arial", sans-serif;
+}
+
+
+/*
+.team .members .col .contact a{
+	display:inline-block;
+	float: left;
+	margin: 10px;
+}
+.team .members .col .contact a:last-child{
+	margin-top:8px;
+}
+.team .members .col .contact a .hover{
+	position: absolute;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.team .members .col .contact a .hover:hover{
+	opacity: 1;
+}
+*/
+

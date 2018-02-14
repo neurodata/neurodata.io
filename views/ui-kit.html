@@ -1,311 +1,271 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="en" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="en" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Neurodata</title>
-	<meta name="HandheldFriendly" content="True" />
-	<meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/static/favicons/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-	
-    <link rel="stylesheet" href="/static/css/styles.css" />
-    <link rel="stylesheet" href="/static/css/grid.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<title>NeuroData</title>
+<meta name="Description" content="" />
+<link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+<link rel="manifest" href="/static/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/static/css/styles.css" />
 </head>
-<body>	
 
+<body>
+
+<div class="wrapper clearfix">
 	
 	<div class="nav">
-		<a href="/" class="logo clearfix">
+		<a href="#" class="logo clearfix">
 			<img src="/static/images/nuerodata_logo.png">
 			<h4>NeuroData</h4>
 			<div class="triangle"></div>
 		</a>
 		<div class="links">
 			<ul>
-                {% for item in g.docs('pages') %}
-                {% if not doc.is_hidden %}
-                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endif %}
-                {% endfor %}
+				<li><a href="#"><h5>Nav Text</h5></a></li>
+				<li><a href="#"><h5>Nav Text</h5></a></li>
 			</ul>
 			<ul class="bottom">
-                {% for item in g.docs('misc') %}
-				<!--<li><a href="#"><h5>Sitemap</h5></a></li>-->
-                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endfor %}                
-				<li><a href="#"><h5 class="copy">&copy; Neurodata <script>document.write(new Date().getFullYear())</script></h5></a></li>
+				<li><a href="#"><h5>Sitemap</h5></a></li>
+				<li><a href="#"><h5>Contact Us</h5></a></li>
+				<li><a href="#"><h5 class="copy">&copy; Neurodata 2017</h5></a></li>
 			</ul>
 		</div>
 		<div id="mobile-nav" class="visible"><span></span><span></span><span></span><span></span><span></span><span></span></div>
 		<div class="mobile-links">
 			<ul>
-                {% for item in g.docs('pages') %}
-                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endfor %}
+				<li><a href="#"><h5>Data</h5></a></li>
+				<li><a href="#"><h5>Tools</h5></a></li>
+				<li><a href="#"><h5>About</h5></a></li>
+				<li><a href="#"><h5>Sitemap</h5></a></li>
+				<li><a href="#"><h5>Contact Us</h5></a></li>
 			</ul>
 		</div>
 	</div>
 	
-    <div id='ui-kit' class="page">
-    	<div class="main">
-			<div id="colors" class="wrap">
-				<p class="tan">Tan: #dfd6c2</p>
-				<p class="slate">Slate: #a6bcd7</p>
-				<p class="dark-gray">Dark Gray: #28282e</p>
-				<p class="light-gray">Light Gray: #4a484c</p>
-				<p class="sky-blue">Sky Blue: #318dde</p>
+	<div class="main">
+		<div class="wrap">
+			<div class="header">
+				<h2>Heading</h2>
 			</div>
-
-			<div class="wrap group fonts">
-				<div class="grid-3">
-					<h1>Heading 1</h1>
-					<p class="caps">81 px Quadon Medium All Caps</p>
-
-					<h2>Heading 2</h2>
-					<p class="caps">40 px Quadon Regular All Caps</p>
-
-					<h3>Heading 3</h3>
-					<p class="caps">29 px Quadon Medium All Caps</p>
-
-					<h4>Heading 4</h4>
-					<p class="caps">22 px Gentona Bold All Caps</p>
-
-					<h5>Heading 5</h5>
-					<p class="caps">16 px Gentona Bold All Caps 15 px Padding Black Bg</p>
-
-					<h6>Heading 6</h6>
-					<p>18 px Gentona Bold Sentence Case</p>
-
-					<p>Body copy</p>
-					<p>18 px Gentona Book Sentence Case</p>
-
-					<a class="button">Learn More</a>
-					<a class="button hollow">View All</a>
-
-				</div>
-				<div class="grid-3 dark">
-					<h1>Heading 1</h1>
-					<p class="caps">81 px Quadon Medium All Caps</p>
-
-					<h2>Heading 2</h2>
-					<p class="caps">40 px Quadon Regular All Caps</p>
-
-					<h3>Heading 3</h3>
-					<p class="caps">29 px Quadon Medium All Caps</p>
-
-					<h4>Heading 4</h4>
-					<p class="caps">22 px Gentona Bold All Caps</p>
-
-					<h5>Heading 5</h5>
-					<p class="caps">16 px Gentona Bold All Caps 15 px Padding Black Bg</p>
-
-					<h6>Heading 6</h6>
-					<p>18 px Gentona Bold Sentence Case</p>
-
-					<p>Body copy</p>
-					<p>18 px Gentona Book Sentence Case</p>
-
-					<a class="button">Learn More</a>
-					<a class="button hollow">View All</a>
-				</div>
-			</diV>
-
-			<div class="wrap group">
-				<hr />
-            </div>
-
-			<div class="wrap text">
-				<h3>Lorem Ipsum Dolor Sit Amet</h3>
-				<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis.</p>
-				<ul>
-					<li>Aperiam, eaque ipsa quae ab illo inventore veritatis quae.</li>
-					<li>Aperiam, eaque ipsa quae ab illo inventore veritatis quae.
-						<ul>
-							<li>Aperiam, eaque ipsa quae ab illo inventore veritatis quae.</li>
-						</ul>
-					</li>
+			<div class="doc-nav">
+				<ul class="clearfix">
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li><a href="#"><h5>Placeholder</h5></a></li>
+					<li class="active"<a href="#"><h5>Placeholder</h5></a></li>
 				</ul>
+				<select>
+					<option selected="selected">Filter</option>
+					<option value="Placeholder">Placeholder</option>
+					<option value="Placeholder">Placeholder</option>
+					<option value="Placeholder">Placeholder</option>
+					<option value="Placeholder">Placeholder</option>
+					<option value="Placeholder">Placeholder</option>
+					<option value="Placeholder">Placeholder</option>
+				</select>
+			</div>
+
+			<div class="detail-wrap style-guide">
+				<div class="intro clearfix">
+					<div class="colors" style="float:left;">
+						<h6 style="color: #dfd6c2;">Tan: #dfd6c2</h6>
+						<h6 style="color: #a6bcd7;">Slate: #a6bcd7</h6>
+						<h6 style="color: #28282e;">Dark Gray: #28282e</h6>
+						<h6 style="color: #4a484c;">Light Gray: #4a484c</h6>
+						<h6 style="color: #318dde;">Sky Blue: #318dde</h6>
+					</div>
+					<div class="left">
+						<h1>Heading 1</h1>
+						<p>82 px Quadon medium all caps</p>
+						<h2>Heading 2</h2>
+						<p>29 PX QUADON MEDIUM ALL CAPS</p>
+						<h3>Heading 3</h3>
+						<p>24 PX QUADON MEDIUM ALL CAPS</p>
+						<h4>Heading 4</h4>
+						<p>22 PX GENTONA BOLD ALL CAPS</p>
+						<h5>Heading 5</h5>
+						<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
+						<h6>Heading 6</h6>
+						<p>18 px Gentona Bold Sentence case</p>
+						<p>Body Copy</p>
+						<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
+						<a href="#" class="button">Learn More</a>
+					</div>
+					<div class="right">
+						<h1>Heading 1</h1>
+						<p>82 px Quadon medium all caps</p>
+						<h2>Heading 2</h2>
+						<p>29 PX QUADON MEDIUM ALL CAPS</p>
+						<h3>Heading 3</h3>
+						<p>24 PX QUADON MEDIUM ALL CAPS</p>
+						<h4>Heading 4</h4>
+						<p>22 PX GENTONA BOLD ALL CAPS</p>
+						<h5>Heading 5</h5>
+						<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
+						<h6>Heading 6</h6>
+						<p>18 px Gentona Bold Sentence case</p>
+						<p>Body Copy</p>
+						<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
+						<a href="#" class="button">Learn More</a>
+					</div>
+								
+				</div>
+				
+				<div style="padding: 30px;">
+					<div class="divider"></div>
+					<p>Divider</p>
+				</div>
+				
+				<div style="background:#29282f;padding: 30px;">
+					<div class="divider"></div>
+					<p style="color:white;">Divider</p>
+				</div>
+				
+				<h2>Lorem Ipsum</h2>
+				<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. </p>
+				<ul>
+					<li>Accusantium doloremque laudantium</li>
+					<li>Accusantium doloremque laudantium</li>
+						<ul>
+							<li>Accusantium doloremque laudantium</li>
+						</ul>
+					<li>Accusantium doloremque laudantium</li>
+				</ul>
+				
 				<ol>
-					<li>Aperiam, eaque ipsa quae ab illo inventore veritatis quae.</li>
-					<li>Aperiam, eaque ipsa quae ab illo inventore veritatis quae.</li>
+					<li>Accusantium doloremque laudantium</li>
+					<li>Accusantium doloremque laudantium</li>
+					<li>Accusantium doloremque laudantium</li>
 				</ol>
-			</div>
-			<div class="fifty-fifty dark">
-				<div class="wrap group">
-					<div class="grid-3 text">
-						<h3>Lorem Ipsum Dolor Sit Amet</h3>
-						<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis.</p>
-					</div>
-					<div class="grid-3 text">
-						<h3>Lorem Ipsum Dolor Sit Amet</h3>
-						<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis.</p>
-					</div>
+				
+				<div class="team">
+					
+					<h1>Grid</h1>
+					
+					<div class="members clearfix" id="team">
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col">
+							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+							<div class="bw"></div>
+							<div class="color"></div>
+							<div class="overlay">
+								<h5>Undergraduate</h5>
+								<p>Explore</p>
+								<div class="contact clearfix">
+									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+								</div>
+							</div>
+						</div>
+						
+					</div>						
+					
 				</div>
+					
 			</div>
-
-			<div class="wrap group">
-
-				<form id="ui-form" action="#" mehod="post">
-					<div class="group">
-						<div class="half">
-							<label>First Name<input type="text" name="fistName" required /></label>
-						</div>
-						<div class="half">
-							<label>Last Name<input type="text" name="lastName" required /></label>
-						</div>
-					</div>
-					<label>Email<input type="email" name="emailAddress" required /></label>
-					<label>Street Address<input type="email" name="street" required /></label>
-					<div class="group">
-						<div class="half csz">
-							<label>City<input type="text" name="city" required /></label>
-							<label>State<input type="text" name="state" required /></label>
-							<label>Zip<input type="text" name="zip" required /></label>
-						</div>
-						<div class="half tel">
-							<label>Phone<input type="text" name="phone" /></label>
-						</div>
-					</div>
-
-					<div class="radio-group">
-						<p>Question with radio buttons?</p>
-						<label><input type="radio" name="radio" value="1" checked /> Sure! Why not?</label>
-						<label><input type="radio" name="radio" value="0" /> No Thanks!</label>
-					</div>
-
-					<div class="check-group">
-						<p>Question with checkboxes?</p>
-						<label><input type="checkbox" name="check" /> Sure! Why not?</label>
-						<label><input type="checkbox" name="check" /> No Thanks!</label>
-						<label><input type="checkbox" name="check" /> I wish there were more!</label>
-						<label><input type="checkbox" name="check" /> Only on Tuesdays</label>
-						<label><input type="checkbox" name="check" /> Of course</label>
-					</div>
-
-					<label>Please tell us more about checkboxes<textarea name="comments"></textarea></label>
-
-					<input class="validate" type="submit" value="Submit" />
-
-				</form>
-
-			</div>
-
-			<div id="data" class="feature dark">
-				<h2 class="wrap">Featured Data</h2>
-
-				<div class="hovercheck wrap">
-					<div class="group">
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>KKI</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>Ohyama et al. nature (2015)</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>Acardona_abd1_5</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>ara_test</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>Bock et al. Nature (2011)</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>Weiler et al. Scientific Data (2014)</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25">
-							<a href="/detail.php?d=dataname">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>Vladimirov et al. Nature Methods (2014)</h5>
-								</span>
-							</a>
-						</div>
-						<div class="grid-25 view-all">
-							<a href="/data.php">
-								<img src="http://placehold.it/640x427" alt="" />
-								<span>
-									<h5>View all Data &gt;</h5>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	</div>
+	
+</div>
 
-
-
-	<footer class="dark">
-		<div class="wrap group">
-			<ul>
-				<!--li><a href="#">Terms &amp; Privacy Policy</a></li-->
-				<li class="clear"><a href="https://www.jhu.edu">Johns Hopkins University</a></li>
-				<li><a href="http://www.kavlifoundation.org">Kavli</a></li>
-				<li><a href="mailto:support@neurodata.io">Contact Us</a></li>
-			</ul>
-			<p>&copy; Neurodata 2018</p>
-		</div>
-    </footer>
-    
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="/static/js/jquery.tooltipster.min.js"></script>
 <script type="text/javascript" src="/static/js/script.js"></script>
 
 </body>
 </html>
-
