@@ -1,8 +1,0 @@
-name: ndio
-description: A Python 2 / 3 module that enables big-data neuroscience, as well as direct interfacing with NeuroData workflows and servers.
-
-api: 
-github: neurodata/ndio
-docs: http://docs.neurodata.io/nddocs/ndio/
-manuscript: 
-press: 
