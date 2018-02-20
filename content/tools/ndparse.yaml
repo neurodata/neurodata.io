@@ -1,9 +1,0 @@
-name: NeuroData Parse
-description: This repo contains the code needed to train, evaluate, and deploy code for parsing volumes of NeuroData images.
-
-api: 
-github: neurodata/ndparse
-docs: 
-manuscript: 
-press: 
-
