@@ -20,24 +20,10 @@
                 {% endfor %}
             </div>
             <div class="col even">
-                <h4 class="title">Analysis</h4>
-                {% for item in doc.analysis %}
-                <div class="item">
-                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    {% if item.subtext %}
-                        <p>{{ item.subtext }}</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
-            <div class="col even">
-                <h4 class="title">Tools</h4>
+                <h4 class="title">Analysis/Tools</h4>
                 {% for item in doc.tools %}
                 <div class="item">
-                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    {% if item.subtext %}
-                        <p>{{ item.subtext }}</p>
-                    {% endif %}
+                    <h4><a href="/tools#{{item.name}}">{{ item.name }}</a></h4>
                 </div>
                 {% endfor %}
             </div>

@@ -11,7 +11,7 @@ $order: 2
         {% for item in g.docs('tools') %}
 
         <div class="item">
-            <h3>{{item.name}}</h3>
+            <h3 id="{{item.name}}">{{item.name}}</h3>
             <p>{{item.description}}</p>
             <div class="options clearfix">
                 {% if item.api %}
