@@ -1,24 +1,15 @@
 {
   "/content/data/acardona_0111_8.html": [
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html"
   ],
   "/content/data/bhatla15.html": [
-    "/content/misc/contact.md",
-    "/content/pages/about.html",
-    "/content/pages/data.html",
-    "/content/pages/tools.html"
-  ],
-  "/content/misc/contact.md": [
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html"
   ],
   "/content/pages/about.html": [
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html",
@@ -42,19 +33,16 @@
   "/content/pages/data.html": [
     "/content/data/acardona_0111_8.html",
     "/content/data/bhatla15.html",
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html"
   ],
   "/content/pages/home.html": [
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html"
   ],
   "/content/pages/tools.html": [
-    "/content/misc/contact.md",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/tools.html",
