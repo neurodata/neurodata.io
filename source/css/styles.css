@@ -1276,6 +1276,11 @@ footer.dark,
 
 .tool-wrap .item {
     position: relative;
+    margin-bottom: -5px;
+}
+
+.tool-wrap .item .odd {
+    background: #edf2f7;
 }
 
 .tool-wrap .options {
