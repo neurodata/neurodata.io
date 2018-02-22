@@ -1061,6 +1061,8 @@ footer.dark,
     right: 0;
     text-align: center;
     padding-left: 230px;
+    background: #29282f;
+    opacity: .9;
 }
 
 .main .video .button {
