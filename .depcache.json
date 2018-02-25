@@ -57,6 +57,7 @@
     "/content/tools/ndviz.yaml",
     "/content/tools/ndwebtools.yaml",
     "/content/tools/oopsi.yaml",
-    "/content/tools/randomerforest.yaml"
+    "/content/tools/randomerforest.yaml",
+    "/content/tools/urerf.yaml"
   ]
 }
