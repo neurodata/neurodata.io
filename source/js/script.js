@@ -6,7 +6,7 @@ $(document).ready(function () {
 			//do nothing, image exists already
 		}
 		else if ($(window).width() < 1025) {
-			$(".main .video").prepend('<img class="mobile" src="/static/images/intro.gif">')
+			$(".main .video").prepend('<video autoplay muted preload loop class="mobile"><source src="static/video/NeurodataIntroVideo_mobile.mp4" type="video/mp4" /></video>')
 		}
 	});
 	//safari bug resolved with this duplicated
@@ -14,7 +14,7 @@ $(document).ready(function () {
 		//do nothing, image exists already
 	}
 	else if ($(window).width() < 1025) {
-		$(".main .video").prepend('<img class="mobile" src="/static/images/intro.gif">')
+		$(".main .video").prepend('<video autoplay muted preload loop class="mobile"><source src="static/video/NeurodataIntroVideo_mobile.mp4" type="video/mp4" /></video>')
 	}
 
 	//init tool tip
