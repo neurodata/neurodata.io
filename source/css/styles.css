@@ -1039,7 +1039,6 @@ footer.dark,
     transition: 0.5s ease all;
 }
 
-
 .blur {
     /*
 	-webkit-filter: blur(0px);
@@ -1050,10 +1049,10 @@ footer.dark,
 
 /* VIDEO 
 ---------------------------------------------- */
+
 .main .video {
     height: 100%;
 }
-
 
 .main .video h1 {
     color: white;
@@ -1073,6 +1072,13 @@ footer.dark,
     /* opacity: .9; */
     padding: 5px;
     margin-top: -6px;
+    height: 34%;
+}
+
+.main .video .copy p {
+    max-width: 550px;
+    margin: auto;
+    text-align: justify;
 }
 
 .main .video .button {
@@ -1091,7 +1097,7 @@ footer.dark,
 */
     min-width: 100%;
     max-width: 100%;
-    max-height: 720px;
+    height: 66%
 }
 
 .main .video img {
@@ -2273,9 +2279,11 @@ blockquote p {
         margin: 0 auto;
         left: 0;
         right: 0;
+        max-height: 50%;
     }
     .main .video .copy {
-        padding-left: 0px;
+        padding: 0px;
+        height: inherit;
     }
     .nav .links {
         display: none;
