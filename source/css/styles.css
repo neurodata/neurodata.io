@@ -88,6 +88,10 @@
     background: rgba(247, 234, 72, 0.5);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="submit"] {
@@ -734,6 +738,10 @@ footer.dark,
     font-size: 0;
 }
 
+.wrapper {
+    height: 100%;
+}
+
 
 /* NAVIGATION 
 ---------------------------------------------- */
@@ -1021,8 +1029,7 @@ footer.dark,
 ---------------------------------------------- */
 
 .main {
-    display: inline-block;
-    float: left;
+    height: 100%;
     width: 100%;
     padding-left: 230px;
     /*
@@ -1032,9 +1039,6 @@ footer.dark,
     transition: 0.5s ease all;
 }
 
-.main .wrap {
-    padding-right: 230px;
-}
 
 .blur {
     /*
@@ -1046,6 +1050,10 @@ footer.dark,
 
 /* VIDEO 
 ---------------------------------------------- */
+.main .video {
+    height: 100%;
+}
+
 
 .main .video h1 {
     color: white;
@@ -1053,16 +1061,19 @@ footer.dark,
 }
 
 .main .video .copy {
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    /* z-index: 2; */
+    position: relative;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
     left: 0;
     right: 0;
     text-align: center;
-    padding-left: 230px;
+    height:100%;
+    /* padding-left: 230px; */
     background: #29282f;
-    opacity: .9;
+    /* opacity: .9; */
+    padding: 5px;
+    margin-top: -6px;
 }
 
 .main .video .button {
@@ -1079,11 +1090,9 @@ footer.dark,
     overflow: hidden;
     top: 0;
 */
-    position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    max-width: 100%;
+    max-height: 720px;
 }
 
 .main .video img {
@@ -1557,6 +1566,8 @@ footer.dark,
     height: 175px;
     position: relative;
     margin: 0.1% 0.2%;
+    max-height: 175px;
+    max-width: 267px;
 }
 
 .team .members .col:hover .bw {
