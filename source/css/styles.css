@@ -1068,7 +1068,6 @@ footer.dark,
     left: 0;
     right: 0;
     text-align: center;
-    height:100%;
     /* padding-left: 230px; */
     background: #29282f;
     /* opacity: .9; */
@@ -2269,7 +2268,7 @@ blockquote p {
     .main .video img {
         display: block;
         z-index: 2;
-        position: absolute;
+        position: relative;
         width: 100%;
         margin: 0 auto;
         left: 0;
