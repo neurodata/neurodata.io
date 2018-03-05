@@ -1039,6 +1039,10 @@ footer.dark,
     transition: 0.5s ease all;
 }
 
+.main .wrap {
+    padding-right: 230px;
+}
+
 .blur {
     /*
 	-webkit-filter: blur(0px);
@@ -1052,7 +1056,11 @@ footer.dark,
 
 .main .video {
     height: 100%;
-    background: #29282f;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    /* background: #29282f; */
 }
 
 .main .video h1 {
@@ -1061,23 +1069,22 @@ footer.dark,
 }
 
 .main .video .copy {
-    /* z-index: 2; */
-    position: relative;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    left: 0;
-    right: 0;
     text-align: center;
+    background: #29282f;
+    order: 2;
+    z-index: 2;
+    padding-bottom: 5px;
+    /* transform: translateY(-50%); */
+    /* left: 0; */
+    /* right: 0; */
     /* padding-left: 230px; */
     /* opacity: .9; */
-    padding: 5px;
-    background: #29282f;
 }
 
 .main .video .copy p {
-    max-width: 550px;
+    max-width: 800px;
     margin: auto;
-    text-align: justify;
+    text-align: left;
 }
 
 .main .video .button {
@@ -1087,17 +1094,19 @@ footer.dark,
 }
 
 .main .video #video {
+    overflow: hidden;
+    flex-grow: 2;
+    order: 1;
+    object-fit: cover;
     /*
 	width: auto !important;
     height: 100% !important;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-*/
-    min-width: 100%;
-    max-width: 100%;
-    height: 60%;
-    background: black;
+    position: fixed; */
+    /* top: 0; */
+    /* min-width: 100%;
+    max-width: 100%; */
+    /* height: 60%;
+    background: black; */
 }
 
 .main .video .mobile {
@@ -2272,18 +2281,19 @@ blockquote p {
         display: none;
     }
     .main .video .mobile {
-        display: block;
-        z-index: 2;
-        position: relative;
-        width: 100%;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        max-height: 50%;
-        background: black;
-    }
-    .main .video .copy {
-        padding: 5px;
+        display: flex;
+        overflow: hidden;
+        order: 1;
+        object-fit: cover;
+        flex-grow: 1;
+        /* position: absolute; */
+        /* width: 100%; */
+        /* margin: 0 auto; */
+        /* left: 0; */
+        /* right: 0; */
+        /* z-index: 2; */
+        /* max-height: 50%;
+        background: black; */
     }
     .nav .links {
         display: none;
@@ -2511,9 +2521,6 @@ blockquote p {
         padding-left: 0px;
         padding-top: 76px;
     }
-    .main .video .copy {
-        padding-left: 0px;
-    }
     .nav .links {
         display: none;
     }
@@ -2522,10 +2529,6 @@ blockquote p {
     }
     #mobile-nav {
         display: block;
-    }
-    .main .video #video {
-        height: 100% !important;
-        position: absolute;
     }
     .main .wrap {
         padding-right: 0px;
