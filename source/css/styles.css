@@ -1040,7 +1040,7 @@ footer.dark,
 }
 
 .main .wrap {
-    padding-right: 230px;
+    /* padding-right: 230px; */
 }
 
 .blur {
@@ -1530,6 +1530,19 @@ footer.dark,
     -o-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
+}
+
+
+/* PROJECT 
+---------------------------------------------- */
+
+.project {
+    padding: 50px 80px;
+    background-color: white;
+}
+
+.project h3 {
+    color: black
 }
 
 
@@ -2393,7 +2406,7 @@ blockquote p {
         padding: 10px 0px;
     }
     .doc-nav ul {
-        display: none;
+        /* display: none; */
     }
     .doc-nav select {
         display: block;

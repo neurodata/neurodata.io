@@ -1,0 +1,263 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+<div class="wrap">
+    <div class="header detail">
+        <h2>{{doc.title}}</h2>
+        <p>{{doc.description}}</p>
+        <p class="hidden">{{doc.long_description}}</p>
+        <a href="#" class="button expand">Learn More</a>
+    </div>
+
+
+    <!-- Data -->
+    <div class="project clearfix">
+        <div>
+            <h3>Data</h3>
+            <div class="team">
+                <div class="members clearfix" id="team">
+                    {% for item in g.docs('data') %}
+                        {% if item.base in doc.data %}
+                        <div class="col">
+                            <a href="{{item.url.path}}">
+                            <blockquote>
+                                <p><span class="position">
+                                    {{item.authors}} {{item.year}}
+                                </span></p>
+                            </blockquote>
+                            {% if item.thumb %}
+                                <div class="bw" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                                <div class="color" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                            {% else %}
+                                {# Default images are in style.css #}
+                                <div class="bw"></div>
+                                <div class="color"></div>
+                            {% endif %}
+                            </a>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>                                        
+            </div>
+        </div>
+
+
+        <!-- People -->
+        <div class="team">
+            <h3>People on project</h3>
+            <div class="members clearfix">
+                
+                {% for item in g.docs('people') %}
+                    {% if item.base in doc.people %}
+                    <div class="col">
+                        <blockquote><p>{{item.name}}<br><span class="position">{{item.position}}</span></p></blockquote>
+                        {% if item.picture %}
+                            <div class="bw" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                            <div class="color" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                        {% else %}
+                            {# Default images are in style.css #}
+                            <div class="bw"></div>
+                            <div class="color"></div>
+                        {% endif %}
+                        <div class="overlay">
+                            <!--h5>Undergraduate</h5-->
+                            <div class="contact clearfix">
+                                {% if item.github %}
+                                    <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+                                {% endif %}
+                                {% if item.email %}
+                                    <a href="mailto:{{item.email}}"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+                                {% endif %}
+                                {% if item.website %}
+                                    <a href="{{item.website}}"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="detail-wrap">
+    <div class="summary clearfix">
+        <div class="col">
+            <h4 class="title">Analysis/tools</h4>
+            {% for item in g.docs('tools') %}
+                {% if item.base in doc.tools %}
+                    <div class="item">
+                        <h4><a href="/tools#{{item.name}}">{{ item.name }}</a></h4>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col">
+            <h4 class="title">Publications</h4>
+            {% for item in g.docs('publications') %}
+                {% if item.base in doc.publications %}
+                    <div class="item">
+                        <h4><a href="{{item.link}}">{{item.name}}</a></h4>
+                        {% if item.subtext %}
+                            <p>{{ item.subtext }}</p>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
+
+    <!-- <div class="detail-wrap">
+        <h3>Explore</h3>
+        <div class="table">
+            <h3>Diffusion MRI</h3>
+            <table>
+                <tbody>
+                    <tr class="head">
+                        <th>Dataset</th>
+                        <th>Covariates</th>
+                        <th>Processed DWI</th>
+                        <th>Code</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">BNU1</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">BNU3</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">HNU1</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">KKI2009</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">MRN1313</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">SWU4</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="table">
+            <h3>Functional MRI</h3>
+            <table>
+                <tbody>
+                    <tr class="head">
+                        <th>Dataset</th>
+                        <th>Covariates</th>
+                        <th>Processed DWI</th>
+                        <th>Code</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">BNU1</a></td>
+                        <td><a href="#">[@csv]</a></td>
+                        <td><a href="#" class="button">Aligned Images</a><a href="#" class="button">Tensors</a><a href="#" class="button">Fibers</a><a href="#" class="button">Graphs</a><a href="#" class="button">QA</a></td>
+                        <td><a href="#" class="button">v0.0.48</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="divider"></div>
+        <div class="summary clearfix">
+            <div class="col">
+                <h4 class="title">Analysis</h4>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+            </div>
+            <div class="col">
+                <h4 class="title">Tools</h4>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                </div>
+            </div>
+            <div class="col">
+                <h4 class="title">Publications</h4>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+                <div class="item">
+                    <h4>Bock Et Al. Nature (2011)</h4>
+                    <p>J. Vogelstein, PHD</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
