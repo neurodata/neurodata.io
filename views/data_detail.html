@@ -30,13 +30,15 @@
             </div>
             <div class="col even">
                 <h4 class="title">Publications</h4>
-                {% for item in doc.publications %}
-                <div class="item">
-                    <h4><a href="{{item.url}}">{{ item.title }}</a></h4>
-                    {% if item.subtext %}
-                        <p>{{ item.subtext }}</p>
+                {% for item in g.docs('publications') %}
+                    {% if item.base in doc.publications %}
+                        <div class="item">
+                            <h4><a href="{{item.link}}">{{ item.name }}</a></h4>
+                            {% if item.subtext %}
+                                <p>{{ item.subtext }}</p>
+                            {% endif %}
+                        </div>
                     {% endif %}
-                </div>
                 {% endfor %}
             </div>
         </div>

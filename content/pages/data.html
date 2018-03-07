@@ -10,30 +10,11 @@ $order: 1
     </div>
     <div class="doc-nav">
         <ul class="clearfix">
-            <li><h5>Filtered Data By:</h5></li>
-            <li><a href="#"><h5>All</h5></a></li>
-            <li><a href="#"><h5>AT</h5></a></li>
-            <li><a href="#"><h5>CLARITY</h5></a></li>
-            <li><a href="#"><h5>EM</h5></a></li>
-            <li><a href="#"><h5>EXM</h5></a></li>
-            <li><a href="#"><h5>LM</h5></a></li>
-            <li><a href="#"><h5>MRI</h5></a></li>
-            <li><a href="#"><h5>OPHYS</h5></a></li>
-            <li><a href="#"><h5>XRM</h5></a></li>
+            <li><h5>Projects:</h5></li>
+            {% for proj in g.docs('projects') %}
+                <li><a href="{{proj.url.path}}"><h5>{{proj.title}}</h5></a></li>
+            {% endfor %}
         </ul>
-        <select>
-            <option selected="selected">Filter</option>
-            <option value="All">All</option>
-            <option value="AT">AT</option>
-            <option value="CLARITY">CLARITY</option>
-            <option value="EM">EM</option>
-            <option value="EXM">EXM</option>
-            <option value="LM">LM</option>
-            <option value="MRI">MRI</option>
-            <option value="OPHYS">OPHYS</option>
-            <option value="XRM">XRM</option>
-
-        </select>
     </div>
     <div class="about clearfix">
         <div class="paper" id="mission">
