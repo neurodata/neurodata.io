@@ -1545,6 +1545,37 @@ footer.dark,
     color: black
 }
 
+.tools-pubs {
+    display: flex;
+    flex-direction: row;
+}
+
+.tools-pubs .col {
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+}
+
+.tools-pubs .col .title {
+    background: #a6bcd7;
+    color: #2c2c33;
+    font-size: 21px;
+    padding: 18px 5px;
+}
+
+.tools-pubs .col .item {
+    margin: 17px 0px;
+}
+
+.tools-pubs .col h4 {
+    color: #6487a5;
+    font-size: 17px;
+}
+
+.tools-pubs .col p {
+    margin: 0px;
+}
+
 
 /* ABOUT
 ---------------------------------------------- */
@@ -2471,6 +2502,9 @@ blockquote p {
     }
     h3 {
         font-size: 7vw;
+    }
+    .tools-pubs {
+        flex-direction: column;
     }
 }
 
