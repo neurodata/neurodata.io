@@ -75,6 +75,11 @@
     "/content/tools/randomerforest.yaml",
     "/content/tools/urerf.yaml"
   ],
+  "/content/pages/ui-kit.html": [
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/tools.html"
+  ],
   "/content/projects/connectomes.yaml": [
     "/content/data/acardona_0111_8.html",
     "/content/data/bhatla15.html",

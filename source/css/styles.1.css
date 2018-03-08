@@ -182,7 +182,6 @@ body {
 
 body {
     overflow-x: hidden;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -1043,12 +1042,11 @@ footer.dark,
     /* padding-right: 230px; */
 }
 
-.blur {
-    /*
+
+/* .blur {
 	-webkit-filter: blur(0px);
     filter: blur(0px);
-*/
-}
+} */
 
 
 /* VIDEO 
@@ -1060,6 +1058,7 @@ footer.dark,
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+    overflow: hidden;
     /* background: #29282f; */
 }
 

@@ -1,271 +1,205 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-<title>NeuroData</title>
-<meta name="Description" content="" />
-<link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
-<link rel="manifest" href="/static/favicons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="/static/css/styles.css" />
-</head>
+{% extends "/views/base.html" %}
 
-<body>
+{% block main %}
 
-<div class="wrapper clearfix">
-	
-	<div class="nav">
-		<a href="#" class="logo clearfix">
-			<img src="/static/images/nuerodata_logo.png">
-			<h4>NeuroData</h4>
-			<div class="triangle"></div>
-		</a>
-		<div class="links">
-			<ul>
-				<li><a href="#"><h5>Nav Text</h5></a></li>
-				<li><a href="#"><h5>Nav Text</h5></a></li>
-			</ul>
-			<ul class="bottom">
-				<li><a href="#"><h5>Sitemap</h5></a></li>
-				<li><a href="#"><h5>Contact Us</h5></a></li>
-				<li><a href="#"><h5 class="copy">&copy; Neurodata 2017</h5></a></li>
-			</ul>
-		</div>
-		<div id="mobile-nav" class="visible"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-		<div class="mobile-links">
-			<ul>
-				<li><a href="#"><h5>Data</h5></a></li>
-				<li><a href="#"><h5>Tools</h5></a></li>
-				<li><a href="#"><h5>About</h5></a></li>
-				<li><a href="#"><h5>Sitemap</h5></a></li>
-				<li><a href="#"><h5>Contact Us</h5></a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<div class="main">
-		<div class="wrap">
-			<div class="header">
-				<h2>Heading</h2>
-			</div>
-			<div class="doc-nav">
-				<ul class="clearfix">
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li><a href="#"><h5>Placeholder</h5></a></li>
-					<li class="active"<a href="#"><h5>Placeholder</h5></a></li>
-				</ul>
-				<select>
-					<option selected="selected">Filter</option>
-					<option value="Placeholder">Placeholder</option>
-					<option value="Placeholder">Placeholder</option>
-					<option value="Placeholder">Placeholder</option>
-					<option value="Placeholder">Placeholder</option>
-					<option value="Placeholder">Placeholder</option>
-					<option value="Placeholder">Placeholder</option>
-				</select>
-			</div>
-
-			<div class="detail-wrap style-guide">
-				<div class="intro clearfix">
-					<div class="colors" style="float:left;">
-						<h6 style="color: #dfd6c2;">Tan: #dfd6c2</h6>
-						<h6 style="color: #a6bcd7;">Slate: #a6bcd7</h6>
-						<h6 style="color: #28282e;">Dark Gray: #28282e</h6>
-						<h6 style="color: #4a484c;">Light Gray: #4a484c</h6>
-						<h6 style="color: #318dde;">Sky Blue: #318dde</h6>
-					</div>
-					<div class="left">
-						<h1>Heading 1</h1>
-						<p>82 px Quadon medium all caps</p>
-						<h2>Heading 2</h2>
-						<p>29 PX QUADON MEDIUM ALL CAPS</p>
-						<h3>Heading 3</h3>
-						<p>24 PX QUADON MEDIUM ALL CAPS</p>
-						<h4>Heading 4</h4>
-						<p>22 PX GENTONA BOLD ALL CAPS</p>
-						<h5>Heading 5</h5>
-						<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
-						<h6>Heading 6</h6>
-						<p>18 px Gentona Bold Sentence case</p>
-						<p>Body Copy</p>
-						<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
-						<a href="#" class="button">Learn More</a>
-					</div>
-					<div class="right">
-						<h1>Heading 1</h1>
-						<p>82 px Quadon medium all caps</p>
-						<h2>Heading 2</h2>
-						<p>29 PX QUADON MEDIUM ALL CAPS</p>
-						<h3>Heading 3</h3>
-						<p>24 PX QUADON MEDIUM ALL CAPS</p>
-						<h4>Heading 4</h4>
-						<p>22 PX GENTONA BOLD ALL CAPS</p>
-						<h5>Heading 5</h5>
-						<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
-						<h6>Heading 6</h6>
-						<p>18 px Gentona Bold Sentence case</p>
-						<p>Body Copy</p>
-						<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
-						<a href="#" class="button">Learn More</a>
-					</div>
-								
-				</div>
-				
-				<div style="padding: 30px;">
-					<div class="divider"></div>
-					<p>Divider</p>
-				</div>
-				
-				<div style="background:#29282f;padding: 30px;">
-					<div class="divider"></div>
-					<p style="color:white;">Divider</p>
-				</div>
-				
-				<h2>Lorem Ipsum</h2>
-				<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. </p>
-				<ul>
-					<li>Accusantium doloremque laudantium</li>
-					<li>Accusantium doloremque laudantium</li>
-						<ul>
-							<li>Accusantium doloremque laudantium</li>
-						</ul>
-					<li>Accusantium doloremque laudantium</li>
-				</ul>
-				
-				<ol>
-					<li>Accusantium doloremque laudantium</li>
-					<li>Accusantium doloremque laudantium</li>
-					<li>Accusantium doloremque laudantium</li>
-				</ol>
-				
-				<div class="team">
-					
-					<h1>Grid</h1>
-					
-					<div class="members clearfix" id="team">
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col">
-							<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
-							<div class="bw"></div>
-							<div class="color"></div>
-							<div class="overlay">
-								<h5>Undergraduate</h5>
-								<p>Explore</p>
-								<div class="contact clearfix">
-									<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
-									<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
-								</div>
-							</div>
-						</div>
-						
-					</div>						
-					
-				</div>
-					
-			</div>
-		</div>
-	</div>
-	
+<div class="header">
+	<h2>Heading</h2>
+</div>
+<div class="doc-nav">
+	<ul class="clearfix">
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li><a href="#"><h5>Placeholder</h5></a></li>
+		<li class="active"<a href="#"><h5>Placeholder</h5></a></li>
+	</ul>
+	<select>
+		<option selected="selected">Filter</option>
+		<option value="Placeholder">Placeholder</option>
+		<option value="Placeholder">Placeholder</option>
+		<option value="Placeholder">Placeholder</option>
+		<option value="Placeholder">Placeholder</option>
+		<option value="Placeholder">Placeholder</option>
+		<option value="Placeholder">Placeholder</option>
+	</select>
 </div>
 
-<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/static/js/jquery.tooltipster.min.js"></script>
-<script type="text/javascript" src="/static/js/script.js"></script>
+<div class="detail-wrap style-guide">
+	<div class="intro clearfix">
+		<div class="colors" style="float:left;">
+			<h6 style="color: #dfd6c2;">Tan: #dfd6c2</h6>
+			<h6 style="color: #a6bcd7;">Slate: #a6bcd7</h6>
+			<h6 style="color: #28282e;">Dark Gray: #28282e</h6>
+			<h6 style="color: #4a484c;">Light Gray: #4a484c</h6>
+			<h6 style="color: #318dde;">Sky Blue: #318dde</h6>
+		</div>
+		<div class="left">
+			<h1>Heading 1</h1>
+			<p>82 px Quadon medium all caps</p>
+			<h2>Heading 2</h2>
+			<p>29 PX QUADON MEDIUM ALL CAPS</p>
+			<h3>Heading 3</h3>
+			<p>24 PX QUADON MEDIUM ALL CAPS</p>
+			<h4>Heading 4</h4>
+			<p>22 PX GENTONA BOLD ALL CAPS</p>
+			<h5>Heading 5</h5>
+			<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
+			<h6>Heading 6</h6>
+			<p>18 px Gentona Bold Sentence case</p>
+			<p>Body Copy</p>
+			<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
+			<a href="#" class="button">Learn More</a>
+		</div>
+		<div class="right">
+			<h1>Heading 1</h1>
+			<p>82 px Quadon medium all caps</p>
+			<h2>Heading 2</h2>
+			<p>29 PX QUADON MEDIUM ALL CAPS</p>
+			<h3>Heading 3</h3>
+			<p>24 PX QUADON MEDIUM ALL CAPS</p>
+			<h4>Heading 4</h4>
+			<p>22 PX GENTONA BOLD ALL CAPS</p>
+			<h5>Heading 5</h5>
+			<p>16 PT GENTONA BOLD ALL CAPS 15PX MARGIN BLACK BG</p>
+			<h6>Heading 6</h6>
+			<p>18 px Gentona Bold Sentence case</p>
+			<p>Body Copy</p>
+			<p>18 pt Gentona Book Sentence Case. <a href="#"><b>Links Bold #318dde underlined.</b></a></p>
+			<a href="#" class="button">Learn More</a>
+		</div>
+					
+	</div>
+	
+	<div style="padding: 30px;">
+		<div class="divider"></div>
+		<p>Divider</p>
+	</div>
+	
+	<div style="background:#29282f;padding: 30px;">
+		<div class="divider"></div>
+		<p style="color:white;">Divider</p>
+	</div>
+	
+	<h2>Lorem Ipsum</h2>
+	<p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. Aperiam, eaque ipsa quae ab illo inventore veritatis quae. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quae ab illo inventore veritatis. </p>
+	<ul>
+		<li>Accusantium doloremque laudantium</li>
+		<li>Accusantium doloremque laudantium</li>
+			<ul>
+				<li>Accusantium doloremque laudantium</li>
+			</ul>
+		<li>Accusantium doloremque laudantium</li>
+	</ul>
+	
+	<ol>
+		<li>Accusantium doloremque laudantium</li>
+		<li>Accusantium doloremque laudantium</li>
+		<li>Accusantium doloremque laudantium</li>
+	</ol>
+	
+	<div class="team">
+		
+		<h1>Grid</h1>
+		
+		<div class="members clearfix" id="team">
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<blockquote><p>Name<br><span class="position">PositionTest</span></p></blockquote>
+				<div class="bw"></div>
+				<div class="color"></div>
+				<div class="overlay">
+					<h5>Undergraduate</h5>
+					<p>Explore</p>
+					<div class="contact clearfix">
+						<a href="#"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+						<a href="#"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+					</div>
+				</div>
+			</div>
+			
+		</div>						
+		
+	</div>
+		
+</div>
 
-</body>
-</html>
+
+{% endblock %}

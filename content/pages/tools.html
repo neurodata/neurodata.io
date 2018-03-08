@@ -2,50 +2,48 @@
 $title@: Tools
 $order: 2
 ---
-<div class="wrap">
-    <div class="header tools">
-        <h2>Tools</h2>
-    </div>
-    <div class="tool-wrap">
-        {% for item in g.docs('tools') %}
-            <div class="item">
-                {% if loop.index % 2 != 0 %}
-                <div class="odd">
-                {% else %}
-                <div class="even">
-                {% endif %}
-                    <h3 id="{{item.name}}">{{item.name}}</h3>
-                    <p>{{item.description}}</p>
-                    <div class="options clearfix">
-                        {% if item.api %}
-                            <div class="link"><a href="{{item.api}}"><img src="/static/images/settings.png" class="tooltip" title="API"></a></div>
-                        {% endif %}
-                        
-                        {% if item.github %}
-                            <div class="link"><a href="https://github.com/{{item.github}}"><img src="/static/images/code.png" class="tooltip" title="Code"></a></div>
-                        {% endif %}
-                        
-                        {% if item.docs %}
-                        <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Docs"></a></div>
-                        {% endif %}
-                        
-                        {% if item.manuscript %}
-                        <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Manuscript"></a></div>
-                        {% endif %}
-                        
-                        {% if item.press %}
-                        <div class="link"><a href="{{item.press}}"><img src="/static/images/paper.png" class="tooltip" title="Press"></a></div>
-                        {% endif %}
-                        
-                        {% if item.github %}
-                        <div class="link">
-                            <a href="https://github.com/{{item.github}}/graphs/contributors">
-                                <img src="/static/images/user-silhouette.png" class="tooltip" title="Contributors">
-                            </a></div>
-                        {% endif %}
-                    </div>
+<div class="header tools">
+    <h2>Tools</h2>
+</div>
+<div class="tool-wrap">
+    {% for item in g.docs('tools') %}
+        <div class="item">
+            {% if loop.index % 2 != 0 %}
+            <div class="odd">
+            {% else %}
+            <div class="even">
+            {% endif %}
+                <h3 id="{{item.name}}">{{item.name}}</h3>
+                <p>{{item.description}}</p>
+                <div class="options clearfix">
+                    {% if item.api %}
+                        <div class="link"><a href="{{item.api}}"><img src="/static/images/settings.png" class="tooltip" title="API"></a></div>
+                    {% endif %}
+                    
+                    {% if item.github %}
+                        <div class="link"><a href="https://github.com/{{item.github}}"><img src="/static/images/code.png" class="tooltip" title="Code"></a></div>
+                    {% endif %}
+                    
+                    {% if item.docs %}
+                    <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Docs"></a></div>
+                    {% endif %}
+                    
+                    {% if item.manuscript %}
+                    <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Manuscript"></a></div>
+                    {% endif %}
+                    
+                    {% if item.press %}
+                    <div class="link"><a href="{{item.press}}"><img src="/static/images/paper.png" class="tooltip" title="Press"></a></div>
+                    {% endif %}
+                    
+                    {% if item.github %}
+                    <div class="link">
+                        <a href="https://github.com/{{item.github}}/graphs/contributors">
+                            <img src="/static/images/user-silhouette.png" class="tooltip" title="Contributors">
+                        </a></div>
+                    {% endif %}
                 </div>
             </div>
-        {% endfor %}
-    </div>
+        </div>
+    {% endfor %}
 </div>
