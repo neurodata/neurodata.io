@@ -42,8 +42,34 @@
             </div>
         </div>
 
+        <div class="tools-pubs">
+            <div class="col">
+                <h4 class="title">Analysis/tools</h4>
+                {% for item in g.docs('tools') %}
+                    {% if item.base in doc.tools %}
+                        <div class="item">
+                            <h4><a href="/tools#{{item.name}}">{{ item.name }}</a></h4>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col">
+                <h4 class="title">Publications</h4>
+                {% for item in g.docs('publications') %}
+                    {% if item.base in doc.publications %}
+                        <div class="item">
+                            <h4><a href="{{item.link}}">{{item.name}}</a></h4>
+                            {% if item.subtext %}
+                                <p>{{ item.subtext }}</p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
 
-        <!-- People -->
+
+<!-- People -->
         <div class="team">
             <h3>People on project</h3>
             <div class="members clearfix">
@@ -79,35 +105,8 @@
                 {% endfor %}
             </div>
         </div>
-
-        <div class="tools-pubs">
-            <div class="col">
-                <h4 class="title">Analysis/tools</h4>
-                {% for item in g.docs('tools') %}
-                    {% if item.base in doc.tools %}
-                        <div class="item">
-                            <h4><a href="/tools#{{item.name}}">{{ item.name }}</a></h4>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            <div class="col">
-                <h4 class="title">Publications</h4>
-                {% for item in g.docs('publications') %}
-                    {% if item.base in doc.publications %}
-                        <div class="item">
-                            <h4><a href="{{item.link}}">{{item.name}}</a></h4>
-                            {% if item.subtext %}
-                                <p>{{ item.subtext }}</p>
-                            {% endif %}
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
     </div>
 </div>
-
 
 {% endblock %}
 
