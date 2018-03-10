@@ -27,12 +27,12 @@ $order: 4
         <p>Our goal is to work together with neuroexperimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale on open access data. This includes analytics, databases, cloud computing, and Web-services applied to both big neuroimages and big neurographs.</p><p>We believe in the upward spiral of science, that is, that the scientific community is in a continual process of learning from past, building models on previous experiments, which lead to new experiments, etc. Therefore, we practice reproducible research and open science. Our interests span the spatiotemporal scales of analysis, ranging from nanoscale (serial electron microscopy) to microscale (e.g., array tomography, CLARITY, and calcium imaging) to macroscale (e.g., SPECT and multimodal magnetic resonance imaging). We aim to please, so please provide us with feedback!</p>
     </div>
 
-    <div class="team">
+    <div class="team" id="team">
         <div class="divider"></div>
         
         <h3>The Team</h3>
-        <div class="members clearfix" id="team">
-            
+            <div class="members clearfix">    
+
             {% for item in g.docs('people') %}
             <div class="col">
                 <blockquote><p>{{item.name}}<br><span class="position">{{item.position}}</span></p></blockquote>
