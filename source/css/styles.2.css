@@ -2440,9 +2440,9 @@ blockquote p {
     }
     .doc-nav select {
         display: block;
-        width: 220px;
-        padding-left: 20px;
-        padding-right: 40px;
+        width: 100%;
+        text-align-last: center;
+        text-align: center;
         margin: 0px;
         color: #28282e;
         font-style: normal;
