@@ -14,6 +14,12 @@ $order: 1
             <li><a href="{{proj.url.path}}"><h5>{{proj.title}}</h5></a></li>
         {% endfor %}
     </ul>
+    <select size="1" name="links" onchange="window.location.href=this.value;">
+        <option selected="selected">Projects</option>
+        {% for proj in g.docs('projects') %}
+            <option value="{{proj.url.path}}">{{proj.title}}</option>
+        {% endfor %}
+    </select>
 </div>
 <div class="about clearfix">
     <div class="paper" id="mission">

@@ -2436,7 +2436,7 @@ blockquote p {
         padding: 10px 0px;
     }
     .doc-nav ul {
-        /* display: none; */
+        display: none;
     }
     .doc-nav select {
         display: block;
