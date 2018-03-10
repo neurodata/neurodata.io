@@ -1,11 +1,11 @@
 ---
 $title@: Tools
-$order: 2
+$order: 3
 ---
 <div class="header tools">
     <h2>Tools</h2>
 </div>
-<div class="tool-wrap">
+<div class="tool-wrap"> 
     {% for item in g.docs('tools') %}
         <div class="item">
             {% if loop.index % 2 != 0 %}
@@ -17,19 +17,27 @@ $order: 2
                 <p>{{item.description}}</p>
                 <div class="options clearfix">
                     {% if item.api %}
-                        <div class="link"><a href="{{item.api}}"><img src="/static/images/settings.png" class="tooltip" title="API"></a></div>
+                        <div class="link">
+                            <a href="{{item.api}}"><img src="/static/images/settings.png" class="tooltip" title="API"></a>
+                        </div>
                     {% endif %}
                     
                     {% if item.github %}
-                        <div class="link"><a href="https://github.com/{{item.github}}"><img src="/static/images/code.png" class="tooltip" title="Code"></a></div>
+                        <div class="link">
+                            <a href="https://github.com/{{item.github}}"><img src="/static/images/code.png" class="tooltip" title="Code"></a>
+                        </div>
                     {% endif %}
                     
                     {% if item.docs %}
-                    <div class="link"><a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Docs"></a></div>
+                    <div class="link">
+                        <a href="{{item.docs}}"><img src="/static/images/document.png" class="tooltip" title="Docs"></a>
+                    </div>
                     {% endif %}
                     
                     {% if item.manuscript %}
-                    <div class="link"><a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Manuscript"></a></div>
+                    <div class="link">
+                        <a href="{{item.manuscript}}"><img src="/static/images/book.png" class="tooltip" title="Manuscript"></a>
+                    </div>
                     {% endif %}
                     
                     {% if item.press %}
@@ -40,7 +48,8 @@ $order: 2
                     <div class="link">
                         <a href="https://github.com/{{item.github}}/graphs/contributors">
                             <img src="/static/images/user-silhouette.png" class="tooltip" title="Contributors">
-                        </a></div>
+                        </a>
+                    </div>
                     {% endif %}
                 </div>
             </div>

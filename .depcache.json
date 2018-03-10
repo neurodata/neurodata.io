@@ -1,21 +1,24 @@
 {
-  "/content/data/acardona_0111_8.html": [
+  "/content/data/acardona_0111_8.yaml": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
   ],
-  "/content/data/bhatla15.html": [
+  "/content/data/bhatla15.yaml": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
   ],
-  "/content/data/collman14.html": [
+  "/content/data/collman14.yaml": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
@@ -23,6 +26,7 @@
   "/content/pages/about.html": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/people/alex.yaml",
     "/content/people/ben.yaml",
@@ -42,11 +46,12 @@
     "/content/people/youngser.yaml"
   ],
   "/content/pages/data.html": [
-    "/content/data/acardona_0111_8.html",
-    "/content/data/bhatla15.html",
-    "/content/data/collman14.html",
+    "/content/data/acardona_0111_8.yaml",
+    "/content/data/bhatla15.yaml",
+    "/content/data/collman14.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/projects/connectomes.yaml",
     "/content/projects/projectomes.yaml",
@@ -55,11 +60,22 @@
   "/content/pages/home.html": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html"
+  ],
+  "/content/pages/projects.html": [
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/projects.html",
+    "/content/pages/tools.html",
+    "/content/projects/connectomes.yaml",
+    "/content/projects/projectomes.yaml",
+    "/content/projects/synaptomes.yaml"
   ],
   "/content/pages/tools.html": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/tools/flashx.yaml",
     "/content/tools/lol.yaml",
@@ -78,14 +94,16 @@
   "/content/pages/ui-kit.html": [
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html"
   ],
   "/content/projects/connectomes.yaml": [
-    "/content/data/acardona_0111_8.html",
-    "/content/data/bhatla15.html",
-    "/content/data/collman14.html",
+    "/content/data/acardona_0111_8.yaml",
+    "/content/data/bhatla15.yaml",
+    "/content/data/collman14.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/people/alex.yaml",
     "/content/people/ben.yaml",
@@ -120,11 +138,12 @@
     "/content/tools/urerf.yaml"
   ],
   "/content/projects/projectomes.yaml": [
-    "/content/data/acardona_0111_8.html",
-    "/content/data/bhatla15.html",
-    "/content/data/collman14.html",
+    "/content/data/acardona_0111_8.yaml",
+    "/content/data/bhatla15.yaml",
+    "/content/data/collman14.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/people/alex.yaml",
     "/content/people/ben.yaml",
@@ -159,11 +178,12 @@
     "/content/tools/urerf.yaml"
   ],
   "/content/projects/synaptomes.yaml": [
-    "/content/data/acardona_0111_8.html",
-    "/content/data/bhatla15.html",
-    "/content/data/collman14.html",
+    "/content/data/acardona_0111_8.yaml",
+    "/content/data/bhatla15.yaml",
+    "/content/data/collman14.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
+    "/content/pages/projects.html",
     "/content/pages/tools.html",
     "/content/people/alex.yaml",
     "/content/people/ben.yaml",

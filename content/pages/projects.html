@@ -1,0 +1,38 @@
+---
+$title@: Projects
+$order: 2
+
+---
+
+<div class="header about-header">
+    <h2>Projects</h2>
+</div>
+<div class="about clearfix">
+    <div class="paper" id="mission">
+        <p>Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale</p>
+        <div class="team">
+            <div class="divider"></div>
+            <div class="members clearfix" id="team">
+                {% for item in g.docs('projects') %}
+                <div class="col">
+                    <a href="{{item.url.path}}">
+                    <blockquote>
+                        <p><span class="position">
+                            {{item.title}}
+                        </span></p>
+                    </blockquote>
+                    {% if item.thumb %}
+                        <div class="bw" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                        <div class="color" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                    {% else %}
+                        {# Default images are in style.css #}
+                        <div class="bw"></div>
+                        <div class="color"></div>
+                    {% endif %}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
