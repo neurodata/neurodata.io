@@ -21,7 +21,9 @@
                     {% if item.name is not none %}
                     <div class="item">
                         <h4><a href="{{item.url}}">{{ item.name }}</a></h4>
-                        <p>{{item.description}}</p>
+                        {% if item.description is not none %}
+                            <p>{{item.description}}</p>
+                        {% endif %}
                     </div>
                     {% endif %}
                 {% endfor %}
