@@ -1,4 +1,5 @@
 name: SynapseWeb
+hide: True
 description: A portal into the 3D ultrastructure of the brain. 
 api: http://synapseweb.clm.utexas.edu/ 
 github: 
