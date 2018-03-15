@@ -5,13 +5,16 @@
 <div class="wrap">
     <div class="header detail">
         <h2>{{doc.title}}</h2>
-        <p>{{doc.description}}</p>
-        <p class="hidden">{{doc.long_description}}</p>
-        <a href="#" class="button expand">Learn More</a>
+        {% if doc.description is not none %}
+            <p>{{doc.description}}</p>
+        {% endif %}
+        {% if doc.long_description is not none %}
+            <p class="hidden">{{doc.long_description}}</p>
+            <a href="#" class="button expand">Learn More</a>
+        {% endif %}
     </div>
 
 
-    <!-- Data -->
     <div class="project clearfix">
         <div>
             <h3>Data</h3>
