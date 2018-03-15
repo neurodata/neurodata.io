@@ -18,7 +18,7 @@ data:
   description: catmaid tiles
 
 tools:
-- name: meda
+- meda
 
 publications:
 - bock11

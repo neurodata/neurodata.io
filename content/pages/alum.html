@@ -1,0 +1,57 @@
+---
+$title@: Alumni
+$hidden: true
+$path: /about/alum.html
+---
+
+<div class="header about-header">
+    <h2>Alumni</h2>
+</div>
+    
+<div class="about clearfix">
+    <div class="team" id="team">
+        <div class="divider"></div>
+        
+        <!-- <h3>Alumni</h3> -->
+            <div class="members clearfix">    
+            {% for item in g.docs('people') %}
+            {% if item.alum == True %}
+            <div class="col">
+                <blockquote>
+                    <p>{{item.name}}
+                        <br>
+                        <span class="position"> 
+                        {% if item.position %}
+                            {{item.position}}
+                        {% endif %}
+                        </span>
+                    </p>
+                </blockquote>
+                {% if item.picture %}
+                    <div class="bw" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                    <div class="color" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                {% else %}
+                    {# Default images are in style.css #}
+                    <div class="bw"></div>
+                    <div class="color"></div>
+                {% endif %}
+                <div class="overlay">
+                    <!--h5>Undergraduate</h5-->
+                    <div class="contact clearfix">
+                        {% if item.github %}
+                            <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+                        {% endif %}
+                        {% if item.email %}
+                            <a href="mailto:{{item.email}}"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+                        {% endif %}
+                        {% if item.website %}
+                            <a href="{{item.website}}"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

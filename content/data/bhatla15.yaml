@@ -15,7 +15,7 @@ data:
   description: 
 
 tools:
-- name: ndviz
+- ndviz
   
 publications:
 - collman14
