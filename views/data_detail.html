@@ -30,11 +30,21 @@
             </div>
             <div class="col even">
                 <h4 class="title">Analysis/Tools</h4>
-                {% for item in doc.tools %}
-                    {% if item is not none %}
-                    <div class="item">
-                        <h4><a href="/tools#{{item}}">{{ item }}</a></h4>
-                    </div>
+                {% for item in g.docs('tools') %}
+                    {% if item.name in doc.tools %}
+                        <div class="item">
+                            <h4>
+                                <a href=
+                                    {% if not item.hide or item.hide == false %}
+                                        "/tools#{{item.name}}"
+                                    {% elif item.github is not none %}
+                                        "https://github.com/{{item.github}}"
+                                    {% else %}
+                                        ""
+                                    {% endif %}
+                                >{{ item.name }}</a>
+                            </h4>
+                        </div>
                     {% endif %}
                 {% endfor %}
             </div>

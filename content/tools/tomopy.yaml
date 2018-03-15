@@ -1,0 +1,11 @@
+name: tomopy
+hide: True
+description: Tomographic reconstruction in Python
+
+api: 
+github: dgursoy/tomopy
+docs: https://tomopy.readthedocs.io/en/latest/
+manuscript: 
+press: 
+
+
