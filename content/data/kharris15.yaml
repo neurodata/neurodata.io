@@ -1,0 +1,31 @@
+$title: kharris15
+
+authors: Haris et al.
+year: 2015
+thumb: kharris15_thumb.jpg
+description: A resource from 3D electron microscopy of hippocampal neuropil for user training and tool development.
+long_description: From the laboratory of Kristen M Harris, PhD, three volumes of hippocampal CA1 neuropil in adult rat were imaged at an XY resolution of ~2 nm on serial sections of ~50-60 nm thickness. All axons, dendrites, glia, and synapses were reconstructed in a cube surrounding a large dendritic spine, a cylinder surrounding an oblique dendritic segment, and a parallelepiped surrounding an apical dendritic segment.
+data_types: EM
+
+
+data:
+- name: spine
+  url: https://ndwebtools.neurodata.io/ndviz_url/kharris15/spine/ 
+  type: 
+  description: 
+
+- name: apical 
+  url: https://ndwebtools.neurodata.io/ndviz_url/kharris15/apical/
+  description: 
+
+- name: oblique 
+  url: https://ndwebtools.neurodata.io/ndviz_url/kharris15/oblique/
+  description: 
+
+tools:
+- SynapseWeb
+- Reconstruct 
+- CAJAL
+  
+publications:
+-  kharris15

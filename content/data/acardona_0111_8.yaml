@@ -12,15 +12,32 @@ data:
   url: http://openconnecto.me/catmaid/?pid=59&zp=755&yp=9439&xp=13951&tool=navigator&sid0=93&s0=4
   type: EM
   description: catmaid tiles
-- name: acardona_0111_8
-  url: http://openconnecto.me/catmaid/?pid=59&zp=755&yp=9439&xp=13951&tool=navigator&sid0=93&s0=4
+- name: acardona_abd1_5
+  url: http://openconnecto.me/catmaid/?pid=59&zp=60&yp=8463&xp=11071&tool=navigator&sid0=94&s0=3 
   type: EM
   description: catmaid tiles
+- name: acardona_0111_8
+  url: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_0111_8__12_03_2017/
+  type: EM
+  description: NDVIZ
+- name: acardona_abd1_5
+  url: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_abd1_5/
+  type: EM
+  description: NDVIZ
+
 
 tools:
-- meda
+- 
 
 publications:
-- bock11
-- collman14
-- bhatla15
+- acardona_0111_8_01
+- acardona_0111_8_02
+- acardona_0111_8_03
+- acardona_0111_8_04
+- acardona_0111_8_05
+- acardona_0111_8_06
+- acardona_0111_8_07
+- acardona_0111_8_08
+- acardona_0111_8_09
+- acardona_0111_8_10
+
