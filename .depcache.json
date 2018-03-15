@@ -4,6 +4,7 @@
     "/content/pages/data.html",
     "/content/pages/projects.html",
     "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
   ],
@@ -12,6 +13,16 @@
     "/content/pages/data.html",
     "/content/pages/projects.html",
     "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
+    "/content/publications/bock11.yaml",
+    "/content/publications/collman14.yaml"
+  ],
+  "/content/data/bloss2016.yaml": [
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/projects.html",
+    "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
   ],
@@ -20,6 +31,16 @@
     "/content/pages/data.html",
     "/content/pages/projects.html",
     "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
+    "/content/publications/bock11.yaml",
+    "/content/publications/collman14.yaml"
+  ],
+  "/content/data/collman15.yaml": [
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/projects.html",
+    "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml"
   ],
@@ -75,7 +96,9 @@
   "/content/pages/data.html": [
     "/content/data/acardona_0111_8.yaml",
     "/content/data/bhatla15.yaml",
+    "/content/data/bloss2016.yaml",
     "/content/data/collman14.yaml",
+    "/content/data/collman15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -127,7 +150,9 @@
   "/content/projects/connectomes.yaml": [
     "/content/data/acardona_0111_8.yaml",
     "/content/data/bhatla15.yaml",
+    "/content/data/bloss2016.yaml",
     "/content/data/collman14.yaml",
+    "/content/data/collman15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -150,6 +175,7 @@
     "/content/people/tyler.yaml",
     "/content/people/vikram.yaml",
     "/content/people/youngser.yaml",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
     "/content/tools/flashx.yaml",
@@ -169,7 +195,9 @@
   "/content/projects/projectomes.yaml": [
     "/content/data/acardona_0111_8.yaml",
     "/content/data/bhatla15.yaml",
+    "/content/data/bloss2016.yaml",
     "/content/data/collman14.yaml",
+    "/content/data/collman15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -192,6 +220,7 @@
     "/content/people/tyler.yaml",
     "/content/people/vikram.yaml",
     "/content/people/youngser.yaml",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
     "/content/tools/flashx.yaml",
@@ -211,7 +240,9 @@
   "/content/projects/synaptomes.yaml": [
     "/content/data/acardona_0111_8.yaml",
     "/content/data/bhatla15.yaml",
+    "/content/data/bloss2016.yaml",
     "/content/data/collman14.yaml",
+    "/content/data/collman15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -234,6 +265,7 @@
     "/content/people/tyler.yaml",
     "/content/people/vikram.yaml",
     "/content/people/youngser.yaml",
+    "/content/publications/bloss16.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
     "/content/tools/flashx.yaml",

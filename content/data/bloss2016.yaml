@@ -1,0 +1,21 @@
+$title: bloss16
+
+authors: Bloss et al. 
+year: 2016
+thumb: blossV2thumb.jpg
+description: Structured Dendritic Inhibition Supports Branch-Selective Integration in CA1 Pyramidal Cells
+long_description: Neuronal circuit function is governed by precise patterns of connectivity between specialized groups of neurons. The diversity of GABAergic interneurons is a hallmark of cortical circuits, yet little is known about their targeting to individual postsynaptic dendrites. We examined synaptic connectivity between molecularly defined inhibitory interneurons and CA1 pyramidal cell dendrites using correlative light-electron microscopy and large-volume array tomography. We show that interneurons can be highly selective in their connectivity to specific dendritic branch types and, furthermore, exhibit precisely targeted connectivity to the origin or end of individual branches. Computational simulations indicate that the observed subcellular targeting enables control over the nonlinear integration of synaptic input or the initiation and backpropagation of action potentials in a branchselective manner. Our results demonstrate that connectivity between interneurons and pyramidal cell dendrites is more precise and spatially segregated than previously appreciated, which may be a critical determinant of how inhibition shapes dendritic computation. 
+data_types:
+
+
+data:
+- name: bloss16
+  url: https://viz.boss.neurodata.io/#!{'layers':{'channel0':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel0?'_'blend':'additive'}_'channel1':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel1?'_'blend':'additive'_'color':1}_'channel2':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel2?'_'blend':'additive'_'color':2}_'channel3':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel3?'_'blend':'additive'_'color':3_'visible':false}}_'navigation':{'pose':{'position':{'voxelSize':[100_100_100]_'voxelCoordinates':[5750_3750_714.5]}}_'zoomFactor':100}} 
+  type: AT, TEM
+  description: Large-volume array tomography (AT) and transmission electron microscopy (TEM).
+
+tools:
+- 
+  
+publications:
+- bloss16
