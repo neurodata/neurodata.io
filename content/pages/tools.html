@@ -6,7 +6,7 @@ $order: 3
     <h2>Tools</h2>
 </div>
 <div class="tool-wrap"> 
-    {% for item in g.docs('tools') %}
+    {% for item in g.docs('tools') if not item.hide %}
         <div class="item">
             {% if loop.index % 2 != 0 %}
             <div class="odd">
