@@ -7,7 +7,8 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/data/bhatla15.yaml": [
     "/content/pages/about.html",
@@ -17,7 +18,8 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/data/bloss2016.yaml": [
     "/content/pages/about.html",
@@ -27,7 +29,8 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/data/bloss2018.yaml": [
     "/content/pages/about.html",
@@ -37,7 +40,8 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/data/collman14.yaml": [
     "/content/pages/about.html",
@@ -47,7 +51,8 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/data/collman15.yaml": [
     "/content/pages/about.html",
@@ -57,7 +62,19 @@
     "/content/publications/bloss16.yaml",
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
-    "/content/publications/collman14.yaml"
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
+  ],
+  "/content/data/kharris15.yaml": [
+    "/content/pages/about.html",
+    "/content/pages/data.html",
+    "/content/pages/projects.html",
+    "/content/pages/tools.html",
+    "/content/publications/bloss16.yaml",
+    "/content/publications/bloss2018.yaml",
+    "/content/publications/bock11.yaml",
+    "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml"
   ],
   "/content/pages/about.html": [
     "/content/pages/about.html",
@@ -115,6 +132,7 @@
     "/content/data/bloss2018.yaml",
     "/content/data/collman14.yaml",
     "/content/data/collman15.yaml",
+    "/content/data/kharris15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -143,6 +161,7 @@
     "/content/pages/data.html",
     "/content/pages/projects.html",
     "/content/pages/tools.html",
+    "/content/tools/SynapseWeb.yaml",
     "/content/tools/flashx.yaml",
     "/content/tools/lol.yaml",
     "/content/tools/meda.yaml",
@@ -170,6 +189,7 @@
     "/content/data/bloss2018.yaml",
     "/content/data/collman14.yaml",
     "/content/data/collman15.yaml",
+    "/content/data/kharris15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -196,6 +216,8 @@
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml",
+    "/content/tools/SynapseWeb.yaml",
     "/content/tools/flashx.yaml",
     "/content/tools/lol.yaml",
     "/content/tools/meda.yaml",
@@ -217,6 +239,7 @@
     "/content/data/bloss2018.yaml",
     "/content/data/collman14.yaml",
     "/content/data/collman15.yaml",
+    "/content/data/kharris15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -243,6 +266,8 @@
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml",
+    "/content/tools/SynapseWeb.yaml",
     "/content/tools/flashx.yaml",
     "/content/tools/lol.yaml",
     "/content/tools/meda.yaml",
@@ -264,6 +289,7 @@
     "/content/data/bloss2018.yaml",
     "/content/data/collman14.yaml",
     "/content/data/collman15.yaml",
+    "/content/data/kharris15.yaml",
     "/content/pages/about.html",
     "/content/pages/data.html",
     "/content/pages/projects.html",
@@ -290,6 +316,8 @@
     "/content/publications/bloss2018.yaml",
     "/content/publications/bock11.yaml",
     "/content/publications/collman14.yaml",
+    "/content/publications/kharris15.yaml",
+    "/content/tools/SynapseWeb.yaml",
     "/content/tools/flashx.yaml",
     "/content/tools/lol.yaml",
     "/content/tools/meda.yaml",
