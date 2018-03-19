@@ -1,0 +1,24 @@
+$title: hildebrand16
+
+authors: Hildebrand et al. 
+year: 2017
+thumb: hildebrand16_thumb.jpg 
+description: Multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish.
+long_description: Hildebrand and colleagues acquired a multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish, including its complete brain. A draft projectome consisting of central and peripheral myelinated neurons was then reconstructed.  Electron micrographs and reconstructions are available for view in CATMAID.  A manuscript describing the data and methods used to generate it has been published in Nature.  The Hildebrand16 database is made available under the Open Database License http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License (http://opendatacommons.org/licenses/dbcl/1.0/). Any use should attribute the original data source (davidh@fas.harvard.edu) and database (http://hildebrand16.neurodata.io/).  
+
+
+data_types: EM
+
+
+
+data:
+- name: Hildebrand et al. 2017
+  url: http://hildebrand16.neurodata.io/catmaid/?pid=6&zp=537540&yp=351910&xp=303051&tool=navigator&sg=2&sgs=4
+  type: EM 
+  description: CATMAID
+
+tools:
+- 
+  
+publications:
+- hildebrand16
