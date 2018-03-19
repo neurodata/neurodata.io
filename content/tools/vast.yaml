@@ -1,0 +1,9 @@
+name: vast
+hide: True
+description: 'VAST Lite: Volume Annotation and Segmentation Tool'
+
+api: 
+github: 
+docs: https://software.rc.fas.harvard.edu/lichtman/vast/
+manuscript: 
+press: 
