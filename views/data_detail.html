@@ -9,10 +9,11 @@
             <p>{{doc.description}}</p>
         {% endif %}
         {% if doc.long_description is not none %}
-            <p class="hidden">{{doc.long_description}}</p>
+            <p class="hidden">{{doc.long_description|safe}}</p>
             <a href="#" class="button expand">Learn More</a>
         {% endif %}
     </div>
+
     <div class="detail-wrap">
         <div class="summary clearfix">
             <div class="col even">
