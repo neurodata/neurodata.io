@@ -82,8 +82,8 @@
                     <div class="col">
                         <blockquote><p>{{item.name}}<br><span class="position">{{item.position}}</span></p></blockquote>
                         {% if item.picture %}
-                            <div class="bw" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
-                            <div class="color" style="background: url('{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                            <div class="bw" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                            <div class="color" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
                         {% else %}
                             {# Default images are in style.css #}
                             <div class="bw"></div>
