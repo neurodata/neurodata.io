@@ -13,6 +13,7 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/bhatia/ritaN2/
   type: ssTEM
   description: "1199 serial sections of the anterior pharynx of worm #1"
+  viz: https://ndwebtools.neurodata.io/ndviz_url/bhatia/ritaN2/
 - name: "Worm #4"
   url: http://openconnecto.me/catmaid/?dataview=37
   type: ssTEM
@@ -23,7 +24,7 @@ data:
   description: "743 sections, most serial, spanning the anterior pharynx of worm #5, including the pharyngeal nerve ring."
 
 tools:
-- 
+
   
 publications:
 - bhatla15

@@ -13,13 +13,15 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/collman/collman15v2/
   type: 
   description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/collman/collman15v2/
 - name: collman14
   url: https://ndwebtools.neurodata.io/cutout/collman/collman14v2/
   type: 
   description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/collman/collman14v2/
 
 tools:
-- 
+
   
 publications:
 - collman15

@@ -10,12 +10,13 @@ data_types:
 
 data:
 - name: Visualize
-  url: "https://viz.boss.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bigbrain/release2015/image?'_'transform':[[1_0_0_-70666600]_[0_1_0_-72910000]_[0_0_1_-58777700]_[0_0_0_1]]}}_'navigation':{'pose':{'position':{'voxelSize':[20000_20000_20000]_'voxelCoordinates':[-968.6868286132812_-250.11102294921875_217.4729461669922]}_'orientation':[-0.7071067690849304_-2.1064645583379615e-9_2.1064645583379615e-9_0.7071067690849304]}_'zoomFactor':273344.3275578721}_'perspectiveOrientation':[-0.25523895025253296_0.7269242405891418_-0.4410543143749237_0.4603317379951477]_'perspectiveZoom':2115919.4412654615_'layout':'4panel'}"
+  url: https://ndwebtools.neurodata.io/cutout/bigbrain/release2015/
   type: Human
   description: 
+  viz: "https://viz.boss.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bigbrain/release2015/image?'_'transform':[[1_0_0_-70666600]_[0_1_0_-72910000]_[0_0_1_-58777700]_[0_0_0_1]]}}_'navigation':{'pose':{'position':{'voxelSize':[20000_20000_20000]_'voxelCoordinates':[-968.6868286132812_-250.11102294921875_217.4729461669922]}_'orientation':[-0.7071067690849304_-2.1064645583379615e-9_2.1064645583379615e-9_0.7071067690849304]}_'zoomFactor':273344.3275578721}_'perspectiveOrientation':[-0.25523895025253296_0.7269242405891418_-0.4410543143749237_0.4603317379951477]_'perspectiveZoom':2115919.4412654615_'layout':'4panel'}"
 
 tools:
-- 
+
   
 publications:
 - bigbrain2015

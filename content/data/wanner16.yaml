@@ -13,9 +13,10 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/wanner16/AA201605/
   type: 
   description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/wanner16/AA201605/
 
 tools:
-- 
+
   
 publications:
 - wanner2016

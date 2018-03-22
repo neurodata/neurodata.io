@@ -9,25 +9,18 @@ long_description: Understanding brain function and development would be facilita
 
 data:
 - name: acardona_0111_8
-  url: http://openconnecto.me/catmaid/?pid=59&zp=755&yp=9439&xp=13951&tool=navigator&sid0=93&s0=4
-  type: EM
-  description: catmaid tiles
-- name: acardona_abd1_5
-  url: http://openconnecto.me/catmaid/?pid=59&zp=60&yp=8463&xp=11071&tool=navigator&sid0=94&s0=3 
-  type: EM
-  description: catmaid tiles
-- name: acardona_0111_8
-  url: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_0111_8__12_03_2017/
+  url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_0111_8__12_03_2017/
   type: EM
   description: NDVIZ
+  viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_0111_8__12_03_2017/
 - name: acardona_abd1_5
-  url: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_abd1_5/
+  url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_abd1_5/
   type: EM
   description: NDVIZ
+  viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_abd1_5/
 
 
 tools:
-- 
 
 publications:
 - acardona_0111_8_01

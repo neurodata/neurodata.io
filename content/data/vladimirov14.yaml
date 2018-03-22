@@ -1,0 +1,23 @@
+$title: Vladimirov et al. (2014)
+
+authors: Vladimirov et al. 
+year: 2014
+thumb: vladimirov14_thumb.jpg
+description: OPhys of zebrafish (D. rerio)
+long_description: 
+data_types:
+
+
+data:
+- name: Timeseries data currently offline
+  url: http://viz.neurodata.io/freeman14/
+  type: OPhys
+  description: 
+  viz: 
+
+tools:
+
+  
+publications:
+- freeman14
+- vladimirov14

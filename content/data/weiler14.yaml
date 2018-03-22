@@ -13,9 +13,10 @@ data:
   url: https://ndwebtools.neurodata.io/exp_list/weiler14/
   type: 
   description: 
+  viz: 
 
 tools:
-- 
+
   
 publications:
 - weiler2014

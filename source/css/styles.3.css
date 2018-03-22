@@ -1920,6 +1920,10 @@ blockquote p {
     font-size: 17px;
 }
 
+.detail-wrap .summary .col h4 img {
+    vertical-align: bottom;
+}
+
 .detail-wrap .summary .col p {
     margin: 0px;
 }
