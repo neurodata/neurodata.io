@@ -85,6 +85,7 @@
             </div>
             {% endif %}
 
+            {% if doc.publications %}
             <div class="col">
                 <h4 class="title">Publications</h4>
                 {% for item in g.docs('publications') %}
@@ -98,6 +99,7 @@
                     {% endif %}
                 {% endfor %}
             </div>
+            {% endif %}
 
         </div>
     </div>

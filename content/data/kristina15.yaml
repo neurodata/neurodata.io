@@ -1,0 +1,22 @@
+$title: Micheva et al. (2015)
+
+authors: Micheva et al.
+year: 2015
+thumb: kristina15_thumb.jpg
+description: Multi-channel array tomography data which is barrel cortex from an adult mouse (C57BL/6J).
+long_description: 
+data_types:
+
+
+data:
+- name: BOSS
+  url: https://ndwebtools.neurodata.io/cutout/kristina15/image/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kristina15/image/
+    
+tools:
+
+analyses:
+  
+publications:
