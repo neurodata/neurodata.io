@@ -90,7 +90,7 @@
                 {% for item in g.docs('publications') %}
                     {% if item.base in doc.publications %}
                         <div class="item">
-                            <h4><a href="{{item.link}}">{{ item.name }}</a></h4>
+                            <h4><a href="{{item.link}}" target="_blank">{{ item.name }}</a></h4>
                             {% if item.subtext %}
                                 <p>{{ item.subtext }}</p>
                             {% endif %}

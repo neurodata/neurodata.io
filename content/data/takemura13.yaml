@@ -1,0 +1,32 @@
+$title: Takemura et al. (2013)
+
+authors: Takemura et al.
+year: 2013
+thumb: takemura13_thumb.jpg
+description: The right part of the brain of a wild-type Oregon R female fly was serially sectioned into 40-nm slices. A total of 1,769 sections, traversing the medulla and downstream neuropils, were imaged at a magnification of 35,000.
+long_description: 
+data_types:
+
+
+data:
+- name: BOSS
+  url: https://ndwebtools.neurodata.io/cutout/takemura/takemura13/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/takemura/takemura13/
+
+- name: Catmaid
+  url: http://openconnecto.me/catmaid/?pid=23&tool=navigator&sid0=36&s0=1
+  type: 
+  description:
+  viz: http://openconnecto.me/catmaid/?pid=23&tool=navigator&sid0=36&s0=1
+
+
+tools:
+
+
+analyses:
+
+  
+publications:
+- takemura13
