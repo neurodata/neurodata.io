@@ -1903,7 +1903,7 @@ blockquote p {
 }
 
 .detail-wrap .props .col {
-    text-align: center;
+    text-align: left;
     padding: 0 1%;
     flex: 1
 }
