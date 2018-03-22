@@ -4,7 +4,7 @@ authors: Tobin et al.
 year: 2017
 thumb: tobin17.jpg
 description: 
-long_description: Tobin17 data is made available under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>. Any rights in individual contents of the database are licensed under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License</a>. Any use should attribute the original data source (Wiring variations that enable and constrain neural computation in a sensory microcircuit. Tobin WF, Wilson RI, Lee WC. eLife. 2017) and <a href="https://neurodata.io/data/tobin17/">database</a>.
+long_description: Tobin17 data is made available under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>. Any rights in individual contents of the database are licensed under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License</a>. Any use should attribute the original data source (Wiring variations that enable and constrain neural computation in a sensory microcircuit. Tobin WF, Wilson RI, Lee WC. eLife. 2017) and database (<a href="https://neurodata.io/data/tobin17/">https://neurodata.io/data/tobin17/</a>).
 data_types:
 
 
@@ -28,7 +28,7 @@ analyses:
 
 
 publications:
-- 
+- tobin17
 
 
  
