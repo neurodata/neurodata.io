@@ -1896,31 +1896,38 @@ blockquote p {
     margin: 30px 0px;
 }
 
-.detail-wrap .summary .col {
-    width: 31%;
-    display: inline-block;
-    float: left;
-    text-align: center;
-    padding: 0 1%;
+.detail-wrap .props{
+    display: flex;
+    flex-direction: row;
 }
 
-.detail-wrap .summary .col .title {
+.detail-wrap .props .col {
+    text-align: center;
+    padding: 0 1%;
+    flex: 1
+}
+
+.detail-wrap .props .col .title {
     background: #a6bcd7;
     color: #2c2c33;
     font-size: 21px;
     padding: 18px 5px;
 }
 
-.detail-wrap .summary .col .item {
+.detail-wrap .props .col .item {
     margin: 17px 0px;
 }
 
-.detail-wrap .summary .col h4 {
+.detail-wrap .props .col h4 {
     color: #6487a5;
     font-size: 17px;
 }
 
-.detail-wrap .summary .col p {
+.detail-wrap .props .col h4 img {
+    vertical-align: bottom;
+}
+
+.detail-wrap .props .col p {
     margin: 0px;
 }
 
@@ -2406,9 +2413,9 @@ blockquote p {
     h1 {
         font-size: 9vw;
     }
-    .detail-wrap .summary .col {
+    .detail-wrap .props {
         width: 100%;
-        padding: 0;
+        flex-direction: column;
     }
     .table .head th {
         padding: 8px;

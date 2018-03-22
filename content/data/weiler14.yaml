@@ -1,0 +1,22 @@
+$title: Weiler et al. (2014)
+
+authors: Weiler et al.
+year: 2014
+thumb: weiler14_thumb.jpg
+description: 
+long_description: The lab of Stephen J Smith has been developing array tomography technology for nearly a decade (Micheva et al., 2007). This technology is unique in its ability to measure many proteins (20 or more) in biological tissue samples with superresolution precision. In this dataset, we are using array tomography to uncover molecular signatures synaptic diversity (O'Rourke et al., 2012), which is fundamental to neural circuit design and function. Images generously donated by Nick Weiler.
+data_types:
+
+
+data:
+- name: weiler14
+  url: https://ndwebtools.neurodata.io/exp_list/weiler14/
+  type: 
+  description: 
+  viz: 
+
+tools:
+
+  
+publications:
+- weiler2014

@@ -1,0 +1,27 @@
+$title: Collman et al. (2015)
+
+authors: Collman et al.
+year: 2015
+thumb: collman15.jpg
+description: Conjugate electron microscopy and array tomography
+long_description: Synapses of the mammalian CNS are diverse in size, structure, molecular composition, and function. Synapses in their myriad variations are fundamental to neural circuit development, homeostasis, plasticity, and memory storage. Unfortunately, quantitative analysis and mapping of the brain's heterogeneous synapse populations has been limited by the lack of adequate single-synapse measurement methods. Electron microscopy (EM) is the definitive means to recognize and measure individual synaptic contacts, but EM has only limited abilities to measure the molecular composition of synapses. This report describes conjugate array tomography (AT), a volumetric imaging method that integrates immunofluorescence and EM imaging modalities in voxel-conjugate fashion. We illustrate the use of conjugate AT to advance the proteometric measurement of EM-validated single-synapse analysis in a study of mouse cortex.
+data_types:
+
+
+data:
+- name: collman15
+  url: https://ndwebtools.neurodata.io/cutout/collman/collman15v2/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/collman/collman15v2/
+- name: collman14
+  url: https://ndwebtools.neurodata.io/cutout/collman/collman14v2/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/collman/collman14v2/
+
+tools:
+
+  
+publications:
+- collman15

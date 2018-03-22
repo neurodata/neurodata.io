@@ -1,21 +1,30 @@
-$title: bhatla15
+$title: Bhatla et al. (2015) 
 
-authors: Bhatla et al. 
+authors: Bhatla et al.
 year: 2015
-thumb: worm.jpg
-description: Using high-pressure freezing, serial section transmission electron microscopy (ssTEM) imaging, digital alignment and manual tracing, Nikhil Bhatla and Rita Droste in Bob Horvitz's Lab reconstructed the anterior half of the C. elegans feeding organ, the pharynx. Volumes are available for three adult hermaphrodite worms and include volumetric tracing of all neurons and selected cell types, as well as synapses identified from the I2 neurons. Sections were approximately 50 nm thick with an image resolution of 2 nm per pixel. The largest volume comprises 1199 slices. These data were published in a paper entitled "Distinct neural circuits control rhythm inhibition and spitting by the myogenic pharynx of C. elegans" (Current Biology, 2015).
-long_description: 
+thumb: bhatla15_thumb.jpg
+description: 
+long_description: Using high-pressure freezing, serial section transmission electron microscopy (ssTEM) imaging, digital alignment and manual tracing, Nikhil Bhatla and Rita Droste in Bob Horvitz's Lab reconstructed the anterior half of the C. elegans feeding organ, the pharynx. Volumes are available for three adult hermaphrodite worms and include volumetric tracing of all neurons and selected cell types, as well as synapses identified from the I2 neurons. Sections were approximately 50 nm thick with an image resolution of 2 nm per pixel. The largest volume comprises 1199 slices. These data were published in a paper entitled "Distinct neural circuits control rhythm inhibition and spitting by the myogenic pharynx of C. elegans" (Current Biology, 2015).
 data_types:
 
 
 data:
-- name: 
-  url: 
-  type: 
-  description: 
+- name: "Worm #1"
+  url: https://ndwebtools.neurodata.io/cutout/bhatia/ritaN2/
+  type: ssTEM
+  description: "1199 serial sections of the anterior pharynx of worm #1"
+  viz: https://ndwebtools.neurodata.io/ndviz_url/bhatia/ritaN2/
+- name: "Worm #4"
+  url: http://openconnecto.me/catmaid/?dataview=37
+  type: ssTEM
+  description: "322 serial sections of the anterior bulb of the pharynx of worm #4, including the pharyngeal nerve ring."
+- name: "Worm #5"
+  url: http://openconnecto.me/catmaid/?dataview=37
+  type: ssTEM
+  description: "743 sections, most serial, spanning the anterior pharynx of worm #5, including the pharyngeal nerve ring."
 
 tools:
-- 
+
   
 publications:
-- 
+- bhatla15

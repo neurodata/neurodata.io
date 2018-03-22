@@ -9,10 +9,11 @@ data_types:
 
 
 data:
-- name: Visualize
-  url: https://ndwebtools.neurodata.io/ndviz_url/dyer/dyer16/
+- name: BOSS
+  url: https://ndwebtools.neurodata.io/cutout/dyer/dyer16/
   type: 
   description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/dyer/dyer16/
 
 tools:
 - tomopy

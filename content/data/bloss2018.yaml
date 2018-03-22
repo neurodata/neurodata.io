@@ -10,12 +10,13 @@ data_types: serial section transmission electron microscopy (ssTEM)
 
 data:
 - name: bloss18
-  url: https://ndwebtools.neurodata.io/ndviz_url/bloss/bloss18/
+  url: https://ndwebtools.neurodata.io/cutout/bloss/bloss18/
   type: 
   description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/bloss/bloss18/
 
 tools:
-- 
+
   
 publications:
 - bloss2018

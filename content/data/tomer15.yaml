@@ -1,0 +1,95 @@
+$title: Deisseroth et al. (2016)
+
+authors: Deisseroth et al.
+year: 2016
+thumb: deisseroth_thumb.jpg
+description: 
+long_description: Twelve CLARITY mouse brains (5 wild type controls and 7 behaviorally challenged) were prepared by Li Ye, and imaged using CLARITY-Optimized Light-sheet Microscopy (COLM) (whole brain COLM imaging and data stitching performed by R. Tomer, in preparation).
+data_types:
+
+
+data:
+- name: Cocaine174
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine174/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Cocaine174/
+
+- name: Cocaine175
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine175/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Cocaine175/
+
+- name: Cocaine178
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine178/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Cocaine178/
+
+- name: Fear187
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear187/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Fear187/
+
+- name: Fear197
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear197/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Fear197/
+
+- name: Fear199
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear199/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Fear199/
+
+- name: Fear200
+  url: 
+  type: 
+  description: 
+  viz: 
+  
+- name: Control181
+  url: 
+  type: 
+  description: 
+  viz: 
+
+  
+- name: Control182
+  url: 
+  type: 
+  description: 
+  viz: 
+
+  
+- name: Control189
+  url: 
+  type: 
+  description: 
+  viz: 
+
+  
+- name: Control239
+  url: 
+  type: 
+  description: 
+  viz: 
+
+  
+- name: Control258
+  url: 
+  type: 
+  description: 
+  viz: 
+  
+    
+tools:
+  
+publications:
+- kutten16
+
+
+
