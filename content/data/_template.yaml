@@ -17,6 +17,11 @@ data:
     
 tools:
 - 
+
+analyses:
+- name: 
+  description:
+  url:
   
 publications:
 - 

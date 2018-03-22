@@ -1,0 +1,36 @@
+$title: Tobin et al. (2017)
+
+authors: Tobin et al.
+year: 2017
+thumb: tobin17.jpg
+description: 
+long_description: Tobin17 data is made available under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>. Any rights in individual contents of the database are licensed under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License</a>. Any use should attribute the original data source (Wiring variations that enable and constrain neural computation in a sensory microcircuit. Tobin WF, Wilson RI, Lee WC. eLife. 2017) and <a href="https://neurodata.io/data/tobin17/">database</a>.
+data_types:
+
+
+data:
+- name: Catmaid tiles
+  url: 
+  type: 
+  description: 
+  viz: http://openconnecto.me/catmaid/?pid=74&zp=38640&yp=243254.2591627322&xp=461811.59454724466&tool=navigator&sid0=113&s0=7
+    
+tools:
+  
+analyses:
+- name: Analysis code
+  description: Data, analysis, and figure scripts
+  url: "https://github.com/htem/tobin17/"
+
+- name: Simulations
+  description: nC_projects_lite.tar.gz (800MB)
+  url: "https://neurodata-public-files.s3.amazonaws.com/tobin17/nC_projects_lite.tar.gz?Signature=cYhJAtuwdwUF65A6aGR2CREFKFg%3D&Expires=1714959308&AWSAccessKeyId=AKIAI4T5H2QEQZD6Q4KQ"
+
+
+publications:
+- 
+
+
+ 
+
+ 
