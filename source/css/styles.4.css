@@ -1628,7 +1628,7 @@ footer.dark,
 }
 
 .team .members .col:hover .bw {
-    opacity: 0;
+    opacity: 1;
 }
 
 .team .members .col:hover .overlay {
@@ -1649,8 +1649,9 @@ footer.dark,
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    z-index: 2;
     transition: 0.3s ease all;
+    opacity: 0;
+    z-index: 2;
 }
 
 .team .members .col .color {
