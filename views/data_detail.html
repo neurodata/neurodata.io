@@ -23,7 +23,11 @@
                     {% if item.name is not none %}
                     <div class="item">
                         <h4>
+                            {% if item.url %}
                             <a href="{{item.url}}" target="_blank">{{ item.name }}</a>
+                            {% else %}
+                            {{ item.name }}
+                            {% endif %}
                         
                             {% if item.viz %}
                             <a href="{{item.viz}}" target="_blank">
