@@ -1,9 +1,9 @@
-$title: xbrain
+$title: Dyer et al. (2016)
 
 authors: Dyer et al.
 year: 2016
 thumb: Dyer-thumb.jpg
-description: 
+description: xbrain
 long_description: Methods for resolving the 3D microstructure of the brain typically start by thinly slicing and staining the brain, and then imaging each individual section with visible light photons or electrons. In contrast, X-rays can be used to image thick samples, providing a rapid approach for producing large 3D brain maps without sectioning. Here we demonstrate the use of synchrotron X-ray microtomography (microCT) for producing mesoscale (1 cubic micron resolution) brain maps from millimeter-scale volumes of mouse brain. We introduce a pipeline for mircoCT-based brain mapping that combines methods for sample preparation, imaging, automated segmentation of image volumes into cells and blood vessels, and statistical analysis of the resulting brain structures. Our results demonstrate that X-ray tomography promises rapid quantification of large brain volumes, complementing other brain mapping and connectomics efforts.
 data_types:
 
