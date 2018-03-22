@@ -1,0 +1,27 @@
+$title: Randlett et al. (2015)
+
+authors: Randlett et al.
+year: 2015
+thumb: randlett15_thumb.jpg
+description: ZBrain.  Light microscopy data
+long_description: 
+data_types:
+
+
+data:
+- name: BOSS
+  url: https://ndwebtools.neurodata.io/cutout/ZBrain/ZBrain/
+  type: 
+  description: 100+ channels
+  viz: 
+    
+tools:
+
+
+analyses:
+
+  
+publications:
+- randlett15
+
+
