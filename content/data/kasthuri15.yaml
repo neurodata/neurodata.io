@@ -10,15 +10,18 @@ data_types: EM
 
 data:
 - name: kasthuri11
-  url: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri11/
+  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri11/
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri11/
   type: 
   description: 
 - name: kasthuri14Maine
-  url: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14Maine
+  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri14Maine
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14Maine
   type: 
   description: 
 - name: kasthuri14s1colEM
-  url: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14s1colEM://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14s1colEM/ 
+  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri14s1colEM
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14s1colEM   
   type: 
   description: 
 
