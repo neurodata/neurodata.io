@@ -1,0 +1,24 @@
+$title: Bock et al. (2011)
+
+authors: Bock et al.
+year: 2011
+thumb: bock11_em_preview.jpg
+description: 
+long_description: Layer 2/3 - Davi Bock, Ph.D. and Wei-Chung Allen Lee, Ph.D., in the laboratory of Clay Reid, M.D., Ph.D. acquired a beautiful volume of mouse primary visual cortical data, spanning layers 1, 2/3, and upper layer 4. In addition to the electron microscope (EM) data, they used two-photon microscopy to determine the functional properties of about 14 of the cells in the same volume. Images were collected at approximately 4x4x45 cubic nanometers with a total volume of approximately 450x350x50 cubic microns.
+data_types: EM
+
+
+data:
+- name: BOSS
+  url: https://ndwebtools.neurodata.io/cutout/bock/bock11/
+  type: EM
+  description: 
+
+tools:
+- 
+  
+publications:
+- bock11
+- bock11_video
+
+
