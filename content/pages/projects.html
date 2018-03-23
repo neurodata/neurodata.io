@@ -22,8 +22,8 @@ $order: 2
                         </span></p>
                     </blockquote>
                     {% if item.thumb %}
-                        <div class="bw" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
-                        <div class="color" style="background: url('/static/images/data/{{item.thumb}}')no-repeat center bottom; background-size: cover;"></div>
+                        <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+                        <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
                     {% else %}
                         {# Default images are in style.css #}
                         <div class="bw"></div>

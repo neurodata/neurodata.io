@@ -9,9 +9,9 @@ $hidden: true
 <div class="video">
   <video autoplay muted preload loop playsinline id="video">
     <!-- <source src="static/video/NeurodataIntroVideo_h265.mp4" type='video/mp4; codecs="hevc"' /> -->
-    <source src="static/video/NeurodataIntroVideo_h264.mp4" type='video/mp4' />
-    <source src="static/video/NeurodataIntroVideo_vp9.webm" type='video/webm; codecs="vp9"' />
-    <source src="static/video/NeurodataIntroVideo_vp8.webm" type='video/webm; codecs="vp8"' />
+    <source src={{g.static("/source/video/NeurodataIntroVideo_h264.mp4").url.path}} type='video/mp4' />
+    <source src={{g.static("/source/video/NeurodataIntroVideo_vp9.webm").url.path}} type='video/webm; codecs="vp9"' />
+    <source src={{g.static("/source/video/NeurodataIntroVideo_vp8.webm").url.path}} type='video/webm; codecs="vp8"' />
   </video>
   <div class="copy">
     <h2>Enabling Terascale Neuroscience</h2>

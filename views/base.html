@@ -5,24 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 <title>{{_(doc.title)}}</title>
 <meta name="Description" content="" />
-<link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
-<link rel="manifest" href="/static/favicons/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href={{g.static("/source/favicons/apple-icon-57x57.png").url.path}}>
+<link rel="apple-touch-icon" sizes="60x60" href={{g.static("/source/favicons/apple-icon-60x60.png").url.path}}>
+<link rel="apple-touch-icon" sizes="72x72" href={{g.static("/source/favicons/apple-icon-72x72.png").url.path}}>
+<link rel="apple-touch-icon" sizes="76x76" href={{g.static("/source/favicons/apple-icon-76x76.png").url.path}}>
+<link rel="apple-touch-icon" sizes="114x114" href={{g.static("/source/favicons/apple-icon-114x114.png").url.path}}>
+<link rel="apple-touch-icon" sizes="120x120" href={{g.static("/source/favicons/apple-icon-120x120.png").url.path}}>
+<link rel="apple-touch-icon" sizes="144x144" href={{g.static("/source/favicons/apple-icon-144x144.png").url.path}}>
+<link rel="apple-touch-icon" sizes="152x152" href={{g.static("/source/favicons/apple-icon-152x152.png").url.path}}>
+<link rel="apple-touch-icon" sizes="180x180" href={{g.static("/source/favicons/apple-icon-180x180.png").url.path}}>
+<link rel="icon" type="image/png" sizes="192x192"  href={{g.static("/source/favicons/android-icon-192x192.png").url.path}}>
+<link rel="icon" type="image/png" sizes="32x32" href={{g.static("/source/favicons/favicon-32x32.png").url.path}}>
+<link rel="icon" type="image/png" sizes="96x96" href={{g.static("/source/favicons/favicon-96x96.png").url.path}}>
+<link rel="icon" type="image/png" sizes="16x16" href={{g.static("/source/favicons/favicon-16x16.png").url.path}}>
+<link rel="manifest" href={{g.static("/source/favicons/manifest.json").url.path}}>
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content={{g.static("/source/favicons/ms-icon-144x144.png").url.path}}>
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="/static/css/styles.5.css" />
+<link rel="stylesheet" href={{g.static("/source/css/styles.6.css").url.path}} />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69121088-1"></script>
@@ -42,7 +42,7 @@
 	
 	<div class="nav">
 		<a href="/" class="logo clearfix">
-			<img src="/static/images/nuerodata_logo.png">
+			<img src={{g.static("/source/images/nuerodata_logo.png").url.path}}>
 			<h4>NeuroData</h4>
 			<div class="triangle"></div>
 		</a>
@@ -84,8 +84,8 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/static/js/jquery.tooltipster.min.js"></script>
-<script type="text/javascript" src="/static/js/script.js"></script>
+<script type="text/javascript" src={{g.static("/source/js/jquery.tooltipster.min.js").url.path}}></script>
+<script type="text/javascript" src={{g.static("/source/js/script.js").url.path}}></script>
 
 </body>
 </html>

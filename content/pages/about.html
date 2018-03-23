@@ -46,8 +46,8 @@ $order: 4
                         </p>
                     </blockquote>
                     {% if item.picture %}
-                        <div class="bw" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
-                        <div class="color" style="background: url('/static/images/people/{{item.picture}}')no-repeat center bottom; background-size: cover;"></div>
+                        <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+                        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
                     {% else %}
                         {# Default images are in style.css #}
                         <div class="bw"></div>
@@ -57,13 +57,22 @@ $order: 4
                         <!--h5>Undergraduate</h5-->
                         <div class="contact clearfix">
                             {% if item.github %}
-                                <a href="https://github.com/{{item.github}}"><img class="hover" src="/static/images/github-white.png"><img src="/static/images/github-blue.png"></a>
+                                <a href="https://github.com/{{item.github}}">
+                                    <img class="hover" src={{g.static("/source/images/github-white.png").url.path}}>
+                                    <img src={{g.static("/source/images/github-blue.png").url.path}}>
+                                </a>
                             {% endif %}
                             {% if item.email %}
-                                <a href="mailto:{{item.email}}"><img class="hover" src="/static/images/mail-white.png"><img src="/static/images/mail-blue.png"></a>
+                                <a href="mailto:{{item.email}}">
+                                    <img class="hover" src={{g.static("/source/images/mail-white.png").url.path}}>
+                                    <img src={{g.static("/source/images/mail-blue.png").url.path}}>
+                                </a>
                             {% endif %}
                             {% if item.website %}
-                                <a href="{{item.website}}"><img class="hover" src="/static/images/website-white.png"><img src="/static/images/website-blue.png"></a>
+                                <a href="{{item.website}}">
+                                    <img class="hover" src={{g.static("/source/images/website-white.png").url.path}}>
+                                    <img src={{g.static("/source/images/website-blue.png").url.path}}>
+                                </a>
                             {% endif %}
                         </div>
                     </div>
@@ -92,11 +101,11 @@ $order: 4
 <div class="funding" id="funding">
     <h3>Funding</h3>
     <div class="clearfix">
-        <img src="/static/images/funding/nsf.png">
-        <img src="/static/images/funding/nih.png">
-        <img src="/static/images/funding/darpa.jpg">
-        <img src="/static/images/funding/IARPA.jpg">
-        <img src="/static/images/funding/kavli.png">
-        <img src="/static/images/funding/kavli_ndi.png">
+        <img src={{g.static('/source/images/funding/nsf.png').url.path}}>
+        <img src={{g.static('/source/images/funding/nih.png').url.path}}>
+        <img src={{g.static('/source/images/funding/darpa.jpg').url.path}}>
+        <img src={{g.static('/source/images/funding/IARPA.jpg').url.path}}>
+        <img src={{g.static('/source/images/funding/kavli.png').url.path}}>
+        <img src={{g.static('/source/images/funding/kavli_ndi.png').url.path}}>
     </div>
 </div>
