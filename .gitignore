@@ -8,3 +8,4 @@ bower_components
 image_compress/
 env/
 .depcache.json
+.vscode

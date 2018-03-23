@@ -10,12 +10,8 @@ $path: /about/alum.html
     
 <div class="about clearfix">
     <div class="team" id="team">
-        <div class="divider"></div>
-        
-        <!-- <h3>Alumni</h3> -->
-            <div class="members clearfix">    
-            {% for item in g.docs('people') %}
-            {% if item.alum == True %}
+        <div class="members clearfix">
+            {% for item in g.docs('alumni') %}
             <div class="col">
                 <blockquote>
                     <p>{{item.name}}
@@ -50,7 +46,6 @@ $path: /about/alum.html
                     </div>
                 </div>
             </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>

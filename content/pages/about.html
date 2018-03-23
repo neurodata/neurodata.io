@@ -34,7 +34,6 @@ $order: 4
             <div class="members clearfix">    
 
             {% for item in g.docs('people') %}
-                {% if item.alum == False or item.alum == None %}
                 <div class="col">
                     <blockquote>
                         <p>{{item.name}}
@@ -69,7 +68,6 @@ $order: 4
                         </div>
                     </div>
                 </div>
-                {% endif %}
             {% endfor %}
         </div>
 
