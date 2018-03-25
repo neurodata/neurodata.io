@@ -1181,7 +1181,7 @@ footer.dark,
 .doc-nav ul {
     padding-left: 0px;
     margin: 0px;
-    width: 1000px;
+    width: 550px;
     margin: 0 auto;
 }
 
@@ -1897,7 +1897,7 @@ blockquote p {
     margin: 30px 0px;
 }
 
-.detail-wrap .props{
+.detail-wrap .props {
     display: flex;
     flex-direction: row;
 }
@@ -2269,7 +2269,7 @@ blockquote p {
 
 @media only screen and (max-width: 1200px) {
     .doc-nav ul {
-        width: 820px;
+        width: 470px;
     }
     .doc-nav li h5 {
         font-size: 13px;
