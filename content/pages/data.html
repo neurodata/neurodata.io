@@ -9,7 +9,7 @@ $order: 1
 </div>
 <div class="doc-nav">
     <ul class="clearfix">
-        <li><h5>Projects:</h5></li>
+        <li class="active"><h5>Projects:</h5></li>
         {% for proj in g.docs('projects') %}
             <li><a href="{{proj.url.path}}"><h5>{{proj.title}}</h5></a></li>
         {% endfor %}
