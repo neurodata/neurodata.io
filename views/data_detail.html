@@ -92,6 +92,9 @@
                     {% if item.base in doc.publications %}
                         <div class="item">
                             <h4><a href="{{item.link}}" target="_blank">{{ item.name }}</a></h4>
+                            {% if item.article_title %}
+                                <p>{{ item.article_title }}</p>
+                            {% endif %}
                             {% if item.subtext %}
                                 <p>{{ item.subtext }}</p>
                             {% endif %}
