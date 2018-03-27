@@ -1,6 +1,6 @@
-$title: Haris et al. (2015)
+$title: Harris et al. (2015)
 
-authors: Haris et al.
+authors: Harris et al.
 year: 2015
 thumb: kharris15_thumb.jpg
 description: A resource from 3D electron microscopy of hippocampal neuropil for user training and tool development.
@@ -29,9 +29,19 @@ data:
 
 
 tools:
-- SynapseWeb
-- Reconstruct 
-- CAJAL
+
+analyses:
+- name: SynapseWeb
+  description: A portal into the 3D ultrastructure of the brain. 
+  url: http://synapseweb.clm.utexas.edu/ 
+
+- name: Reconstruct
+  description: Program for tracing serial sections
+  url: http://synapseweb.clm.utexas.edu/software-0
+
+- name: CAJAL
+  description: Caching gateway to connect a CATMAID (or other visualization) server to ndstore
+  url: https://github.com/neurodata/ndtilecache
   
 publications:
 -  kharris15

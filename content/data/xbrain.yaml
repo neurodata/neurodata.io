@@ -16,9 +16,16 @@ data:
   viz: https://ndwebtools.neurodata.io/ndviz_url/dyer/dyer16/
 
 tools:
-- tomopy
-- mojo
 - ndio
+
+analyses:
+- name: mojo
+  description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
+  url: https://github.com/Rhoana/Mojo
+
+- name: tomopy
+  description: Tomographic reconstruction in Python
+  url: https://github.com/tomopy/tomopy
   
 publications:
 - dyer2016

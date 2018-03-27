@@ -1,9 +1,0 @@
-name: mojo
-hide: True
-description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
-
-api: 
-github: Rhoana/mojo
-docs: http://www.rhoana.org/
-manuscript: 
-press: 
