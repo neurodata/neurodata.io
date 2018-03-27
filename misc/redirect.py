@@ -6,6 +6,12 @@
 # Use --amazon to generate AmazonS3 redirection rules which can be applied to the bucket.
 # See https://docs.aws.amazon.com/AmazonS3/latest/dev/how-to-page-redirect.html for details.
 #
+# TODO: Create website configuration to work with aws s3api:
+#       https://docs.aws.amazon.com/cli/latest/reference/s3api/put-bucket-website.html
+#
+# For the production site, I used the following:
+# % python redirect.py --amazon --domain neurodata.io
+#
 
 import argparse
 
@@ -23,12 +29,14 @@ def main():
     mode_group = parser.add_mutually_exclusive_group(required=True)
     mode_group.add_argument("--amazon", help="Generate XML syntax for S3 web hosting", action="store_true")
     mode_group.add_argument("--nginx", help="Config lines for nginx", action="store_true")
-    parser.add_argument("--domain", default="neurodata.io")
+    parser.add_argument("--domain", default=None, help="Domain to redirect to")
     args = parser.parse_args()
 
     if args.nginx:
+        if not args.domain:
+            args.domain = "$host"
         for (src, dest) in redirects:
-            print("rewrite ^{}(.*) http://{}{}".format(src, args.domain, dest))
+            print("rewrite ^{}(.*) http://{}/{}".format(src, args.domain, dest))
 
     if args.amazon:
         print("<RoutingRules>")
@@ -38,6 +46,9 @@ def main():
             print("      <KeyPrefixEquals>{}</KeyPrefixEquals>".format(src))
             print("    </Condition>")
             print("    <Redirect>")
+            if args.domain:
+                print("      <HostName>{}</HostName>".format(args.domain))
+                print("      <Protocol>https</Protocol>")
             print("      <ReplaceKeyWith>{}</ReplaceKeyWith>".format(dest))
             print("    </Redirect>")
             print("  </RoutingRule>")
