@@ -1314,6 +1314,13 @@ footer.dark,
 .tool-wrap {
     padding: 50px 80px;
     background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.tool-wrap .child {
+    padding: 5px;
+    flex: 1;
 }
 
 .tool-wrap h3 {
@@ -2452,6 +2459,12 @@ blockquote p {
         font-size: 12px;
         margin: 2px;
         padding: 0 10px;
+    }
+    .tool-wrap {
+        flex-direction: column;
+    }
+    .tool-wrap .child {
+        flex-basis: auto;
     }
     .tool-wrap .options {
         float: none;

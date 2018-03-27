@@ -1,5 +1,7 @@
 name: ndpull
 description: Command line program to download large volume image data from NeuroData.
+service: True
+library: False
 
 api:
 github: neurodata/ndpull

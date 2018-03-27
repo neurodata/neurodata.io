@@ -1,8 +1,11 @@
 name: oopsi
 description: Calcium Spike Sorting. This tool is for performing model-based spike train inference from calcium imaging. 
 
+service: True
+library: False
+
 api: 
 github: jovo/oopsi
-docs: https://github.com/jovo/oopsi/wiki
+docs: https://github.com/jovo/oopsi/wiki/FAQ
 manuscript: 
 press: 

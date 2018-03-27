@@ -6,53 +6,33 @@ $order: 3
     <h2>Tools</h2>
 </div>
 <div class="tool-wrap"> 
-    {% for item in g.docs('tools') if not item.hide %}
+    <div class="child">
+    <h4 class="title">Services</h4>
+    {% for item in g.docs('tools') if not item.hide and item.service %}
         <div class="item">
             {% if loop.index % 2 != 0 %}
             <div class="odd">
             {% else %}
             <div class="even">
             {% endif %}
-                <h3 id="{{item.name}}">{{item.name}}</h3>
-                <p>{{item.description}}</p>
-                <div class="options clearfix">
-                    {% if item.api %}
-                        <div class="link">
-                            <a href="{{item.api}}"><img src={{g.static("/source/images/settings.png").url.path}} class="tooltip" title="API"></a>
-                        </div>
-                    {% endif %}
-                    
-                    {% if item.github %}
-                        <div class="link">
-                            <a href="https://github.com/{{item.github}}"><img src={{g.static("/source/images/code.png").url.path}} class="tooltip" title="Code"></a>
-                        </div>
-                    {% endif %}
-                    
-                    {% if item.docs %}
-                    <div class="link">
-                        <a href="{{item.docs}}"><img src={{g.static("/source/images/document.png").url.path}} class="tooltip" title="Docs"></a>
-                    </div>
-                    {% endif %}
-                    
-                    {% if item.manuscript %}
-                    <div class="link">
-                        <a href="{{item.manuscript}}"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="Manuscript"></a>
-                    </div>
-                    {% endif %}
-                    
-                    {% if item.press %}
-                    <div class="link"><a href="{{item.press}}"><img src={{g.static("/source/images/paper.png").url.path}} class="tooltip" title="Press"></a></div>
-                    {% endif %}
-                    
-                    {% if item.github %}
-                    <div class="link">
-                        <a href="https://github.com/{{item.github}}/graphs/contributors">
-                            <img src={{g.static("/source/images/user-silhouette.png").url.path}} class="tooltip" title="Contributors">
-                        </a>
-                    </div>
-                    {% endif %}
-                </div>
+                {% include 'partials/tools_list.html' %}
             </div>
         </div>
     {% endfor %}
+    </div>
+
+    <div class="child">
+        <h4 class="title">Numerical Libraries</h4>
+        {% for item in g.docs('tools') if not item.hide and item.library %}
+        <div class="item">
+            {% if loop.index % 2 != 0 %}
+            <div class="odd">
+            {% else %}
+            <div class="even">
+            {% endif %}
+                {% include 'partials/tools_list.html' %}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
 </div>

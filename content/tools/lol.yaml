@@ -1,5 +1,7 @@
 name: LOL
-description:     Linear Optimal Low-rank (LOL) projection for high-dimensional multi-class data
+description: Linear Optimal Low-rank (LOL) projection for high-dimensional multi-class data
+service: False
+library: True
 
 api: 
 github: neurodata/LOL

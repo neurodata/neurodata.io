@@ -1,13 +1,10 @@
 name: Unsupervised Randomer Forest (urerf)
-
 description: An R based unsupervised version of Randomer Forest.  Can be used to find approximate nearest neighbors and clusters.
+service: False
+library: True
 
 api:
-
 github: neurodata/U-Rerf
-
 docs:
-
 manuscript:
-
 press:

@@ -1,5 +1,7 @@
 name: ndviz
 description: NeuroDataViz is a web tool for viewing datasets stored using NeuroData Database Store software. 
+service: True
+library: False
 
 api: 
 github: neurodata/ndviz

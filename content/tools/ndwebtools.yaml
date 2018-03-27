@@ -1,5 +1,7 @@
 name: ndwebtools
 description: WEB application that provides NeuroData tools
+service: True
+library: False
 
 api: 
 github: neurodata/ndwebtools

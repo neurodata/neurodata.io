@@ -1,5 +1,7 @@
 name: MGC
 description: Multiscale Generalized Correlation
+service: False
+library: True
 
 api: 
 github: neurodata/mgc

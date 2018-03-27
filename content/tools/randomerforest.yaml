@@ -1,5 +1,7 @@
 name: Randomer Forest
 description: Novel methods for  constructing randomized decision forests
+service: False
+library: True
 
 api: 
 github: ttomita/RandomerForest

@@ -1,6 +1,8 @@
 name: 
 hide: False
 description: 
+service: True / False
+library: True / False
 
 api: 
 github: 
