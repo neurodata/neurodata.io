@@ -32,6 +32,11 @@ $(document).ready(function () {
 		$(".header p").toggleClass("active");
 	});
 
+	//display why neurodata text
+	$("a.button.expand").click(function () {
+		$(".copy p").toggleClass("active");
+	});
+
 	//toggle mobile menu links
 	$('#mobile-nav').click(function () {
 		$(this).toggleClass('open');
