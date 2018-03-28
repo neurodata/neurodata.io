@@ -45,6 +45,12 @@
         </select>
     </div>
 
+    {% if doc.link %}
+    <div class="project link">
+        <a href={{doc.link}} class='button'>{{ doc.link }}</a>
+    </div>
+    {% endif %}
+
     {% if doc.data %}
     <div class="project clearfix">
         <h3 id="data">Data</h3>

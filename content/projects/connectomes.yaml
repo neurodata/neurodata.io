@@ -4,6 +4,7 @@ $order: 2
 thumb:
 description: 
 long_description: 
+link: 
 people:
 - vikram
 - jovo

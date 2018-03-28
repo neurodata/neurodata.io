@@ -1575,6 +1575,13 @@ footer.dark,
     color: black
 }
 
+.project.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
 .tools-pubs {
     display: flex;
     flex-direction: row;
