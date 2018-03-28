@@ -1205,13 +1205,13 @@ footer.dark,
 .doc-nav ul {
     padding-left: 0px;
     margin: 0px;
-    width: 550px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .doc-nav li {
-    display: inline-block;
-    float: left;
     transition: 0.3s ease all;
     border-bottom: 6px solid #a5bcd6;
 }
@@ -1631,13 +1631,6 @@ footer.dark,
 
 .about p a:hover {
     color: white;
-}
-
-.doc-nav ul.about-list {
-    padding-left: 0px;
-    margin: 0px;
-    width: 334px;
-    margin: 0 auto;
 }
 
 .about .divider {
@@ -2299,15 +2292,9 @@ blockquote p {
 }
 
 @media only screen and (max-width: 1200px) {
-    .doc-nav ul {
-        width: 470px;
-    }
     .doc-nav li h5 {
         font-size: 13px;
         padding: 16px 14px 13px 14px;
-    }
-    .doc-nav ul.about-list {
-        width: 298px;
     }
     .download .button {
         font-size: 12px;

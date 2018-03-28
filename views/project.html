@@ -13,36 +13,65 @@
             <a href="#" class="button expand">Learn More</a>
         {% endif %}
     </div>
+    <div class="doc-nav">
+        <ul>
+            {% if doc.data %}
+            <li><a href="#data"><h5>Data</h5></a></li>
+            {% endif %}
+            {% if doc.tools %}
+            <li><a href="#tools"><h5>Tools</h5></a></li>
+            {% endif %}
+            {% if doc.publications %}
+            <li><a href="#publications"><h5>Publications</h5></a></li>
+            {% endif %}
+            {% if doc.people %}
+            <li><a href="#people"><h5>People</h5></a></li>
+            {% endif %}
+        </ul>
+        <select>
+            <option selected="selected">Jump to:</option>
+            {% if doc.data %}
+            <option value="data">Data</option>
+            {% endif %}
+            {% if doc.tools %}
+            <option value="tools">Tools</option>
+            {% endif %}
+            {% if doc.publications %}
+            <option value="publications">Publications</option>
+            {% endif %}
+            {% if doc.people %}
+            <option value="people">People</option>
+            {% endif %}
+        </select>
+    </div>
 
     {% if doc.data %}
     <div class="project clearfix">
-        <div>
-            <h3>Data</h3>
-            <div class="team">
-                <div class="members clearfix" id="team">
-                    {% for item in g.docs('data') %}
-                        {% if item.base in doc.data %}
-                        <div class="col">
-                            <a href="{{item.url.path}}">
-                            <blockquote>
-                                <p><span class="position">
-                                    {{item.authors}} {{item.year}}
-                                </span></p>
-                            </blockquote>
-                            {% if item.thumb %}
-                                <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                                <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                            {% else %}
-                                {# Default images are in style.css #}
-                                <div class="bw"></div>
-                                <div class="color"></div>
-                            {% endif %}
-                            </a>
-                        </div>
+        <h3 id="data">Data</h3>
+        <div class="team">
+            <div class="members clearfix" id="team">
+                {% for item in g.docs('data') %}
+                    {% if item.base in doc.data %}
+                    <div class="col">
+                        <a href="{{item.url.path}}">
+                        <blockquote>
+                            <p><span class="position">
+                                {{item.authors}} {{item.year}}
+                            </span></p>
+                        </blockquote>
+                        {% if item.thumb %}
+                            <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+                            <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+                        {% else %}
+                            {# Default images are in style.css #}
+                            <div class="bw"></div>
+                            <div class="color"></div>
                         {% endif %}
-                    {% endfor %}
-                </div>                                        
-            </div>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>                                        
         </div>
         {% endif %}
 
@@ -51,17 +80,15 @@
                 {% include 'partials/tools_list.html' %}
             {% endif %}
 
-            <div class="col">
             {% if doc.publications %}
                 {% include 'partials/pubs_list.html' %}
-            </div>
             {% endif %}
         </div>
 
 
 <!-- People -->
         {% if doc.people %}
-        <div class="team">
+        <div class="team" id="people">
             <h3>People on project</h3>
             <div class="members clearfix">
                 
