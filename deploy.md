@@ -46,3 +46,6 @@
     - HTTP -> HTTPS redirect
     - using default cloudfront certificate
     - index.html as base object
+- Create Role for CodeBuild to modifiy CloudFront
+    - ListInvalidations/GetInvalidation/CreateInvalidation (so that each build invalidates CloudFront cache)
+- Redirects are handled by the properties field in the Bucket, and the XML for this can be generated using `misc/redirect.py` and copy/pasting into the bucket properties

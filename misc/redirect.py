@@ -16,19 +16,22 @@
 import argparse
 
 redirects = [
-    ['bock11/', 'data/bock11/'],
-    ['array-tomography/', 'project/synaptomes/'],
-    ['kasthuri11/', 'data/kasthuri15/'],
-    ['bhatla15/', 'data/bhatla15/'],
-    ['fly-medulla/', 'data/takemura13/'],
-    ['pristionchus-pacificus/', 'data/bumbarger13/'],
+    ['bock11', 'data/bock11/'],
+    ['array-tomography', 'project/synaptomes/'],
+    ['kasthuri11', 'data/kasthuri15/'],
+    ['bhatla15', 'data/bhatla15/'],
+    ['fly-medulla', 'data/takemura13/'],
+    ['pristionchus-pacificus', 'data/bumbarger13/'],
 ]
+
 
 def main():
     parser = argparse.ArgumentParser()
     mode_group = parser.add_mutually_exclusive_group(required=True)
-    mode_group.add_argument("--amazon", help="Generate XML syntax for S3 web hosting", action="store_true")
-    mode_group.add_argument("--nginx", help="Config lines for nginx", action="store_true")
+    mode_group.add_argument(
+        "--amazon", help="Generate XML syntax for S3 web hosting", action="store_true")
+    mode_group.add_argument(
+        "--nginx", help="Config lines for nginx", action="store_true")
     parser.add_argument("--domain", default=None, help="Domain to redirect to")
     args = parser.parse_args()
 
@@ -54,6 +57,6 @@ def main():
             print("  </RoutingRule>")
         print("</RoutingRules>")
 
+
 if __name__ == "__main__":
     main()
-
