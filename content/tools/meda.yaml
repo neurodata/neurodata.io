@@ -1,7 +1,7 @@
 name: meda
 description: Matrix Exploratory Data Analysis
-service: True 
-library: False
+service: False
+library: True
 
 api: 
 github: neurodata/meda

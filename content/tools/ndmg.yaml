@@ -1,7 +1,7 @@
 name: ndmg
 description: NeuroData’s MR Graphs package, ndmg combines dMRI and sMRI data from a single subject to estimate a high-level connectome reliably and scalably.
-service: True
-library: False
+service: False
+library: True
 
 api: 
 github: neurodata/ndmg
