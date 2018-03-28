@@ -1,0 +1,15 @@
+<h4 class="title">Publications</h4>
+{% for item in g.docs('publications')|sort(attribute='name')|sort(attribute='year', reverse=True) %}
+<!-- , order_by=('year', 'name'), reverse=True) -->
+    {% if item.base in doc.publications %}
+        <div class="item">
+            <h4><a href="{{item.link}}" target="_blank">{{item.name}} ({{item.year}})</a></h4>
+            {% if item.article_title %}
+                <p>{{ item.article_title }}</p>
+            {% endif %}
+            {% if item.subtext %}
+                <p>{{ item.subtext }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endfor %}

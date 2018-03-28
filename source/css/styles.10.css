@@ -1581,7 +1581,7 @@ footer.dark,
 }
 
 .tools-pubs .col {
-    text-align: center;
+    text-align: left;
     padding: 15px;
     flex: 1;
 }

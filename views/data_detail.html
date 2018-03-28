@@ -48,59 +48,12 @@
             </div>
 
             {% if doc.tools is defined and doc.tools or doc.analyses is defined and doc.analyses %}
-            <div class="col">
-                <h4 class="title">Analysis/Tools</h4>
-                {% if doc.tools %}
-                    {% for item in g.docs('tools') %}
-                        {% if item.name in doc.tools %}
-                            <div class="item">
-                                <h4>
-                                    <a href=
-                                        {% if not item.hide or item.hide == false %}
-                                            "/tools#{{item.name}}"
-                                        {% elif item.github is not none %}
-                                            "https://github.com/{{item.github}}"
-                                        {% else %}
-                                            ""
-                                        {% endif %}
-                                    >{{ item.name }}</a>
-                                </h4>
-                                {% if item.description is not none %}
-                                    <p>{{item.description}}</p>
-                                {% endif %}
-                            </div>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-                {% for item in doc.analyses %}
-                    <div class="item">
-                        <h4>
-                            <a href="{{item.url}}">{{ item.name }}</a>
-                        </h4>
-                        {% if item.description is not none %}
-                            <p>{{item.description}}</p>
-                        {% endif %}
-                    </div>
-                {% endfor %}
-            </div>
+            {% include 'partials/tools_list.html' %}
             {% endif %}
 
             {% if doc.publications %}
             <div class="col">
-                <h4 class="title">Publications</h4>
-                {% for item in g.docs('publications') %}
-                    {% if item.base in doc.publications %}
-                        <div class="item">
-                            <h4><a href="{{item.link}}" target="_blank">{{ item.name }}</a></h4>
-                            {% if item.article_title %}
-                                <p>{{ item.article_title }}</p>
-                            {% endif %}
-                            {% if item.subtext %}
-                                <p>{{ item.subtext }}</p>
-                            {% endif %}
-                        </div>
-                    {% endif %}
-                {% endfor %}
+                {% include 'partials/pubs_list.html' %}
             </div>
             {% endif %}
 

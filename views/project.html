@@ -14,7 +14,7 @@
         {% endif %}
     </div>
 
-
+    {% if doc.data %}
     <div class="project clearfix">
         <div>
             <h3>Data</h3>
@@ -44,38 +44,23 @@
                 </div>                                        
             </div>
         </div>
+        {% endif %}
 
         <div class="tools-pubs">
+            {% if doc.tools %}
+                {% include 'partials/tools_list.html' %}
+            {% endif %}
+
             <div class="col">
-                <h4 class="title">Analysis/tools</h4>
-                {% for item in g.docs('tools') %}
-                    {% if item.base in doc.tools %}
-                        <div class="item">
-                            <h4><a href="/tools#{{item.name}}">{{ item.name }}</a></h4>
-                        </div>
-                    {% endif %}
-                {% endfor %}
+            {% if doc.publications %}
+                {% include 'partials/pubs_list.html' %}
             </div>
-            <div class="col">
-                <h4 class="title">Publications</h4>
-                {% for item in g.docs('publications') %}
-                    {% if item.base in doc.publications %}
-                        <div class="item">
-                            <h4><a href="{{item.link}}">{{item.name}}</a></h4>
-                            {% if item.article_title %}
-                                <p>{{ item.article_title }}</p>
-                            {% endif %}
-                            {% if item.subtext %}
-                                <p>{{ item.subtext }}</p>
-                            {% endif %}
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
+            {% endif %}
         </div>
 
 
 <!-- People -->
+        {% if doc.people %}
         <div class="team">
             <h3>People on project</h3>
             <div class="members clearfix">
@@ -119,6 +104,7 @@
                 {% endfor %}
             </div>
         </div>
+        {% endif %}
     </div>
 </div>
 
