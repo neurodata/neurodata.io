@@ -1,0 +1,12 @@
+name: PyMEDA
+hide: False
+description: PyMEDA is a python package for matrix exploratory data analysis (MEDA). It is inspired by the MEDA R package.
+service: False
+library: True
+
+api: 
+github: neurodata-nomads/pymeda
+docs: 
+manuscripts: 
+press: 
+

@@ -18,11 +18,15 @@
         <a href="{{item.docs}}"><img src={{g.static("/source/images/document.png").url.path}} class="tooltip" title="Docs"></a>
     </div>
     {% endif %}
-    
-    {% if item.manuscript %}
-    <div class="link">
-        <a href="{{item.manuscript}}"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="Manuscript"></a>
-    </div>
+
+    {% if item.manuscripts %}
+        {% for man in g.docs('publications') %}
+            {% if man.base in item.manuscripts %}
+            <div class="link">
+                <a href="{{man.link}}"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="{{man.name}} ({{man.year}})"></a>
+            </div>
+            {% endif %}
+        {% endfor %}
     {% endif %}
     
     {% if item.press %}

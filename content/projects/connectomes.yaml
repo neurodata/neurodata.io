@@ -35,16 +35,16 @@ data:
 tools:
 
 publications:
-- acardona_0111_8_01
-- acardona_0111_8_02
-- acardona_0111_8_03
-- acardona_0111_8_04
-- acardona_0111_8_05
-- acardona_0111_8_06
-- acardona_0111_8_07
-- acardona_0111_8_08
-- acardona_0111_8_09
-- acardona_0111_8_10
+- burns13
+- ohyama15
+- vogelstein14
+- kreshuk15
+- berck16
+- fushiki16
+- schlegel16
+- macnamee16
+- zwart16
+- zwart16_1
 - bhatla15
 - bigbrain2015
 - bock11_video
@@ -65,3 +65,4 @@ publications:
 - wanner2016_scientific_data
 - wanner2016
 - weiler2014
+- bloss2018

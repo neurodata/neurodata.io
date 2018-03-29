@@ -6,5 +6,5 @@ library: False
 api: 
 github: neurodata/ndviz
 docs: http://docs.neurodata.io/ndviz/
-manuscript: 
+manuscripts: 
 press: 

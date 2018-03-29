@@ -6,5 +6,5 @@ library: True
 api: 
 github: ttomita/RandomerForest
 docs: https://github.com/ttomita/RandomerForest/blob/master/example.pdf
-manuscript: 
+manuscripts: 
 press: 

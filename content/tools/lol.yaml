@@ -6,7 +6,8 @@ library: True
 api: 
 github: neurodata/LOL
 docs: https://github.com/neurodata/lol/blob/master/README.md
-manuscript: https://arxiv.org/pdf/1709.01233
+manuscripts: 
+- vogelstein17
 press: 
 
 

@@ -7,5 +7,5 @@ library: False
 api: 
 github: "neurodata/ndio"
 docs: "http://docs.neurodata.io/nddocs/ndio/"
-manuscript: 
+manuscripts: 
 press: 

@@ -7,5 +7,6 @@ library: True / False
 api: 
 github: 
 docs: 
-manuscript: 
+manuscripts: 
+- 
 press: 

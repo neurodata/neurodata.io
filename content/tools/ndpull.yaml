@@ -6,5 +6,5 @@ library: False
 api:
 github: neurodata/ndpull
 docs:
-manuscript:
+manuscripts:
 press:

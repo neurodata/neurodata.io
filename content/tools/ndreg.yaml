@@ -7,6 +7,8 @@ library: True
 api: 
 github: neurodata/ndreg
 docs: 
-manuscript: 
+manuscripts:
+- kutten16
+- kutten17
 press: 
 
