@@ -25,6 +25,7 @@
 - CodeBuild
     - Name: build-website
     - image: Ubuntu/Python2.7.12
+    - buildspec.yml: Choose the version you are building, either demo (master branch) or deploy (deploy branch)
 - Deployment: No Deployment
 
 - Role policy - grant s3 privaledges to role for Bucket:
