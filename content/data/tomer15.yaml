@@ -40,10 +40,10 @@ data:
   viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Fear197/
 
 - name: Fear199
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear199/
+  url: 
   type: 
   description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Fear199/
+  viz: 
 
 - name: Fear200
   url: 
@@ -52,38 +52,38 @@ data:
   viz: 
   
 - name: Control181
-  url: 
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Control181/
   type: 
   description: 
-  viz: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control181/
 
   
 - name: Control182
-  url: 
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Control182/
   type: 
   description: 
-  viz: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control182/
 
   
 - name: Control189
-  url: 
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Control189/
   type: 
   description: 
-  viz: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control189/
 
   
 - name: Control239
-  url: 
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Control239/
   type: 
   description: 
-  viz: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control239/
 
   
 - name: Control258
-  url: 
+  url: https://ndwebtools.neurodata.io/cutout/kutten/Control258/
   type: 
   description: 
-  viz: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control258/
   
     
 tools:
