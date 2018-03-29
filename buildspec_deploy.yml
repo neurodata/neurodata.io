@@ -1,0 +1,18 @@
+version: 0.2
+            
+phases:
+  install:
+    commands:
+      - echo Installing grow
+      - apt-get update -y 
+      - apt-get install -y python-pip
+      - pip install grow
+  build:
+    commands:
+      - grow build
+  post_build:
+    commands:
+      - aws s3 sync --delete --exclude static/* build/ "s3://nd-website-deploy"
+      - aws s3 sync --delete --cache-control "max-age=31536000" build/static "s3://nd-website-deploy/static"
+      - aws configure set preview.cloudfront true 
+      - aws cloudfront create-invalidation --distribution-id E1XLAJR2ZIAY9Y --paths *
