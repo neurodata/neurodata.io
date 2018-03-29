@@ -9,7 +9,7 @@ data_types:
 
 
 data:
-- name: Visualize
+- name: BigBrain
   url: https://ndwebtools.neurodata.io/cutout/bigbrain/release2015/
   type: Human
   description: 
