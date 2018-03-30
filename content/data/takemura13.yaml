@@ -15,13 +15,6 @@ data:
   description: 
   viz: https://ndwebtools.neurodata.io/ndviz_url/takemura/takemura13/
 
-- name: Catmaid
-  url: http://openconnecto.me/catmaid/?pid=23&tool=navigator&sid0=36&s0=1
-  type: 
-  description:
-  viz: http://openconnecto.me/catmaid/?pid=23&tool=navigator&sid0=36&s0=1
-
-
 tools:
 
 
