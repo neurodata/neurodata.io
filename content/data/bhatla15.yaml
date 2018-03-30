@@ -10,10 +10,10 @@ data_types:
 
 data:
 - name: "Worm #1"
-  url: https://ndwebtools.neurodata.io/cutout/bhatia/ritaN2/
+  url: https://ndwebtools.neurodata.io/cutout/bhatla/ritaN2/
   type: ssTEM
   description: "1199 serial sections of the anterior pharynx of worm #1"
-  viz: https://ndwebtools.neurodata.io/ndviz_url/bhatia/ritaN2/
+  viz: https://ndwebtools.neurodata.io/ndviz_url/bhatla/ritaN2/
 - name: "Worm #4"
   url: http://openconnecto.me/catmaid/?dataview=37
   type: ssTEM
