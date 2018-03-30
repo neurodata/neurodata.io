@@ -35,33 +35,6 @@ tools:
 
 publications:
 - burns13
-- ohyama15
-- vogelstein14
-- kreshuk15
-- berck16
-- fushiki16
-- schlegel16
-- macnamee16
-- zwart16
-- zwart16_1
-- bhatla15
-- bigbrain2015
-- bock11_video
-- bock11
-- bumbarger13
 - burns14
-- dyer2016
-- freeman14
-- hildebrand17
-- jarrell12
-- kasthuri15
-- kutten16
-- lee16
-- randlett15
-- takemura13
-- tobin17
-- vladimirov14
-- wanner2016_scientific_data
-- wanner2016
-- weiler2014
-- bloss2018
+- to_the_cloud
+- bossDB

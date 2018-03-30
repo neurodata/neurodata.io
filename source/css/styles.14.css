@@ -1608,7 +1608,8 @@ footer.dark,
 
 .tools-pubs .col {
     text-align: left;
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 5px;
     flex: 1;
 }
 
