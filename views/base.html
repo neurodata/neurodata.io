@@ -24,7 +24,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content={{g.static("/source/favicons/ms-icon-144x144.png").url.path}}>
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href={{g.static("/source/css/styles.12.css").url.path}} />
+<link rel="stylesheet" href={{g.static("/source/css/styles.13.css").url.path}} />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69121088-1"></script>
@@ -42,38 +42,7 @@
 
 <div class="wrapper clearfix">
 	
-	<div class="nav">
-		<a href="/" class="logo clearfix">
-			<img src={{g.static("/source/images/nuerodata_logo.png").url.path}}>
-			<h4>NeuroData</h4>
-			<div class="triangle"></div>
-		</a>
-		<div class="links">
-			<ul>
-                {% for item in g.docs('pages') %}
-                {% if not doc.is_hidden %}
-                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endif %}
-                {% endfor %}
-			</ul>
-			<ul class="bottom">
-                {% for item in g.docs('misc') %}
-                	<li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endfor %}                
-
-				<li><a href="mailto:support@neurodata.io"><h5>Contact Us</h5></a></li>
-				<li><h5 class="copy">&copy; Neurodata <script>document.write(new Date().getFullYear())</script></h5></li>
-			</ul>
-		</div>
-		<div id="mobile-nav" class="visible"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-		<div class="mobile-links">
-			<ul>
-                {% for item in g.docs('pages') %}
-                <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                {% endfor %}
-			</ul>
-		</div>
-	</div>
+	{% include 'partials/nav.html' %}
 	
 	<div class="main">
 		

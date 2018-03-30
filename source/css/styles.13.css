@@ -810,6 +810,25 @@ footer.dark,
     transition: 0.3s ease all;
 }
 
+.nav ul li ul {
+    margin-top: -.5em;
+    z-index: 2;
+    background: #f4f4f4;
+}
+
+.nav ul li ul li{
+    border-bottom: none;
+}
+
+.nav ul li ul li h6 {
+    text-indent: 15%;
+}
+
+
+.nav ul li ul li h6:hover {
+    background: white;
+}
+
 .nav ul li h5:hover {
     background: white;
 }
