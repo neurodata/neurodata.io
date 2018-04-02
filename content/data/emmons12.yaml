@@ -1,7 +1,7 @@
-$title: Jarrell et al. (2016)
+$title: Jarrell et al. (2012)
 
 authors: Jarrell et al.
-year: 2016
+year: 2012
 thumb: 
 description: 
 long_description: The Male Caenorhabditis elegans connectome is the second connectome published to date. Many thanks to Steven Cook in the lab of Scott W. Emmons for contributing this data! The data is organized into separate folders representing image stacks from one serially sectioned adult male worm. These images were donated by John White et al. and are currently maintained by Dave Hall. For the moment, they are collected as separate projects in CATMAID for viewing. We hope to generate a global coordinate frame for browsing the data in the near future.
