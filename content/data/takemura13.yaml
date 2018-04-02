@@ -9,7 +9,7 @@ data_types:
 
 
 data:
-- name: BOSS
+- name: takemura13
   url: https://ndwebtools.neurodata.io/cutout/takemura/takemura13/
   type: 
   description: 

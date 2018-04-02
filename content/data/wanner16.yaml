@@ -9,7 +9,7 @@ data_types:
 
 
 data:
-- name: BOSS
+- name: wanner16
   url: https://ndwebtools.neurodata.io/cutout/wanner16/AA201605/
   type: 
   description: 

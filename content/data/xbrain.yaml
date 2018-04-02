@@ -9,7 +9,7 @@ data_types:
 
 
 data:
-- name: BOSS
+- name: dyer16
   url: https://ndwebtools.neurodata.io/cutout/dyer/dyer16/
   type: 
   description: 

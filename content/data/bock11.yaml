@@ -9,7 +9,7 @@ data_types: EM
 
 
 data:
-- name: BOSS
+- name: bock11
   url: https://ndwebtools.neurodata.io/cutout/bock/bock11/
   type: EM
   description: 

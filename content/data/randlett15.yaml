@@ -9,7 +9,7 @@ data_types:
 
 
 data:
-- name: BOSS
+- name: ZBrain
   url: https://ndwebtools.neurodata.io/cutout/ZBrain/ZBrain/
   type: 
   description: 100+ channels
