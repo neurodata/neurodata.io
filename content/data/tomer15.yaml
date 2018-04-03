@@ -76,14 +76,14 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/kutten/Control239/
   type: 
   description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control239/
+  viz: "https://viz.boss.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control239/Grayscale?window=0,1000'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}"
 
   
 - name: Control258
   url: https://ndwebtools.neurodata.io/cutout/kutten/Control258/
   type: 
   description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kutten/Control258/
+  viz: https://viz.boss.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control258/Grayscale?window=0,1000'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}
   
     
 tools:
