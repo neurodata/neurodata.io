@@ -1,5 +1,5 @@
 name: ndboss
-description: NeuroData's implementation of APL's BOSS spatial database, which we use to store 30+ public datasets comprising 100+ terabytes of open data.
+description: NeuroData's deployment of APL's BOSS spatial database, which we use to store 30+ public datasets comprising 100+ terabytes of open data.
 service: True
 library: False
 
