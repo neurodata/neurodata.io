@@ -1,8 +1,0 @@
-name: knorPy
-description: The k-means 'NUMA' Optimized Routine library or 'knor' is a highly optimized and fast library for computing k-means in parallel with accelerations for Non-Uniform Memory Access ('NUMA') architectures. The knorPy library exposes the python interface of the library, wrapping the C++ source.
-service: False
-library: True
-github: flashxio/knorPy
-docs: 
-manuscripts: 
-- mhembere17
