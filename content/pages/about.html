@@ -33,7 +33,7 @@ $order: 4
         <h3>The Team</h3>
             <div class="members clearfix">    
 
-            {% for item in g.docs('people') %}
+            {% for item in g.docs('people') if not item.associate %}
                 {% include 'partials/people.html' %}
             {% endfor %}
         </div>

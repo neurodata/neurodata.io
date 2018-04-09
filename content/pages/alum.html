@@ -11,7 +11,7 @@ $path: /about/alum.html
 <div class="about clearfix">
     <div class="team" id="team">
         <div class="members clearfix">
-            {% for item in g.docs('alumni') %}
+            {% for item in g.docs('alumni') if not item.associate %}
                 {% include 'partials/people.html' %}
             {% endfor %}
         </div>
