@@ -13,23 +13,28 @@ publications:
 </div>
 <div class="doc-nav">
     <ul class="clearfix">
+        <li><a href="#data"><h5>Data</h5></a></li>
         <li><a href="#pubs"><h5>Publications</h5></a></li>
-        <li class="active"><h5>Projects:</h5></li>
-        {% for proj in g.docs('projects') %}
-            <li><a href="{{proj.url.path}}"><h5>{{proj.title}}</h5></a></li>
-        {% endfor %}
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
-        <option selected="selected">Projects</option>
-        {% for proj in g.docs('projects') %}
-            <option value="{{proj.url.path}}">{{proj.title}}</option>
-        {% endfor %}
+        <option selected="selected">Select:</option>
+        <option value="#projects">Projects</option>
+        <option value="#data">Data</option>
+        <option value="#pubs">Publications</option>
     </select>
 </div>
 
 <div class="about clearfix">
     <div class="paper" id="mission">
-        <h3>Data</h3>
+        
+        <div class="data mobile-projects">
+            <h3 id="projects">Projects</h3>
+            {% for proj in g.docs('projects') %}
+                <h4><li><a href="{{proj.url.path}}">{{proj.title}}</a></li></h4>
+            {% endfor %}
+        </div>
+
+        <h3 id="data">Data</h3>
         <p>Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale</p>
         <div class="team">
             <div class="divider"></div>

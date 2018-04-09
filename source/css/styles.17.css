@@ -1650,6 +1650,20 @@ footer.dark,
     margin: 30px 0px;
 }
 
+.data.mobile-projects {
+    display: none;
+    line-height: 1.2em;
+}
+
+.data.mobile-projects h4 {
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
+
+.data.mobile-projects h4 a:hover {
+    color: white;
+}
+
 .team .members .col {
     width: 24%;
     box-sizing: border-box;
@@ -2409,6 +2423,9 @@ footer.dark,
         padding: 1px 20px;
         display: block;
         margin-left: 0px;
+    }
+    .data.mobile-projects {
+        display: block;
     }
 }
 
