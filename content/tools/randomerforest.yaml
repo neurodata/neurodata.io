@@ -1,5 +1,5 @@
 name: Randomer Forest
-description: Novel methods for  constructing randomized decision forests
+description: An improved variant of random forests that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
 service: False
 library: True
 
