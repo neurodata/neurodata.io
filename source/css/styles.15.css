@@ -167,16 +167,14 @@ body {
     font: 16px/1.5 "Gentona Book", "Arial", sans-serif;
     color: #28282e;
     background-color: white;
-    -moz-osx-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: antialiased !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     margin: 0px;
 }
 
-
 /* these overflow rules are required for momentum scrolling on mobile */
-
 
 /* do not place on html tag, breaks window scroll function */
 
@@ -648,7 +646,6 @@ form input[type="submit"] {
     text-align: center;
 }
 
-
 /*
 #video {
 	width: 100% !important;
@@ -741,7 +738,6 @@ footer.dark,
     height: 100%;
 }
 
-
 /* NAVIGATION 
 ---------------------------------------------- */
 
@@ -816,14 +812,13 @@ footer.dark,
     background: #f4f4f4;
 }
 
-.nav ul li ul li{
+.nav ul li ul li {
     border-bottom: none;
 }
 
 .nav ul li ul li h6 {
     text-indent: 15%;
 }
-
 
 .nav ul li ul li h6:hover {
     background: white;
@@ -860,7 +855,6 @@ footer.dark,
     background: white;
     color: #494949;
 }
-
 
 /* MOBILE NAV 
 ---------------------------------------------- */
@@ -1042,7 +1036,6 @@ footer.dark,
     color: #fff;
 }
 
-
 /* MAIN 
 ---------------------------------------------- */
 
@@ -1061,12 +1054,10 @@ footer.dark,
     /* padding-right: 230px; */
 }
 
-
 /* .blur {
 	-webkit-filter: blur(0px);
     filter: blur(0px);
 } */
-
 
 /* VIDEO 
 ---------------------------------------------- */
@@ -1155,7 +1146,6 @@ footer.dark,
     display: none;
 }
 
-
 /* HEADER 
 ---------------------------------------------- */
 
@@ -1204,7 +1194,6 @@ footer.dark,
     max-height: 500px;
     transition: max-height 1s ease all;
 }
-
 
 /* DOC-NAV 
 ---------------------------------------------- */
@@ -1262,7 +1251,6 @@ footer.dark,
     display: none;
 }
 
-
 /* DOCS 
 ---------------------------------------------- */
 
@@ -1305,7 +1293,6 @@ footer.dark,
     color: #318dde;
 }
 
-
 /* PAPER 
 ---------------------------------------------- */
 
@@ -1317,7 +1304,6 @@ footer.dark,
 .paper .button {
     margin: 5px;
 }
-
 
 /* TOOLS 
 ---------------------------------------------- */
@@ -1581,7 +1567,6 @@ footer.dark,
     transform: scale(1.1, 1.1);
 }
 
-
 /* PROJECT 
 ---------------------------------------------- */
 
@@ -1632,7 +1617,6 @@ footer.dark,
 .tools-pubs .col p {
     margin: 0px;
 }
-
 
 /* ABOUT
 ---------------------------------------------- */
@@ -1700,6 +1684,7 @@ footer.dark,
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    filter: contrast(50%);
     transition: 0.3s ease all;
     opacity: 0;
     z-index: 2;
@@ -1757,19 +1742,23 @@ footer.dark,
     height: 45px;
 }
 
-.team .members .col .name {
+.team .members .col .ids {
     z-index: 3;
+    color: #fff;
     position: absolute;
-    bottom: 10px;
-    font-size: 11px;
-    padding: 10px 12px;
+    padding: 5px 5px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 13px;
+}
+
+.team .members .col .name {
+    top: 10px;
 }
 
 .team .members .col .position {
-    z-index: 3;
-    font-size: 11px;
-    font-weight: 100;
-    font: 11px/1.5 "Gentona Book", "Arial", sans-serif;
+    bottom: 10px;
+    right: 5px;
+    text-align: right;
 }
 
 .team .members .col .contact a {
@@ -1817,38 +1806,6 @@ footer.dark,
     float: left;
     margin: 20px;
 }
-
-blockquote {
-    display: inline-block;
-    position: relative;
-    color: #fff;
-    margin: 10px 0 32px 0;
-    font-size: 24px;
-    padding: 0;
-    z-index: 3;
-    position: absolute;
-    bottom: -25px;
-    font-size: 11px;
-    padding: 10px 12px 12px 0px;
-}
-
-blockquote p {
-    color: #fff;
-    display: inline;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    padding: 13px 0px 13px 10px;
-    background: black;
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 48px;
-    box-shadow: 20px 0px 0px 0px black, 0px 0px 0px 0px black;
-    font-family: "Gentona Bold", "Arial Bold", sans-serif;
-    font-size: 11px;
-    line-height: 24px;
-}
-
 
 /* DETAILS 
 ---------------------------------------------- */
@@ -1982,7 +1939,6 @@ blockquote p {
 .detail-wrap .props .col p {
     margin: 0px;
 }
-
 
 /* DATABASE 
 ---------------------------------------------- */
@@ -2223,7 +2179,6 @@ blockquote p {
     display: none;
 }
 
-
 /* STYLE GUIDE 
 ---------------------------------------------- */
 
@@ -2294,7 +2249,6 @@ blockquote p {
 .style-guide ol {
     list-style-type: decimal;
 }
-
 
 /* MEDIA QUERIES - WIDTH
 ---------------------------------------------- */
@@ -2584,7 +2538,6 @@ blockquote p {
         width: 100%;
     }
 }
-
 
 /* MEDIA QUERIES - HEIGHT
 ---------------------------------------------- */

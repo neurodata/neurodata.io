@@ -56,25 +56,9 @@
         <h3 id="data">Data</h3>
         <div class="team">
             <div class="members clearfix" id="team">
-                {% for item in g.docs('data') %}
+                {% for item in g.docs('data', order_by='authors') %}
                     {% if item.base in doc.data %}
-                    <div class="col">
-                        <a href="{{item.url.path}}">
-                        <blockquote>
-                            <p><span class="position">
-                                {{item.authors}} {{item.year}}
-                            </span></p>
-                        </blockquote>
-                        {% if item.thumb %}
-                            <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                            <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                        {% else %}
-                            {# Default images are in style.css #}
-                            <div class="bw"></div>
-                            <div class="color"></div>
-                        {% endif %}
-                        </a>
-                    </div>
+                        {% include 'partials/data_blocks.html' %}
                     {% endif %}
                 {% endfor %}
             </div>                                        

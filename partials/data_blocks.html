@@ -1,0 +1,20 @@
+<div class="col">
+    <a href="{{item.url.path}}">
+    <span class="ids name">
+        {{item.authors}} {{item.year}}
+    </span>
+    {% if item.description %}
+    <span class="ids position">
+        {{item.description|truncate(55, True)}} 
+    </span>
+    {% endif %}
+    {% if item.thumb %}
+        <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+        <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+    {% else %}
+        {# Default images are in style.css #}
+        <div class="bw"></div>
+        <div class="color"></div>
+    {% endif %}
+    </a>
+</div>

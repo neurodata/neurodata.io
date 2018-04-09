@@ -29,23 +29,7 @@ $order: 1
             <div class="divider"></div>
             <div class="members clearfix" id="team">
                 {% for item in g.docs('data', order_by='authors') %}
-                <div class="col">
-                    <a href="{{item.url.path}}">
-                    <blockquote>
-                        <p><span class="position">
-                            {{item.authors}} {{item.year}}
-                        </span></p>
-                    </blockquote>
-                    {% if item.thumb %}
-                        <div class="bw" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                        <div class="color" style="background: url('{{g.static("/source/images/data/" + item.thumb).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-                    {% else %}
-                        {# Default images are in style.css #}
-                        <div class="bw"></div>
-                        <div class="color"></div>
-                    {% endif %}
-                    </a>
-                </div>
+                    {% include 'partials/data_blocks.html' %}
                 {% endfor %}
             </div>                                        
         </div>
