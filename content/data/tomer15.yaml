@@ -39,18 +39,6 @@ data:
   description: 
   viz: "https://viz.boss.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Fear197/Grayscale?window=0,1000'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
-- name: Fear199
-  url: 
-  type: 
-  description: 
-  viz: 
-
-- name: Fear200
-  url: 
-  type: 
-  description: 
-  viz: 
-  
 - name: Control181
   url: https://ndwebtools.neurodata.io/cutout/kutten/Control181/
   type: 
