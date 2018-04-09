@@ -1,5 +1,5 @@
 name: ndmg
-description: NeuroData’s MR Graphs package, ndmg combines dMRI and sMRI data from a single subject to estimate a high-level connectome reliably and scalably.
+description: NeuroData’s MR Graphs package, ndmg combines diffusion and functional MRI data from individuals to estimate connectome reliably and scalably, and compare populations.
 service: False
 library: True
 

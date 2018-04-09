@@ -1,5 +1,5 @@
 name: MGC
-description: Multiscale Generalized Correlation
+description: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data.
 service: False
 library: True
 
