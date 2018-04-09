@@ -1,5 +1,5 @@
 name: LOL
-description: Linear Optimal Low-rank (LOL) projection for high-dimensional multi-class data
+description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
 service: False
 library: True
 
