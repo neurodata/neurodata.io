@@ -1,7 +1,11 @@
 ---
 $title@: Data
 $order: 1
-
+publications: 
+- burns13
+- burns14
+- to_the_cloud
+- bossDB
 ---
 
 <div class="header about-header">
@@ -9,6 +13,7 @@ $order: 1
 </div>
 <div class="doc-nav">
     <ul class="clearfix">
+        <li><a href="#pubs"><h5>Publications</h5></a></li>
         <li class="active"><h5>Projects:</h5></li>
         {% for proj in g.docs('projects') %}
             <li><a href="{{proj.url.path}}"><h5>{{proj.title}}</h5></a></li>
@@ -24,6 +29,7 @@ $order: 1
 
 <div class="about clearfix">
     <div class="paper" id="mission">
+        <h3>Data</h3>
         <p>Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale</p>
         <div class="team">
             <div class="divider"></div>
@@ -33,5 +39,8 @@ $order: 1
                 {% endfor %}
             </div>                                        
         </div>
+
+        <h3 id="pubs">Publications</h3>
+        {% include '/partials/pubs_list.html' %}
     </div>
 </div>

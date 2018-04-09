@@ -1,5 +1,5 @@
 name: ndpush
-description: Command line program to ingest large volume image data into the cloud using APL's BOSS spatial database.
+description: Command-line program to ingest large volume image data into the cloud using APL's BOSS spatial database.
 service: True
 library: False
 

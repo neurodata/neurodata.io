@@ -1296,11 +1296,6 @@ footer.dark,
 /* PAPER 
 ---------------------------------------------- */
 
-.paper h3 {
-    font-size: 18px;
-    text-transform: none;
-}
-
 .paper .button {
     margin: 5px;
 }
@@ -1640,6 +1635,10 @@ footer.dark,
     color: white;
 }
 
+.about h3 a:hover {
+    color: white;
+}
+
 .about p a:hover {
     color: white;
 }
@@ -1779,6 +1778,10 @@ footer.dark,
 
 .team .members .col .contact a .hover:hover {
     opacity: 1;
+}
+
+.paper .item h4 a:hover {
+    color: white;
 }
 
 .press a {
