@@ -9,11 +9,11 @@ data_types:
 
 
 data:
-- name: Catmaid tiles
+- name: Catmaid tiles temporarily unavilable
   url: 
   type: 
   description: 
-  viz: http://openconnecto.me/catmaid/?pid=74&zp=38640&yp=243254.2591627322&xp=461811.59454724466&tool=navigator&sid0=113&s0=7
+  viz: 
     
 tools:
   

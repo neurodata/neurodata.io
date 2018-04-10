@@ -1185,6 +1185,7 @@ footer.dark,
     transition: 0.3s ease all;
     max-height: 500px;
     transition: max-height 1s ease all;
+    text-align: justify;
 }
 
 .header p.hidden.active {
@@ -1193,6 +1194,7 @@ footer.dark,
     opacity: 1;
     max-height: 500px;
     transition: max-height 1s ease all;
+    text-align: justify;
 }
 
 /* DOC-NAV 
@@ -1566,7 +1568,7 @@ footer.dark,
 ---------------------------------------------- */
 
 .project {
-    padding: 50px 80px;
+    padding: 5px 80px;
     background-color: white;
 }
 
@@ -1622,7 +1624,7 @@ footer.dark,
 }
 
 .about {
-    padding: 50px 80px;
+    padding: 5px 80px;
     background: url("../images/about-bottom-hero.jpg")no-repeat center top;
     background-color: #28282e;
 }
