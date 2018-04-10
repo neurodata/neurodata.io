@@ -3,6 +3,7 @@ description: NeuroDataViz is a web tool for viewing datasets stored using NeuroD
 service: True
 library: False
 
+link: https://viz.boss.neurodata.io/
 api: 
 github: neurodata/ndviz
 docs: http://docs.neurodata.io/ndviz/

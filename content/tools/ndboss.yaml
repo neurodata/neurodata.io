@@ -3,6 +3,7 @@ description: NeuroData's deployment of APL's BOSS spatial database, which we use
 service: True
 library: False
 
+link: "https://api.boss.neurodata.io"
 api:
 github: neurodata/boss
 docs:
