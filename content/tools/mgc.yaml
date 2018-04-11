@@ -5,8 +5,7 @@ library: True
 
 api: 
 github: neurodata/mgc
-docs: https://neurodata-papers.github.io/MGC/
+docs: 
 manuscripts: 
 press: https://arxiv.org/abs/1609.05148
 
- 
