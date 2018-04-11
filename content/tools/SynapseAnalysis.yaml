@@ -1,0 +1,14 @@
+name: SynapseAnalysis
+hide: True
+description: A framework to evaluate synaptic antibodies for array tomography (AT) 
+service: True
+library: False
+
+link: https://aksimhal.github.io/SynapseAnalysis/
+api: 
+github: aksimhal/SynapseAnalysis
+docs: 
+manuscripts: 
+- simhal17
+press: 
+  

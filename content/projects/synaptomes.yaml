@@ -37,6 +37,7 @@ tools:
 - ndwebtools
 - ndpush
 - ndviz
+- SynapseAnalysis
 
 publications:
 - collman15
