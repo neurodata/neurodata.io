@@ -1326,9 +1326,17 @@ footer.dark,
 }
 
 .tool-wrap h3 {
+    font-size: 26px;
+    line-height: 1.2em;
+}
+
+.tool-wrap h4 {
+    color: #28282e;
     font-size: 18px;
     text-transform: none;
     margin-bottom: 0px;
+    font-family: "Quadon Medium", "Rockwell Bold", serif;
+    font-weight: normal !important;
 }
 
 .tool-wrap .item {
@@ -1340,34 +1348,18 @@ footer.dark,
     background: #edf2f7;
 }
 
-.tool-wrap .options {
-    float: right;
-    width: auto;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.tool-wrap .options a {
-    display: inline-block;
-    float: left;
-    margin: 0 8px;
-    position: relative;
-}
-
-.tool-wrap .options .link:hover span {
+.item .options .link:hover span {
     opacity: 1;
 }
 
-.tool-wrap .options .link span {
+.item .options .link span {
     opacity: 0;
     pointer-events: none;
     transition: 0.3s ease all;
     position: absolute;
 }
 
-.tool-wrap .options .link span h5 {
+.item .options .link span h5 {
     color: black;
     background: #dfd6c2;
     position: relative;
@@ -1376,7 +1368,7 @@ footer.dark,
     width: auto;
 }
 
-.tool-wrap .options .link .triangle {
+.item .options .link .triangle {
     width: 0;
     height: 0;
     border-style: solid;
@@ -1602,17 +1594,35 @@ footer.dark,
     padding: 18px 5px;
 }
 
-.tools-pubs .col .item {
+.col .item {
     margin: 17px 0px;
+    position: relative;
 }
 
-.tools-pubs .col h4 {
+.col .item h4 {
     color: #6487a5;
     font-size: 17px;
+    line-height: 1.5;
 }
 
 .tools-pubs .col p {
     margin: 0px;
+}
+
+.item .options {
+    float: right;
+    width: auto;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item .options .link a {
+    display: inline-block;
+    float: left;
+    margin: 0 8px;
+    position: relative;
 }
 
 /* ABOUT
@@ -2456,13 +2466,14 @@ footer.dark,
     .tool-wrap .child {
         flex-basis: auto;
     }
-    .tool-wrap .options {
+    .item .options {
         float: none;
         width: auto;
         display: block;
         position: relative;
         right: initial;
         top: initial;
+        margin-top: .5em;
     }
 }
 

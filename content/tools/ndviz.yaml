@@ -6,6 +6,6 @@ library: False
 link: https://viz.boss.neurodata.io/
 api: 
 github: neurodata/ndviz
-docs: http://docs.neurodata.io/ndviz/
+docs: 
 manuscripts: 
 press: 

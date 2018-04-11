@@ -36,6 +36,7 @@ tools:
 - meda
 - ndwebtools
 - ndpush
+- ndviz
 
 publications:
 - collman15

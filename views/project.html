@@ -67,9 +67,18 @@
 
         <div class="tools-pubs">
             {% if doc.tools %}
-                {% include 'partials/tools_list.html' %}
+                <div class="col" id="tools">
+                    <h4 class="title">Tools</h4>
+                    {% for item in g.docs('tools') %}
+                        {% if item.name in doc.tools %}
+                            <div class="item">
+                            {% include 'partials/tools_detail_list.html' %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
             {% endif %}
-
+                
             {% if doc.publications %}
             <div class="col" id="publications">
                 <h4 class="title">Publications</h4>

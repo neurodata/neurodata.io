@@ -48,7 +48,31 @@
             </div>
 
             {% if doc.tools is defined and doc.tools or doc.analyses is defined and doc.analyses %}
-            {% include 'partials/tools_list.html' %}
+                <div class="col" id="tools">
+
+                    <h4 class="title">Tools</h4>
+                    {% if doc.tools %}
+                        {% for item in g.docs('tools') %}
+                            {% if item.name in doc.tools %}
+                                <div class="item">
+                                {% include 'partials/tools_detail_list.html' %}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif%}
+            
+                    {% for item in doc.analyses %}
+                        <div class="item">
+                            <h4>
+                                <a href="{{item.url}}">{{ item.name }}</a>
+                            </h4>
+                            {% if item.description is not none %}
+                                <p>{{item.description}}</p>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+
+                </div>
             {% endif %}
 
             {% if doc.publications %}

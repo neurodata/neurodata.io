@@ -7,20 +7,34 @@ $order: 3
 </div>
 <div class="tool-wrap"> 
     <div class="child">
-        <h4 class="title">Web Services</h4>
+        <h3 class="title">Web Services</h3>
         {% for item in g.docs('tools') if not item.hide and item.service %}
-            {% with loop_var=loop %}    
-            {% include 'partials/tools_detail_list.html' %}
-            {% endwith %}
+            <div class="item">
+                {% if loop.index % 2 != 0 %}
+                <div class="odd">
+                {% else %}
+                <div class="even">
+                {% endif %}
+
+                {% include 'partials/tools_detail_list.html' %}
+                </div>
+            </div>
         {% endfor %}
     </div>
 
     <div class="child">
-        <h4 class="title">Numerical Libraries</h4>
+        <h3 class="title">Numerical Libraries</h3>
         {% for item in g.docs('tools') if not item.hide and item.library %}
-            {% with loop_var=loop %}    
-            {% include 'partials/tools_detail_list.html' %}
-            {% endwith %}
+            <div class="item">
+                {% if loop.index % 2 != 0 %}
+                <div class="odd">
+                {% else %}
+                <div class="even">
+                {% endif %}
+
+                {% include 'partials/tools_detail_list.html' %}
+                </div>
+            </div>
         {% endfor %}
     </div>
 </div>
