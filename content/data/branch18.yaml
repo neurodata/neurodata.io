@@ -1,0 +1,25 @@
+$title: Branch
+
+authors: Branch
+year: 2018
+thumb: branch18.jpg
+description: Adult generated neurons in aging M. musculus
+long_description: 
+data_types: iDisco
+
+
+data:
+- name: Adult generated neurons in aging M. musculus
+  url: https://ndwebtools.neurodata.io/cutout/ABagemouse/dentateECcagGFP3/
+  type: iDisco
+  description: dentateECcagGFP3
+  viz: "https://viz.boss.neurodata.io/#!{'layers':{'Ch0':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/ABagemouse/dentateECcagGFP3/Ch0?window=0,10000'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[2000_2000_2500]_'voxelCoordinates':[1027_1377_1]}}_'zoomFactor':6980}}"
+    
+tools:
+
+
+analyses:
+
+  
+publications:
+- ocpaper18
