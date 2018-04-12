@@ -10,11 +10,29 @@ data_types:
 
 
 data:
-- name: Allen Reference Atlas
-  url: https://ndwebtools.neurodata.io/exp_list/ara_2016/
+- name: sagittal_100um
+  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_100um/
   type: 
   description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/
+  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_100um/annotation_100um_2017/
+
+- name: sagittal_50um
+  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_50um/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_50um/annotation_50um/
+
+- name: sagittal_25um
+  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_25um/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_25um/annotation_25um_2017/
+
+- name: sagittal_10um
+  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_10um/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/annotation_10um_2017/
     
 tools:
 
