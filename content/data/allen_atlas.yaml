@@ -1,0 +1,25 @@
+$title: Allen Reference Atlas
+
+authors: Allen Institute
+year: 2017
+thumb: ara17.jpg
+description: Adult Mouse Reference Atlas from the Allen Institute
+long_description: "These anatomical reference atlases illustrate the adult mouse brain in coronal and sagittal planes of section. They are the spatial framework for datasets such as in situ hybridization, cell projection maps, and in vitro cell characterization. More information at <a href='http://atlas.brain-map.org/'>atlas.brain-map.org</a>"
+
+data_types:
+
+
+data:
+- name: Allen Reference Atlas
+  url: https://ndwebtools.neurodata.io/exp_list/ara_2016/
+  type: 
+  description: 
+  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/
+    
+tools:
+
+
+analyses:
+  
+publications:
+- allen_atlas2009
