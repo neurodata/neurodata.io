@@ -8,8 +8,4 @@ github: neurodata/ndmg
 docs: http://m2g.io/
 manuscripts: 
 press: 
-
-
-
- 
-
+docker: https://hub.docker.com/r/neurodata/ndmg/

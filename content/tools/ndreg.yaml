@@ -11,4 +11,4 @@ manuscripts:
 - kutten16
 - kutten17
 press: 
-
+docker: https://hub.docker.com/r/neurodata/ndreg/

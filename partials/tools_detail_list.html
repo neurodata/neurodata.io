@@ -11,19 +11,25 @@
 <div class="options clearfix">
     {% if item.api %}
         <div class="link">
-            <a href="{{item.api}}"><img src={{g.static("/source/images/settings.png").url.path}} class="tooltip" title="API"></a>
+            <a href="{{item.api}}" target="_blank"><img src={{g.static("/source/images/settings.png").url.path}} class="tooltip" title="API"></a>
         </div>
     {% endif %}
     
     {% if item.github %}
         <div class="link">
-            <a href="https://github.com/{{item.github}}"><img src={{g.static("/source/images/code.png").url.path}} class="tooltip" title="Code"></a>
+            <a href="https://github.com/{{item.github}}" target="_blank"><img src={{g.static("/source/images/code.png").url.path}} class="tooltip" title="Code"></a>
+        </div>
+    {% endif %}
+    
+    {% if item.docker %}
+        <div class="link">
+            <a href="{{item.docker}}" target="_blank"><img src={{g.static("/source/images/docker.png").url.path}} class="tooltip" title="Docker"></a>
         </div>
     {% endif %}
     
     {% if item.docs %}
     <div class="link">
-        <a href="{{item.docs}}"><img src={{g.static("/source/images/document.png").url.path}} class="tooltip" title="Docs"></a>
+        <a href="{{item.docs}}" target="_blank"><img src={{g.static("/source/images/document.png").url.path}} class="tooltip" title="Docs"></a>
     </div>
     {% endif %}
 
@@ -31,21 +37,21 @@
         {% for man in g.docs('publications') %}
             {% if man.base in item.manuscripts %}
             <div class="link">
-                <a href="{{man.link}}"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="{{man.name}} ({{man.year}})"></a>
+                <a href="{{man.link}}" target="_blank"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="{{man.name}} ({{man.year}})"></a>
             </div>
             {% endif %}
         {% endfor %}
     {% endif %}
     
     {% if item.press %}
-    <div class="link"><a href="{{item.press}}"><img src={{g.static("/source/images/paper.png").url.path}} class="tooltip" title="Press"></a></div>
+    <div class="link"><a href="{{item.press}}" target="_blank"><img src={{g.static("/source/images/paper.png").url.path}} class="tooltip" title="Press"></a></div>
     {% endif %}
     
     {% if item.github %}
-    <div class="link">
-        <a href="https://github.com/{{item.github}}/graphs/contributors">
-            <img src={{g.static("/source/images/user-silhouette.png").url.path}} class="tooltip" title="Contributors">
-        </a>
-    </div>
+        <div class="link">
+            <a href="https://github.com/{{item.github}}/graphs/contributors" target="_blank">
+                <img src={{g.static("/source/images/user-silhouette.png").url.path}} class="tooltip" title="Contributors">
+            </a>
+        </div>
     {% endif %}
 </div>

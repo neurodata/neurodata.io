@@ -9,3 +9,4 @@ github: "neurodata/ndio"
 docs: "http://docs.neurodata.io/nddocs/ndio/"
 manuscripts: 
 press: 
+docker: https://hub.docker.com/r/neurodata/ndio/

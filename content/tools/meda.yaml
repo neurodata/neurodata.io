@@ -8,3 +8,4 @@ github: neurodata/meda
 docs: 
 manuscripts: 
 press: 
+docker: https://hub.docker.com/r/neurodata/meda/

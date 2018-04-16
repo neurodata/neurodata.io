@@ -7,5 +7,6 @@ api:
 github: neurodata/mgc
 docs: 
 manuscripts: 
-press: https://arxiv.org/abs/1609.05148
-
+- shen18
+press: 
+docker: https://hub.docker.com/r/neurodata/mgc/
