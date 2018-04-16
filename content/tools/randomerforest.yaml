@@ -4,8 +4,8 @@ service: False
 library: True
 
 api: 
-github: ttomita/RandomerForest
-docs: https://github.com/ttomita/RandomerForest/blob/master/example.pdf
+github: neurodata/R-RerF
+docs: https://github.com/neurodata/R-RerF/blob/master/README.md
 manuscripts: 
 - tomita18
 - tomita17
