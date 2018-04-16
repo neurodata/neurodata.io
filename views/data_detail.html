@@ -2,87 +2,85 @@
 
 {% block main %}
 
-<div class="wrap">
-    <div class="header detail">
-        <h2>{{doc.title}}</h2>
-        {% if doc.description is not none %}
-            <p>{{doc.description}}</p>
-        {% endif %}
-        {% if doc.long_description is not none %}
-            <p class="hidden">{{doc.long_description|safe}}</p>
-            <a href="#" class="button expand">Learn More</a>
-        {% endif %}
-    </div>
+<div class="header detail">
+    <h2>{{doc.title}}</h2>
+    {% if doc.description is not none %}
+        <p>{{doc.description}}</p>
+    {% endif %}
+    {% if doc.long_description is not none %}
+        <p class="hidden">{{doc.long_description|safe}}</p>
+        <a href="#" class="button expand">Learn More</a>
+    {% endif %}
+</div>
 
-    <div class="detail-wrap">
-        <div class="props">
+<div class="detail-wrap">
+    <div class="props">
 
-            <div class="col">
-                <h4 class="title">Data</h4>
-                {% for item in doc.data %}
-                    {% if item.name is not none %}
+        <div class="col">
+            <h4 class="title">Data</h4>
+            {% for item in doc.data %}
+                {% if item.name is not none %}
+                <div class="item">
+                    <h4>
+                        {% if item.url %}
+                        <a href="{{item.url}}" target="_blank">{{ item.name }}</a>
+                        {% else %}
+                        {{ item.name }}
+                        {% endif %}
+                    
+                        {% if item.viz %}
+                        <a href="{{item.viz}}" target="_blank">
+                            <img 
+                                src={{g.static('/source/images/eye.svg').url.path}}
+                                alt="Viz"
+                                height="22px"
+                                width="22px">
+                        </a>
+                        {% endif %}
+                    </h4>
+                    {% if item.description is not none %}
+                        <p>{{item.description}}</p>
+                    {% endif %}
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        {% if doc.tools is defined and doc.tools or doc.analyses is defined and doc.analyses %}
+            <div class="col" id="tools">
+
+                <h4 class="title">Tools</h4>
+                {% if doc.tools %}
+                    {% for item in g.docs('tools') %}
+                        {% if item.name in doc.tools %}
+                            <div class="item">
+                            {% include 'partials/tools_detail_list.html' %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endif%}
+        
+                {% for item in doc.analyses %}
                     <div class="item">
                         <h4>
-                            {% if item.url %}
-                            <a href="{{item.url}}" target="_blank">{{ item.name }}</a>
-                            {% else %}
-                            {{ item.name }}
-                            {% endif %}
-                        
-                            {% if item.viz %}
-                            <a href="{{item.viz}}" target="_blank">
-                                <img 
-                                    src={{g.static('/source/images/eye.svg').url.path}}
-                                    alt="Viz"
-                                    height="22px"
-                                    width="22px">
-                            </a>
-                            {% endif %}
+                            <a href="{{item.url}}">{{ item.name }}</a>
                         </h4>
                         {% if item.description is not none %}
                             <p>{{item.description}}</p>
                         {% endif %}
                     </div>
-                    {% endif %}
                 {% endfor %}
+
             </div>
+        {% endif %}
 
-            {% if doc.tools is defined and doc.tools or doc.analyses is defined and doc.analyses %}
-                <div class="col" id="tools">
-
-                    <h4 class="title">Tools</h4>
-                    {% if doc.tools %}
-                        {% for item in g.docs('tools') %}
-                            {% if item.name in doc.tools %}
-                                <div class="item">
-                                {% include 'partials/tools_detail_list.html' %}
-                                </div>
-                            {% endif %}
-                        {% endfor %}
-                    {% endif%}
-            
-                    {% for item in doc.analyses %}
-                        <div class="item">
-                            <h4>
-                                <a href="{{item.url}}">{{ item.name }}</a>
-                            </h4>
-                            {% if item.description is not none %}
-                                <p>{{item.description}}</p>
-                            {% endif %}
-                        </div>
-                    {% endfor %}
-
-                </div>
-            {% endif %}
-
-            {% if doc.publications %}
-            <div class="col">
-                <h4 class="title">Publications</h4>
-                {% include 'partials/pubs_list.html' %}
-            </div>
-            {% endif %}
-
+        {% if doc.publications %}
+        <div class="col">
+            <h4 class="title">Publications</h4>
+            {% include 'partials/pubs_list.html' %}
         </div>
+        {% endif %}
+
     </div>
 </div>
 

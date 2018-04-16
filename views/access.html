@@ -1,0 +1,29 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+<div class="header detail">
+    <h2>{{doc.title}}</h2>
+</div>
+
+
+<div class="doc-nav">
+    <ul>
+        {% for option in doc.options %}
+            <li><a href="#{{option}}"><h5>{{option}}</h5></a></li>
+        {% endfor%}
+    </ul>
+    <select>
+        <option selected="selected">Jump to:</option>
+        {% for option in doc.options %}
+            <option value="{{option}}">{{option}}</option>
+        {% endfor%}
+    </select>
+</div>
+
+<div class="docs">
+    {{doc.html|safe}}
+</div>
+    
+
+{% endblock %}

@@ -1262,7 +1262,34 @@ footer.dark,
 
 .docs {
     background: white;
-    padding: 50px 80px;
+    padding: 5px 80px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.docs h3 {
+    font-size: 22px;
+}
+
+.docs h4 {
+    font-size: 20px;
+}
+
+.docs ol {
+    list-style-type: decimal;
+}
+
+.docs ul {
+    list-style-type: disc;
+}
+
+.docs ul,
+ol {
+    margin-left: 10px;
+}
+
+.docs p {
+    text-align: justify;
 }
 
 .docs .col {
