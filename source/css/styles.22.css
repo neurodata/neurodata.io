@@ -2000,6 +2000,13 @@ ol {
     margin: 0px;
 }
 
+.detail-wrap p#notice {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* DATABASE 
 ---------------------------------------------- */
 
