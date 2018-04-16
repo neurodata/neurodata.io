@@ -34,7 +34,7 @@
     {% endif %}
 
     {% if item.manuscripts %}
-        {% for man in g.docs('publications') %}
+        {% for man in g.docs('publications')|sort(attribute='name')|sort(attribute='year', reverse=True)  %}
             {% if man.base in item.manuscripts %}
             <div class="link">
                 <a href="{{man.link}}" target="_blank"><img src={{g.static("/source/images/book.png").url.path}} class="tooltip" title="{{man.name}} ({{man.year}})"></a>
@@ -44,7 +44,7 @@
     {% endif %}
     
     {% if item.press %}
-    <div class="link"><a href="{{item.press}}" target="_blank"><img src={{g.static("/source/images/paper.png").url.path}} class="tooltip" title="Press"></a></div>
+        <div class="link"><a href="{{item.press}}" target="_blank"><img src={{g.static("/source/images/paper.png").url.path}} class="tooltip" title="Press"></a></div>
     {% endif %}
     
     {% if item.github %}
