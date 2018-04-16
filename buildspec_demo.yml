@@ -12,5 +12,4 @@ phases:
       - grow build
   post_build:
     commands:
-      - aws s3 sync --delete --exclude static/* build/ "s3://nd-website-demo"
-      - aws s3 sync --delete --cache-control "max-age=31536000" build/static "s3://nd-website-demo/static"
+      - aws s3 sync --delete build/ "s3://nd-website-demo"
