@@ -2,7 +2,7 @@
     {% if item.link %}
         <a href="{{item.link}}" target="_blank">{{item.name}}</a>
     {% else %}
-        {{item.name}}
+        <a href="https://github.com/{{item.github}}" target="_blank">{{item.name}}</a>
     {% endif %}
 </h4>
 <p>
@@ -15,7 +15,7 @@
         </div>
     {% endif %}
     
-    {% if item.github %}
+    {% if item.github  and item.link %}
         <div class="link">
             <a href="https://github.com/{{item.github}}" target="_blank"><img src={{g.static("/source/images/code.png").url.path}} class="tooltip" title="Code"></a>
         </div>
