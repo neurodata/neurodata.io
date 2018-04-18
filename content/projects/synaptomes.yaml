@@ -40,9 +40,9 @@ tools:
 - SynapseAnalysis
 
 publications:
-- collman15
-- simhal18
-- simhal17
-- burette15
-- ounkomol18
-- franca17
+- collman2015mapping
+- simhal2018computational
+- simhal2017probabilistic
+- burette2015knowing
+- ounkomol2018label
+- francca2017energy

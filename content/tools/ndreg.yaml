@@ -8,7 +8,7 @@ api:
 github: neurodata/ndreg
 docs: 
 manuscripts:
-- kutten16
-- kutten17
+- kutten2016deformably
+- kutten2017large
 press: 
 docker: https://hub.docker.com/r/neurodata/ndreg/

@@ -23,14 +23,14 @@ data:
 tools:
 
 publications:
-- ohyama15
-- vogelstein14
-- kreshuk15
-- berck16
-- fushiki16
-- schlegel16
-- macnamee16
-- zwart16
-- zwart16_1
+- ohyama2015multilevel
+- vogelstein2014discovery
+- kreshuk2015talking
+- berck2016wiring
+- fushiki2016circuit
+- schlegel2016synaptic
+- macnamee2016astrocytic
+- zwart2016selective
+- jovanic2016competitive
 
 

@@ -1593,6 +1593,8 @@ ol {
 .project {
     padding: 5px 80px;
     background-color: white;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .project h3 {
@@ -1613,8 +1615,8 @@ ol {
 
 .tools-pubs .col {
     text-align: left;
-    padding-top: 15px;
     margin-right: 5px;
+    margin-top: -30px;
     flex: 1;
 }
 
@@ -1630,14 +1632,16 @@ ol {
     position: relative;
 }
 
-.col .item h4 {
+.item h4 {
     color: #6487a5;
     font-size: 17px;
     line-height: 1.5;
+    text-transform: none;
 }
 
 .tools-pubs .col p {
     margin: 0px;
+    max-width: 900px;
 }
 
 .item .options {
@@ -1666,6 +1670,7 @@ ol {
 
 .about {
     padding: 5px 80px;
+    padding-bottom: 45px;
     background: url("../images/about-bottom-hero.jpg")no-repeat center top;
     background-color: #28282e;
 }
@@ -1835,6 +1840,13 @@ ol {
 
 .team .members .col .contact a .hover:hover {
     opacity: 1;
+}
+
+.paper .item h4 {
+    color: #a6bcd7;
+    font-size: 22px;
+    line-height: 1.4em;
+    margin: 1em 0em;
 }
 
 .paper .item h4 a:hover {

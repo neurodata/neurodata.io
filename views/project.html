@@ -64,10 +64,10 @@
     </div>
     {% endif %}
 
-    <div class="tools-pubs">
-        {% if doc.tools %}
-            <div class="col" id="tools">
-                <h4 class="title">Tools</h4>
+    {% if doc.tools %}
+        <h3 class="title" id="tools">Tools</h4>
+        <div class="tools-pubs">
+            <div class="col">
                 {% for item in g.docs('tools') %}
                     {% if item.name in doc.tools %}
                         <div class="item">
@@ -76,21 +76,23 @@
                     {% endif %}
                 {% endfor %}
             </div>
-        {% endif %}
-            
-        {% if doc.publications %}
-        <div class="col" id="publications">
-            <h4 class="title">Publications</h4>
-            {% include 'partials/pubs_list.html' %}    
         </div>
-        {% endif %}
-    </div>
+    {% endif %}
+    
+    {% if doc.publications %}
+        <h3 class="title" id="publications">Publications</h3>
+        <div class="tools-pubs">
+            <div class="col">
+                {% include 'partials/pubs_list.html' %}    
+            </div>
+        </div>
+    {% endif %}
 
 
 <!-- People -->
     {% if doc.people %}
-    <div class="team" id="people">
-        <h3>People on project</h3>
+    <div class="team">
+        <h3 id="people">People on project</h3>
         <div class="members clearfix">
             
             {% for item in g.docs('people') %}

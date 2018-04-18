@@ -4,11 +4,11 @@ description: A framework to evaluate synaptic antibodies for array tomography (A
 service: True
 library: False
 
-link: https://aksimhal.github.io/SynapseAnalysis/
+link: 
 api: 
 github: aksimhal/SynapseAnalysis
-docs: 
+docs: https://aksimhal.github.io/SynapseAnalysis/
 manuscripts: 
-- simhal17
+- simhal2017probabilistic
 press: 
   

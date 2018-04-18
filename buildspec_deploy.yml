@@ -9,6 +9,7 @@ phases:
       - pip install grow
   build:
     commands:
+      - grow install
       - grow build
   post_build:
     commands:

@@ -5,4 +5,4 @@ library: True
 api: https://cran.r-project.org/web/packages/knor/knor.pdf
 github: flashxio/knor
 manuscripts: 
-- mhembere17
+- mhembere2017knor

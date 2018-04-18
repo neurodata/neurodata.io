@@ -29,5 +29,9 @@ sitemap:
   locales:                      # Optional.
   - en_US
 
+extensions:
+  jinja2:
+  - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
+
 #preprocessors:
 #- kind: gulp

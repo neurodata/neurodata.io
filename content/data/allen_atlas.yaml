@@ -40,6 +40,7 @@ tools:
 analyses:
   
 publications:
-- allen_atlas2009
-- ARA_whitepaper
-- lein2007
+- Jones2009
+- lein2007genome
+
+# - ARA_whitepaper
