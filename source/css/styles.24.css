@@ -1842,15 +1842,19 @@ ol {
     opacity: 1;
 }
 
-.paper .item h4 {
+.paper .item p {
     color: #a6bcd7;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
     margin: 1em 0em;
 }
 
 .paper .item h4 a:hover {
     color: white;
+}
+
+.press.press{
+    line-height: 2em;
 }
 
 .press a {

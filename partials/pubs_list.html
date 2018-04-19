@@ -3,11 +3,11 @@
 {% for item in PUBS %}
     {% if item.ID in doc.publications %}
         <div class="item">
-            <h4>
+            <p>
                 {{item|print_authors}} 
                 <a href="{{item|print_link}}" target="_blank">{{item|print_title|render|safe}}</a>.
-                In <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
-            </h4>
+                <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
+            </p>
         </div>
     {% endif %}
 {% endfor %}
