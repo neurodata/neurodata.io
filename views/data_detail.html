@@ -78,6 +78,7 @@
         {% if doc.publications %}
         <div class="col">
             <h4 class="title">Publications</h4>
+            {% set pubs = doc.publications %}
             {% include 'partials/pubs_list.html' %}
         </div>
         {% endif %}

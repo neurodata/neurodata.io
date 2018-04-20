@@ -83,25 +83,25 @@
         <h3 class="title" id="publications">Publications</h3>
         <div class="tools-pubs">
             <div class="col">
+                {% set pubs = doc.publications %}
                 {% include 'partials/pubs_list.html' %}    
             </div>
         </div>
     {% endif %}
 
 
-<!-- People -->
     {% if doc.people %}
-    <div class="team">
-        <h3 id="people">People on project</h3>
-        <div class="members clearfix">
-            
-            {% for item in g.docs('people') %}
-                {% if item.base in doc.people %}
-                    {% include 'partials/people.html' %}
-                {% endif %}
-            {% endfor %}
+        <div class="team">
+            <h3 id="people">People on project</h3>
+            <div class="members clearfix">
+                
+                {% for item in g.docs('people') %}
+                    {% if item.base in doc.people %}
+                        {% include 'partials/people.html' %}
+                    {% endif %}
+                {% endfor %}
+            </div>
         </div>
-    </div>
     {% endif %}
 </div>
 

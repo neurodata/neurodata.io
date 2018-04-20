@@ -1,0 +1,9 @@
+name: Templeton255
+csv: http://mrneurodata.s3-website-us-east-1.amazonaws.com/data/Templeton255/Templeton255.csv
+fibers: http://mrneurodata.s3-website-us-east-1.amazonaws.com/Templeton255/ndmg_0-0-48/fibers/
+graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/Templeton255/ndmg_0-0-48/graphs/
+qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/Templeton255/ndmg_0-0-48/qa/
+reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/Templeton255/ndmg_0-0-48/reg_dti/
+tensors: http://mrneurodata.s3-website-us-east-1.amazonaws.com/Templeton255/ndmg_0-0-48/tensors/
+ver: 0.0.48
+link: '#'

@@ -49,6 +49,7 @@ publications:
         </div>
         
         <h3 id="pubs">Publications</h3>
-        {% include '/partials/pubs_list.html' %}
+        {% set pubs = doc.publications %}
+        {% include 'partials/pubs_list.html' %}
     </div>
 </div>

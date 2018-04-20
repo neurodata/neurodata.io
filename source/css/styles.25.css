@@ -1853,7 +1853,7 @@ ol {
     color: white;
 }
 
-.press.press{
+.press.press {
     line-height: 2em;
 }
 
@@ -1901,19 +1901,27 @@ ol {
 }
 
 .detail-wrap {
-    padding: 5px 80px;
+    padding: 5px 50px;
     background: white;
 }
 
 .detail-wrap h3 {
-    font-size: 18px;
+    /* font-size: 18px; */
     text-transform: none;
     margin-bottom: 0px;
 }
 
 .table h3 {
-    font-weight: bold;
+    font-size: 22px;
     margin-top: 30px;
+}
+
+.detail-wrap .links {
+    display: flex;
+}
+
+.detail-wrap .links .content {
+    flex: 1;
 }
 
 .table table {

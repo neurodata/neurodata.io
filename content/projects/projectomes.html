@@ -1,6 +1,183 @@
 ---
 $title: Projectomes
 $order: 3
-$view: /views/base.html 
+$view: /views/base.html
+
+public_facing:
+- name: Pipeline and Meganalysis Paper (pre-print)
+  link: http://docs.neurodata.io/ndmg-paper/ndmg.pdf
+- name: Pipeline and Meganalysis Presentation
+  link: https://www.dropbox.com/s/xrprdkj0k9rdi1t/ndmg.pdf?dl=0
+- name: Docker Container
+  link: https://hub.docker.com/r/bids/ndmg
+
+github_links:
+- name: Science in the Cloud (sic)
+  link: https://github.com/neurodata/sic
+- name: NeuroData's MRI Graphs pipeline (ndmg)
+  link: https://github.com/neurodata/ndmg
+- name: NeuroData's GRaph with rich attribUTE DataBase (ndgrutedb)
+  link: https://github.com/neurodata/ndgrutedb
+web_services:
+- name: sic
+  link: http://scienceinthe.cloud/
+- name: ndgrutedb
+  link: http://awesome.cs.jhu.edu/graph-services/download/
+- name: Community Connectomics via Cloud Computing (c4)
+  link: http://awesome.cs.jhu.edu/graph-services/c4/
+
+references:
+- Kiar2018
+- Kiar2017
+- Kiar2018b
+- kiar2017example
+previous_pipeline_papers:
+- Gray2012
+- GrayRoncal2013
+related_papers:
+- Mhembere2013
 ---
-<meta http-equiv="refresh" content="0; URL='http://m2g.io/'" />
+<!-- <meta http-equiv="refresh" content="0; URL='http://m2g.io/'" /> -->
+
+<div class="header detail">
+    <h2>M2G: Reliable Human Connectomes At Scale</h2>
+</div>
+
+<div class="doc-nav">
+    <ul>
+        <li><a href="#links"><h5>Links</h5></a></li>
+        <li><a href="#dmri"><h5>dMRI</h5></a></li>
+        <li><a href="#fmri"><h5>fMRI</h5></a></li>
+        <li><a href="#refs"><h5>References</h5></a></li>
+    </ul>
+    <select>
+        <option selected="selected">Jump to:</option>
+        <option value="links">Links</option>
+        <option value="dmri">dMRI</option>
+        <option value="fmri">fMRI</option>
+        <option value="refs">References</option>
+    </select>
+</div>
+
+<div class="detail-wrap">
+  <h3 id="links">Links</h3>
+
+  <div class="links">
+    <div class="content">
+      <h4>Public-Facing</h4>
+      {% for item in doc.public_facing %}
+        <p><a href="{{item.link}}">{{item.name}}</a></p>
+      {% endfor %}
+    </div>
+    <div class="content">
+      <h4>Github</h4>
+      {% for item in doc.github_links %}
+      <p><a href="{{item.link}}">{{item.name}}</a></p>
+      {% endfor %}
+    </div>
+    <div class="content">
+      <h4>Web Services</h4>
+      {% for item in doc.web_services %}
+      <p><a href="{{item.link}}">{{item.name}}</a></p>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <h3>Explore</h3>
+    <div class="table">
+        <h3 id="dmri">Diffusion MRI</h3>
+        <table>
+            <tbody>
+                <tr class="head">
+                    <th>Dataset</th>
+                    <th>Covariates</th>
+                    <th>Processed DWI</th>
+                    <th>Code</th>
+                </tr>
+
+                {% for data in g.docs('mri_diffusion') %}
+                    <tr>
+                        <td><a href="{{data.link}}">{{data.name}}</a></td>
+                        <td><a href="{{data.csv}}">[@csv]</a></td>
+                        <td>
+                            {% if data.reg_dti %}
+                              <a href="{{data.reg_dti}}" class="button">Aligned Images</a>
+                            {% endif %}
+                            {% if data.tensors %}
+                              <a href="{{data.tensors}}" class="button">Tensors</a>
+                            {% endif %}
+                            {% if data.fibers %}
+                              <a href="{{data.fibers}}" class="button">Fibers</a>
+                            {% endif %}
+                            {% if data.graphs %}
+                              <a href="{{data.graphs}}" class="button">Graphs</a>
+                            {% endif %}
+                            {% if data.qa %}
+                              <a href="{{data.qa}}" class="button">QA</a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <a href="https://github.com/neurodata/ndmg/tree/v{{data.ver}}" class="button">v{{data.ver}}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="table">
+        <h3 id="fmri">Functional MRI</h3>
+        <table>
+            <tbody>
+                <tr class="head">
+                    <th>Dataset</th>
+                    <th>Processed DWI</th>
+                    <th>Code</th>
+                </tr>
+
+                {% for data in g.docs('mri_functional') %}
+                    <tr>
+                        <td><a href="{{data.link}}">{{data.name}}</a></td>
+                        <td>
+                            {% if data.preproc %}
+                              <a href="{{data.preproc}}" class="button">Preprocessed Images</a>
+                            {% endif %}
+                            {% if data.registered%}
+                              <a href="{{data.registered}}" class="button">Aligned Images</a>
+                            {% endif %}
+                            {% if data.clean %}
+                              <a href="{{data.clean}}" class="button">Cleaned Images</a>
+                            {% endif %}
+                            {% if data.roi_timeseries %}
+                              <a href="{{data.roi_timeseries}}" class="button">ROI Timeseries</a>
+                            {% endif %}
+                            {% if data.connectomes %}
+                              <a href="{{data.connectomes}}" class="button">Graphs</a>
+                            {% endif %}
+                            {% if data.qa %}
+                              <a href="{{data.qa}}" class="button">QA</a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <a href="https://github.com/neurodata/ndmg/tree/m3r-release" class="button">v{{data.ver}}</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <h3 id="refs">References</h3>
+    <h4>When using data, figures, or tools shared here, please cite:</h4>
+
+    {% set pubs = doc.references %}
+    {% include 'partials/pubs_list.html' %}
+
+    <h4>Previous Pipeline Papers</h4>
+    {% set pubs = doc.previous_pipeline_papers %}
+    {% include 'partials/pubs_list.html' %}
+
+    <h4>Related Papers</h4>
+    {% set pubs = doc.related_papers %}
+    {% include 'partials/pubs_list.html' %}
+</div>

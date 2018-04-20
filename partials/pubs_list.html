@@ -1,7 +1,7 @@
 {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %}
 
 {% for item in PUBS %}
-    {% if item.ID in doc.publications %}
+    {% if item.ID in pubs %}
         <div class="item">
             <p>
                 {{item|print_authors}} 
