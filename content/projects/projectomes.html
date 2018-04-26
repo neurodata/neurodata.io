@@ -95,7 +95,7 @@ related_papers:
                     <th>Code</th>
                 </tr>
 
-                {% for data in g.docs('mri_diffusion') %}
+                {% for data in g.docs('mri_diffusion', order_by='name') %}
                     <tr>
                         <td><a href="{{data.link}}">{{data.name}}</a></td>
                         <td><a href="{{data.csv}}">[@csv]</a></td>
@@ -135,9 +135,10 @@ related_papers:
                     <th>Code</th>
                 </tr>
 
-                {% for data in g.docs('mri_functional') %}
+                {% for data in g.docs('mri_functional', order_by='name') %}
                     <tr>
                         <td><a href="{{data.link}}">{{data.name}}</a></td>
+                        <td><a href="{{data.csv}}">[@csv]</a></td>
                         <td>
                             {% if data.preproc %}
                               <a href="{{data.preproc}}" class="button">Preprocessed Images</a>

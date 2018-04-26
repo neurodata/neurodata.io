@@ -49,10 +49,11 @@ def scan_bucket(bucket, path):
                                  Delimiter='/'
                                  )
     listing = []
-    for d in result.get('CommonPrefixes'):
-        o = d['Prefix'].rsplit(path)[1]
-        o = o.strip('/')
-        listing.append(o)
+    if 'CommonPrefixes' in result:
+        for d in result.get('CommonPrefixes'):
+            o = d['Prefix'].rsplit(path)[1]
+            o = o.strip('/')
+            listing.append(o)
 
     # getting any objects in the path
     my_bucket = RESOURCE.Bucket(bucket)
@@ -67,11 +68,13 @@ def scan_bucket(bucket, path):
 
 def to_url(bucket, things):
     base = 'http://{}.s3-website-us-east-1.amazonaws.com/{}'
+    things = [th for th in things if th != '']
     return base.format(bucket, '/'.join(things))
 
 
 def create_yaml_data(bucket_name, bpath, seqs, refs, pathtype, url_base, output_path):
     dsets = scan_bucket(bucket_name, bpath)
+    csvs = scan_bucket(bucket_name, 'data/fmri/covariates/')
 
     # remove some stuff that isn't real:
     for seq in seqs:
@@ -84,9 +87,18 @@ def create_yaml_data(bucket_name, bpath, seqs, refs, pathtype, url_base, output_
         path = bpath + dset
         dirt = scan_bucket(bucket_name, path)
 
-        csv = [d for d in dirt if '.csv' in d]
-        if csv:
-            data_dict['csv'] = to_url(bucket_name, (url_base, path, csv[0]))
+        if url_base == 'fmri':
+            csv = [csv for csv in csvs if csv.strip(
+                '_phenotypic_data.csv') == dset]
+            if csv:
+                csv_path = 'covariates'
+                data_dict['csv'] = to_url(
+                    bucket_name, (bpath.strip('/'), csv_path, csv[0]))
+        else:
+            csv = [d for d in dirt if '.csv' in d]
+            if csv:
+                data_dict['csv'] = to_url(
+                    bucket_name, (url_base, path, csv[0]))
 
         vers = [d for d in dirt if 'ndmg' in d]
         if vers:
@@ -122,14 +134,15 @@ def main():
     bpath = 'data/fmri/'
     pathtype = '/func'
     url_base = 'fmri'
-    create_yaml_data(bucket_name, bpath, [], REF_FUNC,
+    seqs = ['covariates']
+    create_yaml_data(bucket_name, bpath, seqs, REF_FUNC,
                      pathtype, url_base, 'mri_functional')
 
     # scan /data for directories of diffusion data
     bpath = 'data/'
     seqs = ['NKI24', 'resources', 'MRN114', 'Jung2015', 'dwi', 'fmri']
-    output_path = 'mri_diffusion'
-    create_yaml_data(bucket_name, bpath, seqs, REF_DIFF, '', '', output_path)
+    create_yaml_data(bucket_name, bpath, seqs,
+                     REF_DIFF, '', '', 'mri_diffusion')
 
 
 if __name__ == "__main__":
