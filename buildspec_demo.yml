@@ -4,9 +4,8 @@ phases:
   install:
     commands:
       - echo Installing grow
-      - apt-get update -y 
-      - apt-get install -y python3 python3-pip
-      - pip3 install grow
+      - pip install keyring==12.2.0
+      - pip install grow
   build:
     commands:
       - grow install
