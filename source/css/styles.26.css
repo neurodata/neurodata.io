@@ -1953,7 +1953,7 @@ ol {
 }
 
 .table tr td {
-    padding: 4px 20px;
+    /* padding: 4px 20px; */
 }
 
 .table .button {
@@ -1980,6 +1980,7 @@ ol {
 .table a.button {
     font-weight: initial;
     text-decoration: none;
+    height: auto;
 }
 
 .detail-wrap .divider {
@@ -2382,6 +2383,8 @@ ol {
     .table a.button {
         font-weight: initial;
         text-decoration: none;
+        display: block;
+        text-align: center;
     }
     .download .select {
         display: inline-flex;
@@ -2568,10 +2571,6 @@ ol {
     }
     .team .members .col {
         width: 32%;
-    }
-    .table a.button {
-        display: block;
-        text-align: center;
     }
     .table .download a.button {
         display: table;
