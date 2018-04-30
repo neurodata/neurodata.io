@@ -2362,6 +2362,10 @@ ol {
     .detail-wrap .intro .right textarea {
         width: 100%;
     }
+    .table a.button {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -2383,8 +2387,6 @@ ol {
     .table a.button {
         font-weight: initial;
         text-decoration: none;
-        display: block;
-        text-align: center;
     }
     .download .select {
         display: inline-flex;

@@ -68,19 +68,19 @@ related_papers:
     <div class="content">
       <h4>Public-Facing</h4>
       {% for item in doc.public_facing %}
-        <p><a href="{{item.link}}">{{item.name}}</a></p>
+        <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
       {% endfor %}
     </div>
     <div class="content">
       <h4>Github</h4>
       {% for item in doc.github_links %}
-      <p><a href="{{item.link}}">{{item.name}}</a></p>
+        <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
       {% endfor %}
     </div>
     <div class="content">
       <h4>Web Services</h4>
       {% for item in doc.web_services %}
-      <p><a href="{{item.link}}">{{item.name}}</a></p>
+        <p><a href="{{item.link}}" target="_blank">{{item.name}}</a></p>
       {% endfor %}
     </div>
   </div>
