@@ -2025,11 +2025,13 @@ ol {
     margin: 0px;
 }
 
-.detail-wrap p#notice {
+#notice {
     margin: auto;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: .9rem;
+    margin-bottom: 10px;
 }
 
 /* DATABASE 
