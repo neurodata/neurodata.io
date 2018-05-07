@@ -2037,6 +2037,15 @@ ol {
 /* DATABASE 
 ---------------------------------------------- */
 
+#graph_service {
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
 .table.database table {
     font-size: 12px;
     overflow-x: auto;
