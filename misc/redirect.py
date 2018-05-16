@@ -17,6 +17,7 @@ import argparse
 
 redirects = [
     ['bock11', 'data/bock11/'],
+    ['harris15', 'data/kharris15/'],
     ['array-tomography', 'project/synaptomes/'],
     ['kasthuri11', 'data/kasthuri15/'],
     ['bhatla15', 'data/bhatla15/'],
