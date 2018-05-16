@@ -1,5 +1,5 @@
 $title: Bumbarger et al. (2013)
-$hidden: True
+$hidden: False
 
 authors: Bumbarger et al. 
 year: 2013
@@ -10,11 +10,11 @@ data_types:
 
 
 data:
-- name: Catmaid
-  url: http://openconnecto.me/catmaid/?pid=11&tool=navigator&sid0=31&s0=1
+- name: Bumbarger
+  url: https://ndwebtools.neurodata.io/cutout/bumbarger/bumbarger13/
   type: 
   description: 
-  viz: http://openconnecto.me/catmaid/?pid=11&tool=navigator&sid0=31&s0=1
+  viz: "https://viz.boss.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bumbarger/bumbarger13/image?'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[3.9_3.9_50]_'voxelCoordinates':[11778_12096_1382]}}_'zoomFactor':165}_'perspectiveOrientation':[0.3742_0.2256_0.04100_0.898]_'perspectiveZoom':1808_'layout':'4panel'}"
 
 tools:
 
