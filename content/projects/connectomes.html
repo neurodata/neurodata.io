@@ -2,5 +2,63 @@
 $title: Connectomes
 $order: 2
 $view: /views/base.html 
+graph_species:
+- Cat
+- Fly
+- Macaque
+- Mouse
+- Rat
+- Worm
 ---
-<iframe id="graph_service" src="https://awesome.cs.jhu.edu/graph-services/download/"></iframe>
+
+<div class="header detail">
+    <h2>Connectomes</h2>
+    <p>NeuroData's Graph DataBase</p>
+</div>
+
+<div class="detail-wrap">
+    <div class="intro clearfix">
+        <h3>Biologically Derived Graphs</h3>
+        <p>Thanks to all who provided the raw data from which we derived these graphs. Every graph is annotated with a source attribute that denotes its origin.</p>
+        <p>Graphs are provided by default in <a href="http://graphml.graphdrawing.org/">graphML</a> format. This is the only format that supports iterable attributes.</p>
+        <p>Consider using the <a href="https://awesome.cs.jhu.edu/graph-services/convert/">graph conversion api</a> for post-download conversion. Examples of how to load graphs using igraph can be found <a href="https://awesome.cs.jhu.edu/graph-services/igraph/">here</a>.</p>
+        <p><b>Downloaded zip files must be unzipped using Linux unzip.</b></p>
+    </div>
+
+    <div class="table database">
+        {% for species in doc.graph_species %}
+            <h3>{{species}}</h3>
+            <table>
+                <tbody>
+                    <tr class="head">
+                        <th>Download URL</th>
+                        <th>Region</th>
+                        <th># Nodes</th>
+                        <th># Edges</th>
+                        <th>Graph Attrs</th>
+                        <th>Node Attrs</th>
+                        <th>Edge Attrs</th>
+                        <th>Sensor</th>
+                        <th>Project</th>
+                        <th>Source Host URL</th>
+                    </tr>
+                    {% set graphs = g.csv('content/graphs/graphs.csv', locale=species) %}
+                    {% for graph in graphs %}
+                        <tr>
+                            <td><a href="{{graph.link}}">{{graph.name}}</a></td>
+                            <td>{{graph.region}}</td>
+                            <td>{{graph.nodes}}</td>
+                            <td>{{graph.edges}}</td>
+                            <td>{{graph.graph_attr}}</td>
+                            <td>{{graph.node_attr}}</td>
+                            <td>{{graph.edge_attr}}</td>
+                            <td>{{graph.sensor}}</td>
+                            <td>{{graph.project}}</td>
+                            <td><a href="{{graph.source}}">{{graph.source}}</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+    </div>
+</div>

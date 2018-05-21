@@ -1894,6 +1894,10 @@ ol {
     padding: 20px 20px;
 }
 
+.header.detail p {
+    text-align: center;
+}
+
 .header.detail .button {
     margin: 0 auto;
     position: relative;
@@ -2046,6 +2050,10 @@ ol {
     display: block;
 }
 
+.table.database {
+    margin-bottom: 5%;
+}
+
 .table.database table {
     font-size: 12px;
     overflow-x: auto;
@@ -2055,10 +2063,6 @@ ol {
 .table.database .head th {
     border-right: 1px solid white;
     text-align: center !important;
-}
-
-.table.database .head th:first-of-type {
-    background: #e9e9e9;
 }
 
 .table.database tr td {
