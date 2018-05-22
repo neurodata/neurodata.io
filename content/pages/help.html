@@ -1,0 +1,16 @@
+---
+$title@: Help
+$order: 4
+---
+
+<div class="header">
+    <h2>{{doc.title}}</h2>
+</div>
+
+<div class="detail-wrap">
+    <h3>These pages provide help for specific use cases</h4>
+
+    {% for item in g.docs('help') %}
+        <a href="{{item.url}}"><h6>{{item.title}}</h6></a>
+    {% endfor %}
+</div>

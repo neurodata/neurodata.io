@@ -1591,14 +1591,15 @@ ol {
 ---------------------------------------------- */
 
 .project {
-    padding: 5px 80px;
+    padding: 5px 50px;
     background-color: white;
     max-width: 1200px;
     margin: auto;
 }
 
 .project h3 {
-    color: black
+    color: black;
+    margin-bottom: .2rem;
 }
 
 .project.link {
@@ -1616,7 +1617,6 @@ ol {
 .tools-pubs .col {
     text-align: left;
     margin-right: 5px;
-    margin-top: -30px;
     flex: 1;
 }
 
@@ -1628,7 +1628,7 @@ ol {
 }
 
 .col .item {
-    margin: 17px 0px;
+    margin: 15px 0px;
     position: relative;
 }
 
@@ -1896,7 +1896,7 @@ ol {
 
 .header.detail p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .header.detail .button {

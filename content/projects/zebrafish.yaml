@@ -1,0 +1,24 @@
+$title: Zebrafish
+$order: 3
+
+description: A joint project between NeuroData and Florian Engert's <a href="https://engertlab.fas.harvard.edu/Z-Brain/#/home/">lab</a>
+long_description: 
+link: 
+
+tools:
+- ndwebtools
+- ndpull
+- ndpush
+- ndviz
+
+publications:
+- burns2018community
+
+funding:
+- name: "U19 1U19NS104653-01"
+  link: "http://grantome.com/grant/NIH/U19-NS104653-01"
+
+data:
+- hildebrand17
+- randlett15
+- zbrain_atlas

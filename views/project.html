@@ -5,7 +5,7 @@
 <div class="header detail">
     <h2>{{doc.title}}</h2>
     {% if doc.description is not none %}
-        <p>{{doc.description}}</p>
+        <p>{{doc.description|safe}}</p>
     {% endif %}
     {% if doc.long_description is not none %}
         <p class="hidden">{{doc.long_description}}</p>
@@ -43,12 +43,6 @@
         {% endif %}
     </select>
 </div>
-
-{% if doc.link %}
-<div class="project link">
-    <a href={{doc.link}} class='button'>{{ doc.link }}</a>
-</div>
-{% endif %}
 
 {% if doc.data %}
 <div class="project clearfix">
@@ -103,7 +97,14 @@
             </div>
         </div>
     {% endif %}
+
+    {% if doc.funding %}
+        <h3>Funding</h3>
+        {% for item in doc.funding %}
+            <a href="{{item.link}}" target="_blank">{{item.name}}</a>
+        {% endfor%}
+        </div>
+    {% endif %}
 </div>
 
 {% endblock %}
-

@@ -1,6 +1,5 @@
 ---
 $title@: Data Access
-$hidden: true
 $view: /views/access.html
 options: 
     - ndwebtools

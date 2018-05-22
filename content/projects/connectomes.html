@@ -71,7 +71,7 @@ graph_species:
                             <td>{{graph.sensor}}</td>
                             <td>{{graph.project}}</td>
                             {% if graph.source != '—' %}
-                                <td><a href="{{graph.source}}">{{graph.source | replace('http://', '')  | replace('https://', '') | replace('www.','') | truncate(20) }}</a></td>
+                                <td><a href="{{graph.source}}" target="_blank">{{graph.source | replace('http://', '')  | replace('https://', '') | replace('www.','') | truncate(20) }}</a></td>
                             {% else %}
                                 <td>—</td>
                             {% endif %}
