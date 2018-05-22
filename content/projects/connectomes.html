@@ -16,19 +16,34 @@ graph_species:
     <p>NeuroData's Graph DataBase</p>
 </div>
 
+<div class="doc-nav">
+    <ul>
+        {% for species in doc.graph_species %}
+            <li><a href="#{{species}}"><h5>{{species}}</h5></a></li>
+        {% endfor %}
+    </ul>
+    <select>
+        <option selected="selected">Jump to:</option>
+        
+        {% for species in doc.graph_species %}
+            <option value="{{species}}">{{species}}</option>
+        {% endfor %}
+    </select>
+</div>
+
 <div class="detail-wrap">
     <div class="intro clearfix">
         <h3>Biologically Derived Graphs</h3>
         <p>Thanks to all who provided the raw data from which we derived these graphs. Every graph is annotated with a source attribute that denotes its origin.</p>
         <p>Graphs are provided by default in <a href="http://graphml.graphdrawing.org/">graphML</a> format. This is the only format that supports iterable attributes.</p>
-        <p>Consider using the <a href="https://awesome.cs.jhu.edu/graph-services/convert/">graph conversion api</a> for post-download conversion. Examples of how to load graphs using igraph can be found <a href="https://awesome.cs.jhu.edu/graph-services/igraph/">here</a>.</p>
+        <p>For human graph data visit <a href="{{g.doc('/content/projects/projectomes.html').url | relative}}">Projectomes</a></p>
     </div>
 
     <div class="table database">
         {% for species in doc.graph_species %}
-            <h3>{{species}}</h3>
+            <h3 id="{{species}}">{{species}}</h3>
             <table>
-                <tbody>
+                <thead>
                     <tr class="head">
                         <th>Download URL</th>
                         <th>Region</th>
@@ -41,7 +56,9 @@ graph_species:
                         <th>Project</th>
                         <th>Source Host URL</th>
                     </tr>
-                    {% set graphs = g.csv('content/graphs/graphs.csv', locale=species) %}
+                </thead>
+                {% set graphs = g.csv('content/graphs/graphs.csv', locale=species) %}
+                <tbody>                    
                     {% for graph in graphs %}
                         <tr>
                             <td><a href="{{graph.link}}">{{graph.name}}</a></td>
@@ -53,7 +70,11 @@ graph_species:
                             <td>{{graph.edge_attr}}</td>
                             <td>{{graph.sensor}}</td>
                             <td>{{graph.project}}</td>
-                            <td><a href="{{graph.source}}">{{graph.source}}</a></td>
+                            {% if graph.source != '—' %}
+                                <td><a href="{{graph.source}}">{{graph.source | replace('http://', '')  | replace('https://', '') | replace('www.','') | truncate(20) }}</a></td>
+                            {% else %}
+                                <td>—</td>
+                            {% endif %}
                         </tr>
                     {% endfor %}
                 </tbody>

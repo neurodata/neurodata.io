@@ -1896,6 +1896,7 @@ ol {
 
 .header.detail p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .header.detail .button {
@@ -2057,7 +2058,7 @@ ol {
 .table.database table {
     font-size: 12px;
     overflow-x: auto;
-    display: block;
+    display: table;
 }
 
 .table.database .head th {
@@ -2391,6 +2392,9 @@ ol {
     .download .button {
         font-size: 12px;
         padding: 0 12px;
+    }
+    .table.database table {
+        display: block;
     }
 }
 
