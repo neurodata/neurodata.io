@@ -1264,7 +1264,11 @@ footer.dark,
     background: white;
     padding: 5px 80px;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1400px;
+}
+
+.docs .code {
+    overflow-x: auto;
 }
 
 .docs h3 {

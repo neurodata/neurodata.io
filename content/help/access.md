@@ -1,10 +1,12 @@
 ---
 $title@: Data Access
-$view: /views/access.html
 options: 
-    - ndwebtools
-    - ndpull
-    - intern
+    - name: ndwebtools
+      link: ndwebtools
+    - name: ndpull
+      link: ndpull
+    - name: intern
+      link: intern
 ---
 
 Data hosted by [neurodata.io](https://neurodata.io/data) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  This document explains how to access this data.

@@ -33,5 +33,13 @@ extensions:
   jinja2:
   - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
 
+markdown:
+  extensions:
+  - kind: markdown.extensions.codehilite
+    classes: False         # Uses classes instead of inline styles.
+    class_name: code       # Class to use on the wrapper div.
+    highlighter: pygments  # pygments/plain
+    theme: default         # Pygments theme name.
+
 #preprocessors:
 #- kind: gulp

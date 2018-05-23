@@ -10,13 +10,13 @@
 <div class="doc-nav">
     <ul>
         {% for option in doc.options %}
-            <li><a href="#{{option}}"><h5>{{option}}</h5></a></li>
+            <li><a href="#{{option.link}}"><h5>{{option.name}}</h5></a></li>
         {% endfor%}
     </ul>
     <select>
         <option selected="selected">Jump to:</option>
         {% for option in doc.options %}
-            <option value="{{option}}">{{option}}</option>
+            <option value="{{option.link}}">{{option.name}}</option>
         {% endfor%}
     </select>
 </div>
