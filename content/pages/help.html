@@ -12,7 +12,7 @@ $order: 4
 
     <h6>
     {% for item in g.docs('help') %}
-        <li><a href="{{item.url}}">{{item.title}}</a></li>
+        <li><a href="{{item.url.path}}">{{item.title}}</a></li>
     {% endfor %}
     </h6>
 </div>
