@@ -28,6 +28,7 @@ redirects = [
     ['wanner16', 'data/wanner16'],
     ['lee16', 'data/lee16'],
     ['tobin16', 'data/tobin16'],
+    ['graph-services/download', 'project/connectomes'],
 ]
 
 
