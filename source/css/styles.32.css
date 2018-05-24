@@ -123,7 +123,7 @@ a:visited {
 }
 
 a:hover {
-    color: #29282f;
+    color: #28282e;
     text-decoration: none;
 }
 
@@ -146,7 +146,7 @@ p a:hover:not(.button) {
 }
 
 .slate {
-    color: #a6bcd7;
+    color: #99B4C6;
 }
 
 .dark-gray {
@@ -278,8 +278,8 @@ input[type="submit"] {
     height: 46px;
     font: 18px/44px "Gentona Bold", "Arial Bold", sans-serif;
     color: #28282e;
-    background-color: #a6bcd7;
-    border: 2px solid #a6bcd7;
+    background-color: #99B4C6;
+    border: 2px solid #99B4C6;
     border-radius: 24px;
     padding: 0 24px;
     text-transform: uppercase;
@@ -292,7 +292,7 @@ a.button.hollow {
 
 a.button.hollow.dark,
 .dark a.button.hollow {
-    color: #a6bcd7;
+    color: #99B4C6;
 }
 
 a.button:hover,
@@ -303,15 +303,15 @@ input[type="submit"]:hover {
 }
 
 a.button.hollow:hover {
-    background-color: #a6bcd7;
-    border-color: #a6bcd7;
+    background-color: #99B4C6;
+    border-color: #99B4C6;
 }
 
 a.button.hollow.dark:hover,
 .dark a.button.hollow:hover {
     color: #28282e;
-    background-color: #a6bcd7;
-    border-color: #a6bcd7;
+    background-color: #99B4C6;
+    border-color: #99B4C6;
 }
 
 .dark {
@@ -522,7 +522,7 @@ form input[type="submit"] {
 
 #top-nav a:hover,
 #top-nav a.clicked {
-    color: #a6bcd7;
+    color: #99B4C6;
 }
 
 #logo {
@@ -580,7 +580,7 @@ form input[type="submit"] {
     position: absolute;
     right: auto;
     top: 70px;
-    background-color: #a6bcd7;
+    background-color: #99B4C6;
     transform: none;
     left: -99999px;
     height: auto;
@@ -711,7 +711,7 @@ footer ul li:first-child {
 
 footer a:link,
 footer a:visited {
-    color: #a6bcd7;
+    color: #99B4C6;
     font-size: 14px;
 }
 
@@ -1205,9 +1205,9 @@ footer.dark,
 ---------------------------------------------- */
 
 .doc-nav {
-    background: #a6bcd7;
+    background: #99B4C6;
     width: 100%;
-    /* 	border-top:2px solid #a6bcd7; */
+    /* 	border-top:2px solid #99B4C6; */
 }
 
 .doc-nav.fixed {
@@ -1625,7 +1625,7 @@ ol {
 }
 
 .tools-pubs .col .title {
-    background: #a6bcd7;
+    background: #99B4C6;
     color: #2c2c33;
     font-size: 21px;
     padding: 18px 5px;
@@ -1847,7 +1847,7 @@ ol {
 }
 
 .paper .item p {
-    color: #a6bcd7;
+    color: #99B4C6;
     font-size: 20px;
     line-height: 1.4em;
     margin: 1em 0em;
@@ -2011,7 +2011,7 @@ ol {
 }
 
 .detail-wrap .props .col .title {
-    background: #a6bcd7;
+    background: #99B4C6;
     color: #2c2c33;
     font-size: 21px;
     padding: 18px 5px;
@@ -2294,9 +2294,15 @@ ol {
 /* STYLE GUIDE 
 ---------------------------------------------- */
 
-.style-guide .colors h6 {
-    display: inline-block;
-    float: left;
+.style-guide .colors {
+    display: flex;
+}
+
+.style-guide .colors div {
+    flex: 1;
+}
+
+.style-guide .colors {
     padding: 10px 10px 30px 10px;
 }
 
