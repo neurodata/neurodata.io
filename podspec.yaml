@@ -20,6 +20,8 @@ static_dirs:
   serve_at: /static/js/
 - static_dir: /source/video/
   serve_at: /static/video/
+- static_dir: /source/scripts/
+  serve_at: /static/scripts/
   
 sitemap:
   enabled: yes
