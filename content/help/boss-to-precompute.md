@@ -87,6 +87,13 @@ ndpull --config_file neurodata.cfg --collection ZBrain --experiment Zbrain --cha
 1. create mesh directory
     `mkdir mesh`
 1. change directory to `neuroglancer/python`
+1. install: 
+
+```sh
+pip install tornado==4.5.3 numpy
+python setup.py develop
+```
+
 1. run the following [script]([url('/source/scripts/neuroglancer/create_meshes.py')])
 
 ### Host the directory somewhere
