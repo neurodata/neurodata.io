@@ -1227,7 +1227,7 @@ footer.dark,
 
 .doc-nav li {
     transition: 0.3s ease all;
-    border-bottom: 6px solid #a5bcd6;
+    border-bottom: 6px solid #99B4C6;
 }
 
 .doc-nav li h5 {
@@ -2594,8 +2594,8 @@ ol {
         font-size: 15px;
         font-weight: 900;
         text-transform: uppercase;
-        background: #a5bcd6;
-        background: #a5bcd6 url("../images/dropdown-arrow.png");
+        background: #99B4C6;
+        background: #99B4C6 url("../images/dropdown-arrow.png");
         background-repeat: no-repeat;
         background-size: 14px;
         background-position: 97%;
