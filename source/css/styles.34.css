@@ -103,7 +103,7 @@ input[type="submit"] {
     width: 151px;
     padding: 5px 40px 5px 10px;
     margin: 0px;
-    color: #28282e;
+    color: #020202;
     font-style: normal;
     z-index: 1;
     border: 1px solid black;
@@ -123,7 +123,7 @@ a:visited {
 }
 
 a:hover {
-    color: #28282e;
+    color: #020202;
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ p a:hover:not(.button) {
 }
 
 .dark-gray {
-    color: #28282e;
+    color: #020202;
 }
 
 .light-gray {
@@ -165,7 +165,7 @@ html,
 body {
     height: 100%;
     font: 16px/1.5 "Gentona Book", "Arial", sans-serif;
-    color: #28282e;
+    color: #020202;
     background-color: white;
     -moz-osx-font-smoothing: antialiased !important;
     text-rendering: optimizeLegibility !important;
@@ -277,7 +277,7 @@ input[type="submit"] {
     display: inline-block;
     height: 46px;
     font: 18px/44px "Gentona Bold", "Arial Bold", sans-serif;
-    color: #28282e;
+    color: #020202;
     background-color: #99B4C6;
     border: 2px solid #99B4C6;
     border-radius: 24px;
@@ -297,7 +297,7 @@ a.button.hollow.dark,
 
 a.button:hover,
 input[type="submit"]:hover {
-    color: #28282e;
+    color: #020202;
     background-color: #fff;
     border-color: #fff;
 }
@@ -309,18 +309,18 @@ a.button.hollow:hover {
 
 a.button.hollow.dark:hover,
 .dark a.button.hollow:hover {
-    color: #28282e;
+    color: #020202;
     background-color: #99B4C6;
     border-color: #99B4C6;
 }
 
 .dark {
     color: #fff !important;
-    background-color: #28282e;
+    background-color: #020202;
 }
 
 .light {
-    color: #28282e !important;
+    color: #020202 !important;
 }
 
 h4.dark,
@@ -412,7 +412,7 @@ form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]) {
     border-radius: 0;
     display: block;
     width: 100%;
-    border: 1px solid #28282e;
+    border: 1px solid #020202;
     padding: 2px;
     font-family: "Gentona Medium", "Arial", sans-serif;
     font-size: 16px;
@@ -436,7 +436,7 @@ form input.error {
 form textarea {
     height: 190px;
     width: 100%;
-    border: 1px solid #28282e;
+    border: 1px solid #020202;
 }
 
 form .half {
@@ -595,7 +595,7 @@ form input[type="submit"] {
 #top-nav .sub-menu li a:link,
 #top-nav .sub-menu li a:visited,
 #top-nav .sub-menu li a:hover {
-    color: #28282e;
+    color: #020202;
 }
 
 #top-nav .sub-menu li a:hover {
@@ -1150,7 +1150,7 @@ footer.dark,
 ---------------------------------------------- */
 
 .header {
-    background: #28282e;
+    background: #020202;
     width: 100%;
 }
 
@@ -1238,7 +1238,7 @@ footer.dark,
 }
 
 .doc-nav li:hover {
-    background: #28282e;
+    background: #020202;
 }
 
 .doc-nav li:hover h5 {
@@ -1246,7 +1246,7 @@ footer.dark,
 }
 
 .doc-nav li.active {
-    background: #28282e;
+    background: #020202;
 }
 
 .doc-nav li.active h5 {
@@ -1366,7 +1366,7 @@ ol {
 }
 
 .tool-wrap h4 {
-    color: #28282e;
+    color: #020202;
     font-size: 18px;
     text-transform: none;
     margin-bottom: 0px;
@@ -1676,7 +1676,7 @@ ol {
     padding: 5px 80px;
     padding-bottom: 45px;
     background: url("../images/about-bottom-hero.jpg")no-repeat center top;
-    background-color: #28282e;
+    background-color: #020202;
 }
 
 .about p {
@@ -1871,7 +1871,7 @@ ol {
 }
 
 .funding h3 {
-    color: #28282e;
+    color: #020202;
 }
 
 .funding {
@@ -1940,7 +1940,7 @@ ol {
 }
 
 .table .head {
-    background: #28282e !important;
+    background: #020202 !important;
     color: white;
     text-align: left;
 }
@@ -2106,7 +2106,7 @@ ol {
     width: 151px;
     padding: 5px 40px 5px 10px;
     margin: 0px;
-    color: #28282e;
+    color: #020202;
     font-style: normal;
     z-index: 1;
     border: 1px solid black;
@@ -2193,7 +2193,7 @@ ol {
     width: 151px;
     padding: 5px 40px 5px 10px;
     margin: 0px;
-    color: #28282e;
+    color: #020202;
     font-style: normal;
     z-index: 1;
     border: 1px solid black;
@@ -2231,7 +2231,7 @@ ol {
     height: 13px;
     background: none;
     vertical-align: middle;
-    border: 2px solid #28282e;
+    border: 2px solid #020202;
     background: #318dde;
     display: inline-block;
     margin-right: 0px;
@@ -2265,7 +2265,7 @@ ol {
     background: none;
     vertical-align: middle;
     margin-right: 0px;
-    border: 2px solid #28282e;
+    border: 2px solid #020202;
     position: relative;
     bottom: 1px;
     transition: 0.3s ease all;
@@ -2586,7 +2586,7 @@ ol {
         text-align-last: center;
         text-align: center;
         margin: 0px;
-        color: #28282e;
+        color: #020202;
         font-style: normal;
         z-index: 1;
         border: none;
