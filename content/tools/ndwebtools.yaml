@@ -1,5 +1,5 @@
 name: ndwebtools
-description: WEB application that provides NeuroData tools
+description: Web application that provides NeuroData tools
 service: True
 library: False
 

@@ -1,0 +1,14 @@
+name: CalmAn
+hide: True
+description: Computational toolbox for large scale Calcium Imaging Analysis
+service: False
+library: True
+
+link: 
+api: 
+github: flatironinstitute/CaImAn
+docs: 
+manuscripts: 
+- 
+press: 
+docker: 
