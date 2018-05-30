@@ -2295,15 +2295,32 @@ ol {
 ---------------------------------------------- */
 
 .style-guide .colors {
-    display: flex;
-}
-
-.style-guide .colors div {
-    flex: 1;
+    padding: 10px 10px 30px 10px;
 }
 
 .style-guide .colors {
-    padding: 10px 10px 30px 10px;
+    text-align: center;
+}
+
+.style-guide .colors table {
+    margin: 0 auto;
+}
+
+.style-guide .colors td,
+th {
+    border-bottom: 1px solid #222;
+}
+
+.style-guide .colors td {
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 2px 7px;
+    font-family: "Gentona Bold", "Arial Bold", sans-serif;
+}
+
+.style-guide .colors td:last-child {
+    text-align: right;
 }
 
 .detail-wrap.style-guide .intro .right {
