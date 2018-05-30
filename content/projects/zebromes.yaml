@@ -16,6 +16,8 @@ tools:
 
 publications:
 - burns2018community
+- hildebrand2017whole
+- randlett2015whole
 
 funding:
 - name: "U19 1U19NS104653-01"
@@ -25,3 +27,10 @@ data:
 - hildebrand17
 - randlett15
 - zbrain_atlas
+
+people:
+- ben
+- jovo
+- florian_engert
+- owen_randlett
+- onyeka_nnaemeka
