@@ -94,7 +94,8 @@ pip install tornado==4.5.3 numpy
 python setup.py develop
 ```
 
-1. run the following [script]([url('/source/scripts/neuroglancer/create_meshes.py')])
+1. run the following script:
+<script src="https://gist.github.com/falkben/1fa46f4acac75a5bd5fc1d91bb7e1aef.js"></script>
 
 ### Host the directory somewhere
 
