@@ -7,6 +7,7 @@ description: A resource from 3D electron microscopy of hippocampal neuropil for 
 long_description: From the laboratory of Kristen M Harris, PhD, three volumes of hippocampal CA1 neuropil in adult rat were imaged at an XY resolution of ~2 nm on serial sections of ~50-60 nm thickness. All axons, dendrites, glia, and synapses were reconstructed in a cube surrounding a large dendritic spine, a cylinder surrounding an oblique dendritic segment, and a parallelepiped surrounding an apical dendritic segment.
 data_types: EM
 
+doi: 10.7281/T11Z429Q
 
 data:
 - name: spine
