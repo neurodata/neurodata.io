@@ -68,8 +68,12 @@ def scan_bucket(bucket, path):
 
 def to_url(bucket, things):
     base = 'http://{}.s3-website-us-east-1.amazonaws.com/{}'
+    if things[-1] == '':
+        end_slash='/'
+    else:
+        end_slash=''
     things = [th for th in things if th != '']
-    return base.format(bucket, '/'.join(things))
+    return base.format(bucket, '/'.join(things) + end_slash)
 
 
 def create_yaml_data(bucket_name, bpath, seqs, refs, pathtype, url_base, output_path):

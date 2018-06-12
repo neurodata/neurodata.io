@@ -1,9 +1,9 @@
 name: BNU3
 csv: http://mrneurodata.s3-website-us-east-1.amazonaws.com/data/BNU3/BNU3.csv
-fibers: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/fibers
-graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/graphs
-qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/qa
-reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/reg_dti
-tensors: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/tensors
+fibers: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/fibers/
+graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/graphs/
+qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/qa/
+reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/reg_dti/
+tensors: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/tensors/
 ver: 0.0.48
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_3.html
