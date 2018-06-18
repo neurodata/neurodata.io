@@ -97,7 +97,7 @@ input[type="email"],
 input[type="submit"] {
     -webkit-appearance: none;
     border-radius: 0;
-    border: 1px solid black;
+    border: 1px solid #020202;
     display: inline-block;
     float: left;
     width: 151px;
@@ -106,7 +106,7 @@ input[type="submit"] {
     color: #020202;
     font-style: normal;
     z-index: 1;
-    border: 1px solid black;
+    border: 1px solid #020202;
     border-radius: 0px;
     position: relative;
     text-transform: uppercase;
@@ -184,7 +184,7 @@ body {
 }
 
 body.dark {
-    background: black;
+    background: #020202;
 }
 
 h1,
@@ -784,7 +784,7 @@ footer.dark,
     float: left;
     padding-left: 13px;
     padding-top: 4px;
-    color: black;
+    color: #020202;
     transition: 0.3s ease all;
 }
 
@@ -1139,7 +1139,7 @@ footer.dark,
     /* min-width: 100%;
     max-width: 100%; */
     /* height: 60%;
-    background: black; */
+    background: #020202; */
 }
 
 .main .video .mobile {
@@ -1395,7 +1395,7 @@ ol {
 }
 
 .item .options .link span h5 {
-    color: black;
+    color: #020202;
     background: #dfd6c2;
     position: relative;
     top: -50px;
@@ -1602,7 +1602,7 @@ ol {
 }
 
 .project h3 {
-    color: black;
+    color: #020202;
     margin-bottom: .2rem;
 }
 
@@ -1669,7 +1669,7 @@ ol {
 
 .header.about-header {
     background: url("../images/about-top-hero.jpg")no-repeat center bottom;
-    background-color: black;
+    background-color: #020202;
 }
 
 .about {
@@ -1866,8 +1866,16 @@ ol {
     text-decoration: underline;
 }
 
-.press a:hover {
+.press a:hover,
+.team a:hover {
     color: white;
+}
+
+.press ul,
+.press ol {
+    color: white;
+    list-style-type: initial;
+    margin-left: 0em;
 }
 
 .funding h3 {
@@ -2109,7 +2117,7 @@ ol {
     color: #020202;
     font-style: normal;
     z-index: 1;
-    border: 1px solid black;
+    border: 1px solid #020202;
     border-radius: 0px;
     position: relative;
     text-transform: uppercase;
@@ -2128,7 +2136,7 @@ ol {
     width: 242px;
     height: 100px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid #020202;
 }
 
 .detail-wrap .intro .right .button {
@@ -2196,7 +2204,7 @@ ol {
     color: #020202;
     font-style: normal;
     z-index: 1;
-    border: 1px solid black;
+    border: 1px solid #020202;
     border-radius: 0px;
     position: relative;
     text-transform: uppercase;
@@ -2485,7 +2493,7 @@ th {
         /* right: 0; */
         /* z-index: 2; */
         /* max-height: 50%;
-        background: black; */
+        background: #020202; */
     }
     .nav .links {
         display: none;
