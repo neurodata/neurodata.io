@@ -6,17 +6,26 @@ thumb: hildebrand16_thumb.jpg
 description: Multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish.
 long_description: Hildebrand and colleagues acquired a multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish, including its complete brain. A draft projectome consisting of central and peripheral myelinated neurons was then reconstructed.  Electron micrographs and reconstructions are available for view in CATMAID.  A manuscript describing the data and methods used to generate it has been published in Nature.  The Hildebrand16 database is made available under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>. Any rights in individual contents of the database are licensed under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License</a>. Any use should attribute the original data source (<a href="mailto:davidh@fas.harvard.edu">davidh@fas.harvard.edu</a>) and database (<a href="http://hildebrand16.neurodata.io/">http://hildebrand16.neurodata.io/</a>).
 
-
 data_types: EM
 
-
-
 data:
-- name: Hildebrand et al. 2017
+- name: Hildebrand et al. 2017 (5.5 dpf)
+  url: https://ndwebtools.neurodata.io/cutout/hildebrand/130201zf142/
+  type: EM 
+  description: ndBOSS
+  viz: https://ndwebtools.neurodata.io/ndviz_url/hildebrand/130201zf142/
+
+- name: Hildebrand et al. 2017 (7 dpf)
+  url: https://ndwebtools.neurodata.io/cutout/hildebrand/120809zf104/
+  type: EM 
+  description: ndBOSS
+  viz: https://ndwebtools.neurodata.io/ndviz_url/hildebrand/120809zf104/
+
+- name: Hildebrand et al. 2017 (5.5 dpf)
   url: http://hildebrand16.neurodata.io/catmaid/?pid=6&zp=537540&yp=351910&xp=303051&tool=navigator&sg=2&sgs=4
   type: EM 
   description: CATMAID
-  viz: http://hildebrand16.neurodata.io/catmaid/?pid=6&zp=537540&yp=351910&xp=303051&tool=navigator&sg=2&sgs=4
+  viz: 
 
 tools:
 
