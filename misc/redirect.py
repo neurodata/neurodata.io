@@ -23,12 +23,13 @@ redirects = [
     ['bhatla15', 'data/bhatla15/'],
     ['fly-medulla', 'data/takemura13/'],
     ['pristionchus-pacificus', 'data/bumbarger13/'],
-    ['hildebrand16', 'data/hildebrand16'],
-    ['data/hildebrand16', 'data/hildebrand17'],
-    ['wanner16', 'data/wanner16'],
-    ['lee16', 'data/lee16'],
-    ['tobin16', 'data/tobin16'],
-    ['graph-services/download', 'project/connectomes'],
+    ['hildebrand16', 'data/hildebrand17/'],
+    ['data/hildebrand16', 'data/hildebrand17/'],
+    ['wanner16', 'data/wanner16/'],
+    ['lee16', 'data/lee16/'],
+    ['tobin16', 'data/tobin16/'],
+    ['graph-services/download', 'project/connectomes/'],
+    ['catmaid', 'data/'],
 ]
 
 
