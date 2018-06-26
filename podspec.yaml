@@ -1,10 +1,10 @@
-grow_version: ">=0.0.60"
+grow_version: ">=0.2.5"
 
 localization:
   default_locale: en_US
   locales:
   - en_US
-
+  
 static_dirs:
 - static_dir: /source/images/
   serve_at: /static/images/
@@ -20,8 +20,8 @@ static_dirs:
   serve_at: /static/js/
 - static_dir: /source/video/
   serve_at: /static/video/
-- static_dir: /source/scripts/
-  serve_at: /static/scripts/
+- static_dir: /source/docs/
+  serve_at: /static/docs/
   
 sitemap:
   enabled: yes
