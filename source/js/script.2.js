@@ -37,6 +37,16 @@ $(document).ready(function () {
 		$(".copy p").toggleClass("active");
 	});
 
+	//display projects on mobile
+	$("a.expand_projects").click(function () {
+		let x = $("#mobile_nav_projects")
+		if (x.css('display') === "none") {
+			x.show();
+		} else {
+			x.hide();
+		}
+	});
+
 	//toggle mobile menu links
 	$('#mobile-nav').click(function () {
 		$(this).toggleClass('open');
@@ -45,10 +55,12 @@ $(document).ready(function () {
 		$(".main").toggleClass('blur');
 	});
 	$('.mobile-links a').click(function () {
-		$('#mobile-nav').toggleClass('open');
-		$(".mobile-links").toggleClass('open');
-		$(".mobile-links ul").toggleClass('open');
-		$(".main").toggleClass('blur');
+		if ($(this).attr('class') !== "expand_projects") {
+			$('#mobile-nav').toggleClass('open');
+			$(".mobile-links").toggleClass('open');
+			$(".mobile-links ul").toggleClass('open');
+			$(".main").toggleClass('blur');
+		}
 	});
 
 	//black homepage background

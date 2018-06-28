@@ -20,7 +20,6 @@ publications:
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
         <option selected="selected">Select:</option>
-        <option value="#projects">Projects</option>
         <option value="#data">Data</option>
         <option value="#pubs">Publications</option>
     </select>
@@ -28,13 +27,6 @@ publications:
 
 <div class="about clearfix">
     <div class="paper" id="mission">
-        
-        <div class="data mobile-projects">
-            <h3 id="projects">Projects</h3>
-            {% for proj in g.docs('projects') %}
-                <h4><li><a href="{{proj.url.path}}">{{proj.title}}</a></li></h4>
-            {% endfor %}
-        </div>
 
         <h3 id="data">Data</h3>
         <p>Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale</p>

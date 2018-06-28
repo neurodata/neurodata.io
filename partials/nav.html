@@ -9,17 +9,20 @@
             {% for item in g.docs('pages') if not item.is_hidden %}
                 <li>
                     <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a>
-
-                    {% if item.base == 'data' %}
-                        <ul>
-                        {% for proj in g.docs('projects') %}
-                            <li>
-                                <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
-                            </li>
-                        {% endfor %}
-                        </ul>
-                    {% endif %}
                 </li>
+
+                {% if item.base == 'data' %}
+                    <li>
+                        <h5>Projects</h5>
+                            <ul>
+                            {% for proj in g.docs('projects') %}
+                                <li>
+                                    <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                    </li>
+                {% endif %}
             {% endfor %}
         </ul>
         <ul class="bottom">
@@ -31,7 +34,21 @@
     <div class="mobile-links">
         <ul>
             {% for item in g.docs('pages') %}
-            <li><a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+                <li>
+                    <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a>
+                </li>
+                
+                {% if item.base == 'data' %}
+                    <li>
+                        <a href="#" class="expand_projects"><h5>Projects</h5></a>
+
+                        <div id="mobile_nav_projects">
+                            {% for proj in g.docs('projects') %}
+                                <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
+                            {% endfor %}
+                        </div>
+                    </li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>

@@ -816,6 +816,10 @@ footer.dark,
     border-bottom: none;
 }
 
+.nav ul li ul:last-child {
+    margin-bottom: .8em;
+}
+
 .nav ul li ul li h6 {
     text-indent: 15%;
 }
@@ -977,6 +981,10 @@ footer.dark,
 #mobile-nav.open span:nth-child(6) {
     left: calc(50% - 5px);
     top: 15px;
+}
+
+#mobile_nav_projects {
+    display: none;
 }
 
 .mobile-links {
