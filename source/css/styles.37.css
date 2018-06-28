@@ -1040,7 +1040,7 @@ footer.dark,
 ---------------------------------------------- */
 
 .main {
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     padding-left: 230px;
     /*
@@ -1676,7 +1676,7 @@ ol {
     padding: 5px 80px;
     padding-bottom: 45px;
     background: url("../images/about-bottom-hero.jpg")no-repeat center top;
-    background-color: #020202;
+    background-color: #29282E;
 }
 
 .about p {
@@ -2399,6 +2399,12 @@ th {
 @media only screen and (min-width: 1700px) {
     .team .members .col {
         height: 220px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .main .video #video {
+        object-fit: fill;
     }
 }
 
