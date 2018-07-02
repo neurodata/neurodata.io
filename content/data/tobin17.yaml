@@ -9,11 +9,11 @@ data_types:
 
 
 data:
-- name: Catmaid tiles temporarily unavilable
+- name: Catmaid
   url: 
   type: 
   description: 
-  viz: 
+  viz: "http://catmaid.neurodata.io/catmaid/?pid=1&zp=40000&yp=262140&xp=458748&tool=navigator&sid0=1&s0=8"
     
 tools:
   
