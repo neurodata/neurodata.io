@@ -10,9 +10,13 @@ $order: 4
 <div class="detail-wrap">
     <h3>These pages provide help for specific use cases</h3>
 
-    <h6>
-    {% for item in g.docs('help') %}
-        <li><a href="{{item.url.path}}">{{item.title}}</a></li>
-    {% endfor %}
-    </h6>
+    <div class="show_list_style">
+        <h6>
+            <ul>
+                {% for item in g.docs('help') %}
+                    <li><a href="{{item.url.path}}">{{item.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </h6>
+    </div>
 </div>

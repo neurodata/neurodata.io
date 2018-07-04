@@ -372,6 +372,11 @@ ol {
     list-style-type: none;
 }
 
+.show_list_style ul,
+.show_list_style ol {
+    list-style-type: inherit;
+}
+
 .text li {
     position: relative;
     line-height: 2.2;
