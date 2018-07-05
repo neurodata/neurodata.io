@@ -9,17 +9,19 @@ $order: 5
     <ul>
         <li><a href="#mission"><h5>Mission</h5></a></li>
         <li><a href="#team"><h5>Team</h5></a></li>
-        <li><a href="#press"><h5>Press</h5></a></li>
+        <li><a href="/publications"><h5>Publications</h5></a></li>
         <li><a href="/talks"><h5>Talks</h5></a></li>
+        <li><a href="#press"><h5>Press</h5></a></li>
         <li><a href="#awards"><h5>Awards</h5></a></li>
-        <li><a href="#funding"><h5>Funding</h5></a></li>
-        <li><a href="#agreements"><h5>Agreements</h5></a></li>
+        <li><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank"><h5>Funding</h5></a></li>
+        <li><a href="https://github.com/neurodata/about/blob/master/agreements.md" target="_blank"><h5>Agreements</h5></a></li>
         <li><a href="#calendar"><h5>Calendar</h5></a></li>
     </ul>
     <select>
         <option selected="selected">Jump to:</option>
         <option value="mission">Mission</option>
         <option value="team">Team</option>
+        <option value="pubs">Publications</option>
         <option value="talks">Talks</option>
         <option value="press">Press</option>
         <option value="awards">Awards</option>
@@ -48,6 +50,11 @@ $order: 5
         <h4 style="margin-top: 1em;">
             <a href="{{g.doc('/content/pages/alum.html').url.path}}">Alumni</a>
         </h4>
+    </div>
+    
+    <div id="pubs">    
+        <div class="divider"></div>
+        <h3><a href="/publications">Publications</a></h3>
     </div>
     
     <div id="talks">    
@@ -86,20 +93,13 @@ $order: 5
 
     <div id="funding">
         <div class="divider"></div>
-
-        <h3>Funding</h3>
-        <p>Current and future funding can be found
-            <a href="{{g.static("/source/docs/CP_Vogelstein.pdf").url.path}}">here</a>
-        </p>
+        <h3><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank">Funding</a></h3>
     </div>
 
     <div id="agreements">
         <div class="divider"></div>
 
-        <h3>Agreements</h3>
-        <p>We, the NeuroData Family (NDF), each agree to the commitments linked 
-            <a href="https://github.com/neurodata/about/blob/master/agreements.md">here</a>
-        </p>
+        <h3><a href="https://github.com/neurodata/about/blob/master/agreements.md" target="_blank">Agreements</a></h3>
     </div>
 
     <div id="calendar">

@@ -1,0 +1,14 @@
+---
+$title@: Talks
+$hidden: true
+---
+
+<div class="header about-header">
+    <h2>Publications</h2>
+</div>
+
+<div class="detail-wrap">
+    {% set pubs_list = 'content/pubs/pubs.bib'|load_bibtex %}
+    {% set pubs = pubs_list|map(attribute="ID")|list %}
+    {% include 'partials/pubs_list.html' %}
+</div>

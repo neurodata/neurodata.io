@@ -1,52 +1,6 @@
 ---
 $title@: Talks
 $hidden: true
-
-#these are bibtex IDs
-talks: 
-  - sfnDC2017
-  - KeyStateBrain
-  - JovoSOHOPa
-  - JovoSOHOPb
-  - JovoSimA
-  - JovoSimB
-  - CasC
-  - KavSpeSymp
-  - LowBarEnt
-  - LawLarGra
-  - FroRagRic
-  - OpeChaBig
-  - OpeSouPla
-  - TopChaBig
-  - BigStaBra
-  - BigNeuSta
-  - StaModInf
-  - BeyLitNeu
-  - StaInf2
-  - StaInf3
-  - OpeProNeu
-  - BigNeu2
-  - OpeConPro
-  - ConClaSta
-  - DecTheApp
-  - AreMenPro
-  - OncConWha
-  - WhaCanTra
-  - ConsGraCla
-  - OncGetCon
-  - ConConCla
-  - StaCon
-  - TowInfAna
-  - TowInfNeu
-  - NeuGraThe
-  - SeqMonCar
-  - OopFamOpt
-  - InfSpiTra
-  - InfSpiTim
-  - InfSpiTraCI
-  - InfSpiTraCI2
-  - ModBasOpt
-
 ---
 
 <div class="header about-header">
@@ -54,23 +8,17 @@ talks:
 </div>
 
 <div class="detail-wrap">    
-    {% set PUBS = 'content/talks/talks.bib'|load_bibtex %}
-    {% set PUB_IDs =  PUBS|map(attribute="ID")|list %}
-    {% for talk in doc.talks %}
-        {% if talk not in PUB_IDs %}
-            <b>{{talk}} missing from bib file!</b>
-        {% else %}
-            {% set item = PUBS|selectattr("ID", "equalto", talk)|first %}
-           <div class="item">
-               <p>
-                    {% if item.doi or item.url %}
-                        <a href="{{item|print_link}}" target="_blank">
-                    {% endif %}
-                    {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>.{% else %}.
-                    {% endif %}
-                    <i>{{item.address}}</i>, {{item.year}}.
-                </p>
-            </div>
-        {% endif %}
+    {% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
+    {% for item in TALKS %}
+        <div class="item">
+            <p>
+                {% if item.doi or item.url %}
+                    <a href="{{item|print_link}}" target="_blank">
+                {% endif %}
+                {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>.{% else %}.
+                {% endif %}
+                <i>{{item.address}}</i>, {{item.year}}.
+            </p>
+        </div>
     {% endfor %}
 </div>
