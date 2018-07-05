@@ -1,13 +1,27 @@
 {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %}
 
+{% if index_items %}
+<ol>
+{% endif %}
 {% for item in PUBS %}
     {% if item.ID in pubs %}
+        {% if index_items %}
+        <li>
+        {% else %}
         <div class="item">
             <p>
+        {% endif %}
                 {{item|print_authors}} 
                 <a href="{{item|print_link}}" target="_blank">{{item|print_title|render|safe}}</a>.
                 <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
+        {% if index_items %}
+        </li>
+        {% else %}                
             </p>
         </div>
+        {% endif %}
     {% endif %}
 {% endfor %}
+{% if index_items %}
+</ol>
+{% endif %}
