@@ -9,16 +9,18 @@ $hidden: true
 
 <div class="detail-wrap">    
     {% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
-    {% for item in TALKS %}
-        <div class="item">
-            <p>
-                {% if item.doi or item.url %}
-                    <a href="{{item|print_link}}" target="_blank">
-                {% endif %}
-                {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>.{% else %}.
-                {% endif %}
-                <i>{{item.address}}</i>, {{item.year}}.
-            </p>
-        </div>
-    {% endfor %}
+    <div class="list_pubs">
+        <ol>
+        {% for item in TALKS %}
+            <li>
+                    {% if item.doi or item.url %}
+                        <a href="{{item|print_link}}" target="_blank">
+                    {% endif %}
+                    {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>.{% else %}.
+                    {% endif %}
+                    <i>{{item.address}}</i>, {{item.year}}.
+            </li>
+        {% endfor %}
+        </ol>
+    </div>
 </div>
