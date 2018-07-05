@@ -1,14 +1,93 @@
 ---
-$title@: Talks
+$title@: Publications
 $hidden: true
+
+pre_prints:
+- Wang2018
+- vogelstein2017linear
+- shen2016discovering
+- Tang2017
+- lee2017
+- Priebe2017
+- Tang2016
+- tomita2015randomer
+- Zheng2016c
+- Zheng2016
+- Lyzinski2014
+- Banerjee2013
+- Kazhdan2013
+#Lillaney16
+
+peer_reviewed:
+- Durante2018
+- Cohen2018
+- Wang2017
+- Zheng2016b
+- dyer2017quantifying
+- simhal2017probabilistic
+- Shen201741
+- Kiar2017
+- hildebrand2017whole
+- Chen2017
+- Binkiewicz2014
+- Durante2018
+- Chen2016b
+- Raag2016
+- Durante2016
+- Chen2015
+- harris2015resource
+- Koutra2016
+- Roncal2015b
+- kasthuri2015saturated
+- Vogelstein2015
+- Vogelstein2015b
+- Lyzinski2015
+- Lyzinski2014a
+- Weiler2014
+- Priebe2015
+- Sweeney2014
+- vogelstein2014discovery
+- Carlson2014
+- Vogelstein2013
+- Craddock2013
+- Priebe2013
+- Dai2012
+- Fishkind2013
+- Roberts2012
+- Gray2012
+- Vogelstein2011b
+- Hofer2011
+- Mishchenko2011
+- Vogelstein2010
+- Paninski2010
+- Vogelstein2009
+- Vogelstein2007
+- Vogelstein2003
+- Greenspan1997
 ---
 
 <div class="header about-header">
     <h2>Publications</h2>
 </div>
 
+<div class="doc-nav">
+    <ul class="clearfix">
+        <li><a href="#pre_prints"><h5>Pre-Prints</h5></a></li>
+        <li><a href="#peer_reviewed"><h5>Peer-Reviewed</h5></a></li>
+    </ul>
+    <select size="1" name="links" onchange="window.location.href=this.value;">
+        <option selected="selected">Select:</option>
+        <option value="#pre_prints">Pre-Prints</option>
+        <option value="#peer_reviewed">Peer-Reviewed</option>
+    </select>
+</div>
+
 <div class="detail-wrap">
-    {% set pubs_list = 'content/pubs/pubs.bib'|load_bibtex %}
-    {% set pubs = pubs_list|map(attribute="ID")|list %}
+    <h6 id="pre_prints">Pre-prints</h6>
+    {% set pubs = doc.pre_prints %}
+    {% include 'partials/pubs_list.html' %}
+    
+    <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
+    {% set pubs = doc.peer_reviewed %}
     {% include 'partials/pubs_list.html' %}
 </div>
