@@ -1,9 +1,8 @@
 grow_version: ">=0.2.5"
+title: neurodata.io
 
 localization:
   default_locale: en_US
-  locales:
-  - en_US
   
 static_dirs:
 - static_dir: /source/images/
@@ -22,14 +21,20 @@ static_dirs:
   serve_at: /static/video/
 - static_dir: /source/docs/
   serve_at: /static/docs/
-  
+
+meta:
+  favicon_path: /static/images/favicons/favicon.ico
+
 sitemap:
-  enabled: yes
+  enabled: true
   path: "/sitemap.xml"   # Optional.
-  collections:                  # Optional.
-  - pages
-  locales:                      # Optional.
-  - en_US
+
+deployments:
+  default: #needed for sitemap.xml
+    destination: local
+    env:
+      host: neurodata.io
+      scheme: https
 
 extensions:
   jinja2:

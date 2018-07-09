@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - grow install
-      - grow build
+      - grow build --deployment default
   post_build:
     commands:
       - aws s3 sync --delete --cache-control "max-age=10800" build/ "s3://nd-website-deploy"
