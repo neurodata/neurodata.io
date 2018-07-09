@@ -13,3 +13,4 @@ phases:
   post_build:
     commands:
       - aws s3 sync --delete build/ "s3://demo.neurodata.io"
+      - aws s3 cp robots-demo.txt "s3://demo.neurodata.io/robots.txt"

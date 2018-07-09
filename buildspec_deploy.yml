@@ -13,5 +13,6 @@ phases:
   post_build:
     commands:
       - aws s3 sync --delete --cache-control "max-age=10800" build/ "s3://nd-website-deploy"
+      - aws s3 rm "s3://demo.neurodata.io/robots-demo.txt"
       - aws configure set preview.cloudfront true 
       - aws cloudfront create-invalidation --distribution-id E1XLAJR2ZIAY9Y --paths '/*'
