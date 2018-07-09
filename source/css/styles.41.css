@@ -2075,7 +2075,7 @@ ol {
     list-style-type: none;
     margin: 0;
     padding: 0 0 0 2rem;
-    text-indent: -2rem;
+    text-indent: -2.2rem;
 }
 
 .detail-wrap .list_pubs ol>li:before {
