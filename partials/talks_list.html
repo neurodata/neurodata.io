@@ -13,3 +13,11 @@
     {% endif %}
 {% endfor %}
 </ol>
+
+<!-- <ul>
+{% for item in talks %}
+    {% if item not in TALKS|map(attribute="ID")|list %}
+    <li>{{item}} NOT FOUND</li>
+    {% endif %}
+{% endfor %}
+</ul> -->

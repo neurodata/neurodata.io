@@ -23,7 +23,7 @@ static_dirs:
   serve_at: /static/docs/
 
 meta:
-  favicon_path: /static/images/favicons/favicon.ico
+  favicon_path: /source/favicons/favicon.ico
 
 sitemap:
   enabled: true
