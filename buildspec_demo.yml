@@ -12,4 +12,4 @@ phases:
       - grow build
   post_build:
     commands:
-      - aws s3 sync --delete build/ "s3://nd-website-demo"
+      - aws s3 sync --delete build/ "s3://demo.neurodata.io"
