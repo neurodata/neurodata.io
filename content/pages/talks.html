@@ -1,6 +1,49 @@
 ---
 $title@: Talks
 $hidden: true
+
+talks:
+- sfnDC2017
+- SeqMonCar
+- OopFamOpt
+- InfSpiTraCI2
+- StaInf2
+- StaInf3
+- InfSpiTra
+- JovoSimA
+- JovoSimB
+- ConConCla
+- DecTheApp
+- CasC
+- ConsGraCla
+- InfSpiTim
+- TowInfAna
+- KavSpeSymp
+- WhaCanTra
+- OncGetCon
+- OpeChaBig
+- OpeConPro
+- StaCon
+- BigNeu2
+- JovoSimB
+- NeuGraThe
+- BigNeuSta
+- KeyStateBrain
+- TowInfNeu
+- StaModInf
+- AreMenPro
+- OpeSouPla
+- LowBarEnt
+- BeyLitNeu
+- LawLarGra
+- OpeProNeu
+- ConClaSta
+- JovoSOHOPa
+- BigStaBra
+- InfSpiTraCI
+- JovoSOHOPb
+- TopChaBig
+- ModBasOpt
 ---
 
 <div class="header about-header">
@@ -10,17 +53,8 @@ $hidden: true
 <div class="detail-wrap">    
     {% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
     <div class="list_pubs">
-        <ol>
-        {% for item in TALKS %}
-            <li>
-                    {% if item.doi or item.url %}
-                        <a href="{{item|print_link}}" target="_blank">
-                    {% endif %}
-                    {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>.{% else %}.
-                    {% endif %}
-                    <i>{{item.address}}</i>, {{item.year}}.
-            </li>
-        {% endfor %}
-        </ol>
+        <h6 id="conf">Talks</h6>
+        {% set talks = doc.talks %}
+        {% include 'partials/talks_list.html' %}
     </div>
 </div>

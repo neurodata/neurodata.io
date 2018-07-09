@@ -65,6 +65,25 @@ peer_reviewed:
 - Vogelstein2003
 - Greenspan1997
 
+conf: 
+- Cornelis2013
+- Kutten2016
+- Fiori2013
+- Carlson2013a
+- Mhembere2013
+- GrayRoncal2013
+- Koutra2013
+- Kulkarni2013
+- Petralia2013
+- Kutten2016b
+- Huys2009
+- GrayRoncal2015a
+- Zheng2015
+- Zheng2018-wq
+- burns2013open
+- tomita2017roflmao
+- mhembere2017knor
+
 other:
 - neuro2016
 - GlobalBrain
@@ -83,12 +102,14 @@ other:
     <ul class="clearfix">
         <li><a href="#pre_prints"><h5>Pre-Prints</h5></a></li>
         <li><a href="#peer_reviewed"><h5>Peer-Reviewed</h5></a></li>
+        <li><a href="#conf"><h5>Conferences</h5></a></li>
         <li><a href="#other"><h5>Other</h5></a></li>
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
         <option selected="selected">Select:</option>
         <option value="#pre_prints">Pre-Prints</option>
         <option value="#peer_reviewed">Peer-Reviewed</option>
+        <option value="#conf">Conferences</option>
         <option value="#other">Other</option>
     </select>
 </div>
@@ -103,6 +124,10 @@ other:
         
         <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
         {% set pubs = doc.peer_reviewed %}
+        {% include 'partials/pubs_list.html' %}
+        
+        <h6 id="conf">Peer-Reviewed Conference Proceedings</h6>
+        {% set pubs = doc.conf %}
         {% include 'partials/pubs_list.html' %}
         
         <h6 id="other">Other Publications</h6>
