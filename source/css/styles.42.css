@@ -1275,7 +1275,7 @@ footer.dark,
 
 .docs {
     background: white;
-    padding: 5px 80px;
+    padding: 5px 50px;
     margin: auto;
     max-width: 1400px;
 }
@@ -1686,7 +1686,7 @@ ol {
 }
 
 .about {
-    padding: 5px 80px;
+    padding: 5px 50px;
     padding-bottom: 45px;
     background: url("../images/about-bottom-hero.jpg")no-repeat center top;
     background-color: #29282E;
