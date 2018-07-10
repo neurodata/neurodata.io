@@ -3,7 +3,7 @@ $title: BigBrain (2015)
 authors: Amunts et al.
 year: 2015
 thumb: big_brain.jpg
-description: BigBrain is free, publicly available, and provides the opportunity for considerable neuroanatomical insights as it allows for extraction of features at high resolution for modelling and simulation.
+description: BigBrain is free, publicly available, and provides the opportunity for considerable neuroanatomical insights as it allows for extraction of features at high resolution for modeling and simulation.
 long_description: Enabling an unprecedented look into the human brain, BigBrain spans micro- and macro-scopic scales. While previously available reference brains have been restricted to a single scale, such as whole-brain magnetic resonance imaging in humans or electron microscopy of small sections from small animals, BigBrain is an ultrahigh-resolution three-dimensional model of a full human brain at 20 micrometer resolution, coming closer to touching both camps than any previous dataset.
 data_types:
 

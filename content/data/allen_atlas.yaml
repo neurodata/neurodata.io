@@ -22,7 +22,7 @@ data:
   description: 
   viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_50um/annotation_50um/
 
-- name: saggital 50um
+- name: sagittal 50um
   url: 
   type: 
   description: mesh & compressed segmentation
