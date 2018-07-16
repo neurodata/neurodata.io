@@ -78,11 +78,14 @@ conf:
 - tomita2017roflmao
 - mhembere2017knor
 
-other:
+tech_reports:
 - Kazhdan2013
 - Banerjee2013
+- Priebe2017
 - Zheng2016
 - Zheng2016c
+
+other:
 - neuro2016
 - GlobalBrain
 - BrainWorkshop
@@ -91,7 +94,6 @@ other:
 - Vogelstein2011c
 - Vogelstein1999
 - kiar2018neurostorm
-- Priebe2017
 ---
 
 <div class="header about-header">
@@ -103,6 +105,7 @@ other:
         <li><a href="#pre_prints"><h5>Pre-Prints</h5></a></li>
         <li><a href="#peer_reviewed"><h5>Peer-Reviewed</h5></a></li>
         <li><a href="#conf"><h5>Conferences</h5></a></li>
+        <li><a href="#reports"><h5>Technical Reports</h5></a></li>
         <li><a href="#other"><h5>Other</h5></a></li>
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
@@ -110,6 +113,7 @@ other:
         <option value="#pre_prints">Pre-Prints</option>
         <option value="#peer_reviewed">Peer-Reviewed</option>
         <option value="#conf">Conferences</option>
+        <option value="#reports">Technical Reports</option>
         <option value="#other">Other</option>
     </select>
 </div>
@@ -128,6 +132,10 @@ other:
         
         <h6 id="conf">Peer-Reviewed Conference Proceedings</h6>
         {% set pubs = doc.conf %}
+        {% include 'partials/pubs_list.html' %}
+        
+        <h6 id="reports">Technical Reports</h6>
+        {% set pubs = doc.tech_reports %}
         {% include 'partials/pubs_list.html' %}
         
         <h6 id="other">Other Publications</h6>
