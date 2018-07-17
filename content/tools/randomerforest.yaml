@@ -1,5 +1,6 @@
 name: Randomer Forest
-description: An improved random forests that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
+heading: Non-linear classification and regression
+description: Randomer Forest is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
 service: False
 library: True
 

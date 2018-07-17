@@ -8,7 +8,7 @@ $order: 3
 <div class="tool-wrap"> 
     <div class="child">
         <h3 class="title">Web Services</h3>
-        {% for item in g.docs('tools') if not item.hide and item.service %}
+        {% for item in g.docs('tools', order_by='heading') if not item.hide and item.service %}
             <div class="item">
                 {% if loop.index % 2 != 0 %}
                 <div class="odd">
@@ -24,7 +24,7 @@ $order: 3
 
     <div class="child">
         <h3 class="title">Numerical Libraries</h3>
-        {% for item in g.docs('tools') if not item.hide and item.library %}
+        {% for item in g.docs('tools', order_by='heading') if not item.hide and item.library %}
             <div class="item">
                 {% if loop.index % 2 != 0 %}
                 <div class="odd">

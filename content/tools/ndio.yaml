@@ -1,5 +1,6 @@
 name: ndio
 hide: True
+heading: ndio
 description: "A Python 2 / 3 module that enables big-data neuroscience, as well as direct interfacing with NeuroData workflows and servers."
 service: True
 library: False

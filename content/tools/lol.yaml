@@ -1,4 +1,5 @@
 name: LOL
+heading: Supervised dimensionality reduction
 description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
 service: False
 library: True

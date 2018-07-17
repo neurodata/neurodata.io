@@ -62,7 +62,7 @@
         <h3 class="title" id="tools">Tools</h4>
         <div class="tools-pubs">
             <div class="col">
-                {% for item in g.docs('tools')|sort(attribute='name') %}
+                {% for item in g.docs('tools', order_by='heading') %}
                     {% if item.name in doc.tools %}
                         <div class="item">
                         {% include 'partials/tools_detail_list.html' %}

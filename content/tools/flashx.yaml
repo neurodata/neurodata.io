@@ -1,5 +1,6 @@
 name: FlashX
-description: Big data analytics tools that perform data analytics in the form of graphs and matrices!
+heading: Scalable machine learning library
+description: FlashX are big data analytics tools that perform data analytics in the form of graphs and matrices!
 
 service: False
 library: True

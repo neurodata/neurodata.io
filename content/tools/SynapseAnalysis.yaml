@@ -1,5 +1,6 @@
 name: SynapseAnalysis
 hide: True
+heading: SynapseAnalysis
 description: A framework to evaluate synaptic antibodies for array tomography (AT) 
 service: True
 library: False

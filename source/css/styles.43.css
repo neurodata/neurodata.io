@@ -1380,10 +1380,9 @@ ol {
 
 .tool-wrap h4 {
     color: #020202;
-    font-size: 18px;
     text-transform: none;
     margin-bottom: 0px;
-    font-family: "Quadon Medium", "Rockwell Bold", serif;
+    /* font-family: "Quadon Medium", "Rockwell Bold", serif; */
     font-weight: normal !important;
 }
 
@@ -1651,7 +1650,8 @@ ol {
 
 .item h4 {
     color: #6487a5;
-    font-size: 17px;
+    /* font-size: 17px; */
+    font-size: 1.1rem;
     line-height: 1.5;
     text-transform: none;
 }

@@ -1,5 +1,6 @@
 name: meda
-description: Matrix Exploratory Data Analysis, both in R and Python.  Implements the top 10 analyses/visualizations we recommend for any matrix valued data. 
+heading: Matrix Exploratory Data Analysis
+description: Matrix Exploratory Data Analysis (meda), both in R and Python.  Implements the top 10 analyses/visualizations we recommend for any matrix valued data.
 service: False
 library: True
 

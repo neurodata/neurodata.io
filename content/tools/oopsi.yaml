@@ -1,5 +1,6 @@
 name: oopsi
-description: Calcium Spike Sorting. This tool is for performing model-based spike train inference from calcium imaging. 
+heading: Calcium Spike Sorting
+description: oopsi is a tool for performing model-based spike train inference from calcium imaging.
 
 service: False
 library: True
