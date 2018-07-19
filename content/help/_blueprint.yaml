@@ -1,2 +1,2 @@
-path: /{base}/
+path: /help/{base}/
 view: /views/help.html

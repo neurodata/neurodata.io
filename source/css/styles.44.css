@@ -1270,7 +1270,7 @@ footer.dark,
     display: none;
 }
 
-/* DOCS 
+/* DOCS / FAQ / HELP
 ---------------------------------------------- */
 
 .docs {
@@ -1285,11 +1285,25 @@ footer.dark,
 }
 
 .docs h3 {
-    font-size: 22px;
+    font-size: 1.4rem;
+    font-family: "Gentona Bold", "Arial Bold", sans-serif;
+    text-transform: none;
+    margin-top: -3.1rem;
+    padding-top: 3.6rem;
+    margin-bottom: 0;
+    color: #020202;
 }
 
 .docs h4 {
-    font-size: 20px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    text-transform: none;
+}
+
+.docs h6 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    color: #4a484c;
 }
 
 .docs ol {
@@ -1341,6 +1355,19 @@ ol {
 .docs .col h6 {
     text-decoration: underline;
     color: #318dde;
+}
+
+.docs p img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.docs h6 {
+    /* this is for the heading over the software stack*/
+    text-align: center;
 }
 
 /* PAPER 

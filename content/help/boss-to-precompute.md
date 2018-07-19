@@ -1,6 +1,6 @@
 ---
 $title@: BOSS to precomputed neuroglancer format
-options: 
+options: #for the header links
     - name: steps
       link: steps
     - name: prerequisites
@@ -20,7 +20,6 @@ options:
 
 ### Steps
 
-1. Download data from BOSS using `ndpull`
 1. Generate the precomputed compressed segmentation files using `neuroglancer-scripts`
 1. Generate meshes using `neuroglancer python` and custom script
 1. Host them somewhere and point neuroglancer at the directory
@@ -30,8 +29,6 @@ options:
 Install the following software:
 
 1. [python3](https://www.python.org/)
-1. [ndpull](https://github.com/neurodata/ndpull)
-    1. `pip install git+git://github.com/neurodata/ndpull.git`
 1. [neuroglancer-scripts](https://github.com/HumanBrainProject/neuroglancer-scripts)
     1. install dev version
 1. [neuroglancer](https://github.com/google/neuroglancer) (for meshing)
@@ -43,20 +40,6 @@ Install the following software:
         1. `pip install numpy tornado==4.5.3`
         1. `python setup.py develop`
         1. `python setup.py bundle_client`
-
-### Download data from BOSS using ndpull (only needed if you don't have local access to data)
-
-1. create a project directory
-1. create subdirectory for TIFF files
-1. use ndpull to download the files
-
-```sh
-mkdir zbrain-project; cd zbrain-project
-
-mkdir data
-
-ndpull --config_file neurodata.cfg --collection ZBrain --experiment Zbrain --channel Masks --res 0 --full_extent --outdir data
-```
 
 ### Create compressed segmentations
 
