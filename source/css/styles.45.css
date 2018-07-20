@@ -1683,6 +1683,12 @@ ol {
     text-transform: none;
 }
 
+.item h6 {
+    font-size: 1.05rem;
+    margin-left: 10px;
+    font-family: "Gentona Book Italic", "Arial Italic", sans-serif;
+}
+
 .tools-pubs .col p {
     margin: 0px;
     max-width: 900px;

@@ -1,11 +1,12 @@
 <h4 id="{{item.name}}">
     {% if item.link %}
-        <a href="{{item.link}}" target="_blank">
+        <a href="{{item.link}}" title="{{item.name}}" target="_blank">
     {% else %}
-        <a href="https://github.com/{{item.github}}" target="_blank">
+        <a href="https://github.com/{{item.github}}"  title="{{item.name}}" target="_blank">
     {% endif %}
     {{item.heading}}</a>
 </h4>
+<h6>{{item.name}}</h6>
 <p>
     {{item.description}}
 </p>

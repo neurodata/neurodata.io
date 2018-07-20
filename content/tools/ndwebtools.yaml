@@ -1,5 +1,5 @@
 name: ndwebtools
-heading: Manage data
+heading: Web frontend for data
 description: ndwebtools is a web application that provides NeuroData tools for managing and viewing data on NeuroData's spatial database store.
 service: True
 library: False

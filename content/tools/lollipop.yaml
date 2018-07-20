@@ -1,14 +1,13 @@
-name: lolR
-heading: Supervised dimensionality reduction (R)
+name: lolP
+heading: Supervised dimensionality reduction (Python)
 description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
 service: False
 library: True
 
+link: 
 api: 
-github: neurodata/LOL
-docs: https://github.com/neurodata/lol/blob/master/README.md
+github: neurodata/lollipop
+docs: 
 manuscripts: 
-- vogelstein2017linear
 press: 
-
-
+docker: 
