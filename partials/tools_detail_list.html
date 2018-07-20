@@ -1,15 +1,45 @@
 <h4 id="{{item.name}}">
-    {% if item.link %}
-        <a href="{{item.link}}" title="{{item.name}}" target="_blank">
+    {% if item.heading == item.name %}
+        {% if item.link %}
+            <a href="{{item.link}}" target="_blank">
+        {% else %}
+            <a href="https://github.com/{{item.github}}"  target="_blank">
+        {% endif %}
+        {{item.heading}}</a>
     {% else %}
-        <a href="https://github.com/{{item.github}}"  title="{{item.name}}" target="_blank">
+        {{item.heading}}
     {% endif %}
-    {{item.heading}}</a>
 </h4>
-<h6>{{item.name}}</h6>
-<p>
-    {{item.description}}
-</p>
+{% if item.packages %}
+    {% for p in item.packages %}
+        <h6>
+            {% if p.lang in ["Python","R","Matlab"] %}
+                <img src="{{g.static('/source/images/' + p.lang + '_logo.svg').url.path}}" width="20px" height=auto>
+            {% else %}
+                {{p.lang}}: 
+            {% endif %}
+            <a href="https://github.com/{{p.github}}"  target="_blank">{{p.name}}</a>
+         </h6>
+    {% endfor %}
+{% elif item.heading != item.name %}
+    <h6>
+        <!-- lang logo -->
+        {% if item.lang %}
+            {% if item.lang in ["Python","R","Matlab"] %}
+                <img src="{{g.static('/source/images/' + item.lang + '_logo.svg').url.path}}" width="20px" height=auto>
+            {% else %}
+                {{item.lang}}: 
+            {% endif %}
+        {% endif %}
+
+        {% if item.link %}
+            <a href="{{item.link}}" target="_blank">
+        {% else %}
+            <a href="https://github.com/{{item.github}}"  target="_blank">
+        {% endif %}
+        {{item.name}}</a>
+    </h6>
+{% endif %}
 <div class="options clearfix">
     {% if item.api %}
         <div class="link">
@@ -59,3 +89,6 @@
         </div>
     {% endif %}
 </div>
+<p>
+    {{item.description}}
+</p>

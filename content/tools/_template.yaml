@@ -1,6 +1,11 @@
 name: 
+lang: 
 hide: False
 heading: 
+packages:
+- name: ""
+  github: ""
+  lang: ""
 description: 
 service: True / False
 library: True / False

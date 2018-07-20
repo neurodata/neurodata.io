@@ -1415,10 +1415,11 @@ ol {
 
 .tool-wrap .item {
     position: relative;
-    margin-bottom: -5px;
+    padding: 5px 0px;
+    margin-top: 5px;
 }
 
-.tool-wrap .item .odd {
+.tool-wrap .item:nth-child(even){
     background: #edf2f7;
 }
 
@@ -1684,7 +1685,7 @@ ol {
 }
 
 .item h6 {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     margin-left: 10px;
     font-family: "Gentona Book Italic", "Arial Italic", sans-serif;
 }
@@ -1700,7 +1701,7 @@ ol {
     display: flex;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 4px;
 }
 
 .item .options .link a {
@@ -2086,6 +2087,7 @@ ol {
 
 .detail-wrap .props .col p {
     margin: 0px;
+    padding-top: 5px;
 }
 
 #notice {
@@ -2670,6 +2672,9 @@ th {
         right: initial;
         top: initial;
         margin-top: .5em;
+    }
+    .item p{
+        margin: 0px;
     }
 }
 

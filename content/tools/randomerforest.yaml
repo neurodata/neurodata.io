@@ -3,6 +3,7 @@ heading: Classification and regression
 description: Randomer Forest is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
 service: False
 library: True
+lang: R
 
 api: 
 github: neurodata/R-RerF

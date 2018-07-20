@@ -1,4 +1,5 @@
 name: SynapseAnalysis
+lang: Python
 hide: True
 heading: SynapseAnalysis
 description: A framework to evaluate synaptic antibodies for array tomography (AT) 

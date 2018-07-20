@@ -1,4 +1,5 @@
 name: oopsi
+lang: Matlab
 heading: Calcium Spike Sorting
 description: oopsi is a tool for performing model-based spike train inference from calcium imaging.
 

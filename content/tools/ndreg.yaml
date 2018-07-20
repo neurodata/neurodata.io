@@ -1,4 +1,5 @@
 name: ndreg
+lang: Python
 heading: Non-linear image registration
 description: The Neurodata Registration module or ndreg is a set of python functions which can be used to align pairs of images.
 
