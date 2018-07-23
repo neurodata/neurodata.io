@@ -6,7 +6,7 @@ $view: /views/faq.html
 
 ### What is NeuroData?
 
-A collective of individuals that flourish together by extending and fusing statistical machine learning and big data science to address the most important brain science and mental health questions of our time.
+NeuroData is a collective of individuals dedicated to our [mission]([url('/content/pages/about.html')]), and a repository of the [data]([url('/content/pages/data.html')]) and [tools]([url('/content/pages/tools.html')]) we provide as free and open resources to the community.
 
 ### What is your software stack?
 
