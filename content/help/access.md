@@ -51,4 +51,6 @@ A Python package developed by JHU-APL for interactive and programatic usage of t
 
 - Installation and usage instructions available on its [GitHub page](https://github.com/jhuapl-boss/intern)
 
-### Questions/comments?  Email [support@neurodata.io](mailto:support@neurodata.io)
+### Questions/comments?  
+
+Email [support@neurodata.io](mailto:support@neurodata.io)
