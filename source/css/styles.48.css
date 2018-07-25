@@ -9,7 +9,20 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Gentona';
+    src: url("../fonts/gentona/Gentona-Medium.eot");
+    src: local("☺"), url("../fonts/gentona/Gentona-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/gentona/Gentona-Medium.woff") format("woff"), url("../fonts/gentona/Gentona-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gentona Italic';
+    src: url("../fonts/gentona/Gentona-MediumItalic.eot");
+    src: local("☺"), url("../fonts/gentona/Gentona-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/gentona/Gentona-MediumItalic.woff") format("woff"), url("../fonts/gentona/Gentona-MediumItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Gentona Book Italic';
     src: url("../fonts/gentona/Gentona-BookItalic.eot");
@@ -17,7 +30,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Gentona Bold';
     src: url("../fonts/gentona/Gentona-Bold.eot");
@@ -164,7 +176,7 @@ p a:hover:not(.button) {
 html,
 body {
     height: 100%;
-    font: 16px/1.5 "Gentona Book", "Arial", sans-serif;
+    font: 16px/1.5 "Gentona", "Arial", sans-serif;
     color: #020202;
     background-color: white;
     -moz-osx-font-smoothing: antialiased !important;
@@ -253,7 +265,7 @@ p strong {
 }
 
 p em {
-    font-family: "Gentona Book Italic", "Arial Italic", sans-serif;
+    font-family: "Gentona Italic", "Arial Italic", sans-serif;
     font-style: normal !important;
 }
 
@@ -1455,7 +1467,7 @@ ol {
 }
 
 .tooltipster-default .tooltipster-content {
-    font: 14px/1.5 "Gentona Book", "Arial", sans-serif;
+    font: 14px/1.5 "Gentona", "Arial", sans-serif;
     padding: 8px 10px;
     text-transform: uppercase;
     font-weight: bold;
@@ -1680,7 +1692,7 @@ ol {
 .item h6 {
     font-size: 1.1rem;
     margin-left: 10px;
-    font-family: "Gentona Book Italic", "Arial Italic", sans-serif;
+    font-family: "Gentona Italic", "Arial Italic", sans-serif;
 }
 
 .tools-pubs .col p {
