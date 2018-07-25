@@ -1,0 +1,16 @@
+name: graphstats
+lang: "R"
+hide: False
+heading: Graph Statistics
+description: Utilities and algorithms designed for processing and analysis of graphs with specialized graph statistical algorithms
+service: False
+library: True
+
+link: 
+api: 
+github: neurodata/graphstats
+docs: 
+manuscripts: 
+- 
+press: 
+docker: 
