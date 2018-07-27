@@ -20,13 +20,6 @@ $(document).ready(function () {
 	//init tool tip
 	$('.tooltip').tooltipster();
 
-	//center dynamic tooltips
-	$(".tool-wrap .options .link span h5").each(function () {
-		var width = $(this).width();
-		var halfWidth = width / 2;
-		$(this).css("left", - halfWidth);
-	});
-
 	//display learn more text
 	$("a.button.expand").click(function () {
 		$(".header p").toggleClass("active");

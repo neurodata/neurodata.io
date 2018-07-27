@@ -250,7 +250,7 @@ h4 {
 
 h5 {
     font-size: 16px;
-    color: #fff;
+    color: white;
     background-color: #000;
     padding: 11px 14px;
     margin: 0;
@@ -314,8 +314,8 @@ a.button.hollow.dark,
 a.button:hover,
 input[type="submit"]:hover {
     color: #020202;
-    background-color: #fff;
-    border-color: #fff;
+    background-color: white;
+    border-color: white;
 }
 
 a.button.hollow:hover {
@@ -331,7 +331,7 @@ a.button.hollow.dark:hover,
 }
 
 .dark {
-    color: #fff !important;
+    color: white !important;
     background-color: #020202;
 }
 
@@ -538,7 +538,7 @@ form input[type="submit"] {
 
 #top-nav a:link,
 #top-nav a:visited {
-    color: #fff;
+    color: white;
 }
 
 #top-nav a:hover,
@@ -620,7 +620,7 @@ form input[type="submit"] {
 }
 
 #top-nav .sub-menu li a:hover {
-    background-color: #fff;
+    background-color: white;
 }
 
 #top-nav .sub-menu li a {
@@ -737,7 +737,7 @@ footer a:visited {
 }
 
 footer a:hover {
-    color: #fff;
+    color: white;
 }
 
 footer.dark,
@@ -766,7 +766,7 @@ footer.dark,
     background: #f4f4f4;
     /*     display: inline-block; */
     float: left;
-    width: 230px;
+    width: 210px;
     min-height: 100%;
     position: fixed;
     z-index: 999;
@@ -777,7 +777,7 @@ footer.dark,
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 3px 0 3px 230px;
+    border-width: 3px 0 3px 210px;
     border-color: transparent transparent transparent #e1e1e1;
     bottom: -4px;
     left: 0px;
@@ -1049,7 +1049,7 @@ footer.dark,
 }
 
 .mobile-links li a {
-    color: #fff;
+    color: white;
     font-size: 30px;
 }
 
@@ -1062,16 +1062,16 @@ footer.dark,
 }
 
 .mobile-links li a.hero-link:hover {
-    color: #fff;
+    color: white;
 }
 
 /* MAIN 
 ---------------------------------------------- */
 
 .main {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
-    padding-left: 230px;
+    padding-left: 210px;
     /*
     -webkit-filter: blur(0px);
     filter: blur(0px);
@@ -1080,7 +1080,7 @@ footer.dark,
 }
 
 .main .wrap {
-    /* padding-right: 230px; */
+    /* padding-right: 210px; */
 }
 
 /* .blur {
@@ -1092,13 +1092,16 @@ footer.dark,
 ---------------------------------------------- */
 
 .main .video {
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
     overflow: hidden;
-    /* background: #29282f; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 210px;
 }
 
 .main .video h1 {
@@ -1406,12 +1409,66 @@ ol {
     background-size: cover;
 }
 
+.flex-container {
+    padding: 10px 15px;
+    position: sticky;
+    top: 0px;
+    background: white;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+}
+
+.flex-container>div {
+    width: 3em;
+}
+
+.flex-container>div h3 {
+    margin: 0em;
+}
+
+.flex-container>.Local,
+.flex-container>.Cloud {
+    flex: 1;
+    width: 10px;
+}
+
 .grid-container {
+    padding: 0px 15px;
     display: grid;
-    height: 100%;
-    grid-template-columns: 0.5fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-template-areas: ". Cloud Local" "Images tools-images-cloud tools-images-local" "Graphs tools-graphs-cloud tools-graphs-local" "Vectors tools-vectors-cloud tools-vectors-local";
+    grid-template-columns: 3.5rem 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "Images tools-images-local tools-images-cloud" "Graphs tools-graphs-local tools-graphs-cloud" "Vectors tools-vectors-local tools-vectors-cloud";
+    grid-row-gap: 1em;
+}
+
+.grid-container>div {
+    padding: 10px;
+}
+
+.grid-container>div>.item {
+    box-shadow: 0 0 6px 3px #99B4C6;
+    position: relative;
+    padding-left: 5px;
+}
+
+.grid-container>div>.item ul {
+    list-style-type: initial;
+    margin-left: 15px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.grid-container h3 {
+    margin: 0px;
+}
+
+.Local {
+    grid-area: Local;
+}
+
+.Cloud {
+    grid-area: Cloud;
 }
 
 .Images {
@@ -1426,12 +1483,37 @@ ol {
     grid-area: Vectors;
 }
 
-.Cloud {
-    grid-area: Cloud;
+.Cloud-Images {
+    grid-area: Cloud-Images;
 }
 
-.Local {
-    grid-area: Local;
+.Local-Images {
+    grid-area: Local-Images;
+}
+
+.Cloud-Graphs {
+    grid-area: Cloud-Graphs;
+}
+
+.Local-Graphs {
+    grid-area: Local-Graphs;
+}
+
+.Cloud-Vectors {
+    grid-area: Cloud-Vectors;
+}
+
+.Local-Vectors {
+    grid-area: Local-Vectors;
+}
+
+.grid-container>.Images h3,
+.grid-container>.Graphs h3,
+.grid-container>.Vectors h3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-right: .1em;
+    margin-top: .5em;
 }
 
 .tools-images-cloud {
@@ -1458,113 +1540,34 @@ ol {
     grid-area: tools-vectors-local;
 }
 
-@media all and (-ms-high-contrast: none) {
-    .grid-container {
-        display: -ms-grid;
-        -ms-grid-columns: 0.5fr 1fr 1fr;
-        -ms-grid-rows: 0.5fr 1fr 1fr 1fr;
-    }
-    .Images {
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 1;
-    }
-    .Graphs {
-        -ms-grid-row: 3;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 1;
-    }
-    .Vectors {
-        -ms-grid-row: 4;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 1;
-    }
-    .Cloud {
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 1;
-    }
-    .Local {
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 1;
-    }
-    .tools-images-cloud {
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 1;
-    }
-    .tools-images-local {
-        -ms-grid-row: 2;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 1;
-    }
-    .tools-graphs-cloud {
-        -ms-grid-row: 3;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 1;
-    }
-    .tools-graphs-local {
-        -ms-grid-row: 3;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 1;
-    }
-    .tools-vectors-cloud {
-        -ms-grid-row: 4;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 2;
-        -ms-grid-column-span: 1;
-    }
-    .tools-vectors-local {
-        -ms-grid-row: 4;
-        -ms-grid-row-span: 1;
-        -ms-grid-column: 3;
-        -ms-grid-column-span: 1;
-    }
-}
-
-.tool-wrap {
-    padding: 20px 50px;
+/* "Vectors" doesn't stick */
+.Images,
+.Graphs,
+.Vectors {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 110px;
     background: white;
-    display: flex;
-    flex-direction: row;
 }
 
-.tool-wrap .child {
-    padding: 5px;
-    flex: 1;
+.Local-Images,
+.Local-Graphs,
+.Local-Vectors,
+.Cloud-Images,
+.Cloud-Graphs,
+.Cloud-Vectors {
+    display: none;
 }
 
-.tool-wrap h3 {
-    font-size: 26px;
-    line-height: 1.2em;
-}
-
-.tool-wrap h4 {
-    color: #020202;
-    text-transform: none;
-    margin-bottom: 0px;
-    /* font-family: "Quadon Medium", "Rockwell Bold", serif; */
-    font-weight: normal !important;
-}
-
-.tool-wrap .item {
-    position: relative;
-    padding: 5px 0px;
-    margin-top: 5px;
-}
-
-.tool-wrap .item:nth-child(even) {
-    background: #edf2f7;
+.Local,
+.Cloud,
+.Local-Images,
+.Local-Graphs,
+.Local-Vectors,
+.Cloud-Images,
+.Cloud-Graphs,
+.Cloud-Vectors {
+    text-align: center;
 }
 
 .item .options .link:hover span {
@@ -1845,7 +1848,8 @@ ol {
     display: flex;
     position: absolute;
     right: 0;
-    top: 4px;
+    top: 5px;
+    right: 5px;
 }
 
 .item .options .link a {
@@ -2000,7 +2004,7 @@ ol {
 
 .team .members .col .ids {
     z-index: 3;
-    color: #fff;
+    color: white;
     position: absolute;
     padding: 5px 5px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -2468,7 +2472,7 @@ ol {
 }
 
 .table.database label span.checked:first-of-type:hover {
-    background: #fff;
+    background: white;
     cursor: pointer;
 }
 
@@ -2701,20 +2705,19 @@ th {
     .main .video video {
         display: none;
     }
+    .main .video {
+        position: absolute;
+        top: 76px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
     .main .video .mobile {
         display: flex;
         overflow: hidden;
         order: 2;
         object-fit: cover;
         flex-grow: 1;
-        /* position: absolute; */
-        /* width: 100%; */
-        /* margin: 0 auto; */
-        /* left: 0; */
-        /* right: 0; */
-        /* z-index: 2; */
-        /* max-height: 50%;
-        background: #020202; */
     }
     .nav .links {
         display: none;
@@ -2759,9 +2762,6 @@ th {
     .docs .col {
         border: none !important;
     }
-    .tool-wrap {
-        padding: 5%;
-    }
     .about {
         padding: 5%;
     }
@@ -2780,6 +2780,11 @@ th {
     }
     .data.mobile-projects {
         display: block;
+    }
+
+    .flex-container {
+        top: 60px;
+        z-index: 2;
     }
 }
 
@@ -2802,12 +2807,6 @@ th {
         margin: 2px;
         padding: 0 10px;
     }
-    .tool-wrap {
-        flex-direction: column;
-    }
-    .tool-wrap .child {
-        flex-basis: auto;
-    }
     .item .options {
         float: none;
         width: auto;
@@ -2816,9 +2815,6 @@ th {
         right: initial;
         top: initial;
         margin-top: .5em;
-    }
-    .item p {
-        margin: 0px;
     }
 }
 
@@ -2879,6 +2875,33 @@ th {
 @media screen and (max-width: 600px) {
     .team .members .col {
         width: 49%;
+    }
+    .grid-container {
+        padding: 10px 15px;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr;
+        grid-template-rows: 50px auto 50px auto 50px auto 50px auto 50px auto;
+        grid-template-areas: ". Local-Images" "Images tools-images-local" ". Cloud-Images" ". tools-images-cloud" ". Local-Graphs" "Graphs tools-graphs-local" ". Cloud-Graphs" ". tools-graphs-cloud" ". Local-Vectors" "Vectors tools-vectors-local";
+        grid-row-gap: 1em;
+    }
+    .Local,
+    .Cloud {
+        display: none;
+    }
+    .Local-Images,
+    .Local-Graphs,
+    .Local-Vectors,
+    .Cloud-Images,
+    .Cloud-Graphs,
+    .Cloud-Vectors {
+        display: block;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 60px;
+        background: white;
+    }
+    .flex-container {
+        display: none;
     }
 }
 

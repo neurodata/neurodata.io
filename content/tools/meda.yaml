@@ -1,3 +1,4 @@
+$order: 6
 name: meda
 
 packages:
@@ -10,8 +11,10 @@ packages:
 
 heading: Matrix Exploratory Data Analysis
 description: Matrix Exploratory Data Analysis (meda), both in R and Python.  Implements the top 10 analyses/visualizations we recommend for any matrix valued data.
-service: False
-library: True
+
+cloud: False
+local: True
+type: "vectors"
 
 api: 
 github: neurodata/meda

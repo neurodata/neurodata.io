@@ -1,10 +1,11 @@
 name: SynapseAnalysis
 lang: Python
-hide: True
-heading: SynapseAnalysis
-description: A framework to evaluate synaptic antibodies for array tomography (AT) 
-service: True
-library: False
+heading: Synapse Detection
+description: SynapseAnalysis (PSD) is a framework to evaluate synaptic antibodies for fluorescence array tomography (AT)
+
+cloud: False
+local: True
+type: images
 
 link: 
 api: 

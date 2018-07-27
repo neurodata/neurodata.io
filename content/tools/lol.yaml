@@ -1,3 +1,4 @@
+$order: 5
 name: lol
 packages:
 - name: "lolR"
@@ -8,8 +9,10 @@ packages:
   lang: Python
 heading: Supervised dimensionality reduction
 description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
-service: False
-library: True
+
+cloud: False
+local: True
+type: "vectors"
 
 api: 
 github: neurodata/LOL

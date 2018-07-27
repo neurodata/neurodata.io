@@ -1,9 +1,12 @@
+$order: 1
 name: MGC
 lang: R
 heading: Non-parametric hypothesis testing
 description: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data.
-service: False
-library: True
+
+cloud: False
+local: True
+type: "vectors"
 
 api: 
 github: neurodata/mgc

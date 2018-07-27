@@ -2,8 +2,10 @@ name: ndpull
 lang: Python
 heading: Image stack download
 description: ndpull is a command-line program to download large volume image data from NeuroData from our spatial database storage system.
-service: True
-library: False
+
+cloud: True
+local: False
+type: "images"
 
 api:
 github: neurodata/ndpull

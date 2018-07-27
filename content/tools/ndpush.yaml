@@ -2,8 +2,10 @@ name: ndpush
 lang: Python
 heading: Image stack upload
 description: ndpush is a command-line program to ingest large volume image data into the cloud using APL's BOSS spatial database.
-service: True
-library: False
+
+cloud: True
+local: False
+type: "images"
 
 api:
 github: neurodata/ndpush

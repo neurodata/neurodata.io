@@ -1,9 +1,13 @@
+$order: 2
 name: knorR
 lang: R
-heading: k-means clustering
+heading: Clustering
 description: knorR is a highly optimized and fast library for computing k-means in parallel with accelerations for Non-Uniform Memory Access ('NUMA') architectures. 
-service: False
-library: True
+
+cloud: False
+local: True
+type: "vectors"
+
 api: https://cran.r-project.org/web/packages/knor/knor.pdf
 github: flashxio/knor
 manuscripts: 

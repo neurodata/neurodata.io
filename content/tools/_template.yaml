@@ -7,8 +7,9 @@ packages:
   github: ""
   lang: ""
 description: 
-service: True / False
-library: True / False
+cloud: True / False
+local: True / False
+type: images/graphs/vectors
 
 link: 
 api: 
