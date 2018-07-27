@@ -9,6 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gentona';
     src: url("../fonts/gentona/Gentona-Medium.eot");
@@ -16,6 +17,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gentona Italic';
     src: url("../fonts/gentona/Gentona-MediumItalic.eot");
@@ -23,6 +25,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gentona Book Italic';
     src: url("../fonts/gentona/Gentona-BookItalic.eot");
@@ -30,6 +33,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Gentona Bold';
     src: url("../fonts/gentona/Gentona-Bold.eot");
@@ -1375,6 +1379,15 @@ ol {
     display: block;
 }
 
+.docs p svg {
+    max-width: 640px;
+    width: 100%;
+}
+
+.docs p svg#Layer_1 a:hover {
+    cursor: pointer;
+}
+
 /* PAPER 
 ---------------------------------------------- */
 
@@ -1391,6 +1404,132 @@ ol {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: ". Cloud Local" "Images tools-images-cloud tools-images-local" "Graphs tools-graphs-cloud tools-graphs-local" "Vectors tools-vectors-cloud tools-vectors-local";
+}
+
+.Images {
+    grid-area: Images;
+}
+
+.Graphs {
+    grid-area: Graphs;
+}
+
+.Vectors {
+    grid-area: Vectors;
+}
+
+.Cloud {
+    grid-area: Cloud;
+}
+
+.Local {
+    grid-area: Local;
+}
+
+.tools-images-cloud {
+    grid-area: tools-images-cloud;
+}
+
+.tools-images-local {
+    grid-area: tools-images-local;
+}
+
+.tools-graphs-cloud {
+    grid-area: tools-graphs-cloud;
+}
+
+.tools-graphs-local {
+    grid-area: tools-graphs-local;
+}
+
+.tools-vectors-cloud {
+    grid-area: tools-vectors-cloud;
+}
+
+.tools-vectors-local {
+    grid-area: tools-vectors-local;
+}
+
+@media all and (-ms-high-contrast: none) {
+    .grid-container {
+        display: -ms-grid;
+        -ms-grid-columns: 0.5fr 1fr 1fr;
+        -ms-grid-rows: 0.5fr 1fr 1fr 1fr;
+    }
+    .Images {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .Graphs {
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .Vectors {
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .Cloud {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+    }
+    .Local {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 1;
+    }
+    .tools-images-cloud {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+    }
+    .tools-images-local {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 1;
+    }
+    .tools-graphs-cloud {
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+    }
+    .tools-graphs-local {
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 1;
+    }
+    .tools-vectors-cloud {
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+    }
+    .tools-vectors-local {
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 1;
+    }
 }
 
 .tool-wrap {
@@ -1424,7 +1563,7 @@ ol {
     margin-top: 5px;
 }
 
-.tool-wrap .item:nth-child(even){
+.tool-wrap .item:nth-child(even) {
     background: #edf2f7;
 }
 
@@ -2678,7 +2817,7 @@ th {
         top: initial;
         margin-top: .5em;
     }
-    .item p{
+    .item p {
         margin: 0px;
     }
 }
