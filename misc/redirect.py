@@ -30,6 +30,7 @@ redirects = [
     ['tobin16', 'data/tobin16/'],
     ['graph-services/download', 'project/connectomes/'],
     ['catmaid', 'data/'],
+    ['Kasthurietal2014', 'data/kasthuri15/'],
 ]
 
 
