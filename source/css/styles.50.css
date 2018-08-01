@@ -1541,6 +1541,7 @@ ol {
 }
 
 /* "Vectors" doesn't stick */
+
 .Images,
 .Graphs,
 .Vectors {
@@ -2781,7 +2782,6 @@ th {
     .data.mobile-projects {
         display: block;
     }
-
     .flex-container {
         top: 60px;
         z-index: 2;
@@ -2911,6 +2911,20 @@ th {
     }
     h3 {
         font-size: 7vw;
+    }
+    .tools-pubs {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio: 1.25),
+(max-width: 720px) and (min-resolution: 1.25dppx){
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
     }
     .tools-pubs {
         flex-direction: column;
