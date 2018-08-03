@@ -5,8 +5,8 @@ options: #for creating the header links
   link: ndwebtools
 - name: ndviz
   link: ndviz
-- name: ndpull
-  link: ndpull
+- name: ndex
+  link: ndex
 - name: intern
   link: intern
 ---
@@ -29,7 +29,7 @@ There are four methods for getting data from the BOSS:
 
 #### [ndwebtools](https://ndwebtools.neurodata.io)
 
-A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 1GB) to data and links to data visualization (through ndviz).  Larger cutouts should be performed programmatically using either `ndpull` or `intern` detailed below.
+A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 1GB) to data and links to data visualization (through ndviz).  Larger cutouts should be performed programmatically using either `ndex` or `intern` detailed below.
 
 - Log in at [ndwebtools.neurodata.io](https://ndwebtools.neurodata.io)
 - Navigate the available projects by clicking the links to collections and experiments.  Clicking on any experiment takes you to the cutout page.
@@ -39,11 +39,11 @@ A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 
 
 Ndviz is a fork of [neuroglancer](https://github.com/google/neuroglancer) with BOSS support added.  The most straightforward way to load data to be viewed in ndviz is through ndwebtools (above).
 
-#### [ndpull](https://github.com/neurodata/ndpull)
+#### [ndex](https://github.com/neurodata/ndex)
 
 A Python command-line tool for downloading volumes of data from the BOSS as TIFF stacks.  This library can also be loaded from within Python.
 
-- Installation and usage instructions on its [GitHub page](https://github.com/neurodata/ndpull/)
+- Installation and usage instructions on its [GitHub page](https://github.com/neurodata/ndex/)
 
 #### [intern](https://github.com/jhuapl-boss/intern)
 

@@ -1,0 +1,14 @@
+name: ndex
+lang: Python
+heading: Image stack upload/download
+description: ndex allows exchange of large image volumes with NeuroData
+
+cloud: True
+local: False
+type: "images"
+
+api:
+github: neurodata/ndex
+docs:
+manuscripts:
+press:

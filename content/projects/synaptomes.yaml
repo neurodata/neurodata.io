@@ -35,7 +35,7 @@ data:
 tools:
 - meda
 - ndwebtools
-- ndpush
+- ndex
 - ndviz
 - SynapseAnalysis
 

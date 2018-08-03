@@ -3,8 +3,6 @@ lang: Python
 hide: True
 heading: CalmAn
 description: Computational toolbox for large scale Calcium Imaging Analysis
-service: False
-library: True
 
 link: 
 api: 

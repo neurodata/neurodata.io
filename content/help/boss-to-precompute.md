@@ -5,8 +5,6 @@ options: #for the header links
       link: steps
     - name: prerequisites
       link: prerequisites
-    - name: download
-      link: download-data-from-boss-using-ndpull
     - name: create
       link: create-compressed-segmentations
     - name: host
