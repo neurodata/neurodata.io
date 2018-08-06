@@ -3,6 +3,10 @@ hide: False
 heading: MRICloud
 description: MRICloud provides a high-throughput neuroinformatics platform for automated brain MRI segmentation and analytical tools for quantification via distributed remote computation and Web-based user interfaces
 
+cloud: True
+local: False
+type: "images"
+
 link: https://mricloud.org/
 api: 
 github: 
