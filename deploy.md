@@ -1,6 +1,20 @@
-# Deploy on AWS
+# Deployment
 
-## Create bucket
+The demo site is deployed on netlify.  The production site is deployed on AWS using CodePipeline.
+
+## Netlify
+
+Connect it to GitHub repo, and the deployment settings are as follows:
+
+Build command: `grow install; grow build; cp robots-demo.txt build/robots.txt`
+Publish directory: `build`
+Production branch: `master`
+
+Since this is demo site, no custom domain.
+
+## AWS
+
+### Create bucket
 
 - nd-website-deploy
 - bucket policy:
@@ -19,22 +33,22 @@
     ]
     ```
 
-## CodePipeline
+### CodePipeline
 
 - Name: nd-website-deploy
 - Source: GitHub
 - Branch: deploy
 - Build provider: AWS CodeBuild
 
-## CodeBuild
+### CodeBuild
 
 - Name: build-website
 - image: Ubuntu/Python2.7.12
-- buildspec.yml: Choose the version you are building, either demo (master branch) or deploy (deploy branch)
+- buildspec.yml: [buildspec_deploy.yml](buildspec_deploy.yml)
 
-## Deployment: *No Deployment*
+### Deployment: *No Deployment*
 
-## Role policy - grant s3 privaledges to role for Bucket:
+### Role policy - grant s3 privileges to role for Bucket
 
   ```json
   {
@@ -49,23 +63,23 @@
   }
   ```
 
-## S3 bucket hosting
+### S3 bucket hosting
 
 Otherwise paths are not followed to their index.html objects
 
-## CloudFront
+### CloudFront
 
 - Source is the bucket host URL (not the *bucket* object path)
 - HTTP -> HTTPS redirect
-- using default cloudfront certificate
+- using default CloudFront certificate
 - index.html as base object
 
-## Create Role for CodeBuild to modifiy CloudFront
+### Create Role for CodeBuild to modify CloudFront
 
 - ListInvalidations/GetInvalidation/CreateInvalidation (so that each build invalidates CloudFront cache)
 - Role needs permissions to S3 buckets as well
 
-## Redirects
+### Redirects
 
 - Redirects are handled by the properties field in the Bucket (static website `hosting/redirection rules`), and the XML for this can be generated using `misc/redirect.py` and copy/pasting into the bucket properties
 
@@ -73,7 +87,7 @@ Otherwise paths are not followed to their index.html objects
 
 - New CloudFront origin for talks (from a different bucket)
 - Have a similar CodePipeline setup for the [neurodata/talks](https://github.com/neurodata/talks) repo, which just copies objects to the talks bucket.
-- Under behaviors in CloudFront, we have the following heirarchy:
+- Under behaviors in CloudFront, we have the following hierarchy:
   1. `talks` | S3-nd-website-deploy
   2. `talks/` | S3-nd-website-deploy
   3. `talks/*` | S3-nd-talks

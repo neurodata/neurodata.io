@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - echo Installing grow
-      - pip install keyring==12.2.0
       - pip install grow
   build:
     commands:
