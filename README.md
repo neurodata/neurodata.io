@@ -41,3 +41,7 @@ You can use the `grow build` command to build your whole site to the `build` dir
 ```
 grow build
 ```
+
+## Contributing
+
+Please submit pull requests to `master` branch.

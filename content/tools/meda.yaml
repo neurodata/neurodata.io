@@ -10,7 +10,7 @@ packages:
   lang: "Python"
 
 heading: Matrix Exploratory Data Analysis
-description: Matrix Exploratory Data Analysis (meda), both in R and Python.  Implements the top 10 analyses/visualizations we recommend for any matrix valued data.
+description: meda implements the top 10 analyses/visualizations we recommend for any matrix valued data.
 
 cloud: False
 local: True

@@ -1,7 +1,7 @@
 name: MRICloud
 hide: False
 heading: MRICloud
-description: MRICloud provides a high-throughput neuroinformatics platform for automated brain MRI segmentation and analytical tools for quantification via distributed remote computation and Web-based user interfaces
+description: MRICloud provides high-throughput neuroinformatics for automated brain MRI segmentation and analytical tools for quantification
 
 cloud: True
 local: False

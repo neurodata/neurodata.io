@@ -1447,9 +1447,11 @@ ol {
 }
 
 .grid-container>div>.item {
-    box-shadow: 0 0 6px 3px #99B4C6;
+    box-shadow: 0 0 15px 1px #99B4C6;
     position: relative;
     padding-left: 5px;
+    margin: 20px 0px;
+    height: 180px;
 }
 
 .grid-container>div>.item ul {
@@ -1551,12 +1553,12 @@ ol {
     background: white;
 }
 
-.Local-Images,
-.Local-Graphs,
-.Local-Vectors,
-.Cloud-Images,
-.Cloud-Graphs,
-.Cloud-Vectors {
+.grid-container>.Local-Images,
+.grid-container>.Local-Graphs,
+.grid-container>.Local-Vectors,
+.grid-container>.Cloud-Images,
+.grid-container>.Cloud-Graphs,
+.grid-container>.Cloud-Vectors {
     display: none;
 }
 
@@ -2678,6 +2680,18 @@ th {
         float: none;
         margin-left: 10px;
     }
+    .item .options {
+        float: none;
+        width: auto;
+        display: block;
+        position: relative;
+        right: initial;
+        top: initial;
+        margin-top: .5em;
+    }
+    .grid-container>div>.item{
+        height: 215px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2807,14 +2821,8 @@ th {
         margin: 2px;
         padding: 0 10px;
     }
-    .item .options {
-        float: none;
-        width: auto;
-        display: block;
-        position: relative;
-        right: initial;
-        top: initial;
-        margin-top: .5em;
+    .grid-container>div>.item{
+        height: 250px;
     }
 }
 
@@ -2870,12 +2878,6 @@ th {
         width: 100%;
         padding: 0px;
     }
-}
-
-@media screen and (max-width: 600px) {
-    .team .members .col {
-        width: 49%;
-    }
     .grid-container {
         padding: 10px 15px;
         display: grid;
@@ -2888,20 +2890,29 @@ th {
     .Cloud {
         display: none;
     }
-    .Local-Images,
-    .Local-Graphs,
-    .Local-Vectors,
-    .Cloud-Images,
-    .Cloud-Graphs,
-    .Cloud-Vectors {
+    .flex-container {
+        display: none;
+    }
+    .grid-container>div>.item{
+        height: auto;
+    }
+    .grid-container>.Local-Images,
+    .grid-container>.Local-Graphs,
+    .grid-container>.Local-Vectors,
+    .grid-container>.Cloud-Images,
+    .grid-container>.Cloud-Graphs,
+    .grid-container>.Cloud-Vectors {
         display: block;
         position: -webkit-sticky;
         position: sticky;
         top: 60px;
         background: white;
     }
-    .flex-container {
-        display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .team .members .col {
+        width: 49%;
     }
 }
 
@@ -2917,9 +2928,8 @@ th {
     }
 }
 
-
 @media screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio: 1.25),
-(max-width: 720px) and (min-resolution: 1.25dppx){
+(max-width: 720px) and (min-resolution: 1.25dppx) {
     h2 {
         font-size: 6vw;
     }
