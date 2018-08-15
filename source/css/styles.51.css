@@ -1240,10 +1240,7 @@ footer.dark,
     background: #99B4C6;
     width: 100%;
     /* 	border-top:2px solid #99B4C6; */
-}
-
-.doc-nav.fixed {
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 9999;
 }
@@ -2799,6 +2796,9 @@ th {
     .flex-container {
         top: 60px;
         z-index: 2;
+    }
+    .doc-nav{
+        top: 76px;
     }
 }
 

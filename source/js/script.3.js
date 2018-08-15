@@ -85,40 +85,6 @@ $(document).ready(function () {
 		renderCalendar();
 	});
 
-	//fixed nav on scroll
-	$(window).bind("load resize scroll", function (e) {
-		//desktop
-		if (($(".doc-nav").length > 0) && ($(window).width() > 1024)) {
-			//get header height
-			var headerHeight = $('.header').height();
-			//make nav fixed
-			if ($(window).scrollTop() > headerHeight) {
-				$('.doc-nav').addClass('fixed');
-				$('.doc-nav').width($(this).width() - 230);
-				var docNavHeight = $('.doc-nav').height();
-				$('.docs').css('margin-top', docNavHeight);
-				$('.detail-wrap').css('margin-top', docNavHeight);
-				$('.about').css('margin-top', docNavHeight);
-			}
-			//make nav static
-			if ($(window).scrollTop() < headerHeight) {
-				$('.doc-nav').removeClass('fixed');
-				$('.docs').css('margin-top', '0px');
-				$('.detail-wrap').css('margin-top', '0px');
-				$('.about').css('margin-top', '0px');
-				$('.doc-nav').width("100%");
-			}
-		}
-		//mobile, remove all
-		else {
-			$('.doc-nav').removeClass('fixed');
-			$('.docs').css('margin-top', '0px');
-			$('.detail-wrap').css('margin-top', '0px');
-			$('.about').css('margin-top', '0px');
-			$('.doc-nav').width("100%");
-		}
-	});
-
 	//smooth scroll anchor links
 	$(function () {
 		var navHeight = $(".doc-nav").height();
