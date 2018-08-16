@@ -1240,6 +1240,7 @@ footer.dark,
     background: #99B4C6;
     width: 100%;
     /* 	border-top:2px solid #99B4C6; */
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 9999;
@@ -1285,6 +1286,18 @@ footer.dark,
 .doc-nav select {
     display: none;
 }
+
+/* Doc nav subsection */
+
+.doc-nav.sub {
+    top: 54px;
+    background: #94D6C9;
+}
+
+.doc-nav.sub > ul > li {
+    border-bottom: 6px solid #94D6C9;
+}
+
 
 /* DOCS / FAQ / HELP
 ---------------------------------------------- */
@@ -1408,6 +1421,7 @@ ol {
 
 .flex-container {
     padding: 10px 15px;
+    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     background: white;
@@ -2800,6 +2814,9 @@ th {
     .doc-nav{
         top: 76px;
     }
+    .doc-nav.sub{
+        top: 116px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -2849,6 +2866,13 @@ th {
         text-transform: uppercase;
         background: #99B4C6;
         background: #99B4C6 url("../images/dropdown-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 14px;
+        background-position: 97%;
+    }
+    .doc-nav.sub>select{
+        background: #94D6C9;
+        background: #94D6C9 url("../images/dropdown-arrow.png");
         background-repeat: no-repeat;
         background-size: 14px;
         background-position: 97%;

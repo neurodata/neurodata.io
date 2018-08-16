@@ -5,31 +5,7 @@ $order: 5
 <div class="header about-header">
     <h2>About NeuroData</h2>
 </div>
-<div class="doc-nav">
-    <ul>
-        <li><a href="#mission"><h5>Mission</h5></a></li>
-        <li><a href="#team"><h5>Team</h5></a></li>
-        <li><a href="/publications"><h5>Publications</h5></a></li>
-        <li><a href="/talks"><h5>Talks</h5></a></li>
-        <li><a href="#press"><h5>Press</h5></a></li>
-        <li><a href="#awards"><h5>Awards</h5></a></li>
-        <li><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank"><h5>Funding</h5></a></li>
-        <li><a href="https://github.com/neurodata/about/blob/master/agreements.md" target="_blank"><h5>Agreements</h5></a></li>
-        <li><a href="#calendar"><h5>Calendar</h5></a></li>
-    </ul>
-    <select>
-        <option selected="selected">Jump to:</option>
-        <option value="mission">Mission</option>
-        <option value="team">Team</option>
-        <option value="pubs">Publications</option>
-        <option value="talks">Talks</option>
-        <option value="press">Press</option>
-        <option value="awards">Awards</option>
-        <option value="funding">Funding</option>
-        <option value="agreements">Agreements</option>
-        <option value="calendar">Calendar</option>
-    </select>
-</div>
+{% include 'partials/about_nav.html' %}
 
 <div class="about clearfix">
     <div class="press" id="mission">

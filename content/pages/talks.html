@@ -6,7 +6,8 @@ $hidden: true
 <div class="header about-header">
     <h2>Talks</h2>
 </div>
-
+{% include 'partials/about_nav.html' %}
+    
 <div class="detail-wrap">    
     {% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
     <div class="list_pubs">

@@ -100,9 +100,10 @@ other:
 <div class="header about-header">
     <h2>Publications</h2>
 </div>
+{% include 'partials/about_nav.html' %}
 
-<div class="doc-nav">
-    <ul class="clearfix">
+<div class="doc-nav sub">
+    <ul>
         <li><a href="#pre_prints"><h5>Pre-Prints</h5></a></li>
         <li><a href="#peer_reviewed"><h5>Peer-Reviewed</h5></a></li>
         <li><a href="#conf"><h5>Conferences</h5></a></li>
@@ -110,7 +111,7 @@ other:
         <li><a href="#other"><h5>Other</h5></a></li>
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
-        <option selected="selected">Select:</option>
+        <option selected="selected">Publication type:</option>
         <option value="#pre_prints">Pre-Prints</option>
         <option value="#peer_reviewed">Peer-Reviewed</option>
         <option value="#conf">Conferences</option>
