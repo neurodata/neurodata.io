@@ -2,7 +2,12 @@
     <ul>
         <li><a href="/about#mission"><h5>Mission</h5></a></li>
         <li><a href="/about#team"><h5>Team</h5></a></li>
-        <li><a href="/publications"><h5>Publications</h5></a></li>
+        <li 
+        {% if highlighted=='pubs' %}
+            style="background: #94D6C9; border-color: #94D6C9;"
+        {% endif %}
+        >
+        <a href="/publications"><h5>Publications</h5></a></li>
         <li><a href="/talks"><h5>Talks</h5></a></li>
         <li><a href="/about#press"><h5>Press</h5></a></li>
         <li><a href="/about#awards"><h5>Awards</h5></a></li>
