@@ -22,16 +22,12 @@ $order: 3
     </div>
     <div class="tools-images-cloud">
         {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
-        <div class="item">
             {% include 'partials/tools_detail_list.html' %}
-        </div>
         {% endfor %}
     </div>
     <div class="tools-images-local">
         {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
-        <div class="item">
             {% include 'partials/tools_detail_list.html' %}
-        </div>
         {% endfor %}
     </div>
     <div class="Graphs">
@@ -55,9 +51,7 @@ $order: 3
     </div>
     <div class="tools-graphs-local">
         {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-        <div class="item">
             {% include 'partials/tools_detail_list.html' %}
-        </div>
         {% endfor %}
     </div>
     <div class="Vectors">
@@ -67,9 +61,7 @@ $order: 3
     </div> -->
     <div class="tools-vectors-local">
         {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
-        <div class="item">
             {% include 'partials/tools_detail_list.html' %}
-        </div>
         {% endfor %}
     </div>
     <div class="Local-Images">

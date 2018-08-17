@@ -54,9 +54,7 @@
                 {% if doc.tools %}
                     {% for item in g.docs('tools', order_by='heading') %}
                         {% if item.name in doc.tools %}
-                            <div class="item">
                             {% include 'partials/tools_detail_list.html' %}
-                            </div>
                         {% endif %}
                     {% endfor %}
                 {% endif%}
