@@ -1,1 +1,2 @@
 git+git://github.com/neurodata/grow-ext-bibtex-print
+git+git://github.com/grow/grow-ext-html-min

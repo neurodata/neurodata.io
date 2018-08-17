@@ -1442,6 +1442,12 @@ ol {
 .flex-container>.Cloud {
     flex: 1;
     width: 10px;
+    margin-bottom: -1.2rem;
+}
+
+.grid-container h3,
+.flex-container h3 {
+    color: #5F8793;
 }
 
 .grid-container {
@@ -1450,7 +1456,8 @@ ol {
     grid-template-columns: 3.5rem 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "Images tools-images-local tools-images-cloud" "Graphs tools-graphs-local tools-graphs-cloud" "Vectors tools-vectors-local tools-vectors-cloud";
-    grid-row-gap: 1em;
+    grid-row-gap: 1rem;
+    margin-top: -1rem;
 }
 
 .grid-container>div {
@@ -2908,7 +2915,8 @@ th {
         grid-template-columns: 0.1fr 1fr;
         grid-template-rows: 50px auto 50px auto 50px auto 50px auto 50px auto;
         grid-template-areas: ". Local-Images" "Images tools-images-local" ". Cloud-Images" ". tools-images-cloud" ". Local-Graphs" "Graphs tools-graphs-local" ". Cloud-Graphs" ". tools-graphs-cloud" ". Local-Vectors" "Vectors tools-vectors-local";
-        grid-row-gap: 1em;
+        grid-row-gap: 1rem;
+        margin-top: 0px;
     }
     .Local,
     .Cloud {
@@ -2919,6 +2927,7 @@ th {
     }
     .grid-container>div>.item{
         height: auto;
+        margin: 0px;
     }
     .grid-container>.Local-Images,
     .grid-container>.Local-Graphs,

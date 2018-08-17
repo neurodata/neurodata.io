@@ -40,6 +40,9 @@ extensions:
   jinja2:
   - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
 
+ext:
+  - extensions.html_min.HtmlMinExtension
+
 markdown:
   extensions:
   - kind: markdown.extensions.codehilite
