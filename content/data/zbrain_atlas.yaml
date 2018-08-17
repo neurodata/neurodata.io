@@ -13,7 +13,7 @@ data:
   url: 
   type: 
   description: 
-  viz: "https://viz.boss.neurodata.io/#!{'layers':{'zbrain_atlas':{'type':'segmentation'_'source':'precomputed://https://s3.amazonaws.com/zbrain/atlas_owen'_'segments':['1'_'10'_'11'_'12'_'13'_'14'_'15'_'16'_'17'_'18'_'19'_'2'_'20'_'21'_'22'_'23'_'24'_'25'_'26'_'27'_'28'_'29'_'3'_'30'_'31'_'32'_'33'_'4'_'5'_'6'_'7'_'8'_'9']}}_'navigation':{'pose':{'position':{'voxelSize':[798_798_2000]_'voxelCoordinates':[703_310.5_69]}}_'zoomFactor':798}_'perspectiveOrientation':[0.8687559962272644_0.04291050508618355_0.06519677489995956_-0.48904919624328613]_'perspectiveZoom':11789_'showSlices':false_'layout':'4panel'}"
+  viz: "https://viz.neurodata.io/#!{'layers':{'zbrain_atlas':{'type':'segmentation'_'source':'precomputed://https://s3.amazonaws.com/zbrain/atlas_owen'_'segments':['1'_'10'_'11'_'12'_'13'_'14'_'15'_'16'_'17'_'18'_'19'_'2'_'20'_'21'_'22'_'23'_'24'_'25'_'26'_'27'_'28'_'29'_'3'_'30'_'31'_'32'_'33'_'4'_'5'_'6'_'7'_'8'_'9']}}_'navigation':{'pose':{'position':{'voxelSize':[798_798_2000]_'voxelCoordinates':[703_310.5_69]}}_'zoomFactor':798}_'perspectiveOrientation':[0.8687559962272644_0.04291050508618355_0.06519677489995956_-0.48904919624328613]_'perspectiveZoom':11789_'showSlices':false_'layout':'4panel'}"
     
 tools:
 

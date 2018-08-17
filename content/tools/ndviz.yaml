@@ -6,9 +6,9 @@ cloud: True
 local: False
 type: "images"
 
-link: https://viz.boss.neurodata.io/
+link: https://viz.neurodata.io/
 api: 
-github: neurodata/ndviz
+github: neurodata/neuroglancer
 docs: 
 manuscripts: 
 press: 

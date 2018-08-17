@@ -14,7 +14,7 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/bumbarger/bumbarger13/
   type: 
   description: 
-  viz: "https://viz.boss.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bumbarger/bumbarger13/image?'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[3.9_3.9_50]_'voxelCoordinates':[11778_12096_1382]}}_'zoomFactor':165}_'perspectiveOrientation':[0.3742_0.2256_0.04100_0.898]_'perspectiveZoom':1808_'layout':'4panel'}"
+  viz: "https://viz.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bumbarger/bumbarger13/image?'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[3.9_3.9_50]_'voxelCoordinates':[11778_12096_1382]}}_'zoomFactor':165}_'perspectiveOrientation':[0.3742_0.2256_0.04100_0.898]_'perspectiveZoom':1808_'layout':'4panel'}"
 
 tools:
 

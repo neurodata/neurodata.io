@@ -35,7 +35,7 @@ A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 
 - Navigate the available projects by clicking the links to collections and experiments.  Clicking on any experiment takes you to the cutout page.
 - The cutout page provides TIFF downloads and viz links for the channels within the experiment.
 
-#### [ndviz](https://viz.boss.neurodata.io)
+#### [ndviz](https://viz.neurodata.io)
 
 Ndviz is a fork of [neuroglancer](https://github.com/google/neuroglancer) with BOSS support added.  The most straightforward way to load data to be viewed in ndviz is through ndwebtools (above).
 

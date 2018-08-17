@@ -13,7 +13,7 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/bloss/bloss16/
   type: AT, TEM
   description: Large-volume array tomography (AT) and transmission electron microscopy (TEM).
-  viz: "https://viz.boss.neurodata.io/#!{'layers':{'channel0':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel0?'_'blend':'additive'}_'channel1':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel1?'_'blend':'additive'_'color':1}_'channel2':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel2?'_'blend':'additive'_'color':2}_'channel3':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel3?'_'blend':'additive'_'color':3_'visible':false}}_'navigation':{'pose':{'position':{'voxelSize':[100_100_100]_'voxelCoordinates':[5750_3750_714]}}_'zoomFactor':1200}}"
+  viz: "https://viz.neurodata.io/#!{'layers':{'channel0':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel0?'_'blend':'additive'}_'channel1':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel1?'_'blend':'additive'_'color':'#ff0000'}_'channel2':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel2?'_'blend':'additive'_'color':'#00ff00'}_'channel3':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bloss/bloss16/channel3?'_'blend':'additive'_'color':'#0000ff'_'visible':false}}_'navigation':{'pose':{'position':{'voxelSize':[100_100_100]_'voxelCoordinates':[5750_3750_714]}}_'zoomFactor':1200}}"
 
 tools:
 
