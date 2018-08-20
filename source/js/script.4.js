@@ -4,16 +4,14 @@ $(document).ready(function () {
 	$(window).bind("load resize scroll", function (e) {
 		if (($(window).width() < 1025) && ($(".main .video .mobile").length > 0)) {
 			//do nothing, image exists already
-		}
-		else if ($(window).width() < 1025) {
+		} else if ($(window).width() < 1025) {
 			$(".main .video").prepend('<video autoplay muted preload loop playsinline class="mobile"><source src="static/video/NeurodataIntroVideo_mobile.mp4" type="video/mp4" /></video>')
 		}
 	});
 	//safari bug resolved with this duplicated
 	if (($(window).width() < 1025) && ($(".main .video .mobile").length > 0)) {
 		//do nothing, image exists already
-	}
-	else if ($(window).width() < 1025) {
+	} else if ($(window).width() < 1025) {
 		$(".main .video").prepend('<video autoplay muted preload loop playsinline class="mobile"><source src="static/video/NeurodataIntroVideo_mobile.mp4" type="video/mp4" /></video>')
 	}
 
@@ -75,8 +73,7 @@ $(document).ready(function () {
 	$(".table.database input[type='checkbox']").on("click", function () {
 		if ($(this).val() == "All") {
 			$(".table.database input[type='checkbox']").prop('checked', true);
-		}
-		else {
+		} else {
 			if ($(".table.database input[type='checkbox']:not(:checked)").length > 0) {
 				$(".table.database input[type='checkbox'][value='All']").prop('checked', false);
 			}
@@ -103,7 +100,9 @@ $(document).ready(function () {
 	});
 	$(function () {
 		$('.doc-nav select').change(function () {
-			$('html,body').animate({ scrollTop: $("#" + $(this).val()).offset().top - 100 }, 'slow');
+			$('html,body').animate({
+				scrollTop: $("#" + $(this).val()).offset().top - 100
+			}, 'slow');
 		});
 	});
 
@@ -147,5 +146,20 @@ $(document).ready(function () {
 	$(window).resize(function () {
 		equalheight('.col.even');
 	});
+
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function () {
+			this.classList.toggle("active");
+			var content = this.parentNode.nextElementSibling;
+			if (content.style.maxHeight) {
+				content.style.maxHeight = null;
+			} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+		});
+	}
 
 });

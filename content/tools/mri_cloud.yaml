@@ -1,6 +1,6 @@
 name: MRICloud
 hide: False
-heading: MRICloud
+heading: MRI Processing
 description: MRICloud provides high-throughput neuroinformatics for automated brain MRI segmentation and analytical tools for quantification
 
 cloud: True

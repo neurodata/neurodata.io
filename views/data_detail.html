@@ -32,7 +32,7 @@
                         {% if item.viz %}
                         <a href="{{item.viz}}" target="_blank">
                             <img 
-                                src={{g.static('/source/images/eye.svg').url.path}}
+                                src="{{g.static('/source/images/eye.svg').url.path}}"
                                 alt="Viz"
                                 height="22px"
                                 width="22px">
@@ -54,6 +54,7 @@
                 {% if doc.tools %}
                     {% for item in g.docs('tools', order_by='heading') %}
                         {% if item.name in doc.tools %}
+                            {% set show_button=false %}
                             {% include 'partials/tools_detail_list.html' %}
                         {% endif %}
                     {% endfor %}
@@ -61,9 +62,11 @@
         
                 {% for item in doc.analyses %}
                     <div class="item">
-                        <h4>
-                            <a href="{{item.url}}">{{ item.name }}</a>
-                        </h4>
+                        <div class="item-header">
+                            <h4>
+                                <a href="{{item.url}}">{{ item.name }}</a>
+                            </h4>
+                        </div>
                         {% if item.description is not none %}
                             <p>{{item.description}}</p>
                         {% endif %}

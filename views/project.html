@@ -64,6 +64,7 @@
             <div class="col">
                 {% for item in g.docs('tools', order_by='heading') %}
                     {% if item.name in doc.tools %}
+                        {% set show_button=false %}
                         {% include 'partials/tools_detail_list.html' %}
                     {% endif %}
                 {% endfor %}

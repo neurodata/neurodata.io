@@ -1,5 +1,5 @@
 ---
-$title@: Tools
+$title@: Tools 
 $order: 3 
 ---
 <div class="header tools">
@@ -22,12 +22,14 @@ $order: 3
     </div>
     <div class="tools-images-cloud">
         {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
-            {% include 'partials/tools_detail_list.html' %}
+            {% set show_button=true %}
+            {% include 'partials/tools_detail_list.html'%} 
         {% endfor %}
     </div>
     <div class="tools-images-local">
         {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
-            {% include 'partials/tools_detail_list.html' %}
+            {% set show_button=true %}
+            {% include 'partials/tools_detail_list.html'%}
         {% endfor %}
     </div>
     <div class="Graphs">
@@ -35,23 +37,29 @@ $order: 3
     </div>
     <div class="tools-graphs-cloud">
         <div class="item">
-            <h4>
-                Download
-            </h4>
-            <h6>
-                <a href="{{g.doc('/content/projects/connectomes.html').url.path}}">Connectomes (graph database)</a>
-            </h6>
-            <h6>
-                <a href="{{g.doc('/content/projects/projectomes.html').url.path}}">Projectomes (human)</a>
-            </h6>
-            <p>
-                Links to download data
-            </p>
+            <div class="item-header">
+                <h4>
+                    Download
+                </h4>
+                <button class="collapsible"></button>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="{{g.doc('/content/projects/connectomes.html').url.path}}">Connectomes (graph database)</a>
+                </h6>
+                <h6>
+                    <a href="{{g.doc('/content/projects/projectomes.html').url.path}}">Projectomes (human)</a>
+                </h6>
+                <p>
+                    Links to download data
+                </p>
+            </div>
         </div>
     </div>
     <div class="tools-graphs-local">
         {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-            {% include 'partials/tools_detail_list.html' %}
+            {% set show_button=true %}
+            {% include 'partials/tools_detail_list.html'%} 
         {% endfor %}
     </div>
     <div class="Vectors">
@@ -61,7 +69,8 @@ $order: 3
     </div> -->
     <div class="tools-vectors-local">
         {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
-            {% include 'partials/tools_detail_list.html' %}
+            {% set show_button=true %}
+            {% include 'partials/tools_detail_list.html'%} 
         {% endfor %}
     </div>
     <div class="Local-Images">

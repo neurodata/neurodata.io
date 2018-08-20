@@ -1,80 +1,92 @@
 <span class="anchor" id="{{item.name}}"></span>
 
 <div class="item">
-    <h4>
-        {% if item.heading == item.name %} {% if item.link %}
-        <a href="{{item.link}}" target="_blank">
-            {% else %}
-            <a href="https://github.com/{{item.github}}" target="_blank">
-                {% endif %} {{item.heading}}
-            </a>
-            {% else %} {{item.heading}} {% endif %}
-    </h4>
-    {% if item.packages %} {% for p in item.packages %}
-    <h6>
-        {% if p.lang in ["Python","R","Matlab"] %}
-        <img src="{{g.static('/source/images/' + p.lang + '_logo.svg').url.path}}" width="20px" height=auto> {% else %} {{p.lang}}: {% endif %}
-        <a href="https://github.com/{{p.github}}" target="_blank">{{p.name}}</a>
-    </h6>
-    {% endfor %} {% elif item.heading != item.name %}
-    <h6>
-        <!-- lang logo -->
-        {% if item.lang %} {% if item.lang in ["Python","R","Matlab"] %}
-        <img src="{{g.static('/source/images/' + item.lang + '_logo.svg').url.path}}" width="20px" height=auto> {% else %} {{item.lang}}: {% endif %} {% endif %} {% if item.link %}
-        <a href="{{item.link}}" target="_blank">
-            {% else %}
-            <a href="https://github.com/{{item.github}}" target="_blank">
-                {% endif %} {{item.name}}
-            </a>
-    </h6>
-    {% endif %}
-    <div class="options clearfix">
-        {% if item.api %}
-        <div class="link">
-            <a href="{{item.api}}" target="_blank">
-                <img src={{g.static( "/source/images/settings.png").url.path}} class="tooltip" title="API">
-            </a>
-        </div>
-        {% endif %} {% if item.github and item.link %}
-        <div class="link">
-            <a href="https://github.com/{{item.github}}" target="_blank">
-                <img src={{g.static( "/source/images/code.png").url.path}} class="tooltip" title="Code">
-            </a>
-        </div>
-        {% endif %} {% if item.docker %}
-        <div class="link">
-            <a href="{{item.docker}}" target="_blank">
-                <img src={{g.static( "/source/images/docker.png").url.path}} class="tooltip" title="Docker">
-            </a>
-        </div>
-        {% endif %} {% if item.docs %}
-        <div class="link">
-            <a href="{{item.docs}}" target="_blank">
-                <img src={{g.static( "/source/images/document.png").url.path}} class="tooltip" title="Docs">
-            </a>
-        </div>
-        {% endif %} {% if item.manuscripts %} {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %} {% for man in PUBS %} {% if man.ID
-        in item.manuscripts %}
-        <div class="link">
-            <a href="{{man|print_link}}" target="_blank">
-                <img src={{g.static( "/source/images/book.png").url.path}} class="tooltip" title="{{man|print_authors}} ({{man.year}}) {{man|print_title|truncate(35, True)}}">
-            </a>
-        </div>
-        {% endif %} {% endfor %} {% endif %} {% if item.press %}
-        <div class="link">
-            <a href="{{item.press}}" target="_blank">
-                <img src={{g.static( "/source/images/paper.png").url.path}} class="tooltip" title="Press">
-            </a>
-        </div>
-        {% endif %} {% if item.github %}
-        <div class="link">
-            <a href="https://github.com/{{item.github}}/graphs/contributors" target="_blank">
-                <img src={{g.static( "/source/images/user-silhouette.png").url.path}} class="tooltip" title="Contributors">
-            </a>
-        </div>
+    <div class="item-header">
+        <h4>
+            {% if item.heading == item.name %} {% if item.link %}
+            <a href="{{item.link}}" target="_blank">
+                {% else %}
+                <a href="https://github.com/{{item.github}}" target="_blank">
+                    {% endif %} {{item.heading}}
+                </a>
+                {% else %} {{item.heading}} {% endif %}
+        </h4>
+        {% if show_button %}
+            <button class="collapsible"></button>
         {% endif %}
     </div>
-    <p>
-        {{item.description|safe}}
-    </p>
+    {% if show_button %}
+    <div class="content">
+    {% endif %}
+        {% if item.packages %} {% for p in item.packages %}
+        <h6>
+            {% if p.lang in ["Python","R","Matlab"] %}
+            <img src="{{g.static('/source/images/' + p.lang + '_logo.svg').url.path}}" width="20px" height=auto> {% else %} {{p.lang}}: {% endif %}
+            <a href="https://github.com/{{p.github}}" target="_blank">{{p.name}}</a>
+        </h6>
+        {% endfor %} {% elif item.heading != item.name %}
+        <h6>
+            <!-- lang logo -->
+            {% if item.lang %} {% if item.lang in ["Python","R","Matlab"] %}
+            <img src="{{g.static('/source/images/' + item.lang + '_logo.svg').url.path}}" width="20px" height=auto> {% else %} {{item.lang}}: {% endif %} {% endif %} {% if item.link %}
+            <a href="{{item.link}}" target="_blank">
+                {% else %}
+                <a href="https://github.com/{{item.github}}" target="_blank">
+                    {% endif %} {{item.name}}
+                </a>
+        </h6>
+        {% endif %}
+        <div class="options clearfix">
+            {% if item.api %}
+            <div class="link">
+                <a href="{{item.api}}" target="_blank">
+                    <img src={{g.static( "/source/images/settings.png").url.path}} class="tooltip" title="API">
+                </a>
+            </div>
+            {% endif %} {% if item.github and item.link %}
+            <div class="link">
+                <a href="https://github.com/{{item.github}}" target="_blank">
+                    <img src={{g.static( "/source/images/code.png").url.path}} class="tooltip" title="Code">
+                </a>
+            </div>
+            {% endif %} {% if item.docker %}
+            <div class="link">
+                <a href="{{item.docker}}" target="_blank">
+                    <img src={{g.static( "/source/images/docker.png").url.path}} class="tooltip" title="Docker">
+                </a>
+            </div>
+            {% endif %} {% if item.docs %}
+            <div class="link">
+                <a href="{{item.docs}}" target="_blank">
+                    <img src={{g.static( "/source/images/document.png").url.path}} class="tooltip" title="Docs">
+                </a>
+            </div>
+            {% endif %} {% if item.manuscripts %} {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %} {% for man in PUBS %} {% if man.ID
+            in item.manuscripts %}
+            <div class="link">
+                <a href="{{man|print_link}}" target="_blank">
+                    <img src={{g.static( "/source/images/book.png").url.path}} class="tooltip" title="{{man|print_authors}} ({{man.year}}) {{man|print_title|truncate(35, True)}}">
+                </a>
+            </div>
+            {% endif %} {% endfor %} {% endif %} {% if item.press %}
+            <div class="link">
+                <a href="{{item.press}}" target="_blank">
+                    <img src={{g.static( "/source/images/paper.png").url.path}} class="tooltip" title="Press">
+                </a>
+            </div>
+            {% endif %} {% if item.github %}
+            <div class="link">
+                <a href="https://github.com/{{item.github}}/graphs/contributors" target="_blank">
+                    <img src={{g.static( "/source/images/user-silhouette.png").url.path}} class="tooltip" title="Contributors">
+                </a>
+            </div>
+            {% endif %}
+        </div>
+        <p>
+            {{item.description|safe}}
+        </p>
+    
+    {% if show_button %}
+    </div>
+    {% endif %}
 </div>

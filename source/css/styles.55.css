@@ -1410,6 +1410,49 @@ ol {
 /* TOOLS 
 ---------------------------------------------- */
 
+.item .item-header{
+    display: flex;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: .5rem;
+    margin: .5rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    background-color: #CCE7F9;
+    margin-right: 10px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #99B4C6;
+}
+
+.content {
+    margin-top: 0rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+    content: '\002B';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1rem;
+    color: black;
+    float: right;
+    margin: 0rem .5rem;
+    font-weight: bold;
+}
+
+.active:after {
+    content: "\2212";
+    /* Unicode character for "minus" sign (-) */
+}
+
 .header.tools {
     background: url("../images/tools-bg.jpg")no-repeat center bottom;
     -webkit-background-size: cover;
@@ -1468,7 +1511,6 @@ ol {
     position: relative;
     padding-left: 5px;
     margin: 20px 0px;
-    height: 180px;
 }
 
 .grid-container>div>.item ul {
@@ -1855,6 +1897,7 @@ ol {
     font-size: 1.1rem;
     line-height: 1.5;
     text-transform: none;
+    flex-grow: 1;
 }
 
 .item h6 {
@@ -1869,13 +1912,13 @@ ol {
 }
 
 .item .options {
-    float: right;
+    float: none;
     width: auto;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    right: 5px;
+    display: block;
+    position: relative;
+    right: initial;
+    top: initial;
+    margin-top: .5em;
 }
 
 .item .options .link a {
@@ -2703,18 +2746,6 @@ th {
         float: none;
         margin-left: 10px;
     }
-    .item .options {
-        float: none;
-        width: auto;
-        display: block;
-        position: relative;
-        right: initial;
-        top: initial;
-        margin-top: .5em;
-    }
-    .grid-container>div>.item {
-        height: 215px;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2852,9 +2883,6 @@ th {
             margin: 2px;
             padding: 0 10px;
         }
-        .grid-container>div>.item {
-            height: 250px;
-        }
     }
     @media screen and (max-width: 800px) {
         .doc-nav {
@@ -2930,10 +2958,6 @@ th {
         }
         .flex-container {
             display: none;
-        }
-        .grid-container>div>.item {
-            height: auto;
-            margin: 0px;
         }
         .grid-container>.Local-Images,
         .grid-container>.Local-Graphs,
