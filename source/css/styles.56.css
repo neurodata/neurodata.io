@@ -1484,7 +1484,7 @@ ol {
 .flex-container>.Cloud {
     flex: 1;
     width: 10px;
-    margin-bottom: -1.2rem;
+    margin-bottom: -.5rem;
 }
 
 .grid-container h3,
@@ -1499,7 +1499,7 @@ ol {
     grid-template-rows: auto auto auto;
     grid-template-areas: "Images tools-images-local tools-images-cloud" "Graphs tools-graphs-local tools-graphs-cloud" "Vectors tools-vectors-local tools-vectors-cloud";
     grid-row-gap: 1rem;
-    margin-top: -1rem;
+    margin-top: -.8rem;
 }
 
 .grid-container>div {
@@ -1507,10 +1507,10 @@ ol {
 }
 
 .grid-container>div>.item {
-    box-shadow: 0 0 15px 1px #99B4C6;
+    box-shadow: 0 0 5px 1px #99B4C6;
     position: relative;
     padding-left: 5px;
-    margin: 20px 0px;
+    margin: 5px 0px;
 }
 
 .grid-container>div>.item ul {
