@@ -6,91 +6,88 @@ $order: 3
     <h2>Tools</h2>
 </div>
 
-<div class="flex-container">
-    <div></div>
-    <div class="Local">
-        <h3>Local</h3>
-    </div>
-    <div class="Cloud">
-        <h3>Cloud</h3>
-    </div>
-</div>
-
-<div class="grid-container">
-    <div class="Images">
-        <h3>Images</h3>
-    </div>
-    <div class="tools-images-cloud">
-        {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
-            {% set show_button=true %}
-            {% include 'partials/tools_detail_list.html'%} 
-        {% endfor %}
-    </div>
-    <div class="tools-images-local">
-        {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
-            {% set show_button=true %}
-            {% include 'partials/tools_detail_list.html'%}
-        {% endfor %}
-    </div>
-    <div class="Graphs">
-        <h3>Graphs</h3>
-    </div>
-    <div class="tools-graphs-cloud">
-        <div class="item">
-            <div class="item-header">
-                <h4>
-                    Download
-                </h4>
-                <button class="collapsible"></button>
-            </div>
-            <div class="content">
-                <h6>
-                    <a href="{{g.doc('/content/projects/connectomes.html').url.path}}">Connectomes (graph database)</a>
-                </h6>
-                <h6>
-                    <a href="{{g.doc('/content/projects/projectomes.html').url.path}}">Projectomes (human)</a>
-                </h6>
-                <p>
-                    Links to download data
-                </p>
-            </div>
+<div class="tools-page">
+    <div class="flex-container">
+        <div></div>
+        <div class="Local">
+            <h3>Local</h3>
+        </div>
+        <div class="Cloud">
+            <h3>Cloud</h3>
         </div>
     </div>
-    <div class="tools-graphs-local">
-        {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-            {% set show_button=true %}
-            {% include 'partials/tools_detail_list.html'%} 
-        {% endfor %}
+
+    <div class="grid-container">
+        <div class="Images">
+            <h3>Images</h3>
+        </div>
+        <div class="tools-images-cloud">
+            {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
+                {% set show_button=true %}
+                {% include 'partials/tools_detail_list.html'%} 
+            {% endfor %}
+        </div>
+        <div class="tools-images-local">
+            {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
+                {% set show_button=true %}
+                {% include 'partials/tools_detail_list.html'%}
+            {% endfor %}
+        </div>
+        <div class="Graphs">
+            <h3>Graphs</h3>
+        </div>
+        <div class="tools-graphs-cloud">
+            <div class="item">
+                <button class="collapsible">Download</button>
+                <div class="content">
+                    <h6>
+                        <a href="{{g.doc('/content/projects/connectomes.html').url.path}}">Connectomes (graph database)</a>
+                    </h6>
+                    <h6>
+                        <a href="{{g.doc('/content/projects/projectomes.html').url.path}}">Projectomes (human)</a>
+                    </h6>
+                    <p>
+                        Links to download data
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tools-graphs-local">
+            {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
+                {% set show_button=true %}
+                {% include 'partials/tools_detail_list.html'%} 
+            {% endfor %}
+        </div>
+        <div class="Vectors">
+            <h3>Vectors</h3>
+        </div>
+        <!-- <div class="tools-vectors-cloud">
+        </div> -->
+        <div class="tools-vectors-local">
+            {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
+                {% set show_button=true %}
+                {% include 'partials/tools_detail_list.html'%} 
+            {% endfor %}
+        </div>
+        <div class="Local-Images">
+            <h3>Local</h3>
+        </div>
+        <div class="Cloud-Images">
+            <h3>Cloud</h3>
+        </div>
+        <div class="Local-Graphs">
+            <h3>Local</h3>
+        </div>
+        <div class="Cloud-Graphs">
+            <h3>Cloud</h3>
+        </div>
+        <div class="Local-Vectors">
+            <h3>Local</h3>
+        </div>
+        <!-- <div class="Cloud Vectors">
+            <h3>Cloud</h3>
+        </div> -->
     </div>
-    <div class="Vectors">
-        <h3>Vectors</h3>
-    </div>
-    <!-- <div class="tools-vectors-cloud">
-    </div> -->
-    <div class="tools-vectors-local">
-        {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
-            {% set show_button=true %}
-            {% include 'partials/tools_detail_list.html'%} 
-        {% endfor %}
-    </div>
-    <div class="Local-Images">
-        <h3>Local</h3>
-    </div>
-    <div class="Cloud-Images">
-        <h3>Cloud</h3>
-    </div>
-    <div class="Local-Graphs">
-        <h3>Local</h3>
-    </div>
-    <div class="Cloud-Graphs">
-        <h3>Cloud</h3>
-    </div>
-    <div class="Local-Vectors">
-        <h3>Local</h3>
-    </div>
-    <!-- <div class="Cloud Vectors">
-        <h3>Cloud</h3>
-    </div> -->
 </div>
 
 <div class="empty"></div>

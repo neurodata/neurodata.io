@@ -1,20 +1,23 @@
 <span class="anchor" id="{{item.name}}"></span>
 
 <div class="item">
-    <div class="item-header">
-        <h4>
-            {% if item.heading == item.name %} {% if item.link %}
-            <a href="{{item.link}}" target="_blank">
-                {% else %}
+    {% if show_button %}
+        <button class="collapsible">{{item.heading}}</button>
+    {% else %}
+    <h4>
+        {% if item.heading == item.name %}
+            {% if item.link %}
+                <a href="{{item.link}}" target="_blank">
+            {% else %}
                 <a href="https://github.com/{{item.github}}" target="_blank">
-                    {% endif %} {{item.heading}}
-                </a>
-                {% else %} {{item.heading}} {% endif %}
-        </h4>
-        {% if show_button %}
-            <button class="collapsible"></button>
+            {% endif %}
+            {{item.heading}}
+            </a>
+        {% else %}
+            {{item.heading}}
         {% endif %}
-    </div>
+    </h4>
+    {% endif %}
     {% if show_button %}
     <div class="content">
     {% endif %}
