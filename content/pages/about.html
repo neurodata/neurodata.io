@@ -18,8 +18,12 @@ $order: 5
         
         <h3>The Team</h3>
         <div class="members clearfix">
-            {% for item in g.docs('people') if not item.associate %}
-                {% include 'partials/people.html' %}
+            {% for category, docs in g.categories('people') %}
+                {% if category != 'associate' %}
+                    {% for item in docs %}
+                        {% include 'partials/people.html' %}
+                    {% endfor %}
+                {% endif %}
             {% endfor %}
         </div>
 
