@@ -1243,7 +1243,7 @@ footer.dark,
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    z-index: 9999;
+    z-index: 4;
 }
 
 .doc-nav ul {
@@ -1428,7 +1428,7 @@ ol {
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
 }
 
-.active,
+.tools-page .active,
 .collapsible:hover {
     background-color: #99B4C6;
 }
@@ -1490,147 +1490,100 @@ ol {
     margin-bottom: -.5rem;
 }
 
-.grid-container h3,
-.flex-container h3 {
+.tool-categories-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-categories-flex>div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+
+.tool-categories-flex>.top-category-header{
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 4;
+}
+
+.tool-categories-flex>.top-category-header>.group-header{
+    height: 0;
+}
+
+.tool-categories-flex>.top-category-header>.group h3{
+    margin: 0;
+}
+
+.tool-categories-flex>div .group-header {
+    width: 3em;
+    margin-right: .1em;
+    margin-top: .5em;
+    max-width: 3em;
+    height: 135px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+.tool-categories-flex>div .group-header h3{
+    writing-mode: vertical-rl;
+}
+
+@supports (text-orientation: mixed){
+    .tool-categories-flex>div .group-header {
+        text-orientation: mixed;
+    }
+}
+
+.group h3 {
+    text-align: center;
+    margin-bottom: -.5rem;
+}
+
+.group h3,
+.group-header h3 {
     color: #5F8793;
 }
 
-.grid-container {
-    padding: 0px 15px;
-    display: grid;
-    grid-template-columns: 3.5rem 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "Images tools-images-local tools-images-cloud" "Graphs tools-graphs-local tools-graphs-cloud" "Vectors tools-vectors-local tools-vectors-cloud";
-    grid-row-gap: 1rem;
-    margin-top: -.8rem;
+.group-header h3 {
+    margin: 0;
 }
 
-.grid-container>div {
-    padding: 10px;
+.tool-categories-flex>div .group {
+    flex: 1;
+    width: 10px;
+    margin-right: .5rem;
 }
 
-.grid-container>div>.item {
-    position: relative;
-    padding-left: 5px;
-}
-
-.grid-container>div>.item ul {
-    list-style-type: initial;
-    margin-left: 15px;
-    margin-top: 0px;
-    padding-left: 0px;
-}
-
-.grid-container h3 {
-    margin: 0px;
-}
-
-.Local {
-    grid-area: Local;
-}
-
-.Cloud {
-    grid-area: Cloud;
-}
-
-.Images {
-    grid-area: Images;
-}
-
-.Graphs {
-    grid-area: Graphs;
-}
-
-.Vectors {
-    grid-area: Vectors;
-}
-
-.Cloud-Images {
-    grid-area: Cloud-Images;
-}
-
-.Local-Images {
-    grid-area: Local-Images;
-}
-
-.Cloud-Graphs {
-    grid-area: Cloud-Graphs;
-}
-
-.Local-Graphs {
-    grid-area: Local-Graphs;
-}
-
-.Cloud-Vectors {
-    grid-area: Cloud-Vectors;
-}
-
-.Local-Vectors {
-    grid-area: Local-Vectors;
-}
-
-.grid-container>.Images h3,
-.grid-container>.Graphs h3,
-.grid-container>.Vectors h3 {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    margin-right: .1em;
-    margin-top: .5em;
-}
-
-.tools-images-cloud {
-    grid-area: tools-images-cloud;
-}
-
-.tools-images-local {
-    grid-area: tools-images-local;
-}
-
-.tools-graphs-cloud {
-    grid-area: tools-graphs-cloud;
-}
-
-.tools-graphs-local {
-    grid-area: tools-graphs-local;
-}
-
-.tools-vectors-cloud {
-    grid-area: tools-vectors-cloud;
-}
-
-.tools-vectors-local {
-    grid-area: tools-vectors-local;
-}
-
-/* "Vectors" doesn't stick */
-
-.Images,
-.Graphs,
-.Vectors {
+.group-category-header{
+    display: none;
     position: -webkit-sticky;
     position: sticky;
-    top: 110px;
+    top: 75px;
     background: white;
+    z-index: 4;
 }
 
-.grid-container>.Local-Images,
-.grid-container>.Local-Graphs,
-.grid-container>.Local-Vectors,
-.grid-container>.Cloud-Images,
-.grid-container>.Cloud-Graphs,
-.grid-container>.Cloud-Vectors {
-    display: none;
+.mobile-shuffle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-.Local,
-.Cloud,
-.Local-Images,
-.Local-Graphs,
-.Local-Vectors,
-.Cloud-Images,
-.Cloud-Graphs,
-.Cloud-Vectors {
-    text-align: center;
+@supports (display: contents) {
+    .mobile-shuffle{
+        display: contents;
+    }
+}
+
+.group .item {
+    position: relative;
 }
 
 .anchor {
@@ -2852,9 +2805,13 @@ th {
     .data.mobile-projects {
         display: block;
     }
-    .flex-container {
-        top: 60px;
+    .tool-categories-flex>.top-category-header  {
+        top: 76px;
         z-index: 2;
+    }
+    
+    .tool-categories-flex>div .group-header {
+        top: 119px
     }
     .doc-nav {
         top: 76px;
@@ -2945,33 +2902,24 @@ th {
             width: 100%;
             padding: 0px;
         }
-        .grid-container {
-            padding: 10px 15px;
-            display: grid;
-            grid-template-columns: 0.1fr 1fr;
-            grid-template-rows: 50px auto 50px auto 50px auto 50px auto 50px auto;
-            grid-template-areas: ". Local-Images" "Images tools-images-local" ". Cloud-Images" ". tools-images-cloud" ". Local-Graphs" "Graphs tools-graphs-local" ". Cloud-Graphs" ". tools-graphs-cloud" ". Local-Vectors" "Vectors tools-vectors-local";
-            grid-row-gap: 1rem;
-            margin-top: 0px;
+
+        .tools-page h3{
+            font-size: 1.5rem;
         }
-        .Local,
-        .Cloud {
+        .tool-categories-flex>.top-category-header{
             display: none;
         }
-        .flex-container {
-            display: none;
-        }
-        .grid-container>.Local-Images,
-        .grid-container>.Local-Graphs,
-        .grid-container>.Local-Vectors,
-        .grid-container>.Cloud-Images,
-        .grid-container>.Cloud-Graphs,
-        .grid-container>.Cloud-Vectors {
+        .group-category-header{
             display: block;
-            position: -webkit-sticky;
-            position: sticky;
-            top: 60px;
-            background: white;
+        }
+        .tool-categories-flex>div .group{
+            width: unset;
+        }
+        .mobile-shuffle{
+            display: flex;
+            flex-direction: column;
+        }
+        .tool-categories-flex>div>div{
         }
     }
     @media screen and (max-width: 600px) {
