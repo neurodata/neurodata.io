@@ -2031,7 +2031,7 @@ ol {
     color: white;
     position: absolute;
     padding: 5px 5px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: 0 1px 0 #222;
     font-size: 13px;
 }
 
