@@ -21,7 +21,7 @@ data:
   description: 
 - name: kasthuri14s1colEM
   url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri14s1colEM
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14s1colEM   
+  viz: 'https://viz.neurodata.io/#!{"layers":{"image":{"source":"boss://https://api.boss.neurodata.io/kasthuri/kasthuri14s1colEM/image","type":"image","opacity":1},"annotations":{"source":"boss://https://api.boss.neurodata.io/kasthuri/kasthuri14s1colANNO/annotations?","type":"segmentation","selectedAlpha":0.34}},"navigation":{"pose":{"position":{"voxelSize":[1,1,10],"voxelCoordinates":[29196.640625,15694.2998046875,127]}},"zoomFactor":1.8682459574322223},"selectedLayer":{"layer":"image","visible":true},"layout":"xy"}'
   type: 
   description: 
 
