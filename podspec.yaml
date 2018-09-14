@@ -43,13 +43,14 @@ extensions:
 ext:
   - extensions.html_min.HtmlMinExtension
 
+# podspec.yaml
 markdown:
   extensions:
-  - kind: markdown.extensions.codehilite
+  - kind: sourcecode
     classes: False         # Uses classes instead of inline styles.
     class_name: code       # Class to use on the wrapper div.
     highlighter: pygments  # pygments/plain
-    theme: default         # Pygments theme name.
+    theme: friendly         # Pygments theme name.
 
 #preprocessors:
 #- kind: gulp

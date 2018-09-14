@@ -13,8 +13,7 @@ options: #for the header links
       link: view-the-output
 ---
 
-
-## Generate precomputed compressed segmentations & meshes from BOSS volume
+This is a guide for generating precomputed compressed segmentations & meshes from a BOSS segmentation volume
 
 ### Steps
 
@@ -43,23 +42,21 @@ Install the following software:
 
 1. Create basic `info` file:
 
-```json
-{
-    "encoding": "compressed_segmentation",
-    "scales": [
         {
-            "voxel_offset": [0,0,0],
-            "resolution": [798,798,2000],
-            "size": [1406,621,138]
+            "encoding": "compressed_segmentation",
+            "scales": [
+                {
+                    "voxel_offset": [0,0,0],
+                    "resolution": [798,798,2000],
+                    "size": [1406,621,138]
+                }
+            ],
+            "compressed_segmentation_block_size": [8,8,8],
+            "data_type": "uint64",
+            "mesh": "mesh",
+            "type": "segmentation",
+            "num_channels": 1
         }
-    ],
-    "compressed_segmentation_block_size": [8,8,8],
-    "data_type": "uint64",
-    "mesh": "mesh",
-    "type": "segmentation",
-    "num_channels": 1
-}
-```
 
 1. Create additional scales (chunk size 128)
 
