@@ -9,4 +9,6 @@ image_compress/
 env/
 .depcache.json
 .vscode
-extensions
+extensions/*
+!extensions/sorting/
+!extensions/sorting/*

@@ -18,7 +18,9 @@ $order: 5
         
         <h3>The Team</h3>
         <div class="members clearfix">
-            {% for category, docs in g.categories('people') %}
+            {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
+            {% set cats = g.categories('people')|sort_by_index(position_order) %}
+            {% for category, docs in cats %}
                 {% if category != 'associate' %}
                     {% for item in docs %}
                         {% include 'partials/people.html' %}
