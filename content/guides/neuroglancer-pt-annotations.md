@@ -1,5 +1,5 @@
 ---
-$title@: Add point annotations in neuroglancer
+$title@: Point annotations in neuroglancer
 ---
 
 1. Click on the JSON editor (top right corner of the web browser and looks like `{}`). The results should look something like:

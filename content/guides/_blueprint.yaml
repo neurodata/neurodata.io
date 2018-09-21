@@ -1,0 +1,2 @@
+path: /help/{base}/
+view: /views/guides.html

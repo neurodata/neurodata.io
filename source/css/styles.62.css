@@ -1307,6 +1307,44 @@ footer.dark,
     padding: 5px 50px;
     margin: auto;
     max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.docs .guides {
+    flex: 1;
+    order: 2;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: #dfd6c2;
+    height: fit-content;
+    max-width: 300px;
+    position: sticky;
+    top: 2px;
+}
+
+@supports not (height: fit-content) {
+    .docs .guides {
+        display: table;
+    }
+}
+
+.docs .help-content {
+    flex: 1;
+    order: 1;
+    max-width: 650px;
+}
+
+.docs .guides h3 {
+    padding-top: inherit;
+    margin-top: inherit;
+}
+
+.docs .guides p {
+    margin-left: 1em;
+    line-height: 1em;
+    text-align: left;
 }
 
 .docs .code {
@@ -3343,7 +3381,14 @@ th {
             flex-direction: column;
         }
 
-        .tool-categories-flex>div>div {}
+        .docs {
+            display: block;
+        }
+
+        .docs .guides {
+            max-width: none;
+            margin: 0;
+        }
     }
 
     @media screen and (max-width: 600px) {
