@@ -1321,13 +1321,7 @@ footer.dark,
     height: fit-content;
     max-width: 300px;
     position: sticky;
-    top: 2px;
-}
-
-@supports not (height: fit-content) {
-    .docs .guides {
-        display: table;
-    }
+    top: 62px;
 }
 
 .docs .help-content {
@@ -3266,6 +3260,10 @@ th {
         padding-bottom: 110px;
     }
 
+    .docs .guides{
+        top: 132px;
+    }
+
     @media screen and (max-width: 860px) {
         h1 {
             font-size: 9vw;
@@ -3288,6 +3286,18 @@ th {
             font-size: 12px;
             margin: 2px;
             padding: 0 10px;
+        }
+
+        .docs {
+            display: block;
+        }
+
+        .docs .guides {
+            max-width: none;
+            width: 100%;
+            margin: 0;
+            position: inherit;
+            padding: 5px;
         }
     }
 
@@ -3379,15 +3389,6 @@ th {
         .mobile-shuffle {
             display: flex;
             flex-direction: column;
-        }
-
-        .docs {
-            display: block;
-        }
-
-        .docs .guides {
-            max-width: none;
-            margin: 0;
         }
     }
 
