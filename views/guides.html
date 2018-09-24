@@ -6,30 +6,31 @@
     <h2>{{doc.title}}</h2>
 </div>
 
-
-<div class="doc-nav">
-    <ul>
-        {% for option in doc.options %}
-            <li><a href="#{{option.link}}"><h5>{{option.name}}</h5></a></li>
-        {% endfor%}
-    </ul>
-    <select>
-        <option selected="selected">Jump to:</option>
-        {% for option in doc.options %}
-            <option value="{{option.link}}">{{option.name}}</option>
-        {% endfor%}
-    </select>
-</div>
-
 <div class="docs">
-    <div class="guides">
-        <h3>Guides</h3>
-        {% for item in g.docs('guides') %}
-            <p><a href="{{item.url.path}}">{{item.title}}</a></p>
-        {% endfor %}
+    <div class="guides-sidebar">
+        {% set has_toc = 'class="toc"' in doc.html %}
+        {% if has_toc %}
+            {% set first_div = doc.html.find('</div>') %}
+            <div class="toc_column">
+                <h3>In this document</h3>
+                {{doc.html[0:first_div + 6] | safe}}
+            </div>
+        {% endif %}
+
+        {% include 'partials/guides_sidebar.html' %}
     </div>
     <div class="help-content">
-        {{doc.html|markdown|safe}}
+        {% set has_toc = 'class="toc"' in doc.html %}
+        {% if has_toc %}
+            {% set first_div = doc.html.find('</div>') %}
+            {{doc.html[first_div + 6:]|safe}}
+        {% else %}
+            {{doc.html|markdown|safe}}
+        {% endif %}
+
+        <h3>Questions/comments?</h3>
+
+        <p>Email <a href="mailto:support@neurodata.io">support@neurodata.io</a></p>
     </div>
 </div>
 

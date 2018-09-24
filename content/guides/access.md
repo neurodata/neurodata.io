@@ -1,19 +1,13 @@
 ---
-$title@: Data Access
-options: #for creating the header links
-- name: ndwebtools
-  link: ndwebtools
-- name: ndviz
-  link: ndviz
-- name: ndex
-  link: ndex
-- name: intern
-  link: intern
+$title@: Data access
+$order: 1
 ---
 
-[Data](https://neurodata.io/data) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  This document explains how to access this data.
+[TOC]
 
-BOSS has the following hierarchical organization:
+This document explains how to access/download data hosted by NeuroData. [Data](https://neurodata.io/data) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  We also selectively host small datasets on S3 for fast data visualization in neuroglancer.  For that, see our guide on the [precomputed format]([url('/content/guides/boss-to-precompute')]).
+
+### Boss hierarchy
 
 1. **Collection:** typically either the name of the lab PI or the person who collected the data
 2. **Experiment:** within this level, data share a common voxel extent and voxel size.  Often synonymous with actual experiments.
@@ -47,10 +41,6 @@ A Python command-line tool for downloading volumes of data from the BOSS as TIFF
 
 #### [intern](https://github.com/jhuapl-boss/intern)
 
-A Python package developed by JHU-APL for interactive and programatic usage of the BOSS.
+A Python package developed by JHU-APL for interactive and programmatic usage of the BOSS.
 
 - Installation and usage instructions available on its [GitHub page](https://github.com/jhuapl-boss/intern)
-
-### Questions/comments?  
-
-Email [support@neurodata.io](mailto:support@neurodata.io)

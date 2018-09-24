@@ -1,19 +1,11 @@
 ---
-$title@: BOSS to precomputed neuroglancer format
-options: #for the header links
-    - name: steps
-      link: steps
-    - name: prerequisites
-      link: prerequisites
-    - name: create
-      link: create-compressed-segmentations
-    - name: host
-      link: host-the-directory-somewhere
-    - name: view
-      link: view-the-output
+$title@: Precomputed neuroglancer format
+$order: 6
 ---
 
-This is a guide for generating precomputed compressed segmentations & meshes from a BOSS segmentation volume
+[TOC]
+
+The precomputed format [specification](https://github.com/google/neuroglancer/tree/master/src/neuroglancer/datasource/precomputed) is a data source format for loading data into [neuroglancer](https://github.com/google/neuroglancer).  This guide demonstrates how to generate precomputed compressed segmentations & meshes from a BOSS segmentation volume.
 
 ### Steps
 

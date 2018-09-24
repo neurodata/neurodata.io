@@ -7,11 +7,8 @@ $order: 4
 </div>
 
 <div class="docs">
-    <div class="guides">
-        <h3>Guides</h3>
-        {% for item in g.docs('guides') %}
-            <p><a href="{{item.url.path}}">{{item.title}}</a></p>
-        {% endfor %}
+    <div class="guides-sidebar">
+        {% include 'partials/guides_sidebar.html' %}
     </div>
     <div class="help-content">
 
@@ -297,38 +294,6 @@ $order: 4
             integrating multiple open-source projects and extending them for our needs. The ecosystem enables analyses
             on
             disparate datasets by re-using components originally designed for other applications.
-        </p>
-
-        <h3>How to download/access data from NeuroData?</h3>
-
-        <p>
-            Follow our guide on
-            <a href="{{g.doc('/content/guides/access.md').url.path}}">data access</a>!
-        </p>
-
-        <h3>How do I create a neuroglancer precomputed format or 3D mesh?</h3>
-
-        <p>
-            Follow our guide on
-            <a href="{{g.doc('/content/guides/boss-to-precompute.md').url.path}}">precomputed format</a>!
-        </p>
-
-        <h3>How to add point annotations within NeuroGlancer to share with my collaborators?</h3>
-        <p>
-            Follow our guide on <a href="{{g.doc('/content/guides/neuroglancer-pt-annotations.md').url.path}}">point
-                annotations</a>!
-        </p>
-
-        <p>
-            We also have a <a target="_blank" href="https://docs.neurodata.io/Examples/Annotations/AddAnnotations.html">guide</a>
-            on programmatically adding point annotations to a neuroglancer link in R.
-        </p>
-
-        <h3>How can I (host/process/analyze) data with you?</h3>
-
-        <p>
-            We'd love to collaborate. Email
-            <a href="mailto:support@neurodata.io">support@neurodata.io</a>.
         </p>
 
         <h3>Other questions not answered here?</h3>

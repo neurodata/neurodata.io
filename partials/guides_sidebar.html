@@ -1,0 +1,6 @@
+<div class="guides">
+    <h3>Guides</h3>
+    {% for item in g.docs('guides') %}
+        <h4><a href="{{item.url.path}}">{{item.title}}</a></h4>
+    {% endfor %}
+</div>

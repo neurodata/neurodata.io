@@ -1,28 +1,49 @@
 ---
 $title@: Point annotations in neuroglancer
+$order: 5
 ---
 
-1. Click on the JSON editor (top right corner of the web browser and looks like `{}`). The results should look something like:
+[TOC]
 
-    ![json editor](/static/images/help/image1.png "json editor")
+This guide demonstrates how to add point annotations manually to a neuroglancer view.
 
-1. Click the blue arrows next to “layers”. The result should look like this:
+### Open JSON editor
 
-    ![layers](/static/images/help/image2.png "layers")
+Click on the JSON editor (top right corner of the web browser and looks like `{}`). The results should look something like:
 
-1. Now, add a comma at the end of the line underneath “layers”. Then copy and paste this on the next line:
+![json editor](/static/images/help/json_editor.png "json editor")
 
-        "annotations":
-        {
-        "type":"pointAnnotation",
-        "points":[]
-        }
+### Open layers
 
-    The result should look like this:
-    ![pointAnnotation](/static/images/help/image3.png "pointAnnotation")
+Click the blue arrows next to “layers”. The result should look like this:
 
-1. Right-click on the new channel called “annotations”. Now click on button to the right of the color (highlighted in blue in image below):
+![layers](/static/images/help/layers.png "layers")
 
-    !["add point](/static/images/help/image4.png "add point")
+### Add annotation layer
 
-1. Now that you have selected the point annotations, you can ctrl + click on any location in the image and yellow spheres will show up at those locations. The locations are stored in the JSON editor and can be accessed at any time by clicking the `{}` in the top right of the web browser.
+Now, add a comma at the end of the line underneath “layers”. Then copy and paste this on the next line:
+
+```json
+"annotations":
+{
+"type":"pointAnnotation",
+"points":[]
+}
+```
+
+The result should look like this:
+![pointAnnotation](/static/images/help/point_annotations.png "pointAnnotation")
+
+### Select the annotation type
+
+Right-click on the new channel called “annotations”. Now click on button to the right of the color (highlighted in blue in image below):
+
+!["add point](/static/images/help/add_point.png "add point")
+
+### Add points
+
+Now that you have selected the point annotations, you can ctrl + click on any location in the image and yellow spheres will show up at those locations. The locations are stored in the JSON editor and can be accessed at any time by clicking the `{}` in the top right of the web browser.
+
+### Move a point
+
+To move an existing annotation, hold down `ALT` and click the annotation.  You can then drag the annotation around and drop it in a new location.

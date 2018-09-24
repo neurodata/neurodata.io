@@ -1311,17 +1311,51 @@ footer.dark,
     flex-direction: row;
 }
 
-.docs .guides {
+.docs .guides-sidebar {
     flex: 1;
     order: 2;
-    margin: 0 10px;
-    padding: 0 10px;
-    border-radius: 10px;
-    background: #dfd6c2;
-    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    
     max-width: 300px;
     position: sticky;
-    top: 62px;
+    top: 2px;
+    height: 100px;
+}
+
+.docs .guides-sidebar>div {
+    display: inline-table;
+    flex: 1;
+    
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.docs .guides-sidebar .toc_column{
+    background: #dadaeb;
+
+}
+
+.toc ul, 
+.toc li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.docs .guides-sidebar .guides{
+    background: #dfd6c2;
+}
+
+@supports (height: fit-content){
+    .docs .guides-sidebar>div {
+        display: block;
+        height: fit-content;
+    }
 }
 
 .docs .help-content {
@@ -1330,15 +1364,24 @@ footer.dark,
     max-width: 650px;
 }
 
-.docs .guides h3 {
-    padding-top: inherit;
-    margin-top: inherit;
+.docs .guides-sidebar h3 {
+    margin: 0;
+    padding: 0;
 }
 
-.docs .guides p {
+.docs .guides-sidebar h4 {
+    margin: .3em 0;
+}
+
+.docs .guides-sidebar p {
     margin-left: 1em;
     line-height: 1em;
     text-align: left;
+}
+
+.docs code{
+    text-align: left;
+    background: #f0f0f0;
 }
 
 .docs .code {
@@ -3110,6 +3153,10 @@ th {
         float: none;
         margin-left: 10px;
     }
+
+    .docs .help-content{
+        max-width: 550px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3260,8 +3307,8 @@ th {
         padding-bottom: 110px;
     }
 
-    .docs .guides{
-        top: 132px;
+    .docs .guides-sidebar {
+        top: 72px;
     }
 
     @media screen and (max-width: 860px) {
@@ -3292,12 +3339,19 @@ th {
             display: block;
         }
 
-        .docs .guides {
+        .docs .guides-sidebar {
             max-width: none;
             width: 100%;
             margin: 0;
             position: inherit;
             padding: 5px;
+            display: block;
+            height: auto;
+        }
+
+        .docs .guides-sidebar > div{
+            width: 100%;
+            margin: 10px 0;
         }
     }
 
