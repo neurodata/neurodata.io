@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Gentona Book';
-    .header h2 src: url("../fonts/gentona/Gentona-Book.eot");
+    src: url("../fonts/gentona/Gentona-Book.eot");
     src: local("☺"), url("../fonts/gentona/Gentona-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/gentona/Gentona-Book.woff") format("woff"), url("../fonts/gentona/Gentona-Book.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
@@ -1373,7 +1373,7 @@ footer.dark,
 
 .docs .guides-sidebar h4 {
     margin: .3em 0;
-    color: #4a484c;
+    color: #1874c5;
 }
 
 .docs .guides-sidebar p {
@@ -1888,7 +1888,7 @@ ol {
     transition: max-height 0.2s ease-out;
 }
 
-.collapsible:after {
+.tool-categories-flex .collapsible:after {
     content: '\002B';
     /* Unicode character for "plus" sign (+) */
     font-size: 1rem;
@@ -1898,7 +1898,7 @@ ol {
     font-weight: bold;
 }
 
-.active:after {
+.tool-categories-flex .active:after {
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
 }

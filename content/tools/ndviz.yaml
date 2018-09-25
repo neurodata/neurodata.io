@@ -1,6 +1,6 @@
 name: ndviz
 heading: Data visualization
-description: NeuroDataViz (ndviz) is a web tool for viewing datasets stored using NeuroData Database Store software. 
+description: "NeuroDataViz (ndviz) is a fork of <a href='https://github.com/neurodata/neuroglancer'>Neuroglancer</a>, a web tool for viewing datasets stored using NeuroData's infrastructure."
 
 cloud: True
 local: False
@@ -12,4 +12,4 @@ github: neurodata/neuroglancer
 docs: 
 manuscripts: 
 press: 
-docker: https://hub.docker.com/r/neurodata/ndviz/
+docker: 

@@ -19,16 +19,11 @@ hidden_sidebar: true
 
 ### Using the exported JSON file
 
-When using [NDviz](http://viz.neurodata.io/) to view your favorite dataset you
-may want to add some point annotations to share with collaborators. The
+When using [neuroglancer](http://viz.neurodata.io/) to view your dataset you may want to add some point annotations to share with collaborators. The
 following will help you use R to do that. 
 
-When you have your NDviz window set the way you want it with all the
-channels and colors set accordingly use the export JSON functionality by
-clicking the `{}` in the upper right of the window and the click
-`export`.  This will download a file called `stats.json`.  Place this
+When you have your neuroglancer window set the way you want it with all the channels and colors set accordingly use the export JSON functionality by clicking the `{}` in the upper right of the window and the click `export`.  This will download a file called `state.json`.  Place this
 file in the directory with your R script.  
-
 
 #### File setup
 
@@ -98,10 +93,9 @@ makeEllipse <- function(x, y, z, id,
 }
 ```
 
-###### set up a toy example
+###### Set up a toy example
 
-If you already have a set of `x, y, z` coordinates with id's you can skip
-this.  
+If you already have a set of `x, y, z` coordinates with id's you can skip this. 
 
 
 ```r

@@ -23,15 +23,15 @@ There are four methods for getting data from the BOSS:
 
 #### [ndwebtools](https://ndwebtools.neurodata.io)
 
-A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 1GB) to data and links to data visualization (through ndviz).  Larger cutouts should be performed programmatically using either `ndex` or `intern` detailed below.
+A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 1GB) to data and links to data visualization (through neuroglancer).  Larger cutouts should be performed programmatically using either `ndex` or `intern` detailed below.
 
 - Log in at [ndwebtools.neurodata.io](https://ndwebtools.neurodata.io)
 - Navigate the available projects by clicking the links to collections and experiments.  Clicking on any experiment takes you to the cutout page.
-- The cutout page provides TIFF downloads and viz links for the channels within the experiment.
+- The cutout page provides TIFF downloads and viz links for channels within each experiment.
 
-#### [ndviz](https://viz.neurodata.io)
+#### [neuroglancer](https://viz.neurodata.io)
 
-Ndviz is a fork of [neuroglancer](https://github.com/google/neuroglancer) with BOSS support added.  The most straightforward way to load data to be viewed in ndviz is through ndwebtools (above).
+NeuroData operates a fork of [neuroglancer](https://github.com/neurodata/neuroglancer) with BOSS support and color customization.  The most straightforward way to load data into neuroglancer is through ndwebtools (above).
 
 #### [ndex](https://github.com/neurodata/ndex)
 

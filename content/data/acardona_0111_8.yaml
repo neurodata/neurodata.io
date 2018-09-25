@@ -11,12 +11,12 @@ data:
 - name: acardona_0111_8
   url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_0111_8__12_03_2017/
   type: EM
-  description: NDVIZ
+  description: Viz
   viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_0111_8__12_03_2017/
 - name: acardona_abd1_5
   url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_abd1_5/
   type: EM
-  description: NDVIZ
+  description: Viz
   viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_abd1_5/
 
 
