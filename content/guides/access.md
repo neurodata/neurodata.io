@@ -1,5 +1,5 @@
 ---
-$title@: Data access
+$title@: Access
 $order: 1
 ---
 
@@ -37,10 +37,10 @@ Ndviz is a fork of [neuroglancer](https://github.com/google/neuroglancer) with B
 
 A Python command-line tool for downloading volumes of data from the BOSS as TIFF stacks.  This library can also be loaded from within Python.
 
-- Installation and usage instructions on its [GitHub page](https://github.com/neurodata/ndex/)
+Installation and usage instructions on its [GitHub page](https://github.com/neurodata/ndex/)
 
 #### [intern](https://github.com/jhuapl-boss/intern)
 
 A Python package developed by JHU-APL for interactive and programmatic usage of the BOSS.
 
-- Installation and usage instructions available on its [GitHub page](https://github.com/jhuapl-boss/intern)
+Installation and usage instructions available on its [GitHub page](https://github.com/jhuapl-boss/intern)
