@@ -1322,6 +1322,8 @@ footer.dark,
     position: sticky;
     top: 2px;
     height: 100px;
+
+    margin-left: 20px;
 }
 
 .docs .guides-sidebar>div {
@@ -1860,6 +1862,7 @@ ol {
 .tools-page {
     max-width: 1200px;
     margin: auto;
+    padding: 5px 50px;
 }
 
 .collapsible {
@@ -3265,6 +3268,10 @@ th {
     }
 
     .about {
+        padding: 5%;
+    }
+
+    .tools-page {
         padding: 5%;
     }
 
