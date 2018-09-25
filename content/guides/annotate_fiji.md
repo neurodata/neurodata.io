@@ -6,7 +6,7 @@ $order: 1
 
 This guide shows how to annotate data in a way that NeuroData can import into our processing pipelines.
 
->>>NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.  The original guide can be found [here](https://neurodata-annotator.readthedocs.io/en/latest/).
+>>>NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.  The original guide can be found <a href="https://neurodata-annotator.readthedocs.io/en/latest/" target="_blank">here</a>.
 
 ### Annotate with FIJI
 
@@ -32,7 +32,7 @@ This guide shows how to annotate data in a way that NeuroData can import into ou
 
     ![final area list](/static/images/help/final_area_list.png "final area list")
 
-9. Annotate Your Data by drawing all over it. You can scroll to annotate different slices in your tif.
+9. Annotate Your Data by drawing all over it. You can scroll to annotate different slices in your tif.  To add new unique annotations (with different IDs), redo steps `7` and `8`.
 
 10. When done, right click your canvas and select "Export" -> "Arealists as labels (tif)".
 
@@ -40,7 +40,6 @@ This guide shows how to annotate data in a way that NeuroData can import into ou
 
 11. A black screen will appear - these are your annotations, don't worry if you can't see them.
 
-12. Save your annotations in the correct directory *with the same name*, an example given below.
+12. Save your annotations by choosing `Image Sequence...`, selecting `TIFF`, selecting a name, and choosing the folder for output.
 
-    ![annotation file](/static/images/help/annotation_file.png "annotation file")
-    
+13. These images can now be ingested into our data store.  For a guide on how to do this, please use <a href="https://github.com/neurodata/ndex" target="_blank">ndex</a>, and follow the instructions through `Upload images (ndpush)`.
