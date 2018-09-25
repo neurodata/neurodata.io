@@ -1317,7 +1317,7 @@ footer.dark,
 
     display: flex;
     flex-direction: column;
-    
+
     max-width: 300px;
     position: sticky;
     top: 2px;
@@ -1327,31 +1327,33 @@ footer.dark,
 .docs .guides-sidebar>div {
     display: inline-table;
     flex: 1;
-    
+
     margin: 10px 10px;
     padding: 10px 10px;
     border-radius: 10px;
     width: 100%;
 }
 
-.docs .guides-sidebar .toc_column{
+.docs .guides-sidebar .toc_column {
     background: #dadaeb;
 
 }
 
-.toc ul, 
-.toc li{
+.toc ul,
+.toc li,
+.guides ul,
+.guides li {
     list-style: none;
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
 }
 
-.docs .guides-sidebar .guides{
+.docs .guides-sidebar .guides {
     background: #dfd6c2;
 }
 
-@supports (height: fit-content){
+@supports (height: fit-content) {
     .docs .guides-sidebar>div {
         display: block;
         height: fit-content;
@@ -1371,6 +1373,7 @@ footer.dark,
 
 .docs .guides-sidebar h4 {
     margin: .3em 0;
+    color: #4a484c;
 }
 
 .docs .guides-sidebar p {
@@ -1379,7 +1382,7 @@ footer.dark,
     text-align: left;
 }
 
-.docs code{
+.docs code {
     text-align: left;
     background: #f0f0f0;
 }
@@ -3154,7 +3157,7 @@ th {
         margin-left: 10px;
     }
 
-    .docs .help-content{
+    .docs .help-content {
         max-width: 550px;
     }
 }
@@ -3349,7 +3352,7 @@ th {
             height: auto;
         }
 
-        .docs .guides-sidebar > div{
+        .docs .guides-sidebar>div {
             width: 100%;
             margin: 10px 0;
         }

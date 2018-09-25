@@ -1,8 +1,9 @@
 ---
-$title@: "Add neuroglancer annotations with R"
+$title@: "Programmatically annotate in R"
 author: "Jesse Leigh Patsolic"
 date: 2018-09-07
-$order: 5
+$order: 3
+hidden_sidebar: true
 ---
 
 <!--

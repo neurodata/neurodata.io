@@ -8,6 +8,8 @@
 
 <div class="docs">
     <div class="guides-sidebar">
+        {% include 'partials/guides_sidebar.html' %}
+        
         {% set has_toc = 'class="toc"' in doc.html %}
         {% if has_toc %}
             {% set first_div = doc.html.find('</div>') %}
@@ -16,8 +18,6 @@
                 {{doc.html[0:first_div + 6] | safe}}
             </div>
         {% endif %}
-
-        {% include 'partials/guides_sidebar.html' %}
     </div>
     <div class="help-content">
         {% set has_toc = 'class="toc"' in doc.html %}
