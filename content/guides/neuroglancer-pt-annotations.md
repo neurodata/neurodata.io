@@ -6,7 +6,7 @@ $order: 2
 
 [TOC]
 
-This guide demonstrates how to add point annotations manually to a neuroglancer view.
+This guide demonstrates how to add point annotations manually to a neuroglancer view.  To generate a starting neuroglancer view, we recommend using <a href="https://ndwebtools.neurodata.io" target="_blank">ndwebtools</a>.  For this demo, we have made <a href="https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/j51ys" target="_blank">this</a> neuroglancer view available to use.
 
 ### Open JSON editor
 
@@ -48,3 +48,7 @@ Now that you have selected the point annotations, you can ctrl + click on any lo
 ### Move a point
 
 To move an existing annotation, hold down `ALT` and click the annotation.  You can then drag the annotation around and drop it in a new location.
+
+### Share
+
+To share these data, click the `⇧` icon in the top right navigation aria.  This will change the URL field in the browser to a short one that can be easily copied and shared.  The URL should be similar to this: <a href="https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/187ej8" target="_blank">https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/187ej8</a>
