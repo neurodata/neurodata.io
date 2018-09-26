@@ -17,15 +17,15 @@ hidden_sidebar: true
 
 [TOC]
 
-### Using the exported JSON file
-
 When using [neuroglancer](http://viz.neurodata.io/) to view your dataset you may want to add some point annotations to share with collaborators. The
 following will help you use R to do that. 
+
+### Exporting neuroglancer state
 
 When you have your neuroglancer window set the way you want it with all the channels and colors set accordingly use the export JSON functionality by clicking the `{}` in the upper right of the window and the click `export`.  This will download a file called `state.json`.  Place this
 file in the directory with your R script.  
 
-#### File setup
+### File setup
 
 We'll read the JSON file into R as a list using the `rjson` package.
 
@@ -37,7 +37,7 @@ close(f)
 ```
 
 
-#### Add an annotation layer
+### Add an annotation layer
 
 We'll need to grab some settings from the existing state and setup a new
 annotation layer, called `MyAnnotations`.
@@ -70,7 +70,7 @@ MyAnnotations <- list(type = "annotation",
 ##                         description = "2"))
 ```
 
-#### Function to format annotations
+### Function to format annotations
 
 The following function takes `x, y, z,` and `id` parameters and uses the
 `voxelSize` to specify spherical annotations, you can change this if you
@@ -109,7 +109,7 @@ th <- seq(0,2*pi, length = n)
 toy <- cbind(x = r * cos(th) + cx, y = r * sin(th) + cy, z = cz, id = 1:n)
 ```
 
-#### Edit the state list
+### Edit the state list
 
 Using this example you'll need to have your `x, y, z` and `id` variables
 in a matrix or data.frame -- mine is called `toy`.
@@ -126,7 +126,7 @@ MyAnnotations$annotations <-  out
 h$layers$MyAnnotations <- MyAnnotations
 ```
 
-#### Write to file
+### Write to file
 
 
 ```r
