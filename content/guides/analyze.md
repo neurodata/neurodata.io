@@ -21,4 +21,4 @@ As data transfer within an AWS region is free, and to keep our costs manageable 
 
 ### Analysis pipelines
 
-Our analysis pipelines are under active development.  We are currently working on guides for cell detections and registration.  If there's anything else you would like to see, please let us know.
+Our analysis pipelines are under active development.  Please take a look at our list of maintained [tools]([url('/content/pages/tools.html')]).  We are currently working on guides for cell detections and registration pipelines.  If there's anything else you would like to see, please let us know.

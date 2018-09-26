@@ -1,19 +1,17 @@
 <div class="guides">
     <h3>Guides</h3>
-    {% for item in g.docs('guides') %}
-        {% if not item.hidden_sidebar %}
-            {% if item.base == 'annotate' %}
-                <h4>{{item.title}}</h4>
-                <ul>
-                    {% for subguide in item.subguides %}
-                    <li>
-                        <a href="{{g.url(subguide).path}}">{{g.doc(subguide).title}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            {% else %}
-                <h4><a href="{{item.url.path}}">{{item.title}}</a></h4>
-            {% endif %}
+    {% for item in g.docs('guides') if not item.hidden_sidebar %}
+        {% if item.base == 'annotate' or item.base == 'storage' %}
+            <h4>{{item.title}}</h4>
+            <ul>
+                {% for subguide in item.subguides %}
+                <li>
+                    <a href="{{g.url(subguide).path}}">{{g.doc(subguide).title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <h4><a href="{{item.url.path}}">{{item.title}}</a></h4>
         {% endif %}
     {% endfor %}
 </div>

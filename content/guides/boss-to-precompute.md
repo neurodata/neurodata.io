@@ -1,6 +1,7 @@
 ---
 $title@: Precomputed neuroglancer format
-$order: 5
+hidden_sidebar: true
+$order: 2
 ---
 
 [TOC]
