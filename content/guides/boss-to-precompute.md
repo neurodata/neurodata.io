@@ -19,13 +19,20 @@ The precomputed format [specification](https://github.com/google/neuroglancer/tr
 Install the following software:
 
 1. [python3](https://www.python.org/)
+1. Create Python virtual environment
+    - `python3 -m venv env/`
+    - `. env/bin/activate`
 1. [neuroglancer-scripts](https://github.com/HumanBrainProject/neuroglancer-scripts)
-    1. install dev version
+    - **install dev version** (pypi version has bugs)
+        - `git clone https://github.com/HumanBrainProject/neuroglancer-scripts.git`
+        - `cd neuroglancer-scripts`
+        - `pip install -e .[dev]`
 1. [neuroglancer](https://github.com/google/neuroglancer) (for meshing)
-    1. [node](https://nodejs.org/) (package for [Ubuntu](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions))
-    1. install Java (needed for webpack)
-    1. run the install scripts from neuroglancer root directory (`npm i`)
-    1. start the web server `npm run dev-server` (this compiles webpack)
+    1. Optional:
+        1. [node](https://nodejs.org/) (package for [Ubuntu](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions))
+        1. install Java (needed for webpack)
+        1. run the install scripts from neuroglancer root directory (`npm i`)
+        1. start the web server `npm run dev-server` (this compiles webpack)
     1. navigate to python directory and run (installs neuroglancer package)
         1. `pip install numpy tornado==4.5.3`
         1. `python setup.py develop`
