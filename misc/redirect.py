@@ -31,6 +31,7 @@ redirects = [
     ['graph-services/download', 'project/connectomes/'],
     ['catmaid', 'data/'],
     ['Kasthurietal2014', 'data/kasthuri15/'],
+    ['tools/mgc', 'tools/'],
 ]
 
 
