@@ -1331,14 +1331,16 @@ footer.dark,
     flex: 1;
 
     margin: 10px 10px;
-    padding: 10px 10px;
-    border-radius: 10px;
     width: 100%;
 }
 
 .docs .guides-sidebar .toc_column {
-    background: #dadaeb;
+    border: #dadaeb 3px solid;
+}
 
+.docs .guides-sidebar .toc_column h3 {
+    background: #dadaeb;
+    padding: 0px 5px;
 }
 
 .toc ul,
@@ -1352,7 +1354,12 @@ footer.dark,
 }
 
 .docs .guides-sidebar .guides {
+    border: #dfd6c2 3px solid;
+}
+
+.docs .guides-sidebar .guides h3 {
     background: #dfd6c2;
+    padding: 0px 5px;
 }
 
 @supports (height: fit-content) {
@@ -1376,6 +1383,7 @@ footer.dark,
 .docs .guides-sidebar h4 {
     margin: .3em 0;
     color: #1874c5;
+    padding: 0px 5px;
 }
 
 .docs .guides-sidebar p {
@@ -1862,7 +1870,7 @@ ol {
 .tools-page {
     max-width: 1200px;
     margin: auto;
-    padding: 5px 50px;
+    padding: 5px 10px;
 }
 
 .collapsible {
