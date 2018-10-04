@@ -45,9 +45,12 @@ Right-click on the new channel called “annotations”. Now click on button to 
 
 Now that you have selected the point annotations, you can ctrl + click on any location in the image and yellow spheres will show up at those locations. The locations are stored in the JSON editor and can be accessed at any time by clicking the `{}` in the top right of the web browser.
 
-### Move a point
+### Key combinations
 
-To move an existing annotation, hold down `ALT` and click the annotation.  You can then drag the annotation around and drop it in a new location.
+- Ctrl+LMB: Add Annotation
+- Ctrl+RMB: Select Annotation
+- Alt+LMB: Move Annotation
+- Ctrl+Alt+RMB: Delete Annotation
 
 ### Share
 
