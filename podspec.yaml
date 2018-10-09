@@ -33,6 +33,7 @@ deployments:
   default: #needed for sitemap.xml
     destination: local
     env:
+      name: prod
       host: neurodata.io
       scheme: https
 
