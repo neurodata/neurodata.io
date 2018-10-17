@@ -52,26 +52,26 @@
 
                 <h4 class="title">Tools</h4>
                 {% if doc.tools %}
-                    {% for item in g.docs('tools', order_by='heading') %}
-                        {% if item.name in doc.tools %}
-                            {% set show_button=false %}
-                            {% include 'partials/tools_detail_list.html' %}
-                        {% endif %}
-                    {% endfor %}
-                {% endif%}
-        
-                {% for item in doc.analyses %}
-                    <div class="item">
-                        <div class="item-header">
-                            <h4>
-                                <a href="{{item.url}}">{{ item.name }}</a>
-                            </h4>
+                    <div class="tool-categories-flex">
+                        <div class="mobile-shuffle">
+                            <div class="group">
+                                {% for item in g.docs('tools', order_by='heading') if item.name in doc.tools %}
+                                    {% include 'partials/tools_detail_list.html'%} 
+                                {% endfor %}
+                            </div>
                         </div>
-                        {% if item.description is not none %}
-                            <p>{{item.description}}</p>
-                        {% endif %}
                     </div>
-                {% endfor %}
+                {% endif%}
+
+                <div class="tool-categories-flex">
+                    <div class="mobile-shuffle">
+                        <div class="group">
+                            {% for item in doc.analyses %}
+                                {% include 'partials/tools_detail_list.html'%} 
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
 
             </div>
         {% endif %}
