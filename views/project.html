@@ -60,14 +60,13 @@
 
     {% if doc.tools %}
         <h3 class="title" id="tools">Tools</h4>
-        <div class="tools-pubs">
-            <div class="col">
-                {% for item in g.docs('tools', order_by='heading') %}
-                    {% if item.name in doc.tools %}
-                        {% set show_button=false %}
-                        {% include 'partials/tools_detail_list.html' %}
-                    {% endif %}
-                {% endfor %}
+        <div class="tool-categories-flex">
+            <div class="mobile-shuffle">
+                <div class="group">
+                    {% for item in g.docs('tools', order_by='heading') if item.name in doc.tools %}
+                        {% include 'partials/tools_detail_list.html'%} 
+                    {% endfor %}
+                </div>
             </div>
         </div>
     {% endif %}

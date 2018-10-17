@@ -1886,12 +1886,12 @@ ol {
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
 }
 
-.tools-page .active,
+.tool-categories-flex .active,
 .collapsible:hover {
     background-color: #99B4C6;
 }
 
-.tools-page .mobile-shuffle .content {
+.tool-categories-flex .mobile-shuffle .content {
     margin-top: 0rem;
     margin-left: 1rem;
     max-height: 0;
@@ -1957,7 +1957,7 @@ ol {
     flex: 1;
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    margin-top: 0;
 }
 
 
@@ -2042,6 +2042,10 @@ ol {
 
 .group .item {
     position: relative;
+}
+
+#tools .tool-categories-flex .mobile-shuffle .group .item{
+    margin: 0;
 }
 
 .anchor {
@@ -2700,6 +2704,7 @@ ol {
     color: #2c2c33;
     font-size: 21px;
     padding: 18px 5px;
+    margin-bottom: .5rem;
 }
 
 .detail-wrap .props .col .item {

@@ -28,7 +28,6 @@ $order: 3
                         <h3>Local</h3>
                     </div>
                     {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
-                        {% set show_button=true %}
                         {% include 'partials/tools_detail_list.html'%}
                     {% endfor %}
                 </div>
@@ -37,7 +36,6 @@ $order: 3
                         <h3>Cloud</h3>
                     </div>
                     {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
-                        {% set show_button=true %}
                         {% include 'partials/tools_detail_list.html'%} 
                     {% endfor %}    
                 </div>
@@ -56,7 +54,6 @@ $order: 3
                         <h3>Local</h3>
                     </div>
                     {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-                        {% set show_button=true %}
                         {% include 'partials/tools_detail_list.html'%} 
                     {% endfor %}
                 </div>
@@ -91,7 +88,6 @@ $order: 3
                         <h3>Local</h3>
                     </div>
                     {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
-                        {% set show_button=true %}
                         {% include 'partials/tools_detail_list.html'%} 
                     {% endfor %}
                 </div>
