@@ -219,7 +219,7 @@ h3 {
 }
 
 h2 {
-    font-family: "Quadon Regular", Rockwell, serif;
+    font-family: "Gentona Bold", "Arial Bold", sans-serif;
 }
 
 h4,
@@ -229,7 +229,7 @@ h6 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 40px;
     line-height: 1.2;
 }
 
@@ -249,7 +249,7 @@ h4 {
     margin: 0;
 }
 
-h5 {
+h2 {
     font-size: 16px;
     color: white;
     background-color: #000;
@@ -850,7 +850,7 @@ footer.dark,
     background: white;
 }
 
-.nav ul li h5:hover {
+.nav ul li h2:hover {
     background: white;
 }
 
@@ -865,19 +865,19 @@ footer.dark,
     border-bottom: none;
 }
 
-.nav ul.bottom li h5 {
+.nav ul.bottom li h2 {
     color: #494949;
     font-size: 14px;
 }
 
-.nav ul.bottom li h5.copy {
+.nav ul.bottom li h2.copy {
     background: #494949;
     color: white;
     padding: 13px 0px;
     text-align: center;
 }
 
-.nav ul.bottom li h5.copy:hover {
+.nav ul.bottom li h2.copy:hover {
     background: white;
     color: #494949;
 }
@@ -1194,6 +1194,13 @@ footer.dark,
     margin: 0px;
     font-size: 30px;
 }
+.header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0px;
+    font-size: 30px;
+}
 
 .header p.hidden {
     color: white;
@@ -1261,7 +1268,7 @@ footer.dark,
     border-bottom: 6px solid #99B4C6;
 }
 
-.doc-nav li h5 {
+.doc-nav li h2 {
     background: none;
     color: #29282f;
     padding: 14px 14px 10px 14px;
@@ -1272,7 +1279,7 @@ footer.dark,
     background: #020202;
 }
 
-.doc-nav li:hover h5 {
+.doc-nav li:hover h2 {
     color: white;
 }
 
@@ -1280,7 +1287,7 @@ footer.dark,
     background: #020202;
 }
 
-.doc-nav li.active h5 {
+.doc-nav li.active h2 {
     color: white;
 }
 
@@ -2061,7 +2068,7 @@ ol {
     position: absolute;
 }
 
-.item .options .link span h5 {
+.item .options .link span h2 {
     color: #020202;
     background: #dfd6c2;
     position: relative;
@@ -2457,7 +2464,7 @@ ol {
     opacity: 0;
 }
 
-.team .members .col .overlay h5 {
+.team .members .col .overlay h2 {
     background: none;
     text-align: center;
     font-size: 11px;
@@ -3130,7 +3137,7 @@ th {
 }
 
 @media only screen and (max-width: 1200px) {
-    .doc-nav li h5 {
+    .doc-nav li h2 {
         font-size: 13px;
         padding: 16px 14px 13px 14px;
     }
@@ -3243,13 +3250,13 @@ th {
         color: white;
     }
 
-    .nav ul li h5 {
+    .nav ul li h2 {
         color: white;
         font-size: 27px;
         padding-left: 0px;
     }
 
-    .nav ul li h5:hover {
+    .nav ul li h2:hover {
         background: none;
         color: #16a0ef;
     }
@@ -3523,7 +3530,7 @@ th {
     /* MEDIA QUERIES - HEIGHT
 ---------------------------------------------- */
     @media only screen and (max-height: 570px) {
-        .nav ul li h5 {
+        .nav ul li h2 {
             font-size: 20px;
             padding: 10px;
         }
@@ -3538,7 +3545,7 @@ th {
             padding: 5px 0px;
         }
 
-        .nav ul li h5 {
+        .nav ul li h2 {
             font-size: 20px;
             padding: 10px;
         }
@@ -3581,14 +3588,14 @@ th {
     }
 
     @media only screen and (max-height: 390px) {
-        .nav ul li h5 {
+        .nav ul li h2 {
             font-size: 17px;
             padding: 5px;
         }
     }
 
     @media only screen and (max-height: 390px) {
-        .nav ul li h5 {
+        .nav ul li h2 {
             font-size: 15px;
             padding: 3px;
         }

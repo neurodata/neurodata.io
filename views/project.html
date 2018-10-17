@@ -3,7 +3,7 @@
 {% block main %}
 
 <div class="header detail">
-    <h2>{{doc.title}}</h2>
+    <h1>{{doc.title}}</h1>
     {% if doc.description is not none %}
         <p>{{doc.description|safe}}</p>
     {% endif %}
@@ -15,16 +15,16 @@
 <div class="doc-nav">
     <ul>
         {% if doc.data %}
-        <li><a href="#data"><h5>Data</h5></a></li>
+        <li><a href="#data"><h2>Data</h2></a></li>
         {% endif %}
         {% if doc.tools %}
-        <li><a href="#tools"><h5>Tools</h5></a></li>
+        <li><a href="#tools"><h2>Tools</h2></a></li>
         {% endif %}
         {% if doc.publications %}
-        <li><a href="#publications"><h5>Publications</h5></a></li>
+        <li><a href="#publications"><h2>Publications</h2></a></li>
         {% endif %}
         {% if doc.people %}
-        <li><a href="#people"><h5>People</h5></a></li>
+        <li><a href="#people"><h2>People</h2></a></li>
         {% endif %}
     </ul>
     <select>
