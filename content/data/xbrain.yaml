@@ -21,11 +21,11 @@ tools:
 analyses:
 - name: mojo
   description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
-  url: https://github.com/Rhoana/Mojo
+  link: https://github.com/Rhoana/Mojo
 
 - name: tomopy
   description: Tomographic reconstruction in Python
-  url: https://github.com/tomopy/tomopy
+  link: https://github.com/tomopy/tomopy
   
 publications:
 - dyer2017quantifying

@@ -34,15 +34,15 @@ tools:
 analyses:
 - name: SynapseWeb
   description: A portal into the 3D ultrastructure of the brain. 
-  url: http://synapseweb.clm.utexas.edu/ 
+  link: http://synapseweb.clm.utexas.edu/ 
 
 - name: Reconstruct
   description: Program for tracing serial sections
-  url: http://synapseweb.clm.utexas.edu/software-0
+  link: http://synapseweb.clm.utexas.edu/software-0
 
 - name: CAJAL
   description: Caching gateway to connect a CATMAID (or other visualization) server to ndstore
-  url: https://github.com/neurodata/ndtilecache
+  link: https://github.com/neurodata/ndtilecache
   
 publications:
 -  harris2015resource
