@@ -49,30 +49,21 @@
 
         {% if doc.tools is defined and doc.tools or doc.analyses is defined and doc.analyses %}
             <div class="col" id="tools">
-
                 <h4 class="title">Tools</h4>
-                {% if doc.tools %}
-                    <div class="tool-categories-flex">
-                        <div class="mobile-shuffle">
-                            <div class="group">
-                                {% for item in g.docs('tools', order_by='heading') if item.name in doc.tools %}
-                                    {% include 'partials/tools_detail_list.html'%} 
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                {% endif%}
-
                 <div class="tool-categories-flex">
                     <div class="mobile-shuffle">
                         <div class="group">
+                            {% if doc.tools %}
+                                {% for item in g.docs('tools', order_by='heading') if item.name in doc.tools %}
+                                    {% include 'partials/tools_detail_list.html'%} 
+                                {% endfor %}
+                            {% endif%}
                             {% for item in doc.analyses %}
                                 {% include 'partials/tools_detail_list.html'%} 
                             {% endfor %}
                         </div>
                     </div>
                 </div>
-
             </div>
         {% endif %}
 

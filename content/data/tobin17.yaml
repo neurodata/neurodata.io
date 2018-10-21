@@ -20,11 +20,11 @@ tools:
 analyses:
 - name: Analysis code
   description: Data, analysis, and figure scripts
-  url: "https://github.com/htem/tobin17/"
+  link: "https://github.com/htem/tobin17/"
 
 - name: Simulations
   description: nC_projects_lite.tar.gz (800MB)
-  url: "https://neurodata-public-files.s3.amazonaws.com/tobin17/nC_projects_lite.tar.gz?Signature=cYhJAtuwdwUF65A6aGR2CREFKFg%3D&Expires=1714959308&AWSAccessKeyId=AKIAI4T5H2QEQZD6Q4KQ"
+  link: "https://neurodata-public-files.s3.amazonaws.com/tobin17/nC_projects_lite.tar.gz?Signature=cYhJAtuwdwUF65A6aGR2CREFKFg%3D&Expires=1714959308&AWSAccessKeyId=AKIAI4T5H2QEQZD6Q4KQ"
 
 
 publications:

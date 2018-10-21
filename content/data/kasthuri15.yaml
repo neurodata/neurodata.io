@@ -30,15 +30,15 @@ tools:
 analyses:
 - name: mojo
   description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
-  url: https://github.com/Rhoana/Mojo
+  link: https://github.com/Rhoana/Mojo
 
 - name: rss
   description: Reproducible Scalable Science
-  url: https://github.com/neurodata/kasthuri2015
+  link: https://github.com/neurodata/kasthuri2015
   
 - name: vast
   description: 'VAST Lite: Volume Annotation and Segmentation Tool'
-  url: https://software.rc.fas.harvard.edu/lichtman/vast/
+  link: https://software.rc.fas.harvard.edu/lichtman/vast/
   
 publications:
 - kasthuri2015saturated
