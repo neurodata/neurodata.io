@@ -1877,7 +1877,7 @@ ol {
     width: 100%;
     cursor: pointer;
     padding: .5rem;
-    border: 2px solid #99B4C6;
+    border: 1px solid #222;
     text-align: left;
     outline: none;
     font-size: 1rem;
