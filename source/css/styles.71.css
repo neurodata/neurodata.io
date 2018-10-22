@@ -1877,11 +1877,11 @@ ol {
     width: 100%;
     cursor: pointer;
     padding: .5rem;
-    border: none;
+    border: 2px solid #99B4C6;
     text-align: left;
     outline: none;
     font-size: 1rem;
-    background-color: #CCE7F9;
+    background-color: white;
     margin-right: 10px;
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
 }
@@ -2004,11 +2004,6 @@ ol {
     margin-bottom: -.5rem;
 }
 
-.group h3,
-.group-header h3 {
-    color: #5F8793;
-}
-
 .group-header h3 {
     margin: 0;
 }
@@ -2042,10 +2037,7 @@ ol {
 
 .group .item {
     position: relative;
-}
-
-#tools .tool-categories-flex .mobile-shuffle .group .item{
-    margin: 0;
+    margin: .25rem 0;
 }
 
 .anchor {
@@ -2709,6 +2701,10 @@ ol {
 
 .detail-wrap .props .col .item {
     margin: 17px 0px;
+}
+
+.detail-wrap .props .col .group .item {
+    margin: .25rem 0;
 }
 
 .detail-wrap .props .col h4 {
