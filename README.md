@@ -11,13 +11,13 @@ At a minimum, you will need the following tools installed:
 
 If you do not have Grow, you can install it using:
 
-```
-curl https://install.growsdk.org | bash
+```sh
+curl https://install.grow.io | bash
 ```
 
-or
+or (from a virtual environment)
 
-```
+```sh
 pip install grow
 ```
 
@@ -29,7 +29,7 @@ Prior to starting the development server, you may have to install dependencies u
 
 The `grow run` command starts your development server. You can make changes to your project files and refresh to see them reflected immediately.
 
-```
+```sh
 grow install
 grow run
 ```
@@ -38,7 +38,7 @@ grow run
 
 You can use the `grow build` command to build your whole site to the `build` directory. This is a good way to test and verify the generated code.
 
-```
+```sh
 grow build
 ```
 
