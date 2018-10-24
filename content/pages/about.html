@@ -8,92 +8,94 @@ $order: 5
 {% include 'partials/about_nav.html' %}
 
 <div class="about clearfix">
-    <div class="press" id="mission">
-        <h3>Mission Statement</h3>
-        <p>To flourish together by extending and fusing statistical machine learning and big data science to address the most important brain science and mental health questions of our time.</p>
-    </div>
-
-    <div class="team" id="team">
-        <div class="divider"></div>
-        
-        <h3>The Team</h3>
-        <div class="members clearfix">
-            {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
-            {% set cats = g.categories('people')|sort_by_index(position_order) %}
-            {% for category, docs in cats %}
-                {% if category != 'associate' %}
-                    {% for item in docs %}
-                        {% include 'partials/people.html' %}
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
+    <div class="about-content">
+        <div class="press" id="mission">
+            <h3>Mission Statement</h3>
+            <p>To flourish together by extending and fusing statistical machine learning and big data science to address the most important brain science and mental health questions of our time.</p>
         </div>
 
-        <h4 style="margin-top: 1em;">
-            <a href="{{g.doc('/content/pages/alum.html').url.path}}">Alumni</a>
-        </h4>
-    </div>
-    
-    <div id="pubs">    
-        <div class="divider"></div>
-        <h3><a href="/publications">Publications</a></h3>
-    </div>
-    
-    <div id="talks">    
-        <div class="divider"></div>
-        <h3><a href="/talks">Talks</a></h3>
-    </div>
+        <div class="team" id="team">
+            <div class="divider"></div>
+            
+            <h3>The Team</h3>
+            <div class="members clearfix">
+                {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
+                {% set cats = g.categories('people')|sort_by_index(position_order) %}
+                {% for category, docs in cats %}
+                    {% if category != 'associate' %}
+                        {% for item in docs %}
+                            {% include 'partials/people.html' %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
 
-    <div class="press" id="press">
-        <div class="divider"></div>
+            <h4 style="margin-top: 1em;">
+                <a href="{{g.doc('/content/pages/alum.html').url.path}}">Alumni</a>
+            </h4>
+        </div>
+        
+        <div id="pubs">    
+            <div class="divider"></div>
+            <h3><a href="/publications">Publications</a></h3>
+        </div>
+        
+        <div id="talks">    
+            <div class="divider"></div>
+            <h3><a href="/talks">Talks</a></h3>
+        </div>
 
-        <h3>Press</h3>
-        <ul>
-            <li><a href="http://www.genengnews.com/best-of-the-web/open-connectome-project/2963" target="_blank">Genetic Engineering &amp; Biotechnology News: Best of the Web: Open Connectome Project</a></li>
-            <li><a href="https://doi.org/10.1186/2042-1001-1-16" target="_blank">Q&amp;A: What is the Open Connectome Project?</a></li>
-            <li><a href="http://hub.jhu.edu/2016/11/02/johns-hopkins-neuroscientists-brain-trust/" target="_blank">Johns Hopkins researchers want to use big data to chart the brain</a></li>
-            <li><a href="http://www.genengnews.com/best-of-the-web/open-connectome-project/2963/" target="_blank">Best of the Web: Open Connectome Project</a></li>
-            <li><a href="http://www.neuralsystemsandcircuits.com/content/1/1/16" target="_blank">Neural Systems and Circuits interview</a></li>
-            <li><a href="https://theconnectome.wordpress.com/2012/02/05/podcast-1-our-interview-with-joshua-vogelstein/" target="_blank">The Connectome blog interview</a></li>
-            <li><a href="https://engineering.jhu.edu/magazine/2011/09/mapping-mind/" target="_blank">Mapping the Mind</a></li>
-        </ul>
-    </div>
+        <div class="press" id="press">
+            <div class="divider"></div>
 
-    <div class="press" id="awards">
-        <div class="divider"></div>
+            <h3>Press</h3>
+            <ul>
+                <li><a href="http://www.genengnews.com/best-of-the-web/open-connectome-project/2963" target="_blank">Genetic Engineering &amp; Biotechnology News: Best of the Web: Open Connectome Project</a></li>
+                <li><a href="https://doi.org/10.1186/2042-1001-1-16" target="_blank">Q&amp;A: What is the Open Connectome Project?</a></li>
+                <li><a href="http://hub.jhu.edu/2016/11/02/johns-hopkins-neuroscientists-brain-trust/" target="_blank">Johns Hopkins researchers want to use big data to chart the brain</a></li>
+                <li><a href="http://www.genengnews.com/best-of-the-web/open-connectome-project/2963/" target="_blank">Best of the Web: Open Connectome Project</a></li>
+                <li><a href="http://www.neuralsystemsandcircuits.com/content/1/1/16" target="_blank">Neural Systems and Circuits interview</a></li>
+                <li><a href="https://theconnectome.wordpress.com/2012/02/05/podcast-1-our-interview-with-joshua-vogelstein/" target="_blank">The Connectome blog interview</a></li>
+                <li><a href="https://engineering.jhu.edu/magazine/2011/09/mapping-mind/" target="_blank">Mapping the Mind</a></li>
+            </ul>
+        </div>
 
-        <h3>Awards</h3>
-        <ul>
-            <li><em>Best Presentation Award HPDC</em>, Mhembere et al. (2017).</li>
-            <li><em>Nonparametric Statistics of the American Statistical Association Student Paper Award</em>, Lee et al. (2017).</li>
-            <li><em>F1000 Prime Recommended</em>, Vogelstein et al. (2014).</li>
-            <li><em>Spotlight</em>, Neural Information Processing Systems (NIPS, 2013).</li>
-            <li><em>Trainee Abstract Award</em>, Organization for Human Brain Mapping (2011).</li>
-            <li><em>Spotlight</em>, Computational and Systems Neuroscience (CoSyNe, 2008). </li>
-        </ul>
-    </div>
+        <div class="press" id="awards">
+            <div class="divider"></div>
 
-    <div id="funding">
-        <div class="divider"></div>
-        <h3><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank">Funding</a></h3>
-    </div>
+            <h3>Awards</h3>
+            <ul>
+                <li><em>Best Presentation Award HPDC</em>, Mhembere et al. (2017).</li>
+                <li><em>Nonparametric Statistics of the American Statistical Association Student Paper Award</em>, Lee et al. (2017).</li>
+                <li><em>F1000 Prime Recommended</em>, Vogelstein et al. (2014).</li>
+                <li><em>Spotlight</em>, Neural Information Processing Systems (NIPS, 2013).</li>
+                <li><em>Trainee Abstract Award</em>, Organization for Human Brain Mapping (2011).</li>
+                <li><em>Spotlight</em>, Computational and Systems Neuroscience (CoSyNe, 2008). </li>
+            </ul>
+        </div>
 
-    <div id="agreements">
-        <div class="divider"></div>
+        <div id="funding">
+            <div class="divider"></div>
+            <h3><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank">Funding</a></h3>
+        </div>
 
-        <h3><a href="https://github.com/neurodata/about/blob/master/agreements.md" target="_blank">Agreements</a></h3>
-    </div>
+        <div id="agreements">
+            <div class="divider"></div>
 
-    <div id="conduct">
-        <div class="divider"></div>
+            <h3><a href="https://github.com/neurodata/about/blob/master/agreements.md" target="_blank">Agreements</a></h3>
+        </div>
 
-        <h3><a href="https://github.com/neurodata/about/blob/master/conduct.md" target="_blank">Conduct</a></h3>
-    </div>
+        <div id="conduct">
+            <div class="divider"></div>
 
-    <div id="calendar">
-        <div class="divider"></div>
+            <h3><a href="https://github.com/neurodata/about/blob/master/conduct.md" target="_blank">Conduct</a></h3>
+        </div>
 
-        <h3>Calendar</h3>
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=afr9t36kknt629jh4omun20n90%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+        <div id="calendar">
+            <div class="divider"></div>
+
+            <h3>Calendar</h3>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=afr9t36kknt629jh4omun20n90%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
 </div>
