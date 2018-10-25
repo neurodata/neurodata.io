@@ -2736,16 +2736,24 @@ ol {
     margin-bottom: 10px;
 }
 
+.detail-wrap .list ul{
+    margin: 2em 0;
+}
+
+.detail-wrap .list li{
+    list-style-type: initial;
+    margin: 0 0 .5em;
+}
+
 .detail-wrap .list_pubs ol {
     counter-reset: item;
-    margin: 0 0 1.5em;
     padding: 0;
 }
 
 .detail-wrap .list_pubs ol>li {
     counter-increment: item;
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 .5em;
     padding: 0 0 0 2rem;
     text-indent: -2.2rem;
 }
