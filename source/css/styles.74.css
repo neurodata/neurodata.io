@@ -1080,9 +1080,9 @@ footer.dark,
     transition: 0.5s ease all;
 }
 
-.main .wrap {
+/* .main .wrap { */
     /* padding-right: 210px; */
-}
+/* } */
 
 /* .blur {
 	-webkit-filter: blur(0px);
@@ -2351,7 +2351,7 @@ ol {
     background-color: #29282E;
 }
 
-.about .about-content{
+.about .about-content {
     max-width: 1000px;
     margin: auto;
 }
@@ -2648,9 +2648,9 @@ ol {
     background: #f6f6f6;
 }
 
-.table tr td {
+/* .table tr td { */
     /* padding: 4px 20px; */
-}
+/* } */
 
 .table .button {
     font-size: 16px;
@@ -2736,11 +2736,11 @@ ol {
     margin-bottom: 10px;
 }
 
-.detail-wrap .list ul{
+.detail-wrap .list ul {
     margin: 2em 0;
 }
 
-.detail-wrap .list li{
+.detail-wrap .list li {
     list-style-type: initial;
     margin: 0 0 .5em;
 }
@@ -3109,6 +3109,16 @@ th {
     list-style-type: decimal;
 }
 
+
+.sfn {
+    text-align: center;
+}
+
+.sfn h5 {
+    background-color: #dfd6c2;
+    color: #222;
+}
+
 /* MEDIA QUERIES - WIDTH
 ---------------------------------------------- */
 
@@ -3189,12 +3199,12 @@ th {
 }
 
 @media only screen and (max-width: 1024px) {
-    .blur {
+    /* .blur { */
         /*
 		-webkit-filter: blur(10px);
 		filter: blur(10px);
-*/
-    }
+        */
+    /* } */
 
     .nav {
         background: #f4f4f4;
@@ -3343,268 +3353,269 @@ th {
     .docs .guides-sidebar {
         top: 72px;
     }
+}
 
-    @media screen and (max-width: 860px) {
-        h1 {
-            font-size: 9vw;
-        }
-
-        .detail-wrap .props {
-            width: 100%;
-            flex-direction: column;
-        }
-
-        .table .head th {
-            padding: 8px;
-        }
-
-        .table tr td {
-            padding: 8px;
-        }
-
-        .table a.button {
-            font-size: 12px;
-            margin: 2px;
-            padding: 0 10px;
-        }
-
-        .docs {
-            display: block;
-        }
-
-        .docs .guides-sidebar {
-            max-width: none;
-            width: 100%;
-            margin: 0;
-            position: inherit;
-            padding: 5px;
-            display: block;
-            height: auto;
-        }
-
-        .docs .guides-sidebar>div {
-            width: 100%;
-            margin: 10px 0;
-        }
+@media screen and (max-width: 860px) {
+    h1 {
+        font-size: 9vw;
     }
 
-    @media screen and (max-width: 800px) {
-        .doc-nav {
-            padding: 10px 0px;
-        }
-
-        .doc-nav ul {
-            display: none;
-        }
-
-        .doc-nav select {
-            display: block;
-            width: 100%;
-            text-align-last: center;
-            text-align: center;
-            margin: 0px;
-            color: #020202;
-            font-style: normal;
-            z-index: 1;
-            border: none;
-            position: relative;
-            font-size: 15px;
-            font-weight: 900;
-            text-transform: uppercase;
-            background: #99B4C6;
-            background: #99B4C6 url("../images/dropdown-arrow.png");
-            background-repeat: no-repeat;
-            background-size: 14px;
-            background-position: 97%;
-        }
-
-        .doc-nav.sub>select {
-            background: #94D6C9;
-            background: #94D6C9 url("../images/dropdown-arrow.png");
-            background-repeat: no-repeat;
-            background-size: 14px;
-            background-position: 97%;
-        }
-
-        .team .members .col {
-            width: 32%;
-        }
-
-        .table .download a.button {
-            display: table;
-            padding: 0 10px;
-        }
-
-        .detail-wrap .intro .left {
-            display: block;
-            float: none;
-            width: 100%;
-            padding-right: 0px;
-        }
-
-        .detail-wrap .intro .right {
-            width: 100%;
-        }
-
-        .detail-wrap .intro .right select {
-            width: 102%;
-            padding: 2%;
-            width: 100%;
-        }
-
-        .detail-wrap .intro .right textarea {
-            width: 100%;
-            padding: 0px;
-        }
-
-        .tools-page h3 {
-            font-size: 1.5rem;
-        }
-
-        .tool-categories-flex>.top-category-header {
-            display: none;
-        }
-
-        .group-category-header {
-            display: block;
-        }
-
-        .tool-categories-flex>div .group {
-            width: unset;
-        }
-
-        .mobile-shuffle {
-            display: flex;
-            flex-direction: column;
-        }
+    .detail-wrap .props {
+        width: 100%;
+        flex-direction: column;
     }
 
-    @media screen and (max-width: 600px) {
-        .team .members .col {
-            width: 49%;
-        }
+    .table .head th {
+        padding: 8px;
     }
 
-    @media screen and (max-width: 500px) {
-        h2 {
-            font-size: 8vw;
-        }
-
-        h3 {
-            font-size: 7vw;
-        }
-
-        .tools-pubs {
-            flex-direction: column;
-        }
+    .table tr td {
+        padding: 8px;
     }
 
-    @media screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio: 1.25),
-    (max-width: 720px) and (min-resolution: 1.25dppx) {
-        h2 {
-            font-size: 6vw;
-        }
-
-        h3 {
-            font-size: 5vw;
-        }
-
-        .tools-pubs {
-            flex-direction: column;
-        }
+    .table a.button {
+        font-size: 12px;
+        margin: 2px;
+        padding: 0 10px;
     }
 
-    @media screen and (max-width: 480px) {
-        .table table {
-            font-size: 12px;
-        }
-
-        .table .head th {
-            padding: 5px;
-        }
-
-        .table a.button {
-            font-size: 10px;
-            padding: 0 0px;
-        }
+    .docs {
+        display: block;
     }
 
-    @media screen and (max-width: 430px) {
-        .team .members .col {
-            width: 100%;
-        }
+    .docs .guides-sidebar {
+        max-width: none;
+        width: 100%;
+        margin: 0;
+        position: inherit;
+        padding: 5px;
+        display: block;
+        height: auto;
     }
 
-    /* MEDIA QUERIES - HEIGHT
+    .docs .guides-sidebar>div {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .doc-nav {
+        padding: 10px 0px;
+    }
+
+    .doc-nav ul {
+        display: none;
+    }
+
+    .doc-nav select {
+        display: block;
+        width: 100%;
+        text-align-last: center;
+        text-align: center;
+        margin: 0px;
+        color: #020202;
+        font-style: normal;
+        z-index: 1;
+        border: none;
+        position: relative;
+        font-size: 15px;
+        font-weight: 900;
+        text-transform: uppercase;
+        background: #99B4C6;
+        background: #99B4C6 url("../images/dropdown-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 14px;
+        background-position: 97%;
+    }
+
+    .doc-nav.sub>select {
+        background: #94D6C9;
+        background: #94D6C9 url("../images/dropdown-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 14px;
+        background-position: 97%;
+    }
+
+    .team .members .col {
+        width: 32%;
+    }
+
+    .table .download a.button {
+        display: table;
+        padding: 0 10px;
+    }
+
+    .detail-wrap .intro .left {
+        display: block;
+        float: none;
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .detail-wrap .intro .right {
+        width: 100%;
+    }
+
+    .detail-wrap .intro .right select {
+        width: 102%;
+        padding: 2%;
+        width: 100%;
+    }
+
+    .detail-wrap .intro .right textarea {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .tools-page h3 {
+        font-size: 1.5rem;
+    }
+
+    .tool-categories-flex>.top-category-header {
+        display: none;
+    }
+
+    .group-category-header {
+        display: block;
+    }
+
+    .tool-categories-flex>div .group {
+        width: unset;
+    }
+
+    .mobile-shuffle {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team .members .col {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 8vw;
+    }
+
+    h3 {
+        font-size: 7vw;
+    }
+
+    .tools-pubs {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio: 1.25),
+(max-width: 720px) and (min-resolution: 1.25dppx) {
+    h2 {
+        font-size: 6vw;
+    }
+
+    h3 {
+        font-size: 5vw;
+    }
+
+    .tools-pubs {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .table table {
+        font-size: 12px;
+    }
+
+    .table .head th {
+        padding: 5px;
+    }
+
+    .table a.button {
+        font-size: 10px;
+        padding: 0 0px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .team .members .col {
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERIES - HEIGHT
 ---------------------------------------------- */
-    @media only screen and (max-height: 570px) {
-        .nav ul li h5 {
-            font-size: 20px;
-            padding: 10px;
-        }
+@media only screen and (max-height: 570px) {
+    .nav ul li h5 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-height: 470px) {
+    .mobile-links ul {
+        margin-top: 20px;
     }
 
-    @media only screen and (max-height: 470px) {
-        .mobile-links ul {
-            margin-top: 20px;
-        }
-
-        .mobile-links li {
-            padding: 5px 0px;
-        }
-
-        .nav ul li h5 {
-            font-size: 20px;
-            padding: 10px;
-        }
+    .mobile-links li {
+        padding: 5px 0px;
     }
 
-    @media only screen and (max-height: 400px) {
-        .nav {
-            background: #f4f4f4;
-            display: block;
-            float: none;
-            width: 100%;
-            min-height: 30px;
-            position: fixed;
-            z-index: 999;
-        }
+    .nav ul li h5 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
 
-        .main {
-            display: block;
-            float: none;
-            max-width: 100%;
-            padding-left: 0px;
-            padding-top: 76px;
-        }
-
-        .nav .links {
-            display: none;
-        }
-
-        .nav .triangle {
-            display: none;
-        }
-
-        #mobile-nav {
-            display: block;
-        }
-
-        .main .wrap {
-            padding-right: 0px;
-        }
+@media only screen and (max-height: 400px) {
+    .nav {
+        background: #f4f4f4;
+        display: block;
+        float: none;
+        width: 100%;
+        min-height: 30px;
+        position: fixed;
+        z-index: 999;
     }
 
-    @media only screen and (max-height: 390px) {
-        .nav ul li h5 {
-            font-size: 17px;
-            padding: 5px;
-        }
+    .main {
+        display: block;
+        float: none;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-top: 76px;
     }
 
-    @media only screen and (max-height: 390px) {
-        .nav ul li h5 {
-            font-size: 15px;
-            padding: 3px;
-        }
+    .nav .links {
+        display: none;
     }
+
+    .nav .triangle {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+    .main .wrap {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-height: 390px) {
+    .nav ul li h5 {
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-height: 390px) {
+    .nav ul li h5 {
+        font-size: 15px;
+        padding: 3px;
+    }
+}
