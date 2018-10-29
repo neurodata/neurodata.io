@@ -1099,7 +1099,7 @@ footer.dark,
     justify-content: center;
     overflow: hidden;
     position: absolute;
-    top: 0;
+    top: 45px;
     bottom: 0;
     right: 0;
     left: 210px;
@@ -3230,7 +3230,7 @@ th {
 
     .main .video {
         position: absolute;
-        top: 76px;
+        top: 121px;
         bottom: 0;
         right: 0;
         left: 0;
