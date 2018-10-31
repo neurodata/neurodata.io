@@ -8,7 +8,7 @@
         {% endif %}
         >
         <a href="/publications"><h5>Publications</h5></a></li>
-        <li><a href="/talks"><h5>Talks</h5></a></li>
+        <li><a href="{{g.doc('/content/pages/talks.html').url.path}}"><h5>Presentations</h5></a></li>
         <li><a href="/press"><h5>Press</h5></a></li>
         <li><a href="/awards"><h5>Awards</h5></a></li>
         <li><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank"><h5>Funding</h5></a></li>
@@ -21,7 +21,7 @@
         <option value="/about#mission">Mission</option>
         <option value="/about#team">Team</option>
         <option value="/publications">Publications</option>
-        <option value="/talks">Talks</option>
+        <option value="/talks">Presentations</option>
         <option value="/press">Press</option>
         <option value="/awards">Awards</option>
         <option value="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}">Funding</option>
