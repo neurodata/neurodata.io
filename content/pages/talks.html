@@ -31,6 +31,8 @@ $path: /presentations/
         {% include 'partials/talks_list.html' %}
 
         <h6 id="Posters">Posters</h6>
+        {% set POSTERS = 'content/talks/posters.bib'|load_bibtex %}
+        {% include 'partials/posters_list.html' %}
         {% set pubs = doc.Posters %}
 
     </div>    
