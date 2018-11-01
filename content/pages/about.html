@@ -5,7 +5,21 @@ $order: 5
 <div class="header about-header">
     <h2>About NeuroData</h2>
 </div>
+{% set highlighted = 'about' %}
 {% include 'partials/about_nav.html' %}
+
+<div class="doc-nav sub">
+        <ul>
+            <li><a href="#mission"><h5>Mission</h5></a></li>
+            <li><a href="#team"><h5>Team</h5></a></li>
+            <li><a href="#calendar"><h5>Calendar</h5></a></li>
+        </ul>
+        <select size="1" name="links" onchange="window.location.href=this.value;">
+            <option value="#mission">Mission</option>
+            <option value="#team">Team</option>
+            <option value="#calendar">Calendar</option>
+        </select>
+    </div>
 
 <div class="about clearfix">
     <div class="about-content">
