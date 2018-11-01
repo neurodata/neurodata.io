@@ -1,28 +1,7 @@
 ---
 $title@: Press
 $hidden: true
-
-press:
-    - name: "Genetic Engineering & Biotechnology News: Best of the Web: Open Connectome Project"
-      url: "http://www.genengnews.com/best-of-the-web/open-connectome-project/2963"
-      year: 2015
-
-    - name: "Neural Systems and Circuits interview: Q&A: What is the Open Connectome Project?"
-      url: "https://doi.org/10.1186/2042-1001-1-16"
-      year: 2011
-
-    - name: "Johns Hopkins researchers want to use big data to chart the brain"
-      url: "http://hub.jhu.edu/2016/11/02/johns-hopkins-neuroscientists-brain-trust/"
-      year: 2016
-
-    - name: "The Connectome blog interview: Open Access to the Brain"
-      url: "https://theconnectome.wordpress.com/2012/02/05/podcast-1-our-interview-with-joshua-vogelstein/"
-      year: 2012
-
-    - name: "Mapping the Mind"
-      url: "https://engineering.jhu.edu/magazine/2011/09/mapping-mind/"
-      year: 2011
-
+$path: /press/
 ---
 
 <div class="header about-header">
@@ -32,11 +11,11 @@ press:
 {% include 'partials/about_nav.html' %}
 
 <div class="detail-wrap">
-    <div class="list">
-        <ul>
-        {% for p in doc.press|sort(attribute='year', reverse=True) %}
-            <li><a href="{{p.url}}" target="_blank">{{p.name}}</a></li>
-        {% endfor %}
-        </ul>
-    </div>
+    <div class="list_pubs">
+
+        <h6 id="press">Press</h6> 
+        {% set TALKS = 'content/press/press.bib'|load_bibtex %}
+        {% include 'partials/talks_list.html' %}
+
+    </div>    
 </div>
