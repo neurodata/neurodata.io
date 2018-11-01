@@ -102,21 +102,24 @@ related_papers:
                         <td><a href="{{data.link}}" target="_blank">{{data.name}}</a></td>
                         <td><a href="{{data.csv}}" target="_blank">[@csv]</a></td>
                         <td>
-                            {% if data.reg_dti %}
-                              <a href="{{data.reg_dti}}" target="_blank" class="button">Aligned Images</a>
-                            {% endif %}
-                            {% if data.tensors %}
-                              <a href="{{data.tensors}}" target="_blank" class="button">Tensors</a>
-                            {% endif %}
-                            {% if data.fibers %}
-                              <a href="{{data.fibers}}" target="_blank" class="button">Fibers</a>
-                            {% endif %}
-                            {% if data.graphs %}
-                              <a href="{{data.graphs}}" target="_blank" class="button">Graphs</a>
-                            {% endif %}
-                            {% if data.qa %}
-                              <a href="{{data.qa}}" target="_blank" class="button">QA</a>
-                            {% endif %}
+                            <button class="collapsible">Expand</button>
+                            <div class="processed">
+                                {% if data.reg_dti %}
+                                <a href="{{data.reg_dti}}" target="_blank" class="button">Aligned Images</a>
+                                {% endif %}
+                                {% if data.tensors %}
+                                <a href="{{data.tensors}}" target="_blank" class="button">Tensors</a>
+                                {% endif %}
+                                {% if data.fibers %}
+                                <a href="{{data.fibers}}" target="_blank" class="button">Fibers</a>
+                                {% endif %}
+                                {% if data.graphs %}
+                                <a href="{{data.graphs}}" target="_blank" class="button">Graphs</a>
+                                {% endif %}
+                                {% if data.qa %}
+                                <a href="{{data.qa}}" target="_blank" class="button">QA</a>
+                                {% endif %}
+                            </div>
                           </td>
                         <td style="text-align: center">
                             <a href="https://github.com/neurodata/ndmg/tree/v{{data.ver}}" target="_blank" class="button">v{{data.ver}}</a>
@@ -143,24 +146,27 @@ related_papers:
                         <td><a href="{{data.link}}" target="_blank">{{data.name}}</a></td>
                         <td><a href="{{data.csv}}" target="_blank">[@csv]</a></td>
                         <td>
-                            {% if data.preproc %}
-                              <a href="{{data.preproc}}" target="_blank" class="button">Preprocessed Images</a>
-                            {% endif %}
-                            {% if data.registered%}
-                              <a href="{{data.registered}}" target="_blank" class="button">Aligned Images</a>
-                            {% endif %}
-                            {% if data.clean %}
-                              <a href="{{data.clean}}" target="_blank" class="button">Cleaned Images</a>
-                            {% endif %}
-                            {% if data.roi_timeseries %}
-                              <a href="{{data.roi_timeseries}}" target="_blank" class="button">ROI Timeseries</a>
-                            {% endif %}
-                            {% if data.connectomes %}
-                              <a href="{{data.connectomes}}" target="_blank" class="button">Graphs</a>
-                            {% endif %}
-                            {% if data.qa %}
-                              <a href="{{data.qa}}" target="_blank" class="button">QA</a>
-                            {% endif %}
+                            <button class="collapsible">Expand</button>
+                            <div class="processed">
+                                {% if data.preproc %}
+                                <a href="{{data.preproc}}" target="_blank" class="button">Preprocessed Images</a>
+                                {% endif %}
+                                {% if data.registered%}
+                                <a href="{{data.registered}}" target="_blank" class="button">Aligned Images</a>
+                                {% endif %}
+                                {% if data.clean %}
+                                <a href="{{data.clean}}" target="_blank" class="button">Cleaned Images</a>
+                                {% endif %}
+                                {% if data.roi_timeseries %}
+                                <a href="{{data.roi_timeseries}}" target="_blank" class="button">ROI Timeseries</a>
+                                {% endif %}
+                                {% if data.connectomes %}
+                                <a href="{{data.connectomes}}" target="_blank" class="button">Graphs</a>
+                                {% endif %}
+                                {% if data.qa %}
+                                <a href="{{data.qa}}" target="_blank" class="button">QA</a>
+                                {% endif %}
+                            </div>
                         </td>
                         <td style="text-align: right">
                             <a href="https://github.com/neurodata/ndmg/tree/m3r-release" target="_blank" class="button">v{{data.ver}}</a>
