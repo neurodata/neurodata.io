@@ -1081,7 +1081,7 @@ footer.dark,
 }
 
 /* .main .wrap { */
-    /* padding-right: 210px; */
+/* padding-right: 210px; */
 /* } */
 
 /* .blur {
@@ -2649,7 +2649,7 @@ ol {
 }
 
 /* .table tr td { */
-    /* padding: 4px 20px; */
+/* padding: 4px 20px; */
 /* } */
 
 .table .button {
@@ -2766,6 +2766,49 @@ ol {
     text-align: right;
     width: 1.5rem;
 }
+
+.detail-wrap .collapsible {
+    width: 100%;
+    cursor: pointer;
+    padding: .5rem;
+    border: 1px solid #222;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    margin-right: 10px;
+    font-family: "Gentona Bold", "Arial Bold", sans-serif;
+    margin: 1rem 0;
+}
+
+.detail-wrap .active,
+.detail-wrap .collapsible:hover {
+    background-color: #dfd6c2;
+}
+
+.detail-wrap .processed {
+    margin-top: 0rem;
+    margin-left: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.detail-wrap .collapsible:after {
+    content: '\002B';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1rem;
+    color: black;
+    float: right;
+    margin: 0rem .5rem;
+    font-weight: bold;
+}
+
+.detail-wrap .active:after {
+    content: "\2212";
+    /* Unicode character for "minus" sign (-) */
+}
+
 
 /* DATABASE 
 ---------------------------------------------- */
@@ -3200,7 +3243,7 @@ th {
 
 @media only screen and (max-width: 1024px) {
     /* .blur { */
-        /*
+    /*
 		-webkit-filter: blur(10px);
 		filter: blur(10px);
         */
