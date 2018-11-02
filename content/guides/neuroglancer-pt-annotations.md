@@ -1,7 +1,6 @@
 ---
 $title@: "Manually annotate in Neuroglancer"
 hidden_sidebar: true
-$order: 2
 ---
 
 [TOC]
