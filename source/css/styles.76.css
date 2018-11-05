@@ -1353,6 +1353,21 @@ footer.dark,
     font-size: 1.1rem;
 }
 
+.docs .guides ul {
+    margin-left: 0;
+}
+
+.guides li {
+    padding-left: 10px;
+}
+
+.guides li.highlight,
+.docs .guides-sidebar .guides h4.highlight{
+    font-style: italic;
+    background: #dfd6c2;
+    color: #222;
+}
+
 .docs .guides-sidebar .guides {
     border: #dfd6c2 3px solid;
 }
@@ -1799,7 +1814,7 @@ footer.dark,
 }
 
 .docs ul,
-ol {
+.docs ol {
     margin-left: 10px;
 }
 

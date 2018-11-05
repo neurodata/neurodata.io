@@ -5,13 +5,34 @@
             <h4>{{item.title}}</h4>
             <ul>
                 {% for subguide in item.subguides %}
-                <li>
-                    <a href="{{g.url(subguide).path}}">{{g.doc(subguide).title}}</a>
+                <li
+                    {% if doc.title == g.doc(subguide).title %}
+                        class="highlight"
+                    {% endif %}
+                >
+                    {% if doc.title != g.doc(subguide).title %}
+                        <a href="{{g.url(subguide).path}}">
+                    {% endif %}
+                    {{g.doc(subguide).title}}
+                    {% if doc.title != g.doc(subguide).title %}
+                        </a>
+                    {% endif %}
                 </li>
                 {% endfor %}
             </ul>
         {% else %}
-            <h4><a href="{{item.url.path}}">{{item.title}}</a></h4>
+            <h4
+                {% if doc.title == item.title %}
+                    class="highlight"
+                {% endif %}
+            >
+            {% if doc.title != item.title %}
+                <a href="{{item.url.path}}">
+            {% endif %}
+            {{item.title}}
+            {% if doc.title != item.title %}
+                </a>
+            {% endif %}</h4>
         {% endif %}
     {% endfor %}
 </div>
