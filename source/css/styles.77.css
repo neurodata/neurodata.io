@@ -1323,7 +1323,7 @@ footer.dark,
     top: 2px;
     height: 100px;
 
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .docs .guides-sidebar>div {
@@ -1387,6 +1387,7 @@ footer.dark,
 .docs .help-content {
     flex: 1;
     order: 1;
+    max-width: 80%;
 }
 
 .docs .guides-sidebar h3 {
@@ -3250,10 +3251,6 @@ th {
         float: none;
         margin-left: 10px;
     }
-
-    .docs .help-content {
-        max-width: 550px;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3454,6 +3451,10 @@ th {
     .docs .guides-sidebar>div {
         width: 100%;
         margin: 10px 0;
+    }
+
+    .docs .help-content {
+        max-width: 100%;
     }
 }
 

@@ -1,7 +1,7 @@
 <div class="guides">
     <h3>Guides</h3>
     {% for item in g.docs('guides') if not item.hidden_sidebar %}
-        {% if item.base == 'annotate' or item.base == 'storage' %}
+        {% if item.subguides %}
             <h4>{{item.title}}</h4>
             <ul>
                 {% for subguide in item.subguides %}
