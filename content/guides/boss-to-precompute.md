@@ -1,6 +1,7 @@
 ---
 $title@: Precomputed neuroglancer format
 $category: Storage
+$order: 2
 ---
 
 [TOC]

@@ -1330,7 +1330,7 @@ footer.dark,
 
     max-width: 300px;
     position: sticky;
-    top: 2px;
+    top: 92px;
     height: 100px;
 
     margin-left: 5px;
@@ -3416,7 +3416,7 @@ th {
     }
 
     .docs .guides-sidebar {
-        top: 72px;
+        top: 162px;
     }
 }
 

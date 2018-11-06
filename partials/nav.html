@@ -8,7 +8,7 @@
         <ul>
             {% for item in g.docs('pages') if not item.is_hidden %}
                 <li>
-                    <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a>
+                    <a href="{{item.url.path}}"><h5>{{item.base}}</h5></a>
                 </li>
 
                 {% if item.base == 'data' %}

@@ -1,6 +1,7 @@
 ---
 $title@: "Manually annotate in Neuroglancer"
 $category: Annotate
+$order: 3
 ---
 
 [TOC]
