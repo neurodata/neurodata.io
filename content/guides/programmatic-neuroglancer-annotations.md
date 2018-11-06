@@ -2,7 +2,7 @@
 $title@: "Programmatically annotate in R"
 author: "Jesse Leigh Patsolic"
 date: 2018-09-07
-hidden_sidebar: true
+$category: Annotate
 ---
 
 <!--

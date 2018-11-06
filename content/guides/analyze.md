@@ -1,6 +1,7 @@
 ---
 $title@: Analyze
 $order: 2
+$category: Analyze
 ---
 
 [TOC]

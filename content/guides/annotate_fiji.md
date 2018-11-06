@@ -1,6 +1,7 @@
 ---
 $title@: "Manually annotate in Fiji"
-hidden_sidebar: true
+$category: Annotate
+$order: 1
 ---
 
 This guide shows how to annotate data in a way that NeuroData can import into our processing pipelines.

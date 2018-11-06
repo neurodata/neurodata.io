@@ -1261,6 +1261,11 @@ footer.dark,
     border-bottom: 6px solid #99B4C6;
 }
 
+.doc-nav li.highlight{
+    background: #94D6C9; 
+    border-color: #94D6C9;
+}
+
 .doc-nav li h5 {
     background: none;
     color: #29282f;
@@ -1297,6 +1302,11 @@ footer.dark,
 
 .doc-nav.sub>ul>li {
     border-bottom: 6px solid #94D6C9;
+}
+
+.doc-nav.sub ul li.highlight {
+    background:  white; 
+    border-color: white;
 }
 
 /* DOCS / FAQ / HELP

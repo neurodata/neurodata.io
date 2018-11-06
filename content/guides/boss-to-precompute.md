@@ -1,6 +1,6 @@
 ---
 $title@: Precomputed neuroglancer format
-hidden_sidebar: true
+$category: Storage
 ---
 
 [TOC]

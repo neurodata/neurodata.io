@@ -3,12 +3,13 @@
 {% block main %}
 
 <div class="header detail">
-    <h2>{{doc.title}}</h2>
+    <h2>{{doc.category}}</h2>
 </div>
+
+{% include 'partials/help_nav.html' %}
 
 <div class="docs">
     <div class="guides-sidebar">
-        {% include 'partials/guides_sidebar.html' %}
         
         {% set has_toc = 'class="toc"' in doc.html %}
         {% if has_toc %}
@@ -25,7 +26,7 @@
             {% set first_div = doc.html.find('</div>') %}
             {{doc.html[first_div + 6:]|safe}}
         {% else %}
-            {{doc.html|markdown|safe}}
+            {{doc.html|render|safe}}
         {% endif %}
 
         <h3>Questions/comments?</h3>
