@@ -1,6 +1,6 @@
 ---
 $title@: Download
-hidden_sidebar: true
+$category: Access
 ---
 
 [TOC]

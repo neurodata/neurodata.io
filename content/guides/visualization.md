@@ -1,6 +1,6 @@
 ---
 $title@: Visualization
-hidden_sidebar: true
+$category: Access
 ---
 
 [TOC]

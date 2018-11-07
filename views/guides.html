@@ -3,29 +3,28 @@
 {% block main %}
 
 <div class="header detail">
-    <h2>{{doc.title}}</h2>
+    <h2>{{doc.category}}</h2>
 </div>
 
+{% include 'partials/help_nav.html' %}
+
+{% set has_toc = 'class="toc"' in doc.html %}
 <div class="docs">
-    <div class="guides-sidebar">
-        {% include 'partials/guides_sidebar.html' %}
-        
-        {% set has_toc = 'class="toc"' in doc.html %}
-        {% if has_toc %}
+    {% if has_toc %}
+        <div class="guides-sidebar">
             {% set first_div = doc.html.find('</div>') %}
             <div class="toc_column">
                 <h3>In this document</h3>
                 {{doc.html[0:first_div + 6] | safe}}
             </div>
-        {% endif %}
-    </div>
+        </div>
+    {% endif %}
     <div class="help-content">
-        {% set has_toc = 'class="toc"' in doc.html %}
         {% if has_toc %}
             {% set first_div = doc.html.find('</div>') %}
             {{doc.html[first_div + 6:]|safe}}
         {% else %}
-            {{doc.html|markdown|safe}}
+            {{doc.html|render|safe}}
         {% endif %}
 
         <h3>Questions/comments?</h3>

@@ -1261,6 +1261,11 @@ footer.dark,
     border-bottom: 6px solid #99B4C6;
 }
 
+.doc-nav li.highlight{
+    background: #94D6C9; 
+    border-color: #94D6C9;
+}
+
 .doc-nav li h5 {
     background: none;
     color: #29282f;
@@ -1299,6 +1304,11 @@ footer.dark,
     border-bottom: 6px solid #94D6C9;
 }
 
+.doc-nav.sub ul li.highlight {
+    background:  white; 
+    border-color: white;
+}
+
 /* DOCS / FAQ / HELP
 ---------------------------------------------- */
 
@@ -1320,7 +1330,7 @@ footer.dark,
 
     max-width: 300px;
     position: sticky;
-    top: 2px;
+    top: 92px;
     height: 100px;
 
     margin-left: 5px;
@@ -1351,6 +1361,21 @@ footer.dark,
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
+}
+
+.docs .guides ul {
+    margin-left: 0;
+}
+
+.guides li {
+    padding-left: 10px;
+}
+
+.guides li.highlight,
+.docs .guides-sidebar .guides h4.highlight{
+    font-style: italic;
+    background: #dfd6c2;
+    color: #222;
 }
 
 .docs .guides-sidebar .guides {
@@ -1800,7 +1825,7 @@ footer.dark,
 }
 
 .docs ul,
-ol {
+.docs ol {
     margin-left: 10px;
 }
 
@@ -3391,7 +3416,7 @@ th {
     }
 
     .docs .guides-sidebar {
-        top: 72px;
+        top: 162px;
     }
 }
 

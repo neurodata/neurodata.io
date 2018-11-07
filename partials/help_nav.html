@@ -1,0 +1,45 @@
+{% set guide_order = ["Help", "Access", "Analyze", "Annotate", "Storage"] %}
+
+<div class="doc-nav">
+    <ul>
+        {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
+            <li
+            {% if category == doc.category %}
+                class = "highlight"
+            {% endif %}
+            >
+                <a href="{{docs[0].url.path}}"><h5>{{category}}</h5></a>
+            </li>
+        {% endfor %}
+    </ul>
+    <select onChange="window.location.href=this.value">
+        <option selected="selected">Help:</option>
+        {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
+            <option value="{{docs[0].url.path}}">{{category}}</option>
+        {% endfor %}
+    </select>
+</div>
+
+
+{% for category, docs in g.categories('guides') %}
+    {% if category == doc.category and docs|length > 1 %}
+        <div class="doc-nav sub">
+            <ul>
+                {% for dd in docs %}
+                    <li
+                    {% if dd.title == doc.title %}
+                        class="highlight"
+                    {% endif %}
+                    ><a href="{{dd.url.path}}"><h5>{{dd.title}}</h5></a></li>
+                {% endfor %}
+            </ul>
+            
+            <select onChange="window.location.href=this.value">
+                <option selected="selected">Subsection:</option>
+                {% for dd in docs %}
+                    <option value="{{dd.url.path}}">{{dd.title}}</option>
+                {% endfor %}
+            </select>
+        </div>
+    {% endif %}
+{% endfor %}
