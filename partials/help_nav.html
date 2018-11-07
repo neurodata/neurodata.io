@@ -33,6 +33,13 @@
                     ><a href="{{dd.url.path}}"><h5>{{dd.title}}</h5></a></li>
                 {% endfor %}
             </ul>
+            
+            <select onChange="window.location.href=this.value">
+                <option selected="selected">Subsection:</option>
+                {% for dd in docs %}
+                    <option value="{{dd.url.path}}">{{dd.title}}</option>
+                {% endfor %}
+            </select>
         </div>
     {% endif %}
 {% endfor %}
