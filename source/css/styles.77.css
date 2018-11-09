@@ -1271,7 +1271,8 @@ footer.dark,
     transition: 0.3s ease all;
 }
 
-.doc-nav li:hover {
+.doc-nav li:hover,
+.doc-nav.sub ul li.highlight:hover {
     background: #020202;
 }
 

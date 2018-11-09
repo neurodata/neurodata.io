@@ -15,7 +15,7 @@
             {% set first_div = doc.html.find('</div>') %}
             <div class="toc_column">
                 <h3>In this document</h3>
-                {{doc.html[0:first_div + 6] | safe}}
+                {{doc.html[0:first_div + 6]|safe}}
             </div>
         </div>
     {% endif %}
