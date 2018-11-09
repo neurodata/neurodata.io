@@ -1258,7 +1258,6 @@ footer.dark,
 
 .doc-nav li {
     transition: 0.3s ease all;
-    border-bottom: 6px solid #99B4C6;
 }
 
 .doc-nav li.highlight{
@@ -1269,7 +1268,6 @@ footer.dark,
 .doc-nav li h5 {
     background: none;
     color: #29282f;
-    padding: 14px 14px 10px 14px;
     transition: 0.3s ease all;
 }
 
@@ -1298,10 +1296,6 @@ footer.dark,
 .doc-nav.sub {
     top: 2.9rem;
     background: #94D6C9;
-}
-
-.doc-nav.sub>ul>li {
-    border-bottom: 6px solid #94D6C9;
 }
 
 .doc-nav.sub ul li.highlight {
@@ -2598,10 +2592,6 @@ footer.dark,
 /* DETAILS 
 ---------------------------------------------- */
 
-.header.detail {
-    padding-bottom: 10px;
-}
-
 .header.detail h2 {
     padding: 20px 20px;
 }
@@ -3223,7 +3213,6 @@ th {
 @media only screen and (max-width: 1200px) {
     .doc-nav li h5 {
         font-size: 13px;
-        padding: 16px 14px 13px 14px;
     }
 
     .download .button {
