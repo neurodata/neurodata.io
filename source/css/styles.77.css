@@ -1940,7 +1940,6 @@ footer.dark,
 }
 
 .header.tools {
-    background: url("../images/tools-bg.jpg")no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2366,14 +2365,12 @@ footer.dark,
 ---------------------------------------------- */
 
 .header.about-header {
-    background: url("../images/about-top-hero.jpg")no-repeat center bottom;
     background-color: #020202;
 }
 
 .about {
     padding: 5px 50px;
     padding-bottom: 45px;
-    background: url("../images/about-bottom-hero.jpg")no-repeat center top;
     background-color: #29282E;
 }
 
