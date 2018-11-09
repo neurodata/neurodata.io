@@ -182,8 +182,8 @@ html,
 body {
     height: 100%;
     font: 16px/1.5 "Gentona", "Arial", sans-serif;
-    color: #020202;
-    background-color: white;
+    color: white;
+    background-color: #29282e;
     -moz-osx-font-smoothing: antialiased !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -1260,8 +1260,8 @@ footer.dark,
     transition: 0.3s ease all;
 }
 
-.doc-nav li.highlight{
-    background: #94D6C9; 
+.doc-nav li.highlight {
+    background: #94D6C9;
     border-color: #94D6C9;
 }
 
@@ -1300,7 +1300,7 @@ footer.dark,
 }
 
 .doc-nav.sub ul li.highlight {
-    background:  white; 
+    background: white;
     border-color: white;
 }
 
@@ -1308,7 +1308,6 @@ footer.dark,
 ---------------------------------------------- */
 
 .docs {
-    background: white;
     padding: 5px 50px;
     margin: auto;
     max-width: 1200px;
@@ -1341,6 +1340,8 @@ footer.dark,
 
 .docs .guides-sidebar .toc_column {
     border: #dadaeb 3px solid;
+    color: #222;
+    background: #efedf5;
 }
 
 .docs .guides-sidebar .toc_column h3 {
@@ -1367,7 +1368,7 @@ footer.dark,
 }
 
 .guides li.highlight,
-.docs .guides-sidebar .guides h4.highlight{
+.docs .guides-sidebar .guides h4.highlight {
     font-style: italic;
     background: #dfd6c2;
     color: #222;
@@ -1414,7 +1415,6 @@ footer.dark,
 
 .docs code {
     text-align: left;
-    background: #f0f0f0;
 }
 
 .docs .code {
@@ -1796,7 +1796,6 @@ footer.dark,
     margin-top: -3.1rem;
     padding-top: 3.6rem;
     margin-bottom: 0;
-    color: #020202;
 }
 
 .docs h4 {
@@ -1897,13 +1896,14 @@ footer.dark,
     width: 100%;
     cursor: pointer;
     padding: .5rem;
-    border: 1px solid #222;
+    border: 0;
     text-align: left;
     outline: none;
     font-size: 1rem;
-    background-color: white;
+    background-color: #dfd6c2;
     margin-right: 10px;
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
+    color: #222;
 }
 
 .tool-categories-flex .active,
@@ -1913,17 +1913,19 @@ footer.dark,
 
 .tool-categories-flex .mobile-shuffle .content {
     margin-top: 0rem;
-    margin-left: 1rem;
+    padding-left: 1rem;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    background: #fcfbfd;
+    color: #222;
 }
 
 .tool-categories-flex .collapsible:after {
     content: '\002B';
     /* Unicode character for "plus" sign (+) */
     font-size: 1rem;
-    color: black;
+    color: #222;
     float: right;
     margin: 0rem .5rem;
     font-weight: bold;
@@ -1985,7 +1987,6 @@ footer.dark,
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background: white;
     z-index: 4;
 }
 
@@ -2038,7 +2039,6 @@ footer.dark,
     position: -webkit-sticky;
     position: sticky;
     top: 75px;
-    background: white;
     z-index: 4;
 }
 
@@ -2278,13 +2278,11 @@ footer.dark,
 
 .project {
     padding: 5px 50px;
-    background-color: white;
     max-width: 1100px;
     margin: auto;
 }
 
 .project h3 {
-    color: #020202;
     margin-bottom: .2rem;
 }
 
@@ -2610,7 +2608,6 @@ footer.dark,
 
 .detail-wrap {
     padding: 5px 50px;
-    background: white;
     max-width: 1200px;
     margin: auto;
 }
@@ -2658,13 +2655,13 @@ footer.dark,
     text-align: right;
 }
 
-.table tr:nth-child(odd) {
-    background: #f6f6f6;
+.table tr {
+    background: #4f4f4f;
 }
 
-/* .table tr td { */
-/* padding: 4px 20px; */
-/* } */
+.table tr:nth-child(even) {
+    background: #1c1c1c;
+}
 
 .table .button {
     font-size: 16px;
@@ -2785,14 +2782,18 @@ footer.dark,
     width: 100%;
     cursor: pointer;
     padding: .5rem;
-    border: 1px solid #222;
+    border: 0;
     text-align: left;
     outline: none;
     font-size: 1rem;
-    background-color: white;
+    background-color: #dfd6c2;
     margin-right: 10px;
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
-    margin: 1rem 0;
+    color: #222;
+}
+
+#tools .group .item .content p {
+    margin: 1em 0;
 }
 
 .detail-wrap .active,
@@ -2844,6 +2845,7 @@ footer.dark,
     font-size: 12px;
     overflow-x: auto;
     display: table;
+    color: white;
 }
 
 .table.database .head th {
