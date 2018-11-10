@@ -28,9 +28,15 @@
                 {% for dd in docs %}
                     <li
                     {% if dd.title == doc.title %}
-                        class="highlight"
+                        class="highlight">
+                    {% else %}
+                    ><a href="{{dd.url.path}}">
                     {% endif %}
-                    ><a href="{{dd.url.path}}"><h5>{{dd.title}}</h5></a></li>
+                    <h5>{{dd.title}}</h5>
+                    {% if dd.title != doc.title %}
+                        </a>
+                    {% endif %} 
+                    </li>
                 {% endfor %}
             </ul>
             
