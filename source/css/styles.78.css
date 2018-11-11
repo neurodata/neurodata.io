@@ -1272,12 +1272,16 @@ footer.dark,
 }
 
 .doc-nav li:hover,
-.doc-nav.sub ul li.highlight:hover {
+.doc-nav.sub ul li:hover {
     background: #020202;
 }
 
 .doc-nav li:hover h5 {
     color: white;
+}
+
+.doc-nav.sub li.highlight:hover h5 {
+    color: #222;
 }
 
 .doc-nav li.active {
