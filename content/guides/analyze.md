@@ -10,7 +10,7 @@ To run analysis on our data we offer the following options
 
 ### ndex
 
-To download portions or entire datasets as TIFF stacks or individual files for local analysis, follow the guide on [access]([url('/content/guides/access.md')]).
+To download portions or entire datasets as TIFF stacks or individual files for local analysis, follow the guide on [access]([url('/content/guides/download.md')]).
 
 ### nd-multicore
 
