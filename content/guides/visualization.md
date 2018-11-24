@@ -23,6 +23,7 @@ The following URLs link to highlighted visualizations
 
 1. [Lee16](https://ndwebtools.neurodata.io/ndviz_url/lee/lee16/image/): Over 20 trillion voxel serial EM dataset
 1. [zbrain](https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/13225y) Zebrafish Atlas (by Owen Randlett), meshed and overlaid with light data channels
+1. [synaptomes](https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=XgjWA3ayoXzaSg): Manually annotated synapses on Electron Microsopy coregistered with array tomography
 <!-- 1. [synaptomes](https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/17xtbq): Manually annotated synapses meshed and overlaid with EM and array tomography -->
 1. [ARA](https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/fwaqe) Allen Reference Atlas meshed
 <!-- 1. [Cell detections](https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/89y6u) Point annotations representing cell detections of different regions of light data overlaid with the Allen Reference Atlas.   -->
