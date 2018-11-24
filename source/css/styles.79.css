@@ -2796,6 +2796,12 @@ footer.dark,
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
 }
+ 
+.detail-wrap .list_pubs ul, 
+.detail-wrap .list_pubs li {
+    list-style: initial;
+    margin-left: 1rem;
+}
 
 
 /* DATABASE 

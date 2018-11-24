@@ -1,0 +1,17 @@
+---
+$title@: Presentations
+$path: /presentations/
+$order: 2
+
+subnavs:
+- talks
+- posters
+---
+
+<h6 id="talks">Talks</h6> 
+{% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
+{% include 'partials/talks_list.html' %}
+
+<h6 id="posters">Posters</h6>
+{% set TALKS = 'content/talks/posters.bib'|load_bibtex %}
+{% include 'partials/talks_list.html' %}
