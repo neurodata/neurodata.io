@@ -2004,6 +2004,7 @@ footer.dark,
     position: sticky;
     top: 75px;
     z-index: 4;
+    background: #29282e;
 }
 
 .mobile-shuffle {
