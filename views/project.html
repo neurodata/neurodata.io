@@ -14,6 +14,9 @@
 </div>
 <div class="doc-nav">
     <ul>
+        {% if doc.about %}
+        <li><a href="#about"><h5>About</h5></a></li>
+        {% endif %}
         {% if doc.data %}
         <li><a href="#data"><h5>Data</h5></a></li>
         {% endif %}
@@ -44,9 +47,18 @@
     </select>
 </div>
 
-{% if doc.data %}
 <div class="project clearfix">
-    <h3 id="data">Data</h3>
+    {% if doc.about %}
+    <h3 class="title" id="about">About</h3>
+    <div>
+        {% if doc.about is not none %}
+            <p>{{doc.about|safe}}</p>
+    {% endif %}
+    </div>
+    {% endif %}
+
+    {% if doc.data %}
+    <h3 class="title" id="data">Data</h3>
     <div class="team">
         <div class="members clearfix" id="team">
             {% for item in g.docs('data', order_by='authors') %}
@@ -59,7 +71,7 @@
     {% endif %}
 
     {% if doc.tools %}
-        <h3 class="title" id="tools">Tools</h4>
+        <h3 class="title" id="tools">Tools</h3>
         <div class="tool-categories-flex">
             <div class="mobile-shuffle">
                 <div class="group">

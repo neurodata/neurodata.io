@@ -1,4 +1,5 @@
 name: BNU1
+csv: https://mrneurodata.s3.amazonaws.com/data/fmri/covariates/BNU1_phenotypic_data.csv
 graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU1/ndmg_0-0-48/graphs/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU1/ndmg_0-0-48/qa/
 reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU1/ndmg_0-0-48/reg_dti/
