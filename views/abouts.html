@@ -8,10 +8,8 @@
 
 {% include 'partials/about_nav.html' %}
 
-<div class="detail-wrap">
-    <div class="list_pubs">
-        {{doc.html|render|safe}}
-    </div>
+<div class="detail-wrap list">
+    {{doc.html|render|safe}}
 </div>
 
 {% endblock %}

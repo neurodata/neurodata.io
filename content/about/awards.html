@@ -29,10 +29,8 @@ awards:
       
 ---
 
-<div class="list">
-    <ul>
-    {% for award in doc.awards|sort(attribute='year', reverse=True) %}
-        <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
-    {% endfor %}
-    </ul>
-</div>
+<ul>
+{% for award in doc.awards|sort(attribute='year', reverse=True) %}
+    <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
+{% endfor %}
+</ul>
