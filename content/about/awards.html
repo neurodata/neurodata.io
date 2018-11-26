@@ -1,6 +1,6 @@
 ---
 $title@: Awards
-$hidden: true
+$order: 4
 
 awards:
     - name: Best Presentation Award HPDC
@@ -29,18 +29,8 @@ awards:
       
 ---
 
-<div class="header about-header">
-    <h2>{{doc.title}}</h2>
-</div>
-{% set highlighted = 'awards' %}
-{% include 'partials/about_nav.html' %}
-
-<div class="detail-wrap">
-    <div class="list">
-        <ul>
-        {% for award in doc.awards|sort(attribute='year', reverse=True) %}
-            <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
-        {% endfor %}
-        </ul>
-    </div>
-</div>
+<ul>
+{% for award in doc.awards|sort(attribute='year', reverse=True) %}
+    <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
+{% endfor %}
+</ul>
