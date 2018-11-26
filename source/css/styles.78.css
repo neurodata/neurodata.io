@@ -140,7 +140,7 @@ a:visited {
 }
 
 a:hover {
-    color: #020202;
+    color: #dfd6c2;
     text-decoration: none;
 }
 
@@ -846,6 +846,10 @@ footer.dark,
     text-indent: 15%;
 }
 
+.nav ul li ul li a:hover {
+    color: #222;
+}
+
 .nav ul li ul li h6:hover {
     background: white;
 }
@@ -1112,7 +1116,7 @@ footer.dark,
 
 .main .video .copy {
     text-align: center;
-    background: #29282f;
+    background: black;
     order: 1;
     z-index: 2;
     padding-bottom: 10px;
@@ -2000,6 +2004,7 @@ footer.dark,
     position: sticky;
     top: 75px;
     z-index: 4;
+    background: #29282e;
 }
 
 .mobile-shuffle {
@@ -2290,6 +2295,10 @@ footer.dark,
     margin-left: 10px;
     font-family: "Gentona Italic", "Arial Italic", sans-serif;
     margin-top: .5rem;
+}
+
+.item .content a:hover {
+    color: #222;
 }
 
 .tools-pubs .col p {
