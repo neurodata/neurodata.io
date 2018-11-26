@@ -1434,7 +1434,7 @@ footer.dark,
 }
 
 .code pre {
-    background-color: #272822;
+    background-color: #29282e;
 }
 
 .code .hll {
@@ -2795,6 +2795,15 @@ footer.dark,
 .detail-wrap .active:after {
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
+}
+
+.detail-wrap.list ul,
+.detail-wrap.list ol,
+.detail-wrap.list li {
+    list-style: initial;
+    margin-left: 1rem;
+    padding-left: 0;
+    text-indent: 0;
 }
 
 

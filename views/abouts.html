@@ -1,0 +1,15 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+<div class="header about-header">
+    <h2>{{doc.title}}</h2>
+</div>
+
+{% include 'partials/about_nav.html' %}
+
+<div class="detail-wrap list">
+    {{doc.html|render|safe}}
+</div>
+
+{% endblock %}
