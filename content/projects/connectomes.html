@@ -18,6 +18,7 @@ graph_species:
 
 <div class="doc-nav">
     <ul>
+        <li><a href="#about"><h5>About</h5></a></li>
         {% for species in doc.graph_species %}
             <li><a href="#{{species}}"><h5>{{species}}</h5></a></li>
         {% endfor %}
@@ -32,7 +33,7 @@ graph_species:
 </div>
 
 <div class="detail-wrap">
-    <div class="intro clearfix">
+    <div class="intro clearfix" id="about">
         <h3>About</h3>
         <p>This page hosts connectomes produced using data from a multitude of labs, across model species, using different modalities. Animal models included are cat, fly, the macaque monkey, mouse, rat, and worm. Every graph is annotated with a source attribute that denotes its origin. </p>
         <p>Graphs are provided by default in <a href="http://graphml.graphdrawing.org/">graphML</a> format. This is the only format that supports iterable attributes.</p>
