@@ -1,9 +1,11 @@
 <div class="nav">
-    <a href="/" class="logo clearfix">
-        <img src="{{g.static('/source/images/neurodata_logo.png').url.path}}">
-        <h4>NeuroData</h4>
-        <div class="triangle"></div>
-    </a>
+    <div class="logo clearfix">
+        <a href="/" >
+            <img src="{{g.static('/source/images/neurodata_logo.png').url.path}}">
+            <h4>NeuroData</h4>
+            <div class="triangle"></div>
+        </a>
+    </div>
     <div class="links">
         <ul>
             {% for item in g.docs('pages') if not item.is_hidden %}
