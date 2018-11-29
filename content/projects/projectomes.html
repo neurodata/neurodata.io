@@ -47,6 +47,7 @@ related_papers:
 
 <div class="doc-nav">
     <ul>
+        <li><a href="#about"><h5>About</h5></a></li>
         <li><a href="#links"><h5>Links</h5></a></li>
         <li><a href="#dmri"><h5>dMRI</h5></a></li>
         <li><a href="#fmri"><h5>fMRI</h5></a></li>
@@ -62,7 +63,12 @@ related_papers:
 </div>
 
 <div class="detail-wrap">
-  <h3 id="links">Links</h3>
+    <div class="intro clearfix" id="about">
+        <h3>About</h3>
+        <p>This page hosts projectomes produced with <a href="https://github.com/neurodata/ndmg" target="_blank">NeuroData's MRI Graphs pipeline (ndmg)</a>. A 'projectome' is a large-scale mapping of white matter tracts between one region of the brain to another, created from fMRI or DTI. Data are from a multitude of labs and experiments. The data are <a href="https://www.biorxiv.org/content/early/2018/04/24/188706" target="_blank">run through ndmg</a>, and after processing, we provide summary statistics, QA, and the projectomes themselves.</p>
+    </div>
+    
+    <h3 id="links">Links</h3>
 
   <div class="links">
     <div class="content">
@@ -84,8 +90,8 @@ related_papers:
       {% endfor %}
     </div>
   </div>
-  
-  <h3>Explore</h3>
+
+    <h3>Explore</h3>
     <div class="table">
         <h3 id="dmri">Diffusion MRI</h3>
         <table>
