@@ -792,7 +792,7 @@ footer.dark,
     position: relative;
 }
 
-.logo:hover h4 {
+.logo h4:hover {
     color: #318dde;
 }
 
