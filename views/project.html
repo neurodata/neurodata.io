@@ -50,9 +50,7 @@
 <div class="project clearfix">
     {% if doc.about %}
     <h3 class="title" id="about">About</h3>
-        {% if doc.about is not none %}
-            <p>{{doc.about|safe}}</p>
-        {% endif %}
+        <p>{{doc.about|safe}}</p>
     {% endif %}
 
     {% if doc.data %}
