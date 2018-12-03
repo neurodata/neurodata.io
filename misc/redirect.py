@@ -33,6 +33,7 @@ redirects = [
     ['Kasthurietal2014', 'data/kasthuri15/'],
     ['tools/mgc', 'tools/'],
     ['talks', 'presentations/'],
+    ['access', 'help/download/'],
 ]
 
 
