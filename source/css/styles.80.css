@@ -1448,7 +1448,7 @@ footer.dark,
 /* Comment */
 .code .err {
     color: #960050;
-    background-color: #1e0010
+    /* background-color: #1e0010 */
 }
 
 /* Error */
