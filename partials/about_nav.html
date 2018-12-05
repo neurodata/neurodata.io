@@ -4,7 +4,7 @@
                 class="highlight"
             {% endif %}
             >
-            <a href="{{g.doc('/content/pages/about.html').url.path}}"><h5>About</h5></a>
+            <a href="{{g.url('/content/pages/about.html').path}}"><h5>About</h5></a>
         </li>
         {% for item in g.docs('about') %}
         <li {% if item.base == doc.base %}
@@ -18,7 +18,7 @@
     </ul>
     <select onChange="window.location.href=this.value">
         <option selected="selected">About Neurodata:</option>
-        <option value="{{g.doc('/content/pages/about.html').url.path}}">About</option>
+        <option value="{{g.url('/content/pages/about.html').path}}">About</option>
         {% for item in g.docs('about') %}
             <option value="{{item.url.path}}">{{item.title}}</option>
         {% endfor %}
