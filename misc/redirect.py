@@ -34,6 +34,7 @@ redirects = [
     ['tools/mgc', 'tools/'],
     ['talks', 'presentations/'],
     ['access', 'help/download/'],
+    ['help/access', 'help/download/'],
 ]
 
 
