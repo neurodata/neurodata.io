@@ -77,7 +77,8 @@ Install the following software:
 1. change directory to `neuroglancer/python`
 1. run the following script: `python mesh.py DATA/ XXX YYY ZZZ`
 
-`mesh.py`:
+#### `mesh.py`
+
 ```python
 from pathlib import Path
 import argparse

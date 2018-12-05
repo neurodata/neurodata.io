@@ -31,7 +31,7 @@ A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 
 
 #### [neuroglancer](https://viz.neurodata.io)
 
-To visualize the data before downloading you can use neuroglancer.  Please see our [guide]([url('/content/guides/neuroglancer')]).
+To visualize the data before downloading you can use neuroglancer.  Please see our [guide]([url('/content/guides/visualization')]).
 
 #### [ndex](https://github.com/neurodata/ndex)
 

@@ -24,11 +24,11 @@ Click the blue arrows next to “layers”. The result should look like this:
 
 Now, add a comma at the end of the line underneath “layers”. Then copy and paste this on the next line:
 
-```json
+```python
 "annotations":
 {
-"type":"pointAnnotation",
-"points":[]
+    "type":"pointAnnotation",
+    "points":[]
 }
 ```
 
