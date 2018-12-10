@@ -2,7 +2,7 @@
     <span class="ids name">
         {{item.name}}
     </span>
-    {% if item.position %}
+    {% if item.position and (doc.title=="About" or doc.title=="Alumni") %}
     <span class="ids position"> 
         {{item.position}}
     </span>
