@@ -1,6 +1,15 @@
 $order: 1
 name: MGC
-lang: R
+packages:
+  - name: "MGC-R" 
+    github: neurodata/mgc
+    lang: R
+  - name: "mgcpy"
+    github: "NeuroDataDesign/mgcpy"
+    lang: Python
+  - name: "mgc-matlab"
+    github: "neurodata/mgc-matlab"
+    lang: Matlab
 heading: Non-parametric hypothesis testing
 description: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data.
 
@@ -9,8 +18,7 @@ local: True
 type: "vectors"
 
 api: 
-github: neurodata/mgc
-docs: 
+docs: https://mgcpy.readthedocs.io/en/latest/
 manuscripts: 
 - shen2016discovering
 press: 
