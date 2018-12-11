@@ -1,18 +1,24 @@
 name: graphstats
-lang: "R"
+lang: 
 hide: False
 heading: Graph Statistics
 description: Utilities and algorithms designed for processing and analysis of graphs with specialized graph statistical algorithms
 
+packages:
+- name: "GraSPy"
+  github: "neurodata/graspy"
+  lang: "Python"
+- name: "graphstats"
+  github: "neurodata/graphstats"
+  lang: "R"
 cloud: False
 local: True
 type: "graphs"
 
 link: 
 api: 
-github: neurodata/graphstats
+github: 
 docs: 
 manuscripts: 
-- 
 press: 
 docker: 
