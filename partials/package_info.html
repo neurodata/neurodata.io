@@ -1,0 +1,17 @@
+<h6>
+    {% if package.lang %} 
+        {% if package.lang in ["Python","R","Matlab"] %}
+            <img src="{{g.static('/source/images/' + package.lang + '_logo.svg').url.path}}" width="20px" height=auto> 
+        {% else %} 
+            {{package.lang}}: 
+        {% endif %} 
+    {% endif %} 
+
+    {% if package.link %}
+        <a href="{{package.link}}" target="_blank">
+    {% else %}
+        <a href="https://github.com/{{package.github}}" target="_blank">
+    {% endif %} 
+    {{package.name}}
+    </a>
+</h6>

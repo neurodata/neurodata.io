@@ -5,8 +5,10 @@ packages:
 - name: "meda"
   github: "neurodata/meda"
   lang: "R"
+  docs: https://neurodata.github.io/meda/ 
+  docker: https://hub.docker.com/r/neurodata/meda/
 - name: "pymeda"
-  github: "neurodata-nomads/pymeda"
+  github: "neurodata/pymeda"
   lang: "Python"
 
 heading: Matrix Exploratory Data Analysis
@@ -17,8 +19,5 @@ local: True
 type: "vectors"
 
 api: 
-github: neurodata/meda
-docs: https://neurodata.github.io/meda/
 manuscripts: 
-press: 
-docker: https://hub.docker.com/r/neurodata/meda/
+press:

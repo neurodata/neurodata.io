@@ -1,6 +1,6 @@
-name: ndviz
+name: Neuroglancer
 heading: Data visualization
-description: "NeuroDataViz (ndviz) is a fork of <a href='https://github.com/neurodata/neuroglancer'>Neuroglancer</a>, a web tool for viewing datasets stored using NeuroData's infrastructure."
+description: "NeuroDataViz is a fork of <a href='https://github.com/neurodata/neuroglancer'>Neuroglancer</a>, a web tool for viewing datasets stored using NeuroData's infrastructure."
 
 cloud: True
 local: False
