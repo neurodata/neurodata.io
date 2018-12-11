@@ -1,46 +1,63 @@
 <div class="options clearfix">
     {% if package.api %}
-    <div class="link">
-        <a href="{{package.api}}" target="_blank">
-            <img src="{{g.static('/source/images/settings.png').url.path}}" class="tooltip" title="API">
-        </a>
-    </div>
-    {% endif %} {% if package.github and package.link %}
-    <div class="link">
-        <a href="https://github.com/{{package.github}}" target="_blank">
-            <img src="{{g.static('/source/images/code.png').url.path}}" class="tooltip" title="Code">
-        </a>
-    </div>
-    {% endif %} {% if package.docker %}
-    <div class="link">
-        <a href="{{package.docker}}" target="_blank">
-            <img src="{{g.static('/source/images/docker.png').url.path}}" class="tooltip" title="Docker">
-        </a>
-    </div>
-    {% endif %} {% if package.docs %}
-    <div class="link">
-        <a href="{{package.docs}}" target="_blank">
-            <img src="{{g.static('/source/images/document.png').url.path}}" class="tooltip" title="Docs">
-        </a>
-    </div>
-    {% endif %} {% if package.manuscripts %} {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %} {% for man in PUBS %} {% if man.ID
-    in package.manuscripts %}
-    <div class="link">
-        <a href="{{man|print_link}}" target="_blank">
-            <img src="{{g.static('/source/images/book.png').url.path}}" class="tooltip" title="{{man|print_authors}} ({{man.year}}) {{man|print_title|truncate(35, True)}}">
-        </a>
-    </div>
-    {% endif %} {% endfor %} {% endif %} {% if package.press %}
-    <div class="link">
-        <a href="{{package.press}}" target="_blank">
-            <img src="{{g.static('/source/images/paper.png').url.path}}" class="tooltip" title="Press">
-        </a>
-    </div>
-    {% endif %} {% if package.github %}
-    <div class="link">
-        <a href="https://github.com/{{package.github}}/graphs/contributors" target="_blank">
-            <img src="{{g.static('/source/images/user-silhouette.png').url.path}}" class="tooltip" title="Contributors">
-        </a>
-    </div>
+        <div class="link">
+            <a href="{{package.api}}" target="_blank">
+                <img src="{{g.static('/source/images/settings.png').url.path}}" class="tooltip" title="API">
+            </a>
+        </div>
+    {% endif %}
+    {% if package.github and package.link %}
+        <div class="link">
+            <a href="https://github.com/{{package.github}}" target="_blank">
+                <img src="{{g.static('/source/images/code.png').url.path}}" class="tooltip" title="Code">
+            </a>
+        </div>
+    {% endif %}
+    {% if package.docker %}
+        <div class="link">
+            <a href="{{package.docker}}" target="_blank">
+                <img src="{{g.static('/source/images/docker.png').url.path}}" class="tooltip" title="Docker">
+            </a>
+        </div>
+    {% endif %} 
+    {% if package.docs %}
+        <div class="link">
+            <a href="{{package.docs}}" target="_blank">
+                <img src="{{g.static('/source/images/document.png').url.path}}" class="tooltip" title="Docs">
+            </a>
+        </div>
+    {% endif %} 
+    {% if package.manuscripts %} 
+        {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %} 
+        {% for man in PUBS %} 
+            {% if man.ID in package.manuscripts %}
+                <div class="link">
+                    <a href="{{man|print_link}}" target="_blank">
+                        <img src="{{g.static('/source/images/book.png').url.path}}" class="tooltip" title="{{man|print_authors}} ({{man.year}}) {{man|print_title|truncate(35, True)}}">
+                    </a>
+                </div>
+            {% endif %} 
+        {% endfor %} 
+    {% endif %} 
+    {% if package.press %}
+        <div class="link">
+            <a href="{{package.press}}" target="_blank">
+                <img src="{{g.static('/source/images/paper.png').url.path}}" class="tooltip" title="Press">
+            </a>
+        </div>
+    {% endif %}
+    {% if package.github %}
+        <div class="link">
+            <a href="https://github.com/{{package.github}}/graphs/contributors" target="_blank">
+                <img src="{{g.static('/source/images/user-silhouette.png').url.path}}" class="tooltip" title="Contributors">
+            </a>
+        </div>
+    {% endif %}
+    {% if package.download %}
+        <div class="link">
+            <a href="{{package.download}}" target="_blank">
+                <img src="{{g.static('/source/images/download.png').url.path}}" class="tooltip" title="Download">
+            </a>
+        </div>
     {% endif %}
 </div>
