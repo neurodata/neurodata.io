@@ -8,6 +8,7 @@ packages:
 - name: "GraSPy"
   github: "neurodata/graspy"
   lang: "Python"
+  docs: https://graspy.neurodata.io
 - name: "graphstats"
   github: "neurodata/graphstats"
   lang: "R"

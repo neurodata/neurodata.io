@@ -4,6 +4,7 @@ packages:
 - name: "lolR"
   github: "neurodata/LOL"
   lang: R
+  docs: https://github.com/neurodata/lol/blob/master/README.md
 - name: "lolP"
   github: "neurodata/lollipop"
   lang: Python
@@ -15,8 +16,6 @@ local: True
 type: "vectors"
 
 api: 
-github: neurodata/LOL
-docs: https://github.com/neurodata/lol/blob/master/README.md
 manuscripts: 
 - vogelstein2017linear
 press: 
