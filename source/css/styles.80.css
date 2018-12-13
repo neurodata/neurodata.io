@@ -1244,7 +1244,7 @@ footer.dark,
 .doc-nav {
     background: #99B4C6;
     width: 100%;
-    /* 	border-top:2px solid #99B4C6; */
+    border-top:2px solid #99B4C6; */
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
