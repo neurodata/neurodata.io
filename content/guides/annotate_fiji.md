@@ -6,7 +6,7 @@ $order: 1
 
 This guide shows how to annotate data in a way that NeuroData can import into our processing pipelines.
 
->>>NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.  The original guide can be found <a href="https://neurodata-annotator.readthedocs.io/en/latest/" target="_blank">here</a>.
+>NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.  The original guide can be found <a href="https://neurodata-annotator.readthedocs.io/en/latest/" target="_blank">here</a>.
 
 ### Annotate with FIJI
 
@@ -36,7 +36,7 @@ This guide shows how to annotate data in a way that NeuroData can import into ou
 
 10. When done, right click your canvas and select "Export" -> "Arealists as labels (tif)".
 
-    >>>NOTE: At any point, you can export your annotations as an xml by the same method listed above. Opening the xml file will start you where you left off.
+    >NOTE: At any point, you can export your annotations as an xml by the same method listed above. Opening the xml file will start you where you left off.
 
 11. A black screen will appear - these are your annotations, don't worry if you can't see them.
 
