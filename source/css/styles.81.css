@@ -2025,8 +2025,8 @@ footer.dark,
 }
 
 .anchor {
-    margin-top: -80px;
-    padding-bottom: 80px;
+    /* margin-top: -80px; */
+    /* padding-bottom: 80px; */
     display: block;
 }
 
@@ -3371,8 +3371,8 @@ footer.dark,
     }
 
     .anchor {
-        margin-top: -110px;
-        padding-bottom: 110px;
+        /* margin-top: -110px; */
+        /* padding-bottom: 110px; */
     }
 
     .docs .guides-sidebar {
