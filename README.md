@@ -44,4 +44,4 @@ grow build
 
 ## Contributing
 
-Please submit pull requests to `master` branch.
+Please submit pull requests to `deploy` branch.
