@@ -19,22 +19,22 @@
         <div class="contact clearfix">
             {% if item.github %}
                 <a href="https://github.com/{{item.github}}">
-                    <img class="hover" src={{g.static("/source/images/github-white.png").url.path}}>
-                    <img src={{g.static("/source/images/github-blue.png").url.path}}>
+                    <img class="hover" src="{{g.static('/source/images/github-white.png').url.path}}">
+                    <img src="{{g.static('/source/images/github-blue.png').url.path}}">
                 </a>
             {% endif %}
             {% if item.email %}
                 <a href="mailto:{{item.email}}">
-                    <img class="hover" src={{g.static("/source/images/mail-white.png").url.path}}>
-                    <img src={{g.static("/source/images/mail-blue.png").url.path}}>
+                    <img class="hover" src="{{g.static('/source/images/mail-white.png').url.path}}">
+                    <img src="{{g.static('/source/images/mail-blue.png').url.path}}">
                 </a>
             {% endif %}
             {% if item.website %}
                 <a href="{{item.website}}">
-                    <img class="hover" src={{g.static("/source/images/website-white.png").url.path}}>
-                    <img src={{g.static("/source/images/website-blue.png").url.path}}>
+                    <img class="hover" src="{{g.static('/source/images/website-white.png').url.path}}">
+                    <img src="{{g.static('/source/images/website-blue.png').url.path}}">
                 </a>
             {% endif %}
         </div>
     </div>
-    </div>
+</div>

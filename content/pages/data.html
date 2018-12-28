@@ -32,7 +32,7 @@ publications:
             <p><a href="{{g.url('/content/guides/download.md').path}}">Instructions</a> for data access</p>
             <div class="team">
                 <div class="divider"></div>
-                <div class="members clearfix" id="team">
+                <div class="members" id="team">
                     {% for item in g.docs('data', order_by='authors') %}
                         {% include 'partials/data_blocks.html' %}
                     {% endfor %}

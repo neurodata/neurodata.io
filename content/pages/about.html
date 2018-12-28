@@ -32,7 +32,7 @@ $order: 5
             <div class="divider"></div>
             
             <h3>The Team</h3>
-            <div class="members clearfix">
+            <div class="members">
                 {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
                 {% set cats = g.categories('people')|sort_by_index(position_order) %}
                 {% for category, docs in cats %}
