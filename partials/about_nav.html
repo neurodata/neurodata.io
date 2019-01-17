@@ -7,12 +7,12 @@
             <a href="{{g.url('/content/pages/about.html').path}}"><h5>About</h5></a>
         </li>
         {% for item in g.docs('about') %}
-        <li {% if item.base == doc.base %}
-                class="highlight"
-            {% endif %}
-        >
-            <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-        </li>
+            <li {% if item.base == doc.base %}
+                    class="highlight"
+                {% endif %}
+            >
+                <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+            </li>
         {% endfor %}
         <li><a href="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}" target="_blank"><h5>Funding</h5></a></li>
     </ul>

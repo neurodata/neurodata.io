@@ -1,7 +1,10 @@
-{% set guide_order = ["Help", "Access", "Analyze", "Annotate", "Storage"] %}
+{% set guide_order = ["Overview", "Access", "Analyze", "Annotate", "Storage"] %}
 
 <div class="doc-nav">
     <ul>
+        <li>
+            <a href="{{g.url('/content/cloud/data.html')}}"><h5>NeuroData Cloud</h5></a>
+        </li>
         {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
             <li
             {% if category == doc.category %}
@@ -13,7 +16,8 @@
         {% endfor %}
     </ul>
     <select onChange="window.location.href=this.value">
-        <option selected="selected">Help:</option>
+        <option selected="selected">Guides:</option>
+        <option value="{{g.url('/content/cloud/data.html')}}">NeuroData Cloud</option>
         {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
             <option value="{{docs[0].url.path}}">{{category}}</option>
         {% endfor %}

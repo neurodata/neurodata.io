@@ -1850,6 +1850,11 @@ footer.dark,
 /* TOOLS 
 ---------------------------------------------- */
 
+.tools-page h3 {
+    font-family: "Quadon Regular";
+    font-size: 27px;
+}
+
 .tools-page {
     max-width: 1200px;
     margin: auto;
@@ -2448,7 +2453,7 @@ footer.dark,
     left: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(22, 21, 25, 0.8);
+    background: rgba(34, 34, 34, 0.8);
     z-index: 2;
     transition: 0.3s ease all;
     opacity: 0;
@@ -2486,18 +2491,23 @@ footer.dark,
     color: white;
     position: absolute;
     padding: 5px 5px;
-    text-shadow: 0 1px 0 #222;
+    text-shadow: 0 0 5px black;
     font-size: 13px;
+    background: rgba(34, 34, 34, .8);
+}
+
+.team .members .col:hover .ids {
+    background: none;
+    transition: 0.3s ease all;
 }
 
 .team .members .col .name {
-    top: 10px;
+    top: 0px;
 }
 
 .team .members .col .position {
-    bottom: 10px;
-    right: 5px;
-    text-align: right;
+    bottom: 0px;
+    right: 0px;
 }
 
 .team .members .col .contact a {
@@ -3314,6 +3324,10 @@ footer.dark,
     .nav ul li h5:hover {
         background: none;
         color: #16a0ef;
+    }
+
+    .nav ul li h6 {
+        padding: 10px 0px;
     }
 
     .main .video #video {

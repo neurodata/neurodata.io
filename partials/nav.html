@@ -7,32 +7,9 @@
         </a>
     </div>
     <div class="links">
-        <ul>
-            {% for item in g.docs('pages') if not item.is_hidden %}
-                <li>
-                    <a href="{{item.url.path}}"><h5>{{item.base}}</h5></a>
-                </li>
+        {% set mobile_nav = false %}
+        {% include 'partials/nav_content.html' %}
 
-                {% if item.base == 'data' %}
-                    <li>
-                        <h5>Projects</h5>
-                            <ul>
-                            {% for proj in g.docs('projects') %}
-                                <li>
-                                    <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
-                                </li>
-                            {% endfor %}
-                            </ul>
-                    </li>
-                {% endif %}
-
-                {% if item.base == 'help' %}
-                <li>
-                    <a href="https://bitsandbrains.io/"><h5>Blog</h5></a>
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
         <ul class="bottom">
             <li><a href="mailto:support@neurodata.io"><h5>Contact Us</h5></a></li>
             <li><h5 class="copy">&copy; NeuroData {{ ''|print_current_year }}</h5></li>
@@ -40,30 +17,7 @@
     </div>
     <div id="mobile-nav" class="visible"><span></span><span></span><span></span><span></span><span></span><span></span></div>
     <div class="mobile-links">
-        <ul>
-            {% for item in g.docs('pages') %}
-                <li>
-                    <a href="{{item.url.path}}"><h5>{{item.base}}</h5></a>
-                </li>
-                
-                {% if item.base == 'data' %}
-                    <li>
-                        <a href="#" class="expand_projects"><h5>Projects</h5></a>
-
-                        <div id="mobile_nav_projects">
-                            {% for proj in g.docs('projects') %}
-                                <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
-                            {% endfor %}
-                        </div>
-                    </li>
-                {% endif %}
-
-                {% if item.base == 'help' %}
-                    <li>
-                        <a href="https://bitsandbrains.io/"><h5>Blog</h5></a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+        {% set mobile_nav = true %}
+        {% include 'partials/nav_content.html' %}
     </div>
 </div>

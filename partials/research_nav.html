@@ -1,0 +1,18 @@
+<div class="doc-nav">
+    <ul>
+        {% for item in g.docs('research') %}
+            <li {% if item.base == doc.base %}
+                class = "highlight"
+                {% endif %}
+            >
+                <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+            </li>
+        {% endfor %}
+    </ul>
+    <select onChange="window.location.href=this.value">
+        <option selected="selected">Research:</option>
+        {% for item in g.docs('research') %}
+            <option value="{{item.url.path}}">{{item.title}}</option>
+        {% endfor %}
+    </select>
+</div>
