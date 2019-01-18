@@ -353,6 +353,19 @@ hr {
     margin: 40px 0;
 }
 
+.spread {
+    margin: 1rem auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+}
+
+.spread>a {
+    flex: 1;
+    max-width: 230px;
+    margin: auto;
+}
+
 .text {
     padding: 40px 0;
 }
@@ -3610,6 +3623,14 @@ footer.dark,
 
     .team .members::after {
         flex: 0 0 100%;
+    }
+
+    .spread {
+        flex-direction: column;
+    }
+
+    .spread>a {
+        margin: .5rem auto;
     }
 }
 

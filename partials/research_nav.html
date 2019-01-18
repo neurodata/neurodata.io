@@ -16,3 +16,19 @@
         {% endfor %}
     </select>
 </div>
+
+{% if doc.subnavs %}
+<div class="doc-nav sub">
+    <ul>
+        {% for sub_nav in doc.subnavs %}
+           <li><a href="#{{sub_nav}}"><h5>{{sub_nav|replace("_","-")|capitalize}}</h5></a></li>
+        {% endfor %}
+    </ul>
+    <select size="1" name="links" onchange="window.location.href=this.value;">
+        <option selected="selected">Publication type:</option>    
+        {% for sub_nav in doc.subnavs %}
+            <option value="#{{sub_nav}}">{{sub_nav|replace("_","-")|capitalize}}</option>
+         {% endfor %}
+    </select>
+</div>
+{% endif %}
