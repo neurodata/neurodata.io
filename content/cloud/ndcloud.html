@@ -1,6 +1,7 @@
 ---
 $title@: NeuroData Cloud
 $order: 1
+$category: "NeuroData Cloud"
 
 publications: 
 - burns2013open
@@ -11,20 +12,21 @@ publications:
 - vogelstein2011q
 ---
 
-<div class="header about-header">
-    <h2>{{doc.title}}</h2>
+<div class="header detail">
+    <h2>{{doc.category}}</h2>
 </div>
-<div class="doc-nav">
-    <ul class="clearfix">
+
+{% include 'partials/help_nav.html' %}
+
+<div class="doc-nav sub">
+    <ul>
         <li><a href="#data"><h5>Data</h5></a></li>
         <li><a href="#pubs"><h5>Publications</h5></a></li>
-        <li><a href="{{g.url('/content/guides/overview.html').path}}"><h5>Guides</h5></a></li>
     </ul>
-    <select size="1" name="links" onchange="window.location.href=this.value;">
-        <option selected="selected">Jump to:</option>
+    <select onChange="window.location.href=this.value">
+        <option selected="selected">Subsection:</option>
         <option value="#data">Data</option>
         <option value="#pubs">Publications</option>
-        <option value="{{g.url('/content/guides/overview.html').path}}">Guides</option>
     </select>
 </div>
 
