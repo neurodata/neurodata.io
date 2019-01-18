@@ -3,7 +3,7 @@
 <div class="doc-nav">
     <ul>
         <li>
-            <a href="{{g.url('/content/cloud/data.html')}}"><h5>NeuroData Cloud</h5></a>
+            <a href="{{g.url('/content/cloud/data.html').path}}"><h5>NeuroData Cloud</h5></a>
         </li>
         {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
             <li
@@ -17,7 +17,7 @@
     </ul>
     <select onChange="window.location.href=this.value">
         <option selected="selected">Guides:</option>
-        <option value="{{g.url('/content/cloud/data.html')}}">NeuroData Cloud</option>
+        <option value="{{g.url('/content/cloud/data.html').path}}">NeuroData Cloud</option>
         {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
             <option value="{{docs[0].url.path}}">{{category}}</option>
         {% endfor %}
