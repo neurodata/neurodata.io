@@ -1289,7 +1289,8 @@ footer.dark,
 }
 
 .doc-nav li:hover,
-.doc-nav.sub ul li:hover {
+.doc-nav.sub ul li:hover,
+.doc-nav.subsub ul li:hover,{
     background: #020202;
 }
 
@@ -1297,7 +1298,8 @@ footer.dark,
     color: white;
 }
 
-.doc-nav.sub li.highlight:hover h5 {
+.doc-nav.sub li.highlight:hover h5,
+.doc-nav.subsub li.highlight:hover h5 {
     color: #222;
 }
 
@@ -1325,6 +1327,17 @@ footer.dark,
     border-color: white;
 }
 
+.doc-nav.subsub{
+    background: #dfd6c2;
+    top: 5.6rem;
+    position: sticky;
+}
+
+.doc-nav.subsub  ul li.highlight {
+    background: white;
+    border-color: white;
+}
+
 /* DOCS / FAQ / HELP
 ---------------------------------------------- */
 
@@ -1345,7 +1358,7 @@ footer.dark,
 
     max-width: 300px;
     position: sticky;
-    top: 92px;
+    top: 138px;
     height: 100px;
 
     margin-left: 5px;
@@ -3225,6 +3238,10 @@ footer.dark,
         top: 41px;
     }
 
+    .doc-nav.subsub{
+        top: 81px;
+    }
+
     .download .button {
         font-size: 12px;
         padding: 0 12px;
@@ -3407,7 +3424,11 @@ footer.dark,
     }
 
     .doc-nav.sub {
-        top: 114px;
+        top: 117.5px;
+    }
+
+    .doc-nav.subsub{
+        top: 159px;
     }
 
     .anchor {
@@ -3477,6 +3498,14 @@ footer.dark,
         display: none;
     }
 
+    .doc-nav.sub{
+        top: 117px;
+    }
+
+    .doc-nav.subsub{
+        top: 158px;
+    }
+
     .doc-nav select {
         display: block;
         width: 100%;
@@ -3501,6 +3530,14 @@ footer.dark,
     .doc-nav.sub>select {
         background: #94D6C9;
         background: #94D6C9 url("../images/dropdown-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 14px;
+        background-position: 97%;
+    }
+
+    .doc-nav.subsub>select {
+        background: #dfd6c2;
+        background: #dfd6c2 url("../images/dropdown-arrow.png");
         background-repeat: no-repeat;
         background-size: 14px;
         background-position: 97%;
