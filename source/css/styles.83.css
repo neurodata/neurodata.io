@@ -1436,6 +1436,8 @@ footer.dark,
 
 .docs code {
     text-align: left;
+    background-color: #000;
+    padding: 0 5px;
 }
 
 .docs .code {
@@ -1444,10 +1446,9 @@ footer.dark,
 
 .code pre {
     margin: 0;
-}
-
-.code pre {
-    background-color: #29282e;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .code .hll {
