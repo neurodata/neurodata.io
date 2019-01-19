@@ -1,13 +1,11 @@
 ---
 $title@: Background
-$category: Help
 $order: 1
 ---
 
 ### What is NeuroData?
 
-NeuroData is a collective of individuals dedicated to our <a href="{{g.url('/content/pages/about.html').path}}">mission</a>, and a repository of the <a href="{{g.url('/content/pages/data.html').path}}">data</a> and <a href="{{g.url('/content/pages/tools.html').path}}">tools</a> we provide as free and open resources to the community.
-
+NeuroData is a collective of individuals dedicated to our <a href="{{g.url('/content/pages/about.html').path}}">mission</a>, and a repository of the <a href="{{g.url('/content/cloud/ndcloud.html').path}}">data</a> and <a href="{{g.url('/content/pages/tools.html').path}}">tools</a> we provide as free and open resources to the community.
 
 ### What is the Open Connectome Project?
 

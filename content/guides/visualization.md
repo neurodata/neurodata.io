@@ -32,6 +32,6 @@ The following URLs link to highlighted visualizations
 
 Please see our guides for some additional neuroglancer features
 
-1. [Add point annotations from within Neuroglancer]([url('/content/guides/neuroglancer-pt-annotations')])
-1. [Add point annotations programmatically]([url('/content/guides/programmatic-neuroglancer-annotations')])
-1. [Create precomputed volume]([url('/content/guides/boss-to-precompute')])
+1. [Add point annotations from within Neuroglancer]([url('/content/guides/neuroglancer-pt-annotations.md')])
+1. [Add point annotations programmatically]([url('/content/guides/programmatic-neuroglancer-annotations.md')])
+1. [Create precomputed volume]([url('/content/guides/boss-to-precompute.md')])

@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 	//display projects on mobile
 	$("a.expand_projects").click(function () {
-		let x = $("#mobile_nav_projects")
+		let x = $('#' + $(this).attr('data'))
 		if (x.css('display') === "none") {
 			x.show();
 		} else {

@@ -1,7 +1,29 @@
-{% set guide_order = ["Help", "Access", "Analyze", "Annotate", "Storage"] %}
+{% set guide_order = ["NeuroData Cloud", "Overview", "Access", "Analyze", "Annotate", "Storage"] %}
 
 <div class="doc-nav">
     <ul>
+        <li
+        {% if "NeuroData Cloud" == doc.category %}
+            class = "highlight"
+        {% endif %}
+        ><a href="{{g.url('/content/cloud/ndcloud.html').path}}"><h5>Data</h5></a></li>
+
+        <li
+        {% if "guides" in doc.collection.basename %}
+            class = "highlight"
+        {% endif %}
+        ><a href="{{g.url('/content/guides/overview.html').path}}"><h5>Tools</h5></a></li>
+    </ul>
+    <select onChange="window.location.href=this.value">
+        <option selected="selected">Jump to:</option>
+        <option value="{{g.url('/content/cloud/ndcloud.html').path}}">Data</option>
+        <option value="{{g.url('/content/cloud/ndcloud.html').path}}">Tools</option>
+    </select>
+</div>
+
+{% if "guides" in doc.collection.basename %}
+    <div class="doc-nav sub">
+        <ul>
         {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
             <li
             {% if category == doc.category %}
@@ -11,41 +33,43 @@
                 <a href="{{docs[0].url.path}}"><h5>{{category}}</h5></a>
             </li>
         {% endfor %}
-    </ul>
-    <select onChange="window.location.href=this.value">
-        <option selected="selected">Help:</option>
-        {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
-            <option value="{{docs[0].url.path}}">{{category}}</option>
-        {% endfor %}
-    </select>
-</div>
+        </ul>
 
+        <select onChange="window.location.href=this.value">
+            <option selected="selected">Subsection:</option>
+            {% for category, docs in g.categories('guides')|sort_by_index(guide_order) %}
+                <option value="{{docs[0].url.path}}">{{category}}</option>
+            {% endfor %}
+        </select>
+    </div>
 
-{% for category, docs in g.categories('guides') %}
-    {% if category == doc.category and docs|length > 1 %}
-        <div class="doc-nav sub">
-            <ul>
-                {% for dd in docs %}
-                    <li
-                    {% if dd.title == doc.title %}
-                        class="highlight">
-                    {% else %}
-                    ><a href="{{dd.url.path}}">
-                    {% endif %}
-                    <h5>{{dd.title}}</h5>
-                    {% if dd.title != doc.title %}
-                        </a>
-                    {% endif %} 
-                    </li>
-                {% endfor %}
-            </ul>
-            
-            <select onChange="window.location.href=this.value">
-                <option selected="selected">Subsection:</option>
-                {% for dd in docs %}
-                    <option value="{{dd.url.path}}">{{dd.title}}</option>
-                {% endfor %}
-            </select>
-        </div>
-    {% endif %}
-{% endfor %}
+    {% for category, docs in g.categories('guides') %}
+        {% if category == doc.category and docs|length > 1 %}
+            <div class="doc-nav subsub">
+                <ul>
+                    {% for dd in docs %}
+                        <li
+                        {% if dd.title == doc.title %}
+                            class="highlight">
+                        {% else %}
+                        ><a href="{{dd.url.path}}">
+                        {% endif %}
+                        <h5>{{dd.title}}</h5>
+                        {% if dd.title != doc.title %}
+                            </a>
+                        {% endif %} 
+                        </li>
+                    {% endfor %}
+                </ul>
+                
+                <select onChange="window.location.href=this.value">
+                    <option selected="selected">Guide:</option>
+                    {% for dd in docs %}
+                        <option value="{{dd.url.path}}">{{dd.title}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+{% endif %}
