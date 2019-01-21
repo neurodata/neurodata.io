@@ -3,6 +3,7 @@ $title: Wanner et al. (2016)
 authors: Wanner et al.
 year: 2016
 thumb: wanner-thumb.jpg
+hero: wanner.jpg
 description: 
 long_description: Large-scale reconstructions of neuronal populations are critical for structural analyses of neuronal cell types and circuits. Dense reconstructions of neurons from image data require ultrastructural resolution throughout large volumes, which can be achieved by automated volumetric electron microscopy (EM) techniques. We used serial block face scanning EM (SBEM) and conductive sample embedding to acquire an image stack from an olfactory bulb (OB) of a zebrafish larva at a voxel resolution of 9.25 × 9.25 × 25 nm3 (Wanner et al., 2016). Skeletons of 1,022 neurons, ~98% of all neurons in the OB, were reconstructed by manual tracing and efficient error correction procedures. An ergonomic software package, PyKNOSSOS, was created in Python for data browsing, neuron tracing, synapse annotation, and visualization. PyKNOSSOS is available for free download (https://github.com/adwanner/PyKNOSSOS). The reconstructions allow for detailed analyses of morphology, projections and subcellular features of different neuron types (http://dx.doi.org/10.5281/zenodo.58985). The high density of reconstructions enables geometrical and topological analyses of the OB circuitry. Image data can be accessed and viewed through the neurodata web services. Raw data and reconstructions can be visualized in PyKNOSSOS. 
 data_types:
