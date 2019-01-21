@@ -1,0 +1,22 @@
+{% if not mobile_nav %}
+    <li>
+        <h5>{{item.base}}</h5>
+            <ul>
+            {% for proj in g.docs(item.base) %}
+                <li>
+                    <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
+                </li>
+            {% endfor %}
+            </ul>
+    </li>
+{% else %}
+    <li>
+        <a href="#" class="expand_projects" data="mobile_nav_{{item.base}}"><h5>{{ item.base }}</h5></a>
+
+        <div id="mobile_nav_{{item.base}}" style="display:none">
+            {% for proj in g.docs(item.base) %}
+                <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
+            {% endfor %}
+        </div>
+    </li>
+{% endif %}

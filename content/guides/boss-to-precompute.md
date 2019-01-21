@@ -197,7 +197,7 @@ for f in ids_files:
 ```
 <span>4.</span> Upload the directory to to the bucket
 
-    `aws s3 sync . s3://BUCKET_NAME/PROJECT_NAME --profile AWS_PROFILE`
+`aws s3 sync . s3://BUCKET_NAME/PROJECT_NAME --profile AWS_PROFILE`
 
 <span>5.</span> Add metadata to all objects that are gzipped (e.g. the segments but not the meshes) to have `Content-Encoding` be `gzip` (can do this in bulk on AWS Console)
 

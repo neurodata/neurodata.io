@@ -12,3 +12,6 @@ env/
 extensions/*
 !extensions/sorting/
 !extensions/sorting/*
+
+# grow installed from pypi
+*.pyc
