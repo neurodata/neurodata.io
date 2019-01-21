@@ -2,6 +2,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>bock11</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -12,6 +13,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>harris15</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -22,6 +24,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>array-tomography</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -32,6 +35,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>kasthuri11</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -42,6 +46,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>bhatla15</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -52,6 +57,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>fly-medulla</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -62,6 +68,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>pristionchus-pacificus</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -72,6 +79,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>hildebrand16</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -82,6 +90,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>data/hildebrand16</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -92,6 +101,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>wanner16</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -102,6 +112,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>lee16</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -112,6 +123,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>tobin16</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -122,6 +134,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>graph-services/download</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -132,6 +145,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>catmaid</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -142,6 +156,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>Kasthurietal2014</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -152,6 +167,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>tools/mgc</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -162,6 +178,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>talks</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -172,6 +189,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>access</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -182,6 +200,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>help/access</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -192,6 +211,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>project/projectomes</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
@@ -202,6 +222,7 @@
   <RoutingRule>
     <Condition>
       <KeyPrefixEquals>data</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
       <HostName>neurodata.io</HostName>
