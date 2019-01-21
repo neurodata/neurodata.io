@@ -62,6 +62,7 @@ def main():
             print("  <RoutingRule>")
             print("    <Condition>")
             print("      <KeyPrefixEquals>{}</KeyPrefixEquals>".format(src))
+            print("      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>")
             print("    </Condition>")
             print("    <Redirect>")
             if args.domain:
