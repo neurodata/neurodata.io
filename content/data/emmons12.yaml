@@ -11,10 +11,10 @@ data_types:
 
 data:
 - name: Catmaid
-  url: http://openconnecto.me/catmaid/?dataview=10
+  url: 
   type: 
   description: 
-  viz: http://openconnecto.me/catmaid/?dataview=10
+  viz: 
     
 tools:
 
