@@ -19,23 +19,26 @@ $(document).ready(function () {
 	$('.tooltip').tooltipster();
 
 	//display learn more text
-	$("a.button.expand").click(function () {
+	$("a.button.expand").click(function (e) {
 		$(".header p").toggleClass("active");
+		e.preventDefault();
 	});
 
 	//display why neurodata text
-	$("a.button.expand").click(function () {
+	$("a.button.expand").click(function (e) {
 		$(".copy p").toggleClass("active");
+		e.preventDefault();
 	});
 
 	//display projects on mobile
-	$("a.expand_projects").click(function () {
+	$("a.expand_projects").click(function (e) {
 		let x = $('#' + $(this).attr('data'))
 		if (x.css('display') === "none") {
 			x.show();
 		} else {
 			x.hide();
 		}
+		e.preventDefault();
 	});
 
 	//toggle mobile menu links
