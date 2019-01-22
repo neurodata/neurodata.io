@@ -2,11 +2,6 @@
     <span class="ids name">
         {{item.name}}
     </span>
-    {% if item.position and (doc.title=="About" or doc.title=="Alumni") %}
-    <span class="ids position"> 
-        {{item.position}}
-    </span>
-    {% endif %}
     {% if item.picture %}
         <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
         <div class="color" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
@@ -14,6 +9,11 @@
         {# Default images are in style.css #}
         <div class="bw"></div>
         <div class="color"></div>
+    {% endif %}
+    {% if item.position and (doc.title=="About" or doc.title=="Alumni") %}
+    <span class="ids position"> 
+        {{item.position}}
+    </span>
     {% endif %}
     <div class="overlay">
         <div class="contact clearfix">
