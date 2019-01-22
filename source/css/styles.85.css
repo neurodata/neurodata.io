@@ -2519,8 +2519,7 @@ footer.dark,
     position: absolute;
     padding: 5px 5px;
     text-shadow: 0 0 5px black;
-    font-size: 13px;
-    background: rgba(34, 34, 34, .8);
+    font-size: 18px;
 }
 
 .team .members .col:hover .ids {
@@ -2535,6 +2534,7 @@ footer.dark,
 .team .members .col .position {
     bottom: 0px;
     right: 0px;
+    font-size: 15px;
 }
 
 .team .members .col .contact a {

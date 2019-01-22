@@ -5,7 +5,7 @@ $category: Access
 
 [TOC]
 
-This document explains how to access/download data hosted by NeuroData. [Data]([url('/content/cloud/ndcloud.html')]) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  We also selectively host small datasets on S3 for fast data visualization in neuroglancer.  For that, see our guide on the [precomputed format]([url('/content/guides/boss-to-precompute.md')]).
+This document explains how to access/download data hosted by NeuroData. [Data]([url('/content/clouds/ndcloud.html')]) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  We also selectively host small datasets on S3 for fast data visualization in neuroglancer.  For that, see our guide on the [precomputed format]([url('/content/guides/boss-to-precompute.md')]).
 
 ### Boss hierarchy
 
