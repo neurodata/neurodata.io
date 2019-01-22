@@ -312,6 +312,10 @@ a.button.hollow.dark,
     color: #99B4C6;
 }
 
+.header a:hover {
+    color: white;
+}
+
 a.button:hover,
 input[type="submit"]:hover {
     color: #020202;
@@ -1242,13 +1246,9 @@ footer.dark,
     height: auto;
     margin: 10px auto;
     opacity: 1;
-    max-height: 500px;
+    max-height: 1000px;
     transition: max-height 1s ease all;
     text-align: justify;
-}
-
-.header a:hover {
-    color: white;
 }
 
 /* DOC-NAV 
