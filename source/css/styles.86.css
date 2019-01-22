@@ -777,6 +777,20 @@ footer.dark,
     height: 100%;
 }
 
+blockquote{
+    background-color: #f3f5f7;
+    border-color: #42b983;    
+    padding: .1rem 1.5rem;
+    border-left-width: .5rem;
+    border-left-style: solid;
+    margin: 1rem 0;
+    color: #222;
+}
+
+.docs blockquote code{
+    background-color: rgba(27,31,35,.05);
+}
+
 /* NAVIGATION 
 ---------------------------------------------- */
 
@@ -3424,11 +3438,11 @@ footer.dark,
     }
 
     .doc-nav.sub {
-        top: 117.5px;
+        top: 117px;
     }
 
     .doc-nav.subsub{
-        top: 159px;
+        top: 158px;
     }
 
     .anchor {
@@ -3499,11 +3513,11 @@ footer.dark,
     }
 
     .doc-nav.sub{
-        top: 117px;
+        top: 113px;
     }
 
     .doc-nav.subsub{
-        top: 158px;
+        top: 150px;
     }
 
     .doc-nav select {
