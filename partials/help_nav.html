@@ -6,7 +6,7 @@
         {% if "NeuroData Cloud" == doc.category %}
             class = "highlight"
         {% endif %}
-        ><a href="{{g.url('/content/cloud/ndcloud.html').path}}"><h5>Data</h5></a></li>
+        ><a href="{{g.url('/content/clouds/ndcloud.html').path}}"><h5>Data</h5></a></li>
 
         <li
         {% if "guides" in doc.collection.basename %}
@@ -16,7 +16,7 @@
     </ul>
     <select onChange="window.location.href=this.value">
         <option selected="selected">Jump to:</option>
-        <option value="{{g.url('/content/cloud/ndcloud.html').path}}">Data</option>
+        <option value="{{g.url('/content/clouds/ndcloud.html').path}}">Data</option>
         <option value="{{g.url('/content/guides/overview.html').path}}">Tools</option>
     </select>
 </div>
