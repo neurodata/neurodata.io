@@ -8,6 +8,8 @@ $order: 2
 
 The precomputed format [specification](https://github.com/google/neuroglancer/tree/master/src/neuroglancer/datasource/precomputed) is a data source format for loading data into [neuroglancer](https://github.com/google/neuroglancer).  This guide demonstrates how to generate precomputed compressed segmentations & meshes from a BOSS segmentation volume.
 
+>Cloud-Volume: This guide utilizes `neuroglancer-scripts`, however [Cloud-Volume](https://github.com/seung-lab/cloud-volume) scales better and is preferred
+
 ### Steps
 
 1. Generate the precomputed compressed segmentation files using `neuroglancer-scripts`
