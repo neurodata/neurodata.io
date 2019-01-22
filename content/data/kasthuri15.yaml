@@ -3,6 +3,7 @@ $title: Kasthuri et al. (2015)
 authors: Kasthuri et al. 
 year: 2015
 thumb: kasthuri11thumb.jpg
+hero: kasthuri11.jpg
 description: Bobby Kasthuri, Ph.D. under the tutelage of Jeff Lichtman, M.D., Ph.D., acquired a data set from mouse cortex with a 3x3x30 cubic nanometer spatial resolution, yielding 660GB of images. This beautiful data was published Friday, July 30th 2015 in Cell.
 long_description: We describe automated technologies to probe the structure of neural tissue at nanometer resolution and use them to generate a saturated reconstruction of a sub-volume of mouse neocortex in which all cellular objects (axons, dendrites, and glia) and many sub-cellular components (synapses, synaptic vesicles, spines, spine apparati, postsynaptic densities, and mitochondria) are rendered and itemized in a database. We explore these data to study physical properties of brain tissue. For example, by tracing the trajectories of all excitatory axons and noting their juxtapositions, both synaptic and non-synaptic, with every dendritic spine we refute the idea that physical proximity is sufficient to predict synaptic connectivity (the so-called Peters’ rule). This online minable database provides general access to the intrinsic complexity of the neocortex and enables further data-driven inquiries.
 data_types: EM

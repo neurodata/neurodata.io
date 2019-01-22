@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	//load homepage gif only on mobile
-	$(window).bind("load resize scroll", function (e) {
+	$(window).on("load resize scroll", function (e) {
 		if (($(window).width() < 1025) && ($(".main .video .mobile").length > 0)) {
 			//do nothing, image exists already
 		} else if ($(window).width() < 1025) {
@@ -19,33 +19,36 @@ $(document).ready(function () {
 	$('.tooltip').tooltipster();
 
 	//display learn more text
-	$("a.button.expand").click(function () {
+	$("a.button.expand").on("click", function (e) {
 		$(".header p").toggleClass("active");
+		e.preventDefault();
 	});
 
 	//display why neurodata text
-	$("a.button.expand").click(function () {
+	$("a.button.expand").on("click", function (e) {
 		$(".copy p").toggleClass("active");
+		e.preventDefault();
 	});
 
 	//display projects on mobile
-	$("a.expand_projects").click(function () {
+	$("a.expand_projects").on("click", function (e) {
 		let x = $('#' + $(this).attr('data'))
 		if (x.css('display') === "none") {
 			x.show();
 		} else {
 			x.hide();
 		}
+		e.preventDefault();
 	});
 
 	//toggle mobile menu links
-	$('#mobile-nav').click(function () {
+	$('#mobile-nav').on("click", function () {
 		$(this).toggleClass('open');
 		$(".mobile-links").toggleClass('open');
 		$(".mobile-links ul").toggleClass('open');
 		$(".main").toggleClass('blur');
 	});
-	$('.mobile-links a').click(function () {
+	$('.mobile-links a').on("click", function () {
 		if ($(this).attr('class') !== "expand_projects") {
 			$('#mobile-nav').toggleClass('open');
 			$(".mobile-links").toggleClass('open');
@@ -85,7 +88,7 @@ $(document).ready(function () {
 	//smooth scroll anchor links
 	$(function () {
 		var navHeight = $(".doc-nav").height();
-		$('a[href*="#"]:not([href="#"])').click(function () {
+		$('a[href*="#"]:not([href="#"])').on("click", function () {
 			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -99,10 +102,15 @@ $(document).ready(function () {
 		});
 	});
 	$(function () {
-		$('.doc-nav select').change(function () {
-			$('html,body').animate({
-				scrollTop: $("#" + $(this).val()).offset().top - 100
-			}, 'slow');
+		$('.doc-nav select').on("change", function () {
+			try {
+				if ($("#" + $(this).val()).size()) {
+					$('html,body').animate({
+						scrollTop: $("#" + $(this).val()).offset().top - 100
+					}, 'slow');
+				}
+			}
+			catch{ }
 		});
 	});
 
@@ -140,10 +148,10 @@ $(document).ready(function () {
 		});
 	}
 
-	$(window).load(function () {
+	$(window).on('load', function () {
 		equalheight('.col.even');
 	});
-	$(window).resize(function () {
+	$(window).on("resize", function () {
 		equalheight('.col.even');
 	});
 

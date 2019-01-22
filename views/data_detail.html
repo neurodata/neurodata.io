@@ -2,7 +2,11 @@
 
 {% block main %}
 
-<div class="header detail">
+<div class="header detail" 
+{% if doc.hero %}
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('{{g.static("/source/images/data/" + doc.hero).url.path}}')no-repeat center center; background-size: cover;"
+{% endif %}
+>
     <h2>{{doc.title}}</h2>
     {% if doc.description is not none %}
         <p>{{doc.description}}</p>

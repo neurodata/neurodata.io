@@ -3,6 +3,7 @@ $title: ZBrain Atlas
 authors: "ZBrain Atlas"
 year: 2018
 thumb: zbrain_atlas.jpg
+hero: zbrain_atlas_hero.jpg
 description: Zbrain atlas with surface mesh of different regions
 long_description: 
 data_types:

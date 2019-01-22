@@ -3,6 +3,7 @@ $title: Bhatla et al. (2015)
 authors: Bhatla et al.
 year: 2015
 thumb: bhatla15_thumb.jpg
+hero: bhatla15_hero.jpg
 description: 
 long_description: Using high-pressure freezing, serial section transmission electron microscopy (ssTEM) imaging, digital alignment and manual tracing, Nikhil Bhatla and Rita Droste in Bob Horvitz's Lab reconstructed the anterior half of the C. elegans feeding organ, the pharynx. Volumes are available for three adult hermaphrodite worms and include volumetric tracing of all neurons and selected cell types, as well as synapses identified from the I2 neurons. Sections were approximately 50 nm thick with an image resolution of 2 nm per pixel. The largest volume comprises 1199 slices. These data were published in a paper entitled "Distinct neural circuits control rhythm inhibition and spitting by the myogenic pharynx of C. elegans" (Current Biology, 2015).
 data_types:
