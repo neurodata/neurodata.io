@@ -2,22 +2,24 @@
 
 <div class="doc-nav">
     <ul>
-        <li
-        {% if "NeuroData Cloud" == doc.category %}
-            class = "highlight"
-        {% endif %}
-        ><a href="{{g.url('/content/clouds/ndcloud.html').path}}"><h5>Data</h5></a></li>
+        <li><a href="{{g.url('/content/clouds/ndcloud.html').path}}#data"><h5>Data</h5></a></li>
 
         <li
         {% if "guides" in doc.collection.basename %}
             class = "highlight"
         {% endif %}
         ><a href="{{g.url('/content/guides/overview.html').path}}"><h5>Tools</h5></a></li>
+
+        <li>
+            <a href="{{g.url('/content/clouds/ndcloud.html').path}}#pubs"><h5>Publications</h5></a>
+        </li>
+
     </ul>
     <select onChange="window.location.href=this.value">
         <option selected="selected">Jump to:</option>
         <option value="{{g.url('/content/clouds/ndcloud.html').path}}">Data</option>
         <option value="{{g.url('/content/guides/overview.html').path}}">Tools</option>
+        <option value="{{g.url('/content/clouds/ndcloud.html').path}}#pubs">Publications</option>
     </select>
 </div>
 
