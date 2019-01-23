@@ -36,9 +36,6 @@ data:
 
 tools:
 - meda
-- ndwebtools
-- ndex
-- ndviz
 - SynapseAnalysis
 
 publications:

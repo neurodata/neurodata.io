@@ -8,9 +8,6 @@ link:
 about: A joint project between NeuroData and <a href="https://engertlab.fas.harvard.edu/Z-Brain/#/home/">Florian Engert's lab</a>. This project aims to create and host an open-source atlas of the zebrafish brain, as well as generate a realistic multiscale circuit model of the larval zebrafish brain. The model will span spatial ranges from the nanoscale at the synaptic level, to local microcircuits, to inter-area connectivity. The ultimate goal will be to infer algorithms defining behavior from behavioral assays.
 
 tools:
-- ndwebtools
-- ndex
-- ndviz
 - CalmAn
 - ndreg
 

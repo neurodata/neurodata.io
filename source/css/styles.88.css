@@ -777,9 +777,9 @@ footer.dark,
     height: 100%;
 }
 
-blockquote{
+blockquote {
     background-color: #f3f5f7;
-    border-color: #42b983;    
+    border-color: #42b983;
     padding: .1rem 1.5rem;
     border-left-width: .5rem;
     border-left-style: solid;
@@ -787,8 +787,8 @@ blockquote{
     color: #222;
 }
 
-.docs blockquote code{
-    background-color: rgba(27,31,35,.05);
+.docs blockquote code {
+    background-color: rgba(27, 31, 35, .05);
 }
 
 /* NAVIGATION 
@@ -1304,7 +1304,8 @@ blockquote{
 
 .doc-nav li:hover,
 .doc-nav.sub ul li:hover,
-.doc-nav.subsub ul li:hover,{
+.doc-nav.subsub ul li:hover,
+    {
     background: #020202;
 }
 
@@ -1341,13 +1342,13 @@ blockquote{
     border-color: white;
 }
 
-.doc-nav.subsub{
+.doc-nav.subsub {
     background: #dfd6c2;
     top: 5.6rem;
     position: sticky;
 }
 
-.doc-nav.subsub  ul li.highlight {
+.doc-nav.subsub ul li.highlight {
     background: white;
     border-color: white;
 }
@@ -1891,15 +1892,10 @@ blockquote{
 /* TOOLS 
 ---------------------------------------------- */
 
-.tools-page h3 {
-    font-family: "Quadon Regular";
-    font-size: 27px;
-}
-
 .tools-page {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-    padding: 5px 10px;
+    padding: 5px 50px;
 }
 
 .collapsible {
@@ -1916,12 +1912,11 @@ blockquote{
     color: #222;
 }
 
-.tool-categories-flex .active,
 .collapsible:hover {
     background-color: #99B4C6;
 }
 
-.tool-categories-flex .mobile-shuffle .content {
+.group .item .content {
     margin-top: 0rem;
     padding-left: 1rem;
     max-height: 0;
@@ -1929,9 +1924,10 @@ blockquote{
     transition: max-height 0.2s ease-out;
     background: #fcfbfd;
     color: #222;
+    border-left: #318dde solid 10px;
 }
 
-.tool-categories-flex .collapsible:after {
+.group .item .collapsible:after {
     content: '\002B';
     /* Unicode character for "plus" sign (+) */
     font-size: 1rem;
@@ -1941,133 +1937,29 @@ blockquote{
     font-weight: bold;
 }
 
-.tool-categories-flex .active:after {
+.group .item .active:after {
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
 }
 
-.header.tools {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.tools-page h3 {
+    font-family: "Quadon Regular";
+    font-size: 27px;
 }
 
-.flex-container {
-    padding: 10px 15px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    background: white;
-    display: flex;
-    width: 100%;
-    z-index: 1000;
-}
-
-.flex-container>div {
-    width: 3em;
-}
-
-.flex-container>div h3 {
-    margin: 0em;
-}
-
-.flex-container>.Local,
-.flex-container>.Cloud {
-    flex: 1;
-    width: 10px;
-    margin-bottom: -.5rem;
-}
-
-.tool-categories-flex {
-    display: flex;
-    flex-direction: column;
-}
-
-.tool-categories-flex>div {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-}
-
-
-.tool-categories-flex>.top-category-header {
-    margin: 0;
+.group>h3 {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 4;
-}
-
-.tool-categories-flex>.top-category-header>.group-header {
-    height: 0;
-}
-
-.tool-categories-flex>.top-category-header>.group h3 {
-    margin: 0;
-}
-
-.tool-categories-flex>div .group-header {
-    width: 3em;
-    margin-right: .1em;
-    margin-top: .5em;
-    max-width: 3em;
-    height: 135px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 100px;
-}
-
-.tool-categories-flex>div .group-header h3 {
-    writing-mode: vertical-rl;
-}
-
-@supports (text-orientation: mixed) {
-    .tool-categories-flex>div .group-header {
-        text-orientation: mixed;
-    }
-}
-
-.group h3 {
+    background: #29282e;
     text-align: center;
     margin-bottom: -.5rem;
-}
-
-.group-header h3 {
-    margin: 0;
-}
-
-.tool-categories-flex>div .group {
-    flex: 1;
-    width: 10px;
-    margin-right: .5rem;
-}
-
-.group-category-header {
-    display: none;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 75px;
-    z-index: 4;
-    background: #29282e;
-}
-
-.mobile-shuffle {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-@supports (display: contents) {
-    .mobile-shuffle {
-        display: contents;
-    }
+    margin-top: .5rem;
 }
 
 .group .item {
     position: relative;
-    margin: .25rem 0;
 }
 
 .anchor {
@@ -2289,7 +2181,7 @@ blockquote{
 
 .project {
     padding: 5px 50px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -2735,20 +2627,20 @@ blockquote{
 
 .detail-wrap .props .col {
     text-align: left;
-    padding: 0 1%;
-    flex: 1
+    flex: 1;
+    background: rgb(50, 50, 50);
 }
 
 .detail-wrap .props .col .title {
-    background: #99B4C6;
-    color: #2c2c33;
-    font-size: 21px;
-    padding: 18px 5px;
+    font-size: 24px;
+    padding: 18px 15px;
     margin-bottom: .5rem;
+    text-align: left;
+    background: black;
 }
 
 .detail-wrap .props .col .item {
-    margin: 17px 0px;
+    margin: 17px 15px;
 }
 
 .detail-wrap .props .col .group .item {
@@ -3247,7 +3139,7 @@ blockquote{
         top: 41px;
     }
 
-    .doc-nav.subsub{
+    .doc-nav.subsub {
         top: 81px;
     }
 
@@ -3419,13 +3311,9 @@ blockquote{
         display: block;
     }
 
-    .tool-categories-flex>.top-category-header {
+    .group>h3 {
         top: 76px;
         z-index: 2;
-    }
-
-    .tool-categories-flex>div .group-header {
-        top: 119px
     }
 
     .doc-nav {
@@ -3436,7 +3324,7 @@ blockquote{
         top: 117px;
     }
 
-    .doc-nav.subsub{
+    .doc-nav.subsub {
         top: 158px;
     }
 
@@ -3507,11 +3395,11 @@ blockquote{
         display: none;
     }
 
-    .doc-nav.sub{
+    .doc-nav.sub {
         top: 113px;
     }
 
-    .doc-nav.subsub{
+    .doc-nav.subsub {
         top: 150px;
     }
 
@@ -3589,23 +3477,6 @@ blockquote{
 
     .tools-page h3 {
         font-size: 1.5rem;
-    }
-
-    .tool-categories-flex>.top-category-header {
-        display: none;
-    }
-
-    .group-category-header {
-        display: block;
-    }
-
-    .tool-categories-flex>div .group {
-        width: unset;
-    }
-
-    .mobile-shuffle {
-        display: flex;
-        flex-direction: column;
     }
 }
 
