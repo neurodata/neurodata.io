@@ -1,7 +1,7 @@
 <div class="doc-nav">
     <ul>
         {% for item in g.docs('research') %}
-            <li {% if item.base == doc.base %}
+            <li {% if item.title == doc.title %}
                 class = "highlight"
                 {% endif %}
             >

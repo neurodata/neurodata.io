@@ -32,7 +32,6 @@ redirects = [
     ['catmaid', 'data/'],
     ['Kasthurietal2014', 'data/kasthuri15/'],
     ['tools/mgc', 'tools/'],
-    ['talks', 'presentations/'],
     ['access', 'help/download/'],
     ['help/access', 'help/download/'],
     ['project/projectomes', 'mri-cloud/'],
