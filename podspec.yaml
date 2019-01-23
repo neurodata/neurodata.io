@@ -1,5 +1,6 @@
 grow_version: ">=0.2.5"
 title: neurodata.io
+home: /content/pages/home.html
 
 localization:
   default_locale: en_US
