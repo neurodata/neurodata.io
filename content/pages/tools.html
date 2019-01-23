@@ -7,96 +7,24 @@ $order: 3
 </div>
 
 <div class="tools-page">
-    <div class="tool-categories-flex">
-        <div class="top-category-header">
-            <div class="group-header"></div>
-            <div class="group">
-                <h3>Local</h3>
-            </div>
-            <div class="group">
-                <h3>Cloud</h3>
-            </div>
-        </div>
-        <div>
-            <div class="group-header"><h3>Images</h3></div>
+    <div class="group">
+        <h3>Images</h3>
+        {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
+            {% include 'partials/tools_detail_list.html'%}
+        {% endfor %}
+    </div>
 
-            <div class="mobile-shuffle">
-                <div class="group">
-                    <div class="group-category-header">
-                        <h3>Local</h3>
-                    </div>
-                    {% for item in g.docs('tools') if item.type == "images" and item.local and not item.hide %}
-                        {% include 'partials/tools_detail_list.html'%}
-                    {% endfor %}
-                </div>
-                <div class="group">
-                    <div class="group-category-header">
-                        <h3>Cloud</h3>
-                    </div>
-                    {% for item in g.docs('tools') if item.type == "images" and item.cloud and not item.hide %}
-                        {% include 'partials/tools_detail_list.html'%} 
-                    {% endfor %}    
-                </div>
-            </div>
-        </div>
-        
-        <div>
-            <div class="group-header">
-                <h3>Graphs</h3>
-            </div>
-            
-            <div class="mobile-shuffle">
-
-                <div class="group">
-                    <div class="group-category-header">
-                        <h3>Local</h3>
-                    </div>
-                    {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-                        {% include 'partials/tools_detail_list.html'%} 
-                    {% endfor %}
-                </div>
-
-                <div class="group">
-                    <div class="group-category-header">
-                        <h3>Cloud</h3>
-                    </div>
-                    <span class="anchor" id="Download"></span>
-                    <div class="item">
-                        <button class="collapsible">Download</button>
-                        <div class="content">
-                            <h6>
-                                <a href="{{g.url('/content/projects/connectomes.html').path}}">Connectomes (graph database)</a>
-                            </h6>
-                            <h6>
-                                <a href="{{g.url('/content/clouds/mri-cloud.html').path}}">Projectomes (human)</a>
-                            </h6>
-                            <div class="options clearfix">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="group-header">
-                <h3>Vectors</h3>
-            </div>
-             
-            <div class="mobile-shuffle">
-                <div class="group">
-                    <div class="group-category-header">
-                        <h3>Local</h3>
-                    </div>
-                    {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
-                        {% include 'partials/tools_detail_list.html'%} 
-                    {% endfor %}
-                </div>
-
-                <div class="group">
-                </div>
-            </div>
-        </div>
+    <div class="group">
+        <h3>Graphs</h3>
+        {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
+            {% include 'partials/tools_detail_list.html'%} 
+        {% endfor %}
+    </div>
+    
+    <div class="group">
+            <h3>Vectors</h3>
+        {% for item in g.docs('tools') if item.type == "vectors" and not item.cloud and not item.hide %}
+            {% include 'partials/tools_detail_list.html'%} 
+        {% endfor %}
     </div>
 </div>
