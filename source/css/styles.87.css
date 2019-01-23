@@ -2517,14 +2517,11 @@ blockquote{
 
 .team .members .col .contact {
     position: absolute;
-    top: 50px;
-    left: 0px;
-    height: 100%;
     width: 100%;
-    right: 0;
-    margin: 0 auto;
-    width: 140px;
-    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .team .members .col .ids {
@@ -2552,13 +2549,11 @@ blockquote{
 }
 
 .team .members .col .contact a {
-    display: inline-block;
-    float: left;
     margin: 10px;
 }
 
-.team .members .col .contact a:last-child {
-    margin-top: 8px;
+.team .members .col .contact a img {
+    height: 21px;
 }
 
 .team .members .col .contact a .hover {
