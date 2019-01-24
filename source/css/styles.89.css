@@ -1937,6 +1937,10 @@ blockquote {
     border-bottom-right-radius: 8px;
 }
 
+.group > .item:last-of-type > .content{
+    border-bottom-right-radius: 8px;
+}
+
 .group .item .content {
     margin-top: 0rem;
     margin-left: 1rem;
