@@ -2652,7 +2652,7 @@ blockquote {
 }
 
 .detail-wrap .props .col .group .item {
-    margin: .25rem 0;
+    margin: 0;
 }
 
 .detail-wrap .props .col h4 {
@@ -2709,27 +2709,8 @@ blockquote {
     width: 1.5rem;
 }
 
-.detail-wrap .collapsible {
-    width: 100%;
-    cursor: pointer;
-    padding: .5rem;
-    border: 0;
-    text-align: left;
-    outline: none;
-    font-size: 1rem;
-    background-color: #dfd6c2;
-    margin-right: 10px;
-    font-family: "Gentona Bold", "Arial Bold", sans-serif;
-    color: #222;
-}
-
 #tools .group .item .content p {
     margin: 1em 0;
-}
-
-.detail-wrap .active,
-.detail-wrap .collapsible:hover {
-    background-color: #dfd6c2;
 }
 
 .detail-wrap .processed {
@@ -2738,21 +2719,6 @@ blockquote {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
-
-.detail-wrap .collapsible:after {
-    content: '\002B';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 1rem;
-    color: black;
-    float: right;
-    margin: 0rem .5rem;
-    font-weight: bold;
-}
-
-.detail-wrap .active:after {
-    content: "\2212";
-    /* Unicode character for "minus" sign (-) */
 }
 
 .detail-wrap.list ul,
