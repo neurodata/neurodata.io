@@ -299,7 +299,6 @@ input[type="submit"] {
     border: 2px solid #99B4C6;
     border-radius: 24px;
     padding: 0 24px;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -1952,7 +1951,7 @@ blockquote {
     color: #222;
 }
 
-.group .item .collapsible:after {
+.item .collapsible:after {
     content: '\002B';
     /* Unicode character for "plus" sign (+) */
     font-size: 1rem;
@@ -1962,11 +1961,11 @@ blockquote {
     font-weight: bold;
 }
 
-.group .item .active {
+.item .active {
     background-color: #99B4C6;
 }
 
-.group .item .active:after {
+.item .active:after {
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
 }
