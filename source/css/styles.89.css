@@ -1345,6 +1345,7 @@ blockquote {
 .doc-nav.subsub {
     background: #dfd6c2;
     top: 5.6rem;
+    position: -webkit-sticky;
     position: sticky;
 }
 
@@ -1372,6 +1373,7 @@ blockquote {
     flex-direction: column;
 
     max-width: 300px;
+    position: -webkit-sticky;
     position: sticky;
     top: 138px;
     height: 100px;
@@ -1943,7 +1945,7 @@ blockquote {
     font-weight: bold;
 }
 
-.group .item .active{
+.group .item .active {
     background-color: #99B4C6;
 }
 
@@ -1964,7 +1966,8 @@ blockquote {
     z-index: 4;
     background: #29282e;
     text-align: center;
-    margin: .5rem auto;
+    padding: .5rem 0;
+    margin: 0;
 }
 
 .anchor {
