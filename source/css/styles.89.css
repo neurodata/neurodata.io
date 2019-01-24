@@ -1898,6 +1898,7 @@ blockquote {
     max-width: 1000px;
     margin: auto;
     padding: 5px 50px;
+    padding-bottom: 20px;
 }
 
 .collapsible {
@@ -1922,6 +1923,18 @@ blockquote {
 .group .item {
     position: relative;
     background: #99B4C6;
+}
+
+.group > .item:nth-of-type(1),
+.group > .item:nth-of-type(1) > button:nth-child(1) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.group > .item:last-of-type,
+.group > .item:last-of-type > button:nth-child(1){
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .group .item .content {
