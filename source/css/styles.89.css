@@ -1345,6 +1345,7 @@ blockquote {
 .doc-nav.subsub {
     background: #dfd6c2;
     top: 5.6rem;
+    position: -webkit-sticky;
     position: sticky;
 }
 
@@ -1372,6 +1373,7 @@ blockquote {
     flex-direction: column;
 
     max-width: 300px;
+    position: -webkit-sticky;
     position: sticky;
     top: 138px;
     height: 100px;
@@ -1896,6 +1898,7 @@ blockquote {
     max-width: 1000px;
     margin: auto;
     padding: 5px 50px;
+    padding-bottom: 20px;
 }
 
 .collapsible {
@@ -1910,21 +1913,43 @@ blockquote {
     margin-right: 10px;
     font-family: "Gentona Bold", "Arial Bold", sans-serif;
     color: #222;
+    font-size: 1.2rem;
 }
 
 .collapsible:hover {
     background-color: #99B4C6;
 }
 
+.group .item {
+    position: relative;
+    background: #99B4C6;
+}
+
+.group > .item:nth-of-type(1),
+.group > .item:nth-of-type(1) > button:nth-child(1) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.group > .item:last-of-type,
+.group > .item:last-of-type > button:nth-child(1){
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.group > .item:last-of-type > .content{
+    border-bottom-right-radius: 8px;
+}
+
 .group .item .content {
     margin-top: 0rem;
+    margin-left: 1rem;
     padding-left: 1rem;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background: #fcfbfd;
     color: #222;
-    border-left: #318dde solid 10px;
 }
 
 .group .item .collapsible:after {
@@ -1933,8 +1958,12 @@ blockquote {
     font-size: 1rem;
     color: #222;
     float: right;
-    margin: 0rem .5rem;
+    margin: 0 .5rem;
     font-weight: bold;
+}
+
+.group .item .active {
+    background-color: #99B4C6;
 }
 
 .group .item .active:after {
@@ -1954,12 +1983,8 @@ blockquote {
     z-index: 4;
     background: #29282e;
     text-align: center;
-    margin-bottom: -.5rem;
-    margin-top: .5rem;
-}
-
-.group .item {
-    position: relative;
+    padding: .5rem 0;
+    margin: 0;
 }
 
 .anchor {
@@ -2644,7 +2669,7 @@ blockquote {
 }
 
 .detail-wrap .props .col .group .item {
-    margin: .25rem 0;
+    margin: 0;
 }
 
 .detail-wrap .props .col h4 {
@@ -2701,27 +2726,8 @@ blockquote {
     width: 1.5rem;
 }
 
-.detail-wrap .collapsible {
-    width: 100%;
-    cursor: pointer;
-    padding: .5rem;
-    border: 0;
-    text-align: left;
-    outline: none;
-    font-size: 1rem;
-    background-color: #dfd6c2;
-    margin-right: 10px;
-    font-family: "Gentona Bold", "Arial Bold", sans-serif;
-    color: #222;
-}
-
 #tools .group .item .content p {
     margin: 1em 0;
-}
-
-.detail-wrap .active,
-.detail-wrap .collapsible:hover {
-    background-color: #dfd6c2;
 }
 
 .detail-wrap .processed {
@@ -2730,21 +2736,6 @@ blockquote {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
-
-.detail-wrap .collapsible:after {
-    content: '\002B';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 1rem;
-    color: black;
-    float: right;
-    margin: 0rem .5rem;
-    font-weight: bold;
-}
-
-.detail-wrap .active:after {
-    content: "\2212";
-    /* Unicode character for "minus" sign (-) */
 }
 
 .detail-wrap.list ul,
