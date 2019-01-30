@@ -7,7 +7,7 @@ description: knorR is a highly optimized and fast library for computing k-means 
 packages:
 - name: knorR
   lang: R
-  github: https://github.com/neurodata/knorR
+  github: neurodata/knorR
   download: https://cran.r-project.org/web/packages/knor/index.html
   api: https://cran.r-project.org/web/packages/knor/knor.pdf
 - name: knorPy
