@@ -2276,6 +2276,7 @@ blockquote {
     right: initial;
     top: initial;
     margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .item .options .link a {

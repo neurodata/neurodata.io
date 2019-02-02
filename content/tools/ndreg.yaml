@@ -1,5 +1,6 @@
 name: ndreg
-lang: Python
+lang: 
+- Python
 heading: Image registration
 description: ndreg is a Python package that performs non-linear affine and deformable image registration.
 

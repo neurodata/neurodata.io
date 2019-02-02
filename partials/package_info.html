@@ -1,11 +1,11 @@
 <h6>
-    {% if package.lang %} 
-        {% if package.lang in ["Python","R","Matlab"] %}
-            <img src="{{g.static('/source/images/' + package.lang + '_logo.svg').url.path}}" width="20px" height=auto> 
+    {% for lang in package.lang %}
+        {% if lang in ["Python","R","Matlab"] %}
+            <img src="{{g.static('/source/images/' + lang + '_logo.svg').url.path}}" width=auto height="20px"> 
         {% else %} 
-            {{package.lang}}: 
+            {{lang}}: 
         {% endif %} 
-    {% endif %} 
+    {% endfor %} 
 
     {% if package.link %}
         <a href="{{package.link}}" target="_blank">

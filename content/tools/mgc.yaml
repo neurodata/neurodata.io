@@ -3,11 +3,13 @@ name: MGC
 packages:
   - name: "MGC-R" 
     github: neurodata/mgc
-    lang: R
+    lang: 
+    - R
     docker: https://hub.docker.com/r/neurodata/mgc/
   - name: "mgcpy"
     github: "NeuroDataDesign/mgcpy"
-    lang: Python
+    lang: 
+    - Python
     docs: https://mgcpy.readthedocs.io/en/latest/
   - name: "mgc-matlab"
     github: "neurodata/mgc-matlab"
