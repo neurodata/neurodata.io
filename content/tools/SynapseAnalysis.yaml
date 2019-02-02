@@ -1,5 +1,6 @@
 name: SynapseAnalysis
-lang: Python
+lang: 
+- Python
 heading: Synapse Detection
 description: SynapseAnalysis (PSD) is a framework to evaluate synaptic antibodies for fluorescence array tomography (AT)
 

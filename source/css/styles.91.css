@@ -2023,6 +2023,17 @@ blockquote {
     left: 3px;
 }
 
+.tool-package{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.tool-package>div{
+    flex: 1;
+    margin: auto;
+}
+
 .tooltipster-default {
     border-radius: none;
     border: none;
@@ -2276,6 +2287,7 @@ blockquote {
     right: initial;
     top: initial;
     margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 .item .options .link a {
@@ -3477,6 +3489,14 @@ blockquote {
 
     .team .members::after {
         flex: 0 0 49%;
+    }
+    
+    .tool-package{
+        flex-direction: column;
+    }
+
+    .tool-package>div{
+        margin: 1px;
     }
 }
 

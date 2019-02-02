@@ -1,15 +1,16 @@
 $order: 6
 name: meda
-
 packages:
 - name: "meda"
   github: "neurodata/meda"
-  lang: "R"
+  lang: 
+  - "R"
   docs: https://neurodata.github.io/meda/ 
   docker: https://hub.docker.com/r/neurodata/meda/
 - name: "pymeda"
   github: "neurodata/pymeda"
-  lang: "Python"
+  lang: 
+  - "Python"
 
 heading: Matrix Exploratory Data Analysis
 description: meda implements the top 10 analyses/visualizations we recommend for any matrix valued data.

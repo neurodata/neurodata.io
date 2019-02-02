@@ -1,5 +1,6 @@
 name: VESICLE
-lang: Matlab
+lang: 
+- Matlab
 hide: False
 heading: EM Synapse Detection
 description: Synapse detection from serial electron microscopy data. VESICLE has now been subsumed by <a href="https://github.com/andrewwarrington/vesicle-cnn-2" target=_blank>VESICLE-CNN-2</a>.

@@ -3,12 +3,14 @@ name: lol
 packages:
 - name: "lolR"
   github: "neurodata/LOL"
-  lang: R
+  lang: 
+  - R
   docs: https://github.com/neurodata/lol/blob/master/README.md
   download: https://cran.r-project.org/web/packages/lolR/
 - name: "lolP"
   github: "neurodata/lollipop"
-  lang: Python
+  lang: 
+  - Python
   download: https://pypi.org/project/lolp/
 heading: Supervised dimensionality reduction
 description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks

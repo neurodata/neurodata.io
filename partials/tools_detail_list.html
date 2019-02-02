@@ -2,23 +2,28 @@
 
 <div class="item">
     {% if item.packages %}
-        <button class="collapsible" class="tooltip" title="{{item.packages|map(attribute='name')|join(', ')}}">
+        <button class="collapsible">
+        {{item.packages|map(attribute='name')|join(', ')}}
     {% else %}
-        <button class="collapsible" class="tooltip" title="{{item.name}}">
+        <button class="collapsible">
+        {{item.name}}
     {% endif %}
-        {% if item.heading %}
-            {{item.heading}}
-        {% else %}
-            {{item.name}}
-        {% endif %}
+        ({% if item.heading %}<i>{{item.heading}}</i>{% endif %})
     </button>
 
     <div class="content">
+        <p>
+            {{item.description|safe}}
+        </p>
         {% if item.packages %}
+            <div class="tool-package">
             {% for package in item.packages %}
-                {% include 'partials/package_info.html'%}
-                {% include 'partials/package_icons.html' %} 
+                <div>
+                    {% include 'partials/package_info.html'%}
+                    {% include 'partials/package_icons.html' %}
+                </div>
             {% endfor %}
+            </div>
         {% else %}
             {% if item.heading != item.name %}
                 {% set package = item %}
@@ -37,8 +42,5 @@
         {% endif %}
         {% set package = item %}
         {% include 'partials/package_icons.html' %} 
-        <p>
-            {{item.description|safe}}
-        </p>
     </div>
 </div>
