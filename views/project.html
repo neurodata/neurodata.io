@@ -29,6 +29,9 @@
         {% if doc.people %}
         <li><a href="#people"><h5>People</h5></a></li>
         {% endif %}
+        {% if doc.funding %}
+        <li><a href="#funding"><h5>Funding</h5></a></li>
+        {% endif %}
     </ul>
     <select>
         <option selected="selected">Jump to:</option>
@@ -43,6 +46,9 @@
         {% endif %}
         {% if doc.people %}
         <option value="people">People</option>
+        {% endif %}
+        {% if doc.funding %}
+        <option value="funding">Funding</option>
         {% endif %}
     </select>
 </div>
@@ -105,9 +111,9 @@
     {% endif %}
 
     {% if doc.funding %}
-        <h3>Funding</h3>
+        <h3 id="funding">Funding</h3>
         {% for item in doc.funding %}
-            <a href="{{item.link}}" target="_blank">{{item.name}}</a>
+            <h4><a href="{{item.link}}" target="_blank">{{item.name}}</a></h4>
         {% endfor%}
         </div>
     {% endif %}
