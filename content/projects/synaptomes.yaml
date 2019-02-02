@@ -1,5 +1,5 @@
 $title: Synaptomes
-$order: 1
+$order: 4
 
 description: 
 long_description: 
@@ -46,3 +46,7 @@ publications:
 - ounkomol2018label
 - francca2017energy
 - Smith2018
+
+funding:
+  - name: "Synaptomes of Mouse and Man"
+    link: "http://grantome.com/grant/NIH/R01-NS092474-01"
