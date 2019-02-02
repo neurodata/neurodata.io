@@ -16,10 +16,14 @@
             {{item.description|safe}}
         </p>
         {% if item.packages %}
+            <div class="tool-package">
             {% for package in item.packages %}
-                {% include 'partials/package_info.html'%}
-                {% include 'partials/package_icons.html' %} 
+                <div>
+                    {% include 'partials/package_info.html'%}
+                    {% include 'partials/package_icons.html' %}
+                </div>
             {% endfor %}
+            </div>
         {% else %}
             {% if item.heading != item.name %}
                 {% set package = item %}
