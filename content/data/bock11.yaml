@@ -14,7 +14,7 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/bock/bock11/
   type: EM
   description: 
-  viz: https://viz.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bock/bock11/image?'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[4_4_40]_'voxelCoordinates':[67712_59904_3500]}}_'zoomFactor':4}}
+  viz: https://viz.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bock/bock11/image?'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[4_4_40]_'voxelCoordinates':[67712_59904_3500]}}_'zoomFactor':4}}
 
 tools:
 
