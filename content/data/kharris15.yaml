@@ -15,7 +15,7 @@ data:
   url: https://ndwebtools.neurodata.io/cutout/kharris15/spine/ 
   type: 
   description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'anno':{'type':'segmentation'_'source':'boss://https://api.boss.neurodata.io/kharris15/spine/anno?'}_'em':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kharris15/spine/em?'_'blend':'additive'}}_'navigation':{'pose':{'position':{'voxelSize':[2_2_50]_'voxelCoordinates':[4545.59326171875_2782.842529296875_42.5]}}_'zoomFactor':5.436563656918091}_'perspectiveOrientation':[-0.1722598671913147_0.295237272977829_0.14455999433994293_0.928581953048706]_'perspectiveZoom':54.59815003314426_'layout':'4panel'}"
+  viz: "https://viz.neurodata.io/#!{'layers':{'anno':{'type':'segmentation'_'source':'boss://https://api.boss.neurodata.io/kharris15/spine/anno?'}_'em':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kharris15/spine/em?'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[2_2_50]_'voxelCoordinates':[4545.59326171875_2782.842529296875_42.5]}}_'zoomFactor':5.436563656918091}_'perspectiveOrientation':[-0.1722598671913147_0.295237272977829_0.14455999433994293_0.928581953048706]_'perspectiveZoom':54.59815003314426_'layout':'4panel'}"
 
 - name: apical 
   url: https://ndwebtools.neurodata.io/cutout/kharris15/apical/

@@ -7,10 +7,12 @@ cloud: False
 local: True
 type: "vectors"
 
-lang: R
+lang: 
+  - R
+  - Python
 
 api: 
-github: neurodata/R-RerF
+github: neurodata/RerF
 docs: https://github.com/neurodata/R-RerF/blob/master/README.md
 manuscripts: 
 - Tomita2018

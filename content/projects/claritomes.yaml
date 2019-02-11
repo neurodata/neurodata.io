@@ -1,0 +1,34 @@
+$title: Claritomes
+$order: 5
+
+description:
+long_description: 
+link: 
+
+about: A joint project between Neurodata and <a href="https://web.stanford.edu/group/dlab/" target="_blank">Karl Deisseroth’s Lab.</a> This project aims to create software tools to analyze CLARITY brain imaging data including tools for image preprocessing, registration, cell body detection, and fiber tracking.
+
+tools:
+- ndreg
+
+publications:
+- kutten2017large
+- Kutten2016
+- chung2013clarity
+- chung2013structural
+- ye2016wiring
+- burns2018community
+
+funding:
+- name: "NeuroNex Technology Hub: Integrated Circuit Cracking (ICC) with Linked Tools for Diverse Systems"
+  link: "https://nsf.gov/awardsearch/showAward?AWD_ID=1707261"
+
+data:
+- allen_atlas
+- tomer15
+- branch18
+
+people:
+- vikram
+- ailey_crow
+- jovo
+- karl_deisseroth

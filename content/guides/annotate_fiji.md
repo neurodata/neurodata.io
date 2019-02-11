@@ -10,7 +10,7 @@ This guide shows how to annotate data in a way that NeuroData can import into ou
 
 ### Annotate with FIJI
 
-1. Install onto your system using [https://imagej.net/Fiji/Downloads/](https://imagej.net/Fiji/Downloads/).
+1. Install onto your system using [https://imagej.net/Fiji/Downloads](https://imagej.net/Fiji/Downloads).
 
 2. Open FIJI, and start a new blank TrakEM2.
 

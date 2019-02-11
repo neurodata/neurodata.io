@@ -1,5 +1,6 @@
 name: ndmg
-lang: Python
+lang: 
+- Python
 heading: MR graph analysis
 description: ndmg combines diffusion and functional MRI data from individuals to estimate connectome reliably and scalably, and compare populations.
 
