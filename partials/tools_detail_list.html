@@ -1,14 +1,9 @@
 <span class="anchor" id="{{item.name}}"></span>
 
 <div class="item">
-    {% if item.packages %}
-        <button class="collapsible">
-        {{item.packages|map(attribute='name')|join(', ')}}
-    {% else %}
-        <button class="collapsible">
-        {{item.name}}
-    {% endif %}
-        ({% if item.heading %}<i>{{item.heading}}</i>{% endif %})
+    <button class="collapsible">
+    {{item.name}}
+    ({% if item.heading %}<i>{{item.heading}}</i>{% endif %})
     </button>
 
     <div class="content">

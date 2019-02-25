@@ -1,4 +1,4 @@
-name: graphstats
+name: GraSPy
 hide: False
 heading: Graph Statistics
 description: Utilities and algorithms designed for processing and analysis of graphs with specialized graph statistical algorithms
