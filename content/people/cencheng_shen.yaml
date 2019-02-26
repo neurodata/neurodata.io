@@ -3,6 +3,6 @@ position: Faculty
 github: 
 email: shenc@udel.edu
 picture: cencheng.jpg
-website: https://canr.udel.edu/faculty/cencheng-shen/
+website:
 $category: faculty
 $order: 3
