@@ -1,7 +1,7 @@
 <h6>
     {% for lang in package.lang %}
-        {% if lang in ["Python","R","Matlab"] %}
-            <img src="{{g.static('/source/images/' + lang + '_logo.svg').url.path}}" width=auto height="20px"> 
+        {% if lang in ["Python","R","Matlab","Cpp"] %}
+            <img src="{{g.static('/source/images/' + lang + '_logo.svg').url.path}}" width=auto height="20px" style="filter:grayscale(100%)"> 
         {% else %} 
             {{lang}}: 
         {% endif %} 
