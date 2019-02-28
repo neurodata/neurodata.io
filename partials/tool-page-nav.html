@@ -1,0 +1,21 @@
+<div class="nav">
+    <div class="logo">
+        <a href="{{doc.path}}">
+            <h4 class="view-wide">
+                {{doc.title}}
+            </h4>
+            <h4 class="view-narrow">{{doc.slug}}</h4>
+        </a>
+    </div>
+
+    <div class="links">
+        <a href="/">
+            <h5 class="view-wide">NeuroData</h5>
+            <img class="view-narrow" src="{{g.static('/source/images/neurodata_logo.png').url.path}}">
+        </a>
+        <a href="https://github.com/{{doc.github}}" target="_blank" rel="noopener">
+            <h5 class="view-wide">GitHub</h5>
+            <img class="view-narrow" src="{{g.static('/source/images/github.png').url.path}}">
+        </a>
+    </div>
+</div>
