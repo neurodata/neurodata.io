@@ -21,4 +21,4 @@ manuscripts:
   - Browne2018
 press:
 download: https://cran.r-project.org/web/packages/rerf/index.html
-link: https://rerf.neurodata.io
+link: !g.url /content/tool-pages/rerf.yaml

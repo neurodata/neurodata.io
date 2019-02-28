@@ -1,0 +1,19 @@
+$title: Randomer Forest
+$slug: RerF
+
+github: "neurodata/RerF"
+
+details:
+  - heading: "A robust ensemble method"
+    description: "Randomer Forest combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
+  
+  - heading: "An easy-to-use package"
+    description: "Currently available for R and Python, Randomer Forest is supported on Windows, Linux, and Mac OS."
+
+  - heading: "A scalable solution"
+    description: "Randomer Forest is optimized for both speed and memory performance through native implementation and multicore parallelization."
+
+pubs:
+  - tomita2017roflmao
+  - Browne2018
+  - Tomita2018
