@@ -35,7 +35,8 @@ redirects = [
     ['access', 'help/download/'],
     ['help/access', 'help/download/'],
     ['project/projectomes', 'mri-cloud/'],
-    ['data', 'ndcloud/']
+    ['data', 'ndcloud/'],
+    ['RerF', 'rerf/'],
 ]
 
 
