@@ -13,7 +13,7 @@
         {% endif %}
                 {{item|print_authors}} 
                 {% if item.doi or item.url or item.arxivid %}
-                    <a href="{{item|print_link}}" target="_blank">{{item|print_title|render|safe}}</a>{% else %}{{item|print_title|render|safe}}{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
+                    <a href="{{item|print_link}}" target="_blank" rel="noopener">{{item|print_title|render|safe}}</a>{% else %}{{item|print_title|render|safe}}{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
                 <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
         {% if index_items %}
         </li>

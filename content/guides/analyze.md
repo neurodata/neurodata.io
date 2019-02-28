@@ -14,7 +14,7 @@ To download portions or entire datasets as TIFF stacks or individual files for l
 
 ### nd-multicore
 
-For processing data in parellel, please use <a href="https://github.com/rguo123/nd-multicore" target="_blank">nd-multicore</a>.  
+For processing data in parellel, please use <a href="https://github.com/rguo123/nd-multicore" target="_blank" rel="noopener">nd-multicore</a>.  
 
 ### Considerations
 

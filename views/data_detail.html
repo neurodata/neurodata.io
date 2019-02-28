@@ -28,13 +28,13 @@
                 <div class="item">
                     <h4>
                         {% if item.url %}
-                        <a href="{{item.url}}" target="_blank">{{ item.name }}</a>
+                        <a href="{{item.url}}" target="_blank" rel="noopener">{{ item.name }}</a>
                         {% else %}
                         {{ item.name }}
                         {% endif %}
                     
                         {% if item.viz %}
-                        <a href="{{item.viz}}" target="_blank">
+                        <a href="{{item.viz}}" target="_blank" rel="noopener">
                             <img 
                                 src="{{g.static('/source/images/eye.svg').url.path}}"
                                 alt="Viz"
@@ -83,7 +83,7 @@
 
     <div id="notice">
         <p>To access this data, please view the <a href="{{g.url('/content/guides/download.md').path}}">guide</a>.</p>
-        <p>Data on this site are licensed under a <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank">ODC-By v1.0</a> license.</p>
+        <p>Data on this site are licensed under a <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" rel="noopener">ODC-By v1.0</a> license.</p>
         {% if doc.doi %}
             <p>Please use this DOI when citing this data: <a href="http://dx.doi.org/{{doc.doi}}">{{doc.doi}}</a></p>
         {% endif %}
