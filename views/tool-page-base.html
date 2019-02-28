@@ -1,0 +1,40 @@
+{% set stylesheet=g.static('/source/css/tool-page.css').url.path %}
+{% include 'partials/base_head_partial.html' %}
+
+<body>
+    {% include 'partials/tool-page-nav.html' %}
+
+    <div class="main">
+        <a href="https://github.com/{{doc.github}}">
+            <h2>
+                {{doc.title}}
+            </h2>
+        </a>
+        <div class="content">
+            {% for item in doc.details %}
+                <div class="detail">
+                    <h4>{{item.heading}}</h4>
+                    <p>{{item.description}}</p>
+                </div>
+            {% endfor %}
+
+            {% if doc.pubs %}
+                <div class="pubs">
+                    <h6>Publications</h6>                
+                    {% set pubs = doc.pubs %}
+                    {% include 'partials/pubs_list.html' %}
+                </div>
+            {% endif %}
+
+            <p>
+                <a href="https://github.com/{{doc.github}}" class="button" id="banner-btn">
+                    Get
+                    <span class="view-wide">{{doc.title}}</span>
+                    <span class="view-narrow">{{doc.slug}}</span>
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
