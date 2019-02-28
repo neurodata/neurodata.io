@@ -26,7 +26,7 @@
             {% else %}
                 <h6>
                     {% if item.link %}
-                        <a href="{{item.link or item.link.path}}" target="_blank">
+                        <a href="{{item.link.path or item.link}}" target="_blank">
                     {% else %}
                         <a href="https://github.com/{{item.github}}" target="_blank">
                     {% endif %}
