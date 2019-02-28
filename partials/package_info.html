@@ -5,10 +5,10 @@
         {% else %} 
             {{lang}}: 
         {% endif %} 
-    {% endfor %} 
+    {% endfor %}
 
     {% if package.link %}
-        <a href="{{package.link}}" target="_blank">
+        <a href="{{package.link or package.link.path}}" target="_blank">
     {% else %}
         <a href="https://github.com/{{package.github}}" target="_blank">
     {% endif %} 
