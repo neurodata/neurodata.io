@@ -8,9 +8,9 @@
     {% endfor %}
 
     {% if package.link %}
-        <a href="{{package.link.path or package.link}}" target="_blank">
+        <a href="{{package.link.path or package.link}}" target="_blank" rel="noopener">
     {% else %}
-        <a href="https://github.com/{{package.github}}" target="_blank">
+        <a href="https://github.com/{{package.github}}" target="_blank" rel="noopener">
     {% endif %} 
     {{package.name}}
     </a>

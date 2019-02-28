@@ -3,7 +3,7 @@
     <li>
         {{item|print_authors}} 
         {% if item.doi or item.url or item.arxivid %}
-            <a href="{{item|print_link}}" target="_blank">
+            <a href="{{item|print_link}}" target="_blank" rel="noopener">
         {% endif %}
         {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
         <i>{{item.address}}</i>{% if item.address%},{% endif %} {{item.year}}.

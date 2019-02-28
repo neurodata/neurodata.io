@@ -6,7 +6,7 @@ $order: 3
 
 [TOC]
 
-This guide demonstrates how to add point annotations manually to a neuroglancer view.  To generate a starting neuroglancer view, we recommend using <a href="https://ndwebtools.neurodata.io" target="_blank">ndwebtools</a>.  For this demo, we have made <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank">this</a> neuroglancer view available to use.
+This guide demonstrates how to add point annotations manually to a neuroglancer view.  To generate a starting neuroglancer view, we recommend using <a href="https://ndwebtools.neurodata.io" target="_blank" rel="noopener">ndwebtools</a>.  For this demo, we have made <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank" rel="noopener">this</a> neuroglancer view available to use.
 
 ### Open JSON editor
 
@@ -54,4 +54,4 @@ Now that you have selected the point annotations, you can ctrl + click on any lo
 
 ### Share
 
-To share these data, click the `⇧` icon in the top right navigation aria.  This will change the URL field in the browser to a short one that can be easily copied and shared.  The URL should be similar to this: <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank">https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw</a>
+To share these data, click the `⇧` icon in the top right navigation aria.  This will change the URL field in the browser to a short one that can be easily copied and shared.  The URL should be similar to this: <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank" rel="noopener">https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw</a>
