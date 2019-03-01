@@ -7,7 +7,7 @@ packages:
     - R
     docker: https://hub.docker.com/r/neurodata/mgc/
   - name: "mgcpy"
-    github: "NeuroDataDesign/mgcpy"
+    github: "neurodata/mgc"
     lang: 
     - Python
     docs: https://mgcpy.readthedocs.io/en/latest/
