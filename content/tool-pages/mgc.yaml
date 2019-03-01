@@ -6,10 +6,11 @@ docs: "https://mgc.neurodata.io"
 
 details:
   - heading: "A Powerful Testing Procedure"
-    description: "Multiscale Graph Correlation (MGC, pronounced \"magic\") is a nonparameter approach for independence and k-sample testing."
+    description: 'Multiscale Graph Correlation (MGC, pronounced "magic") is a nonparameter approach for independence and k-sample testing.'
 
   - heading: "An easy-to-use package"
-    description: "Currently available Python, with many other standard independence and k-sample tests included (development versions in both R and MATLAB support only MGC)."
+    description: 'Currently available in <a href="https://github.com/neurodata/mgc">Python</a>, with many other standard independence and k-sample tests included.  Development versions in both R (<a href="https://github.com/neurodata/mgc-r
+">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC.'
 
   - heading: "A scalable solution"
     description: "Our implementations are fast and powerful."
@@ -18,3 +19,5 @@ pubs:
   - Vogelstein2018equivalence
   - Wang2018
   - Shen2018
+  - lee2017
+  - shen2016discovering

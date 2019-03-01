@@ -14,7 +14,7 @@
             {% for item in doc.details %}
                 <div class="detail">
                     <h4>{{item.heading}}</h4>
-                    <p>{{item.description}}</p>
+                    <p>{{item.description|safe}}</p>
                 </div>
             {% endfor %}
 
