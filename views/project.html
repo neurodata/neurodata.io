@@ -20,8 +20,10 @@
         {% if doc.data %}
         <li><a href="#data"><h5>Data</h5></a></li>
         {% endif %}
-        {% if doc.tools %}
+        {% if doc.tools is iterable and doc.tools is not string %}
         <li><a href="#tools"><h5>Tools</h5></a></li>
+        {% else %}
+        <li><a href="{{doc.tools.path or doc.tools}}"><h5>Tools</h5></a></li>
         {% endif %}
         {% if doc.publications %}
         <li><a href="#publications"><h5>Publications</h5></a></li>
@@ -33,22 +35,27 @@
         <li><a href="#funding"><h5>Funding</h5></a></li>
         {% endif %}
     </ul>
-    <select>
+    <select onChange="window.location.href=this.value">
         <option selected="selected">Jump to:</option>
-        {% if doc.data %}
-        <option value="data">Data</option>
+        {% if doc.about %}
+        <option value="#about">About</option>
         {% endif %}
-        {% if doc.tools %}
-        <option value="tools">Tools</option>
+        {% if doc.data %}
+        <option value="#data">Data</option>
+        {% endif %}
+        {% if doc.tools  is iterable and doc.tools is not string %}
+        <option value="#tools">Tools</option>
+        {% else %}
+        <option value={{doc.tools.path or doc.tools}}>Tools</option>
         {% endif %}
         {% if doc.publications %}
-        <option value="publications">Publications</option>
+        <option value="#publications">Publications</option>
         {% endif %}
         {% if doc.people %}
-        <option value="people">People</option>
+        <option value="#people">People</option>
         {% endif %}
         {% if doc.funding %}
-        <option value="funding">Funding</option>
+        <option value="#funding">Funding</option>
         {% endif %}
     </select>
 </div>
@@ -59,12 +66,18 @@
         <p>{{doc.about|safe}}</p>
     {% endif %}
 
+    {% if doc.data == true %}
+        {% set data = g.docs('data', order_by='authors')|map(attribute="base")|list %}
+    {% else %}
+        {% set data = doc.data %}
+    {% endif %}
+
     {% if doc.data %}
     <h3 class="title" id="data">Data</h3>
     <div class="team">
         <div class="members clearfix" id="team">
             {% for item in g.docs('data', order_by='authors') %}
-                {% if item.base in doc.data %}
+                {% if item.base in data %}
                     {% include 'partials/data_blocks.html' %}
                 {% endif %}
             {% endfor %}
@@ -72,7 +85,7 @@
     </div>
     {% endif %}
 
-    {% if doc.tools %}
+    {% if doc.tools is iterable and doc.tools is not string %}
         <h3 class="title" id="tools">Tools</h3>
         <div class="tool-categories-flex">
             <div class="mobile-shuffle">
@@ -100,11 +113,9 @@
         <div class="team">
             <h3 id="people">People on project</h3>
             <div class="members clearfix">
-                
-                {% for item in g.docs('people') %}
-                    {% if item.base in doc.people %}
-                        {% include 'partials/people.html' %}
-                    {% endif %}
+                {% for person in doc.people %}
+                    {% set item = (g.docs('people') + g.docs('alumni'))|selectattr("base", '==', person)|first%}
+                    {% include 'partials/people.html' %}
                 {% endfor %}
             </div>
         </div>

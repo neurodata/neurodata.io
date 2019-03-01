@@ -1,0 +1,25 @@
+$title: NeuroData Cloud
+$order: 1
+
+description:
+long_description: 
+link: 
+
+about: 'Our goal is to work together with neuro experimentalists to discover fundamental principles governing the relationship between mind and brain, via building and deploying open source data-driven tools that run at scale'
+
+tools: !g.url /content/guides/overview.html
+
+publications: 
+- burns2013open
+- burns2014cosmos
+- Vogelstein2016
+- kleissas2017block
+- burns2018community
+- vogelstein2011q
+
+data: true
+
+people:
+- jovo
+- randal
+- ben
