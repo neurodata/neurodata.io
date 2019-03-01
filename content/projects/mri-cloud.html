@@ -191,20 +191,17 @@ related_papers:
     </div>
 
     <h3 id="refs">Publications</h3>
-    <h4>When using data, figures, or tools shared here, please cite:</h4>
-
     {% set pubs = doc.references %}
     {% include 'partials/pubs_list.html' %}
 
-    <h4>Previous Pipeline Papers</h4>
+    <h6>Previous Pipeline Papers</h6>
     {% set pubs = doc.previous_pipeline_papers %}
     {% include 'partials/pubs_list.html' %}
 
-    <h4>Related Papers</h4>
+    <h6>Related Papers</h6>
     {% set pubs = doc.related_papers %}
     {% include 'partials/pubs_list.html' %}
 </div>
-
 
 <div id="notice">
     <p>Data on this site are licensed under a <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" rel="noopener">ODC-By v1.0</a> license.</p>
