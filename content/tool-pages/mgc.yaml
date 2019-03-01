@@ -3,6 +3,8 @@ $slug: MGC
 
 github: "neurodata/mgc"
 docs: "https://mgc.neurodata.io"
+installation: "https://mgc.neurodata.io/install.html"
+examples: "https://github.com/neurodata/mgc/tree/master/demos"
 
 details:
   - heading: "A Powerful Testing Procedure"
