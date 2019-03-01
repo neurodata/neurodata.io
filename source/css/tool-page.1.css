@@ -321,7 +321,13 @@ input[type="submit"]:hover {
     display: none !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .nav .links h5 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
     html {
         font-size: 90%;
     }

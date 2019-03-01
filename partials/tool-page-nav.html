@@ -16,7 +16,19 @@
             <img class="view-narrow" src="{{g.static('/source/images/book.png').url.path}}">
         </a>
         {% endif %}
-        <a href="https://github.com/{{doc.github}}" target="_blank" rel="noopener">
+        {% if doc.installation %}
+        <a href="{{doc.installation}}">
+            <h5 class="view-wide">Install</h5>
+            <img class="view-narrow" src="{{g.static('/source/images/download.png').url.path}}">
+        </a>
+        {% endif %}
+        {% if doc.examples %}
+        <a href="{{doc.examples}}">
+            <h5 class="view-wide">Examples</h5>
+            <img class="view-narrow" src="{{g.static('/source/images/document.png').url.path}}">
+        </a>
+        {% endif %}
+        <a href="https://github.com/{{doc.github}}">
             <h5 class="view-wide">GitHub</h5>
             <img class="view-narrow" src="{{g.static('/source/images/github.png').url.path}}">
         </a>
