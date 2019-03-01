@@ -11,6 +11,7 @@ packages:
     lang: 
     - Python
     docs: https://mgcpy.readthedocs.io/en/latest/
+    link: !g.url /content/tool-pages/mgc.yaml
   - name: "mgc-matlab"
     github: "neurodata/mgc-matlab"
     lang: 
