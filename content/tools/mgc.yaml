@@ -2,7 +2,7 @@ $order: 1
 name: MGC
 packages:
   - name: "MGC-R" 
-    github: neurodata/mgc
+    github: neurodata/mgc-r
     lang: 
     - R
     docker: https://hub.docker.com/r/neurodata/mgc/
