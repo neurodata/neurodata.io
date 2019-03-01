@@ -1,0 +1,20 @@
+$title: Multiscale Graph Correlation
+$slug: MGC
+
+github: "neurodata/mgc"
+docs: "https://mgc.neurodata.io"
+
+details:
+  - heading: "A robust ensemble method"
+    description: "Randomer Forest combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
+
+  - heading: "An easy-to-use package"
+    description: "Currently available Python, with many other standard independence and k-sample tests included (development versions in both R and MATLAB support only MGC)."
+
+  - heading: "A scalable solution"
+    description: "Our implementations are fast and powerful"
+
+pubs:
+  - Vogelstein2018equivalence
+  - Wang2018
+  - Shen2018
