@@ -182,7 +182,7 @@ a {
     width: 100%;
     position: sticky;
     height: 4.375rem;
-    padding: 0 1.25rem;
+    padding: 0 1.875rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,7 +203,7 @@ a {
     color: #318dde;
 }
 
-.logo img{
+.logo img {
     vertical-align: middle;
     padding-right: .2rem;
 }
@@ -274,7 +274,7 @@ a {
 
 /* Pubs */
 
-.pubs{
+.pubs {
     padding-top: 1.5rem;
 }
 
