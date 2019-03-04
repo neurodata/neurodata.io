@@ -190,16 +190,22 @@ a {
 
 /* randomer forest logo/link */
 
-.nav a h4:hover {
-    color: #318dde;
-}
-
 .nav h4 {
     display: inline-block;
     color: #144b7c;
     transition: 0.3s ease all;
     font-size: 1.875rem;
     line-height: 1;
+    vertical-align: middle;
+}
+
+.nav a h4:hover {
+    color: #318dde;
+}
+
+.logo img{
+    vertical-align: middle;
+    padding-right: .2rem;
 }
 
 /* Links */
@@ -235,13 +241,11 @@ a {
 .main {
     width: 100%;
     padding: .625rem 1.875rem;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
 }
 
 .main h2 {
-    text-align: center;
-    margin: 1rem;
     color: #f4f4f4;
     transition: color 350ms ease, background-color 350ms ease, border-color 350ms ease;
 }
@@ -250,20 +254,13 @@ a {
     color: #318dde;
 }
 
-.content {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-}
-
-.content p {
+.main p {
     font-size: 1.25rem;
     line-height: 1.5rem;
 }
 
-.content h4 {
+.main h4 {
     display: block;
-    text-align: center;
     padding-top: .625rem;
 }
 
@@ -277,6 +274,10 @@ a {
 
 /* Pubs */
 
+.pubs{
+    padding-top: 1.5rem;
+}
+
 .pubs h6 {
     margin: 0;
     font-size: 1.5rem;
@@ -289,6 +290,10 @@ a {
 }
 
 /************** Button formatting ************/
+.center {
+    text-align: center;
+}
+
 p a:link:not(.button),
 p a:visited:not(.button) {
     border-bottom: 1px solid #318dde;
@@ -324,6 +329,10 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 800px) {
     .nav .links h5 {
         font-size: 1.1rem;
+    }
+
+    .nav h4 {
+        font-size: 1.5rem;
     }
 }
 
