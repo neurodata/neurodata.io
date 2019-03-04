@@ -1,4 +1,4 @@
-{% set stylesheet=g.static('/source/css/tool-page.1.css').url.path %}
+{% set stylesheet=g.static('/source/css/tool-page.2.css').url.path %}
 {% include 'partials/base_head_partial.html' %}
 
 <body>
@@ -29,8 +29,7 @@
             <p>
                 <a href="https://github.com/{{doc.github}}" class="button" id="banner-btn">
                     Get
-                    <span class="view-wide">{{doc.title}}</span>
-                    <span class="view-narrow">{{doc.slug}}</span>
+                    <span>{{doc.slug}}</span>
                 </a>
             </p>
         </div>

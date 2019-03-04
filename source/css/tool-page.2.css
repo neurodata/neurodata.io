@@ -190,16 +190,22 @@ a {
 
 /* randomer forest logo/link */
 
-.nav a h4:hover {
-    color: #318dde;
-}
-
 .nav h4 {
     display: inline-block;
     color: #144b7c;
     transition: 0.3s ease all;
     font-size: 1.875rem;
     line-height: 1;
+    vertical-align: middle;
+}
+
+.nav a h4:hover {
+    color: #318dde;
+}
+
+.logo img{
+    vertical-align: middle;
+    padding-right: .2rem;
 }
 
 /* Links */
@@ -324,6 +330,10 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 800px) {
     .nav .links h5 {
         font-size: 1.1rem;
+    }
+
+    .nav h4 {
+        font-size: 1.5rem;
     }
 }
 
