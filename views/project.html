@@ -124,9 +124,16 @@
     {% if doc.funding %}
         <h3 id="funding">Funding</h3>
         {% for item in doc.funding %}
-            <h4><a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a></h4>
+            <p>
+                {% if item.link %}
+                <a href="{{item.link}}" target="_blank" rel="noopener">
+                    {{item.name}}
+                </a>
+                {% else %}
+                {{item.name}}
+                {% endif %}
+            </p>
         {% endfor%}
-        </div>
     {% endif %}
 </div>
 
