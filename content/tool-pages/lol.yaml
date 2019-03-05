@@ -1,8 +1,8 @@
 $title: Linear Optimal Low Rank Projections (LOL)
 $slug: LOL
 
-Python: "neurodata/lollipop"
-R: "neurodata/lol"
+python: "https://github.com/neurodata/lollipop"
+r: "https://github.com/neurodata/lol"
 
 details:
   - heading: "Supervised Dimensionality Reduction"
