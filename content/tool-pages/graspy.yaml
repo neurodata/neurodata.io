@@ -7,7 +7,7 @@ installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
 
 details:
-  - heading: "Machine Learning on Graphs"
+  - heading: "Statistical Learning on Graphs"
     description: "Simple, flexible and powerful graph analysis library grounded in statistical theories."
 
   - heading: "User friendliness"
