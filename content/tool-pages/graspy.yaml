@@ -1,0 +1,20 @@
+$title: Graph Statistics in Python (GrasPy)
+$slug: GrasPy
+
+github: "neurodata/graspy"
+docs: "https://graspy.neurodata.io"
+installation: "https://graspy.neurodata.io/install.html"
+examples: "https://graspy.neurodata.io/tutorial.html"
+
+details:
+  - heading: "Statistical Learning on Graphs"
+    description: "Simple, flexible and powerful graph analysis library grounded in statistical theories."
+
+  - heading: "User friendliness"
+    description: "GrasPy offers scikit-learn compliant APIs and it provides clear feedback upon user error."
+
+  - heading: "Open Source Library"
+    description: "GrasPy is open-source and commercially usable software, and released under Apache-2.0 License."
+
+pubs:
+  - Athreya2018

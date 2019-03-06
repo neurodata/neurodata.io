@@ -1,0 +1,20 @@
+$title: Linear Optimal Low Rank Projections (LOL)
+$slug: LOL
+
+github: "neurodata/lol"
+installation: "https://github.com/neurodata/lol#installation-guide"
+examples: "https://github.com/neurodata/lol#demo"
+
+details:
+  - heading: "Supervised Dimensionality Reduction"
+    description: "LOL is a robust and powerful for learning lower-dimensional representation in high-dimensional, low sample size setting."
+
+  - heading: "Multi-Language and Platform Support"
+    description: 'Currently available in <a href="https://github.com/neurodata/lol">R</a> and <a href="https://github.com/neurodata/lollipop">Python</a>.
+      Both packages are currently supported for Linux, MacOS and Windows.'
+
+  - heading: "Open Source"
+    description: "LOL is commercial open-source software and released under Apache-2.0 License."
+
+pubs:
+  - vogelstein2017linear
