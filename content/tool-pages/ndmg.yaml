@@ -1,0 +1,21 @@
+$title: NeuroData's MRI to Graphs
+$slug: ndmg
+
+github: "neurodata/ndmg"
+docs: "https://ndmg.neurodata.io/"
+installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-guide"
+examples: "https://hub.docker.com/r/bids/ndmg/"
+
+details:
+  - heading: "Stuctural connectome estimage package and pipeline"
+    description: 'ndmg provides robust and reliable estimates of MRI connectivity across a wide range of datasets.'
+  
+  - heading: "Turn-Key Analysis across multiple levels"
+    description: "ndmg is a turn-key pipeline that provides connectivity estimates at multiple levels: participant, group, and meganalysis."
+
+  - heading: "Robust and reliable"
+    description: "ndmg runs reliably and robustly datasets spanning multiple scanners, acquisition parameters, and population demographics."
+
+pubs:
+  - kiar2017comprehensive
+  - Kiar2018
