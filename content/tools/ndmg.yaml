@@ -15,3 +15,4 @@ docs:
 manuscripts: 
 press: 
 docker: https://hub.docker.com/r/neurodata/ndmg/
+link: !g.url /content/tool-pages/ndmg.yaml
