@@ -3,7 +3,7 @@
 <div class="item">
     <button class="collapsible">
     {{item.name}}
-    ({% if item.heading %}<i>{{item.heading}}</i>{% endif %})
+    {% if item.heading %}(<i>{{item.heading}})</i>{% endif %}
     </button>
 
     <div class="content">
