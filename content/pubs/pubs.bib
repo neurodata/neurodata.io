@@ -1764,3 +1764,23 @@ journal={arXiv},
 url = {http://arxiv.org/abs/1803.03367},
 year = {2018}
 }
+@article {Tward494005,
+	author = {Tward, Daniel Jacob and Brown, Timothy and Kageyama, Yusuke and Patel, Jaymin and Hou, Zhipeng and Mori, Susumu and Albert, Marilyn and Troncoso, Juan and Miller, Michael},
+	title = {Diffeomorphic registration with intensity transformation and missing data: Application to 3D digital pathology of Alzheimer{\textquoteright}s disease},
+	year = {2019},
+	doi = {10.1101/494005},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {This paper examines the problem of diffeomorphic image mapping in the presence of differing image intensity profiles and missing data. Our motivation comes from the problem of aligning 3D brain MRI with 100 micron isotropic resolution, to histology sections with 1 micron in plane resolution. Multiple stains, as well as damaged, folded, or missing tissue are common in this situation. We overcome these challenges by introducing two new concepts. Cross modality image matching is achieved by jointly estimating polynomial transformations of the atlas intensity, together with pose and deformation parameters. Missing data is accommodated via a multiple atlas selection procedure where several atlases may be of homogeneous intensity and correspond to {\textquoteright}{\textquoteright}background{\textquoteright}{\textquoteright} or {\textquoteright}{\textquoteright}artifact{\textquoteright}{\textquoteright}. The two concepts are combined within an Expectation Maximization algorithm, where atlas selection posteriors and deformation parameters are updated iteratively, and polynomial coefficients are computed in closed form. We show results for 3D reconstruction of digital pathology and MRI in standard atlas coordinates. In conjunction with convolutional neural networks, we quantify the 3D density distribution of tauopathy throughout the medial temporal lobe of an Alzheimer{\textquoteright}s disease postmortem specimen.},
+	URL = {https://www.biorxiv.org/content/early/2019/01/04/494005},
+	journal = {bioRxiv}
+}
+@article {Tward604405,
+	author = {Tward, Daniel and Miller, Michael},
+	title = {EM-LDDMM for 3D to 2D registration},
+	year = {2019},
+	doi = {10.1101/604405},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {We examine the problem of mapping dense 3D atlases onto censored, sparsely sampled 2D target sections at micron and meso scales. We introduce a new class of large deformation diffeomorphic metric mapping (LD-DMM) algorithms for generating dense atlas correspondences onto sparse 2D samples by introducing a field of hidden variables which must be estimated representing a large class of target image uncertainties including (i) unknown parameters representing cross stain contrasts, (ii) censoring of tissue due to localized measurements of target subvolumes and (iii) sparse sampling of target tissue sections. For prediction of the hidden fields we introduce the generalized expectation-maximization algorithm (EM) for which the E-step calculates the conditional mean of the hidden variates simultaneously combined with the diffeomorphic correspondences between atlas and target coordinate systems. The algorithm is run to fixed points guaranteeing estimators satisfy the necessary maximizer conditions when interpreted as likelihood estimators. The dense mapping is an injective correspondence to the sparse targets implying all of the 3D variations are performed only on the atlas side with variation in the targets only 2D manipulations.},
+	URL = {https://www.biorxiv.org/content/early/2019/04/10/604405},
+	journal = {bioRxiv}
+}
