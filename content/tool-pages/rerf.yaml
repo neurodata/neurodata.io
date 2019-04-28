@@ -2,6 +2,8 @@ $title: Randomer Forest
 $slug: RerF
 
 github: "neurodata/RerF"
+docs: "https://rerf.neurodata.io"
+installation: "https://rerf.neurodata.io/install.html"
 
 details:
   - heading: "A robust ensemble method"
