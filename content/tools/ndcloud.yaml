@@ -1,0 +1,28 @@
+name: ndcloud
+hide: True
+heading: NeuroData Cloud
+description: "Our infrastructure for hosting neuroimaging data"
+
+packages:
+  - name: "ndex"
+    github: neurodata/ndex
+    lang:
+      - Python
+  - name: "ndweb"
+    github: "neurodata/ndwebtools"
+    lang:
+      - Python
+    link: "https://ndwebtools.neurodata.io"
+  - name: "neuroglancer"
+    github: "neurodata/neuroglancer"
+    lang:
+      - TypeScript
+    link: "https://viz.neurodata.io"
+
+api:
+github:
+docs:
+manuscripts:
+press:
+docker:
+link: !g.url /content/guides/overview.html
