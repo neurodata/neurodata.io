@@ -2,32 +2,33 @@ $title: Zebromes
 $order: 5
 
 description:
-long_description: 
-link: 
+long_description:
+link:
 
 about: A joint project between NeuroData and <a href="https://engertlab.fas.harvard.edu/Z-Brain/#/home/">Florian Engert's lab</a>. This project aims to create and host an open-source atlas of the zebrafish brain, as well as generate a realistic multiscale circuit model of the larval zebrafish brain. The model will span spatial ranges from the nanoscale at the synaptic level, to local microcircuits, to inter-area connectivity. The ultimate goal will be to infer algorithms defining behavior from behavioral assays.
 
 tools:
-- CalmAn
-- ndreg
+  - CalmAn
+  - ndreg
+  - ndcloud
 
 publications:
-- burns2018community
-- hildebrand2017whole
-- randlett2015whole
+  - burns2018community
+  - hildebrand2017whole
+  - randlett2015whole
 
 funding:
-- name: "Sensorimotor processing, decision making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain"
-  link: "http://grantome.com/grant/NIH/U19-NS104653-01"
+  - name: "Sensorimotor processing, decision making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain"
+    link: "http://grantome.com/grant/NIH/U19-NS104653-01"
 
 data:
-- hildebrand17
-- randlett15
-- zbrain_atlas
+  - hildebrand17
+  - randlett15
+  - zbrain_atlas
 
 people:
-- ben
-- jovo
-- florian_engert
-- owen_randlett
-- onyeka_nnaemeka
+  - ben
+  - jovo
+  - florian_engert
+  - owen_randlett
+  - onyeka_nnaemeka
