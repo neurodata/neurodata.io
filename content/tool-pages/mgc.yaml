@@ -23,3 +23,7 @@ pubs:
   - Shen2018
   - lee2017
   - shen2016discovering
+
+slides:
+    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
+    - slide: <a href="https://neurodata.io/talks/mgc-simplex.html" target="_blank">MGC Simplex</a>

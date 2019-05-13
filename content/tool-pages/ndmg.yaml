@@ -20,3 +20,7 @@ pubs:
   - kiar2017comprehensive
   - Kiar2018
   - Kiar2017
+
+slides:
+    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
+    - slide: <a href="http://ericwb.me/lectures/ohbm/ohbm_ndmg.html#/" target="_blank">ndmg OHBM talk</a>
