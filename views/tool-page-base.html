@@ -25,6 +25,17 @@
             </div>
         {% endif %}
 
+        {% if doc.slides %}
+            <div class="slides">
+                <h6>Slides</h6>                
+                {% for item in doc.slides %}
+                    <div class="slides">
+                        <p>{{item.slide|safe}}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
         <p class="center">
             <a href="https://github.com/{{doc.github}}" class="button" id="banner-btn">
                 Get

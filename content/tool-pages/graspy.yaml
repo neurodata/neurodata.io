@@ -18,3 +18,7 @@ details:
 
 pubs:
   - Athreya2018
+
+slides:
+    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
+    - slide: <a href="https://neurodata.io/talks/DiPy19.html" target="_blank">Graspy at DiPy</a>

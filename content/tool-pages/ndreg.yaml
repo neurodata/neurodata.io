@@ -23,3 +23,6 @@ pubs:
   - Kutten2016
   - Tward494005
   - Tward604405
+
+slides:
+    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>

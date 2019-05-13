@@ -19,3 +19,7 @@ pubs:
   - tomita2017roflmao
   - Browne2018
   - Tomita2018
+
+slides:
+    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
+    - slide: <a href="https://neurodata.io/talks/L2F.html" target="_blank">Lifelong Learning Forests</a>
