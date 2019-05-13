@@ -17,7 +17,7 @@ packages:
     github: "neurodata/neuroglancer"
     lang:
       - TypeScript
-    link: "https://viz.neurodta.io"
+    link: "https://viz.neurodata.io"
 
 api:
 github:
