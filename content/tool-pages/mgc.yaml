@@ -7,15 +7,11 @@ installation: "https://mgc.neurodata.io/install.html"
 examples: "https://github.com/neurodata/mgc/tree/master/demos"
 
 details:
-  - heading: "A Powerful Testing Procedure"
-    description: 'Multiscale Graph Correlation (MGC, pronounced "magic") is a nonparametric approach for independence and k-sample testing.'
+  - 'Multiscale Graph Correlation (MGC, pronounced "magic") is a nonparametric approach for independence and k-sample testing.'
 
-  - heading: "An easy-to-use package"
-    description: 'Currently available in <a href="https://github.com/neurodata/mgc">Python</a>, with many other standard independence and k-sample tests included.  Development versions in both R (<a href="https://github.com/neurodata/mgc-r
+  - 'Currently available in <a href="https://github.com/neurodata/mgc">Python</a>, with many other standard independence and k-sample tests included.  Development versions in both R (<a href="https://github.com/neurodata/mgc-r
 ">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC.'
 
-  - heading: "A scalable solution"
-    description: "Our implementations are fast and powerful."
 
 pubs:
   - Vogelstein2018equivalence
@@ -25,5 +21,7 @@ pubs:
   - shen2016discovering
 
 slides:
-    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
-    - slide: <a href="https://neurodata.io/talks/mgc-simplex.html" target="_blank">MGC Simplex</a>
+    - name: NeuroData Tools
+      link: "https://neurodata.io/talks/tools19.html"
+    - name: MGC Simplex
+      link: "https://neurodata.io/talks/mgc-simplex.html"

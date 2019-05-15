@@ -7,18 +7,17 @@ installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
 
 details:
-  - heading: "Statistical Learning on Graphs"
-    description: "Simple, flexible and powerful graph analysis library grounded in statistical theories."
+  - "Simple, flexible and powerful graph analysis library grounded in statistical theories."
 
-  - heading: "User friendliness"
-    description: "GrasPy offers scikit-learn compliant APIs and it provides clear feedback upon user error."
+  - "GrasPy offers scikit-learn compliant APIs and it provides clear feedback upon user error."
 
-  - heading: "Open Source Library"
-    description: "GrasPy is open-source and commercially usable software, and released under Apache-2.0 License."
+  - "GrasPy is open-source and commercially usable software, and released under Apache-2.0 License."
 
 pubs:
   - Athreya2018
 
 slides:
-    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
-    - slide: <a href="https://neurodata.io/talks/DiPy19.html" target="_blank">Graspy at DiPy</a>
+  - name: NeuroData Tools
+    link: "https://neurodata.io/talks/tools19.html"
+  - name: Graspy at DiPy
+    link: "https://neurodata.io/talks/DiPy19.html"
