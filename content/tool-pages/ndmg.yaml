@@ -7,14 +7,11 @@ installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-gui
 examples: "https://hub.docker.com/r/bids/ndmg/"
 
 details:
-  - heading: "Stuctural connectome estimage package and pipeline"
-    description: 'ndmg provides robust and reliable estimates of MRI connectivity across a wide range of datasets at 1mm resolution, across 25 parcellations, ranging in size from 48 to 72,000 nodes, all in MNI152 standard space.'
-  
-  - heading: "Turn-Key Analysis across multiple levels"
-    description: "ndmg is a turn-key pipeline that provides session and group-level analysis, performing connectome estimation and summary statistic computation."
+  - "ndmg provides robust and reliable estimates of MRI connectivity across a wide range of datasets at 1mm resolution, across 25 parcellations, ranging in size from 48 to 72,000 nodes, all in MNI152 standard space."
 
-  - heading: "Robust and reliable"
-    description: "ndmg runs reliably and robustly datasets spanning multiple scanners, acquisition parameters, and population demographics."
+  - "ndmg is a turn-key pipeline that provides session and group-level analysis, performing connectome estimation and summary statistic computation."
+
+  - "ndmg runs reliably and robustly datasets spanning multiple scanners, acquisition parameters, and population demographics."
 
 pubs:
   - kiar2017comprehensive
@@ -22,5 +19,7 @@ pubs:
   - Kiar2017
 
 slides:
-    - slide: <a href="https://neurodata.io/talks/tools19.html" target="_blank">NeuroData Tools</a>
-    - slide: <a href="http://ericwb.me/lectures/ohbm/ohbm_ndmg.html#/" target="_blank">ndmg OHBM talk</a>
+  - name: NeuroData Tools
+    link: "https://neurodata.io/talks/tools19.html"
+  - name: ndmg OHBM talk
+    link: "http://ericwb.me/lectures/ohbm/ohbm_ndmg.html"

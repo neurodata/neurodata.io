@@ -1,4 +1,4 @@
-{% set stylesheet=g.static('/source/css/tool-page.3.css').url.path %}
+{% set stylesheet=g.static('/source/css/tool-page.4.css').url.path %}
 {% include 'partials/base_head_partial.html' %}
 
 <body>
@@ -10,30 +10,31 @@
                 {{doc.title}}
             </h2>
         </a>
-        {% for item in doc.details %}
-            <div class="detail">
-                <h4>{{item.heading}}</h4>
-                <p>{{item.description|safe}}</p>
-            </div>
-        {% endfor %}
+        
+        <div class="detail">
+            {% for item in doc.details %}
+                <p>{{item|safe}}</p>
+            {% endfor %}
+        </div>
 
         {% if doc.pubs %}
             <div class="pubs">
-                <h6>Publications</h6>                
+                <h6>Publications</h6>
                 {% set pubs = doc.pubs %}
+                {% set index_items = true %}
                 {% include 'partials/pubs_list.html' %}
             </div>
         {% endif %}
 
         {% if doc.slides %}
-            <div class="slides">
-                <h6>Slides</h6>                
-                {% for item in doc.slides %}
-                    <div class="slides">
-                        <p>{{item.slide|safe}}</p>
-                    </div>
-                {% endfor %}
-            </div>
+        <div class="pubs">
+            <h6>Slides</h6>
+            <ol>
+            {% for item in doc.slides %}
+                <li><a target="_blank" href={{item.link}}>{{item.name}}</a></li>
+            {% endfor %}
+            </ol>
+        </div>
         {% endif %}
 
         <p class="center">
