@@ -21,7 +21,10 @@ pubs:
   - shen2016discovering
 
 slides:
-    - name: NeuroData Tools
-      link: "https://neurodata.io/talks/tools19.html"
-    - name: MGC Simplex
-      link: "https://neurodata.io/talks/mgc-simplex.html"
+  - name: "Discovering and deciphering relationships across disparate data modalities"
+    link: "https://neurodata.io/talks/mgc.html"
+    header: true
+  - name: NeuroData Tools
+    link: "https://neurodata.io/talks/tools19.html"
+  - name: MGC Simplex
+    link: "https://neurodata.io/talks/mgc-simplex.html"
