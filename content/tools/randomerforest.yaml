@@ -1,4 +1,31 @@
+$title: Randomer Forest
+$slug: RerF
 $order: 3
+
+github: "neurodata/RerF"
+docs: "https://rerf.neurodata.io"
+installation: "https://rerf.neurodata.io/install.html"
+
+details:
+  - "Randomer Forest combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
+
+  - "Currently available for R and Python, Randomer Forest is supported on Windows, Linux, and Mac OS."
+
+  - "Randomer Forest is optimized for both speed and memory performance through native implementation and multicore parallelization."
+
+pubs:
+  - tomita2017roflmao
+  - Browne2018
+  - Tomita2018
+
+slides:
+  - name: NeuroData Tools
+    link: "https://neurodata.io/talks/tools19.html"
+  - name: Lifelong Learning Forests
+    link: "https://neurodata.io/talks/L2F.html"
+
+featured: True
+
 name: Randomer Forest
 heading: Classification and regression
 description: Randomer Forest is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
@@ -13,12 +40,9 @@ lang:
   - Cpp
 
 api:
-github: neurodata/RerF
-docs: https://github.com/neurodata/R-RerF/blob/staging/README.md
 manuscripts:
   - Tomita2018
   - tomita2017roflmao
   - Browne2018
 press:
 download: https://cran.r-project.org/web/packages/rerf/index.html
-link: !g.url /content/tool-pages/rerf.yaml

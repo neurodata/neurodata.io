@@ -1,17 +1,37 @@
-$order: 5
+$title: Linear Optimal Low Rank Projections (LOL)
+$slug: LOL
+$order: 6
+
+github: "neurodata/lol"
+installation: "https://github.com/neurodata/lol#installation-guide"
+examples: "https://github.com/neurodata/lol#demo"
+
+details:
+  - "LOL is a robust and powerful for learning lower-dimensional representation in high-dimensional, low sample size setting."
+
+  - 'Currently available in <a href="https://github.com/neurodata/lol">R</a> and <a href="https://github.com/neurodata/lollipop">Python</a>.
+    Both packages are currently supported for Linux, MacOS and Windows.'
+
+  - "LOL is commercial open-source software and released under Apache-2.0 License."
+
+pubs:
+  - vogelstein2017linear
 name: LOL
+
+featured: True
+
 packages:
-- name: "lolR"
-  github: "neurodata/LOL"
-  lang: 
-  - R
-  docs: https://github.com/neurodata/lol/blob/master/README.md
-  download: https://cran.r-project.org/web/packages/lolR/
-- name: "lolP"
-  github: "neurodata/lollipop"
-  lang: 
-  - Python
-  download: https://pypi.org/project/lolp/
+  - name: "lolR"
+    github: "neurodata/LOL"
+    lang:
+      - R
+    docs: https://github.com/neurodata/lol/blob/master/README.md
+    download: https://cran.r-project.org/web/packages/lolR/
+  - name: "lolP"
+    github: "neurodata/lollipop"
+    lang:
+      - Python
+    download: https://pypi.org/project/lolp/
 heading: Supervised dimensionality reduction
 description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
 
@@ -19,9 +39,7 @@ cloud: False
 local: True
 type: "vectors"
 
-api: 
-manuscripts: 
-- vogelstein2017linear
-press: 
-
-
+api:
+manuscripts:
+  - vogelstein2017linear
+press:
