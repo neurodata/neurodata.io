@@ -1900,6 +1900,15 @@ blockquote {
     padding-bottom: 20px;
 }
 
+.tools-page h6 {
+    font-size: 1.3rem;
+}
+
+.tools-page ul {
+    margin: 0;
+    padding: 0;
+}
+
 .collapsible {
     width: 100%;
     cursor: pointer;

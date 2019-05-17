@@ -8,23 +8,20 @@ $order: 3
 
 <div class="tools-page">
     <div class="group">
-        <h3>Vectors</h3>
-        {% for item in g.docs('tools') if item.type == "vectors" and item.local and not item.hide %}
-            {% include 'partials/tools_detail_list.html'%}
-        {% endfor %}
+        <h3>Featured</h3>
+        <ul>
+            {% for item in g.docs('tools') if item.featured %}
+                <li><h6><a href="{{item.url.path}}">{{item.name}} ({{item.heading}})</a></h6>
+                <p>{{item.description}}</p>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 
     <div class="group">
-        <h3>Graphs</h3>
-        {% for item in g.docs('tools') if item.type == "graphs" and not item.cloud and not item.hide %}
-            {% include 'partials/tools_detail_list.html'%} 
-        {% endfor %}
-    </div>
-    
-    <div class="group">
-            <h3>Images</h3>
-        {% for item in g.docs('tools') if item.type == "images" and not item.cloud and not item.hide %}
-            {% include 'partials/tools_detail_list.html'%} 
+        <h3>Others</h3>
+        {% for item in g.docs('tools') if not item.featured and not item.hide %}
+            {% include 'partials/tools_detail_list.html'%}
         {% endfor %}
     </div>
 </div>

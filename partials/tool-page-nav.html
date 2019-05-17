@@ -8,6 +8,14 @@
     </div>
 
     <div class="links">
+        {% if doc.slides %}
+            {% for slide in doc.slides if slide.header %}
+                <a href="{{slide.link}}">
+                    <h5 class="view-wide">Slides</h5>
+                    <img class="view-narrow" src="{{g.static('/source/images/slides.png').url.path}}">
+                </a>
+            {% endfor %}
+        {% endif %}
         {% if doc.docs %}
         <a href="{{doc.docs}}">
             <h5 class="view-wide">Docs</h5>

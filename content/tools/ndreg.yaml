@@ -1,7 +1,34 @@
-$order: 2
+$title: "Neurodata's Image Registration Tool"
+$slug: ndreg
+$order: 5
+
+github: "neurodata/ndreg"
+docs: "https://ndreg.readthedocs.io/en/latest/"
+installation: "https://github.com/neurodata/ndreg"
+examples: "https://github.com/neurodata/ndreg/blob/master/ndreg_demo_real_data.ipynb"
+
+details:
+  - "Affine and Large Deformation Diffeomorphic Metric Mapping (LDDMM) is a non-linear image registration method."
+
+  - 'Currently available in <a href="https://github.com/neurodata/ndreg">Python</a>'
+
+pubs:
+  - kutten2016deformably
+  - kutten2017large
+  - Kutten2016b
+  - Kutten2016
+  - Tward494005
+  - Tward604405
+
+slides:
+  - name: NeuroData Tools
+    link: "https://neurodata.io/talks/tools19.html"
 name: ndreg
-lang: 
-- Python
+
+featured: True
+
+lang:
+  - Python
 heading: Image registration
 description: ndreg is a Python package that performs non-linear affine and deformable image registration.
 
@@ -9,12 +36,9 @@ cloud: False
 local: True
 type: "images"
 
-api: 
-github: neurodata/ndreg
-docs: 
+api:
 manuscripts:
-- kutten2016deformably
-- kutten2017large
-press: 
+  - kutten2016deformably
+  - kutten2017large
+press:
 docker: https://hub.docker.com/r/neurodata/ndreg/
-link: !g.url /content/tool-pages/ndreg.yaml
