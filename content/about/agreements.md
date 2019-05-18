@@ -18,9 +18,9 @@ We agree that family and health take priority, but after that, our research does
 We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [JHU Code of Conduct](https://studentaffairs.jhu.edu/policies/student-code/) at all times.
 
 
-#### Honesty and Safety
+#### Radical Honesty and Safety
 
-We agree to speak with one another [honestly](http://www.toltecspirit.com/four-agreements/impeccable-word/), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times.
+We agree to speak with one another [honestly](http://www.toltecspirit.com/four-agreements/impeccable-word/), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open and fashion. 
 
 
 #### Daily Presence
@@ -78,9 +78,8 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 
 
-### Aspirational Agreements
 
-
+## Other Kinds of Agreements
 
 
 #### Impeccable Agreements
@@ -102,14 +101,22 @@ On this team, we agree that all our agreements to be impeccable. When we make an
 
 
 
-### Agreements for Some
 
 #### Daily Standups
 
-To (1) keep us accountable to our daily goals, (2) improve our ability to assess how much energy different tasks take, (3) prioritize on the basis of our longer term goals, rather than fleeting distractions such as emails, (4) keep the team in the loop, so we can build upon one another's work, and (5) keep each other in alignment with our own goals and values, as well as the team's some of us agree to participate in [daily standups](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) on most days.
-We typically state the degree to which we completed our previous commitment, and state our new commitment of the day.
-We usually do them in slack at [#standup](https://neurodata.slack.com/messages/standup/) slack channel.  
+The goals of daily standups include:  
+1. keep us accountable to our daily goals, 
+2. improve our ability to assess how much energy different tasks take, 
+3. prioritize on the basis of our longer term goals, rather than fleeting distractions such as emails, 
+4. keep the team in the loop, so we can build upon one another's work, and 
+5. keep each other in alignment with our own goals and values, as well as the team's some of us agree to participate in [daily standups](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) on most days.
 
+The process is that each morning, in the [#standup](https://neurodata.slack.com/messages/standup/) slack channel, we state 
+1. the degree to which we completed our previous commitment, 
+2. provide a link to the code/analysis (if its not obvious), and 
+3. state our new commitment of the day.
+
+Note that the daily "commitment" is not a goal, it is something that you are actually committed to completing for the day, ie, it is your top research priority for the day.
 
 
 
@@ -120,7 +127,7 @@ All senior trainees (research faculty, postdocs, and senior graduate students) a
 
 ### Jovo Agreements
 
-1. funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing",
+1. funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing" (see https://bitsandbrains.io/2018/08/31/sig-and-feas.html for tips on how to choose a project),
 2. prioritizing your personal and professional success over everything else in my life after my family & career
 3. providing the best mentorship i can
 4. [sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
