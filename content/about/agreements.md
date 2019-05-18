@@ -35,6 +35,7 @@ Some links that might be useful to understand best practices for giving and rece
 - [feedback that works](https://hbr.org/2009/04/feedback-that-works)
 - [useful feedback](https://hbr.org/2017/10/how-to-give-feedback-people-can-actually-use)
 - [structuring feedback conversations](https://hbr.org/2017/07/how-adobe-structures-feedback-conversations)
+- [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 
 #### Daily Presence
