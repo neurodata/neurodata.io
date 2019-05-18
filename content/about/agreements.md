@@ -7,7 +7,7 @@ We, the  NeuroData Family (NDF), each agree to all of the below commitments.  Th
 
 [TOC]
 
-### Agreements for All
+# 10 Agreements
 
 #### All In
 
@@ -25,11 +25,16 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Honest Frequent Feedback for Up & Down Management
 
-Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. Much reseach of productive feedback has been conducted, HBR has a nice article on [feedback that works](https://hbr.org/2009/04/feedback-that-works) which is a little of the mark, but might help. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the next day.  The general flow of the conversation would go like this:
+Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the next day.  The general flow of the conversation would go like this:
 1. State the facts, e.g., "i failed to sleep", 
 2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date",  
 3. inquire about the other side of the story, e.g.,  "what do you think is going on", and 
 4. end the meeting with a concrete change, e.g., a change in perspective or a change in behavior.   
+
+Some links that might be useful to understand best practices for giving and receiving feedback include
+- [feedback that works](https://hbr.org/2009/04/feedback-that-works)
+- [useful feedback](https://hbr.org/2017/10/how-to-give-feedback-people-can-actually-use)
+- [structuring feedback conversations](https://hbr.org/2017/07/how-adobe-structures-feedback-conversations)
 
 
 #### Daily Presence
@@ -81,10 +86,17 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 #### Annual Reviews
 
 
-
 We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss.
 
 
+#### Annual Productivity	
+
+Depending on the "stage" of our careers, and our career objectives, we have different milestones and deliverables. But annual productivity is a crucial component of any career development.  We therefore conditionally agree to the following:
+
+- *MSE students*: submit a first author publication before graduation 
+- *PhD students*: submit a first author publication once per each of the last three years of the PhD
+- *Postdocs*: submit a first author publication once per year **and** be key personnel on at least one grant application (make sure you have a target solicitation >2 months in advance) 
+- *Research staff*: take ownership of a new development year-long development "project" 
 
 
 
@@ -110,7 +122,6 @@ On this team, we agree that all our agreements to be impeccable. When we make an
 
 
 
-
 #### Daily Standups
 
 The goals of daily standups include:  
@@ -131,15 +142,11 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 
 
 
-### Annual Funding Application
-
-All senior trainees (research faculty, postdocs, and senior graduate students) agree to be involved in at least one funding application to get practice and money. Make sure you have a target solicitation >2 months in advance.
-
 
 ### Jovo Agreements
 
 1. funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
 2. prioritizing your personal and professional success over everything else in my life after my family & career
-3. providing the best mentorship i can
+3. receive annual feedback from all members of the team with an open mind
 4. [sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
 
