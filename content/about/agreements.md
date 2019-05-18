@@ -15,12 +15,17 @@ We agree that family and health take priority, but after that, our research does
 
 #### Respect
 
-We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [JHU Code of Conduct](https://studentaffairs.jhu.edu/policies/student-code/) at all times.
+We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) at all times.
 
 
 #### Radical Honesty and Safety
 
-We agree to speak with one another [honestly](http://www.toltecspirit.com/four-agreements/impeccable-word/), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open and fashion. 
+We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open and fashion. 
+
+
+##### Up Management
+
+The "management" is imperfect in many ways, maybe all ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors with open, reliable, insight into our experience of our work and work environment. For example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), to tell our supervisor the next day.  Not as a complaint, but rather, as providing information that the receiver of this information surely does desire to know, so that as a team, we can revise as appropriate. 
 
 
 #### Daily Presence
@@ -85,11 +90,11 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 #### Impeccable Agreements
 
 
-On this team, we agree that all our agreements to be impeccable. When we make an agreement, it will have the following properties:
+On this team, we agree that all our agreements to be impeccable. When we make an agreement, it will have the following properties (adapted from [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/):
 
 1. Document somewhere (e.g., [asana](https://app.asana.com) accessible to all stakeholders, including exactly the [definition of done](https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-(dod)), by whom, by when, possibly why
 2. Discuss aiming for a full-body yes:
-    - All parties to the agreement must be free to say no (though not without consequences).
+    - All parties to the agreement must be free to say no (though not necessarily without consequences).
     - Full body yes is the goal, admittedly, the bar is high.
 3. Revise as soon as you realize you cannot meet all aspects of the original agreement.
     - You can renegotiate the scope, the form, or by when.
@@ -116,7 +121,9 @@ The process is that each morning, in the [#standup](https://neurodata.slack.com/
 2. provide a link to the code/analysis (if its not obvious), and 
 3. state our new commitment of the day.
 
-Note that the daily "commitment" is not a goal, it is something that you are actually committed to completing for the day, ie, it is your top research priority for the day.
+Note that the daily "commitment" is not a goal, it is something that you are actually committed to completing for the day, ie, it is your top research priority for the day. 
+
+Each of us can "opt-in" and "opt-out" of daily standups for any period of time.  However, the expectation is that if you do opt-in, you do so for an explicit period of time, and you do so daily. 
 
 
 
@@ -127,7 +134,7 @@ All senior trainees (research faculty, postdocs, and senior graduate students) a
 
 ### Jovo Agreements
 
-1. funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing" (see https://bitsandbrains.io/2018/08/31/sig-and-feas.html for tips on how to choose a project),
+1. funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
 2. prioritizing your personal and professional success over everything else in my life after my family & career
 3. providing the best mentorship i can
 4. [sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
