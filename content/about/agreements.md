@@ -23,9 +23,13 @@ We agree to make everyone feel welcome, regardless of the physical, mental, emot
 We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open and fashion. 
 
 
-##### Up Management
+#### Honest Frequent Feedback for Up & Down Management
 
-The "management" is imperfect in many ways, maybe all ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors with open, reliable, insight into our experience of our work and work environment. For example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), to tell our supervisor the next day.  Not as a complaint, but rather, as providing information that the receiver of this information surely does desire to know, so that as a team, we can revise as appropriate. 
+Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. Much reseach of productive feedback has been conducted, HBR has a nice article on [feedback that works](https://hbr.org/2009/04/feedback-that-works) which is a little of the mark, but might help. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the next day.  The general flow of the conversation would go like this:
+1. State the facts, e.g., "i failed to sleep", 
+2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date",  
+3. inquire about the other side of the story, e.g.,  "what do you think is going on", and 
+4. end the meeting with a concrete change, e.g., a change in perspective or a change in behavior.   
 
 
 #### Daily Presence
