@@ -37,6 +37,7 @@ redirects = [
     ['project/projectomes', 'mri-cloud/'],
     ['data', 'ndcloud/'],
     ['RerF', 'rerf/'],
+    ['randomerforest', 'rerf/'],
 ]
 
 
