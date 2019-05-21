@@ -1,7 +1,6 @@
-$order: 3
 name: oopsi
-lang: 
-- Matlab
+lang:
+  - Matlab
 heading: Calcium Spike Sorting
 description: oopsi is a tool for performing model-based spike train inference from calcium imaging. OOPSI has now been subsumed by <a href="https://github.com/flatironinstitute/CaImAn">CaImAn</a>.
 
@@ -9,8 +8,8 @@ cloud: False
 local: True
 type: "images"
 
-api: 
+api:
 github: jovo/oopsi
 docs: https://github.com/jovo/oopsi/wiki/FAQ
-manuscripts: 
-press: 
+manuscripts:
+press:

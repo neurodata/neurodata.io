@@ -1,8 +1,7 @@
 $path: /nd_cloud/
 name: ndcloud
-hide: True
 heading: NeuroData Cloud
-description: "Our infrastructure for hosting neuroimaging data"
+description: "Enabling big-data neuroscience"
 
 packages:
   - name: "ndex"
