@@ -1,25 +1,24 @@
-$order: 2
 name: knor
 heading: Clustering
-description: knorR is a highly optimized and fast library for computing k-means in parallel with accelerations for Non-Uniform Memory Access ('NUMA') architectures. 
+description: knorR is a highly optimized and fast library for computing k-means in parallel with accelerations for Non-Uniform Memory Access ('NUMA') architectures.
 
 packages:
-- name: knorR
-  lang: 
-  - R
-  github: neurodata/knorR
-  download: https://cran.r-project.org/web/packages/knor/index.html
-  api: https://cran.r-project.org/web/packages/knor/knor.pdf
-- name: knorPy
-  lang: 
-  - Python
-  github: flashxio/knorPy
-  download: https://pypi.org/project/knor/
+  - name: knorR
+    lang:
+      - R
+    github: neurodata/knorR
+    download: https://cran.r-project.org/web/packages/knor/index.html
+    api: https://cran.r-project.org/web/packages/knor/knor.pdf
+  - name: knorPy
+    lang:
+      - Python
+    github: flashxio/knorPy
+    download: https://pypi.org/project/knor/
 
 cloud: False
 local: True
 type: "vectors"
 
 github: flashxio/knor
-manuscripts: 
-- mhembere2017knor
+manuscripts:
+  - mhembere2017knor

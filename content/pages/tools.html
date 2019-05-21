@@ -20,7 +20,7 @@ $order: 3
 
     <div class="group">
         <h3>Others</h3>
-        {% for item in g.docs('tools') if not item.featured and not item.hide %}
+        {% for item in g.docs('tools', order_by='name')|sort(attribute='name', case_sensitive=false) if not item.featured and not item.hide %}
             {% include 'partials/tools_detail_list.html'%}
         {% endfor %}
     </div>

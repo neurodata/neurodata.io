@@ -1,7 +1,6 @@
-$order: 5
 name: SynapseAnalysis
-lang: 
-- Python
+lang:
+  - Python
 heading: Synapse Detection
 description: SynapseAnalysis (PSD) is a framework to evaluate synaptic antibodies for fluorescence array tomography (AT)
 
@@ -9,11 +8,10 @@ cloud: False
 local: True
 type: images
 
-link: 
-api: 
+link:
+api:
 github: aksimhal/SynapseAnalysis
 docs: https://aksimhal.github.io/SynapseAnalysis/
-manuscripts: 
-- simhal2017probabilistic
-press: 
-  
+manuscripts:
+  - simhal2017probabilistic
+press:

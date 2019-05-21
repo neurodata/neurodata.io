@@ -1,4 +1,3 @@
-$order: 4
 name: FlashX
 heading: Scalable machine learning
 description: FlashX are big data analytics tools that perform data analytics in the form of graphs and matrices!
@@ -10,5 +9,5 @@ type: "vectors"
 api: https://flashxio.github.io/FlashX-doc/FlashX-API.html
 github: flashxio/FlashX
 docs: https://flashxio.github.io/FlashX-doc/
-manuscripts: 
-press: 
+manuscripts:
+press:
