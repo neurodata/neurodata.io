@@ -18,7 +18,7 @@ details:
 ">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC.'
 
 
-pubs:
+manuscripts:
   - Vogelstein2018equivalence
   - Wang2018
   - Shen2018
@@ -57,6 +57,4 @@ local: True
 type: "vectors"
 
 api:
-manuscripts:
-  - shen2016discovering
 press:

@@ -14,7 +14,7 @@ details:
 
   - "ndmg runs reliably and robustly datasets spanning multiple scanners, acquisition parameters, and population demographics."
 
-pubs:
+manuscripts:
   - kiar2017comprehensive
   - Kiar2018
   - Kiar2017
@@ -38,6 +38,5 @@ local: True
 type: "images"
 
 api:
-manuscripts:
 press:
 docker: https://hub.docker.com/r/neurodata/ndmg/

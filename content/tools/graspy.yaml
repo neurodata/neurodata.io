@@ -14,7 +14,7 @@ details:
 
   - "GrasPy is open-source and commercially usable software, and released under Apache-2.0 License."
 
-pubs:
+manuscripts:
   - Athreya2018
 
 slides:
@@ -47,6 +47,5 @@ local: True
 type: "graphs"
 
 api:
-manuscripts:
 press:
 docker:

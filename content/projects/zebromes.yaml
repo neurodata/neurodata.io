@@ -9,7 +9,7 @@ about: A joint project between NeuroData and <a href="https://engertlab.fas.harv
 
 tools:
   - CalmAn
-  - ndreg
+  - reg
   - ndcloud
 
 publications:

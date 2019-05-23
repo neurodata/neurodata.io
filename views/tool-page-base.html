@@ -17,10 +17,10 @@
             {% endfor %}
         </div>
 
-        {% if doc.pubs %}
+        {% if doc.manuscripts %}
             <div class="pubs">
                 <h6>Publications</h6>
-                {% set pubs = doc.pubs %}
+                {% set pubs = doc.manuscripts %}
                 {% set index_items = true %}
                 {% include 'partials/pubs_list.html' %}
             </div>
