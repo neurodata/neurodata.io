@@ -3,9 +3,9 @@ $title@: Agreements
 $order: 5
 ---
 
-We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
-
 [TOC]
+
+We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
 
 #### All In
 
@@ -128,7 +128,7 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 
 
 
-#### The definition of an Impeccible Agreement (which is our goal for all agreements):
+#### The definition of an Impeccible Agreement (which is our goal for all agreements)
 
 On this team, we agree that all our agreements to be impeccable. When we make an agreement, it will have the following properties (adapted from [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/):
 
