@@ -14,7 +14,7 @@ details:
 
   - "LOL is commercial open-source software and released under Apache-2.0 License."
 
-pubs:
+manuscripts:
   - vogelstein2017linear
 name: LOL
 
@@ -40,6 +40,4 @@ local: True
 type: "vectors"
 
 api:
-manuscripts:
-  - vogelstein2017linear
 press:

@@ -23,6 +23,12 @@ api:
 github:
 docs:
 manuscripts:
+  - burns2013open
+  - burns2014cosmos
+  - Vogelstein2016
+  - kleissas2017block
+  - burns2018community
+  - vogelstein2011q
 press:
 docker:
 link: !g.url /content/guides/overview.html

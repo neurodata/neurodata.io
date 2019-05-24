@@ -12,7 +12,7 @@ details:
 
   - "Randomer Forest is optimized for both speed and memory performance through native implementation and multicore parallelization."
 
-pubs:
+manuscripts:
   - tomita2017roflmao
   - Browne2018
   - Tomita2018
@@ -39,9 +39,5 @@ lang:
   - Cpp
 
 api:
-manuscripts:
-  - Tomita2018
-  - tomita2017roflmao
-  - Browne2018
 press:
 download: https://cran.r-project.org/web/packages/rerf/index.html

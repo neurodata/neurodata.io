@@ -38,6 +38,7 @@ redirects = [
     ['data', 'ndcloud/'],
     ['RerF', 'rerf/'],
     ['randomerforest', 'rerf/'],
+    ['ndreg', 'reg/'],
 ]
 
 

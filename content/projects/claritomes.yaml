@@ -9,7 +9,7 @@ about: A joint project between Neurodata and <a href="https://web.stanford.edu/g
 
 tools:
   - ndcloud
-  - ndreg
+  - reg
 
 publications:
   - kutten2017large

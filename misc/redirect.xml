@@ -241,4 +241,15 @@
       <ReplaceKeyWith>rerf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>ndreg</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>reg/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
 </RoutingRules>
