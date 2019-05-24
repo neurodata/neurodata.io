@@ -1364,23 +1364,33 @@ blockquote {
     flex-direction: row;
 }
 
-.docs .guides-sidebar {
+.docs .guides-sidebar,
+.detail-wrap.list .guides-sidebar {
     flex: 1;
     order: 2;
 
     display: flex;
     flex-direction: column;
 
+    margin-left: 5px;
+
+    max-width: 300px;
+}
+
+.docs .guides-sidebar {
     max-width: 300px;
     position: -webkit-sticky;
     position: sticky;
     top: 138px;
     height: 100px;
-
-    margin-left: 5px;
 }
 
-.docs .guides-sidebar>div {
+.detail-wrap.list h3 {
+    font-family: "Gentona Bold", "Arial Bold", sans-serif;
+}
+
+.docs .guides-sidebar>div,
+.detail-wrap.list .guides-sidebar>div {
     display: inline-table;
     flex: 1;
 
@@ -1388,15 +1398,18 @@ blockquote {
     width: 100%;
 }
 
-.docs .guides-sidebar .toc_column {
+.docs .guides-sidebar .toc_column,
+.detail-wrap.list .toc_column {
     border: #dadaeb 3px solid;
     color: #222;
     background: #efedf5;
 }
 
-.docs .guides-sidebar .toc_column h3 {
+.docs .guides-sidebar .toc_column h3,
+.detail-wrap.list .toc_column h3 {
     background: #dadaeb;
     padding: 0px 5px;
+    margin: 0;
 }
 
 .toc ul,
@@ -1440,7 +1453,8 @@ blockquote {
     }
 }
 
-.docs .help-content {
+.docs .help-content,
+.detail-wrap.list .help-content {
     flex: 1;
     order: 1;
     max-width: 80%;
@@ -2762,6 +2776,11 @@ blockquote {
     transition: max-height 0.2s ease-out;
 }
 
+.detail-wrap.list {
+    display: flex;
+    flex-direction: row;
+}
+
 .detail-wrap.list ul,
 .detail-wrap.list ol,
 .detail-wrap.list li {
@@ -3380,11 +3399,13 @@ blockquote {
         padding: 0 10px;
     }
 
-    .docs {
+    .docs,
+    .detail-wrap.list {
         display: block;
     }
 
-    .docs .guides-sidebar {
+    .docs .guides-sidebar,
+    .detail-wrap.list .guides-sidebar {
         max-width: none;
         width: 100%;
         margin: 0;
@@ -3394,12 +3415,14 @@ blockquote {
         height: auto;
     }
 
-    .docs .guides-sidebar>div {
+    .docs .guides-sidebar>div,
+    .detail-wrap .guides-sidebar>div {
         width: 100%;
         margin: 10px 0;
     }
 
-    .docs .help-content {
+    .docs .help-content,
+    .detail-wrap.list .help-content {
         max-width: 100%;
     }
 }
