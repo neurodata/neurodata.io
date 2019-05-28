@@ -18,6 +18,10 @@ manuscripts:
   - vogelstein2017linear
 name: LOL
 
+slides:
+  - name: LOL
+    link: "https://neurodata.io/talks/LOL-paper.html"
+
 featured: True
 
 packages:
