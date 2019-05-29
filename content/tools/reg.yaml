@@ -13,8 +13,6 @@ details:
   - 'An example jupyter notebook from A. Branch et al. (2019) can be found <a href="https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blob/master/Example_iDISCO_rat_waxholm.ipynb">here</a>.'
 
 manuscripts:
-  - kutten2016deformably
-  - kutten2017large
   - Kutten2016b
   - Kutten2016
   - Tward494005
