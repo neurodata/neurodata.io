@@ -7,13 +7,15 @@ $order: 5
 
 We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
 
+## Agreements for All
+
 #### All In
 
 We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
 #### Respect
 
-We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) at all times.
+We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) while "at work" (which means at school, or at any school sponsored effects).
 
 #### Radical Honesty and Safety
 
@@ -21,7 +23,7 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Honest Frequent Feedback
 
-Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  The general flow of the conversation would go like this:
+Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  I find that about 1 day later is about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -37,7 +39,16 @@ Some links that might be useful to understand best practices for giving and rece
 
 #### Daily Presence
 
-We agree to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open). Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to spend several (e.g., >4) business hours each working day in lab unless agreed upon. If you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows. Your most valuable resource while on this team is the team itself.
+Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
+- to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
+- we respond to one another within one school day, 
+- other hours/days, there is no expectation of responding to email/slack
+- while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
+- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli, 
+- if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
+- up to 1 day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
+
+Your most valuable resource while on this team is the team itself.   
 
 #### Weekly Sub-Group Meetings
 
@@ -56,6 +67,7 @@ We agree to be around the lab *many* working hours each day (approximately 10am 
   		- For each accomplished task, a research artefact documenting progress (a screencap, proof, figure, etc.)   
   		- Proposed list of commitments for the following week
 	- Listen and provide constructive feedback to your teammates as appropriate
+- One person is designated to post a link to the slides each week to get contributions, typically the youngest PhD student on the team.  The preferred practice is to simply copy last week's slides, so that everybody can see what they wrote last week and update accordingly.
 
 
 #### Weekly Lunches
@@ -66,7 +78,7 @@ So we all get a more broad view of team activities, we agree to have 1 hour for 
 
 To facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback,
 check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate,
-we agree to have quarterly check-ins.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal should be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  
+we agree to have quarterly check-ins.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal should be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
 
 #### Semi-Annual Retreats
 
@@ -74,14 +86,14 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July.
 
 
 ## Other Kinds of Agreements
 
 ### Supervisor Agreements
 
-1. Funding everybody to work on stuff within the union of "stuff he cares about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
+1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
 2. Prioritizing your personal and professional success over everything else in my life after my family & career
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
@@ -91,15 +103,31 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 ### Trainnee Agreements
 
-#### Annual Productivity
 
 Depending on the "stage" of our careers, and our career objectives, we have different milestones and deliverables. But annual productivity is a crucial component of any career development.  We therefore conditionally agree to the following:
 
+#### Publications
+
 - *MSE students*: submit a first author publication before graduation 
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
-- *Postdocs*: submit a first author publication once per year **and** be key personnel on at least one grant application (make sure you have a target solicitation >2 months in advance)
+- *Postdocs*: submit a first author publication once per year
 - *Research staff*: take ownership of a new development year-long development "project"
 
+#### Conferences
+
+Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
+- you will present your work via some mechanism (posters, talks, or boothing) are basically required, and
+- for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
+- for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
+
+
+
+
+#### Grants
+
+Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance
+ 
+ 
 #### Research Prioritees
 
 In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority. 
