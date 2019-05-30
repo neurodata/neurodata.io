@@ -128,7 +128,7 @@ Each team member will present at >=1 conference per year to get feedback, networ
 Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance
  
  
-#### Research Prioritees
+#### Research Priorities
 
 In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority. 
 
