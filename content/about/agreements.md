@@ -82,7 +82,7 @@ we agree to have quarterly check-ins.  In these meetings will we re-assess quart
 
 #### Semi-Annual Retreats
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (that means 1 beach retreat, and 1 ski retreat probably).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
+To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
 
 #### Annual Reviews
 
@@ -116,7 +116,7 @@ Depending on the "stage" of our careers, and our career objectives, we have diff
 #### Conferences
 
 Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
-- you will present your work via some mechanism (posters, talks, or boothing) are basically required, and
+- presentation of your work via some mechanism (posters, talks, or boothing), and
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
 - for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
 
