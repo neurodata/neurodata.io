@@ -46,7 +46,7 @@ Our experience dictates that in person communication and happenstance meetings d
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
 - any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli, 
 - if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
-- up to 1 day per week working from home is acceptable without explicit permission, additional working from home days any given week must be explicitly approved.
+- up to 1 day per week working from home will typically be acceptable with explicit permission, additional working from home days any given week must be justified.
 
 Your most valuable resource while on this team is the team itself.   
 
