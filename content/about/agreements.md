@@ -13,6 +13,17 @@ We, the NeuroData Family (NDF), each agree to all of the below commitments. Thes
 
 We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
+#### Maximally Intrinsically Motivated for Successful Mission Critical Research
+
+
+In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
+
+1. the project is highly significant with respect to our mission,
+2. given my current resources, my estimate of the probability that I can satisfactorily "complete" this project is high (which includes shooting for the stars and landing on a mountain, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
+3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrisic motivation I feel with respect to each. 
+
+To state the contra-positive, if I were more motivated to work on some other problem outside the purview of the mission of NeuroData, or could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then the NeuroData team is better suited to be my friend.
+
 #### Respect
 
 We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) while "at work" (which means at school, or at any school sponsored effects).
