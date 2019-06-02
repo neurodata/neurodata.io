@@ -22,7 +22,7 @@ In the context of each of our research goals, we may have many different interes
 2. given my current resources, my estimate of the probability that I can satisfactorily "complete" this project is high (which includes shooting for the stars and landing on a mountain, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
 3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrisic motivation I feel with respect to each. 
 
-If you were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or could not find a project that you were likely to succeed in, then you may want to be our friend more than join our team.
+If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends).
 
 #### Respect
 
