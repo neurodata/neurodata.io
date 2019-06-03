@@ -20,9 +20,7 @@ manuscripts:
   - Kiar2017
 
 slides:
-  - name: NeuroData Tools
-    link: "https://neurodata.io/talks/tools19.html"
-  - name: ndmg OHBM talk
+  - name: ndmg
     link: "http://ericwb.me/lectures/ohbm/ohbm_ndmg.html"
 name: ndmg
 

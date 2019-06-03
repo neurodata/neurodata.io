@@ -18,10 +18,8 @@ manuscripts:
   - Tomita2018
 
 slides:
-  - name: NeuroData Tools
-    link: "https://neurodata.io/talks/tools19.html"
-  - name: Lifelong Learning Forests
-    link: "https://neurodata.io/talks/L2F.html"
+  - name: RerF
+    link: "https://www.neurodata.io/talks/rerf.html"
 
 featured: True
 
