@@ -5,6 +5,8 @@ github: "neurodata/RerF"
 docs: "https://rerf.neurodata.io"
 installation: "https://rerf.neurodata.io/install.html"
 
+slide: "https://www.neurodata.io/talks/rerf.html"
+
 details:
   - "Randomer Forest combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
 
@@ -16,10 +18,6 @@ manuscripts:
   - tomita2017roflmao
   - Browne2018
   - Tomita2018
-
-slides:
-  - name: RerF
-    link: "https://www.neurodata.io/talks/rerf.html"
 
 featured: True
 

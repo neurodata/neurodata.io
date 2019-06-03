@@ -7,6 +7,8 @@ docs: "https://graspy.neurodata.io"
 installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
 
+slide: "https://neurodata.io/talks/DiPy19.html"
+
 details:
   - "Simple, flexible and powerful graph analysis library grounded in statistical theories."
 
@@ -17,10 +19,6 @@ details:
 manuscripts:
   - graspy2019
   - Athreya2018
-
-slides:
-  - name: Graspy
-    link: "https://neurodata.io/talks/DiPy19.html"
 
 name: GraSPy
 

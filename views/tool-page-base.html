@@ -10,7 +10,13 @@
                 {{doc.title}}
             </h2>
         </a>
-        
+
+        <div class="pubs">
+        {% if doc.slide %}
+        <a href="{{doc.slide}}"><h3>Slides</h3></a>
+        {% endif %}
+        </div>
+
         <div class="detail">
             {% for item in doc.details %}
                 <p>{{item|safe}}</p>
@@ -26,16 +32,6 @@
             </div>
         {% endif %}
 
-        {% if doc.slides %}
-        <div class="pubs">
-            <h6>Slides</h6>
-            <ol>
-            {% for item in doc.slides %}
-                <li><a target="_blank" href={{item.link}}>{{item.name}}</a></li>
-            {% endfor %}
-            </ol>
-        </div>
-        {% endif %}
 
         <p class="center">
             <a href="https://github.com/{{doc.github}}" class="button" id="banner-btn">
