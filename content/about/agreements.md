@@ -7,14 +7,11 @@ $order: 5
 
 We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
 
-## Agreements for All
-
 #### All In
 
 We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
-
 
 In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
@@ -55,7 +52,7 @@ Our experience dictates that in person communication and happenstance meetings d
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
-- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli, 
+- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli,
 - if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
 - up to 1 day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
 
@@ -80,7 +77,6 @@ Your most valuable resource while on this team is the team itself.
 	- Listen and provide constructive feedback to your teammates as appropriate
 - One person is designated to post a link to the slides each week to get contributions, typically the youngest PhD student on the team.  The preferred practice is to simply copy last week's slides, so that everybody can see what they wrote last week and update accordingly.
 
-
 #### Weekly Lunches
 
 So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.
@@ -99,10 +95,9 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 
 We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July.
 
+### Other Kinds of Agreements
 
-## Other Kinds of Agreements
-
-### Supervisor Agreements
+#### Supervisor Agreements
 
 1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
 2. Prioritizing your personal and professional success over everything else in my life after my family & career
@@ -110,40 +105,32 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
 5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines
 
-
-
-### Trainnee Agreements
-
+#### Trainee Agreements
 
 Depending on the "stage" of our careers, and our career objectives, we have different milestones and deliverables. But annual productivity is a crucial component of any career development.  We therefore conditionally agree to the following:
 
-#### Publications
+##### Publications
 
 - *MSE students*: submit a first author publication before graduation 
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
 - *Research staff*: take ownership of a new development year-long development "project"
 
-#### Conferences
+##### Conferences
 
 Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
+
 - presentation of your work via some mechanism (posters, talks, or boothing), and
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
 - for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
 
-
-
-
-#### Grants
+##### Grants
 
 Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance
- 
- 
-#### Research Prioritees
+
+##### Research Priorities
 
 In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority. 
-
-
 
 #### Daily Standups
 
@@ -165,9 +152,7 @@ Note that the daily "commitment" is not a goal, it is something that you are act
 
 Each of us can "opt-in" and "opt-out" of daily standups for any period of time.  However, the expectation is that if you do opt-in, you do so for an explicit period of time, and you do so daily.
 
-
-
-#### The definition of an Impeccible Agreement (which is our goal for all agreements)
+#### The definition of an Impeccable Agreement (our goal for all agreements)
 
 On this team, we agree that all our agreements to be impeccable. When we make an agreement, it will have the following properties (adapted from [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/):
 
@@ -182,4 +167,3 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
-
