@@ -1,6 +1,7 @@
 $title: "Neurodata Image Registration"
 $slug: reg
 $order: 5
+name: reg
 
 github: "neurodata/image_lddmm_tensorflow"
 docs:

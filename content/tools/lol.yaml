@@ -1,6 +1,7 @@
 $title: Linear Optimal Low Rank Projections (LOL)
 $slug: LOL
 $order: 6
+name: LOL
 
 github: "neurodata/lol"
 installation: "https://github.com/neurodata/lol#installation-guide"
@@ -18,7 +19,6 @@ details:
 
 manuscripts:
   - vogelstein2017linear
-name: LOL
 
 featured: True
 

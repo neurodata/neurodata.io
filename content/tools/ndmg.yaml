@@ -1,6 +1,7 @@
 $title: NeuroData's MRI to Graphs
 $slug: ndmg
 $order: 4
+name: ndmg
 
 github: "neurodata/ndmg"
 docs: "https://ndmg.neurodata.io/"
@@ -21,7 +22,6 @@ manuscripts:
   - Kiar2018
   - Kiar2017
 
-name: ndmg
 
 featured: True
 

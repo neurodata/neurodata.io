@@ -1,6 +1,7 @@
 $title: Graph Statistics in Python (GrasPy)
 $slug: GrasPy
 $order: 1
+name: GraSPy
 
 github: "neurodata/graspy"
 docs: "https://graspy.neurodata.io"
@@ -20,7 +21,6 @@ manuscripts:
   - graspy2019
   - Athreya2018
 
-name: GraSPy
 
 featured: True
 
