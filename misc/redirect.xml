@@ -252,4 +252,15 @@
       <ReplaceKeyWith>reg/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>workshop</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>about/workshops/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
 </RoutingRules>
