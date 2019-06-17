@@ -1,0 +1,27 @@
+---
+$title@: Workshops
+$order: 1.9
+
+workshops:
+- name: "Statistics for high-dimensional testing, estimation, and machine learning for neuroscience data and connectomics"
+  date: "Aug 19 – 23, 2019"
+  link: https://neurodata.devpost.com/
+
+- name: "Neuro Reproducibility Hackashop"
+  date: "March 6-8, 2019"
+  link: https://brainx3.io
+
+- name: "NeuroStorm: Accelerating Brain Science Discovery in the Cloud"
+  date: "June 8, 2017"
+  link: https://brainx2.io
+
+- name: "Global Brain Workshop"
+  date: "April 7th, 2016"
+  link: http://brainx.io 
+---
+
+
+{% for workshop in doc.workshops %}
+    <h3><a href={{workshop.link}}>{{workshop.name}}</a></h3>
+    <h6>({{workshop.date}})</h6>
+{% endfor %}

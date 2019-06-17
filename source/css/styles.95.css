@@ -2536,11 +2536,6 @@ blockquote {
     line-height: 2em;
 }
 
-.press a {
-    display: block;
-    text-decoration: underline;
-}
-
 .press a:hover,
 .team a:hover {
     color: white;
