@@ -8,7 +8,6 @@ not active or not listed:
 DARPA GRAPHS N66001-14-1-4028
 DARPA SIMPLEX program through SPAWAR contract N66001-15-C-4041.
 NIH grant P01AG009973 “Cognitive and Hippocampal/Cortical Systems in Aging”
-the National Science Foundation award DMS-1712947
 the Transformative Research Award (NIH R01NS092474)
 
 iDISCO: This work was supported by NIH grant P01AG009973 “Cognitive and Hippocampal/Cortical
