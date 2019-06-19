@@ -1,16 +1,20 @@
 # Deployment
 
-The demo site is deployed on netlify.  The production site is deployed on AWS using CodePipeline.
+The demo site is deployed on netlify. The production site is deployed on AWS using CodePipeline.
 
 ## Netlify
 
 Connect it to GitHub repo, and the deployment settings are as follows:
 
 Build command: `grow install; grow build; cp robots-demo.txt build/robots.txt`
+
 Publish directory: `build`
-Production branch: `master`
+
+Production branch: `deploy`
 
 Since this is demo site, no custom domain.
+
+Set to build on all branches and to add status messages to PRs.
 
 ## AWS
 
@@ -18,20 +22,21 @@ Since this is demo site, no custom domain.
 
 - nd-website-deploy
 - bucket policy:
-    ```json
-    {
-    "Version": "2012-10-17",
-    "Id": "Policy1509568446316",
-    "Statement": [
-        {
-            "Sid": "Stmt1509568444826",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::nd-website-deploy/*"
-        }
-    ]
-    ```
+
+  ```json
+  {
+  "Version": "2012-10-17",
+  "Id": "Policy1509568446316",
+  "Statement": [
+      {
+          "Sid": "Stmt1509568444826",
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::nd-website-deploy/*"
+      }
+  ]
+  ```
 
 ### CodePipeline
 
@@ -46,22 +51,20 @@ Since this is demo site, no custom domain.
 - image: Ubuntu/Python2.7.12
 - buildspec.yml: [buildspec_deploy.yml](buildspec_deploy.yml)
 
-### Deployment: *No Deployment*
+### Deployment: _No Deployment_
 
 ### Role policy - grant s3 privileges to role for Bucket
 
-  ```json
-  {
-      "Effect": "Allow",
-      "Resource": [
-          "arn:aws:s3:::nd-website-deploy/*",
-          "arn:aws:s3:::nd-website-deploy"
-      ],
-      "Action": [
-          "s3:*"
-      ]
-  }
-  ```
+```json
+{
+  "Effect": "Allow",
+  "Resource": [
+    "arn:aws:s3:::nd-website-deploy/*",
+    "arn:aws:s3:::nd-website-deploy"
+  ],
+  "Action": ["s3:*"]
+}
+```
 
 ### S3 bucket hosting
 
@@ -69,7 +72,7 @@ Otherwise paths are not followed to their index.html objects
 
 ### CloudFront
 
-- Source is the bucket host URL (not the *bucket* object path)
+- Source is the bucket host URL (not the _bucket_ object path)
 - HTTP -> HTTPS redirect
 - using default CloudFront certificate
 - index.html as base object
