@@ -5,7 +5,7 @@ $order: 5
 
 [TOC]
 
-We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
 
 ### Core Research Agreements
 
@@ -30,11 +30,13 @@ We commit to focusing on 2 projects, unless otherwise negotiated with the team. 
 - for trainees, this is a journal publication
 - for research staff, this is a report to funders plus software repository with a clear code demo.
 
-Another project is more exploratory, that will lead to a similarly large project in the following year.
+Another project is more exploratory, that will lead to a similarly large project in the following year. Individual variation is possible with suitable justification.
 
 #### Open & Reproducible Science
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them.   
+We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
+
+Crucially, posting to pre-print servers, and submitting to journals, does *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then jovo has 1 week to provide feedback and modification requests.  After another week passes, assuming all the co-authors (potentially excluding jovo agree), the manuscript may be submitted and the pre-print may be posted, even in the absense of further review by jovo.
 
 ### Conduct
 
@@ -61,6 +63,8 @@ Some links that might be useful to understand best practices for giving and rece
 - [useful feedback](https://hbr.org/2017/10/how-to-give-feedback-people-can-actually-use)
 - [structuring feedback conversations](https://hbr.org/2017/07/how-adobe-structures-feedback-conversations)
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
+
+Feedback for jovo can be provided directly in the #jovofail slack channel, including anonymous feedback.
 
 ### Regular Activities
 
@@ -106,7 +110,7 @@ One person is designated to post a link to the slides each week to get contribut
 
 #### Weekly Lunches
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed with explicit permission. New lab members will be added to the end of the queue when they join.
+So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the end of the queue when they join.
 
 #### Quarterly Check-ins
 
@@ -114,7 +118,7 @@ To facilitate more long-term/career guidance,  mutually providing [radically can
 
 #### Semi-Annual Retreats
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
+To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These retreats will be organized by trainees.
 
 #### Annual Reviews
 
@@ -124,11 +128,11 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 #### Supervisor Agreements
 
-1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project),
-2. Prioritizing your personal and professional success over everything else in my life after my family & career
-3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback
-4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly
-5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines
+1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project).
+2. Prioritizing your personal and professional success over everything else in my life after my family & career.
+3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
+4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
+5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
 
 #### Trainee Agreements
 
@@ -176,6 +180,11 @@ The process is that each morning, in the [#standup](https://neurodata.slack.com/
 Note that the daily "commitment" is not a goal, it is something that you are actually committed to completing for the day, ie, it is your top research priority for the day.
 
 Each of us can "opt-in" and "opt-out" of daily standups for any period of time.  However, the expectation is that if you do opt-in, you do so for an explicit period of time, and you do so daily.
+
+#### Regenerative Breaks
+
+While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
+
 
 #### The definition of an Impeccable Agreement (our goal for all agreements)
 
