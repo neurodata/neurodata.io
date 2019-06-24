@@ -3,7 +3,7 @@ $title@: Conduct
 $order: 6
 ---
 
-Our team is dedicated to providing a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment), regardless of the following:
+Our team is dedicated to providing a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
 
 - age
 - disability
