@@ -1,0 +1,24 @@
+---
+$title@: Team
+$order: 1
+---    
+
+<div class="team" id="team">
+    <div class="members">
+        {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
+        {% set cats = g.categories('people')|sort_by_index(position_order) %}
+        {% for category, docs in cats %}
+            {% if category != 'associate' %}
+                {% for item in docs %}
+                    {% with render_positions=true %}
+                        {% include 'partials/people.html' %}
+                    {% endwith %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <h4 style="margin-top: 1em;">
+        <a href="{{g.url('/content/about/alum.html').path}}">Alumni</a>
+    </h4>
+</div>
