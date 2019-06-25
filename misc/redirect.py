@@ -39,6 +39,7 @@ redirects = [
     ['RerF', 'rerf/'],
     ['randomerforest', 'rerf/'],
     ['ndreg', 'reg/'],
+    ['workshop', 'about/workshops/']
 ]
 
 
