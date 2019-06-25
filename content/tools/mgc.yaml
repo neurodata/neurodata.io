@@ -11,7 +11,9 @@ docs: "https://mgc.neurodata.io"
 installation: "https://mgc.neurodata.io/install.html"
 examples: "https://github.com/neurodata/mgc/tree/master/demos"
 
-slide: "https://neurodata.io/talks/mgc.html"
+slides: 
+- name: "mgc"
+  link: "https://neurodata.io/talks/mgc.html"
 
 details:
   - 'Multiscale Graph Correlation (MGC, pronounced "magic") is a nonparametric approach for independence and k-sample testing.'

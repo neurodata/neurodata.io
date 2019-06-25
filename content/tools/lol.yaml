@@ -7,7 +7,9 @@ github: "neurodata/lol"
 installation: "https://github.com/neurodata/lol#installation-guide"
 examples: "https://github.com/neurodata/lol#demo"
 
-slide: "https://neurodata.io/talks/LOL-paper.html"
+slides: 
+- name: "LOL"
+  link: "https://neurodata.io/talks/LOL-paper.html"
 
 details:
   - "LOL is a robust and powerful for learning lower-dimensional representation in high-dimensional, low sample size setting."

@@ -8,7 +8,9 @@ docs:
 installation:
 examples: "https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blob/master/Example_iDISCO_rat_waxholm.ipynb"
 
-slide: "https://neurodata.io/talks/tward_neuronex2.pdf"
+slides: 
+- name: "reg"
+  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
 
 details:
   - 'Neurodata''s open-source Python <a href="https://github.com/neurodata/image_lddmm_tensorflow">package</a> that performs affine and deformable (LDDMM) image registration.'
