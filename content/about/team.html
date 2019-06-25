@@ -10,7 +10,9 @@ $order: 1
         {% for category, docs in cats %}
             {% if category != 'associate' %}
                 {% for item in docs %}
-                    {% include 'partials/people.html' %}
+                    {% with render_positions=true %}
+                        {% include 'partials/people.html' %}
+                    {% endwith %}
                 {% endfor %}
             {% endif %}
         {% endfor %}

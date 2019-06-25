@@ -9,7 +9,9 @@ $path: /about/alum.html
     <div class="team" id="team">
         <div class="members clearfix">
             {% for item in g.docs('alumni') if not item.associate %}
-                {% include 'partials/people.html' %}
+                {% with render_positions=true %}
+                    {% include 'partials/people.html' %}
+                {% endwith %}
             {% endfor %}
         </div>
     </div>
