@@ -145,7 +145,7 @@ Depending on the "stage" of our careers, and our career objectives, we have diff
 
 Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
 
-- presentation of your work via some mechanism (posters, talks, or boothing), and
+- applying to present your work via some mechanism (posters, talks, or boothing), and
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
 - for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
 
