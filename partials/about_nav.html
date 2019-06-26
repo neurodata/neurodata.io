@@ -21,7 +21,6 @@
         {% for item in g.docs('about') %}
             <option value="{{item.url.path}}">{{item.title}}</option>
         {% endfor %}
-        <option value="{{g.static('/source/docs/CP_Vogelstein.pdf').url.path}}">Funding</option>
     </select>
 </div>
 

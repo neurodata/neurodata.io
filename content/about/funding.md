@@ -5,7 +5,7 @@ $order: 7
 
 This page lists currently active funding for our projects
 
-#### Project Title: Synaptomes of Mouse and Man
+#### Synaptomes of Mouse and Man
 **R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
 *NIH (TRA); Prime: Allen Institute*, $178,305  
 
@@ -13,7 +13,7 @@ The major goals of this project are to discover the synaptic diversity and compl
 brains, specifically comparing and contrasting humans with mice, the leading experimental animal.
 
 
-#### Project Title: Multiscale Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery
+#### Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery
 **1712947 (Cencheng)**: 05/01/2017 - 04/30/2020  
 *NSF*, $42,707
 
@@ -23,7 +23,7 @@ data experiments.
 *This work was partially supported by the National Science Foundation award DMS1712947.*
 
 
-#### Project Title: CRCNS US-German Res Prop: functional computational anatomy of the auditory cortex
+#### CRCNS US-German Res Prop: functional computational anatomy of the auditory cortex
 **1R01DC016784-01 (Ratnanather)**: 07/01/2017 - 06/30/2020  
 *NIH*, $151,863
 
@@ -31,14 +31,14 @@ The goal of this project is to create a robust computational framework for analy
 in a specific region: the auditory cortex.
 
 
-#### Project Title: NeuroNex Technology Hub: Towards the International Brain Station for Accelerating and Democratizing Neuroscience Data Analysis and Modeling
+#### NeuroNex Technology Hub: Towards the International Brain Station for Accelerating and Democratizing Neuroscience Data Analysis and Modeling
 **1707298 (Vogelstein)**: 07/01/2017 - 06/30/2019  
 *NSF, 16-569 Neural System Cluster*, $246,773
 
 We propose to lower the barrier to connecting data to analyses and models by providing a coherent
 cloud computational ecosystem that minimizes current bottlenecks in the scientific process.
 
-#### Project Title: What Would Tukey Do?
+#### Would Tukey Do?
 **FA8750-17-2-0112 (Priebe)**: 10/01/2016 - 09/30/2020  
 *DARPA*, $52,448
 
@@ -48,7 +48,7 @@ complex modeling pipelines based on user-specified data and outcome(s) of intere
 
 *The authors are grateful for the support by the XDATA program of the Defense Advanced Research Projects Agency (DARPA) administered through Air Force Research Laboratory contract FA8750-12-2-0303*
 
-#### Project Title: Sensorimotor processing, decision-making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain
+#### Sensorimotor processing, decision-making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain
 **1U19NS104653-01 (Engert)**: 09/01/2017 - 08/31/2022  
 *Harvard University / Prime: NIH*, $133,038
 
@@ -58,7 +58,7 @@ nanoscale at the synaptic level, to local microcircuits to inter-area connectivi
 purpose is to explain and simulate the quantitative and qualitative nature of behavioral output across
 various timescales.
 
-#### Project Title: Connectome Coding at the Synaptic Scale
+#### Connectome Coding at the Synaptic Scale
 **Vogelstein**: 1/01/2018 - 12/31/2019  
 *Schmidt Sciences*, $114,657
 
@@ -67,7 +67,7 @@ large populations of synapses comprising an entire local cortical circuit. No pr
 experiment could answer the questions about the dynamics of large populations of synapses, which
 is crucial to understanding the learning process.
 
-#### Project Title: Lifelong Learning Forests
+#### Lifelong Learning Forests
 **FA8650-18-2-7834 (Vogelstein)**: 11/1/2017 - 10/31/2021  
 *DARPA*, $642,639
 
@@ -77,7 +77,7 @@ provable statistical guarantees, while maintaining computational tractability at
 
 *This work is graciously supported by the Defense Advanced Research Projects Agency (DARPA) Lifelong Learning Machines program through contract FA8650-18-2-7834.*
 
-#### Project Title: Continual Learning Across Synapses, Circuits, and Brain Areas 
+#### Continual Learning Across Synapses, Circuits, and Brain Areas 
 **FA8650-18-2-7834 (Tolias)**: 11/1/2017 - 10/31/2021  
 *DARPA*, $12,226
 
@@ -86,7 +86,7 @@ in this project.
 
 *This research has been supported by the Lifelong Learning Machines (L2M) program of the Defence Advanced Research Projects Agency (DARPA) via contract number HR0011-18-2-0025*
 
-#### Project Title: SemiSynBio: Collaborative Research: YeastOns: Neural Networks Implemented in Communication Yeast Cells
+#### SemiSynBio: Collaborative Research: YeastOns: Neural Networks Implemented in Communication Yeast Cells
 **NSF 1807546 (Schuman)**: 07/16/2018 - 06/30/2021  
 *NSF*, $32,280
 
