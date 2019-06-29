@@ -151,7 +151,7 @@ Each team member will present at >=1 conference per year to get feedback, networ
 
 ##### Grants
 
-Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance
+Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance.  Anybody using "extensive" commercial cloud computing is expected to write a AWS Research credits grant at least annually for <$10,000.  If your PI is writing a grant and request a figure/table/text/etc., it becomes the absolute top priority, including over and above impending journal/conference/workshop submission deadlines, unless otherwise agreed upon. 
 
 ##### Research Priorities
 
