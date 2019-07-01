@@ -3,7 +3,7 @@ $title@: Funding
 $order: 7
 ---
 
-This page lists currently active funding for our projects
+This page lists currently active funding for our projects.
 
 #### Synaptomes of Mouse and Man
 **R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
