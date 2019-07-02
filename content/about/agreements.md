@@ -5,7 +5,7 @@ $order: 5
 
 [TOC]
 
-We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. 
 
 ### Core Research Agreements
 
@@ -14,6 +14,8 @@ We, the NeuroData Family (NDF), each agree to all of the below commitments. Thes
 We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
+
+We agree to focus our research on projects that we are maximally intrisically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
 In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
@@ -40,7 +42,11 @@ We will conduct our work using the highest open and reproducible science standar
 
 #### Respect
 
-We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) while "at work" (which means at school, or at any school sponsored effects).
+
+We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
+age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sactioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+
+(Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
 #### Radical Honesty and Safety
 
@@ -48,7 +54,7 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Frequent Productive Feedback
 
-Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  I find that about 1 day later is about right for most things.  Then, the general flow of the conversation would go like this:
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later is about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -66,6 +72,7 @@ Some links that might be useful to understand best practices for giving and rece
 
 #### Daily Presence
 
+We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab memberes within one working day, unless otherwise specified.
 Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
 
 - to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
@@ -73,10 +80,12 @@ Our experience dictates that in person communication and happenstance meetings d
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
 - any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli,
-- if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
-- up to 1 day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
+- if we aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
+- up to one day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
 
 Your most valuable resource while on this team is the team itself.
+
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilies overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
 
 #### Weekly Sub-Group Meetings
 
@@ -118,7 +127,8 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
+
 
 ### Other Kinds of Agreements
 
@@ -157,6 +167,9 @@ Each postdoc will apply for funding each year, targeting a solicitation >2 month
 
 In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
 
+
+
+
 #### Daily Standups
 
 The goals of daily standups include:  
@@ -192,3 +205,8 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
+    
+    
+    
+Team members violating these agreements *may be sanctioned or expelled*.
+
