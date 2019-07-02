@@ -27,7 +27,7 @@ If I were more motivated to work on some other problem outside the purview of th
 
 #### Focus
 
-We commit to focusing on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete.  One project is the main focus that we are actively working on
+We agree to focus on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete.  One project is the main focus that we are actively working on
 
 - for trainees, this is a journal publication
 - for research staff, this is a report to funders plus software repository with a clear code demo.
@@ -36,7 +36,7 @@ Another project is more exploratory, that will lead to a similarly large project
 
 #### Open & Reproducible Science
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them.   
+We agree to conduct our work using the open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them.   For trainees, this meaning making the code and data open, and transfering sufficient knowledge to the research staff/faculty, such that they can ensure that our work is consistent with [FAIR](https://www.go-fair.org/fair-principles/) guidelines for data, and [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) guidelines for code. To the extent possible, this means pushing data derivatives to widely used data archives, and pushing code into widely used open source packages.  
 
 ### Conduct
 
@@ -89,7 +89,7 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Weekly Sub-Group Meetings
 
-Every week, each sub-group agrees to meet in person for 1-3 hours, with breaks as desired. The goals are:
+We agree that every week, each sub-group will meet in person for up to two hours, with breaks as desired. The goals are:
 
 - document past week's progress towards quarterly or annual goals
 - get feedback/mentorship from brilliant team of collaborators
@@ -115,15 +115,16 @@ One person is designated to post a link to the slides each week to get contribut
 
 #### Weekly Lunches
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed with explicit permission. New lab members will be added to the end of the queue when they join.
+
+We agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open, so we all get a more broad view of team activities. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed with explicit permission. New lab members will be added to the end of the queue when they join.
 
 #### Quarterly Check-ins
 
-To facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate, we agree to have quarterly check-ins.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal should be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
+We agree to have quarterly check-ins to facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal will be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
 
 #### Semi-Annual Retreats
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
+We agree to having semi-annual retreats to build community and deeper inter-personal connections, and to have fun. They  typically happen during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
 
 #### Annual Reviews
 
@@ -142,7 +143,7 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 #### Trainee Agreements
 
-Depending on the "stage" of our careers, and our career objectives, we have different milestones and deliverables. But annual productivity is a crucial component of any career development.  We therefore conditionally agree to the following:
+We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
 
 ##### Publications
 
@@ -165,10 +166,13 @@ Each postdoc will apply for funding each year, targeting a solicitation >2 month
 
 ##### Research Priorities
 
-In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
+We agree that, in general, the research priority, for any student, is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
 
 
+Team members violating any these agreements *may be sanctioned or expelled*.
 
+
+### Aspirational Agreements
 
 #### Daily Standups
 
@@ -208,5 +212,4 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     
     
     
-Team members violating these agreements *may be sanctioned or expelled*.
 
