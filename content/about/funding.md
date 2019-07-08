@@ -3,8 +3,6 @@ $title@: Funding
 $order: 7
 ---
 
-This page lists currently active funding for our projects
-
 #### Synaptomes of Mouse and Man
 **R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
 *NIH (TRA); Prime: Allen Institute*
@@ -14,7 +12,7 @@ brains, specifically comparing and contrasting humans with mice, the leading exp
 
 
 #### Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery
-**1712947 (Cencheng)**: 05/01/2017 - 04/30/2020  
+**1712947 (Shen)**: 05/01/2017 - 04/30/2020  
 *NSF*
 
 This project aims to establish a unified methodology framework for statistical testing in highdimensional, noisy, big data, through theoretical advancements, comprehensive simulations, and real
@@ -37,6 +35,9 @@ in a specific region: the auditory cortex.
 
 We propose to lower the barrier to connecting data to analyses and models by providing a coherent
 cloud computational ecosystem that minimizes current bottlenecks in the scientific process.
+
+*We would like to acknowledge generous support from National Science
+Foundation (NSF) under NSF Award Number EEC-1707298.*
 
 #### Would Tukey Do?
 **FA8750-17-2-0112 (Priebe)**: 10/01/2016 - 09/30/2020  
@@ -87,7 +88,7 @@ in this project.
 *This research has been supported by the Lifelong Learning Machines (L2M) program of the Defence Advanced Research Projects Agency (DARPA) via contract number HR0011-18-2-0025*
 
 #### SemiSynBio: Collaborative Research: YeastOns: Neural Networks Implemented in Communication Yeast Cells
-**NSF 1807546 (Schuman)**: 07/16/2018 - 06/30/2021  
+**NSF 1807546 (Schulman)**: 07/16/2018 - 06/30/2021  
 *NSF*
 
 The goal is to provide neuroscience and machine learning expertise to guide the design of the computational
