@@ -3,7 +3,7 @@ $title@: Funding
 $order: 7
 ---
 
-#### Synaptomes of Mouse and Man
+#### [Synaptomes of Mouse and Man](http://grantome.com/grant/NIH/R01-NS092474-01)
 **R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
 *NIH (TRA); Prime: Allen Institute*
 
@@ -11,7 +11,7 @@ The major goals of this project are to discover the synaptic diversity and compl
 brains, specifically comparing and contrasting humans with mice, the leading experimental animal.
 
 
-#### Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery
+#### [Multiscale Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery](http://grantome.com/grant/NSF/DMS-1921310)
 **1712947 (Shen)**: 05/01/2017 - 04/30/2020  
 *NSF*
 
@@ -21,7 +21,7 @@ data experiments.
 *This work was partially supported by the National Science Foundation award DMS1712947.*
 
 
-#### CRCNS US-German Res Prop: functional computational anatomy of the auditory cortex
+#### [CRCNS US-German Res Prop: functional computational anatomy of the auditory cortex](http://grantome.com/grant/NIH/R01-DC016784-02)
 **1R01DC016784-01 (Ratnanather)**: 07/01/2017 - 06/30/2020  
 *NIH*
 
@@ -29,7 +29,7 @@ The goal of this project is to create a robust computational framework for analy
 in a specific region: the auditory cortex.
 
 
-#### NeuroNex Technology Hub: Towards the International Brain Station for Accelerating and Democratizing Neuroscience Data Analysis and Modeling
+#### [NeuroNex Innovation Award: Towards Automatic Analysis of Multi-Terabyte Cleared Brains](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1707298)
 **1707298 (Vogelstein)**: 07/01/2017 - 06/30/2019  
 *NSF, 16-569 Neural System Cluster*
 
@@ -39,7 +39,7 @@ cloud computational ecosystem that minimizes current bottlenecks in the scientif
 *We would like to acknowledge generous support from National Science
 Foundation (NSF) under NSF Award Number EEC-1707298.*
 
-#### Would Tukey Do?
+#### What Would Tukey Do?
 **FA8750-17-2-0112 (Priebe)**: 10/01/2016 - 09/30/2020  
 *DARPA*
 
@@ -49,7 +49,7 @@ complex modeling pipelines based on user-specified data and outcome(s) of intere
 
 *The authors are grateful for the support by the XDATA program of the Defense Advanced Research Projects Agency (DARPA) administered through Air Force Research Laboratory contract FA8750-12-2-0303*
 
-#### Sensorimotor processing, decision-making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain
+#### [Sensorimotor processing, decision-making, and internal states: towards a realistic multiscale circuit model of the larval zebrafish brain](http://grantome.com/grant/NIH/U19-NS104653-02)
 **1U19NS104653-01 (Engert)**: 09/01/2017 - 08/31/2022  
 *Harvard University / Prime: NIH*
 
@@ -87,7 +87,7 @@ in this project.
 
 *This research has been supported by the Lifelong Learning Machines (L2M) program of the Defence Advanced Research Projects Agency (DARPA) via contract number HR0011-18-2-0025*
 
-#### SemiSynBio: Collaborative Research: YeastOns: Neural Networks Implemented in Communication Yeast Cells
+#### [SemiSynBio: Collaborative Research: YeastOns: Neural Networks Implemented in Communication Yeast Cells](http://grantome.com/grant/NSF/MCB-1807546)
 **NSF 1807546 (Schulman)**: 07/16/2018 - 06/30/2021  
 *NSF*
 
