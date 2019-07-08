@@ -1,11 +1,20 @@
 $title: "Neurodata Image Registration"
 $slug: reg
 $order: 5
+name: reg
 
 github: "neurodata/image_lddmm_tensorflow"
 docs:
 installation:
 examples: "https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blob/master/Example_iDISCO_rat_waxholm.ipynb"
+
+slides: 
+- header: "reg"
+  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+- name: "reg"
+  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+- name: "NeuroData Tools"
+  link: "https://neurodata.io/talks/tools19.html"
 
 details:
   - 'Neurodata''s open-source Python <a href="https://github.com/neurodata/image_lddmm_tensorflow">package</a> that performs affine and deformable (LDDMM) image registration.'
@@ -18,11 +27,6 @@ manuscripts:
   - Tward494005
   - Tward604405
   - Branch639674
-
-slides:
-  - name: NeuroData Tools
-    link: "https://neurodata.io/talks/tools19.html"
-name: reg
 
 featured: True
 
