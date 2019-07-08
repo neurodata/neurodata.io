@@ -3,6 +3,8 @@ $title@: Funding
 $order: 7
 ---
 
+<img style="float: right;" src="https://bit.ly/2XPyew9" width=200 height=200>
+
 #### [Synaptomes of Mouse and Man](http://grantome.com/grant/NIH/R01-NS092474-01)
 **R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
 *NIH (TRA); Prime: Allen Institute*
