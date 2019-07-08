@@ -12,6 +12,7 @@ env/
 extensions/*
 !extensions/sorting/
 !extensions/sorting/*
+routescache.json
 
 # grow installed from pypi
 *.pyc
