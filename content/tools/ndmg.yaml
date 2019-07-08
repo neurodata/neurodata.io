@@ -9,7 +9,7 @@ installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-gui
 examples: "https://hub.docker.com/r/bids/ndmg/"
 
 slides: 
-- name: "ndmg"
+- header: "ndmg"
   link: "http://ericwb.me/lectures/ohbm/ohbm_ndmg.html"
 
 details:

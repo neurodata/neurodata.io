@@ -12,7 +12,7 @@ installation: "https://mgc.neurodata.io/install.html"
 examples: "https://github.com/neurodata/mgc/tree/master/demos"
 
 slides: 
-- name: "mgc"
+- header: "mgc"
   link: "https://neurodata.io/talks/mgc.html"
 
 details:

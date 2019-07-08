@@ -7,7 +7,7 @@ docs: "https://rerf.neurodata.io"
 installation: "https://rerf.neurodata.io/install.html"
 
 slides: 
-- name: "RerF"
+- header: "RerF"
   link: "https://www.neurodata.io/talks/rerf.html"
 
 details:

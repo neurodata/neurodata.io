@@ -9,7 +9,7 @@ installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
 
 slides: 
-- name: "graspy"
+- header: "graspy"
   link: "https://neurodata.io/talks/DiPy19.html"
 
 details:

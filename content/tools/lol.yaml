@@ -8,7 +8,7 @@ installation: "https://github.com/neurodata/lol#installation-guide"
 examples: "https://github.com/neurodata/lol#demo"
 
 slides: 
-- name: "LOL"
+- header: "LOL"
   link: "https://neurodata.io/talks/LOL-paper.html"
 
 details:

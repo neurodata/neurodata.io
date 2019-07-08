@@ -9,7 +9,7 @@ installation:
 examples: "https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blob/master/Example_iDISCO_rat_waxholm.ipynb"
 
 slides: 
-- name: "reg"
+- header: "reg"
   link: "https://neurodata.io/talks/tward_neuronex2.pdf"
 
 details:
