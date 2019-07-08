@@ -9,6 +9,12 @@ installation: "https://rerf.neurodata.io/install.html"
 slides: 
 - header: "RerF"
   link: "https://www.neurodata.io/talks/rerf.html"
+- name: "RerF"
+  link: "https://www.neurodata.io/talks/rerf.html"
+- name: "NeuroData Tools"
+  link: "https://neurodata.io/talks/tools19.html"
+- name: "Lifelong Learning Forests"
+  link: "https://neurodata.io/talks/L2F.html"
 
 details:
   - "Randomer Forest combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."

@@ -11,6 +11,10 @@ examples: "https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blo
 slides: 
 - header: "reg"
   link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+- name: "reg"
+  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+- name: "NeuroData Tools"
+  link: "https://neurodata.io/talks/tools19.html"
 
 details:
   - 'Neurodata''s open-source Python <a href="https://github.com/neurodata/image_lddmm_tensorflow">package</a> that performs affine and deformable (LDDMM) image registration.'
