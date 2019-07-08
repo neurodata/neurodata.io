@@ -5,7 +5,7 @@ $order: 5
 
 [TOC]
 
-We, the NeuroData Family (NDF), each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. 
 
 ### Core Research Agreements
 
@@ -14,6 +14,8 @@ We, the NeuroData Family (NDF), each agree to all of the below commitments. Thes
 We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
+
+We agree to focus our research on projects that we are maximally intrisically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
 In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
@@ -25,7 +27,7 @@ If I were more motivated to work on some other problem outside the purview of th
 
 #### Focus
 
-We commit to focusing on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete.  One project is the main focus that we are actively working on
+We agree to focus on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete.  One project is the main focus that we are actively working on
 
 - for trainees, this is a journal publication
 - for research staff, this is a report to funders plus software repository with a clear code demo.
@@ -34,13 +36,17 @@ Another project is more exploratory, that will lead to a similarly large project
 
 #### Open & Reproducible Science
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them.   
+We agree to conduct our work using the open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them. For trainees, this means making the code and data open, and transferring sufficient knowledge to the research staff/faculty, such that they can ensure that our work is consistent with [FAIR](https://www.go-fair.org/fair-principles/) guidelines for data, and [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) guidelines for code. To the extent possible, this means pushing data derivatives to widely used data archives, and pushing code into widely used open source packages.
 
 ### Conduct
 
 #### Respect
 
-We agree to make everyone feel welcome, regardless of the physical, mental, emotional, or spiritual state. Specifically, we follow the [NeuroData Code of Conduct](https://neurodata.io/about/conduct/) while "at work" (which means at school, or at any school sponsored effects).
+
+We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
+age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sactioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+
+(Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
 #### Radical Honesty and Safety
 
@@ -48,7 +54,7 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Frequent Productive Feedback
 
-Each of us can improve in myriad ways.  Each member of the team has a supervisor, including the faculty.  We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  I find that about 1 day later is about right for most things.  Then, the general flow of the conversation would go like this:
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later is about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -66,6 +72,7 @@ Some links that might be useful to understand best practices for giving and rece
 
 #### Daily Presence
 
+We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab memberes within one working day, unless otherwise specified.
 Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
 
 - to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
@@ -73,14 +80,16 @@ Our experience dictates that in person communication and happenstance meetings d
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
 - any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli,
-- if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
-- up to 1 day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
+- if we aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
+- up to one day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
 
 Your most valuable resource while on this team is the team itself.
 
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilies overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
+
 #### Weekly Sub-Group Meetings
 
-Every week, each sub-group agrees to meet in person for 1-3 hours, with breaks as desired. The goals are:
+We agree that every week, each sub-group will meet in person for up to two hours, with breaks as desired. The goals are:
 
 - document past week's progress towards quarterly or annual goals
 - get feedback/mentorship from brilliant team of collaborators
@@ -106,19 +115,21 @@ One person is designated to post a link to the slides each week to get contribut
 
 #### Weekly Lunches
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed with explicit permission. New lab members will be added to the end of the queue when they join.
+
+We agree to have 1 hour for informal talks, Q&A, and lunch most weeks that school is open, so we all get a more broad view of team activities. We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed with explicit permission. New lab members will be added to the end of the queue when they join.
 
 #### Quarterly Check-ins
 
-To facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate, we agree to have quarterly check-ins.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal should be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
+We agree to have quarterly check-ins to facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal will be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
 
 #### Semi-Annual Retreats
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
+We agree to having semi-annual retreats to build community and deeper inter-personal connections, and to have fun. They  typically happen during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year.
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
+
 
 ### Other Kinds of Agreements
 
@@ -132,7 +143,7 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 #### Trainee Agreements
 
-Depending on the "stage" of our careers, and our career objectives, we have different milestones and deliverables. But annual productivity is a crucial component of any career development.  We therefore conditionally agree to the following:
+We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
 
 ##### Publications
 
@@ -145,17 +156,23 @@ Depending on the "stage" of our careers, and our career objectives, we have diff
 
 Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
 
-- presentation of your work via some mechanism (posters, talks, or boothing), and
+- applying to present your work via some mechanism (posters, talks, or boothing), and
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
 - for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
 
 ##### Grants
 
-Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance
+Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance.  Anybody using "extensive" commercial cloud computing is expected to write a AWS Research credits grant at least annually for <$10,000.  If your PI is writing a grant and request a figure/table/text/etc., it becomes the absolute top priority, including over and above impending journal/conference/workshop submission deadlines, unless otherwise agreed upon. 
 
 ##### Research Priorities
 
-In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
+We agree that, in general, the research priority, for any student, is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
+
+
+Team members violating any these agreements *may be sanctioned or expelled*.
+
+
+### Aspirational Agreements
 
 #### Daily Standups
 
@@ -192,3 +209,7 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
+    
+    
+    
+
