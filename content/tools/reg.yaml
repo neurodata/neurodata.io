@@ -17,9 +17,9 @@ slides:
   link: "https://neurodata.io/talks/tools19.html"
 
 details:
-  - 'Neurodata''s open-source Python <a href="https://github.com/neurodata/image_lddmm_tensorflow">package</a> that performs affine and deformable (LDDMM) image registration.'
+  - 'Neurodata''s open-source Python <a href="https://github.com/neurodata/ardent">package</a> that performs affine and deformable (LDDMM) image registration.'
 
-  - 'An example jupyter notebook from A. Branch et al. (2019) can be found <a href="https://nbviewer.jupyter.org/github/dtward/image_lddmm_tensorflow/blob/master/Example_iDISCO_rat_waxholm.ipynb">here</a>.'
+  - 'An example jupyter notebook from A. Branch et al. (2019) can be found <a href="https://github.com/neurodata/ardent/blob/master/demo/demo.ipynb">here</a>.'
 
 manuscripts:
   - Kutten2016b
