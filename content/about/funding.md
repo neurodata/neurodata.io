@@ -3,9 +3,6 @@ $title@: Funding
 $order: 7
 ---
 
-<img style="float: right;" src="https://bit.ly/2XPyew9" width=200 height=200>
-
-
 #### [Multiscale Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery](http://grantome.com/grant/NSF/DMS-1921310)
 **1712947 (Shen)**: 05/01/2017 - 04/30/2020  
 *NSF*
