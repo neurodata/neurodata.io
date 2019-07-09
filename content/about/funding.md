@@ -5,13 +5,6 @@ $order: 7
 
 <img style="float: right;" src="https://bit.ly/2XPyew9" width=200 height=200>
 
-#### [Synaptomes of Mouse and Man](http://grantome.com/grant/NIH/R01-NS092474-01)
-**R01NS092474 (Smith)**: 9/30/2014 – 6/30/2019  
-*NIH (TRA); Prime: Allen Institute*
-
-The major goals of this project are to discover the synaptic diversity and complexity in mammalian
-brains, specifically comparing and contrasting humans with mice, the leading experimental animal.
-
 
 #### [Multiscale Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery](http://grantome.com/grant/NSF/DMS-1921310)
 **1712947 (Shen)**: 05/01/2017 - 04/30/2020  
