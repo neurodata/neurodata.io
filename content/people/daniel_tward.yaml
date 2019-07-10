@@ -1,7 +1,8 @@
 name: Daniel Tward
-position: Postdoctoral Fellow
+position: Assistant Research Professor
 github: dtward
 email: dtward@cis.jhu.edu
 picture: daniel_tward.jpg
 website: http://danieltward.com/
-$category: postdoc
+$category: faculty
+$order: 3
