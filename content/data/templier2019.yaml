@@ -1,0 +1,25 @@
+$title: Templier (2019)
+
+authors: Templier
+year: 2019
+thumb: templier19_neurodata_thumb.jpg
+hero: templier19_neurodata_hero.jpg
+description: MagC, magnetic collection of ultrathin sections for volumetric correlative light and electron microscopy
+long_description: The non-destructive collection of ultrathin sections onto silicon wafers for post-embedding staining and volumetric correlative light and electron microscopy traditionally requires exquisite manual skills and is tedious and unreliable. In MagC introduced here, sample blocks are augmented with a magnetic resin enabling remote actuation and collection of hundreds of sections on wafer. MagC allowed the correlative visualization of neuroanatomical tracers within their ultrastructural volumetric electron microscopy context.
+data_types: serial section correlative fluorescent light and scanning electron microscopy
+
+data:
+  - name: templier19_dataset_1
+    url:
+    type:
+    description:
+    viz: http://bit.ly/MagC_CLEM_1
+
+  - name: templier19_dataset_2
+    url:
+    type:
+    description:
+    viz: http://bit.ly/MagC_CLEM_2
+
+publications:
+  - templier2019magc
