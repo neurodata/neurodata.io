@@ -5,21 +5,24 @@
     {% include 'partials/tool-page-nav.html' %}
 
     <div class="main">
-        <a href="https://github.com/{{doc.github}}">
-            <h2>
+        <h2>
+        {% if doc.github %}
+            <a href="https://github.com/{{doc.github}}">
                 {{doc.title}}
-            </h2>
-        </a>
-
+            </a>
+        {% else %}
+            {{doc.title}}
+        {% endif %}
+        </h2>
 
         <div class="detail">
             {% for item in doc.details %}
-                <p>{{item|safe}}</p>
+                <p>{{item|render|safe}}</p>
             {% endfor %}
         </div>
 
         {% if doc.slides %}	
-        <div class="slides">	
+        <div class="pubs">	
             <h6>Slides</h6>
             <ol>
             {% for slide in doc.slides if slide.name %}	
@@ -38,13 +41,14 @@
             </div>
         {% endif %}
 
-
+        {% if doc.github %}
         <p class="center">
             <a href="https://github.com/{{doc.github}}" class="button" id="banner-btn">
                 Get
                 <span>{{doc.slug}}</span>
             </a>
         </p>
+        {% endif %}
     </div>
 </body>
 </html>

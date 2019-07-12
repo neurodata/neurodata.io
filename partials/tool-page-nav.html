@@ -16,11 +16,12 @@
                 </a>
             {% endfor %}
         {% endif %}
+
         {% if doc.docs %}
-        <a href="{{doc.docs}}">
-            <h5 class="view-wide">Docs</h5>
-            <img class="view-narrow" src="{{g.static('/source/images/book.png').url.path}}">
-        </a>
+            <a href="{{doc.docs}}">
+                <h5 class="view-wide">Docs</h5>
+                <img class="view-narrow" src="{{g.static('/source/images/book.png').url.path}}">
+            </a>
         {% endif %}
         {% if doc.installation %}
         <a href="{{doc.installation}}">
