@@ -18,7 +18,7 @@
         {% endif %}
 
         {% if doc.docs %}
-            <a href="{{doc.docs}}">
+            <a href="{{doc.docs.path or doc.docs}}">
                 <h5 class="view-wide">Docs</h5>
                 <img class="view-narrow" src="{{g.static('/source/images/book.png').url.path}}">
             </a>
