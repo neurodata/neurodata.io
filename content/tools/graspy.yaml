@@ -8,13 +8,12 @@ docs: "https://graspy.neurodata.io"
 installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
 
-slides: 
-- header: "graspy"
-  link: "https://neurodata.io/talks/DiPy19.html"
-- name: "graspy"
-  link: "https://neurodata.io/talks/DiPy19.html"
-- name: "NeuroData Tools"
-  link: "https://neurodata.io/talks/tools19.html"
+slides:
+  - header: "graspy"
+    name: "graspy"
+    link: "https://neurodata.io/talks/DiPy19.html"
+  - name: "NeuroData Tools"
+    link: "https://neurodata.io/talks/tools19.html"
 
 details:
   - "Simple, flexible and powerful graph analysis library grounded in statistical theories."
@@ -35,7 +34,6 @@ manuscripts:
   - Priebe2013
   - Fishkind2013
   - Vogelstein2011b
-
 
 featured: True
 

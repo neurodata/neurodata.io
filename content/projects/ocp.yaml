@@ -1,8 +1,10 @@
-$title: NeuroData Cloud
+$title: OCP
 $path: /{base}/
 $order: 1
 
-description:
+heading: Open Connectome Project
+
+description: Enabling big-data neuroscience
 long_description:
 link:
 

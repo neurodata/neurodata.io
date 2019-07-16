@@ -1,6 +1,6 @@
 $title: "NeuroData Image Registration"
 $slug: reg
-$order: 5
+$order: 2
 name: reg
 
 github: "neurodata/ardent"
@@ -8,13 +8,13 @@ docs:
 installation:
 examples: "https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo/demo.ipynb"
 
-slides: 
-- header: "reg"
-  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
-- name: "reg"
-  link: "https://neurodata.io/talks/tward_neuronex2.pdf"
-- name: "NeuroData Tools"
-  link: "https://neurodata.io/talks/tools19.html"
+slides:
+  - header: "reg"
+    link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+  - name: "reg"
+    link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+  - name: "NeuroData Tools"
+    link: "https://neurodata.io/talks/tools19.html"
 
 details:
   - 'NeuroData''s open-source Python <a href="https://github.com/neurodata/ardent">package</a> that performs affine and deformable (LDDMM) image registration.'
