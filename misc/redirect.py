@@ -40,7 +40,8 @@ redirects = [
     ['randomerforest', 'rerf/'],
     ['ndreg', 'reg/'],
     ['workshop', 'about/workshops/'],
-    ['ndcloud', 'ocp/']
+    ['ndcloud', 'ocp/'],
+    ['about/conduct', 'about/agreements/#respect'],
 ]
 
 
