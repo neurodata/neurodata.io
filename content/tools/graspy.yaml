@@ -10,10 +10,7 @@ examples: "https://graspy.neurodata.io/tutorial.html"
 
 slides:
   - header: "graspy"
-    name: "graspy"
     link: "https://neurodata.io/talks/DiPy19.html"
-  - name: "NeuroData Tools"
-    link: "https://neurodata.io/talks/tools19.html"
 
 details:
   - "Simple, flexible and powerful graph analysis library grounded in statistical theories."

@@ -10,8 +10,6 @@ examples: "https://github.com/neurodata/lol#demo"
 slides:
   - header: "LOL"
     link: "https://neurodata.io/talks/LOL-paper.html"
-  - name: "LOL"
-    link: "https://neurodata.io/talks/LOL-paper.html"
 
 details:
   - "LOL is a robust and powerful for learning lower-dimensional representation in high-dimensional, low sample size setting."
