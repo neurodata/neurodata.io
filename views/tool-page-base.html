@@ -21,17 +21,6 @@
             {% endfor %}
         </div>
 
-        {% if doc.slides %}	
-        <div class="pubs">	
-            <h6>Slides</h6>
-            <ol>
-            {% for slide in doc.slides if slide.name %}	
-                <li><a target="_blank" href={{slide.link}}>{{slide.name}}</a></li>
-            {% endfor %}
-            </ol>
-        </div>
-
-        {% endif %}
         {% if doc.manuscripts %}
             <div class="pubs">
                 <h6>Publications</h6>

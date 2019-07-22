@@ -38,11 +38,7 @@ packages:
 
 slides:
   - header: "ndcloud"
-    name: "NeuroData: A community-developed open-source computational ecosystem for big neuro data"
     link: "https://neurodata.io/talks/neuronex18.html"
-
-  - name: "NeuroData Tools"
-    link: "https://neurodata.io/talks/tools19.html"
 
 api:
 manuscripts:
