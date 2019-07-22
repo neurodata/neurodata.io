@@ -26,7 +26,7 @@ data:
     url:
     type:
     description: mesh & compressed segmentation
-    viz: "https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=ixBFIb1d1n3X0w"
+    viz: "https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=mJ7SrG6F3EFxTA"
 
   - name: sagittal_25um
     url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_25um/
