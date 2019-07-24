@@ -38,6 +38,10 @@ Another project is more exploratory, that will lead to a similarly large project
 
 We agree to conduct our work using the open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  Upon generating a pre-print of quality that we individually deem suitable for public consumption (which is a lower bar than suitability for publication), we will post to a pre-print server.  This does *not* require superviser approval, conditional on the fact that upon receiving supervisor feedback, all comments are addressed within one week of receiving them. For trainees, this means making the code and data open, and transferring sufficient knowledge to the research staff/faculty, such that they can ensure that our work is consistent with [FAIR](https://www.go-fair.org/fair-principles/) guidelines for data, and [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) guidelines for code. To the extent possible, this means pushing data derivatives to widely used data archives, and pushing code into widely used open source packages.
 
+#### Buddies and Mentorship
+
+We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+
 ### Conduct
 
 #### Respect
