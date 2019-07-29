@@ -12,6 +12,8 @@ env/
 extensions/*
 !extensions/sorting/
 !extensions/sorting/*
+routescache.json
+.pytest_cache
 
 # grow installed from pypi
 *.pyc

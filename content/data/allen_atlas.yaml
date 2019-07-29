@@ -9,46 +9,43 @@ long_description: "These anatomical reference atlases illustrate the adult mouse
 
 data_types:
 
-
 data:
-- name: sagittal_100um
-  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_100um/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_100um/annotation_100um_2017/
+  - name: sagittal_100um
+    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_100um/
+    type:
+    description:
+    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_100um/annotation_100um_2017/
 
-- name: sagittal_50um
-  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_50um/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_50um/annotation_50um/
+  - name: sagittal_50um
+    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_50um/
+    type:
+    description:
+    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_50um/annotation_50um/
 
-- name: sagittal 50um
-  url: 
-  type: 
-  description: mesh & compressed segmentation
-  viz: "https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=5J65_CN_YS1aTQ"
+  - name: sagittal 50um
+    url:
+    type:
+    description: mesh & compressed segmentation
+    viz: "https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=mJ7SrG6F3EFxTA"
 
-- name: sagittal_25um
-  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_25um/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_25um/annotation_25um_2017/
+  - name: sagittal_25um
+    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_25um/
+    type:
+    description:
+    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_25um/annotation_25um_2017/
 
-- name: sagittal_10um
-  url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_10um/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/annotation_10um_2017/
+  - name: sagittal_10um
+    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_10um/
+    type:
+    description:
+    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/annotation_10um_2017/
 
 tools:
 
-
 analyses:
-  
-publications:
-- Jones2009
-- lein2007genome
-- Mouse2017
 
+publications:
+  - Jones2009
+  - lein2007genome
+  - Mouse2017
 # - ARA_whitepaper
