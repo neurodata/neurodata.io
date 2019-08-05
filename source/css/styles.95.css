@@ -1360,6 +1360,7 @@ blockquote {
     padding: 10px 50px;
     max-width: 1300px;
     margin: auto;
+    font: 16px/1.9 "Gentona", "Arial", sans-serif;
 }
 .join-page ol {
   padding: 0rem;
