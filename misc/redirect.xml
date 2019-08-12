@@ -185,7 +185,7 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyWith>rerf/</ReplaceKeyWith>
+      <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -194,7 +194,7 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyWith>rerf/</ReplaceKeyWith>
+      <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -235,7 +235,7 @@
   </RoutingRule>
   <RoutingRule>
     <Condition>
-      <KeyPrefixEquals>rerf/</KeyPrefixEquals>
+      <KeyPrefixEquals>rerf</KeyPrefixEquals>
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
