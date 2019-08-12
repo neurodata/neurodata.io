@@ -5,14 +5,25 @@
             {% include 'partials/nav_sub_category.html' %}
         {% else %}
             <li>
-                <a href="{{item.url.path}}"><h5>{{item.base}}</h5></a>
+                <a href="{{item.url.path}}">
+                    <h5>{{item.base}}</h5>
+                </a>
             </li>
         {% endif %}
 
         {% if item.base == 'research' %}
-        <li>
-            <a href="https://bitsandbrains.io/"><h5>Blog</h5></a>
-        </li>
+            <li>
+                <a href="https://bitsandbrains.io/">
+                    <h5>Blog</h5>
+                </a>
+            </li>
         {% endif %}
     {% endfor %}
+    {% if mobile_nav %}
+        <li>
+            <a href="{{g.url('/content/pages/join.html').path}}">
+                <h5>Join Us</h5>
+            </a>
+        </li>
+    {% endif %}
 </ul>

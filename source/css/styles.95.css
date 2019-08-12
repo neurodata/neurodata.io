@@ -1356,6 +1356,17 @@ blockquote {
 /* DOCS / FAQ / HELP
 ---------------------------------------------- */
 
+.join-page {
+    padding: 10px 50px;
+    max-width: 1300px;
+    margin: auto;
+    font: 16px/1.9 "Gentona", "Arial", sans-serif;
+}
+.join-page ol {
+  padding: 0rem;
+  list-style-type: decimal;
+}
+
 .docs {
     padding: 5px 50px;
     margin: auto;
