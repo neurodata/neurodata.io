@@ -42,7 +42,7 @@ redirects = [
     ['workshop', 'about/workshops/'],
     ['ndcloud', 'ocp/'],
     ['about/conduct', 'about/agreements/#respect'],
-    ['rerf/', 'sporf/],
+    ['rerf/', 'sporf/'],
 ]
 
 
