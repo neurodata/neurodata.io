@@ -14,6 +14,8 @@ extensions/*
 !extensions/sorting/*
 routescache.json
 .pytest_cache
+.grow
+setup.cfg
 
 # grow installed from pypi
 *.pyc
