@@ -30,7 +30,7 @@ featured: True
 lang:
   - Python
 heading: MR graph analysis
-description: ndmg combines diffusion and functional MRI data from individuals to estimate connectome reliably and scalably, and compare populations.
+description: ndmg uses diffusion MRI data from individuals to estimate connectomes reliably and scalably.
 
 cloud: False
 local: True
