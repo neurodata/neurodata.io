@@ -5,6 +5,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/bock11/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -14,6 +16,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/kharris15/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -23,6 +27,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>project/synaptomes/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -32,6 +38,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/kasthuri15/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -41,6 +49,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/bhatla15/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -50,6 +60,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/takemura13/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -59,6 +71,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/bumbarger13/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -68,6 +82,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/hildebrand17/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -77,6 +93,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/hildebrand17/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -86,6 +104,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/wanner16/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -95,6 +115,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/lee16/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -104,6 +126,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/tobin16/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -113,6 +137,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>project/connectomes/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -122,6 +148,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -131,6 +159,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>data/kasthuri15/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -140,6 +170,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>tools/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -149,6 +181,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>help/download/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -158,6 +192,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>help/download/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -167,6 +203,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>mri-cloud/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -176,6 +214,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>ocp/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -185,6 +225,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -194,6 +236,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -203,6 +247,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>reg/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -212,6 +258,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>about/workshops/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -221,6 +269,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>ocp/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -230,6 +280,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>about/agreements/#respect</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
@@ -239,6 +291,8 @@
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
       <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
