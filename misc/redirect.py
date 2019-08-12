@@ -36,13 +36,13 @@ redirects = [
     ['help/access', 'help/download/'],
     ['project/projectomes', 'mri-cloud/'],
     ['data', 'ocp/'],
-    ['RerF', 'rerf/'],
-    ['randomerforest', 'rerf/'],
+    ['RerF', 'sporf/'],
+    ['randomerforest', 'sporf/'],
     ['ndreg', 'reg/'],
     ['workshop', 'about/workshops/'],
     ['ndcloud', 'ocp/'],
     ['about/conduct', 'about/agreements/#respect'],
-    ['rerf/', 'sporf/'],
+    ['rerf', 'sporf/'],
 ]
 
 
