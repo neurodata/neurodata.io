@@ -6,7 +6,7 @@ name: ndmg
 github: "neurodata/ndmg"
 docs: "https://ndmg.neurodata.io/"
 installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-guide"
-examples: "https://hub.docker.com/r/bids/ndmg/"
+examples: "https://ndmg.neurodata.io/"
 
 slides:
   - header: "ndmg"
