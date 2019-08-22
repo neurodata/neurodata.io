@@ -6,11 +6,11 @@ name: ndmg
 github: "neurodata/ndmg"
 docs: "https://ndmg.neurodata.io/"
 installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-guide"
-examples: "https://ndmg.neurodata.io/"
+examples: "https://ndmg.neurodata.io/https://nbviewer.jupyter.org/github/neurodata/ndmg/blob/staging/tutorials/RunningNDMGManually.ipynb"
 
 slides:
   - header: "ndmg"
-    link: "http://ericwb.me/lectures/ohbm/ohbm_ndmg.html"
+    link: "https://neurodata.io/talks/StructuralConnectomics_ndmg.pptx"
 
 details:
   - "ndmg provides robust and reliable estimates of MRI connectivity across a wide range of datasets at 1mm resolution, across 25 parcellations, ranging in size from 48 to 72,000 nodes, all in MNI152 standard space."
