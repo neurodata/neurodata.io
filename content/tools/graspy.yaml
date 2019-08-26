@@ -1,11 +1,16 @@
 $title: Graph Statistics in Python (GrasPy)
 $slug: GrasPy
 $order: 1
+name: GraSPy
 
 github: "neurodata/graspy"
 docs: "https://graspy.neurodata.io"
 installation: "https://graspy.neurodata.io/install.html"
 examples: "https://graspy.neurodata.io/tutorial.html"
+
+slides:
+  - header: "graspy"
+    link: "https://neurodata.io/talks/DiPy19.html"
 
 details:
   - "Simple, flexible and powerful graph analysis library grounded in statistical theories."
@@ -17,14 +22,15 @@ details:
 manuscripts:
   - graspy2019
   - Athreya2018
-
-slides:
-  - name: NeuroData Tools
-    link: "https://neurodata.io/talks/tools19.html"
-  - name: Graspy at DiPy
-    link: "https://neurodata.io/talks/DiPy19.html"
-
-name: GraSPy
+  - vertex2019
+  - networkinference2019
+  - Wang2017
+  - priebe2018two
+  - Chen2015
+  - Priebe2015
+  - Priebe2013
+  - Fishkind2013
+  - Vogelstein2011b
 
 featured: True
 
