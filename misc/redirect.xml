@@ -216,7 +216,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>ndcloud/</ReplaceKeyWith>
+      <ReplaceKeyWith>ocp/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -227,7 +227,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>rerf/</ReplaceKeyWith>
+      <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -238,7 +238,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>rerf/</ReplaceKeyWith>
+      <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -250,6 +250,50 @@
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
       <ReplaceKeyWith>reg/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>workshop</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>about/workshops/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>ndcloud</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>ocp/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>about/conduct</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>about/agreements/#respect</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>rerf</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>sporf/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
 </RoutingRules>

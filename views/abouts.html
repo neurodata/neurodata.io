@@ -9,6 +9,7 @@
 {% include 'partials/about_nav.html' %}
 
 {% set has_toc = 'class="toc"' in doc.html %}
+
 <div class="detail-wrap list">
     {% if has_toc %}
         <div class="guides-sidebar">
@@ -21,6 +22,7 @@
     {% endif %}
     
     <div class="help-content">
+        <h3>{{doc.title}}</h3>
         {% if has_toc %}
             {% set first_div = doc.html.find('</div>') %}
             {{doc.html[first_div + 6:]|safe}}

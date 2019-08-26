@@ -1,0 +1,53 @@
+$title: NeuroData Cloud
+$slug: ndcloud
+$order: 1
+name: ndcloud
+
+featured: True
+
+data_page: !g.url /content/projects/ocp.yaml
+
+details:
+  - "NeuroData's deployment of open-source tools for supporting big data NeuroScience"
+  - For data hosted by these tools, see <a href="{{doc.data_page.path}}">Open Connectome Project</a>
+  - For docs on using these tools and an overview of what they are, see our <a href="{{doc.docs.path}}">docs</a>
+
+github:
+docs: !g.url /content/guides/overview.html
+installation:
+examples:
+
+heading: NeuroData Cloud
+description: "The deployment of tools which support the Open Connectome Project"
+
+packages:
+  - name: "ndex"
+    github: neurodata/ndex
+    lang:
+      - Python
+  - name: "ndweb"
+    github: "neurodata/ndwebtools"
+    lang:
+      - Python
+    link: "https://ndwebtools.neurodata.io"
+  - name: "neuroglancer"
+    github: "neurodata/neuroglancer"
+    lang:
+      - TypeScript
+    link: "https://viz.neurodata.io"
+
+slides:
+  - header: "ndcloud"
+    link: "https://neurodata.io/talks/neuronex18.html"
+
+api:
+manuscripts:
+  - burns2013open
+  - burns2014cosmos
+  - Vogelstein2016
+  - kleissas2017block
+  - burns2018community
+  - vogelstein2011q
+press:
+docker:
+link: !g.url /content/guides/overview.html

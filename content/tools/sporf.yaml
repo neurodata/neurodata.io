@@ -1,0 +1,45 @@
+$title: SPORF
+$order: 1
+name: SPORF
+
+github: "neurodata/RerF"
+docs: "https://rerf.neurodata.io"
+installation: "https://rerf.neurodata.io/install.html"
+examples: "https://rerf.neurodata.io/demos.html"
+
+slides: 
+- header: "RerF"
+  link: "https://www.neurodata.io/talks/rerf.html"
+
+details:
+  - "SPORF (Sparse Projection Oblique Randomer Forests) combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
+
+  - "Currently available for R and Python, SPORF is supported on Windows, Linux, and Mac OS."
+
+  - "SPORF is optimized for both speed and memory performance through native implementation and multicore parallelization."
+
+manuscripts:
+  - tomita2017roflmao
+  - Browne2018
+  - Tomita2018
+  - geodesic2019
+  - estimatingforests2019
+
+featured: True
+
+name: Sparse Projection Oblique Randomer Forests
+heading: Classification and regression
+description: SPORF is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of >100 benchmark problems.
+
+cloud: False
+local: True
+type: "vectors"
+
+lang:
+  - R
+  - Python
+  - Cpp
+
+api:
+press:
+download: https://cran.r-project.org/web/packages/rerf/index.html

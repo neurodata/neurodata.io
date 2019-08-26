@@ -11,57 +11,78 @@ $order: 5
 <div class="doc-nav sub">
     <ul>
         <li><a href="#mission"><h5>Mission</h5></a></li>
-        <li><a href="#team"><h5>Team</h5></a></li>
-        <li><a href="#calendar"><h5>Calendar</h5></a></li>
+        <li><a href="#philosophy"><h5>Philosophy</h5></a></li>
+        <li><a href="#background"><h5>Background</h5></a></li>
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
         <option value="#mission">Mission</option>
-        <option value="#team">Team</option>
-        <option value="#calendar">Calendar</option>
+        <option value="#philosophy">Philosophy</option>
+        <option value="#background">Background</option>
     </select>
 </div>
 
-<div class="about clearfix">
-    <div class="about-content">
-        <div class="press" id="mission">
+<div class="detail-wrap list">
+    <div class="help-content">
+        <div id="mission">
             <h3>Mission Statement</h3>
-            <p>Understand and improve human and machine intelligence.</p>
+            <p>Understand and improve animal and machine intelligences worldwide.</p>
+        </div>
             
+        <div id="philosophy">
             <h3>Philosophy</h3>
-            <p>Our central motivation is to understand intelligence, both animal and machine, and in particular how learning and memory arises in such systems.  To do so, we design, build, study, and apply statistical machine learning and big data science techniques.  The tools we develop and utilize follow some basic design principles, including philosophical  (validity, uncertainty), statistical (consistency, efficiency, robustness), and computational (scalability, tunability). While we have no idea how intelligence works, we do have some current working hypotheses, subject to revision given new data or theories.  </p>
+            <p>Our central motivation is to understand animal and machine
+            intelligences, and in particular how learning and memory arises in
+            such systems.  We believe that all  intelligences operate under
+            certain shared principles, much like all matter and energy are
+            governed by certain principles.  By determining these foundational
+            principles, we can increase the rate at which we understand and
+            improve intelligences.</p> 
 
-            <p>For animal intelligence, our current conjecture is that to a first approximation, intelligence arises largely due to communication between disparate entities with specialized properties across multiple scales. In other words, we believe that the key to understanding various animal intelligences is determining which connections between which entities with which properties at which scales are the mechanism underlying the intelligences.  To answer these questions, we collaborate extensively with some of the best experimental neuroscientists in the world at different scales, each of whom design experiments and collect data amenable to answering these questions.  We then design, build, study, and apply statistical models and estimators designed to reveal the latent structures in these big connectome datasets. Because the raw data are never in a form amenable to directly study, we also build big data systems to manage, visualize, and wrangle the data. </p>
+            <p>To do so, we design, build, study, and apply statistical machine
+            learning and big data science techniques.  The tools we develop and
+            utilize follow some basic design principles, including philosophical
+            (validity, uncertainty), statistical (consistency, efficiency,
+            robustness), and computational (scalability, tunability); see <a
+            href="https://bitsandbrains.io/2018/09/24/modeling-desiderata.html"
+            target="_blank" rel="noopener">this blog post</a> for details. While
+            we don't fully understand how intelligence works, we do have some current
+            working hypotheses, subject to revision given new data or theories.
+            </p>
 
-            <p>For machine intelligence we focus on studying the foundations of learning and memory.  We believe that both animal and machine intelligence operates under certain shared principles, common to any intelligent system.  Only by virtue of understanding these foundational principles do we have hope that we can find the biological mechanisms implementing these principles.  One  principle that we do believe is a <em>key</em> principle is learning must be "lifelong", that is, learning systems must have the ability to leverage data from disparate tasks (past, present, and future) to improve other tasks.  We also believe that satisfactorily estimating latent geodesic distances will be a crucial component any of efficient learning machines. </p>
-            
-            <!-- To flourish together by extending and fusing statistical machine learning and big data science to address the most important brain science and mental health questions of our time.</p> -->        </div>
+            <p>For animal intelligence, our current conjecture is that to a
+            first approximation, intelligence arises largely due to
+            communication between disparate entities with specialized properties
+            across multiple scales. In other words, we believe that the key to
+            understanding various animal intelligences is determining which
+            connections between which entities with which properties at which
+            scales are the mechanisms underlying the intelligences.  To answer
+            these questions, we collaborate extensively with some of the best
+            experimental neuroscientists in the world at different scales, each
+            of whom design experiments and collect data amenable to answering
+            these questions.  We then design, build, study, and apply
+            statistical models and estimators designed to reveal the latent
+            structures in these big connectome datasets. Because the raw data
+            are never in a form amenable to directly study, we also build big
+            data systems to manage, visualize, and wrangle the data. </p>
 
-        <div class="team" id="team">
-            <div class="divider"></div>
-            
-            <h3>The Team</h3>
-            <div class="members">
-                {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
-                {% set cats = g.categories('people')|sort_by_index(position_order) %}
-                {% for category, docs in cats %}
-                    {% if category != 'associate' %}
-                        {% for item in docs %}
-                            {% include 'partials/people.html' %}
-                        {% endfor %}
-                    {% endif %}
-                {% endfor %}
-            </div>
-
-            <h4 style="margin-top: 1em;">
-                <a href="{{g.url('/content/about/alum.html').path}}">Alumni</a>
-            </h4>
+            <p>For machine intelligence we focus on studying the foundations of
+            learning and memory.  We are currently pursuing a number of research
+            threads, including learning in non-Euclidean contexts (e.g.,
+            populations of networks with vertex and edge attributes), geodesic
+            learning (which is the first step to learning from wide data), and
+            lifelong learning (which means improving performance on many
+            disparate tasks (past, present, and future) to improve other
+            tasks).</p>
         </div>
 
-        <div id="calendar">
-            <div class="divider"></div>
+        <div id="background">
+            <h3>What is NeuroData?</h3>
 
-            <h3>Calendar</h3>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=afr9t36kknt629jh4omun20n90%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+            <p>NeuroData is a collective of individuals dedicated to our <a href="{{g.url('/content/pages/about.html').path}}">mission</a>, and a repository of the <a href="{{g.url('/content/projects/ocp.yaml').path}}">data</a> and <a href="{{g.url('/content/pages/tools.html').path}}">tools</a> we provide as free and open resources to the community.</p>
+            
+            <h3>What is the Open Connectome Project?</h3>
+            
+            <p>In 2011, we launched <a href="https://dl.acm.org/citation.cfm?doid=2484838.2484870" target="_blank" rel="noopener">Open Connectome Project</a>, which is an open source software stack of Web-services that store, analyze and visualize large imaging datasets. However, as technology changed, features were added, and scale increased, our academic development team and resources became overwhelmed. We overhauled our custom stack into a <em>community-built and maintained</em> software ecosystem deployed in the commercial cloud <a href="https://neurodata.io">neurodata.io</a>, integrating multiple open-source projects and extending them for our needs. The ecosystem enables analyses on disparate datasets by re-using components originally designed for other applications.</p>
         </div>
     </div>
 </div>

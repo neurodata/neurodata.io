@@ -10,7 +10,7 @@
         <div class="bw"></div>
         <div class="color"></div>
     {% endif %}
-    {% if item.position and (doc.title=="About" or doc.title=="Alumni") %}
+    {% if item.position and render_positions %}
     <span class="ids position"> 
         {{item.position}}
     </span>
