@@ -10,7 +10,7 @@ examples: "https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo
 
 slides:
   - header: "reg"
-    link: "https://neurodata.io/talks/tward_neuronex2.pdf"
+    link: "https://neurodata.io/talks/ardent.pdf"
 
 details:
   - 'NeuroData''s open-source Python <a href="https://github.com/neurodata/ardent">package</a> that performs affine and deformable (LDDMM) image registration.'
