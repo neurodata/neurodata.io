@@ -83,9 +83,9 @@ Our experience dictates that in person communication and happenstance meetings d
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
-- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli,
-- if we aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
-- up to one day per week working from home is acceptable with explicit permission, additional working from home days any given week must be explicitly approved.
+- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli, 
+- if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
+- up to 1 day per week working from home will typically be acceptable with explicit permission, additional working from home days any given week must be justified.
 
 Your most valuable resource while on this team is the team itself.
 
@@ -172,9 +172,7 @@ Each postdoc will apply for funding each year, targeting a solicitation >2 month
 
 We agree that, in general, the research priority, for any student, is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
 
-
-Team members violating any these agreements *may be sanctioned or expelled*.
-
+In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting. Your PI, however, may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency. Thus, unless otherwise stated, if a PI asks you to produce *x* for a grant/talk/paper/etc., interpret that as the most urgent and top priority. Otherwise, prioritize what is most important, rather than most urgent.
 
 ### Aspirational Agreements
 
