@@ -76,7 +76,7 @@ Some links that might be useful to understand best practices for giving and rece
 - [structuring feedback conversations](https://hbr.org/2017/07/how-adobe-structures-feedback-conversations)
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
-Feedback for jovo can be provided directly in the #jovofail slack channel, including anonymous feedback.
+Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
 
 ### Regular Activities
 
