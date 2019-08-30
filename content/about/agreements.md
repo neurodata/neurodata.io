@@ -12,7 +12,7 @@ We, the NeuroData Family, each agree to all of the below commitments. These agre
 
 #### All In
 
-We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
+We agree to take our research seriously.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
