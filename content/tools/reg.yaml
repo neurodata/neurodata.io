@@ -4,7 +4,7 @@ $order: 2
 name: reg
 
 github: "neurodata/ardent"
-docs:
+docs: "https://ardent.neurodata.io"
 installation:
 examples: "https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo/demo.ipynb"
 
