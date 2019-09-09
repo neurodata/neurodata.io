@@ -32,8 +32,6 @@ cloud computational ecosystem that minimizes current bottlenecks in the scientif
 _We would like to acknowledge generous support from National Science
 Foundation (NSF) under NSF Award Number EEC-1707298._
 
-_This material is based upon work primarily supported by the National Science Foundation (NSF) under NSF Award Number EEC-707298. Any opinions, findings and conclusions, or recommendations expressed in this material are those of the author(s), and do not necessarily reflect those of the NSF.”_
-
 #### What Would Tukey Do?
 
 **FA8750-17-2-0112 (Priebe)**: 10/01/2016 - 09/30/2020  
