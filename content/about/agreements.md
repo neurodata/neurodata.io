@@ -12,17 +12,17 @@ We, the NeuroData Family, each agree to all of the below commitments. These agre
 
 #### All In
 
-We agree that family and health take priority, but after that, our research does.  We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.
+We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
-We agree to focus our research on projects that we are maximally intrisically motivated to complete, are likely to be successful given our resources, and are mission critical. 
+We agree to focus our research on projects that we are maximally intrinsically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
 In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
 1. the project is highly significant with respect to our mission,
 2. given my current resources, my estimate of the probability that I can satisfactorily "complete" this project is high (which includes shooting for the stars and landing on a mountain, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
-3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrisic motivation I feel with respect to each. 
+3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrinsic motivation I feel with respect to each. 
 
 If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends).
 
@@ -40,7 +40,7 @@ Another project is more exploratory, that will lead to a similarly large project
 
 We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
 
-Crucially, posting to pre-print servers, and submitting to journals, does *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then jovo has 1 week to provide feedback and modification requests.  After another week passes, assuming all the co-authors (potentially excluding jovo agree), the manuscript may be submitted and the pre-print may be posted, even in the absense of further review by jovo.
+Crucially, posting to pre-print servers, and submitting to journals, does *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then jovo has 1 week to provide feedback and modification requests.  After another week passes, assuming all the co-authors (potentially excluding jovo agree), the manuscript may be submitted and the pre-print may be posted, even in the absence of further review by jovo.
 
 #### Buddies and Mentorship
 
@@ -52,7 +52,7 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
-age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sactioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
@@ -82,7 +82,7 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 
 #### Daily Presence
 
-We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab memberes within one working day, unless otherwise specified.
+We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab members within one working day, unless otherwise specified.
 Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
 
 - to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
@@ -95,7 +95,7 @@ Our experience dictates that in person communication and happenstance meetings d
 
 Your most valuable resource while on this team is the team itself.
 
-We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilies overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilities overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
 
 #### Weekly Sub-Group Meetings
 
