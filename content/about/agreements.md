@@ -12,7 +12,7 @@ We, the NeuroData Family, each agree to all of the below commitments. These agre
 
 #### All In
 
-We are deeply committed to each other and our team, and have finite resources, so focusing our [energy](http://a.co/aPrBEkq) on our research goals is a key to our success.  In order to fulfill our commitments to our team (see [Regular Activities](#regular-activities)), we agree to make our research a high priority.
+We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
