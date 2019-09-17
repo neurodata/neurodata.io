@@ -41,7 +41,7 @@ redirects = [
     ['ndreg', 'reg/'],
     ['workshop', 'about/workshops/'],
     ['ndcloud', 'ocp/'],
-    ['about/conduct', 'about/agreements/#respect/'],
+    ['about/conduct', 'about/agreements/#respect'],
     ['rerf', 'sporf/'],
     ['mri-cloud', 'mri/'],
 ]
