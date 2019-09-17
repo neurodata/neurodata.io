@@ -18,14 +18,22 @@ graph_species:
 
 <div class="doc-nav">
     <ul>
-        <li><a href="#about"><h5>About</h5></a></li>
+        <li>
+            <a href="#about">
+                <h5>About</h5>
+            </a>
+        </li>
         {% for species in doc.graph_species %}
-            <li><a href="#{{species}}"><h5>{{species}}</h5></a></li>
+            <li>
+                <a href="#{{species}}">
+                    <h5>{{species}}</h5>
+                </a>
+            </li>
         {% endfor %}
     </ul>
     <select>
         <option selected="selected">Jump to:</option>
-        
+
         {% for species in doc.graph_species %}
             <option value="{{species}}">{{species}}</option>
         {% endfor %}
@@ -35,9 +43,13 @@ graph_species:
 <div class="detail-wrap">
     <div class="intro clearfix" id="about">
         <h3>About</h3>
-        <p>This page hosts animal connectomes produced using data from a multitude of labs, across model species, using different modalities. A 'connectome' is a specific, cell-to-cell mapping of axonal tracts between neurons, created from cellular data like electron microscopy. Animal models included are cat, fly, the macaque monkey, mouse, rat, and worm. Every graph is annotated with a source attribute that denotes its origin. </p>
-        <p>Graphs are provided by default in <a href="http://graphml.graphdrawing.org/" target="_blank" rel="noopener">graphML</a> format. This is the only format that supports iterable attributes.</p>
-        <p>For human graph data visit <a href="{{g.url('/content/projects/mri-cloud.html').path}}">Projectomes</a>.</p>
+        <p>This page hosts animal connectomes produced using data from a multitude of labs, across model species, using different modalities. A 'connectome' is a specific, cell-to-cell mapping of axonal tracts between neurons, created from cellular data like electron microscopy. Animal models included are cat, fly, the macaque monkey, mouse, rat, and worm. Every graph is annotated with a source attribute that denotes its origin.
+        </p>
+        <p>Graphs are provided by default in
+            <a href="http://graphml.graphdrawing.org/" rel="noopener" target="_blank">graphML</a>
+            format. This is the only format that supports iterable attributes.</p>
+        <p>For human graph data visit
+            <a href="{{g.url('/content/projects/mri.html').path}}">Projectomes</a>.</p>
     </div>
 
     <div class="table database">
@@ -59,10 +71,12 @@ graph_species:
                     </tr>
                 </thead>
                 {% set graphs = g.csv('content/graphs/graphs.csv', locale=species) %}
-                <tbody>                    
+                <tbody>
                     {% for graph in graphs %}
                         <tr>
-                            <td><a href="{{graph.link}}">{{graph.name}}</a></td>
+                            <td>
+                                <a href="{{graph.link}}">{{graph.name}}</a>
+                            </td>
                             <td>{{graph.region}}</td>
                             <td>{{graph.nodes}}</td>
                             <td>{{graph.edges}}</td>
@@ -72,7 +86,9 @@ graph_species:
                             <td>{{graph.sensor}}</td>
                             <td>{{graph.project}}</td>
                             {% if graph.source != '—' %}
-                                <td><a href="{{graph.source}}" target="_blank" rel="noopener">{{graph.source | replace('http://', '')  | replace('https://', '') | replace('www.','') | truncate(20) }}</a></td>
+                                <td>
+                                    <a href="{{graph.source}}" target="_blank" rel="noopener">{{graph.source | replace('http://', '')  | replace('https://', '') | replace('www.','') | truncate(20) }}</a>
+                                </td>
                             {% else %}
                                 <td>—</td>
                             {% endif %}
