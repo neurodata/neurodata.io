@@ -205,7 +205,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>mri-cloud/</ReplaceKeyWith>
+      <ReplaceKeyWith>mri/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -282,7 +282,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>about/agreements/#respect</ReplaceKeyWith>
+      <ReplaceKeyWith>about/agreements/#respect/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -294,6 +294,17 @@
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
       <ReplaceKeyWith>sporf/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>mri-cloud</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>mri/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
 </RoutingRules>
