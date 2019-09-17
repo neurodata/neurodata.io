@@ -15,12 +15,10 @@ public_facing:
   link: https://hub.docker.com/r/neurodata/m3r-release/
 
 github_links:
-- name: NeuroData's MRI Graphs pipeline (ndmg)
-  link: https://neurodata.io/ndmg
-- name: NeuroParc
-  link: https://github.com/neurodata/neuroparc
 - name: Science in the Cloud (sic)
   link: https://github.com/neurodata/sic
+- name: NeuroData's MRI Graphs pipeline (ndmg)
+  link: https://github.com/neurodata/ndmg
 - name: NeuroData's GRaph with rich attribUTE DataBase (ndgrutedb)
   link: https://github.com/neurodata/ndgrutedb
 web_services:
@@ -49,31 +47,11 @@ related_papers:
 
 <div class="doc-nav">
     <ul>
-        <li>
-            <a href="#about">
-                <h5>About</h5>
-            </a>
-        </li>
-        <li>
-            <a href="#links">
-                <h5>Links</h5>
-            </a>
-        </li>
-        <li>
-            <a href="#dmri">
-                <h5>dMRI</h5>
-            </a>
-        </li>
-        <li>
-            <a href="#fmri">
-                <h5>fMRI</h5>
-            </a>
-        </li>
-        <li>
-            <a href="#refs">
-                <h5>Publications</h5>
-            </a>
-        </li>
+        <li><a href="#about"><h5>About</h5></a></li>
+        <li><a href="#links"><h5>Links</h5></a></li>
+        <li><a href="#dmri"><h5>dMRI</h5></a></li>
+        <li><a href="#fmri"><h5>fMRI</h5></a></li>
+        <li><a href="#refs"><h5>Publications</h5></a></li>
     </ul>
     <select>
         <option selected="selected">Jump to:</option>
@@ -87,45 +65,37 @@ related_papers:
 <div class="detail-wrap">
 
     <div class="center spread">
-        <a class="button" href="https://braingps.mricloud.org/" rel="noopener" target="_blank">BrainGPS</a>
-        <a class="button" href="https://brainknowledge.mricloud.org/" rel="noopener" target="_blank">BrainKnowledge</a>
+        <a href="https://braingps.mricloud.org/" target="_blank" rel="noopener" class="button">BrainGPS</a>
+        <a href="https://brainknowledge.mricloud.org/" target="_blank" rel="noopener" class="button">BrainKnowledge</a>
     </div>
 
     <div class="intro clearfix" id="about">
         <h3>About</h3>
-        <p>This page hosts projectomes produced with
-            <a href="https://github.com/neurodata/ndmg" rel="noopener" target="_blank">NeuroData's MRI Graphs pipeline (ndmg)</a>. A 'projectome' is a large-scale mapping between regions of the brain, created from fMRI or DTI. Data are from a multitude of labs and experiments. The data are
-            <a href="https://www.biorxiv.org/content/early/2018/04/24/188706" rel="noopener" target="_blank">run through ndmg</a>, and after processing, we provide summary statistics, QA, and the projectomes themselves.</p>
+        <p>This page hosts projectomes produced with <a href="https://github.com/neurodata/ndmg" target="_blank" rel="noopener">NeuroData's MRI Graphs pipeline (ndmg)</a>. A 'projectome' is a large-scale mapping between regions of the brain, created from fMRI or DTI. Data are from a multitude of labs and experiments. The data are <a href="https://www.biorxiv.org/content/early/2018/04/24/188706" target="_blank" rel="noopener">run through ndmg</a>, and after processing, we provide summary statistics, QA, and the projectomes themselves.</p>
     </div>
-
+    
     <h3 id="links">Links</h3>
 
-    <div class="links">
-        <div class="content">
-            <h4>Public-Facing</h4>
-            {% for item in doc.public_facing %}
-                <p>
-                    <a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a>
-                </p>
-            {% endfor %}
-        </div>
-        <div class="content">
-            <h4>Github</h4>
-            {% for item in doc.github_links %}
-                <p>
-                    <a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a>
-                </p>
-            {% endfor %}
-        </div>
-        <div class="content">
-            <h4>Web Services</h4>
-            {% for item in doc.web_services %}
-                <p>
-                    <a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a>
-                </p>
-            {% endfor %}
-        </div>
+  <div class="links">
+    <div class="content">
+      <h4>Public-Facing</h4>
+      {% for item in doc.public_facing %}
+        <p><a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a></p>
+      {% endfor %}
     </div>
+    <div class="content">
+      <h4>Github</h4>
+      {% for item in doc.github_links %}
+        <p><a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a></p>
+      {% endfor %}
+    </div>
+    <div class="content">
+      <h4>Web Services</h4>
+      {% for item in doc.web_services %}
+        <p><a href="{{item.link}}" target="_blank" rel="noopener">{{item.name}}</a></p>
+      {% endfor %}
+    </div>
+  </div>
 
     <h3>Explore</h3>
     <div class="table">
@@ -141,41 +111,37 @@ related_papers:
 
                 {% for data in g.docs('mri_diffusion', order_by='name') %}
                     <tr>
-                        <td>
-                            <a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a>
-                        </td>
-                        <td>
-                            <a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a>
-                        </td>
+                        <td><a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a></td>
+                        <td><a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a></td>
                         <td class="item">
                             <button class="collapsible">Expand</button>
                             <div class="processed">
                                 {% if data.reg_dti %}
-                                    <a href="{{data.reg_dti}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
+                                <a href="{{data.reg_dti}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
                                 {% endif %}
                                 {% if data.tensors %}
-                                    <a href="{{data.tensors}}" target="_blank" rel="noopener" class="button">Tensors</a>
+                                <a href="{{data.tensors}}" target="_blank" rel="noopener" class="button">Tensors</a>
                                 {% endif %}
                                 {% if data.fibers %}
-                                    <a href="{{data.fibers}}" target="_blank" rel="noopener" class="button">Fibers</a>
+                                <a href="{{data.fibers}}" target="_blank" rel="noopener" class="button">Fibers</a>
                                 {% endif %}
                                 {% if data.graphs %}
-                                    <a href="{{data.graphs}}" target="_blank" rel="noopener" class="button">Graphs</a>
+                                <a href="{{data.graphs}}" target="_blank" rel="noopener" class="button">Graphs</a>
                                 {% endif %}
                                 {% if data.qa %}
-                                    <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
+                                <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
                                 {% endif %}
                             </div>
-                        </td>
+                          </td>
                         <td style="text-align: center">
-                            <a class="button" href="https://github.com/neurodata/ndmg/tree/v{{data.ver}}" rel="noopener" target="_blank">v{{data.ver}}</a>
+                            <a href="https://github.com/neurodata/ndmg/tree/v{{data.ver}}" target="_blank" rel="noopener" class="button">v{{data.ver}}</a>
                         </td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-
+    
     <div class="table">
         <h3 id="fmri">Functional MRI</h3>
         <table>
@@ -189,37 +155,33 @@ related_papers:
 
                 {% for data in g.docs('mri_functional', order_by='name') %}
                     <tr>
-                        <td>
-                            <a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a>
-                        </td>
-                        <td>
-                            <a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a>
-                        </td>
+                        <td><a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a></td>
+                        <td><a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a></td>
                         <td class="item">
                             <button class="collapsible">Expand</button>
                             <div class="processed">
                                 {% if data.preproc %}
-                                    <a href="{{data.preproc}}" target="_blank" rel="noopener" class="button">Preprocessed Images</a>
+                                <a href="{{data.preproc}}" target="_blank" rel="noopener" class="button">Preprocessed Images</a>
                                 {% endif %}
                                 {% if data.registered%}
-                                    <a href="{{data.registered}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
+                                <a href="{{data.registered}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
                                 {% endif %}
                                 {% if data.clean %}
-                                    <a href="{{data.clean}}" target="_blank" rel="noopener" class="button">Cleaned Images</a>
+                                <a href="{{data.clean}}" target="_blank" rel="noopener" class="button">Cleaned Images</a>
                                 {% endif %}
                                 {% if data.roi_timeseries %}
-                                    <a href="{{data.roi_timeseries}}" target="_blank" rel="noopener" class="button">ROI Timeseries</a>
+                                <a href="{{data.roi_timeseries}}" target="_blank" rel="noopener" class="button">ROI Timeseries</a>
                                 {% endif %}
                                 {% if data.connectomes %}
-                                    <a href="{{data.connectomes}}" target="_blank" rel="noopener" class="button">Graphs</a>
+                                <a href="{{data.connectomes}}" target="_blank" rel="noopener" class="button">Graphs</a>
                                 {% endif %}
                                 {% if data.qa %}
-                                    <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
+                                <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
                                 {% endif %}
                             </div>
                         </td>
                         <td style="text-align: right">
-                            <a class="button" href="https://github.com/neurodata/ndmg/tree/staging-dmri-fmri" rel="noopener" target="_blank">v{{data.ver}}</a>
+                            <a href="https://github.com/neurodata/ndmg/tree/staging-dmri-fmri" target="_blank" rel="noopener" class="button">v{{data.ver}}</a>
                         </td>
                     </tr>
                 {% endfor %}
@@ -241,7 +203,5 @@ related_papers:
 </div>
 
 <div id="notice">
-    <p>Data on this site are licensed under a
-        <a href="https://opendatacommons.org/licenses/by/1-0/" rel="noopener" target="_blank">ODC-By v1.0</a>
-        license.</p>
+    <p>Data on this site are licensed under a <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" rel="noopener">ODC-By v1.0</a> license.</p>
 </div>
