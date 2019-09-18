@@ -3,9 +3,9 @@ $order: 1
 name: SPORF
 
 github: "neurodata/RerF"
-docs: "https://rerf.neurodata.io"
-installation: "https://rerf.neurodata.io/install.html"
-examples: "https://rerf.neurodata.io/demos.html"
+docs: "https://sporf.neurodata.io"
+installation: "https://sporf.neurodata.io/install.html"
+examples: "https://sporf.neurodata.io/demos.html"
 
 slides: 
 - header: "RerF"
