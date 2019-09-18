@@ -34,7 +34,7 @@ redirects = [
     ['tools/mgc', 'tools/'],
     ['access', 'help/download/'],
     ['help/access', 'help/download/'],
-    ['project/projectomes', 'mri-cloud/'],
+    ['project/projectomes', 'mri/'],
     ['data', 'ocp/'],
     ['RerF', 'sporf/'],
     ['randomerforest', 'sporf/'],
@@ -43,6 +43,7 @@ redirects = [
     ['ndcloud', 'ocp/'],
     ['about/conduct', 'about/agreements/#respect'],
     ['rerf', 'sporf/'],
+    ['mri-cloud', 'mri/'],
 ]
 
 
