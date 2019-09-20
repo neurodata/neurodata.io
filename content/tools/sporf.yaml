@@ -14,9 +14,11 @@ slides:
 details:
   - "SPORF (Sparse Projection Oblique Randomer Forests) combines sparse random projections with the random forest algorithm to achieve high accuracy on a variety of datasets."
 
-  - "Currently available for R and Python, SPORF is supported on Windows, Linux, and Mac OS."
+  - "Currently available in Python and R (not actively developed), SPORF is supported on Linux and Mac OS (and Windows via WSL)."
 
   - "SPORF is optimized for both speed and memory performance through native implementation and multicore parallelization."
+
+  - "Available in a pre-built <a href="https://gigantum.com/neurodata/sporf-paper">Gigantum project.</a>"
 
 manuscripts:
   - tomita2017roflmao
@@ -36,10 +38,10 @@ local: True
 type: "vectors"
 
 lang:
-  - R
   - Python
   - Cpp
+  - R
 
 api:
 press:
-download: https://cran.r-project.org/web/packages/rerf/index.html
+download: https://pypi.org/project/rerf/
