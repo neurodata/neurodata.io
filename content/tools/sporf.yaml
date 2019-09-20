@@ -2,7 +2,7 @@ $title: SPORF
 $order: 1
 name: SPORF
 
-github: "neurodata/RerF"
+github: "neurodata/SPORF"
 docs: "https://sporf.neurodata.io"
 installation: "https://sporf.neurodata.io/install.html"
 examples: "https://sporf.neurodata.io/demos.html"
