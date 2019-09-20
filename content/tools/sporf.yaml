@@ -18,7 +18,7 @@ details:
 
   - "SPORF is optimized for both speed and memory performance through native implementation and multicore parallelization."
 
-  - "Available in a pre-built <a href="https://gigantum.com/neurodata/sporf-paper">Gigantum project.</a>"
+  - 'Available in a pre-built <a href="https://gigantum.com/neurodata/sporf-paper">Gigantum project.</a>'
 
 manuscripts:
   - tomita2017roflmao
