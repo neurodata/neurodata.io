@@ -104,6 +104,8 @@ other:
 - InfSpiTim
 ---
 
+{% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
+
 <div class="list_pubs">
 
 {% set index_items = true %}
@@ -115,7 +117,5 @@ other:
 <h6 id="other">Other</h6>
 {% set talks = doc.other %}
 {% include 'partials/talks_list.html' %}
-
-
 
 </div>
