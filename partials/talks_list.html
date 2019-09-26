@@ -1,8 +1,6 @@
-{% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
-
 <ol>
 {% for item in TALKS %}
-    {% if item.ID in talks %}
+    {% if item.ID in talks or g.doc != "talks" %}
         <li>
             {{item|print_authors}} 
             {% if item.doi or item.url or item.arxivid %}
