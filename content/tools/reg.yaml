@@ -5,8 +5,8 @@ name: reg
 
 github: "neurodata/ardent"
 docs: "https://ardent.neurodata.io"
-installation:
-examples: "https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo/demo.ipynb"
+installation: "https://ardent.neurodata.io/install.html"
+examples: "https://ardent.neurodata.io/demo/demo.html"
 
 slides:
   - header: "reg"
