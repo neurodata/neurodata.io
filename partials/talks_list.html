@@ -1,6 +1,6 @@
 <ol>
 {% for item in TALKS %}
-    {% if item.ID in talks or g.doc != "talks" %}
+    {% if item.ID in talks or doc.base != "talks" %}
         <li>
             {{item|print_authors}} 
             {% if item.doi or item.url or item.arxivid %}
