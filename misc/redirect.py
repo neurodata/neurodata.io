@@ -44,6 +44,7 @@ redirects = [
     ['about/conduct', 'about/agreements/#respect'],
     ['rerf', 'sporf/'],
     ['mri-cloud', 'mri/'],
+    ['kharris15', 'data/kharris15/']
 ]
 
 
