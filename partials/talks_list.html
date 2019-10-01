@@ -2,7 +2,8 @@
 {% for item in TALKS %}
     {% if item.ID in talks or doc.base != "talks" %}
         <li>
-            {{item|print_authors}} 
+            {% set authors = item|all_authors %}
+            {% if authors|count > 2 %}{{authors[0:-1]|join(", ")}}, and {{authors[-1]}}{% elif authors|count == 2%}{{authors[0] ~ " and " ~ authors[1]}}{% else %}{{authors[0]}}{% endif %}.
             {% if item.doi or item.url or item.arxivid %}
                 <a href="{{item|print_link}}" target="_blank" rel="noopener">
             {% endif %}
