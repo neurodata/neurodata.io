@@ -1,29 +1,29 @@
-$title: 
+$title:
 
-authors: 
-year: 
-thumb: 
-hero: 
-description: 
-long_description: 
+authors:
+year:
+thumb:
+hero:
+description:
+long_description:
 data_types:
 
-doi: '10.7281/T11Z429Q'
+doi:
 
 data:
-- name: 
-  url: 
-  type: 
-  description: 
-  viz: 
-    
+  - name:
+    url:
+    type:
+    description:
+    viz:
+
 tools:
-- 
+  -
 
 analyses:
-- name: 
-  description:
-  link:
-  
+  - name:
+    description:
+    link:
+
 publications:
-- 
+  -

@@ -282,7 +282,7 @@
     <Redirect>
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
-      <ReplaceKeyWith>about/agreements/#respect/</ReplaceKeyWith>
+      <ReplaceKeyWith>about/agreements/#respect</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>
@@ -305,6 +305,17 @@
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
       <ReplaceKeyWith>mri/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>kharris15</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>data/kharris15/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
 </RoutingRules>
