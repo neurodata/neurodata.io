@@ -3,25 +3,23 @@
 {% if index_items %}
 <ol>
 {% endif %}
-{% for item in PUBS %}
-    {% if item.ID in pubs %}
-        {% if index_items %}
-        <li>
-        {% else %}
-        <div class="item">
-            <p>
-        {% endif %}
-            {% set authors = item|all_authors %}
-            {% if authors|count > 2 %}{{authors[0:-1]|join(", ")}}, and {{authors[-1]}}{% elif authors|count == 2%}{{authors[0] ~ " and " ~ authors[1]}}{% else %}{{authors[0]}}{% endif %}.
-            {% if item.doi or item.url or item.arxivid %}
-                <a href="{{item|print_link}}" target="_blank" rel="noopener">{{item|print_title|render|safe}}</a>{% else %}{{item|print_title|render|safe}}{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
-            <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
-        {% if index_items %}
+{% for item in PUBS if item.ID in pubs %}
+    {% if index_items %}
+    <li>
+    {% else %}
+    <div class="item">
+        <p>
+    {% endif %}
+        {% set authors = item|all_authors %}
+        {% if authors|count > 2 %}{{authors[0:-1]|join(", ")}}, and {{authors[-1]}}{% elif authors|count == 2%}{{authors[0] ~ " and " ~ authors[1]}}{% else %}{{authors[0]}}{% endif %}.
+        {% if item.doi or item.url or item.arxivid %}
+            <a href="{{item|print_link}}" target="_blank" rel="noopener">{{item|print_title|render|safe}}</a>{% else %}{{item|print_title|render|safe}}{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
+        <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
+    {% if index_items %}
         </li>
-        {% else %}                
-            </p>
-        </div>
-        {% endif %}
+    {% else %}                
+        </p>
+    </div>
     {% endif %}
 {% endfor %}
 {% if index_items %}
