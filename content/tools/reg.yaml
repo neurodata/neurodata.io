@@ -5,17 +5,18 @@ name: reg
 
 github: "neurodata/ardent"
 docs: "https://ardent.neurodata.io"
-installation:
-examples: "https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo/demo.ipynb"
+installation: "https://ardent.neurodata.io/install.html"
+examples: "https://ardent.neurodata.io/demo/demo.html"
 
 slides:
   - header: "reg"
     link: "https://neurodata.io/talks/ardent.pdf"
 
 details:
-  - 'NeuroData''s open-source Python <a href="https://github.com/neurodata/ardent">package</a> that performs affine and deformable (LDDMM) image registration.'
 
-  - 'A demonstrative jupyter notebook can be found <a href="https://nbviewer.jupyter.org/github/neurodata/ardent/blob/master/demo/demo.ipynb">here</a>.'
+- Affine and Regularized DEformative Numeric Transform (<a href="https://github.com/neurodata/ardent">ARDENT</a>) is NeuroData's open-source Python package for performing automated nonlinear image registration using LDDMM.
+
+- ARDENT stands out for its ability to predict and correct for artifacts and image nonuniformity, perform registrations across image modalities, and ease of use.
 
 manuscripts:
   - Kutten2016b
