@@ -8,7 +8,7 @@
                 <a href="{{item|print_link}}" target="_blank" rel="noopener">
             {% endif %}
             {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
-            <i>{{item.address}}</i>{% if item.address%},{% endif %} {{item.year}}.
+            <i>{{item|print_address}}</i>{% if item.address%},{% endif %} {{item.year}}.
         </li>
     {% endif %}
 {% endfor %}
