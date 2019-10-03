@@ -5,11 +5,11 @@ $order: 1
 
 <div class="team" id="team">
     <div class="members">
-        {% set position_order = ['faculty','faculty - research','staff','postdoc','student','associate'] %}
+        {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate'] %}
         {% set cats = g.categories('people')|sort_by_index(position_order) %}
         {% for category, docs in cats %}
             {% if category != 'associate' %}
-                {% for item in docs %}
+                {% for item in docs|sort(attribute="name")|sort(attribute="order") %}
                     {% with render_positions=true %}
                         {% include 'partials/people.html' %}
                     {% endwith %}
