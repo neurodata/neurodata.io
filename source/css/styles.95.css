@@ -722,6 +722,11 @@ form input[type="submit"] {
     background-size: cover;
 }
 
+.footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
 footer {
     width: 100%;
     height: 56px;
@@ -1362,9 +1367,10 @@ blockquote {
     margin: auto;
     font: 16px/1.9 "Gentona", "Arial", sans-serif;
 }
+
 .join-page ol {
-  padding: 0rem;
-  list-style-type: decimal;
+    padding: 0rem;
+    list-style-type: decimal;
 }
 
 .docs {
