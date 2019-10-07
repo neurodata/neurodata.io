@@ -1,7 +1,9 @@
+{% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %}
+
 {% if index_items %}
 <ol>
 {% endif %}
-{% for item in PUBS %}
+{% for item in PUBS if item.ID in pubs %}
     {% if index_items %}
     <li>
     {% else %}
