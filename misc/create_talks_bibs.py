@@ -1,3 +1,4 @@
+import codecs
 from bibtexparser.bibdatabase import BibDatabase
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
@@ -118,17 +119,17 @@ writer = BibTexWriter()
 
 db = BibDatabase()
 db.entries = invited_entries
-with open('content/talks/invited.bib', 'w') as bibtex_file:
+with codecs.open('content/talks/invited.bib', 'w', "utf-8") as bibtex_file:
     bibtex_file.write(writer.write(db))
 
 
 db = BibDatabase()
 db.entries = other_entries
-with open('content/talks/other.bib', 'w') as bibtex_file:
+with codecs.open('content/talks/other.bib', 'w', "utf-8") as bibtex_file:
     bibtex_file.write(writer.write(db))
 
 
 db = BibDatabase()
 db.entries = excluded_entries
-with open('content/talks/excluded_entries.bib', 'w') as bibtex_file:
+with codecs.open('content/talks/excluded_entries.bib', 'w', "utf-8") as bibtex_file:
     bibtex_file.write(writer.write(db))

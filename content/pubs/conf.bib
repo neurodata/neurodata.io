@@ -1,0 +1,234 @@
+@article{Browne2018,
+ author = {Browne, James and Tomita, Tyler M. and Mhembere, Disa and Burns, Randal and Vogelstein, Joshua T.},
+ journal = {SIAM International Conference on Data Mining},
+ month = {June},
+ title = {{Forest Packing: Fast, Parallel Decision Forests}},
+ url = {https://arxiv.org/abs/1806.07300},
+ year = {2018}
+}
+
+@inproceedings{burns2013open,
+ abstract = {We describe a scalable database cluster for the spatial analysis and annotation of high-throughput brain imaging data, initially for 3-d electron microscopy image stacks, but for time-series and multi-channel data as well. The system was designed primarily for workloads that build connectomes---neural connectivity maps of the brain---using the parallel execution of computer vision algorithms on high-performance compute clusters. These services and open-science data sets are publicly available at http://openconnecto.me. The system design inherits much from NoSQL scale-out and data-intensive computing architectures. We distribute data to cluster nodes by partitioning a spatial index. We direct I/O to different systems---reads to parallel disk arrays and writes to solid-state storage---to avoid I/O interference and maximize throughput. All programming interfaces are RESTful Web services, which are simple and stateless, improving scalability and usability. We include a performance evaluation of the production system, highlighting the effectiveness of spatial data organization.},
+ author = {Burns, Randal and Roncal, William Gray and Kleissas, Dean and Lillaney, Kunal and Manavalan, Priya and Perlman, Eric and Berger, Daniel R. and Bock, Davi D. and Chung, Kwanghun and Grosenick, Logan and Kasthuri, Narayanan and Weiler, Nicholas C. and Deisseroth, Karl and Kazhdan, Michael and Lichtman, Jeff and Reid, R. Clay and Smith, Stephen J. and Szalay, Alexander S. and Vogelstein, Joshua T. and Vogelstein, R. Jacob},
+ booktitle = {Proceedings of the 25th International Conference on Scientific and Statistical Database Management},
+ doi = {10.1145/2484838.2484870},
+ eprint = {1306.3543},
+ isbn = {978-1-4503-1921-8},
+ issn = {15378276},
+ organization = {ACM},
+ pmid = {24401992},
+ title = {{The Open Connectome Project Data Cluster: Scalable Analysis and Vision for High-Throughput Neuroscience}},
+ url = {http://arxiv.org/abs/1306.3543},
+ year = {2013}
+}
+
+@article{Carlson2013a,
+ abstract = {With simultaneous measurements from ever increasing populations of neurons, there is a growing need for sophisticated tools to recover signals from individual neurons. In electrophysiology experiments, this classically proceeds in a two-step process: (i) threshold the waveforms to detect putative spikes and (ii) cluster the waveforms into single units (neurons). We extend previous Bayesian nonparamet- ric models of neural spiking to jointly detect and cluster neurons using a Gamma process model. Importantly, we develop an online approximate inference scheme enabling real-time analysis, with performance exceeding the previous state-of-the- art. Via exploratory data analysis—using data with partial ground truth as well as two novel data sets—we find several features of our model collectively contribute to our improved performance including: (i) accounting for colored noise, (ii) de- tecting overlapping spikes, (iii) tracking waveform dynamics, and (iv) using mul- tiple channels. We hope to enable novel experiments simultaneously measuring many thousands of neurons and possibly adapting stimuli dynamically to probe ever deeper into the mysteries of the brain.},
+ author = {Carlson, David E and Rao, Vinayak and Vogelstein, Joshua T and Carin, Lawrence},
+ issn = {10495258},
+ journal = {Advances in Neural Information Processing Systems 26},
+ title = {{Real-Time Inference for a Gamma Process Model of Neural Spiking}},
+ url = {http://papers.nips.cc/paper/5061-real-time-inference-for-a-gamma-process-model-of-neural-spiking.pdf},
+ year = {2013}
+}
+
+@article{Cornelis2013,
+ abstract = {The preservation of our cultural heritage is of paramount importance. Thanks to recent developments in digital acquisition techniques, powerful image analysis algorithms are developed which can be useful non-invasive tools to assist in the restoration and preservation of art. In this paper we propose a semi-supervised crack detection method that can be used for high-dimensional acquisitions of paintings coming from different modalities. Our dataset consists of a recently acquired collection of images of the Ghent Altarpiece (1432), one of Northern Europe's most important art masterpieces. Our goal is to build a classifier that is able to discern crack pixels from the background consisting of non-crack pixels, making optimal use of the information that is provided by each modality. To accomplish this we employ a recently developed non-parametric Bayesian classifier, that uses tensor factorizations to characterize any conditional probability. A prior is placed on the parameters of the factorization such that every possible interaction between predictors is allowed while still identifying a sparse subset among these predictors. The proposed Bayesian classifier, which we will refer to as conditional Bayesian tensor factorization or CBTF, is assessed by visually comparing classification results with the Random Forest (RF) algorithm. {\textcopyright} 2013 IEEE.},
+ author = {Cornelis, Bruno and Yang, Yun and Vogelstein, Joshua T. and Dooms, Ann and Daubechies, Ingrid and Dunson, David},
+ doi = {10.1109/ICDSP.2013.6622710},
+ eprint = {1304.5894},
+ isbn = {9781467358057},
+ journal = {18th International Conference on Digital Signal Processing},
+ keywords = {Classification,Crack detection,Ghent altarpiece,Nonparametric Bayes,Tensor factorization,Variable selection},
+ title = {{Bayesian crack detection in ultra high resolution multimodal images of paintings}},
+ url = {http://arxiv.org/abs/1304.5894},
+ year = {2013}
+}
+
+@article{Fiori2013,
+ abstract = {Graph matching is a challenging problem with very important applications in a wide range of fields, from image and video analysis to biological and biomedical problems. We propose a robust graph matching algorithm inspired in sparsity-related techniques. We cast the problem, resembling group or collaborative sparsity formulations, as a non-smooth convex optimization problem that can be efficiently solved using augmented Lagrangian techniques. The method can deal with weighted or unweighted graphs, as well as multimodal data, where different graphs represent different types of data. The proposed approach is also naturally integrated with collaborative graph inference techniques, solving general network inference problems where the observed variables, possibly coming from different modalities, are not in correspondence. The algorithm is tested and compared with state-of-the-art graph matching techniques in both synthetic and real graphs. We also present results on multimodal graphs and applications to collaborative inference of brain connectivity from alignment-free functional magnetic resonance imaging (fMRI) data. The code is publicly available.},
+ annote = {(spotlight)},
+ author = {Fiori, Marcelo and Sprechmann, Pablo and Vogelstein, Joshua and Muse, Pablo and Sapiro, Guillermo},
+ eprint = {arXiv},
+ isbn = {10.1186/2042-1001-1-16},
+ issn = {10495258},
+ journal = {Advances in Neural Information Processing Systems},
+ pmid = {25233306},
+ title = {{Robust Multimodal Graph Matching: Sparse Coding Meets Graph Matching}},
+ url = {http://papers.nips.cc/paper/4925-robust-multimodal-graph-matching-sparse-coding-meets-graph-matching},
+ year = {2013}
+}
+
+@inproceedings{GrayRoncal2013,
+ abstract = {Currently, connectomes (e.g., functional or structural brain graphs) can be estimated in humans at $\approx 1\simmm^3$ scale using a combination of diffusion weighted magnetic resonance imaging, functional magnetic resonance imaging and structural magnetic resonance imaging scans. This manuscript summarizes a novel, scalable implementation of open-source algorithms to rapidly estimate magnetic resonance connectomes, using both anatomical regions of interest (ROIs) and voxel-size vertices. To assess the reliability of our pipeline, we develop a novel nonparametric non-Euclidean reliability metric. Here we provide an overview of the methods used, demonstrate our implementation, and discuss available user extensions. We conclude with results showing the efficacy and reliability of the pipeline over previous state-of-the-art.},
+ author = {Roncal, William Gray and Koterba, Zachary H. and Mhembere, Disa and Kleissas, Dean M. and Vogelstein, Joshua T. and Burns, Randal and Bowles, Anita R. and Donavos, Dimitrios K. and Ryman, Sephira and Jung, Rex E. and Wu, Lei and Calhoun, Vince and Vogelstein, R. Jacob},
+ booktitle = {IEEE Global Conference on Signal and Information Processing (GlobalSIP), 2013.},
+ doi = {10.1109/GlobalSIP.2013.6736878},
+ eprint = {1312.4875},
+ isbn = {9781479902484},
+ keywords = {Connectomics,Magnetic resonance imaging,Network theory,Pipeline},
+ month = {dec},
+ publisher = {IEEE},
+ title = {{MIGRAINE: MRI graph reliability analysis and inference for connectomics}},
+ url = {http://ieeexplore.ieee.org/document/6736878/},
+ year = {2013}
+}
+
+@inproceedings{GrayRoncal2015a,
+ author = {{Gray Roncal}, William and Pekala, Michael and Kaynig-fittkau, Verena and Kleissas, Dean M and Vogelstein, Joshua T and Pfister, Hanspeter and Burns, Randal and Vogelstein, R Jacob and Chevillet, Mark A and Hager, Gregory D},
+ booktitle = {British Machine Vision Conference},
+ eprint = {1254329},
+ primaryclass = {arXiv},
+ title = {{\href{http://arxiv.org/abs/1403.3724}{VESICLE : Volumetric Evaluation of Synaptic Interfaces using Computer vision at Large Scale}}},
+ year = {2015}
+}
+
+@article{Huys2009,
+ author = {Huys, Quentin J and Vogelstein, Joshua and Dayan, Peter},
+ journal = {Advances in Neural Information Processing Systems},
+ title = {Psychiatry: Insights into depression through normative decision-making models},
+ url = {http://papers.nips.cc/paper/3563-psychiatry-insights-into-depression-through-normative-decision-making-models.pdf},
+ year = {2008}
+}
+
+@article{Koutra2013,
+ abstract = {How much did a network change since yesterday? How different is the wiring between Bob's brain (a left-handed male) and Alice's brain (a right-handed female)? Graph similarity with known node correspondence, i.e. the detection of changes in the connectivity of graphs, arises in numerous settings. In this work, we formally state the axioms and desired properties of the graph similarity functions, and evaluate when state-of-the-art methods fail to detect crucial connectivity changes in graphs. We propose DeltaCon, a principled, intuitive, and scalable algorithm that assesses the similarity between two graphs on the same nodes (e.g. employees of a company, customers of a mobile carrier). Experiments on various synthetic and real graphs showcase the advantages of our method over existing similarity measures. Finally, we employ DeltaCon to real applications: (a) we classify people to groups of high and low creativity based on their brain connectivity graphs, and (b) do temporal anomaly detection in the who-emails-whom Enron graph.},
+ author = {Koutra, Danai and Vogelstein, Joshua T. and Faloutsos, Christos},
+ chapter = {17},
+ doi = {10.1137/1.9781611972832.18},
+ eprint = {1304.4657},
+ isbn = {9781627487245},
+ issn = {1556-4681},
+ journal = {Proceedings of the 2013 SIAM International Conference on Data Mining},
+ title = {{DELTACON: A Principled Massive-Graph Similarity Function}},
+ url = {http://arxiv.org/abs/1304.4657},
+ year = {2013}
+}
+
+@inproceedings{Kulkarni2013,
+ author = {Kulkarni, Vivek and Pudipeddi, Jagat Sastry and Akoglu, Leman and Vogelstein, Joshua T and Vogelstein, R Jacob and Ryman, Sephira and Jung, Rex E},
+ booktitle = {International Conference on Brain and Health Informatics},
+ organization = {Springer},
+ title = {Sex differences in the Human Connectome},
+ url = {https://pdfs.semanticscholar.org/98da/eeccc6d3cc80b789de30ecf8790c56950739.pdf},
+ year = {2013}
+}
+
+@article{Kutten2016,
+ abstract = {The CLARITY method renders brains optically transparent to enable high-resolution imaging in the structurally intact brain. Anatomically annotating CLARITY brains is necessary for discovering which regions contain signals of interest. Manually annotating whole-brain, terabyte CLARITY images is difficult, time-consuming, subjective, and error-prone. Automatically registering CLARITY images to a pre-annotated brain atlas offers a solution, but is difficult for several reasons. Removal of the brain from the skull and subsequent storage and processing cause variable non-rigid deformations, thus compounding inter-subject anatomical variability. Additionally, the signal in CLARITY images arises from various biochemical contrast agents which only sparsely label brain structures. This sparse labeling challenges the most commonly used registration algorithms that need to match image histogram statistics to the more densely labeled histological brain atlases. The standard method is a multiscale Mutual Information B-spline algorithm that dynamically generates an average template as an intermediate registration target. We determined that this method performs poorly when registering CLARITY brains to the Allen Institute's Mouse Reference Atlas (ARA), because the image histogram statistics are poorly matched. Therefore, we developed a method (Mask-LDDMM) for registering CLARITY images, that automatically find the brain boundary and learns the optimal deformation between the brain and atlas masks. Using Mask-LDDMM without an average template provided better results than the standard approach when registering CLARITY brains to the ARA. The LDDMM pipelines developed here provide a fast automated way to anatomically annotate CLARITY images. Our code is available as open source software at http://NeuroData.io.},
+ author = {Kutten, Kwame S. and Vogelstein, Joshua T. and Charon, Nicolas and Ye, Li and Deisseroth, Karl and Miller, Michael I.},
+ doi = {10.1117/12.2227444},
+ eprint = {1605.02060},
+ isbn = {9781510601413},
+ issn = {1996756X},
+ journal = {Society of Photo-Optical Instrumentation Engineers Europe},
+ title = {{Deformably Registering and Annotating Whole CLARITY Brains to an Atlas via Masked LDDMM}},
+ url = {https://doi.org/10.1117/12.2227444},
+ year = {2016}
+}
+
+@article{Kutten2016b,
+ abstract = {Large Deformation Diffeomorphic Metric Mapping (LDDMM) is a widely used deformable registration algorithm for computing smooth invertible maps between various types of anatomical shapes such as landmarks, curves, surfaces or images. In this work, we specifically focus on the case of images and adopt an optimal control point of view so as to extend the original LDDMM with Sum of Squared Differences (SSD) matching term to a framework more robust to intensity variations, which is critical for cross-modality registration. We implement a mutual information based LDDMM (MI-LDDMM) algorithm and demonstrate its superiority to SSD-LDDMM in aligning 2D phantoms with differing intensity profiles. This algorithm is then used to register CLARITY mouse brain images to a standard mouse atlas despite their differences in grayscale values. We complement the approach by showing how a cascaded multi-scale method improves the optimization while reducing the run time of the algorithm.},
+ author = {Kutten, Kwame S. and Charon, Nicolas and Miller, Michael I. and Ratnanather, J. Tilak and Deisseroth, Karl and Ye, Li and Vogelstein, Joshua T.},
+ doi = {10.1007/978-3-319-66182-7_32},
+ eprint = {1612.00356},
+ journal = {Medical Image Computing and Computer Assisted Intervention},
+ title = {{A Diffeomorphic Approach to Multimodal Registration with Mutual Information: Applications to CLARITY Mouse Brain Images}},
+ url = {https://link.springer.com/chapter/10.1007/978-3-319-66182-7_32},
+ volume = {2},
+ year = {2017}
+}
+
+@article{Lillaney2018,
+ author = {Lillaney, Kunal and Kleissas, Dean and Eusman, Alexander and Perlman, Eric and Vogelstein, Joshua T and Burns, Randal},
+ journal = {IEEE International Conference on eScience},
+ month = {},
+ title = {Building NDStore through Hierarchical Storage Management and Microservice Processing},
+ url = {https://ieeexplore.ieee.org/abstract/document/8588656},
+ year = {2018}
+}
+
+@article{Mhembere2013,
+ abstract = {Graphs are quickly emerging as a leading abstraction for the representation of data. One important application domain originates from an emerging discipline called &#x201C;connectomics&#x201D;. Connectomics studies the brain as a graph; vertices correspond to neurons (or collections thereof) and edges correspond to structural or functional connections between them. To explore the variability of connectomes-to address both basic science questions regarding the structure of the brain, and medical health questions about psychiatry and neurology-one can study the topological properties of these brain-graphs. We define multivariate glocal graph invariants: these are features of the graph that capture various local and global topological properties of the graphs. We show that the collection of features can collectively be computed via a combination of daisy-chaining, sparse matrix representation and computations, and efficient approximations. Our custom open-source Python package serves as a back-end to a Web-service that we have created to enable researchers to upload graphs, and download the corresponding invariants in a number of different formats. Moreover, we built this package to support distributed processing on multicore machines. This is therefore an enabling technology for network science, lowering the barrier of entry by providing tools to biologists and analysts who otherwise lack these capabilities. As a demonstration, we run our code on 120 brain-graphs, each with approximately 16M vertices and up to 90M edges.},
+ author = {Mhembere, Disa and {Gray Roncal}, William and Sussman, Daniel and Priebe, Carey E. and Jung, Rex and Ryman, Sephira and Vogelstein, R. Jacob and Vogelstein, Joshua T. and Burns, Randal},
+ doi = {10.1109/GlobalSIP.2013.6736874},
+ eprint = {1312.4318},
+ isbn = {9781479902484},
+ journal = {2013 IEEE Global Conference on Signal and Information Processing, GlobalSIP 2013 - Proceedings},
+ month = {dec},
+ title = {{Computing scalable multivariate glocal invariants of large (brain-) graphs}},
+ url = {http://arxiv.org/abs/1312.4318 http://dx.doi.org/10.1109/GlobalSIP.2013.6736874},
+ year = {2013}
+}
+
+@inproceedings{mhembere2017knor,
+ address = {Proceedings of the 26th International Symposium on High-Performance Parallel and Distributed Computing},
+ author = {Mhembere, Disa and Priebe, Carey E and Vogelstein, Joshua T and Burns, Randal},
+ booktitle = {Proceedings of the 26th International Symposium on High-Performance Parallel and Distributed Computing},
+ isbn = {9781450346993},
+ keywords = {acm reference format,and randal,carey e,cloud,clustering,da zheng,disa mhembere,joshua t,k-means,numa,parallel,priebe,semi-external memory,vogelstein},
+ organization = {ACM},
+ title = {{knor : A NUMA-Optimized In-Memory , Distributed and Semi-External-Memory k-means Library}},
+ url = {https://arxiv.org/abs/1606.08905},
+ year = {2017}
+}
+
+@article{Nikolaidis343392,
+ abstract = {Understanding the functional organization the brain is a centrally important theme of human neuroscience. Ideally, these organizational maps uncover the underlying structure of the brain{\textquoteright}s functional architecture, and group-level maps are accurate representations of the individuals in the sample. Using simulated fMRI data, we demonstrate that bagging improves the ability of clustering to uncover the data{\textquoteright}s underlying structure. We show that the group-level maps become more correlated to the individual-level maps with more bootstrap aggregates, suggesting bagging improves the representativeness of the group-level solution. Using a test-retest dataset of 30 young adults, we confirm these findings. More specifically, we see bagging improves the test-retest correlation between cluster maps, and increases correlation between group-level and individual-level cluster maps, and these effects are robust to number of clusters and length of scan used. These results suggest bagging is an important method for increasing reliability and validity of functional parcellation approaches.},
+ author = {Nikolaidis, Aki and Vogelstein, Joshua and Bellec, Pierre and Milham, Michael},
+ doi = {10.1101/343392},
+ eprint = {https://www.biorxiv.org/content/early/2018/06/11/343392.full.pdf},
+ journal = {Conference on Cognitive Computational Neuroscience},
+ month = {June},
+ publisher = {Cold Spring Harbor Laboratory},
+ title = {Improving Corticostriatal Parcellation Through Multilevel Bagging with PyBASC},
+ url = {https://www.biorxiv.org/content/early/2018/06/11/343392},
+ year = {2018}
+}
+
+@article{Petralia2013,
+ abstract = {Nonparametric estimation of the conditional distribution of a response given high- dimensional features is a challenging problem. It is important to allownot only the mean but also the variance and shape of the response density to change flexibly with features, which are massive-dimensional. We propose a multiscale dictio- nary learning model, which expresses the conditional response density as a convex combination of dictionary densities, with the densities used and their weights de- pendent on the path through a tree decomposition of the feature space. Afast graph partitioning algorithm is applied to obtain the tree decomposition, with Bayesian methods then used to adaptively prune and average over different sub-trees in a soft probabilistic manner. The algorithm scales efficiently to approximately one million features. State of the art predictive performance is demonstrated for toy examples and two neuroscience applications including up to a million features. 1},
+ author = {Petralia, Francesca and Vogelstein, Joshua and Dunson, David B},
+ eprint = {arXiv},
+ isbn = {10.1186/2042-1001-1-16},
+ issn = {10495258},
+ journal = {Advances in Neural Information Processing Systems},
+ pmid = {25233306},
+ title = {{Multiscale Dictionary Learning for Estimating Conditional Distributions}},
+ url = {https://papers.nips.cc/paper/4944-multiscale-dictionary-learning-for-estimating-conditional-distributions},
+ year = {2013}
+}
+
+@inproceedings{tomita2017roflmao,
+ abstract = {Copyright {\textcopyright} by SIAM. Random Forest (RF) remains one of the most widely used general purpose classification methods. Two recent largescale empirical studies demonstrated it to be the best overall classification method among a variety of methods evaluated. One of its main limitations, however, is that it is restricted to only axis-aligned recursive partitions of the feature space. Consequently, RF is particularly sensitive to the orientation of the data. Several studies have proposed "oblique" decision forest methods to address this limitation. However, these methods either have a time and space complexity significantly greater than RF, are sensitive to unit and scale, or empirically do not perform as well as RF on real data. One promising oblique method that was proposed alongside the canonical RF method, called Forest-RC (F-RC), has not received as much attention by the community. Despite it being just as old as RF, virtually no studies exist investigating its theoretical or empirical performance. In this work, we demonstrate that F-RC empirically outperforms RF and another recently proposed oblique method called Random Rotation Random Forest, while approximately maintaining the same computational complexity. Furthermore, a variant of F-RC which rank transforms the data prior to learning is especially invariant to affine transformations and robust to data corruption. Open source code is available.},
+ author = {Tomita, T.M. and Maggioni, M. and Vogelstein, J.T.},
+ booktitle = {Proceedings of the 17th SIAM International Conference on Data Mining, SDM 2017},
+ doi = {10.1137/1.9781611974973.56},
+ isbn = {9781611974874},
+ organization = {SIAM},
+ title = {{ROFLMAO: Robust oblique forests with linear MAtrix operations}},
+ year = {2017}
+}
+
+@inproceedings{Zheng2015,
+ abstract = {Graph analysis performs many random reads and writes, thus, these workloads are typically performed in memory. Traditionally, analyzing large graphs requires a cluster of machines so the aggregate memory exceeds the graph size. We demonstrate that a multicore server can process graphs with billions of vertices and hundreds of billions of edges, utilizing commodity SSDs with minimal performance loss. We do so by implementing a graph-processing engine on top of a user-space SSD file system designed for high IOPS and extreme parallelism. Our semi-external memory graph engine called FlashGraph stores vertex state in memory and edge lists on SSDs. It hides latency by overlapping computation with I/O. To save I/O bandwidth, FlashGraph only accesses edge lists requested by applications from SSDs; to increase I/O throughput and reduce CPU overhead for I/O, it conservatively merges I/O requests. These designs maximize performance for applications with different I/O characteristics. FlashGraph exposes a general and flexible vertex-centric programming interface that can express a wide variety of graph algorithms and their optimizations. We demonstrate that FlashGraph in semi-external memory performs many algorithms with performance up to 80% of its in-memory implementation and significantly outperforms PowerGraph, a popular distributed in-memory graph engine.},
+ author = {Zheng, Da and Mhembere, Disa and Burns, Randal and Vogelstein, Joshua and Priebe, Carey E. and Szalay, Alexander S.},
+ booktitle = {USENIX Conference on File and Storage Technologies},
+ doi = {10.1109/ICDE.2012.28},
+ eprint = {1408.0500},
+ isbn = {9781931971201},
+ issn = {10844627},
+ title = {{FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs}},
+ url = {http://arxiv.org/abs/1408.0500},
+ year = {2014}
+}
+
+@article{zheng2016flashr,
+ author = {Zheng, Da and Mhembere, Disa and Vogelstein, Joshua T and Priebe, Carey E and Burns, Randal},
+ journal = {PPoPP},
+ month = {May},
+ title = {FlashR: R-Programmed Parallel and Scalable Machine Learning using SSDs},
+ url = {https://dl.acm.org/citation.cfm?doid=3178487.3178501},
+ year = {2018}
+}
+
