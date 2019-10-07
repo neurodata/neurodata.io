@@ -9,133 +9,7 @@ subnavs:
 - reports
 - other
 
-pre_prints:
-- perry2019manifold
-- deeplearning2019
-- neurosubtypes2019
-- heritability2019
-- mgcpy2019
-- graphyti2019
-- alignment2019
-- geodesic2019
-- mgpy2019
-- estimatingforests2019
-- networkinference2019
-- graphindependence2019
-- vertex2019
-- bagging2019
-- graspy2019
-- kiar2017comprehensive
-- vogelstein2018geometric
-- ShenDecision2018
-- Greenberg479055
-- Vogelstein2018equivalence
-- Kiar2018
-- Wang2018
-- Wang2017
-- Tang2017
-- Tomita2018
-- Lyzinski2014
-- wang2018statistical
-- francca2017kernel
-- mhembere2019
-- Branch639674
 
-peer_reviewed:
-- Kiar2017
-- klein2019
-- connectalcoding
-- lee2017
-- priebe2018two
-- shen2016discovering
-- tang2016law
-- Shen2018
-- burns2018community
-- Durante2017
-- Cohen2018
-- Zheng2016b
-- dyer2017quantifying
-- simhal2017probabilistic
-- Shen201741
-- hildebrand2017whole
-- Chen2017
-- wang2017selected
-- Binkiewicz2014
-- Chen2016b
-- Raag2016
-- Durante2016
-- Chen2015
-- harris2015resource
-- Koutra2016
-- Roncal2015b
-- kasthuri2015saturated
-- Vogelstein2015
-- Vogelstein2015b
-- Lyzinski2015
-- Lyzinski2014a
-- Weiler2014
-- Priebe2015
-- Sweeney2014
-- vogelstein2014discovery
-- Carlson2014
-- Vogelstein2013
-- Craddock2013
-- Priebe2013
-- Dai2012
-- Fishkind2013
-- Roberts2012
-- Gray2012
-- Vogelstein2011b
-- Hofer2011
-- Mishchenko2011
-- Vogelstein2010
-- Paninski2010
-- Vogelstein2009
-- Vogelstein2007
-- Vogelstein2003
-- Greenspan1997
-- Athreya2018
-
-conf:
-- zheng2016flashr
-- Browne2018
-- Lillaney2018
-- Nikolaidis343392
-- Cornelis2013
-- Kutten2016
-- Fiori2013
-- Carlson2013a
-- Mhembere2013
-- GrayRoncal2013
-- Koutra2013
-- Kulkarni2013
-- Petralia2013
-- Kutten2016b
-- Huys2009
-- GrayRoncal2015a
-- Zheng2015
-- burns2013open
-- tomita2017roflmao
-- mhembere2017knor
-
-tech_reports:
-- kiar2018neurostorm
-- Kazhdan2013
-- Banerjee2013
-- Priebe2017
-- Zheng2016
-- Zheng2016c
-- sinha2014automatic
-
-other:
-- oopsi
-- neuro2016
-- GlobalBrain
-- BrainWorkshop
-- burns2014cosmos
-- Yuste2011
-- Vogelstein2011c
-- Vogelstein1999
 ---
 
 <div class="list_pubs">
@@ -143,23 +17,23 @@ other:
     {% set index_items = true %}
 
     <h6 id="pre_prints">Pre-prints</h6>
-    {% set pubs = doc.pre_prints %}
+    {% set PUBS = 'content/pubs/pre_prints.bib'|load_bibtex %}
     {% include 'partials/pubs_list.html' %}
 
     <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
-    {% set pubs = doc.peer_reviewed %}
+    {% set PUBS = 'content/pubs/peer_reviewed.bib'|load_bibtex %}
     {% include 'partials/pubs_list.html' %}
 
     <h6 id="conf">Peer-Reviewed Conference Proceedings</h6>
-    {% set pubs = doc.conf %}
+    {% set PUBS = 'content/pubs/conf.bib'|load_bibtex %}
     {% include 'partials/pubs_list.html' %}
 
     <h6 id="reports">Technical Reports</h6>
-    {% set pubs = doc.tech_reports %}
+    {% set PUBS = 'content/pubs/tech_reports.bib'|load_bibtex %}
     {% include 'partials/pubs_list.html' %}
 
     <h6 id="other">Other Publications</h6>
-    {% set pubs = doc.other %}
+    {% set PUBS = 'content/pubs/other.bib'|load_bibtex %}
     {% include 'partials/pubs_list.html' %}
 
 </div>
