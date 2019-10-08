@@ -87,6 +87,7 @@ def main(out_dir):
     bibs = [('content/research/publications.html', 'content/pubs/pubs.bib', ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"], "pubs"),
             ('content/research/talks.html', 'content/talks/talks.bib', ["invited", "other"], "talks")]
 
+    links = []
     for bib in bibs:
 
         yaml_data = return_yaml_data(bib[0])
@@ -102,12 +103,21 @@ def main(out_dir):
                                          for cat in categories] for item in sublist]
         excluded_entries = [value for key,
                             value in entries.items() if key not in all_cats]
-        entries_to_file(excluded_entries, out_dir +
-                        bib[3] + '_excluded_entries.bib')
+        fn = bib[3] + '_excluded_entries.bib'
+        entries_to_file(excluded_entries, out_dir + fn)
+        links.append(fn)
 
         for cat in categories:
             cat_entries = [entries[key] for key in yaml_data[cat]]
-            entries_to_file(cat_entries, out_dir + bib[3] + "_" + cat + '.bib')
+            fn = bib[3] + "_" + cat + '.bib'
+            entries_to_file(cat_entries, out_dir + fn)
+            links.append(fn)
+
+        with open(out_dir + "index.html", 'w') as indexfile:
+            indexfile.write("<html><body>")
+            for link in links:
+                indexfile.write("<a href=" + link + ">" + link + "</a><br>")
+            indexfile.write("</body></html>")
 
 
 if __name__ == "__main__":
