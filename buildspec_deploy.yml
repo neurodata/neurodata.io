@@ -1,17 +1,19 @@
 version: 0.2
-            
+
 phases:
   install:
     commands:
       - echo Installing grow
-      - pip install grow
+      - pip install grow pyyaml bibtexparser
   build:
     commands:
       - grow install
       - grow build --deployment default
+      - mkdir build/bib_files
+      - python2 misc/create_bibs.py
   post_build:
     commands:
       - aws s3 sync --delete --cache-control "max-age=10800" build/ "s3://nd-website-deploy"
       - aws s3 cp robots-prod.txt "s3://nd-website-deploy"
-      - aws configure set preview.cloudfront true 
+      - aws configure set preview.cloudfront true
       - aws cloudfront create-invalidation --distribution-id E1XLAJR2ZIAY9Y --paths '/*'
