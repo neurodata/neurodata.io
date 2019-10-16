@@ -5,24 +5,18 @@ year: 2018
 thumb: zbrain_atlas.jpg
 hero: zbrain_atlas_hero.jpg
 description: Zbrain atlas with surface mesh of different regions
-long_description: 
+long_description:
 data_types:
 
-
 data:
-- name: ZBrain (Owen Randlett)
-  url: 
-  type: 
-  description: 
-  viz: "https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=UN-3Ea0N7lYg9A"
-    
-tools:
+  - name: ZBrain (Owen Randlett)
+    url:
+    type:
+    description:
+    viz: "https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=daDgh1R0VeRGYQ"
 
+tools:
 
 analyses:
 
-  
 publications:
-
-
-

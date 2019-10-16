@@ -22,7 +22,7 @@ To load data into neuroglancer from our BOSS deployment, we recommend using [ndw
 The following URLs link to highlighted visualizations
 
 1. [Lee16](https://ndwebtools.neurodata.io/ndviz_url/lee/lee16/image/): Over 20 trillion voxel serial EM dataset
-1. [zbrain](https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=a5m8l6WM5OECfw) Zebrafish Atlas (by Owen Randlett), meshed and overlaid with light data channels
+1. [zbrain](https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=zEpo4_KwddP3Tw) Zebrafish Atlas (by Owen Randlett), meshed and overlaid with light data channels
 1. [synaptomes](https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=Pd7u-ZWGhecamg): Manually annotated synapses on Electron Microsopy coregistered with array tomography
 <!-- 1. [synaptomes](https://viz.neurodata.io/?json_url=https://api.myjson.com/bins/17xtbq): Manually annotated synapses meshed and overlaid with EM and array tomography -->
 1. [ARA](https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=5J65_CN_YS1aTQ) Allen Reference Atlas meshed
