@@ -14,9 +14,9 @@ slides:
 
 details:
 
-- Affine and Regularized DEformative Numeric Transform (<a href="https://github.com/neurodata/ardent">ARDENT</a>) is NeuroData's open-source Python package for performing automated nonlinear image registration using LDDMM.
+- <a href="https://github.com/neurodata/ardent">Reggie</a> is NeuroData's open-source Python package for performing automated nonlinear image registration using LDDMM.
 
-- ARDENT stands out for its ability to predict and correct for artifacts and image nonuniformity, perform registrations across image modalities, and ease of use.
+- Reggie stands out for its ability to predict and correct for artifacts and image nonuniformity, perform registrations across image modalities, and ease of use.
 
 manuscripts:
   - Kutten2016b
