@@ -3,6 +3,33 @@ $title@: Funding
 $order: 7
 ---
 
+#### [Accessible technologies for high-throughput, whole-brain reconstructions of molecularly characterized mammalian neurons](https://braininitiative.nih.gov/funded-awards/accessible-technologies-high-throughput-whole-brain-reconstructions-molecularly)
+
+**RFA-MH-19-148 (Mueller)**: 09/2019 - 08/2022
+_NIH_
+
+The goal of this grant will be to develop scalable and affordable cellular imaging and neuro-informatics tools, running preliminary experiments to connect the transcriptome to anatomy, in mice. Tools will be made available to researchers, to help accelerate the creation of detailed maps at cell resolution showing circuitry in whole brains.
+
+
+#### Understanding and Improving Robust Learning against Adversarial Attacks
+
+**(Arora)**: 12/19 - 11/23
+_DARPA GARD_
+
+#### Brain Networks in Mouse Models of Aging
+
+**(Badea)**: 12/19 - 11-23
+_NIH_
+
+The goal of this grant is to generate connectomes and RNA-seq transcriptomes to characterize and differentiate APOE mice as a model of aging.
+
+#### [Reproducible Imaging-based brain growth charts for psychiatry](http://grantome.com/grant/NIH/R01-MH120482-01)
+
+**1R01MH120482-01 (Satterthwaite)**: 12/19 - 11-23
+_NIH_
+
+The goal of this proposal will be to provide a new data resource, yield reproducible growth charts of brain development, and delineate novel mechanisms regarding the developmental basis of psychopathology in youth.
+
 #### [Multiscale Generalized Correlation: A Unified Distance-Based Correlation Measure for Dependence Discovery](http://grantome.com/grant/NSF/DMS-1921310)
 
 **1712947 (Shen)**: 05/01/2017 - 04/30/2020  
@@ -62,7 +89,7 @@ _Schmidt Sciences_
 This project will study learning and plasticity at an unprecedented scale, revealing the dynamics of
 large populations of synapses comprising an entire local cortical circuit. No previously conducted
 experiment could answer the questions about the dynamics of large populations of synapses, which
-is crucial to understanding the learning process.
+is crucial to the learning process.
 
 #### Lifelong Learning Forests
 
