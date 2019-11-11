@@ -1,7 +1,8 @@
 name: Ronak Mehta
-position: Graduate Student
+position: Research Assistant
 github: rmehta004
 email: rmehta13@jhu.edu
 picture: ronak_mehta.jpg
 website: 
-$category: student
+$category: staff
+$order: 2
