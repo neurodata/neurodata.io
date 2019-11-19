@@ -5,24 +5,19 @@ year: 2015
 thumb: randlett15_thumb.jpg
 hero: randlett15_bg.jpg
 description: ZBrain.  Light microscopy data
-long_description: 
+long_description:
 data_types:
 
-
 data:
-- name: ZBrain
-  url: https://ndwebtools.neurodata.io/cutout/ZBrain/ZBrain/
-  type: 
-  description: 100+ channels
-  viz: 
-    
-tools:
+  - name: ZBrain
+    url:
+    type:
+    description: 138 channels, atlas and mesh
+    viz: https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=OvE6sMflvU8GMQ
 
+tools:
 
 analyses:
 
-  
 publications:
-- randlett2015whole
-
-
+  - randlett2015whole
