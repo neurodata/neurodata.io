@@ -1,6 +1,6 @@
 $title: Kasthuri et al. (2015)
 
-authors: Kasthuri et al. 
+authors: Kasthuri et al.
 year: 2015
 thumb: kasthuri11thumb.jpg
 hero: kasthuri11.jpg
@@ -8,38 +8,37 @@ description: Bobby Kasthuri, Ph.D. under the tutelage of Jeff Lichtman, M.D., Ph
 long_description: We describe automated technologies to probe the structure of neural tissue at nanometer resolution and use them to generate a saturated reconstruction of a sub-volume of mouse neocortex in which all cellular objects (axons, dendrites, and glia) and many sub-cellular components (synapses, synaptic vesicles, spines, spine apparati, postsynaptic densities, and mitochondria) are rendered and itemized in a database. We explore these data to study physical properties of brain tissue. For example, by tracing the trajectories of all excitatory axons and noting their juxtapositions, both synaptic and non-synaptic, with every dendritic spine we refute the idea that physical proximity is sufficient to predict synaptic connectivity (the so-called Peters’ rule). This online minable database provides general access to the intrinsic complexity of the neocortex and enables further data-driven inquiries.
 data_types: EM
 
-
 data:
-- name: kasthuri11
-  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri11/
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri11/
-  type: 
-  description: 
-- name: kasthuri14Maine
-  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri14Maine
-  viz: https://ndwebtools.neurodata.io/ndviz_url/kasthuri/kasthuri14Maine
-  type: 
-  description: 
-- name: kasthuri14s1colEM
-  url: https://ndwebtools.neurodata.io/cutout/kasthuri/kasthuri14s1colEM
-  viz: 'https://viz.neurodata.io/#!{"layers":{"image":{"source":"boss://https://api.boss.neurodata.io/kasthuri/kasthuri14s1colEM/image","type":"image","opacity":1},"annotations":{"source":"boss://https://api.boss.neurodata.io/kasthuri/kasthuri14s1colANNO/annotations?","type":"segmentation","selectedAlpha":0.34}},"navigation":{"pose":{"position":{"voxelSize":[1,1,10],"voxelCoordinates":[29196.640625,15694.2998046875,127]}},"zoomFactor":1.8682459574322223},"selectedLayer":{"layer":"image","visible":true},"layout":"xy"}'
-  type: 
-  description: 
+  - name: kasthuri11
+    url:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri11/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22kasthuri11%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B4%2C4%2C40%5D%2C%22voxelCoordinates%22:%5B11695.033203125%2C13323.748046875%2C925%5D%7D%7D%2C%22zoomFactor%22:197.60979642212084%7D%2C%22perspectiveOrientation%22:%5B-0.05182216316461563%2C0.3092975318431854%2C-0.03777313604950905%2C0.9488006830215454%5D%2C%22perspectiveZoom%22:1808.0424144560657%2C%22layout%22:%224panel%22%7D"
+    type:
+    description:
+  - name: kasthuri14Maine
+    url:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14Maine/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22kasthuri14Maine%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B2851.849609375%2C3269.2236328125%2C1189.1405029296875%5D%7D%7D%2C%22zoomFactor%22:14.879731724872842%7D%2C%22perspectiveZoom%22:90.01713130052187%2C%22layout%22:%224panel%22%7D"
+    type:
+    description:
+  - name: kasthuri14s1colEM
+    url:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14s1colEM/image%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22default%22%2C%22name%22:%22image%22%7D%2C%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14s1colEM/anno%22%2C%22type%22:%22segmentation%22%2C%22selectedAlpha%22:0.34%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22annotations%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B28950.919921875%2C16024.703125%2C127%5D%7D%7D%2C%22zoomFactor%22:6.202795019104849%7D%2C%22perspectiveZoom%22:49.40244910553021%2C%22selectedLayer%22:%7B%22layer%22:%22image%22%2C%22visible%22:true%7D%2C%22layout%22:%224panel%22%7D"
+    type:
+    description:
 
 tools:
 
 analyses:
-- name: mojo
-  description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
-  link: https://github.com/Rhoana/Mojo
+  - name: mojo
+    description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
+    link: https://github.com/Rhoana/Mojo
 
-- name: rss
-  description: Reproducible Scalable Science
-  link: https://github.com/neurodata/kasthuri2015
-  
-- name: vast
-  description: 'VAST Lite: Volume Annotation and Segmentation Tool'
-  link: https://software.rc.fas.harvard.edu/lichtman/vast/
-  
+  - name: rss
+    description: Reproducible Scalable Science
+    link: https://github.com/neurodata/kasthuri2015
+
+  - name: vast
+    description: "VAST Lite: Volume Annotation and Segmentation Tool"
+    link: https://software.rc.fas.harvard.edu/lichtman/vast/
+
 publications:
-- kasthuri2015saturated
+  - kasthuri2015saturated

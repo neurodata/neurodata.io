@@ -4,31 +4,28 @@ authors: Dyer et al.
 year: 2016
 thumb: Dyer-thumb.jpg
 hero: Dyer.jpg
-description: 
+description:
 long_description: Methods for resolving the 3D microstructure of the brain typically start by thinly slicing and staining the brain, and then imaging each individual section with visible light photons or electrons. In contrast, X-rays can be used to image thick samples, providing a rapid approach for producing large 3D brain maps without sectioning. Here we demonstrate the use of synchrotron X-ray microtomography (microCT) for producing mesoscale (1 cubic micron resolution) brain maps from millimeter-scale volumes of mouse brain. We introduce a pipeline for mircoCT-based brain mapping that combines methods for sample preparation, imaging, automated segmentation of image volumes into cells and blood vessels, and statistical analysis of the resulting brain structures. Our results demonstrate that X-ray tomography promises rapid quantification of large brain volumes, complementing other brain mapping and connectomics efforts.
 data_types:
 
-
 data:
-- name: dyer16
-  url: https://ndwebtools.neurodata.io/cutout/dyer/dyer16/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/dyer/dyer16/
+  - name: dyer16
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/dyer/dyer16/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22dyer16%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B650%2C650%2C650%5D%2C%22voxelCoordinates%22:%5B1230.885986328125%2C1346.595458984375%2C1007.5%5D%7D%7D%2C%22zoomFactor%22:3932.270851868416%7D%2C%22perspectiveOrientation%22:%5B-0.06695138663053513%2C0.2501515746116638%2C-0.00004716726834885776%2C0.9658890962600708%5D%2C%22perspectiveZoom%22:26903.186074297617%2C%22layout%22:%224panel%22%7D"
 
 tools:
-- ndio
+  - ndio
 
 analyses:
-- name: mojo
-  description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
-  link: https://github.com/Rhoana/Mojo
+  - name: mojo
+    description: Mojo is an interactive proofreading tool for annotation of 3D EM data.
+    link: https://github.com/Rhoana/Mojo
 
-- name: tomopy
-  description: Tomographic reconstruction in Python
-  link: https://github.com/tomopy/tomopy
-  
+  - name: tomopy
+    description: Tomographic reconstruction in Python
+    link: https://github.com/tomopy/tomopy
+
 publications:
-- dyer2017quantifying
-
-
+  - dyer2017quantifying

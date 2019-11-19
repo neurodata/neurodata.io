@@ -4,34 +4,30 @@ authors: Ohyama Et Al.
 year: 2015
 thumb: flyCNS_L1_thumb.jpg
 hero: acardona_abd1_5.jpg
-description: 
+description:
 long_description: Understanding brain function and development would be facilitated enormously by being able to perform all experiments on the basis of known circuitry. Over 20 laboratories world wide have contributed towards the reconstruction of neurons in the central nervous system of Drosophila larva, led by the Cardona lab at HHMI Janelia. Here, we see a side view of the approximately 7,000 neurons reconstructed so far, either in full or partially, of the approximately 12,000 neurons of this animal. The 0111-8 data set was originally sectioned and imaged by Richard D. Fetter and his two tech assistants, and funded by the HHMI Janelia Fly EM Project Team. There are now many more papers now using the 0111-8 data (see publications below).
 
-
 data:
-- name: acardona_0111_8
-  url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_0111_8__12_03_2017/
-  type: EM
-  description: Viz
-  viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_0111_8__12_03_2017/
-- name: acardona_abd1_5
-  url: https://ndwebtools.neurodata.io/cutout/cardona/acardona_abd1_5/
-  type: EM
-  description: Viz
-  viz: https://ndwebtools.neurodata.io/ndviz_url/cardona/acardona_abd1_5/
-
+  - name: acardona_0111_8
+    url:
+    type: EM
+    description: Viz
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/cardona/acardona_0111_8__12_03_2017/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22acardona_0111_8%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B3.799999952316284%2C3.799999952316284%2C50%5D%2C%22voxelCoordinates%22:%5B14564.5166015625%2C23418.103515625%2C2420%5D%7D%7D%2C%22zoomFactor%22:187.72930424532248%7D%2C%22perspectiveZoom%22:1808.0424144560654%2C%22layout%22:%224panel%22%7D"
+  - name: acardona_abd1_5
+    url:
+    type: EM
+    description: Viz
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/cardona/acardona_abd1_5/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22acardona_abd1_5%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B11180%2C9400%2C100%5D%7D%7D%2C%22zoomFactor%22:27.112638920657904%7D%2C%22perspectiveZoom%22:298.8674009670606%2C%22layout%22:%224panel%22%7D"
 
 tools:
 
 publications:
-- ohyama2015multilevel
-- vogelstein2014discovery
-- kreshuk2015talking
-- berck2016wiring
-- fushiki2016circuit
-- schlegel2016synaptic
-- macnamee2016astrocytic
-- zwart2016selective
-- jovanic2016competitive
-
-
+  - ohyama2015multilevel
+  - vogelstein2014discovery
+  - kreshuk2015talking
+  - berck2016wiring
+  - fushiki2016circuit
+  - schlegel2016synaptic
+  - macnamee2016astrocytic
+  - zwart2016selective
+  - jovanic2016competitive

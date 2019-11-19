@@ -5,22 +5,19 @@ year: 2018
 thumb: branch18.jpg
 hero: branch18_hero.jpg
 description: Adult generated neurons in aging M. musculus
-long_description: 
+long_description:
 data_types: iDisco
 
-
 data:
-- name: Adult generated neurons in aging M. musculus
-  url: https://ndwebtools.neurodata.io/cutout/ABagemouse/dentateECcagGFP3/
-  type: iDisco
-  description: dentateECcagGFP3
-  viz: "https://viz.neurodata.io/#!{'layers':{'Ch0':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/ABagemouse/dentateECcagGFP3/Ch0?window=0,10000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[2000_2000_2500]_'voxelCoordinates':[1027_1377_1]}}_'zoomFactor':6980}}"
-    
-tools:
+  - name: Adult generated neurons in aging M. musculus
+    url:
+    type: iDisco
+    description: dentateECcagGFP3
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/ABagemouse/dentateECcagGFP3/Ch0%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22shaderControls%22:%7B%22max%22:0.24%7D%2C%22name%22:%22dentateECcagGFP3%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B2000%2C2000%2C2500%5D%2C%22voxelCoordinates%22:%5B970.6537475585938%2C1096.41064453125%2C1%5D%7D%7D%2C%22zoomFactor%22:4428.881993608148%7D%2C%22perspectiveZoom%22:30791.686078281644%2C%22selectedLayer%22:%7B%22layer%22:%22dentateECcagGFP3%22%2C%22visible%22:true%7D%2C%22layout%22:%224panel%22%7D"
 
+tools:
 
 analyses:
 
-  
 publications:
-- burns2018community
+  - burns2018community

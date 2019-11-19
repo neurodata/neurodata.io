@@ -29,6 +29,8 @@
                     <h4>
                         {% if item.url %}
                         <a href="{{item.url}}" target="_blank" rel="noopener">{{ item.name }}</a>
+                        {% elif item.viz %}
+                        <a href="{{item.viz}}" target="_blank" rel="noopener">{{ item.name }}</a>
                         {% else %}
                         {{ item.name }}
                         {% endif %}

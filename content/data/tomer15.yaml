@@ -5,86 +5,77 @@ year: 2016
 thumb: deisseroth_thumb.jpg
 hero: deisseroth_hero.jpg
 description: Twelve CLARITY mouse brains (5 wild type controls and 7 behaviorally challenged) were prepared by Li Ye, and imaged using CLARITY-Optimized Light-sheet Microscopy (COLM) (whole brain COLM imaging and data stitching performed by R. Tomer, in preparation).
-long_description: 
+long_description:
 data_types:
 
-
 data:
-- name: Cocaine174
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine174/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Cocaine174/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
+  - name: Cocaine174
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine174/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
 
-- name: Cocaine175
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine175/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Cocaine175/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
+  - name: Cocaine175
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine175/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
 
-- name: Cocaine178
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Cocaine178/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Cocaine178/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+  - name: Cocaine178
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine178/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
-- name: Fear187
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear187/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Fear187/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+  - name: Fear187
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear187/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
-- name: Fear197
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear197/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Fear197/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+  - name: Fear197
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear197/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
-- name: Fear199
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Fear199/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Fear199/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+  - name: Fear199
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear199/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
-- name: Control181
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Control181/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control181/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[11029_14378_705]}}_'zoomFactor':19372}}"
+  - name: Control181
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control181/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[11029_14378_705]}}_'zoomFactor':19372}}"
 
-  
-- name: Control182
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Control182/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control182/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
+  - name: Control182
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control182/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
 
-  
-- name: Control189
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Control189/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control189/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
+  - name: Control189
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control189/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
 
-  
-- name: Control239
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Control239/
-  type: 
-  description: 
-  viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control239/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}"
+  - name: Control239
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control239/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}"
 
-  
-- name: Control258
-  url: https://ndwebtools.neurodata.io/cutout/kutten/Control258/
-  type: 
-  description: 
-  viz: https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/kutten/Control258/Grayscale?window=0,1000'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}
-  
-    
+  - name: Control258
+    url:
+    type:
+    description:
+    viz: https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control258/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}
+
 tools:
-  
+
 publications:
-- kutten2016deformably
-
-
-
+  - kutten2016deformably
