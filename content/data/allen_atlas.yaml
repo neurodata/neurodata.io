@@ -10,35 +10,29 @@ long_description: "These anatomical reference atlases illustrate the adult mouse
 data_types:
 
 data:
-  - name: sagittal_100um
-    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_100um/
+  - name: sagittal_10um
+    url:
     type:
-    description:
-    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_100um/annotation_100um_2017/
+    description: average, nissl, segmentations
+    viz: 'https://ara.viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/nissl_10um","type":"image","opacity":1,"blend":"additive","shaderControls":{"color":"#ef3030","max":0.31},"name":"nissl_10um","visible":false},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/average_10um","type":"image","opacity":1,"blend":"additive","shaderControls":{"max":0.007},"name":"average_10um"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/annotation_10um_2017","type":"segmentation","selectedAlpha":0.3,"skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"annotation_10um_2017"}],"navigation":{"pose":{"position":{"voxelSize":[10000,10000,10000],"voxelCoordinates":[696.1801147460938,414.9307556152344,512]}},"zoomFactor":18221.18800390506},"selectedLayer":{"layer":"nissl_10um","visible":true},"layout":"xy"}'
 
-  - name: sagittal_50um
-    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_50um/
+  - name: sagittal_25um
+    url:
     type:
-    description:
-    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_50um/annotation_50um/
+    description: average, nissl, segmentations
+    viz: 'https://ara.viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_25um/nissl_25um","type":"image","opacity":1,"blend":"additive","shaderControls":{"color":"#ef3030","max":0.31},"name":"nissl_25um","visible":false},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_25um/average_25um","type":"image","opacity":1,"blend":"additive","shaderControls":{"max":0.007},"name":"average_25um"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_25um/annotation_25um_2017","type":"segmentation","selectedAlpha":0.3,"skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"annotation_25um_2017"}],"navigation":{"pose":{"position":{"voxelSize":[10000,10000,10000],"voxelCoordinates":[696.1801147460938,414.9307556152344,512]}},"zoomFactor":18221.18800390506},"selectedLayer":{"layer":"nissl_25um","visible":true},"layout":"xy"}'
 
   - name: sagittal 50um
     url:
     type:
-    description: mesh & compressed segmentation
-    viz: "https://ara.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=mJ7SrG6F3EFxTA"
+    description: average, nissl, segmentations, mesh
+    viz: 'https://ara.viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_50um/nissl_50um","type":"image","opacity":1,"blend":"additive","shaderControls":{"color":"#ef3030","max":0.31},"name":"nissl_50um","visible":false},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_50um/average_50um","type":"image","opacity":1,"blend":"additive","shaderControls":{"max":0.007},"name":"average_50um"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ARA/ARA_50","type":"segmentation","selectedAlpha":0.29,"objectAlpha":0.97,"segments":["1","10","100","1004","1005","1006","1007","1009","101","1010","1015","1016","102","1020","1021","1022","1023","1025","1026","1029","1030","1031","1033","1035","1037","1038","1039","1041","1043","1044","1045","1046","1047","1048","1049","105","1052","1054","1056","1058","106","1060","1061","1062","1064","1066","10671","1069","1070","10703","10704","1072","1074","1077","1079","108","1081","1084","1085","1086","1088","1089","1090","1091","1092","1093","1094","1096","1097","1098","1101","1102","1104","1105","1106","1107","1108","1109","1111","1113","1114","1116","1120","1121","1123","1125","1126","1127","1128","113","1139","114","115","117","118","12","120","121","122","123","125","126","128","129","131","132","133","136","139","140","143","145","146","147","148","149","15","153","155","156","158","159","162","163","164","169","17","171","173","177","178","180","181","182305696","182305712","186","187","188","189","19","190","194","196","197","198","2","20","201","202","203","204","206","207","209","210","211","214","215","217","218","222","223","225","226","229","23","230","231","233","234","237","238","243","246","249","250","251","252","255","257","258","26","260","262","263","266","268","269","27","271","272","274","279","28","280","281","286","287","288","289","292","296","298","30","301","303","304","305","307","310","311","312782560","312782592","312782624","312782656","313","314","318","320","321","325","326","327","328","33","330","332","333","334","335","336","338","342","344","347","349","35","350","351","354","355","356","358","36","362","363","364","366","368","372","374","377","38","380","381","382","390","393","397","401","403","41","412","413","414","42","421","422","423","427","428","429","430","433","434","436","437","440","441","442","443","445","448","449","450","451","452","456","460","461","463","466","469","470","477","478","482","483","484","484682464","484682496","484682528","488","496345664","50","501","502","506","507","510","512","515","52","520","523","525","526","526157184","526322272","527","527696992","530","531","534","538","54","540","542","543","544","549","549009216","551","553","556","558","559","56","560581568","563807424","564","565","566","573","574","575","576","576073728","577","579","58","580","581","582","583","587","588","589508416","589508480","59","590","591","593","595","596","597","598","599","599626944","6","600","601","603","604","605","606826624","606826688","607344832","608","609","610","611","612","613","614","614454272","616","62","620","621","622","625","628","629","63","630","632","633","634","638","639","64","642","643","648","649","651","653","654","655","656","657","658","66","661","662","663","664","665","667","67","670","671","672","673","675","678","679","68","680","681","685","687","689","690","692","693","694","696","697","698","699","7","702","703","704","706","707","711","718","72","721","725","727","728","729","732","733","735","74","741","743","744","749","75","750","753","754","755","757","759","763","765","767","771","772","773","774","778","78","780","781","783","784","786","788","791","794","795","797","798","800","802","803","804","805","806","81","810","811","812","814","816","819","820","821","827","828","83","830","831","832","834","836","838","839","84","841","842","843","844","846","847","848","849","850","851","852","854","857","859","862","863","866","867","869","872","873","874","878","88","880","882","884","888","889","893","897","898","9","900","902","903","905","906","907","908","91","910","911","912","914","916","919","924","927","929","93","930","931","935","936","939","940","943","944","945","946","949","950","951","952","954","955","956","957","959","96","961","962","963","964","965","966","968","969","97","970","971","973","974","975","976","977","978","98","980","981","982","984","986","988","989","990","996","997","998"],"skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"ARA_50"}],"navigation":{"pose":{"position":{"voxelSize":[50000,50000,50000],"voxelCoordinates":[142.35906982421875,82.78034210205078,115.78328704833984]}},"zoomFactor":40529.21229850939},"showDefaultAnnotations":false,"perspectiveOrientation":[-0.3193953037261963,0.1221771165728569,0.043741174042224884,0.9386938214302063],"perspectiveZoom":268337.28652087424,"showSlices":false,"jsonStateServer":"https://json.neurodata.io/v1","selectedLayer":{"layer":"ARA_50"},"layout":"4panel"}'
 
-  - name: sagittal_25um
-    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_25um/
+  - name: sagittal_100um
+    url:
     type:
-    description:
-    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_25um/annotation_25um_2017/
-
-  - name: sagittal_10um
-    url: https://ndwebtools.neurodata.io/cutout/ara_2016/sagittal_10um/
-    type:
-    description:
-    viz: https://ndwebtools.neurodata.io/ndviz_url/ara_2016/sagittal_10um/annotation_10um_2017/
+    description: average, segmentations
+    viz: 'https://ara.viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_100um/average_100um","type":"image","opacity":1,"blend":"additive","shaderControls":{"max":0.007},"name":"average_100um"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_100um/annotation_100um_2017","type":"segmentation","selectedAlpha":0.3,"skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"annotation_100um_2017"}],"navigation":{"pose":{"position":{"voxelSize":[10000,10000,10000],"voxelCoordinates":[696.1801147460938,414.9307556152344,512]}},"zoomFactor":18221.18800390506},"layout":"xy"}'
 
 tools:
 

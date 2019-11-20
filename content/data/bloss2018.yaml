@@ -1,23 +1,21 @@
 $title: Bloss et al. (2018)
 
-authors: Bloss et al. 
+authors: Bloss et al.
 year: 2018
 thumb: bloss18_bg_thumb.jpg
 hero: bloss18_bg.jpg
-description: Single excitatory axons form clustered synapses onto CA1 pyramidal cell dendrites 
-long_description: Neuronal circuit function is governed by precise patterns of connectivity between specialized groups of neurons. The diversity of GABAergic interneurons is a hallmark of cortical circuits, yet little is known about their targeting to individual postsynaptic dendrites. We examined synaptic connectivity between molecularly defined inhibitory interneurons and CA1 pyramidal cell dendrites using correlative light-electron microscopy and large-volume array tomography. We show that interneurons can be highly selective in their connectivity to specific dendritic branch types and, furthermore, exhibit precisely targeted connectivity to the origin or end of individual branches. Computational simulations indicate that the observed subcellular targeting enables control over the nonlinear integration of synaptic input or the initiation and backpropagation of action potentials in a branchselective manner. Our results demonstrate that connectivity between interneurons and pyramidal cell dendrites is more precise and spatially segregated than previously appreciated, which may be a critical determinant of how inhibition shapes dendritic computation.  
+description: Single excitatory axons form clustered synapses onto CA1 pyramidal cell dendrites
+long_description: Neuronal circuit function is governed by precise patterns of connectivity between specialized groups of neurons. The diversity of GABAergic interneurons is a hallmark of cortical circuits, yet little is known about their targeting to individual postsynaptic dendrites. We examined synaptic connectivity between molecularly defined inhibitory interneurons and CA1 pyramidal cell dendrites using correlative light-electron microscopy and large-volume array tomography. We show that interneurons can be highly selective in their connectivity to specific dendritic branch types and, furthermore, exhibit precisely targeted connectivity to the origin or end of individual branches. Computational simulations indicate that the observed subcellular targeting enables control over the nonlinear integration of synaptic input or the initiation and backpropagation of action potentials in a branchselective manner. Our results demonstrate that connectivity between interneurons and pyramidal cell dendrites is more precise and spatially segregated than previously appreciated, which may be a critical determinant of how inhibition shapes dendritic computation.
 data_types: serial section transmission electron microscopy (ssTEM)
 
-
 data:
-- name: bloss18
-  url: https://ndwebtools.neurodata.io/cutout/bloss/bloss18/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/bloss/bloss18/
+  - name: bloss18
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bloss/bloss18/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22bloss18%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B3.890000104904175%2C3.890000104904175%2C50%5D%2C%22voxelCoordinates%22:%5B42446.34765625%2C53290.6640625%2C160%5D%7D%7D%2C%22zoomFactor%22:597.8914313837968%7D%2C%22perspectiveZoom%22:24.04675355206451%2C%22layout%22:%22xy%22%7D"
 
 tools:
 
-  
 publications:
-- bloss2018single
+  - bloss2018single

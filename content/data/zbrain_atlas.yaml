@@ -12,7 +12,7 @@ data:
   - name: ZBrain (Owen Randlett)
     url:
     type:
-    description:
+    description: atlas segmentations and mesh
     viz: "https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=daDgh1R0VeRGYQ"
 
 tools:

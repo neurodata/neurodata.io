@@ -1,8 +1,8 @@
 $title: Hildebrand et al. (2017)
 
-authors: Hildebrand et al. 
+authors: Hildebrand et al.
 year: 2017
-thumb: hildebrand16_thumb.jpg 
+thumb: hildebrand16_thumb.jpg
 hero: hildebrand16.jpg
 description: Multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish.
 long_description: Hildebrand and colleagues acquired a multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish, including its complete brain. A draft projectome consisting of central and peripheral myelinated neurons was then reconstructed.  Electron micrographs and reconstructions are available for view in CATMAID.  A manuscript describing the data and methods used to generate it has been published in Nature.  The Hildebrand16 database is made available under the <a href="http://opendatacommons.org/licenses/odbl/1.0/">Open Database License</a>. Any rights in individual contents of the database are licensed under the <a href="http://opendatacommons.org/licenses/dbcl/1.0/">Database Contents License</a>. Any use should attribute the original data source (<a href="mailto:davidh@fas.harvard.edu">davidh@fas.harvard.edu</a>) and database (<a href="http://hildebrand16.neurodata.io/">http://hildebrand16.neurodata.io/</a>).
@@ -10,27 +10,26 @@ long_description: Hildebrand and colleagues acquired a multi-resolution serial-s
 data_types: EM
 
 data:
-- name: Hildebrand et al. 2017 (5.5 dpf)
-  url: https://ndwebtools.neurodata.io/cutout/hildebrand/130201zf142/
-  type: EM 
-  description: ndBOSS
-  viz: https://ndwebtools.neurodata.io/ndviz_url/hildebrand/130201zf142/
+  - name: Hildebrand et al. 2017 (5.5 dpf)
+    url:
+    type: EM
+    description:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/hildebrand/130201zf142/160515_SWiFT_60nmpx%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22160515_SWiFT_60nmpx%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B56.400001525878906%2C56.400001525878906%2C60%5D%2C%22voxelCoordinates%22:%5B6089.802734375%2C4703.9541015625%2C10112.5%5D%7D%7D%2C%22zoomFactor%22:1132.8243131158818%7D%2C%22layout%22:%224panel%22%7D"
 
-- name: Hildebrand et al. 2017 (7 dpf)
-  url: https://ndwebtools.neurodata.io/cutout/hildebrand/120809zf104/
-  type: EM 
-  description: ndBOSS
-  viz: https://ndwebtools.neurodata.io/ndviz_url/hildebrand/120809zf104/
+  - name: Hildebrand et al. 2017 (7 dpf)
+    url:
+    type: EM
+    description:
+    viz: 'https://viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/hildebrand/120809zf104/151009"%2C"type":"image"%2C"blend":"default"%2C"name":"120809zf104"}]%2C"navigation":{"pose":{"position":{"voxelSize":[741.5%2C741.5%2C50]%2C"voxelCoordinates":[1046.9031982421875%2C966.400634765625%2C7523.5]}}%2C"zoomFactor":3334.3165520462594}%2C"layout":"4panel"}'
 
-- name: Hildebrand et al. 2017 (5.5 dpf)
-  url: http://hildebrand16.neurodata.io/catmaid/?pid=6&zp=537540&yp=351910&xp=303051&tool=navigator&sg=2&sgs=4
-  type: EM 
-  description: CATMAID
-  viz: 
+  - name: Hildebrand et al. 2017 (5.5 dpf)
+    url: http://hildebrand16.neurodata.io/catmaid/?pid=6&zp=537540&yp=351910&xp=303051&tool=navigator&sg=2&sgs=4
+    type: EM
+    description: CATMAID
+    viz:
 
 tools:
 
-  
 publications:
-- hildebrand2017whole
+  - hildebrand2017whole
 # - hildebrandBioRxiv

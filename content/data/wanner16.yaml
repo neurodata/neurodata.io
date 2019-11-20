@@ -4,22 +4,21 @@ authors: Wanner et al.
 year: 2016
 thumb: wanner-thumb.jpg
 hero: wanner.jpg
-description: 
-long_description: Large-scale reconstructions of neuronal populations are critical for structural analyses of neuronal cell types and circuits. Dense reconstructions of neurons from image data require ultrastructural resolution throughout large volumes, which can be achieved by automated volumetric electron microscopy (EM) techniques. We used serial block face scanning EM (SBEM) and conductive sample embedding to acquire an image stack from an olfactory bulb (OB) of a zebrafish larva at a voxel resolution of 9.25 × 9.25 × 25 nm3 (Wanner et al., 2016). Skeletons of 1,022 neurons, ~98% of all neurons in the OB, were reconstructed by manual tracing and efficient error correction procedures. An ergonomic software package, PyKNOSSOS, was created in Python for data browsing, neuron tracing, synapse annotation, and visualization. PyKNOSSOS is available for free download (https://github.com/adwanner/PyKNOSSOS). The reconstructions allow for detailed analyses of morphology, projections and subcellular features of different neuron types (http://dx.doi.org/10.5281/zenodo.58985). The high density of reconstructions enables geometrical and topological analyses of the OB circuitry. Image data can be accessed and viewed through the neurodata web services. Raw data and reconstructions can be visualized in PyKNOSSOS. 
+description:
+long_description: Large-scale reconstructions of neuronal populations are critical for structural analyses of neuronal cell types and circuits. Dense reconstructions of neurons from image data require ultrastructural resolution throughout large volumes, which can be achieved by automated volumetric electron microscopy (EM) techniques. We used serial block face scanning EM (SBEM) and conductive sample embedding to acquire an image stack from an olfactory bulb (OB) of a zebrafish larva at a voxel resolution of 9.25 × 9.25 × 25 nm3 (Wanner et al., 2016). Skeletons of 1,022 neurons, ~98% of all neurons in the OB, were reconstructed by manual tracing and efficient error correction procedures. An ergonomic software package, PyKNOSSOS, was created in Python for data browsing, neuron tracing, synapse annotation, and visualization. PyKNOSSOS is available for free download (https://github.com/adwanner/PyKNOSSOS). The reconstructions allow for detailed analyses of morphology, projections and subcellular features of different neuron types (http://dx.doi.org/10.5281/zenodo.58985). The high density of reconstructions enables geometrical and topological analyses of the OB circuitry. Image data can be accessed and viewed through the neurodata web services. Raw data and reconstructions can be visualized in PyKNOSSOS.
 data_types:
 
-doi: '10.7281/T1MS3QN7'
+doi: "10.7281/T1MS3QN7"
 
 data:
-- name: wanner16
-  url: https://ndwebtools.neurodata.io/cutout/wanner16/AA201605/
-  type: 
-  description: 
-  viz: https://ndwebtools.neurodata.io/ndviz_url/wanner16/AA201605/
+  - name: wanner16
+    url:
+    type:
+    description:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/wanner16/AA201605/SBEM1%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22SBEM1%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B9.25%2C9.25%2C25%5D%2C%22voxelCoordinates%22:%5B7552.849609375%2C9353.5966796875%2C3277.287841796875%5D%7D%7D%2C%22zoomFactor%22:75.53707169125059%7D%2C%22perspectiveOrientation%22:%5B-0.15097904205322266%2C0.4587147831916809%2C0.10686561465263367%2C0.8691178560256958%5D%2C%22perspectiveZoom%22:735.0951892419732%2C%22layout%22:%224panel%22%7D"
 
 tools:
 
-  
 publications:
-- wanner2016dense
-- wanner20163
+  - wanner2016dense
+  - wanner20163

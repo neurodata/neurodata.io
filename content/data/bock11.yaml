@@ -4,22 +4,19 @@ authors: Bock et al.
 year: 2011
 thumb: bock11_em_preview.jpg
 hero: bock11_hero.jpg
-description: 
+description:
 long_description: Layer 2/3 - Davi Bock, Ph.D. and Wei-Chung Allen Lee, Ph.D., in the laboratory of Clay Reid, M.D., Ph.D. acquired a beautiful volume of mouse primary visual cortical data, spanning layers 1, 2/3, and upper layer 4. In addition to the electron microscope (EM) data, they used two-photon microscopy to determine the functional properties of about 14 of the cells in the same volume. Images were collected at approximately 4x4x45 cubic nanometers with a total volume of approximately 450x350x50 cubic microns.
 data_types: EM
 
-
 data:
-- name: bock11
-  url: https://ndwebtools.neurodata.io/cutout/bock/bock11/
-  type: EM
-  description: 
-  viz: https://viz.neurodata.io/#!{'layers':{'image':{'type':'image'_'source':'boss://https://api.boss.neurodata.io/bock/bock11/image?'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[4_4_40]_'voxelCoordinates':[67712_59904_3500]}}_'zoomFactor':4}}
+  - name: bock11
+    url:
+    type: EM
+    description:
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bock11/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22bock11%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B4%2C4%2C40%5D%2C%22voxelCoordinates%22:%5B65209.7890625%2C62706.3984375%2C3624.313232421875%5D%7D%7D%2C%22zoomFactor%22:801.3472398991676%7D%2C%22perspectiveZoom%22:6279.213419841445%2C%22layout%22:%22xy%22%7D"
 
 tools:
 
-  
 publications:
-- bock2011network
-- nature_video_untangling_nodate
-
+  - bock2011network
+  - nature_video_untangling_nodate
