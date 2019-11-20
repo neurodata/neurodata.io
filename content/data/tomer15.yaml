@@ -13,67 +13,67 @@ data:
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine174/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Cocaine174':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine174/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
 
   - name: Cocaine175
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine175/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Cocaine175':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine175/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10898_13452_705]}}_'zoomFactor':19372}}"
 
   - name: Cocaine178
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine178/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Cocaine178':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Cocaine178/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
   - name: Fear187
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear187/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Fear187':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear187/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
   - name: Fear197
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear197/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Fear197':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear197/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
   - name: Fear199
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear199/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Fear199':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Fear199/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[8811_12789_705]}}_'zoomFactor':19372}}"
 
   - name: Control181
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control181/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[11029_14378_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Control181':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control181/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[11029_14378_705]}}_'zoomFactor':19372}}"
 
   - name: Control182
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control182/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Control182':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control182/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
 
   - name: Control189
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control189/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Control189':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control189/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[10300_12391_705]}}_'zoomFactor':19372}}"
 
   - name: Control239
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control239/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}"
+    viz: "https://viz.neurodata.io/#!{'layers':{'Control239':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control239/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}"
 
   - name: Control258
     url:
     type:
     description:
-    viz: https://viz.neurodata.io/#!{'layers':{'Grayscale':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control258/Grayscale'_'blend':'additive'_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}
+    viz: https://viz.neurodata.io/#!{'layers':{'Control258':{'type':'image'_'source':'precomputed://https://open-neurodata.s3.amazonaws.com/kutten/Control258/Grayscale'_'blend':'additive'_'shaderControls':{"max":0.03}_'opacity':1}}_'navigation':{'pose':{'position':{'voxelSize':[585_585_5000]_'voxelCoordinates':[9944_11947_687]}}_'zoomFactor':24874.83297003672}}
 
 tools:
 
