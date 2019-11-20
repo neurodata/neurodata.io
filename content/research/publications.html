@@ -146,23 +146,28 @@ other:
     {% set index_items = true %}
 
     <h6 id="pre_prints">Pre-prints</h6>
-    {% set pubs = doc.pre_prints %}
+    {% with pubs = doc.pre_prints %}
     {% include 'partials/pubs_list.html' %}
+    {% endwith %}
 
     <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
-    {% set pubs = doc.peer_reviewed %}
+    {% with pubs = doc.peer_reviewed %}
     {% include 'partials/pubs_list.html' %}
+    {% endwith %}
 
     <h6 id="conf">Peer-Reviewed Conference Proceedings</h6>
-    {% set pubs = doc.conf %}
+    {% with pubs = doc.conf %}
     {% include 'partials/pubs_list.html' %}
+    {% endwith %}
 
     <h6 id="reports">Technical Reports</h6>
-    {% set pubs = doc.tech_reports %}
+    {% with pubs = doc.tech_reports %}
     {% include 'partials/pubs_list.html' %}
+    {% endwith %}
 
     <h6 id="other">Other Publications</h6>
-    {% set pubs = doc.other %}
+    {% with pubs = doc.other %}
     {% include 'partials/pubs_list.html' %}
+    {% endwith %}
 
 </div>
