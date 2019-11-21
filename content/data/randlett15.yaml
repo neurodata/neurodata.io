@@ -13,7 +13,7 @@ data:
     url:
     type:
     description: 138 channels, atlas and mesh
-    viz: https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=OvE6sMflvU8GMQ
+    viz: https://zbrain.viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=LPMk2SsgyVCseQ
 
 tools:
 
