@@ -21,15 +21,10 @@ heading: NeuroData Cloud
 description: "The deployment of tools which support the Open Connectome Project"
 
 packages:
-  - name: "ndex"
-    github: neurodata/ndex
+  - name: "CloudVolume"
+    github: "neurodata/cloud-volume"
     lang:
       - Python
-  - name: "ndweb"
-    github: "neurodata/ndwebtools"
-    lang:
-      - Python
-    link: "https://ndwebtools.neurodata.io"
   - name: "neuroglancer"
     github: "neurodata/neuroglancer"
     lang:
