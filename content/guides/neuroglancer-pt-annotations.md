@@ -6,7 +6,7 @@ $order: 3
 
 [TOC]
 
-This guide demonstrates how to add point annotations manually to a neuroglancer view.  To generate a starting neuroglancer view, we recommend using <a href="https://ndwebtools.neurodata.io" target="_blank" rel="noopener">ndwebtools</a>.  For this demo, we have made <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank" rel="noopener">this</a> neuroglancer view available to use.
+This guide demonstrates how to add point annotations manually to a neuroglancer view.  To generate a starting neuroglancer view, we recommend following one of the viz links from [OCP]([url('/content/projects/ocp.yaml')]).  For this demo, we are going to use <a href="https://viz.neurodata.io/?json_url=https://json.neurodata.io/v1?NGStateID=c-D79XYYWJngLw" target="_blank" rel="noopener">this</a> neuroglancer view.
 
 ### Open JSON editor
 
