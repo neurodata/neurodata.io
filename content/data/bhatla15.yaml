@@ -14,6 +14,12 @@ data:
     type: ssTEM
     description: "1199 serial sections of the anterior pharynx of worm #1"
     viz: 'https://viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/bhatla/ritaN2/image","type":"image","blend":"default","name":"ritaN2"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/bhatla/ritaN2/annotation","type":"segmentation","skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"annotation"}],"navigation":{"pose":{"position":{"voxelSize":[2,2,50],"voxelCoordinates":[6953.27734375,7610.8642578125,177.8524627685547]}},"zoomFactor":16.66227497537539},"layout":"xy"}'
+    layers:
+      - bucket: "open-neurodata"
+        path: "bhatla/ritaN2/image"
+        cutout_x: 6836
+        cutout_y: 7576
+        cutout_z: 176
 
 # - name: "Worm #4  (temporarily unavailable)"
 #   url:
