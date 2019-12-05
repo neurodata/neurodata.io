@@ -14,6 +14,12 @@ data:
     type: AT, TEM
     description: Large-volume array tomography (AT) and transmission electron microscopy (TEM).
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bloss/bloss16/channel0%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22additive%22%2C%22name%22:%22channel0%22%7D%2C%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bloss/bloss16/channel1%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22additive%22%2C%22shaderControls%22:%7B%22color%22:%22#ff0000%22%7D%2C%22name%22:%22channel1%22%7D%2C%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bloss/bloss16/channel2%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22additive%22%2C%22shaderControls%22:%7B%22color%22:%22#00ff00%22%7D%2C%22name%22:%22channel2%22%7D%2C%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bloss/bloss16/channel3%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22additive%22%2C%22shaderControls%22:%7B%22color%22:%22#0000ff%22%7D%2C%22name%22:%22channel3%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B100%2C100%2C100%5D%2C%22voxelCoordinates%22:%5B5750%2C3750%2C714%5D%7D%7D%2C%22zoomFactor%22:1200%7D%2C%22layout%22:%224panel%22%7D"
+    layers:
+      - bucket: "open-neurodata"
+        path: "bloss/bloss16/channel0"
+        cutout_x: 5750
+        cutout_y: 3750
+        cutout_z: 714
 
 tools:
 

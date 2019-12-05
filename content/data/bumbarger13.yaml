@@ -14,7 +14,13 @@ data:
     url:
     type:
     description:
-    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bumbarger/bumbarger13/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22bumbarger13%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B3.9000000953674316%2C3.9000000953674316%2C50%5D%2C%22voxelCoordinates%22:%5B11746.203125%2C12500.64453125%2C1247.9156494140625%5D%7D%7D%2C%22zoomFactor%22:459.88505489227117%7D%2C%22layout%22:%224panel%22%7D"
+    viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bumbarger/bumbarger13/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22bumbarger13%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B3.9000000953674316%2C3.9000000953674316%2C50%5D%2C%22voxelCoordinates%22:%5B11785.19140625%2C12360.69140625%2C1247.9156494140625%5D%7D%7D%2C%22zoomFactor%22:186.9753102873373%7D%2C%22perspectiveOrientation%22:%5B-0.15732473134994507%2C0.2415006309747696%2C0.011336831375956535%2C0.9574956297874451%5D%2C%22perspectiveZoom%22:992.2747156050257%2C%22jsonStateServer%22:%22https://json.neurodata.io/v1%22%2C%22layout%22:%224panel%22%7D"
+    layers:
+      - bucket: open-neurodata
+        path: bumbarger/bumbarger13/image
+        cutout_x: 11785
+        cutout_y: 12360
+        cutout_z: 1247
 
 tools:
 

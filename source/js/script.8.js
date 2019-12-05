@@ -109,8 +109,7 @@ $(document).ready(function () {
 						scrollTop: $("#" + $(this).val()).offset().top - 100
 					}, 'slow');
 				}
-			}
-			catch{ }
+			} catch {}
 		});
 	});
 

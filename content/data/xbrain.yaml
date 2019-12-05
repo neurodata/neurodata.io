@@ -15,6 +15,13 @@ data:
     description:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/dyer/dyer16/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22dyer16%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B650%2C650%2C650%5D%2C%22voxelCoordinates%22:%5B1230.885986328125%2C1346.595458984375%2C1007.5%5D%7D%7D%2C%22zoomFactor%22:3932.270851868416%7D%2C%22perspectiveOrientation%22:%5B-0.06695138663053513%2C0.2501515746116638%2C-0.00004716726834885776%2C0.9658890962600708%5D%2C%22perspectiveZoom%22:26903.186074297617%2C%22layout%22:%224panel%22%7D"
 
+    layers:
+      - bucket: open-neurodata
+        path: dyer/dyer16/image
+        cutout_x: 1230
+        cutout_y: 1346
+        cutout_z: 1007
+
 tools:
   - ndio
 

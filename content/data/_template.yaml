@@ -16,6 +16,12 @@ data:
     type:
     description:
     viz:
+    layers:
+      - bucket:
+        path:
+        cutout_x:
+        cutout_y:
+        cutout_z:
 
 tools:
   -
