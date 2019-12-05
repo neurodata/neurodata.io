@@ -23,7 +23,7 @@
         {% if doc.tools is iterable and doc.tools is not string %}
         <li><a href="#tools"><h5>Tools</h5></a></li>
         {% else %}
-        <li><a href="{{doc.tools.path or doc.tools}}"><h5>Tools</h5></a></li>
+        <li><a href="{{doc.tools.path or doc.tools}}"><h5>Docs</h5></a></li>
         {% endif %}
         {% if doc.publications %}
         <li><a href="#publications"><h5>Publications</h5></a></li>
@@ -46,7 +46,7 @@
         {% if doc.tools  is iterable and doc.tools is not string %}
         <option value="#tools">Tools</option>
         {% else %}
-        <option value={{doc.tools.path or doc.tools}}>Tools</option>
+        <option value={{doc.tools.path or doc.tools}}>Docs</option>
         {% endif %}
         {% if doc.publications %}
         <option value="#publications">Publications</option>
