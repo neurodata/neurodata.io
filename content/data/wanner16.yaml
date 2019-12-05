@@ -17,6 +17,13 @@ data:
     description:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/wanner16/AA201605/SBEM1%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22SBEM1%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B9.25%2C9.25%2C25%5D%2C%22voxelCoordinates%22:%5B7552.849609375%2C9353.5966796875%2C3277.287841796875%5D%7D%7D%2C%22zoomFactor%22:75.53707169125059%7D%2C%22perspectiveOrientation%22:%5B-0.15097904205322266%2C0.4587147831916809%2C0.10686561465263367%2C0.8691178560256958%5D%2C%22perspectiveZoom%22:735.0951892419732%2C%22layout%22:%224panel%22%7D"
 
+    layers:
+      - bucket: open-neurodata
+        path: wanner16/AA201605/SBEM1
+        cutout_x: 7552
+        cutout_y: 9353
+        cutout_z: 3277
+
 tools:
 
 publications:

@@ -1504,11 +1504,34 @@ blockquote {
     overflow-x: auto;
 }
 
+.code {
+    position: relative;
+}
+
 .code pre {
     margin: 0;
     background-color: #000;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
+
+    font-size: .9rem;
+
+    /* wrap text */
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+}
+
+.code .copyCodeButton {
+    bottom: .2rem;
+    right: .2rem;
+    position: absolute;
 }
 
 .code .hll {
@@ -1957,6 +1980,10 @@ blockquote {
 
 .collapsible:hover {
     background-color: #99B4C6;
+}
+
+.group {
+    padding: .5rem;
 }
 
 .group .item {
@@ -2698,12 +2725,13 @@ blockquote {
 
 .detail-wrap .props {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .detail-wrap .props .col {
     text-align: left;
     flex: 1;
+    margin: .5rem;
     background: rgb(50, 50, 50);
 }
 

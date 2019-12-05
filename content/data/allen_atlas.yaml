@@ -15,6 +15,12 @@ data:
     type:
     description: average, nissl, segmentations
     viz: 'https://ara.viz.neurodata.io/#!{"layers":[{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/nissl_10um","type":"image","opacity":1,"blend":"additive","shaderControls":{"color":"#ef3030","max":0.31},"name":"nissl_10um","visible":false},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/average_10um","type":"image","opacity":1,"blend":"additive","shaderControls":{"max":0.007},"name":"average_10um"},{"source":"precomputed://https://open-neurodata.s3.amazonaws.com/ara_2016/sagittal_10um/annotation_10um_2017","type":"segmentation","selectedAlpha":0.3,"skeletonRendering":{"mode2d":"lines_and_points","mode3d":"lines"},"name":"annotation_10um_2017"}],"navigation":{"pose":{"position":{"voxelSize":[10000,10000,10000],"voxelCoordinates":[696.1801147460938,414.9307556152344,512]}},"zoomFactor":18221.18800390506},"selectedLayer":{"layer":"nissl_10um","visible":true},"layout":"xy"}'
+    layers:
+      - bucket: "open-neurodata"
+        path: "ara_2016/sagittal_10um/nissl_10um"
+        cutout_x: 696
+        cutout_y: 414
+        cutout_z: 512
 
   - name: sagittal_25um
     url:

@@ -14,6 +14,12 @@ data:
     type: Human
     description:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22tab%22:%22transform%22%2C%22transform%22:%5B%5B1%2C0%2C0%2C-70666600%5D%2C%5B0%2C1%2C0%2C-72910000%5D%2C%5B0%2C0%2C1%2C-58777700%5D%2C%5B0%2C0%2C0%2C1%5D%5D%2C%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/bigbrain/release2015/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22bigbrain_release2015%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B20000%2C20000%2C20000%5D%2C%22voxelCoordinates%22:%5B-969%2C-251%2C217%5D%7D%2C%22orientation%22:%5B-0.7071067690849304%2C-2.1064645583379615e-9%2C2.1064645583379615e-9%2C0.7071067690849304%5D%7D%2C%22zoomFactor%22:273344.3275578721%7D%2C%22perspectiveOrientation%22:%5B-0.25523895025253296%2C0.7269242405891418%2C-0.4410543143749237%2C0.4603317379951477%5D%2C%22perspectiveZoom%22:2115919.4412654615%2C%22layout%22:%224panel%22%7D"
+    layers:
+      - bucket: "open-neurodata"
+        path: "bigbrain/release2015/image"
+        cutout_x: 3286
+        cutout_y: 3479
+        cutout_z: 2856
 
 tools:
 

@@ -13,11 +13,23 @@ data:
     type: EM
     description: Viz
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/cardona/acardona_0111_8__12_03_2017/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22acardona_0111_8%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B3.799999952316284%2C3.799999952316284%2C50%5D%2C%22voxelCoordinates%22:%5B14564.5166015625%2C23418.103515625%2C2420%5D%7D%7D%2C%22zoomFactor%22:187.72930424532248%7D%2C%22perspectiveZoom%22:1808.0424144560654%2C%22layout%22:%224panel%22%7D"
+    layers:
+      - bucket: "open-neurodata"
+        path: "cardona/acardona_0111_8__12_03_2017/image"
+        cutout_x: 14564
+        cutout_y: 23418
+        cutout_z: 2420
   - name: acardona_abd1_5
     url:
     type: EM
     description: Viz
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/cardona/acardona_abd1_5/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22acardona_abd1_5%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B11180%2C9400%2C100%5D%7D%7D%2C%22zoomFactor%22:27.112638920657904%7D%2C%22perspectiveZoom%22:298.8674009670606%2C%22layout%22:%224panel%22%7D"
+    layers:
+      - bucket: "open-neurodata"
+        path: "cardona/acardona_abd1_5/image"
+        cutout_x: 11180
+        cutout_y: 9400
+        cutout_z: 100
 
 tools:
 

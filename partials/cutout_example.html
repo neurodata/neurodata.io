@@ -1,0 +1,44 @@
+<h6>Example cutout</h6>
+
+<div class=code>
+
+<pre id="{{item.name}}"><span></span><span class=c1># pip install numpy tifffile cloud-volume</span>
+<span class=kn>import</span> <span class=nn>numpy</span> <span class=kn>as</span> <span class=nn>np</span>
+<span class=kn>import</span> <span class=nn>tifffile</span>
+<span class=kn>from</span> <span class=nn>cloudvolume</span> <span class=kn>import</span> <span class=n>CloudVolume</span>
+
+<span class=n>vol</span> <span class=o>=</span> <span class=n>CloudVolume</span><span class=p>(</span>
+    <span class=s2>&quot;s3://{{layer.bucket}}/{{layer.path}}&quot;</span><span class=p>,</span> <span class=n>mip</span><span class=o>=</span><span class=mi>0</span><span class=p>,</span> <span class=n>use_https</span><span class=o>=</span><span class=bp>True</span>
+<span class=p>)</span>
+
+<span class=c1># load data into numpy array</span>
+<span class=n>cutout</span> <span class=o>=</span> <span class=n>vol</span><span class=p>[</span><span class=mi>{{layer.cutout_x//512*512}}</span><span class=p>:</span><span class=mi>{{layer.cutout_x//512*512+512}}</span><span class=p>,</span> <span class=mi>{{layer.cutout_y//512*512}}</span><span class=p>:</span><span class=mi>{{layer.cutout_y//512*512+512}}</span><span class=p>,</span> <span class=mi>{{layer.cutout_z//16*16}}</span><span class=p>:</span><span class=mi>{{layer.cutout_z//16*16+16}}</span><span class=p>]</span>
+
+<span class=c1># save cutout as TIFF</span>
+<span class=n>tifffile</span><span class=o>.</span><span class=n>imwrite</span><span class=p>(</span><span class=s2>&quot;data.tiff&quot;</span><span class=p>,</span> <span class=n>data</span><span class=o>=</span><span class=n>np</span><span class=o>.</span><span class=n>transpose</span><span class=p>(</span><span class=n>cutout</span><span class=p>))</span>
+</pre>
+
+<button onclick="copyCodeBlock('{{item.name}}')" class="copyCodeButton tooltip" title="Copy code">
+    <img src="{{g.static('/source/images/clipboard_icon.svg').url.path}}" height=15px alt="Copy">
+</button>
+</div>
+
+<script>
+function copyCodeBlock(el_id) {
+    var copyText = document.getElementById(el_id).textContent;
+
+    var textArea = document.createElement("textarea");
+    textArea.value = copyText;
+
+    textArea.style.position = "fixed"; //avoid scrolling to bottom
+    document.body.appendChild(textArea);
+
+    textArea.focus();
+    textArea.select();
+    document.execCommand("Copy");
+
+    document.body.removeChild(textArea);
+}
+</script>
+
+<p>Documentation for <em>cloud-volume</em> located <a href="https://github.com/seung-lab/cloud-volume">here</a></p>

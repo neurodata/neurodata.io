@@ -18,9 +18,7 @@
 </div>
 
 <div class="detail-wrap">
-
     <div class="props">
-
         <div class="col">
             <h4 class="title">Data</h4>
             {% for item in doc.data %}
@@ -36,7 +34,7 @@
                         {% endif %}
                     
                         {% if item.viz %}
-                        <a href="{{item.viz}}" target="_blank" rel="noopener">
+                        <a href="{{item.viz}}" target="_blank" rel="noopener" class="tooltip" title="Viz">
                             <img 
                                 src="{{g.static('/source/images/eye.svg').url.path}}"
                                 alt="Viz"
@@ -48,6 +46,10 @@
                     {% if item.description is not none %}
                         <p>{{item.description}}</p>
                     {% endif %}
+
+                    {% for layer in item.layers %}
+                        {% include "partials/cutout_example.html" %}
+                    {% endfor %}
                 </div>
                 {% endif %}
             {% endfor %}

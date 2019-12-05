@@ -14,16 +14,36 @@ data:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri11/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22kasthuri11%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B4%2C4%2C40%5D%2C%22voxelCoordinates%22:%5B11695.033203125%2C13323.748046875%2C925%5D%7D%7D%2C%22zoomFactor%22:197.60979642212084%7D%2C%22perspectiveOrientation%22:%5B-0.05182216316461563%2C0.3092975318431854%2C-0.03777313604950905%2C0.9488006830215454%5D%2C%22perspectiveZoom%22:1808.0424144560657%2C%22layout%22:%224panel%22%7D"
     type:
     description:
+    layers:
+      - bucket: open-neurodata
+        path: kasthuri/kasthuri11/image
+        cutout_x: 11695
+        cutout_y: 13323
+        cutout_z: 925
+
   - name: kasthuri14Maine
     url:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14Maine/image%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22name%22:%22kasthuri14Maine%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B2851.849609375%2C3269.2236328125%2C1189.1405029296875%5D%7D%7D%2C%22zoomFactor%22:14.879731724872842%7D%2C%22perspectiveZoom%22:90.01713130052187%2C%22layout%22:%224panel%22%7D"
     type:
     description:
+    layers:
+      - bucket: open-neurodata
+        path: kasthuri/kasthuri14Maine/image
+        cutout_x: 2851
+        cutout_y: 3269
+        cutout_z: 1189
+
   - name: kasthuri14s1colEM
     url:
     viz: "https://viz.neurodata.io/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14s1colEM/image%22%2C%22type%22:%22image%22%2C%22opacity%22:1%2C%22blend%22:%22default%22%2C%22name%22:%22image%22%7D%2C%7B%22source%22:%22precomputed://https://open-neurodata.s3.amazonaws.com/kasthuri/kasthuri14s1colEM/anno%22%2C%22type%22:%22segmentation%22%2C%22selectedAlpha%22:0.34%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22annotations%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B1%2C1%2C10%5D%2C%22voxelCoordinates%22:%5B28950.919921875%2C16024.703125%2C127%5D%7D%7D%2C%22zoomFactor%22:6.202795019104849%7D%2C%22perspectiveZoom%22:49.40244910553021%2C%22selectedLayer%22:%7B%22layer%22:%22image%22%2C%22visible%22:true%7D%2C%22layout%22:%224panel%22%7D"
     type:
     description:
+    layers:
+      - bucket: open-neurodata
+        path: kasthuri/kasthuri14s1colEM/image
+        cutout_x: 28950
+        cutout_y: 16024
+        cutout_z: 127
 
 tools:
 
