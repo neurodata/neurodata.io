@@ -5,42 +5,46 @@ $category: Access
 
 [TOC]
 
-This document explains how to access/download data hosted by NeuroData. [Data]([url('/content/projects/ocp.yaml')]) are publicly available. NeuroData utilizes the [BOSS](https://api.boss.neurodata.io), co-developed with [JHU-APL](https://github.com/jhuapl-boss/), as a data store.  We also selectively host small datasets on S3 for fast data visualization in neuroglancer.  For that, see our guide on the [precomputed format]([url('/content/guides/boss-to-precompute.md')]).
+This page explains how to access/download data hosted by NeuroData. [Data]([url('/content/projects/ocp.yaml')]) are publicly available. We host our data on an AWS Open Data Bucket in [Neuroglancer Precomputed format](https://github.com/google/neuroglancer/tree/master/src/neuroglancer/datasource/precomputed).
 
-### Boss hierarchy
+#### Data listing
 
-1. **Collection:** typically either the name of the lab PI or the person who collected the data
-2. **Experiment:** within this level, data share a common voxel extent and voxel size.  Often synonymous with actual experiments.
-3. **Channel:** data reside at this level and are either `uint8`/`uint16` image data or `uint64` annotations
+The open data bucket name is `open-neurodata`.
 
-Further information on BOSS organization can be found in the [docs](https://docs.theboss.io/v1/docs).
+With an AWS account and the AWS [Command Line Interface](https://aws.amazon.com/cli/), one can list the projects using this command:
 
-### Methods for accessing data
+```sh
+aws s3 ls open-neurodata
+```
 
-Data access requires a free account. Create an account at [api.boss.neurodata.io](https://api.boss.neurodata.io).  All methods require a login.
+#### Perform a cutout
 
-There are four methods for getting data from the BOSS:
+To load a cutout into an `ipython` or `jupyter` session, we suggest [CloudVolume](https://github.com/seung-lab/cloud-volume), a python interface to Neuroglancer precomputed.  
 
-#### [ndwebtools](https://ndwebtools.neurodata.io)
+`pip install numpy cloud-volume` and run the following code:
 
-A frontend for navigating BOSS projects. It provides TIFF cutouts (limited to < 1GB) to data and links to data visualization (through neuroglancer).  Larger cutouts should be performed programmatically using either `ndex` or `intern` detailed below.
+```python
+# pip install numpy tifffile cloud-volume
+from cloudvolume import CloudVolume
 
-- Log in at [ndwebtools.neurodata.io](https://ndwebtools.neurodata.io)
-- Navigate the available projects by clicking the links to collections and experiments.  Clicking on any experiment takes you to the cutout page.
-- The cutout page provides TIFF downloads and viz links for channels within each experiment.
+vol = CloudVolume(
+    "s3://open-neurodata/bock11/image", mip=0, use_https=True
+)
+
+# load data into numpy array
+cutout = vol[65024:65536, 62464:62976, 3616:3632]
+```
+
+#### Save cutout to TIFF
+
+```python
+# pip install tifffile
+import tifffile
+
+# save cutout as TIFF
+tifffile.imwrite("data.tiff", data=np.transpose(cutout))
+```
 
 #### [neuroglancer](https://viz.neurodata.io)
 
-To visualize the data before downloading you can use neuroglancer.  Please see our [guide]([url('/content/guides/visualization.md')]).
-
-#### [ndex](https://github.com/neurodata/ndex)
-
-A Python command-line tool for downloading volumes of data from the BOSS as TIFF stacks.  This library can also be loaded from within Python.
-
-Installation and usage instructions on its [GitHub page](https://github.com/neurodata/ndex/)
-
-#### [intern](https://github.com/jhuapl-boss/intern)
-
-A Python package developed by JHU-APL for interactive and programmatic usage of the BOSS.
-
-Installation and usage instructions available on its [GitHub page](https://github.com/jhuapl-boss/intern)
+To visualize the data before downloading you can use neuroglancer. Links to each dataset can be found on each project's listing on [OCP]([url('/content/projects/ocp.yaml')]). Additional information on Neuroglancer can be found [here]([url('/content/guides/visualization.md')]).

@@ -6,7 +6,7 @@ $order: 1
 
 This guide shows how to annotate data in a way that NeuroData can import into our processing pipelines.
 
->NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.  The original guide can be found <a href="https://neurodata-annotator.readthedocs.io/en/latest/" target="_blank" rel="noopener">here</a>.
+>NOTE: This guide is based on a guide written by the Nomads NeuroDataDesign team.
 
 ### Annotate with FIJI
 
@@ -41,5 +41,3 @@ This guide shows how to annotate data in a way that NeuroData can import into ou
 11. A black screen will appear - these are your annotations, don't worry if you can't see them.
 
 12. Save your annotations by choosing `Image Sequence...`, selecting `TIFF`, selecting a name, and choosing the folder for output.
-
-13. These images can now be ingested into our data store.  For a guide on how to do this, please use <a href="https://github.com/neurodata/ndex" target="_blank" rel="noopener">ndex</a>, and follow the instructions through `Upload images (ndpush)`.
