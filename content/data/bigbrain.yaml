@@ -8,6 +8,10 @@ description: BigBrain is free, publicly available, and provides the opportunity 
 long_description: Enabling an unprecedented look into the human brain, BigBrain spans micro- and macro-scopic scales. While previously available reference brains have been restricted to a single scale, such as whole-brain magnetic resonance imaging in humans or electron microscopy of small sections from small animals, BigBrain is an ultrahigh-resolution three-dimensional model of a full human brain at 20 micrometer resolution, coming closer to touching both camps than any previous dataset.
 data_types:
 
+license:
+  name: CC BY-NC 4.0
+  link: "ftp://bigbrain.loris.ca/License.txt"
+
 data:
   - name: BigBrain
     url:
