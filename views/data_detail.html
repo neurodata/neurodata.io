@@ -87,7 +87,14 @@
 
     <div id="notice">
         <p>To access this data, please view the <a href="{{g.url('/content/guides/download.md').path}}">guide</a>.</p>
-        <p>Data on this site are licensed under a <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" rel="noopener">ODC-By v1.0</a> license.</p>
+        
+        <p>
+        {% if doc.license %}
+            Data on this page are licensed under <a href="{{doc.license.link}}" target="_blank" rel="noopener">{{doc.license.name}}</a>.
+        {% else %}
+            Data on this site are licensed under <a href="https://opendatacommons.org/licenses/by/1-0/" target="_blank" rel="noopener">ODC-By v1.0</a> license.
+        {% endif %}
+        </p>
         {% if doc.doi %}
             <p>Please use this DOI when citing this data: <a href="http://dx.doi.org/{{doc.doi}}">{{doc.doi}}</a></p>
         {% endif %}
