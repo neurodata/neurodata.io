@@ -36,11 +36,40 @@
                         {% if item.viz %}
                         <a href="{{item.viz}}" target="_blank" rel="noopener" class="tooltip" title="Viz">
                             <img 
+                                class="viz-icon"
                                 src="{{g.static('/source/images/eye.svg').url.path}}"
                                 alt="Viz"
                                 height="22px"
                                 width="22px">
                         </a>
+                        {% endif %}
+                        {% if item.layers %}
+                            <a 
+                                href="https://{{item.layers[0].bucket}}.s3.amazonaws.com/{{item.layers[0].path}}/info"
+                                target="_blank" 
+                                rel="noopener"
+                                class="tooltip"
+                                title="info"
+                            >
+                                <em style="font-family: 'Quadon Medium Italic'; font-size: 1.4rem; padding-left: 8px; color: white;">i</em>
+                            </a>
+                        {% endif %}
+                        {% if item.layers %}
+                            <a 
+                                href="https://{{item.layers[0].bucket}}.s3.amazonaws.com/{{item.layers[0].path}}/provenance.json"
+                                target="_blank" 
+                                rel="noopener"
+                                class="tooltip"
+                                title="provenance"
+                            >
+                                <img 
+                                    class="viz-icon"
+                                    src="{{g.static('/source/images/metadata.svg').url.path}}"
+                                    alt="Viz"
+                                    height="22px"
+                                    width="22px"
+                                >
+                            </a>
                         {% endif %}
                     </h4>
                     {% if item.description is not none %}
