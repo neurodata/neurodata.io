@@ -1,0 +1,5 @@
+$title@: CV
+$hidden: true
+$view: /views/cv.html
+
+name: "Joshua Vogelstein"

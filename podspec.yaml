@@ -4,31 +4,33 @@ home: /content/pages/home.html
 
 localization:
   default_locale: en_US
-  
+
 static_dirs:
-- static_dir: /source/images/
-  serve_at: /static/images/
-- static_dir: /dist/
-  serve_at: /static/
-- static_dir: /source/css/
-  serve_at: /static/css/
-- static_dir: /source/favicons/
-  serve_at: /static/favicons/
-- static_dir: /source/fonts/
-  serve_at: /static/fonts/
-- static_dir: /source/js/
-  serve_at: /static/js/
-- static_dir: /source/video/
-  serve_at: /static/video/
-- static_dir: /source/docs/
-  serve_at: /static/docs/
+  - static_dir: /source/images/
+    serve_at: /static/images/
+  - static_dir: /dist/
+    serve_at: /static/
+  - static_dir: /source/css/
+    serve_at: /static/css/
+  - static_dir: /source/css-gulp/
+    serve_at: /static/css-gulp/
+  - static_dir: /source/favicons/
+    serve_at: /static/favicons/
+  - static_dir: /source/fonts/
+    serve_at: /static/fonts/
+  - static_dir: /source/js/
+    serve_at: /static/js/
+  - static_dir: /source/video/
+    serve_at: /static/video/
+  - static_dir: /source/docs/
+    serve_at: /static/docs/
 
 meta:
   favicon_path: /source/favicons/favicon.ico
 
 sitemap:
   enabled: true
-  path: "/sitemap.xml"   # Optional.
+  path: "/sitemap.xml" # Optional.
 
 deployments:
   default: #needed for sitemap.xml
@@ -40,8 +42,8 @@ deployments:
 
 extensions:
   jinja2:
-  - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
-  - extensions.sorting.sorting.SortByIndex
+    - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
+    - extensions.sorting.sorting.SortByIndex
 
 ext:
   - extensions.html_min.HtmlMinExtension
@@ -49,11 +51,13 @@ ext:
 # podspec.yaml
 markdown:
   extensions:
-  - kind:  markdown.extensions.codehilite
-    classes: True         # Uses classes instead of inline styles.
-    class_name: code       # Class to use on the wrapper div.
-    highlighter: pygments  # pygments/plain
-    theme: default         # Pygments theme name.
+    - kind: markdown.extensions.codehilite
+      classes: True # Uses classes instead of inline styles.
+      class_name: code # Class to use on the wrapper div.
+      highlighter: pygments # pygments/plain
+      theme: default # Pygments theme name.
 
-#preprocessors:
-#- kind: gulp
+preprocessors:
+  - kind: gulp
+    build_task: "css" # Task to run at build time (optional).
+    run_task: "css" # Task to run when the development server runs (optional).

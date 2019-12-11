@@ -19,3 +19,5 @@ setup.cfg
 
 # grow installed from pypi
 *.pyc
+
+source/css-gulp/*

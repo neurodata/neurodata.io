@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>{{_(doc.title)}}</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="{{g.static('/source/favicons/apple-icon-57x57.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{g.static('/source/favicons/apple-icon-60x60.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{g.static('/source/favicons/apple-icon-72x72.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{g.static('/source/favicons/apple-icon-76x76.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{g.static('/source/favicons/apple-icon-114x114.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{g.static('/source/favicons/apple-icon-120x120.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{g.static('/source/favicons/apple-icon-144x144.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{g.static('/source/favicons/apple-icon-152x152.png').url.path}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{g.static('/source/favicons/apple-icon-180x180.png').url.path}}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{g.static('/source/favicons/android-icon-192x192.png').url.path}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{g.static('/source/favicons/favicon-32x32.png').url.path}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{g.static('/source/favicons/favicon-96x96.png').url.path}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{g.static('/source/favicons/favicon-16x16.png').url.path}}">
+    <link rel="manifest" href="{{g.static('/source/favicons/manifest.json').url.path}}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{g.static('/source/favicons/ms-icon-144x144.png').url.path}}">
+    <link rel="stylesheet" href="{{g.static('/source/css-gulp/cv.css').url.path}}" />
+    {% if env.name == 'prod' %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69121088-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-69121088-1');
+    </script>
+    {% endif %}
+</head>
+
+<body class="home" lang="en">
+    <div class="main">
+        {% block main %}
+            {{doc.html|render|safe}}
+        {% endblock %}
+    </div>
+</body>
+</html>
