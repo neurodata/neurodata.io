@@ -17,6 +17,26 @@
     {% endif %}
 </div>
 
+<div class="doc-nav">
+    <ul>
+        <li><a href="{{g.url('/content/projects/ocp.yaml').path}}#about"><h5>About</h5></a></li>
+        <li><a href="{{g.url('/content/projects/ocp.yaml').path}}#data"><h5>Data</h5></a></li>
+        <li><a href="{{g.url('/content/guides/overview.html').path}}"><h5>Docs</h5></a></li>
+        <li><a href="{{g.url('/content/projects/ocp.yaml').path}}#publications"><h5>Publications</h5></a></li>
+        <li><a href="{{g.url('/content/projects/ocp.yaml').path}}#people"><h5>People</h5></a></li>
+        <li><a href="{{g.url('/content/projects/ocp.yaml').path}}#funding"><h5>Funding</h5></a></li>
+    </ul>
+    <select onChange="window.location.href=this.value">
+        <option selected="selected">Jump to:</option>
+        <option value="{{g.url('/content/projects/ocp.yaml').path}}#about">About</option>
+        <option value="{{g.url('/content/projects/ocp.yaml').path}}#data">Data</option>
+        <option value="{{g.url('/content/guides/overview.html').path}}">Docs</option>
+        <option value="{{g.url('/content/projects/ocp.yaml').path}}#publications">Publications</option>
+        <option value="{{g.url('/content/projects/ocp.yaml').path}}#people">People</option>
+        <option value="{{g.url('/content/projects/ocp.yaml').path}}#funding">Funding</option>
+    </select>
+</div>
+
 <div class="detail-wrap">
     <div class="props">
         <div class="col">
@@ -36,11 +56,40 @@
                         {% if item.viz %}
                         <a href="{{item.viz}}" target="_blank" rel="noopener" class="tooltip" title="Viz">
                             <img 
+                                class="viz-icon"
                                 src="{{g.static('/source/images/eye.svg').url.path}}"
                                 alt="Viz"
                                 height="22px"
                                 width="22px">
                         </a>
+                        {% endif %}
+                        {% if item.layers %}
+                            <a 
+                                href="https://{{item.layers[0].bucket}}.s3.amazonaws.com/{{item.layers[0].path}}/info"
+                                target="_blank" 
+                                rel="noopener"
+                                class="tooltip"
+                                title="info"
+                            >
+                                <em style="font-family: 'Quadon Medium Italic'; font-size: 1.4rem; padding-left: 8px; color: white;">i</em>
+                            </a>
+                        {% endif %}
+                        {% if item.layers %}
+                            <a 
+                                href="https://{{item.layers[0].bucket}}.s3.amazonaws.com/{{item.layers[0].path}}/provenance"
+                                target="_blank" 
+                                rel="noopener"
+                                class="tooltip"
+                                title="provenance"
+                            >
+                                <img 
+                                    class="viz-icon"
+                                    src="{{g.static('/source/images/metadata.svg').url.path}}"
+                                    alt="Metadata"
+                                    height="22px"
+                                    width="22px"
+                                >
+                            </a>
                         {% endif %}
                     </h4>
                     {% if item.description is not none %}
