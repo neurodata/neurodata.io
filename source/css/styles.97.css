@@ -1224,6 +1224,7 @@ blockquote {
 .header {
     background: #020202;
     width: 100%;
+    padding-bottom: .5rem;
 }
 
 .header h2 {
@@ -1510,7 +1511,7 @@ blockquote {
 
 .code pre {
     margin: 0;
-    background-color: #000;
+    background-color: #1e1e1e;
     border-radius: 10px;
     padding: 10px;
 
