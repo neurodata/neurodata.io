@@ -2,4 +2,61 @@ $title@: CV
 $hidden: true
 $view: /views/cv.html
 
-name: "Joshua Vogelstein"
+name: "Joshua T. Vogelstein"
+
+sections:
+  - name: Demographic and Personal Information
+    sections:
+      - name: Current Appointments
+      - name: Personal Data
+      - name: Education and Training
+      - name: Professional Experience
+  - name: Publications
+    sections:
+      - name: Peer reviewed scientific articles (accepted, in press, or published)
+      - name: Books, Chapters, Monographs
+      - name: Other media (films, videos, CD-ROMS, slide sets, etc.)
+  - name: Funding
+    sections:
+      - name: Extramural Funding
+        sections:
+          - name: Current
+          - name: Pending
+          - name: Previous
+  - name: Educational Activities
+    sections:
+      - name: Teaching
+      - name: Mentorship
+        sections:
+          - name: Tenure-track faculty Mentorship
+          - name: Research Track Faculty Mentorship
+          - name: Postdoctoral Fellows and Staff Research Scientists
+          - name: Staff Supervision (includes research and administrative staff)
+          - name: Doctoral Student Supervision
+          - name: Master's Student Supervision
+          - name: Undergraduate Research Supervision
+          - name: Examining Committees
+  - name: Research Activities
+    sections:
+      - name: Patents (Issued, Provisional and Pending)
+  - name: Organizational Activities
+    sections:
+      - name: Institutional Administrative Appointments
+      - name: Editorial Board Appointments
+      - name: Advisory Boards
+      - name: Journal Peer Review Activities
+      - name: Professional Societies
+      - name: Extramural Grants Review
+      - name: Conference and Symposium Moderator, Chair, and Special Panels
+  - name: Recognition
+    sections:
+      - name: Awards, honors and distinctions
+      - name: Invited Talks, Panels
+        sections:
+          - name: Regional/JHMI
+          - name: National
+          - name: International
+  - name: Other Professional Accomplishments
+    sections:
+      - name: Proceedings / Conference Papers
+      - name: Conference Presentations

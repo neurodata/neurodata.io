@@ -40,11 +40,9 @@
     {% endif %}
 </head>
 
-<body class="home" lang="en">
-    <div class="main">
-        {% block main %}
-            {{doc.html|render|safe}}
-        {% endblock %}
-    </div>
+<body lang="en">
+    {% block main %}
+        {{doc.html|render|safe}}
+    {% endblock %}
 </body>
 </html>
