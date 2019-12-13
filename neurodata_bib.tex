@@ -1,0 +1,130 @@
+\documentclass[10pt,colorlinks=true,urlcolor=blue]{article}
+\usepackage{utopia}
+\usepackage{breakurl}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage[scale=0.8]{geometry}
+\usepackage[yyyymmdd]{datetime}
+%\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[%
+    backend=biber,
+    defernumbers=true,
+    refsection=section,
+    sorting=ydmdt,
+    firstinits=false,
+    maxbibnames=999]{biblatex}
+
+%%
+\addbibresource[label=pubs]{content/pubs/pubs.bib}
+\addbibresource[label=posters]{content/talks/posters.bib}
+\addbibresource[label=talks]{content/talks/talks.bib}
+
+% Count total number of entries in each refsection
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {
+        \ifitemannotation{trainee}
+            {\textit{#1}}
+            {#1}
+    }
+}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {
+        \ifitemannotation{trainee}
+            {\textit{#1}}
+            {#1}
+    }
+}
+
+\pagestyle{fancy}
+\pagenumbering{arabic}
+%\chead{\textbf{NeuroData Bibliography}}
+\rhead{\textbf{\hfill\today}}
+
+\DeclareSortingTemplate{ydmdt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field[padside=left,padwidth=4,padchar=0]{volume}
+    \literal{0000}
+  }
+  \sort{
+    \field{sorttitle}
+  }
+}
+
+
+\author{NeuroData}
+\title{NeuroData References}
+\begin{document}
+\maketitle
+
+
+\begin{refsection}[pubs] 
+%\newrefcontext{J}
+\nocite{*}
+\defbibnote{a1}{{Note: CV author in bold; Trainees in italics, \\
+        \textbf{(55 papers; top 10 cited 2,944 times; H-index 30)}}}
+\printbibliography[%
+    title={Publications},%
+    %prenote=a1,% 
+    heading=bibliography%
+    ]
+\end{refsection}
+
+
+
+\begin{refsection}[posters] 
+%\newrefcontext{J}
+\nocite{*}
+\printbibliography[%
+    title={Posters},
+    heading=bibliography%
+    ]
+\end{refsection}
+
+
+\newpage
+
+\begin{refsection}[talks] 
+%\newrefcontext{J}
+\nocite{*}
+\printbibliography[%
+    title=Talks,
+    heading=bibliography%
+    ]
+\end{refsection}
+
+\end{document}

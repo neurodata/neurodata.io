@@ -1224,6 +1224,7 @@ blockquote {
 .header {
     background: #020202;
     width: 100%;
+    padding-bottom: .5rem;
 }
 
 .header h2 {
@@ -1510,7 +1511,7 @@ blockquote {
 
 .code pre {
     margin: 0;
-    background-color: #000;
+    background-color: #1e1e1e;
     border-radius: 10px;
     padding: 10px;
 
@@ -2756,10 +2757,6 @@ blockquote {
     font-size: 17px;
 }
 
-.detail-wrap .props .col h4 img {
-    vertical-align: bottom;
-}
-
 .detail-wrap .props .col p {
     margin: 0px;
     padding-top: 5px;
@@ -2833,6 +2830,13 @@ blockquote {
 
 .detail-wrap.list ol {
     list-style-type: decimal;
+}
+
+.detail-wrap .viz-icon {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
 }
 
 /* DATABASE 
