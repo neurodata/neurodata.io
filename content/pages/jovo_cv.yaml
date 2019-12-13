@@ -12,10 +12,14 @@ sections:
       - name: Education and Training
       - name: Professional Experience
   - name: Publications
-    sections:
+    publications:
       - name: Peer reviewed scientific articles (accepted, in press, or published)
+        id: peer_reviewed
       - name: Books, Chapters, Monographs
+        id: chapters
       - name: Other media (films, videos, CD-ROMS, slide sets, etc.)
+        id: media
+    entries: !g.doc /content/research/publications.html
   - name: Funding
     sections:
       - name: Extramural Funding
