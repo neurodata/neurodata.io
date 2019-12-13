@@ -45,3 +45,10 @@ grow build
 ## Contributing
 
 Please submit pull requests to `deploy` branch.
+
+
+## [DEV/QC] Bib files and references
+
+There is a LaTeX file that will build the references into a PDF, mostly
+for QC. It is located in the root directory and can be built by running
+`make` in the root directory.
