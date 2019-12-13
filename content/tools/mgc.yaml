@@ -9,7 +9,7 @@ description: Multiscale Graph Correlation (MGC) is a framework for universally c
 github: "neurodata/mgc"
 docs: "https://mgc.neurodata.io"
 installation: "https://mgc.neurodata.io/install.html"
-examples: "https://github.com/neurodata/mgc/tree/master/demos"
+examples: "https://mgc.neurodata.io/tutorials.html"
 
 slides: 
 - header: "mgc"
