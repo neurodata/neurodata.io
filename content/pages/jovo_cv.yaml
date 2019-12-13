@@ -49,10 +49,11 @@ sections:
       - name: Extramural Grants Review
       - name: Conference and Symposium Moderator, Chair, and Special Panels
   - name: Recognition
-    sections:
+    recognitions:
       - name: Awards, honors and distinctions
+        awards: !g.doc /content/about/awards.html
       - name: Invited Talks, Panels
-        sections:
+        talk-sections:
           - name: Regional/JHMI
           - name: National
           - name: International
