@@ -1,0 +1,41 @@
+$title: NeuroData's MRI to Graphs
+$slug: m2g
+$order: 2
+name: m2g
+
+github: "neurodata/m2g"
+docs: "https://ndmg.neurodata.io/"
+installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-guide"
+examples: "https://github.com/neurodata/m2g/tree/deploy/tutorials"
+
+slides:
+  - header: "ndmg"
+    link: "https://neurodata.io/talks/ndmg.pdf"
+
+details:
+  - "m2g provides robust and reliable estimates of MRI connectivity across a wide range of datasets at 1mm resolution, across 25 parcellations, ranging in size from 48 to 72,000 nodes, all in MNI152 standard space."
+
+  - "m2g is a turn-key pipeline that provides session and group-level analysis, performing connectome estimation and summary statistic computation."
+
+  - "m2g runs reliably and robustly datasets spanning multiple scanners, acquisition parameters, and population demographics."
+
+manuscripts:
+  - kiar2017comprehensive
+  - Kiar2018
+  - Kiar2017
+  - bagging2019
+
+featured: True
+
+lang:
+  - Python
+heading: MR graph analysis
+description: m2g uses diffusion MRI data from individuals to estimate connectomes reliably and scalably.
+
+cloud: False
+local: True
+type: "images"
+
+api:
+press:
+docker: https://hub.docker.com/r/neurodata/m2g/
