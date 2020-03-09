@@ -29,7 +29,7 @@ At this point, the data can be viewed in neuroglancer:
 
 1. Navigate to a place where neuroglancer is hosted, e.g. [viz.neurodata.io/](https://viz.neurodata.io/)
 1. Click the "+" icon to add a source
-1. In the Source field, type precomputed://file://127.0.0.1:9000
+1. In the Source field, type precomputed://http://127.0.0.1:9000
 1. In the green bar above the Source field, make sure the source format is selected to be "image" (not "new" or "auto" etc.)
 
 ### Selected links
