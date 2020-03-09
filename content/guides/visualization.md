@@ -32,6 +32,8 @@ At this point, the data can be viewed in neuroglancer:
 1. In the Source field, type precomputed://http://127.0.0.1:9000
 1. In the green bar above the Source field, make sure the source format is selected to be "image" (not "new" or "auto" etc.)
 
+If you see a 10x10x10 cube of random grayscale intensities, the example succeeded.
+
 ### Selected links
 
 The following URLs link to highlighted visualizations
