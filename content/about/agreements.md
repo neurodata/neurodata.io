@@ -138,6 +138,20 @@ We agree to have quarterly check-ins to facilitate more long-term/career guidanc
 
 To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These retreats will be organized by trainees.
 
+#### Summer Community Outreach
+
+Every summer, we will engage in summer mentorship in partnership with some Baltimore public education institution (e.g. state university, public high school). Examples include:
+
+- ICM Summer Internship with UMBC or Morgan State [website](https://icm.jhu.edu/academics/undergraduate-programs/internships/)
+- Mentor student from local college through JHMI Summer Internship Program [website](https://www.hopkinsmedicine.org/som/Opportunities-High-School-Undergraduate-Postbac-Students/sip.html#:~:text=The%20Summer%20Internship%20Program%20(SIP,or%20more%20years%20of%20college.)
+- Research experience for women in Baltimore City schools through WSE's WISE program [website](https://engineering.jhu.edu/outreach/get-involved/women-in-science-and-engineering-wise-program/)
+- Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students [website](https://www.codeintheschools.org/codescholar)
+
+#### Science Discourse Activity in the Community
+
+Every year, members of the lab will participate in, or organize, an event that communicates to the local community the importance of science, the research questions we are interested in, and/or how interested people can get involved. Examples include:
+
+- After school workshop at a local school via JHU Brain Awareness Week.
 
 #### Annual Reviews
 
