@@ -79,6 +79,13 @@ Some links that might be useful to understand best practices for giving and rece
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
 
+Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
+
+- [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
+- [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
+- [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
+
+
 ### Regular Activities
 
 #### Daily Presence
