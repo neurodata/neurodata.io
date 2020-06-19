@@ -19,7 +19,7 @@ data:
         path: "bloss/bloss18/image"
         cutout_x: 5750
         cutout_y: 3750
-        cutout_z: 714
+        cutout_z: 214
 
 tools:
 
