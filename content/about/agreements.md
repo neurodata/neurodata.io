@@ -210,6 +210,15 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
 
 
+#### Summer Community Outreach
+
+There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
+
+- ICM Summer Internship with UMBC or Morgan State - [website](https://icm.jhu.edu/academics/undergraduate-programs/internships/)
+- Mentor student from local college through JHMI Summer Internship Program - [website](https://www.hopkinsmedicine.org/som/Opportunities-High-School-Undergraduate-Postbac-Students/)
+- Research experience for women in Baltimore City schools through WSE's WISE program - [website](https://engineering.jhu.edu/outreach/get-involved/women-in-science-and-engineering-wise-program/)
+- Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students - [website](https://www.codeintheschools.org/codescholar)
+
 #### The definition of an Impeccable Agreement (our goal for all agreements)
 
 On this team, we agree that all our agreements to be impeccable. When we make an agreement, it will have the following properties (adapted from [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/):
@@ -229,11 +238,3 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     
     
 
-#### Summer Community Outreach
-
-There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
-
-- ICM Summer Internship with UMBC or Morgan State - [website](https://icm.jhu.edu/academics/undergraduate-programs/internships/)
-- Mentor student from local college through JHMI Summer Internship Program - [website](https://www.hopkinsmedicine.org/som/Opportunities-High-School-Undergraduate-Postbac-Students/)
-- Research experience for women in Baltimore City schools through WSE's WISE program - [website](https://engineering.jhu.edu/outreach/get-involved/women-in-science-and-engineering-wise-program/)
-- Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students - [website](https://www.codeintheschools.org/codescholar)
