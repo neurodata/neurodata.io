@@ -50,7 +50,7 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 #### Respect
 
-We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
+We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)).  Demonstrated acts or statements that lab members might reasonably perceive to be harassment, whether they occur in the lab or outside the lab, regardless of whether a lab member was the intended target, will not be tolerated and may result in expulsion from the lab.  Potential areas of harassment include the following:
 age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
 Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
 We also agree to avoid using profane language in public comments, code, or PRs.
