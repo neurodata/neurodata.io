@@ -46,6 +46,15 @@ Crucially, posting to pre-print servers, and submitting to journals, does *not* 
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
+Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
+
+The following resources are recommended to all lab members, especially to those who serve as mentors. They are also encouraged to seek additional resources to learn how to create an equitable and supportive lab environment.
+
+- [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
+- [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
+- [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
+
+
 ### Conduct
 
 #### Respect
@@ -78,13 +87,6 @@ Some links that might be useful to understand best practices for giving and rece
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
-
-Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
-
-- [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
-- [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
-- [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
-
 
 ### Regular Activities
 
