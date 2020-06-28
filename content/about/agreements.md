@@ -6,25 +6,25 @@ $order: 5
 [TOC]
 
 
-We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, the rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 
 ### Core Research Agreements
 
 #### All In
 
-We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research.
+We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  More concretely, this means about 40 hours per week, with at least 1/2 of them per day during typical working hours, about 50 weeks per year. Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, PI/co-advisor organized events, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research. 
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
 We agree to focus our research on projects that we are maximally intrinsically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
-In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
+In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve machine and animal learning, worldwide</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
 1. the project is highly significant with respect to our mission,
 2. given my current resources, my estimate of the probability that I can satisfactorily "complete" this project is high (which includes shooting for the stars and landing on a mountain, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
 3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrinsic motivation I feel with respect to each. 
 
-If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends).
+If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends). See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project.
 
 #### Focus
 
@@ -40,7 +40,8 @@ Another project is more exploratory, that will lead to a similarly large project
 
 We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
 
-Crucially, posting to pre-print servers, and submitting to journals, does *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then jovo has 1 week to provide feedback and modification requests.  After another week passes, assuming all the co-authors (potentially excluding jovo agree), the manuscript may be submitted and the pre-print may be posted, even in the absence of further review by jovo.
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return.
+
 
 #### Buddies and Mentorship
 
@@ -63,7 +64,7 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Frequent Productive Feedback
 
-We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later is about right for most things.  Then, the general flow of the conversation would go like this:
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -86,7 +87,7 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab members within one working day, unless otherwise specified.
 Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
 
-- to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
+- to be around the lab *many* working hours each day (approximately 10:30am to 6:30pm Eastern Time, Monday to Friday on all days JHU is open),
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
@@ -141,14 +142,15 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
+
 
 
 ### Other Kinds of Agreements
 
 #### Supervisor Agreements
 
-1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project).
+1. Funding everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months.  At the end of that experiment, we will collectively decide whether the agreements have been met.  The decision should be unambigous. 
 2. Prioritizing your personal and professional success over everything else in my life after my family & career.
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
