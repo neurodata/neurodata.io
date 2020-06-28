@@ -140,6 +140,11 @@ We agree to have quarterly check-ins to facilitate more long-term/career guidanc
 To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These retreats will be organized by trainees.
 
 
+#### Semi-Annual No JoVo Meeting
+
+We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [randically candid](https://www.radicalcandor.com/) feedback.
+
+
 #### Annual Reviews
 
 We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
