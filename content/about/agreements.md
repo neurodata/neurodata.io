@@ -12,7 +12,7 @@ We, the NeuroData Family, each agree to all of the below commitments. These agre
 
 #### All In
 
-We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  More concretely, this means about 40 hours per week, with at least 1/2 of them per day during typical working hours, about 50 weeks per year. Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, PI/co-advisor organized events, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research. 
+We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research and to be present during [typical working hours](#daily-presence). Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, PI/co-advisor organized events, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research. 
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
@@ -84,10 +84,10 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 
 #### Daily Presence
 
-We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab members within one working day, unless otherwise specified.
-Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
+Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab or at least active online if concerns such as personal health do not permit in person activity. Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
 
-- to be around the lab *many* working hours each day (approximately 10:30am to 6:30pm Eastern Time, Monday to Friday on all days JHU is open),
+- to working 40 hours per week, approximately 50 weeks per year,
+- to conduct at least half of ones daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open),
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
@@ -97,7 +97,7 @@ Our experience dictates that in person communication and happenstance meetings d
 
 Your most valuable resource while on this team is the team itself.
 
-We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilities overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilities overruling research priorities.  This includes in the face of an impending grant, conference, or other internally/externally imposed deadline.
 
 #### Weekly Sub-Group Meetings
 
@@ -142,7 +142,7 @@ To build community and deeper inter-personal connections, and to have fun, we ag
 
 #### Semi-Annual No JoVo Meeting
 
-We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [randically candid](https://www.radicalcandor.com/) feedback.
+We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [radically candid](https://www.radicalcandor.com/) feedback.
 
 
 #### Annual Reviews
@@ -232,7 +232,3 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
-    
-    
-    
-
