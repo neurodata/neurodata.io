@@ -216,6 +216,10 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
 
+#### Weekly Social Good Discussions
+
+We strive to regularly participate in discussions and activities about how we can maximize our positive social impact to the surrounding community. This may include weekly book club discussions, or summer mentorship (see Summer Community Outreach section).
+
 
 #### Summer Community Outreach
 
