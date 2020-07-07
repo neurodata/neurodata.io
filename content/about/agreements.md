@@ -136,7 +136,7 @@ We agree to have quarterly check-ins to facilitate more long-term/career guidanc
 
 #### Annual Group Hangouts
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going on a dinner, organizing or attending a conference as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
+To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like organizing or attending a conference that is contingent upon the available funds and opportunities, and irrespective of the aforementioned conditions going on an annual dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
 
 
 #### Annual Reviews
