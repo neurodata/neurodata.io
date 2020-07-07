@@ -101,13 +101,12 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Weekly Sub-Group Meetings
 
-We agree that every week, each sub-group will meet in person for up to two hours, with breaks as desired. The goals are:
+We agree that every week, each person will meet in person for 30 minutes or more, with breaks as desired. The goals are:
 
-- document past week's progress towards quarterly or annual goals
+- document past week's progress towards papers, quarterly, or annual goals
 - get feedback/mentorship from brilliant team of collaborators
 - make plan for next week
-
-The goal is that everybody that attends a given sub-group meeting is a co-author on *all* manuscripts that result.  That means each person provides valuable/substantive feedback/effort/progress towards the goals.
+- anyone who is a co-author is also expected to attend and provides valuable/substantive feedback/effort/progress towards the goals
 
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
