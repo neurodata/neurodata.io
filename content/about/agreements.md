@@ -6,25 +6,25 @@ $order: 5
 [TOC]
 
 
-We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow.
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, the rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 
 ### Core Research Agreements
 
 #### All In
 
-We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research, specifically during [typical working hours](#daily-presence).  Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research.
+We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research and to be present during [typical working hours](#daily-presence). Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, PI/co-advisor organized events, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research. 
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
 We agree to focus our research on projects that we are maximally intrinsically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
-In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve intelligences</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
+In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve machine and animal learning, worldwide</b>. The research projects that we primarily work on, while on the NeuroData team,  satisfy the following three criteria:
 
 1. the project is highly significant with respect to our mission,
 2. given my current resources, my estimate of the probability that I can satisfactorily "complete" this project is high (which includes shooting for the stars and landing on a mountain, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
 3. in the set of every considered research project that I believe is feasible, this project is near the top of that list sorted by how much intrinsic motivation I feel with respect to each. 
 
-If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends).
+If I were more motivated to work on some other problem outside the purview of the mission of NeuroData, could not find a project that was highly significant to the NeuroData mission, or I could not find a project that I was likely to succeed it, then I will find another primary research team to work with (though the NeuroData team would love to remain friends). See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project.
 
 #### Focus
 
@@ -40,7 +40,8 @@ Another project is more exploratory, that will lead to a similarly large project
 
 We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
 
-Crucially, posting to pre-print servers, and submitting to journals, does *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then jovo has 1 week to provide feedback and modification requests.  After another week passes, assuming all the co-authors (potentially excluding jovo agree), the manuscript may be submitted and the pre-print may be posted, even in the absence of further review by jovo.
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return.
+
 
 #### Buddies and Mentorship
 
@@ -57,13 +58,16 @@ We also agree to avoid using profane language in public comments, code, or PRs.
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
+The lab strives for a positive and safe environment for all members while also upholding the [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
+
+
 #### Radical Honesty and Safety
 
 We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open fashion.
 
 #### Frequent Productive Feedback
 
-We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed (e.g., have a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later is about right for most things.  Then, the general flow of the conversation would go like this:
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -83,10 +87,10 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 
 #### Daily Presence
 
-We agree to be at the lab several hours per day, any day that JHU is open, and respond to reasonable requests from other lab members within one working day, unless otherwise specified.
-Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree to:
+Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab or at least active online if concerns such as personal health do not permit in person activity. Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
 
-- to be around the lab *many* working hours each day (approximately 10am to 5pm Monday to Friday on all days JHU is open),
+- to working 40 hours per week, approximately 50 weeks per year,
+- to conduct at least half of ones daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open),
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
@@ -96,7 +100,7 @@ Our experience dictates that in person communication and happenstance meetings d
 
 Your most valuable resource while on this team is the team itself.
 
-We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilities overruling research priorities.  This includes in the face of imbedding grant, conference, or other internally/externally imposed deadlines. 
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring familiar responsibilities overruling research priorities.  This includes in the face of an impending grant, conference, or other internally/externally imposed deadline.
 
 #### Weekly Sub-Group Meetings
 
@@ -139,16 +143,22 @@ We agree to have quarterly check-ins to facilitate more long-term/career guidanc
 To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
 
 
+#### Semi-Annual No JoVo Meeting
+
+We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [radically candid](https://www.radicalcandor.com/) feedback.
+
+
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
+
 
 
 ### Other Kinds of Agreements
 
 #### Supervisor Agreements
 
-1. Funding everybody to work on stuff within the union of "stuff we care about most" and "stuff you are in your zone of genius doing" (see [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for tips on how to choose a project).
+1. Funding everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months.  At the end of that experiment, we will collectively decide whether the agreements have been met.  The decision should be unambigous. 
 2. Prioritizing your personal and professional success over everything else in my life after my family & career.
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
@@ -209,10 +219,10 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
 
-#### Retreats
 
-We would like to go on a trip together every year, either by jointly attending a conference, and/or by organizing our own conference.  This is contingent upon the available funds and opportunities.
+#### Weekly Social Good Discussions
 
+We strive to regularly participate in discussions and activities about how we can maximize our positive social impact to the surrounding community. This may include weekly book club discussions, or summer mentorship (see Summer Community Outreach section).
 
 #### Summer Community Outreach
 
@@ -238,7 +248,7 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
-    
+  
 ####  Recommended Reading on Mentorship and Imposter Syndrome
 
 Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
@@ -248,6 +258,4 @@ The following resources are recommended to all lab members, especially to those 
 - [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
 - [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 - [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
-
-    
 
