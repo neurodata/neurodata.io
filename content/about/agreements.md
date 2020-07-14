@@ -104,29 +104,24 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Weekly Sub-Group Meetings
 
-We agree that every week, each sub-group will meet in person for up to two hours, with breaks as desired. The goals are:
+We agree that every week, each person will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
 
-- document past week's progress towards quarterly or annual goals
+- document past week's progress towards weekly, and quarterly  goals (such as papers, grants, conference presentations)
 - get feedback/mentorship from brilliant team of collaborators
 - make plan for next week
-
-The goal is that everybody that attends a given sub-group meeting is a co-author on *all* manuscripts that result.  That means each person provides valuable/substantive feedback/effort/progress towards the goals.
+- anyone who is a co-author on the person's paper is also encouraged to attend and provides valuable/substantive feedback/effort/progress towards the goals
 
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
 - Work 30-40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
 - Generate >1 slides (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)) including the following info:
-
 	- Your name
-	- Bulleted list of last week's plan
-	- Bulleted list of last week's accomplishments
-	- For each accomplished task, a research artefact documenting progress (a screencap, proof, figure, etc.)
-	- Proposed list of commitments for the following week
-
+	- Bulleted list of last week's accomplishments, next week's plan, and quarterly goal
+	- For each accomplished task, a link to a research artefact documenting progress (a screencap, proof, figure, etc.)
 - Listen and provide constructive feedback to your teammates as appropriate
 
-One person is designated to post a link to the slides each week to get contributions, typically the youngest PhD student on the team.  The preferred practice is to simply copy last week's slides, so that everybody can see what they wrote last week and update accordingly.
+The preferred practice is each week to move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red). 
 
 #### Weekly Lunches
 
