@@ -129,9 +129,6 @@ The preferred practice is each week to move "next week" to "last week", and colo
 So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the end of the queue when they join.
 
 
-#### Quarterly Check-ins
-
-We agree to have quarterly check-ins to facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal will be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
 
 #### Annual Group Hangouts
 
@@ -158,6 +155,7 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
 5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
+6. Have quarterly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. This meeting can replace the weekly subgroup meeting for anyone or can be scheduled separately.
 
 #### Trainee Agreements
 
