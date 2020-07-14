@@ -136,7 +136,7 @@ We agree to have quarterly check-ins to facilitate more long-term/career guidanc
 
 #### Annual Group Hangouts
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like organizing or attending a conference that is contingent upon the available funds and opportunities, and irrespective of the aforementioned conditions, going on an annual dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
+To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
 
 
 #### Annual Reviews
@@ -208,6 +208,10 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 #### Regenerative Breaks
 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
+
+#### Retreats
+
+We would like to go on a trip together every year, either by jointly attending a conference, and/or by organizing our own conference.  This is contingent upon the available funds and opportunities.
 
 
 #### Summer Community Outreach
