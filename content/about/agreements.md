@@ -138,9 +138,9 @@ So we all get a more broad view of team activities, we agree to have 1 hour for 
 
 We agree to have quarterly check-ins to facilitate more long-term/career guidance,  mutually providing [radically candid](http://firstround.com/review/on-receiving-and-truly-hearing-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)) feedback, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate.  In these meetings will we re-assess quarterly goals in light of progress and preferences. They are documented in Asana in the ["quarterly" project](https://app.asana.com/0/873639171077169/list).  Each goal will be a [SMART Goal](https://www.mindtools.com/pages/article/smart-goals.htm).  These check-ins will happen in January, April, July, and Oct 30.  The July check-in will serve also as the annual review.
 
-#### Semi-Annual Retreats
+#### Annual Group Hangouts
 
-To build community and deeper inter-personal connections, and to have fun, we agree to having semi-annual retreats,  typically during the week before classes start each semester (this likely means 1 beach retreat, and 1 ski retreat).  The retreats will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These retreats will be organized by trainees.
+To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
 
 
 #### Semi-Annual No JoVo Meeting
@@ -219,10 +219,10 @@ Each of us can "opt-in" and "opt-out" of daily standups for any period of time. 
 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
 
+
 #### Weekly Social Good Discussions
 
 We strive to regularly participate in discussions and activities about how we can maximize our positive social impact to the surrounding community. This may include weekly book club discussions, or summer mentorship (see Summer Community Outreach section).
-
 
 #### Summer Community Outreach
 
