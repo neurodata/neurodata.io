@@ -15,12 +15,13 @@ details:
   - "LOL is a robust and powerful for learning lower-dimensional representation in high-dimensional, low sample size setting."
 
   - 'Currently available in <a href="https://github.com/neurodata/lol">R</a> and <a href="https://github.com/neurodata/lollipop">Python</a>.
-    Both packages are currently supported for Linux, MacOS and Windows.'
+    Both packages are currently supported for Linux, MacOS and Windows. FlashLOL, an implementation which uses heavily optimized routines for 
+    computation of LOL on datasets with high dimensionality, is available through the <a href="https://hub.docker.com/r/neurodata/flashlol">FlashLOL docker container</a>.'
 
   - "LOL is commercial open-source software and released under Apache-2.0 License."
 
 manuscripts:
-  - vogelstein2017linear
+  - vogelstein2018geometric
 
 featured: True
 

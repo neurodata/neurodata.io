@@ -8,6 +8,19 @@
  year = {2019}
 }
 
+@article {Bridgeford802629,
+	author = {Bridgeford, Eric W. and Wang, Shangsi and Yang, Zhi and Wang, Zeyi and Xu, Ting and Craddock, Cameron and Dey, Jayanta and Kiar, Gregory and Gray-Roncal, William and Coulantoni, Carlo and Douville, Christopher and Priebe, Carey E. and Caffo, Brian and Milham, Michael and Zuo, Xi-Nian and , and Vogelstein, Joshua T.},
+	title = {Big Data Reproducibility: Applications in Brain Imaging and Genomics},
+	elocation-id = {802629},
+	year = {2020},
+	doi = {10.1101/802629},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Reproducibility, the ability to replicate analytical findings, is a prerequisite for both scientific discovery and clinical utility. Troublingly, we are in the midst of a reproducibility crisis, in which many investigations fail to replicate. Although many believe that these failings are due to misunderstanding or misapplication of statistical inference (e.g., p-values or the dichotomization of {\textquotedblleft}statistically significant{\textquotedblright}), we believe the shortcomings arise much earlier in the data science workflow, at the level of measurement, including data acquisition and reconstruction. A key to reproducibility is that multiple measurements of the same item (e.g., experimental sample or clinical participant) are similar to one another, while they are dissimilar from other items. The intra-class correlation coefficient (ICC) quantifies reproducibility in this way, but only for univariate (one dimensional) data, while relying on Gaussian assumptions for validity. In contrast, big data is multivariate (high-dimensional), non-Gaussian, and often non-Euclidean (including text, images, speech, and networks), rendering ICC inadequate. We propose a novel statistic, discriminability, which quantifies the degree to which individual samples are similar to one another, without restricting the data to be univariate, Gaussian, or even Euclidean. We then introduce the possibility of optimizing experimental design via increasing discriminability. We prove that optimizing discriminability yields an improved ability to use the data for subsequent inference tasks, without specifying the inference task a priori. We then apply this approach three different datasets: a brain imaging dataset built by the {\textquotedblleft}Consortium for Reliability and reproducibility{\textquotedblright} which consists of 28 disparate magnetic resonance imaging datasets, and two genomics datasets. Discriminability is the only statistic that, by optimizing according to it, improves performance on all subsequent inference tasks for each dataset, despite that they were not considered in the optimization. We therefore suggest that designing experiments and analyses to optimize discriminability may be a crucial step in solving the reproducibility crisis.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2020/04/09/802629},
+	eprint = {https://www.biorxiv.org/content/early/2020/04/09/802629.full.pdf},
+	journal = {bioRxiv}
+}
+
 @article{amunts2013bigbrain,
  abstract = {Reference brains are indispensable tools in human brain mapping, enabling integration of multimodal data into an anatomically realistic standard space. Available reference brains, however, are restricted to the macroscopic scale and do not provide information on the functionally important microscopic dimension. We created an ultrahigh-resolution three-dimensional (3D) model of a human brain at nearly cellular resolution of 20 micrometers, based on the reconstruction of 7404 histological sections. "BigBrain" is a free, publicly available tool that provides considerable neuroanatomical insight into the human brain, thereby allowing the extraction of microscopic data for modeling and simulation. BigBrain enables testing of hypotheses on optimal path lengths between interconnected cortical regions or on spatial organization of genetic patterning, redefining the traditional neuroanatomy maps such as those of Brodmann and von Economo.},
  author = {Amunts, Katrin and Lepage, Claude and Borgeat, Louis and Mohlberg, Hartmut and Dickscheid, Timo and Rousseau, Marc-Étienne and Bludau, Sebastian and Bazin, Pierre-Louis and Lewis, Lindsay B and Oros-Peusquens, Ana-Maria and Shah, Nadim J and Lippert, Thomas and Zilles, Karl and Evans, Alan C},
@@ -2231,17 +2244,6 @@ experiment.},
  volume = {92},
  year = {2016}
 }
-@article{vogelstein2017linear,
- abstract = {Classification of individual samples into one or more categories is critical to modern scientific inquiry. Most modern datasets, such as those used in genetic analysis or imaging, include numerous features, such as genes or pixels. Principal Components Analysis (PCA) is now generally used to find low-dimensional representations of such features for further analysis. However, PCA ignores class label information, thereby discarding data that could substantially improve downstream classification performance. We here describe an approach called "Linear Optimal Low-rank"' projection (LOL), which extends PCA by incorporating the class labels. Using theory and synthetic data, we show that LOL leads to a better representation of the data for subsequent classification than PCA while adding negligible computational cost. Experimentally we demonstrate that LOL substantially outperforms PCA in differentiating cancer patients from healthy controls using genetic data and in differentiating gender from magnetic resonance imaging data incorporating >500 million features and 400 gigabytes of data. LOL allows the solution of previous intractable problems yet requires only a few minutes to run on a single desktop computer.},
- author = {Vogelstein, Joshua T. and Tang, Minh and Zheng, Da and Burns, Randal and Maggioni, Mauro},
- eprint = {1709.01233},
- journal = {arXiv},
- month = {Nov},
- title = {{Linear Optimal Low Rank Projection Provably Outperforms Principal Components Analysis in High-Dimensional Multi-Class Data}},
- url = {http://arxiv-export-lb.library.cornell.edu/abs/1709.01233v1},
- volume = {1050},
- year = {2018}
-}
 
 @article{Vogelstein2018equivalence,
  author = {Shen, Cencheng and Vogelstein, Joshua T.},
@@ -2259,11 +2261,67 @@ experiment.},
  journal = {arXiv},
  month = {Nov},
  pages = {21},
- title = {Geometric Dimensionality Reduction for Subsequent Classification},
+ title = {Geometric Dimensionality Reduction for Big Data},
  url = {https://arxiv.org/abs/1709.01233},
  volume = {1050},
- year = {2018}
+ year = {2020}
 }
+
+
+@article{bridgeford2019,
+  title    = {Big Data Reproducibility: Applications in Brain Imaging and
+              Genomics},
+  author   = {Bridgeford, Eric W and Wang, Shangsi and Yang, Zhi and Wang, Zeyi
+              and Xu, Ting and Craddock, Cameron and Dey, Jayanta and Kiar,
+              Gregory and Gray-Roncal, William and Coulantoni, Carlo and
+              Douville, Christopher and Priebe, Carey E and Caffo, Brian and
+              Milham, Michael and Zuo, Xi-Nian and {Consortium for Reliability
+              and Reproduciblity} and Vogelstein, Joshua T},
+  abstract = {Reproducibility, the ability to replicate analytical findings, is
+              a prerequisite for both scientific discovery and clinical
+              utility. Troublingly, we are in the midst of a reproducibility
+              crisis, in which many investigations fail to replicate. Although
+              many believe that these failings are due to misunderstanding or
+              misapplication of statistical inference (e.g., p-values or the
+              dichotomization of ``statistically significant''), we believe the
+              shortcomings arise much earlier in the data science workflow, at
+              the level of measurement, including data acquisition and
+              reconstruction. A key to reproducibility is that multiple
+              measurements of the same item (e.g., experimental sample or
+              clinical participant) are similar to one another, while they are
+              dissimilar from other items. The intra-class correlation
+              coefficient (ICC) quantifies reproducibility in this way, but
+              only for univariate (one dimensional) data, while relying on
+              Gaussian assumptions for validity. In contrast, big data is
+              multivariate (high-dimensional), non-Gaussian, and often
+              non-Euclidean (including text, images, speech, and networks),
+              rendering ICC inadequate. We propose a novel statistic,
+              discriminability , which quantifies the degree to which
+              individual samples are similar to one another, without
+              restricting the data to be univariate, Gaussian, or even
+              Euclidean. We then introduce the possibility of optimizing
+              experimental design via increasing discriminability. We prove
+              that optimizing discriminability yields an improved ability to
+              use the data for subsequent inference tasks, without specifying
+              the inference task a priori . We then apply this approach three
+              different datasets: a brain imaging dataset built by the
+              ``Consortium for Reliability and reproducibility'' which consists
+              of 28 disparate magnetic resonance imaging datasets, and two
+              genomics datasets. Discriminability is the only statistic that,
+              by optimizing according to it, improves performance on all
+              subsequent inference tasks for each dataset, despite that they
+              were not considered in the optimization. We therefore suggest
+              that designing experiments and analyses to optimize
+              discriminability may be a crucial step in solving the
+              reproducibility crisis. \#\#\# Competing Interest Statement The
+              authors have declared no competing interest.},
+  journal  = {bioRxiv},
+  pages    = {802629},
+  month    =  {apr},
+  year     =  {2020},
+  url={https://www.biorxiv.org/content/10.1101/802629v4}
+}
+
 
 @article{wang2017selected,
  abstract = {We here describe a selected reaction monitoring (SRM)-based approach for the discovery and validation of peptide biomarkers for cancer. The first stage of this approach is the direct identification of candidate peptides through comparison of proteolytic peptides derived from the plasma of cancer patients or healthy individuals. Several hundred candidate peptides were identified through this method, providing challenges for choosing and validating the small number of peptides that might prove diagnostically useful. To accomplish this validation, we used 2D chromatography coupled with SRM of candidate peptides. We applied this approach, called sequential analysis of fractionated eluates by SRM (SAFE-SRM), to plasma from cancer patients and discovered two peptides encoded by the peptidyl-prolyl cis-trans isomerase A (PPIA) gene whose abundance was increased in the plasma of ovarian cancer patients. At optimal thresholds, elevated levels of at least one of these two peptides was detected in 43 (68.3{\%}) of 63 women with ovarian cancer but in none of 50 healthy controls. In addition to providing a potential biomarker for ovarian cancer, this approach is generally applicable to the discovery of peptides characteristic of various disease states.},
