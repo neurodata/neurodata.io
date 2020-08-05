@@ -1,5 +1,5 @@
 $title: "NeuroData Image Registration"
-$slug: reggie
+$slug: ardent
 $order: 2
 name: reg
 
@@ -13,9 +13,9 @@ slides:
     link: "https://neurodata.io/talks/ardent.pdf"
 
 details:
-  - <a href="https://github.com/neurodata/ardent">Reggie</a> is NeuroData's open-source Python package for performing automated nonlinear image registration using LDDMM.
+  - <a href="https://github.com/neurodata/ardent">Ardent</a> is NeuroData's open-source Python package for performing automated nonlinear image registration using LDDMM.
 
-  - Reggie stands out for its ability to predict and correct for artifacts and image nonuniformity, perform registrations across image modalities, and ease of use.
+  - Ardent stands out for its ability to predict and correct for artifacts and image nonuniformity, perform registrations across image modalities, and ease of use.
 
 manuscripts:
   - tward2019
