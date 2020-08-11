@@ -1,0 +1,83 @@
+<!-- using tailwindcss for utility classes -->
+
+{% extends "/views/cv_base.html" %}
+
+{% block main %}
+
+<main class="container mx-auto font-serif antialiased">
+
+    <p class="relative text-right text-lg">
+        <script> document.write(new Date().toLocaleDateString()); </script>
+    </p>
+
+    <h1 class="tracking-tight text-4xl text-center py-12">{{doc.name}}</h1>
+
+    {% for section in doc.sections %}
+        <div class="tracking-normal text-base py-2">
+            <span class="uppercase">{{section.name}}</span>
+            
+            <!-- this is the generic one which could be deleted after everything gets customized -->
+            {% for subsection in section.sections %}
+                <div class="capitalize font-bold text-base py-2">
+                    {{subsection.name}}
+                    {% for subsubsection in subsection.sections %}
+                        <div class="font-normal underline text-base py-2">
+                            {{subsubsection.name}}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            <!-- Publications -->
+            {% for publication in section.publications %}
+                {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %}
+
+                <div class="py-2">
+                    <span class="capitalize font-bold text-base">{{publication.name}}</span>
+                    {% if publication.id == "peer_reviewed" %}
+                        {% set pubs = section.entries.peer_reviewed %}
+                    {% else %}
+                        {% set pubs = [] %}
+                    {% endif %}
+                    
+                    <ol reversed class="list-decimal ml-8">
+                    {% for item in PUBS if item.ID in pubs %}
+                        {% set authors = item|all_authors_annotated %}
+                        <li>
+                            {% for author in authors %}
+                                {{author|render|safe}}{% if loop.length > 1 and not loop.last %}, {% endif %}{% if loop.length - loop.index == 1 and loop.length > 1 %} and {% endif %}{% if loop.last %}.{% endif %}
+                            {% endfor %}
+                            
+                            {% if item.doi or item.url or item.arxivid %}
+                                <a href="{{item|print_link}}" target="_blank" rel="noopener">{{item|print_title|render|safe}}</a>{% else %}{{item|print_title|render|safe}}{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
+                            <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
+                        </li>    
+                    {% endfor %}
+                    </ol>
+                </div>
+            {% endfor %}
+
+            <!-- awards -->
+            {% for recognition in section.recognitions %}
+                <div class="py-2">
+                    <span class="capitalize font-bold text-base">{{recognition.name}}</span>
+                    {% if recognition.awards %}
+                        {% for award in recognition.awards.awards|sort(attribute='year', reverse=True) %}
+                            <div class="flex font-normal text-base pl-4 py-1 ">
+                                <span class="font-mono flex-grow-0 font-bold pr-4">{{award.year}}</span>
+                                <span class="flex-1 flex-grow">
+                                    <span class="font-bold">{{award.name}}</span>. 
+                                    <span class="italic">{{award.authors}}</span>. 
+                                    <span>{{award.organization}}</span>.
+                                </span>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+</main>
+
+{% endblock %}

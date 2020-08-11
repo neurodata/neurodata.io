@@ -3,34 +3,46 @@ $title@: Awards
 $order: 3
 
 awards:
-    - name: Best Presentation Award HPDC
-      authors: Mhembere et al.
+    - name: Best Presentation Award 
+      organization: High Performance Parallel and Distributed Computing
+      authors: Mhembere, Disa and Priebe, Carey E and Vogelstein, Joshua T and Burns, Randal
       year: 2017
 
-    - name: Nonparametric Statistics of the American Statistical Association Student Paper Award
-      authors: Lee et al.
+    - name: Student Paper Award
+      organization: Nonparametric Statistics of the American Statistical Association 
+      authors: Lee, Youjin and Shen, Cencheng and Priebe, Carey E and Vogelstein, Joshua T
       year: 2017
 
     - name: F1000 Prime Recommended
-      authors: Vogelstein et al.
+      organization: F1000.com
+      authors: Vogelstein, Joshua T
       year: 2014
 
-    - name: Spotlight, Neural Information Processing Systems
-      authors: Vogelstein
+    - name: Spotlight
+      organization: Neural Information Processing Systems
+      authors: Vogelstein, Joshua T
       year: 2013
-
-    - name: Trainee Abstract Award, Organization for Human Brain Mapping
-      authors: Vogelstein
+      
+    - name: Trainee Abstract Award
+      organization: Organization for Human Brain Mapping
+      authors: Vogelstein, Joshua T
       year: 2011
-
-    - name: Spotlight, Computational and Systems Neuroscience
-      authors: Vogelstein
+      
+    - name: Spotlight
+      organization: Computational and Systems Neuroscience (CoSyNe)
+      authors: Vogelstein, Joshua T
       year: 2008
+
+    - name: Dean's List
+      organization: Washington University
+      authors: Vogelstein, Joshua T
+      year: 2002
+      hidden: true
       
 ---
 
 <ul>
-{% for award in doc.awards|sort(attribute='year', reverse=True) %}
-    <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
+{% for award in doc.awards|sort(attribute='year', reverse=True) if not award.hidden %}
+    <li><b>{{award.year}}</b> <em>{{award.name}}</em>, {{award.authors}}, {{award.organization}}</li>
 {% endfor %}
 </ul>
