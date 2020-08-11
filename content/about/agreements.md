@@ -252,3 +252,12 @@ The following resources are recommended to all lab members, especially to those 
 - [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 - [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
 
+### Individual Commitments to Upholding Agreements
+Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
+
+- Weekly lab meeting: Ross
+- Weekly journal club: Pedigo (starting 1st day of classes)
+- Semi-annual social events: Ronan
+- Semi-annual no-jovo meetings: Ali SE 
+- Annual lab trip: Sambit
+- Getting diversity interns: Tommy
