@@ -8,7 +8,10 @@ $order: 5
 
 We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, the rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 
-### Core Research Agreements
+Joining the lab, which is made official by signing documents with JHU where JHU commits to finanically supporting you, amounts to also agreeing to all of the below core agreements.  In other words, failure to comply with the core agreements is sufficient grounds to find other opportunities for you that do not involve being a member of the lab.  There is no judgement associated with not adhering to these agreements, they are not for everyone in the *world*, though they are for everyone in the *lab*. 
+
+
+### Core Agreements
 
 #### All In
 
@@ -28,19 +31,14 @@ If I were more motivated to work on some other problem outside the purview of th
 
 #### Focus
 
-We agree to focus on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete.  One project is the main focus that we are actively working on
-
-- for trainees, this is a journal publication
-- for research staff, this is a report to funders plus software repository with a clear code demo.
-
-Another project is more exploratory, that will lead to a similarly large project in the following year. Individual variation is possible with suitable justification.
+We agree to focus on 2 projects, unless otherwise negotiated with the team.  In general, each project should take about 1 year to complete and is complete when the manuscript is published in a journal/conference.  One project is the main focus that we are actively working, the other is more exploratory, that will lead to a similarly large project in the following year. Individual variation is possible with suitable justification.
 
 #### Open & Reproducible Science
 
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
+We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence).
 
-Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return.
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
 
 #### Buddies and Mentorship
@@ -67,7 +65,9 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 #### Frequent Productive Feedback
 
-We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  
+
+Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "i failed to sleep"
   2. *speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date"
@@ -87,16 +87,16 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 
 #### Daily Presence
 
-Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab or at least active online if concerns such as personal health do not permit in person activity. Our experience dictates that in person communication and happenstance meetings dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
+Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab (or active online if campus is closed and university is open). Our experience dictates that in person communication and happenstance meetings can dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
 
-- to working 40 hours per week, approximately 50 weeks per year,
+- to working 40 hours per week, approximately 50 weeks per year, on our two primary research projects
 - to conduct at least half of ones daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open),
 - we respond to one another within one school day, 
 - other hours/days, there is no expectation of responding to email/slack
 - while people are in the lab, we will not interrupt other people if their headphones are on (or they provide another indicator that they are working, we will not disturb them)
-- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge or in kavli, 
-- if you aren't going to be around  any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows, and
-- up to 1 day per week working from home will typically be acceptable with explicit permission, additional working from home days any given week must be justified.
+- any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge, in kavli, etc. 
+- if you aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows,
+- up to 1 day per week working "remotely" (meaning from home when JHU campus is open, and offline when JHU campus is closed) will typically be acceptable with explicit permission, additional working from home days any given week must be justified.
 
 Your most valuable resource while on this team is the team itself.
 
@@ -104,16 +104,17 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Weekly Sub-Group Meetings
 
-We agree that every week, each person will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
+We agree that every week, each sub-group will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
 
 - document past week's progress towards weekly, and quarterly  goals (such as papers, grants, conference presentations)
 - get feedback/mentorship from brilliant team of collaborators
 - make plan for next week
-- anyone who is a co-author on the person's paper is also encouraged to attend and provides valuable/substantive feedback/effort/progress towards the goals
+
+Every team member is expected to attend one of these a week.
 
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
-- Work 30-40 hrs on these goals, leaving time for other interesting stuff as it comes up.
+- Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
 - Generate >1 slides (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)) including the following info:
 	- Your name
@@ -121,13 +122,17 @@ To facilitate achieving & documenting these goals, we each agree to the followin
 	- For each accomplished task, a link to a research artefact documenting progress (a screencap, proof, figure, etc.)
 - Listen and provide constructive feedback to your teammates as appropriate
 
-The preferred practice is each week to move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red). 
+The preferred practice is each week to move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
 
-#### Weekly Lunches
+
+#### Weekly Lab Meetings
 
 
 So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will when it is our turn in the rotation, which will be about twice a year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the end of the queue when they join.
 
+#### Weekly Journal Club
+
+We strive to regularly participate in discussions and activities about how we can maximize our positive social impact to the surrounding community. We manifest this with an 'opt-in' weekly journal club where we will read and discuss contents related to real-world policies, social perspectives, and relavant data science tools. 
 
 
 #### Annual Group Hangouts
@@ -145,28 +150,16 @@ We will meet at least 2x annual without jovo to discuss ways we can collectively
 We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
 
 
-
-### Other Kinds of Agreements
-
-#### Supervisor Agreements
-
-1. Funding everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months.  At the end of that experiment, we will collectively decide whether the agreements have been met.  The decision should be unambigous. 
-2. Prioritizing your personal and professional success over everything else in my life after my family & career.
-3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
-4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
-5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
-6. Have quarterly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. This meeting can replace the weekly subgroup meeting for anyone or can be scheduled separately.
-
-#### Trainee Agreements
+#### Research Artefacts 
 
 We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
 
 ##### Publications
 
-- *MSE students*: submit a first author publication before graduation
+- *MSE students* and *Research staff*: submit a first author publication before graduation
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
-- *Research staff*: take ownership of a new development year-long development "project"
+
 
 ##### Conferences
 
@@ -186,36 +179,35 @@ We agree that, in general, the research priority, for any student, is to be work
 
 In general, the research priority for any student is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting. Your PI, however, may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency. Thus, unless otherwise stated, if a PI asks you to produce *x* for a grant/talk/paper/etc., interpret that as the most urgent and top priority. Otherwise, prioritize what is most important, rather than most urgent.
 
+#### Departure Agreements
+
+Three months prior to departure, make a 'transition' plan, wherein the technical expertise you have acquired in the lab is transferred to at least one individual in the lab.  This includes, 
+- If you have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on you;
+- A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the corresponding author. 
+
+
+### Other Kinds of Agreements
+
+#### Supervisor Agreements
+
+1. Funding everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months.  At the end of that experiment, we will collectively decide whether the agreements have been met.  The decision will ideally be unambigous. 
+2. Prioritizing your personal and professional success over everything else in my life after my family & career.
+3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
+4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
+5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
+6. Have quarterly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. This meeting can replace the weekly subgroup meeting for anyone or can be scheduled separately.
+7. Seeking to maintain lab diversity writ large, including age, seniority, intellectual interests and background, sex, ethnicity, race, country of origin, ability, etc.
+
+
 ### Aspirational Agreements
 
-#### Daily Standups
 
-The goals of daily standups include:  
-
-1. keep us accountable to our daily goals
-2. improve our ability to assess how much energy different tasks take
-3. prioritize on the basis of our longer term goals, rather than fleeting distractions such as emails
-4. keep the team in the loop, so we can build upon one another's work
-5. keep each other in alignment with our own goals and values, as well as the team's some of us agree to participate in [daily standups](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum) on most days.
-
-The process is that each morning, in the [#standup](https://neurodata.slack.com/messages/standup/) slack channel, we state
-
-1. the degree to which we completed our previous commitment
-2. provide a link to the code/analysis (if its not obvious)
-3. state our new commitment of the day.
-
-Note that the daily "commitment" is not a goal, it is something that you are actually committed to completing for the day, ie, it is your top research priority for the day.
-
-Each of us can "opt-in" and "opt-out" of daily standups for any period of time.  However, the expectation is that if you do opt-in, you do so for an explicit period of time, and you do so daily.
 
 #### Regenerative Breaks
 
 While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
 
 
-#### Weekly Social Good Discussions
-
-We strive to regularly participate in discussions and activities about how we can maximize our positive social impact to the surrounding community. This may include weekly book club discussions, or summer mentorship (see Summer Community Outreach section).
 
 #### Summer Community Outreach
 
