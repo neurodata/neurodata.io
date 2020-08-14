@@ -49,6 +49,12 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 ### Conduct
 
+#### Ensuring Safety for BIPOC and URM students
+
+We recognize the unique struggles Black, Indigenous, People of Color (BIPOC) and women face in Academia and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
+- accomodating student needs so that they feel safe in lab and on campus
+- connecting student with relevant affinity groups on campus
+
 #### Respect
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
