@@ -142,8 +142,11 @@ We will meet at least 2x annual without jovo to discuss ways we can collectively
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
 
+#### Annual Review of Agreements
+
+We agree to annually review and update this Agreements document at the end of June.
 
 
 ### Other Kinds of Agreements
