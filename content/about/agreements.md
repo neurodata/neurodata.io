@@ -51,7 +51,7 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 #### Ensuring Safety for BIPOC and URM students
 
-We recognize the unique struggles Black, Indigenous, People of Color (BIPOC) and women face in Academia and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
+We recognize the unique struggles Black, Indigenous, People of Color (BIPOC) and women face in STEM and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
 
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
@@ -60,8 +60,9 @@ We recognize the unique struggles Black, Indigenous, People of Color (BIPOC) and
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
 age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
-Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
-We also agree to avoid using profane language in public comments, code, or PRs.
+Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+We also agree to avoid using profane language in public comments, code, or PRs.   
+
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
