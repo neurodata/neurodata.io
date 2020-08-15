@@ -65,6 +65,22 @@ The lab strives for a positive and safe environment for all members while also u
 
 We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open fashion.
 
+#### Lab Spaces are Brave Spaces
+
+We agree that lab spaces should embody the five tenets of _brave spaces_, as defined [here](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf):
+
+> - “Controversy with civility,” where varying opinions are accepted
+>
+> - “Owning intentions and impacts,” in which students acknowledge and discuss instances where a dialogue has affected the emotional well-being of another person
+>
+> - “Challenge by choice,” where students have an option to step in and out of challenging conversations
+>
+> - “Respect,” where students show respect for one another’s basic personhood
+>
+> - “No attacks,” where students agree not to intentionally inflict harm on one another 
+
+Lab members are free to profess any belief and debate any issue they choose provided they continuously demonstrate respect for each other. Disagreement is not an inherently bad thing as it can help us gain perspective for another point of view, examine our own beliefs and opinions, and look for common ground. Disagreement in a respectful environment is an opportunity for collective growth. These benefits are lost, however, when debates become attacks and we cease to show respect for each other.
+
 #### Frequent Productive Feedback
 
 We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
