@@ -49,9 +49,9 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 ### Conduct
 
-#### Ensuring Safety for BIPOC and URM students
+#### Ensuring safety for BIPOC and URM students
 
-We recognize the unique struggles Black, Indigenous, People of Color (BIPOC) and women face in STEM and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
+We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC) face in STEM and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
 
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
