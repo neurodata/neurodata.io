@@ -49,12 +49,20 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 ### Conduct
 
+#### Ensuring safety for BIPOC and URM students
+
+We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC) face in STEM and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
+
+- accomodating student needs so that they feel safe in lab and on campus
+- connecting student with relevant affinity groups on campus
+
 #### Respect
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
 age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
-Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
-We also agree to avoid using profane language in public comments, code, or PRs.
+Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+We also agree to avoid using profane language in public comments, code, or PRs.   
+
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
@@ -158,8 +166,11 @@ We will meet at least 2x annual without jovo to discuss ways we can collectively
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
 
+#### Annual Review of Agreements
+
+We agree to annually review and update this Agreements document at the end of June.
 
 
 ### Other Kinds of Agreements
