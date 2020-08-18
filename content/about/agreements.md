@@ -88,6 +88,13 @@ We agree that lab spaces should embody the five tenets of _brave spaces_, as def
 > - “No attacks,” where students agree not to intentionally inflict harm on one another 
 
 Lab members are free to profess any belief and debate any issue they choose provided they continuously demonstrate respect for each other. Disagreement is not an inherently bad thing as it can help us gain perspective for another point of view, examine our own beliefs and opinions, and look for common ground. Disagreement in a respectful environment is an opportunity for collective growth. These benefits are lost, however, when debates become attacks and we cease to show respect for each other.
+This also means that there is a responsibility on the offended party to make the offender aware of their offense if they would like change.
+We define a "challenging conversation" as being a conversation which includes topics which you choose not to engage in, and that's fine.
+People who choose to talk about challenging topics around you do not have priority in the workspace and you can always ask a group to leave.
+Respect implies that when someone asks you do something reasonable, like stop talking about a certain topic or to talk somewhere else, you respect them and their boundaries enough to listen.
+"No attacks" implies no malicious intent directed at anyone. Pointing out shortcomings via constructive criticism is possible to perceive as an attack, but we commit to assume the best of our peers. We should feel free to clarify with anyone, at any time, if a comment is intended as an attack or not. Clarifying intent is likely to alleviate harmful misconceptions.
+Nobody is perfect, and we will work with each other to make our work environment better.
+
 
 #### Frequent Productive Feedback
 
