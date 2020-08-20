@@ -38,10 +38,11 @@ Another project is more exploratory, that will lead to a similarly large project
 #### Open & Reproducible Science
 
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  
+We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.
+
+When developing open source code, it is important to keep in mind the broader community. If we find papers with algorithms but cannot find the code, reach out to the authors. Always, if we find public code that we wish to include in our code base, reach out to the developers. Proper assignment of credit and citations are required, but we also seek to include them in our community as collaborators and invite them to co-author papers with us. We are more impactful together and this will also help avoid any issues down the road.
 
 Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return.
-
 
 #### Buddies and Mentorship
 
