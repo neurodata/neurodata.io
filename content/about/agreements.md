@@ -74,15 +74,11 @@ We agree to speak with one another honestly (see below for a description of "imp
 
 We agree that lab spaces should embody the five tenets of _brave spaces_, as defined [here](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf):
 
-> - “Controversy with civility,” where varying opinions are accepted
->
-> - “Owning intentions and impacts,” in which students acknowledge and discuss instances where a dialogue has affected the emotional well-being of another person
->
-> - “Challenge by choice,” where students have an option to step in and out of challenging conversations
->
-> - “Respect,” where students show respect for one another’s basic personhood
->
-> - “No attacks,” where students agree not to intentionally inflict harm on one another 
+- “Controversy with civility,” where varying opinions are accepted
+- “Owning intentions and impacts,” in which students acknowledge and discuss instances where a dialogue has affected the emotional well-being of another person
+- “Challenge by choice,” where students have an option to step in and out of challenging conversations
+- “Respect,” where students show respect for one another’s basic personhood
+- “No attacks,” where students agree not to intentionally inflict harm on one another 
 
 Lab members are free to profess any belief and debate any issue they choose provided they continuously demonstrate respect for each other. Disagreement is not an inherently bad thing as it can help us gain perspective for another point of view, examine our own beliefs and opinions, and look for common ground. Disagreement in a respectful environment is an opportunity for collective growth. These benefits are lost, however, when debates become attacks and we cease to show respect for each other.
 This also means that there is a responsibility on the offended party to make the offender aware of their offense if they would like change.
