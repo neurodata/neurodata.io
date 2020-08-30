@@ -41,18 +41,28 @@ We will conduct our work using the highest open and reproducible science standar
 Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
 
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return.
+
 #### Buddies and Mentorship
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
 ### Conduct
 
+#### Ensuring safety for BIPOC and URM students
+
+We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC) face in STEM and are committed to creating a environment where they feel supported, appreciated, and welcome. This includes:
+
+- accomodating student needs so that they feel safe in lab and on campus
+- connecting student with relevant affinity groups on campus
+
 #### Respect
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
 age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
-Sexual language and imagery is not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
-We also agree to avoid using profane language in public comments, code, or PRs.
+Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+We also agree to avoid using profane language in public comments, code, or PRs.   
+
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
@@ -62,6 +72,22 @@ The lab strives for a positive and safe environment for all members while also u
 #### Radical Honesty and Safety
 
 We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open fashion.
+
+#### Lab Spaces are Brave Spaces
+
+We agree that lab spaces should embody the five tenets of _brave spaces_, as defined [here](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf):
+
+> - “Controversy with civility,” where varying opinions are accepted
+>
+> - “Owning intentions and impacts,” in which students acknowledge and discuss instances where a dialogue has affected the emotional well-being of another person
+>
+> - “Challenge by choice,” where students have an option to step in and out of challenging conversations
+>
+> - “Respect,” where students show respect for one another’s basic personhood
+>
+> - “No attacks,” where students agree not to intentionally inflict harm on one another 
+
+Lab members are free to profess any belief and debate any issue they choose provided they continuously demonstrate respect for each other. Disagreement is not an inherently bad thing as it can help us gain perspective for another point of view, examine our own beliefs and opinions, and look for common ground. Disagreement in a respectful environment is an opportunity for collective growth. These benefits are lost, however, when debates become attacks and we cease to show respect for each other.
 
 #### Frequent Productive Feedback
 
@@ -147,8 +173,11 @@ We will meet at least 2x annual without jovo to discuss ways we can collectively
 
 #### Annual Reviews
 
-We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also update and sign this agreements document each year at this time.
+We agree to annual reviews, to document goals and assess trajectory, by filling out the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2) annually, and then scheduling a meeting with leadership to discuss. These meetings will happen in July. We will also sign this agreements document each year at this time.
 
+#### Annual Review of Agreements
+
+We agree to annually review and update this Agreements document at the end of June.
 
 #### Research Artefacts 
 
@@ -244,3 +273,12 @@ The following resources are recommended to all lab members, especially to those 
 - [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 - [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
 
+### Individual Commitments to Upholding Agreements
+Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
+
+- Weekly lab meeting: Ross
+- Weekly journal club: Pedigo (starting 1st day of classes)
+- Semi-annual social events: Ronan
+- Semi-annual no-jovo meetings: Ali SE 
+- Annual lab trip: Sambit
+- Getting diversity interns: Tommy
