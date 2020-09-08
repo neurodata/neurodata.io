@@ -58,6 +58,7 @@ We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC)
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
 age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
 Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not be worn when interacting with lab members or representing the lab in any capacity.
 We also agree to avoid using profane language in public comments, code, or PRs.   
 
 
