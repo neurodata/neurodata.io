@@ -12,8 +12,8 @@ phases:
       - sudo apt install -f
       - sudo apt install -y aptitude
       - printf "n\nY\nY\n" | sudo aptitude install npm
-      - npm install npm -g
       - npm config set strict-ssl false
+      - npm install npm -g
       - npm install
   build:
     commands:
