@@ -12,6 +12,7 @@ phases:
       - sudo aptitude install -y nodejs
       - printf "n\nY" | sudo aptitude install -y nodejs-legacy
       - sudo apt install -f
+      - ln -s /usr/bin/nodejs /usr/bin/node
       - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm config set strict-ssl false
       - npm install npm -g
