@@ -8,10 +8,10 @@ phases:
       - echo Installing tailwind
       - apt install curl
       - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-      - sudo apt-get install -y nodejs
-      - sudo apt-get install -y nodejs-legacy
-      - sudo apt install -f
       - sudo apt install -y aptitude
+      - sudo aptitude install -y nodejs
+      - sudo aptitude install -y nodejs-legacy
+      - sudo apt install -f
       - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm config set strict-ssl false
       - npm install npm -g
