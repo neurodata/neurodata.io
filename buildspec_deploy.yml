@@ -10,9 +10,8 @@ phases:
       - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - sudo apt install -y aptitude
       - sudo aptitude install -y nodejs
-      - printf "n\nY" | sudo aptitude install -y nodejs-legacy
       - sudo apt install -f
-      - sudo ln -sf /usr/bin/nodejs /usr/bin/node
+      - update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
       - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm config set strict-ssl false
       - npm install npm -g
