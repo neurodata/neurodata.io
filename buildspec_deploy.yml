@@ -11,7 +11,7 @@ phases:
       - sudo apt-get install -y nodejs
       - sudo apt install -f
       - sudo apt install -y aptitude
-      - printf "n\nY\n" | sudo aptitude install npm
+      - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm install
   build:
     commands:
