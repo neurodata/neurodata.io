@@ -6,6 +6,7 @@ phases:
       - echo Installing grow
       - pip install grow pyyaml bibtexparser
       - echo Installing tailwind
+      - apt-get install nodejs
       - apt-get install npm
       - npm install
   build:
