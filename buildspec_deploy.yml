@@ -10,10 +10,8 @@ phases:
       - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - sudo apt-get install -y nodejs
       - sudo apt install -f
-      - sudo apt install libssl1.0-dev
-      - sudo apt install nodejs-dev
-      - sudo apt install node-gyp
-      - sudo apt install npm
+      - sudo apt install aptitude
+      - sudo aptitude install npm
       - npm install
   build:
     commands:
