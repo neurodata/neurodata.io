@@ -11,11 +11,12 @@ phases:
       - sudo apt install -y aptitude
       - sudo aptitude install -y nodejs
       - sudo apt install -f
-      - update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
+      - sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
       - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm config set strict-ssl false
-      - npm install npm -g
-      - npm install
+      - sudo npm install npm -g
+      - ls /usr/bin/env
+      - sudo npm install
   build:
     commands:
       - grow install
