@@ -6,16 +6,17 @@ phases:
       - echo Installing grow
       - pip install grow pyyaml bibtexparser
       - echo Installing tailwind
-      - apt install curl
-      - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - sudo apt install -y aptitude
       - sudo aptitude install -y nodejs
-      - sudo apt install -f
       - sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
       - printf "n\nY\nY\n" | sudo aptitude install npm
       - npm config set strict-ssl false
       - sudo npm install npm -g
-      - ls /usr/bin/env
+      - which node
+      - which nodejs
+      - which npm
+      - ls /usr/bin/node/
+      - echo $PATH
       - sudo npm install
   build:
     commands:
