@@ -6,6 +6,8 @@ phases:
       - echo Installing grow
       - pip install grow pyyaml bibtexparser
       - echo Installing tailwind
+      - apt install curl
+      - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - sudo apt install -y aptitude
       - sudo aptitude install -y nodejs
       - sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 99
