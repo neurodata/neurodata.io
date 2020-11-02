@@ -40,6 +40,7 @@ We will conduct our work using the highest open and reproducible science standar
 
 Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
+
 #### Buddies and Mentorship
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
@@ -52,6 +53,13 @@ We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC)
 
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
+
+#### Accessibility
+
+Videoconference technology can make it especially hard for deaf, hard of hearing, and/or non-native English speakers to understand speech. Therefore, we agree to use closed captioning technology when presenting our work over virtually, whenever possible. Such technology is available on Google slides, and Microsoft Office 365. In order to make this practice maximally effective, we strive to:
+
+- keep captioning on even during question and answer periods
+- link audio output to input, so the captioning can pick up speech from the audience. This can be done by playing audio out loud through computer speakers, or by using software such as [this](https://webcaptioner.com/help/integrations/captioning-audio-from-another-program-microphone).
 
 #### Respect
 
