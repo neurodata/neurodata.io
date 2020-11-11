@@ -1,0 +1,51 @@
+---
+$title@: Events 
+$order: 1
+---
+
+<div class="tools-page" style="width: 100%">
+    <div class="group">
+        <h3>Featured</h3>
+        <ul>
+            {% for item in g.docs('eventlist')[0].events if item.featured %}
+                <li>
+                  <p class="authors">{{ item.authors }}</p>
+                  <h6>
+                    {% if item.url %}
+                    <a href="{{item.url}}">{{item.name}}</a>
+                    {% endif %}
+                    {% if not item.url %}
+                    {{item.name}}
+                    {% endif %}
+                  </h6>
+                  <p>{{item.description}}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="group">
+        <h3>Others</h3>
+        {% for item in g.docs('eventlist')[0].events if not item.featured and not item.hide %}
+                <li>
+                  <p class="authors">
+                    {{ item.authors }}
+                    {% if item.url %}
+                    <a href="{{item.url}}">“{{item.name}}“</a>.
+                    {% endif %}
+                    {% if not item.url %}
+                    <strong>“{{item.name}}“</strong>.
+                    {% endif %}
+                    {% if item.place %}
+                    In: {{ item.place }},
+                    {% endif %}
+                    {% if item.date %}
+                    {{ item.date }}
+                    {% endif %}
+                  </p>
+                  <p>{{item.description}}</p>
+                </li>
+        {% endfor %}
+    </div>
+
+</div>

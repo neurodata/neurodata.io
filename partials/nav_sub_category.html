@@ -1,22 +1,56 @@
 {% if not mobile_nav %}
     <li>
-        <h5>{{item.base}}</h5>
+{% if item.show_subnav %}
+            <h5>{{item.title}}</h5>
             <ul>
+{% if item.nav_title %}
+                <li>
+                    <a href="{{item.url.path}}"><h6>{{item.nav_title}}</h6></a>
+                </li>
+{% endif %}
             {% for proj in g.docs(item.base) %}
                 <li>
-                    <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
+                    <a href="{{proj.url.path}}" {% if proj.base == doc.base %} class="highlight" {% endif %}><h6>{{proj.title}}</h6></a>
                 </li>
             {% endfor %}
             </ul>
+{% else %}
+{% if item.nav_title %}
+                    <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a>
+{% else %}
+            {% for proj in [g.docs(item.base)[0]] %}
+                    <a href="{{proj.url.path}}"><h5>{{item.title}}</h5></a>
+            {% endfor %}
+{% endif %}
+
+{% endif %}
     </li>
 {% else %}
+{% if item.show_subnav %}
     <li>
-        <a href="#" class="expand_projects" data="mobile_nav_{{item.base}}"><h5>{{ item.base }}</h5></a>
+        <a href="#" class="expand_projects" data="mobile_nav_{{item.base}}"><h5>{{ item.title }}</h5></a>
 
         <div id="mobile_nav_{{item.base}}" style="display:none">
+{% if item.nav_title %}
+                <a href="{{item.url.path}}"><h6>{{item.title}}</h6></a>
+{% endif %}
             {% for proj in g.docs(item.base) %}
                 <a href="{{proj.url.path}}"><h6>{{proj.title}}</h6></a>
             {% endfor %}
         </div>
     </li>
+{% else %}
+            <li>
+{% if item.nav_title %}
+                <a href="{{item.url.path}}">
+                    <h5>{{item.title}}</h5>
+                </a>
+{% else %}
+            {% for proj in [g.docs(item.base)[0]] %}
+                    <a href="{{proj.url.path}}"><h5>{{item.title}}</h5></a>
+            {% endfor %}
+{% endif %}
+            </li>
+{% endif %}
+
 {% endif %}

@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+  if (false) {
 	//load homepage gif only on mobile
 	$(window).on("load resize scroll", function (e) {
 		if (($(window).width() < 1025) && ($(".main .video .mobile").length > 0)) {
@@ -14,6 +15,7 @@ $(document).ready(function () {
 	} else if ($(window).width() < 1025) {
 		$(".main .video").prepend('<video autoplay muted preload loop playsinline class="mobile"><source src="static/video/NeurodataIntroVideo_mobile.mp4" type="video/mp4" /></video>')
 	}
+  }
 
 	//init tool tip
 	$('.tooltip').tooltipster();
@@ -88,6 +90,7 @@ $(document).ready(function () {
 	//smooth scroll anchor links
 	$(function () {
 		var navHeight = $(".doc-nav").height();
+		var mainNavHeight = $(".wrapper>.nav").height();
 		$('a[href*="#"]:not([href="#"])').on("click", function () {
 			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 				var target = $(this.hash);
@@ -99,6 +102,16 @@ $(document).ready(function () {
 					return false;
 				}
 			}
+		});
+		$('select[name=links]').on("change", function () {
+				var target = $($(this).val());
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top - navHeight - mainNavHeight - 30
+					}, 1000);
+					return false;
+				}
 		});
 	});
 	$(function () {

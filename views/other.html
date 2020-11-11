@@ -1,0 +1,35 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+<div class="header about-header">
+    <h2>{{doc.title}}</h2>
+</div>
+
+{% include 'partials/other_nav.html' %}
+
+{% set has_toc = 'class="toc"' in doc.html %}
+
+<div class="detail-wrap list">
+    {% if has_toc %}
+        <div class="guides-sidebar">
+            {% set first_div = doc.html.find('</div>') %}
+            <div class="toc_column">
+                <h3>In this document</h3>
+                {{doc.html[0:first_div + 6]|safe}}
+            </div>
+        </div>
+    {% endif %}
+    
+    <div class="help-content">
+        <h3>{{doc.title}}</h3>
+        {% if has_toc %}
+            {% set first_div = doc.html.find('</div>') %}
+            {{doc.html[first_div + 6:]|safe}}
+        {% else %}
+            {{doc.html|render|safe}}
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

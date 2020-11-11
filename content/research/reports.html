@@ -1,0 +1,25 @@
+---
+$title@: Reports
+$order: 4
+
+tech_reports:
+- kiar2018neurostorm
+- Kazhdan2013
+- Banerjee2013
+- Priebe2017
+- Zheng2016
+- Zheng2016c
+- sinha2014automatic
+
+---
+
+<div class="list_pubs">
+
+    {% set index_items = true %}
+    <br />
+    <h6 id="reports">Technical Reports</h6>
+    {% with pubs = doc.tech_reports %}
+    {% include 'partials/pubs_list.html' %}
+    {% endwith %}
+
+</div>

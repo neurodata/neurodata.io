@@ -10,7 +10,7 @@
         {% endfor %}
     </ul>
     <select onChange="window.location.href=this.value">
-        <option selected="selected">Research:</option>
+        <option selected="selected">Pubs:</option>
         {% for item in g.docs('research') %}
             <option value="{{item.url.path}}">{{item.title}}</option>
         {% endfor %}
@@ -21,13 +21,13 @@
 <div class="doc-nav sub">
     <ul>
         {% for sub_nav in doc.subnavs %}
-           <li><a href="#{{sub_nav}}"><h5>{{sub_nav|replace("_","-")|capitalize}}</h5></a></li>
+           <li><a href="/research/{{sub_nav}}"><h5>{{sub_nav|replace("_","-")|capitalize}}</h5></a></li>
         {% endfor %}
     </ul>
     <select size="1" name="links" onchange="window.location.href=this.value;">
         <option selected="selected">Publication type:</option>    
         {% for sub_nav in doc.subnavs %}
-            <option value="#{{sub_nav}}">{{sub_nav|replace("_","-")|capitalize}}</option>
+            <option value="/research/{{sub_nav}}">{{sub_nav|replace("_","-")|capitalize}}</option>
          {% endfor %}
     </select>
 </div>

@@ -1,12 +1,6 @@
 <div class="doc-nav">
     <ul>
-        <li {% if highlighted=='about' %}
-                class="highlight"
-            {% endif %}
-            >
-            <a href="{{g.url('/content/pages/about.html').path}}"><h5>Philosophy</h5></a>
-        </li>
-        {% for item in g.docs('about') %}
+        {% for item in g.docs('other') %}
             <li {% if item.base == doc.base %}
                     class="highlight"
                 {% endif %}
@@ -16,9 +10,8 @@
         {% endfor %}
     </ul>
     <select onChange="window.location.href=this.value">
-        <option selected="selected">About:</option>
-        <option value="{{g.url('/content/pages/about.html').path}}">Philosophy</option>
-        {% for item in g.docs('about') %}
+        <option selected="selected">Other:</option>    
+        {% for item in g.docs('other') %}
             <option value="{{item.url.path}}">{{item.title}}</option>
         {% endfor %}
     </select>

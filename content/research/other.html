@@ -1,0 +1,27 @@
+---
+$title@: Other
+$order: 5
+
+other:
+- sfn2017chapter
+- sfn2018chapter
+- oopsi
+- neuro2016
+- GlobalBrain
+- BrainWorkshop
+- burns2014cosmos
+- Yuste2011
+- Vogelstein2011c
+- Vogelstein1999
+---
+
+<div class="list_pubs">
+
+    {% set index_items = true %}
+    <br />
+    <h6 id="other">Other Publications</h6>
+    {% with pubs = doc.other %}
+    {% include 'partials/pubs_list.html' %}
+    {% endwith %}
+
+</div>

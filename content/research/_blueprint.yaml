@@ -1,2 +1,2 @@
-path: /{base}/
+path: /research/{base}/
 view: /views/research.html

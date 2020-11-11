@@ -7,6 +7,7 @@ $hidden: true
 ---
 
 <div class="video">
+  {% if false %}
   <video autoplay muted preload loop playsinline id="video">
     <!-- <source src="static/video/NeurodataIntroVideo_h265.mp4" type='video/mp4; codecs="hevc"' /> -->
     <source src="{{g.static('/source/video/NeurodataIntroVideo_h264.mp4').url.path}}" type='video/mp4' />
@@ -17,5 +18,30 @@ $hidden: true
     <h2>Enabling Terascale Neuroscience</h2>
     <a href="#" class="button expand">WHY NEURODATA?</a>
     <p class="hidden">The revolution in neuroscientific data acquisition is creating an analysis challenge. We leverage cloud-computing technologies to enable large-scale neurodata storing, exploring, analyzing, and modeling, empowering scientists globally to generate and test theories of brain function and dysfunction.</p>
+  </div>
+  {% endif %}
+  <div class="home-parts">
+    <div class="home-part">
+      <h2>Neurodata</h2>
+      <p>Understand and improve animal and machine learning worldwide.</p>
+    </div>
+    <div class="home-part">
+      <img src="{{g.static('/source/images/home/1.jpg').url.path}}" alt="Code background" />
+      <h2>Code</h2>
+      <p>(open source)</p>
+      <a class="link-full" href="{{g.url('/content/pages/code.html').path}}"></a>
+    </div>
+    <div class="home-part">
+      <img src="{{g.static('/source/images/home/2.jpg').url.path}}" alt="Data background" />
+      <h2>Data</h2>
+      <p>(open access)</p>
+      <a class="link-full" href="{{g.url('/content/projects/ocp.yaml').path}}"></a>
+    </div>
+    <div class="home-part">
+      <img src="{{g.static('/source/images/home/3.jpg').url.path}}" alt="Publications background" />
+      <h2>Publications</h2>
+      <p>(open access)</p>
+      <a class="link-full" href="{{g.url('/content/pages/research.html').path}}"></a>
+    </div>
   </div>
 </div>

@@ -55,7 +55,7 @@ sections:
   - name: Recognition
     recognitions:
       - name: Awards, honors and distinctions
-        awards: !g.doc /content/about/awards.html
+        awards: !g.doc /content/other/awards.html
       - name: Invited Talks, Panels
         talk-sections:
           - name: Regional/JHMI

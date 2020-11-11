@@ -1,0 +1,36 @@
+---
+$title@: Awards
+$order: 3
+
+awards:
+    - name: Best Presentation Award HPDC
+      authors: Mhembere et al.
+      year: 2017
+
+    - name: Nonparametric Statistics of the American Statistical Association Student Paper Award
+      authors: Lee et al.
+      year: 2017
+
+    - name: F1000 Prime Recommended
+      authors: Vogelstein et al.
+      year: 2014
+
+    - name: Spotlight, Neural Information Processing Systems
+      authors: Vogelstein
+      year: 2013
+
+    - name: Trainee Abstract Award, Organization for Human Brain Mapping
+      authors: Vogelstein
+      year: 2011
+
+    - name: Spotlight, Computational and Systems Neuroscience
+      authors: Vogelstein
+      year: 2008
+      
+---
+
+<ul>
+{% for award in doc.awards|sort(attribute='year', reverse=True) %}
+    <li><em>{{award.name}}</em>, {{award.authors}} ({{award.year}})</li>
+{% endfor %}
+</ul>

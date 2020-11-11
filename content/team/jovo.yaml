@@ -1,0 +1,178 @@
+$title: Joshua T. Vogelstein, Ph.D.
+
+description: Joshua T. Vogelstein, Ph.D.
+long_description: 
+data_types:
+
+
+data:
+  position: Assistant Professor, JHU
+  more:
+    - Assistant Professor,
+    - Department of Biomedical Engineering
+    - Johns Hopkins University
+    - jovo@jhu.edu
+    - jovo.me
+  
+  personal:
+    - title: Primary Appointment
+      listitems:
+        - date: 08/14 –
+          position: Assistant Professor
+          institution: Department of Biomedical Engineering, JHU.
+    - title: Joint Appointments
+      listitems:
+        - date: 09/19 –
+          position: Joint Appointment
+          institution: Department of Biostatistics, Johns Hopkins University (JHU).
+        - date: 08/15 –
+          position: Joint Appointment
+          institution: Department of Applied Mathematics and Statistics, JHU.
+        - date: 08/14 –
+          position: Joint Appointment
+          institution: Department of Neuroscience, JHU.
+        - date: 08/14 –
+          position: Joint Appointment
+          institution: Department of Computer Science, JHU.
+    - title: Institutional and Center Appointments
+      listitems:
+        - date: 08/15 –
+          position: Steering Committee
+          institution: Kavli Neuroscience Discovery Institute (KNDI).
+        - date: 08/14 –
+          position: Core Faculty
+          institution: Institute for Computational Medicine, JHU.
+        - date: 08/14 –
+          position: Core Faculty
+          institution: Center for Imaging Science, JHU.
+        - date: 08/14 –
+          position: Assistant Research Faculty
+          institution: Human Language Technology Center of Excellence, JHU.
+        - date: 10/12 –
+          position: Affiliated Faculty
+          institution: Institute for Data Intensive Engineering and Sciences, JHU.
+    - title: Academic Experience
+      listitems:
+        - date: 08/18 –
+          position: Director of Biomedical Data Science Focus Area
+          institution: Department of Biomedical Engineering, Johns Hopkins University.
+          link: https://www.bme.jhu.edu/graduate/mse/degree-requirements/biomedical-data-science/
+  publications:
+    - title: Published (Peer-Reviewed Research Articles)
+      listitems:
+        - authors: Aki Nikolaidis, Anibal Solon Heinsfeld, Ting Xu, Pierre Bellec, Joshua T. Vogelstein, and Michael Milham
+          title: Bagging Improves Reproducibility of Functional Parcellation of the Human Brain
+          publication: NeuroImage (Feb. 2020)
+          url: https://doi.org/10.1016/j.neuroimage.2020.116678
+    - title: Submitted (Peer-Review Research Articles)
+    - title: Peer-Reviewed Conference Proceedings
+    - title: Technical Reports
+    - title: Other Publications
+  
+  funding:
+    summary:
+      intro: |
+        The below table shows my direct (total) cost expenditures since being hired, indicating a steady increase >30% per year.
+      funding:
+        - year: 2015
+          direct: $113,761
+          total: $168,924
+        - year: 2016
+          direct: $360,123
+          total: $524,225
+    listitems:
+      - title: Current
+        listitems: 
+          - date: 2020 – 2025
+            title: "CAREER: Foundational Statistical Theory and Methods for Analysis of Populations of Attributed"
+            content: |
+              NSF 17-537
+              Role on project: Principal Investigator
+              Term: 01-Mar-2020 to 31-Dec-2025
+              Budget: $384,873 (direct) $245,357 (indirect) $630,230 (total)
+              The goal is to establish foundational theory and methods for analyzing populations of attributed connectomes.
+      - title: Pending
+        listitems:
+          - date: 2020 – 2023
+            title: "Graspy: A python package for rigorous statistical analysis of populations of attributed connectomes."
+            content: |
+              NIH MN-19-147
+              Role on project: Principal Investigator
+              Term: 01-Mar-2020 to 30-June-2023
+              Budget: $861,240 (direct) $549,039 (indirect) $1,410,279 (total)
+              The goal of this project is to establish a state-of-the-art toolbox for analysis of connectomes, spanning taxa, scale, and complexity. More specifically, we will develop and extend implementations to enable neurobiologists to 1) estimate latent structure from attributed connectomes, (2) identify meaningful clusters among populations of connectomes, and (3) detect relationships between connectomes and multivariate phenotypes, such as behavior, genetics, and physiology.
+  talks:
+    - title: Invited Talks (Local)
+      listitems:
+        - date: Feb. 2020
+          location: Johns Hopkins Mathematical Institute for Data Science
+          author: Joshua T. Vogelstein
+          title: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
+  
+  abstracts:
+    - author: Benjamin D Pedigo, Michael Winding, Turan Orujlu, Marta Zlatic, Albert Cardona, Carey E Priebe, and Joshua T Vogelstein
+      title: A quantitative comparison of a complete connectome to artificial intelligence architectures
+      publication: NAIsys, 2020.
+    - author: Benjamin Falk and Joshua T. Vogelstein
+      title: NeuroData’s Open Data Cloud Ecosystem
+      publication: Harvard University, July 2019
+      url: https://neurodata.io/talks/25_NeuroDatas_Open_Data_Ecosystem.pdf
+  
+  educational:
+    - title: New Courses Created
+      listitems:
+        - date: Fall ’19
+          url: https://github.com/NeuroDataDesign/Syllabus
+          title: NeuroData Design I
+          ref: EN.580.237/437/637, Course Director, enrollment 46.
+  
+  mentorship:
+    - title: Research Track Faculty Mentorship (3)
+      listitems:
+        - date: 02/19 –
+          person: Hayden Helm, MSE
+          position: Assistant Research Faculty
+          institution: BME, JHU.
+          desc: Leading research efforts developing theory and methods for lifelong learning.
+  
+  service:
+    - title: Grant Review Service
+      listitems:
+        - date: 2015
+          position: NSF Review Panel
+          desc: Review for NSF BIG DATA Program
+
+  awards:
+    - title: Individual
+      listitems:
+        - date: 2002
+          award: Dean’s List
+          desc: Washington University
+  
+  media:
+    - title: Earned Media Coverage
+      listitems:
+        - date: 2019
+          name: Johns Hopkins Medicine
+          title: "BME Pioneers: Joshua Vogelstein"
+          url: https://vimeo.com/hartlove/review/331872774/9dacde8acb
+          institution: BME Pioneers
+  
+  transfer:
+    - title: Open Datasets
+      listitems:
+        - date: 2017 –
+          title: Allen Atlas
+          url: https://neurodata.io/data/allen_atlas
+          desc: |
+            Anatomical reference atlases that illustrate the adult mouse brain in coronal and sagittal planes. They are the spatial framework for datasets such as in situ hybridization, cell projection maps, and in vitro cell characterization.atlas.brain-map.org.
+          stats: 142 citations, 1058 unique visitors
+  
+    - title: Consultancy
+      listitems:
+        - date: 2017
+          position: Consultant
+          title: Greenspring Associates
+          url: https://www.greenspringassociates.com
+
+        

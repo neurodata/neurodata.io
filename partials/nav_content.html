@@ -6,24 +6,19 @@
         {% else %}
             <li>
                 <a href="{{item.url.path}}">
-                    <h5>{{item.base}}</h5>
-                </a>
-            </li>
-        {% endif %}
-
-        {% if item.base == 'research' %}
-            <li>
-                <a href="https://bitsandbrains.io/">
-                    <h5>Blog</h5>
+                    <h5>{{item.title}}</h5>
                 </a>
             </li>
         {% endif %}
     {% endfor %}
-    {% if mobile_nav %}
-        <li>
-            <a href="{{g.url('/content/pages/join.html').path}}">
-                <h5>Join Us</h5>
-            </a>
-        </li>
-    {% endif %}
+            <li>
+                <a target="_blank" href="https://bitsandbrains.io" target="_blank">
+                    <h5>Blog</h5>
+                </a>
+            </li>
+            <li>
+                <a href="/join">
+                    <h5>Join</h5>
+                </a>
+            </li>
 </ul>
