@@ -1,0 +1,244 @@
+{% extends "/views/base-person.html" %}
+
+{% block main %}
+
+<div class="header about-header">
+<!--     <h2>{{doc.title}} {{doc.data.position}}</h2> -->
+    <h2>Team</h2>
+</div>
+
+{% include 'partials/about_nav.html' %}
+
+<div class="cv-container">
+<div class="detail-wrap">
+<h2>{{doc.title}}</h2>
+<div class="more-info">
+  {% for detail in doc.data.more %}
+  <p>{{ detail }}</p>
+  {% endfor %}
+  
+</div>
+
+<h3>Personal Information</h3>
+{% for section in doc.data.personal %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="position">{{subitem.position}}</span>
+    <span class="institution">{{subitem.institution}}</span>
+    
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+<h3>Publications</h3>
+{% for section in doc.data.publications %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item pub">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="authors">{{subitem.authors}}</span>
+    <span class="title">{{subitem.title}}</span>
+    <span class="publication">{{subitem.publication}}</span>
+{% if subitem.url %}
+    <span class="url">URL: <a href="{{subitem.url}}">{{subitem.url}}</a></span>
+{% endif %}
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Funding</h3>
+{% if doc.data.funding.summary %}
+<div class="funding-intro">
+  <p>{{ doc.data.funding.summary.intro }}</p>
+  <table>
+    <tr>
+      <th>Financial Year</th>
+      <th>Direct</th>
+      <th>Total</th>
+    </tr>
+{% for stat in doc.data.funding.summary.funding %}
+    <tr>
+      <td>{{stat.year}}</td>
+      <td>{{stat.direct}}</td>
+      <td>{{stat.total}}</td>
+    </tr>
+{% endfor %}
+  </table>
+</div>
+{% endif %}
+{% for section in doc.data.funding.listitems %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="title">{{subitem.title}}</span>
+    <p>{{subitem.content}}</p>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+
+<h3>Talks</h3>
+{% for section in doc.data.talks %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="location">{{subitem.location}}</span>
+    <span class="author">{{subitem.author}}</span>
+    <span class="title">{{subitem.title}}</span>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Abstracts / Posters</h3>
+<ul class="cv-item">
+{% for subitem in doc.data.abstracts %}
+  <li>
+    <span class="author">{{subitem.author}}</span>
+    <span class="title">{{subitem.title}}</span>
+    <span class="publication">{{subitem.publication}}</span>
+  </li>
+{% endfor %}
+</ul>
+
+
+<h3>Educational Activities</h3>
+{% for section in doc.data.educational %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="title">{{subitem.title}}</span>
+    <span class="ref">{{subitem.ref}}</span>
+{% if subitem.url %}
+    <span class="url">URL: <a href="{{subitem.url}}">{{subitem.url}}</a></span>
+{% endif %}
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Mentorship</h3>
+{% for section in doc.data.mentorship %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="person">{{subitem.person}}</span>
+    <span class="position">{{subitem.position}}</span>
+    <span class="institution">{{subitem.institution}}</span>
+    <p>{{subitem.desc}}</p>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Service</h3>
+{% for section in doc.data.service %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="position">{{subitem.position}}</span>
+    <span class="desc">{{subitem.desc}}</span>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+<h3>Awards and Recognition</h3>
+{% for section in doc.data.awards %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="award">{{subitem.award}}</span>
+    <span class="desc">{{subitem.desc}}</span>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Other Media</h3>
+{% for section in doc.data.media %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="name">{{subitem.name}}</span>
+    <span class="title">{{subitem.title}}</span>
+{% if subitem.url %}
+    <span class="url">URL: <a href="{{subitem.url}}">{{subitem.url}}</a></span>
+{% endif %}
+    <span class="institution">{{subitem.institution}}</span>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+<h3>Translation / Technology Transfer Activities</h3>
+{% for section in doc.data.transfer %}
+<h4>{{ section.title }}</h4>
+<ul class="cv-item">
+{% if section.listitems %}
+{% for subitem in section.listitems %}
+  <li>
+    <span class="date">{{subitem.date}}</span>
+    <span class="title">{{subitem.title}}</span>
+    <span class="publication">{{subitem.publication}}</span>
+{% if subitem.url %}
+    <span class="url">URL: <a href="{{subitem.url}}">{{subitem.url}}</a></span>
+{% endif %}
+    <p>{{subitem.desc}}</p>
+    <p><em>{{subitem.stats}}</em></p>
+  </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endfor %}
+
+
+</div>
+</div>
+
+{% endblock %}

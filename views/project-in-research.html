@@ -4,6 +4,7 @@
 
 <div class="header detail">
     <h2>{{doc.heading}}</h2>
+{% if false %}
     {% if doc.description is not none %}
         <p>{{doc.description|safe}}</p>
     {% endif %}
@@ -11,7 +12,10 @@
         <p class="hidden">{{doc.long_description}}</p>
         <a href="#" class="button expand">Learn More</a>
     {% endif %}
+{% endif %}
 </div>
+{% include 'partials/research_nav.html' %}
+{% if false %}
 <div class="doc-nav">
     <ul>
         {% if doc.about %}
@@ -35,7 +39,7 @@
         <li><a href="#funding"><h5>Funding</h5></a></li>
         {% endif %}
     </ul>
-    <select name="links">
+    <select onChange="window.location.href=this.value">
         <option selected="selected">Jump to:</option>
         {% if doc.about %}
         <option value="#about">About</option>
@@ -59,6 +63,7 @@
         {% endif %}
     </select>
 </div>
+{% endif %}
 
 <div class="project clearfix">
     {% if doc.about %}

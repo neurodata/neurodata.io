@@ -1,5 +1,6 @@
 $title: Claritomes
 $order: 5
+$hidden: true
 
 heading: Claritomes
 description:

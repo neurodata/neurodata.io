@@ -1,6 +1,6 @@
 ---
 $title@: Funding
-$order: 7
+$order: 4
 ---
 
 #### [Accessible technologies for high-throughput, whole-brain reconstructions of molecularly characterized mammalian neurons](https://braininitiative.nih.gov/funded-awards/accessible-technologies-high-throughput-whole-brain-reconstructions-molecularly)

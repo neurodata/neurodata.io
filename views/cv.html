@@ -42,7 +42,7 @@
                     
                     <ol reversed class="list-decimal ml-8">
                     {% for item in PUBS if item.ID in pubs %}
-                        {% set authors = item|all_authors_annotated %}
+                        {% set authors = item %}
                         <li>
                             {% for author in authors %}
                                 {{author|render|safe}}{% if loop.length > 1 and not loop.last %}, {% endif %}{% if loop.length - loop.index == 1 and loop.length > 1 %} and {% endif %}{% if loop.last %}.{% endif %}

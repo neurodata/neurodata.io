@@ -1,5 +1,5 @@
 ---
-$title: Connectomes
+$title: Networks
 $order: 3
 $view: /views/base.html 
 graph_species:
@@ -23,11 +23,11 @@ graph_species:
             <li><a href="#{{species}}"><h5>{{species}}</h5></a></li>
         {% endfor %}
     </ul>
-    <select>
+    <select name="links">
         <option selected="selected">Jump to:</option>
-        
+            <option value="#about">About</option>
         {% for species in doc.graph_species %}
-            <option value="{{species}}">{{species}}</option>
+            <option value="#{{species}}">{{species}}</option>
         {% endfor %}
     </select>
 </div>

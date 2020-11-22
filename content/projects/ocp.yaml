@@ -1,6 +1,7 @@
-$title: OCP
-$path: /{base}/
-$order: 1
+$title: Open Connectome
+$order: 0
+#$view: /views/project-in-research.html
+
 
 heading: Open Connectome Project
 
@@ -21,6 +22,7 @@ publications:
   - vogelstein2011q
 
 data: true
+dataText: "All data are hosted in AWS on the Open NeuroData  Registry <a href=\"https://registry.opendata.aws/open-neurodata\" target=\"_blank\">https://registry.opendata.aws/open-neurodata</a>"
 
 people:
   - jovo

@@ -1,5 +1,6 @@
 $title: Synaptomes
 $order: 4
+$hidden: true
 
 heading: Synaptomes
 description:
