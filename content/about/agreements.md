@@ -56,7 +56,7 @@ We recognize the unique struggles Black, Indigenous, and People of Color (BIPOC)
 
 #### Accessibility
 
-Videoconference technology can make it especially hard for deaf, hard of hearing, and/or non-native English speakers to understand speech. Therefore, we agree to use closed captioning technology when presenting our work over virtually, whenever possible. Such technology is available on Google slides, and Microsoft Office 365. In order to make this practice maximally effective, we strive to:
+Videoconference technology can make it especially hard for deaf, hard of hearing, and/or non-native English speakers to understand speech. Therefore, we agree to use closed captioning technology when presenting our work virtually, whenever possible. Such technology is available on Google slides, and Microsoft Office 365. In order to make this practice maximally effective, we strive to:
 
 - keep captioning on even during question and answer periods
 - link audio output to input, so the captioning can pick up speech from the audience. This can be done by playing audio out loud through computer speakers, or by using software such as [this](https://webcaptioner.com/help/integrations/captioning-audio-from-another-program-microphone).
