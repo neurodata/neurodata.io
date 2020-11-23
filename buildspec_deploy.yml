@@ -17,6 +17,7 @@ phases:
       - sudo yarn install
   build:
     commands:
+      - export LC_ALL=C.UTF-8
       - grow install
       - grow build --deployment default
       - mkdir build/bib_files
