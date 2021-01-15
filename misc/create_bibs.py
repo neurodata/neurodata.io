@@ -85,7 +85,7 @@ def entries_to_file(entries, fn):
 def main(out_dir):
 
     bibs = [('content/research/publications.html', 'content/pubs/pubs.bib', ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"], "pubs"),
-            ('content/research/talks.html', 'content/talks/talks.bib', ["invited", "other"], "talks")]
+            ('content/research/talks.html', 'content/talks/talks.bib', ["local", "international"], "talks")]
 
     links = []
     for bib in bibs:

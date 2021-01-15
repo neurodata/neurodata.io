@@ -127,11 +127,11 @@ international:
 {% set index_items = true %}
 
 <h6 id="local">Local</h6>
-{% set talks = doc.invited %}
+{% set talks = doc.local %}
 {% include 'partials/talks_list.html' %}
 
 <h6 id="international">International</h6>
-{% set talks = doc.other %}
+{% set talks = doc.international %}
 {% include 'partials/talks_list.html' %}
 
 </div>
