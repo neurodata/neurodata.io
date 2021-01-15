@@ -4,3 +4,12 @@ events:
     name: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
     place: Johns Hopkins Mathematical Institute for Data Science
     date: Feb. 2020.
+    url:
+  
+  # Test of workshop items
+  - authors: Ross
+    name: test
+    date: Tuesdays 2020
+    url: www.google.com
+    workshop : true
+    hide : true
