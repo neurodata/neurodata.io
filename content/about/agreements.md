@@ -42,9 +42,10 @@ We agree to focus on 2 projects, unless otherwise negotiated.  In general, each 
 
 #### Open & Reproducible Science
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence).  This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc. 
+We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence).  This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc.  All repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) will be maintained according to [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
 
 Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
+
 
 #### Buddies 
 
@@ -115,6 +116,8 @@ Some links that might be useful to understand best practices for giving and rece
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
+
+
 
 ### Regular Activities
 
