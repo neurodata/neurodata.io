@@ -44,18 +44,17 @@ We agree to focus on 2 projects, unless otherwise negotiated.  In general, each 
 
 We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence).  This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc. 
 
-Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members. Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
 #### Buddies 
-
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
 ### Conduct
 
-#### Ensuring safety for BIPOC, URM, LGBTQ+, students with disabilities, and any individual who self-identifies as part of a historically and contemporaneously marginalized community
+#### Safety
 
-We recognize the unique struggles of being a member of a marginalized community  in STEM and are committed to creating a environment where everyone feels supported, appreciated, and welcome. This includes:
+We endeavor to provide a safe and welcoming community for BIPOC, URM, LGBTQ+, students with disabilities, and any individual who self-identifies as part of a historically and contemporaneously marginalized community. We recognize the unique struggles of being a member of a marginalized community (and all the moreso for individuals that are members of multiple such communities)  in STEM and are committed to creating a environment where everyone feels supported, appreciated, and welcome. This includes:
 
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
@@ -136,21 +135,21 @@ Your most valuable resource while on this team is the team itself.
 
 We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring family responsibilities overruling research priorities.  This includes:  impending grants, conferences, or other internally/externally imposed deadline.
 
-#### Weekly Sub-Group Meetings
+#### Regular Sub-Group Meetings
 
-We agree that every week, each sub-group will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
+We agree that at regular intervals (no less frequent than every other week), each sub-group will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
 
-- document past week's progress towards research artifact (such as papers, grants, conference presentations)
+- document past week's progress towards first author papers
 - get feedback/mentorship from brilliant team of collaborators on existing bottlenecks
 - make plan for next week
 
-Every team member is expected to attend one of these a week.
+Every team member is expected to attend at least one of these regular meetings.
 
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
-- Generate >1 slides (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)). Slides should follow the template provided [here](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.gb057dfc16b_2_5)
+- Update slides for each first author publication you have worked on for the week (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)). Slides should follow the template provided [here](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.gb057dfc16b_2_5)
 - Listen and provide constructive feedback to your teammates as appropriate
 
 Each week we ideally  move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
@@ -213,6 +212,10 @@ In general, the research priority, for any student, is to be working towards wri
 Three months prior to departure, make a 'transition' plan, wherein the technical expertise you have acquired in the lab is transferred to at least one individual in the lab.  This includes, 
 - If you have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on you;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the corresponding author. 
+
+#### Authorship Agreements
+
+Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.  
 
 
 ### Other Kinds of Agreements
