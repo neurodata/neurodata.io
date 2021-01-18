@@ -22,11 +22,11 @@ def create_image_layer(destination, num_resolutions):
 	vol.commit_info()
 	return vol
 
-#python upload.py **source** **destination**
+# python upload.py **source** **destination**
 # python upload.py ./test/ precomputed://file://test_output
 def main():
 	parser = argparse.ArgumentParser('Convert a folder of tif files to neuroglancer format')
-	parser.add_argument('destination', help='destination path')
+	parser.add_argument('destination', help='Destination path for precomputed files, pre-pended with precomputed://file://, e.g. precomputed://file://**path** will write the files to ./**path**')
 	num_resolutions = 1
 
 	args = parser.parse_args()
