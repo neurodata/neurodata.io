@@ -55,11 +55,12 @@ We agree that when we reach a certain level of seniority on the team (have succe
 
 #### Safety
 
-We endeavor to provide a safe and welcoming community for BIPOC, URM, LGBTQ+, students with disabilities, and any individual who self-identifies as part of a historically and contemporaneously marginalized community. We recognize the unique struggles of being a member of a marginalized community (and all the moreso for individuals that are members of multiple such communities)  in STEM and are committed to creating a environment where everyone feels supported, appreciated, and welcome. This includes:
+We endeavor to provide a safe and welcoming community for BIPOC, URM, LGBTQ+, students with disabilities, and any individual who self-identifies as part of a historically and contemporaneously marginalized community. We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals that are members of multiple such communities) in STEM and are committed to creating a environment where everyone feels supported, appreciated, and welcome. This includes:
 
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
 
+To support this goal we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., Safe Zone Training).  Our purpose in attending diversity training is to gain knowledge and skills we can use to provide a maximally welcoming and productive lab environment for people of all backgrounds.  We hope to convey our commitment to this type of inclusive environment by outwardly displaying lab members' completion of such training on the lab website. 
 
 #### Respect
 
