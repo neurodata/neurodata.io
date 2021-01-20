@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo Installing grow
-      - pip install grow pyyaml bibtexparser
+      - pip install grow==0.8.27 pyyaml==5.1.2 bibtexparser==1.2.0
       - echo Installing tailwind
       - apt install curl
       - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
