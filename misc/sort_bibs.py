@@ -19,7 +19,7 @@ bibs = [
     (
         "content/research/talks.html",
         "content/talks/talks.bib",
-        ["invited", "other"],
+        ["local", "international"],
         "talks",
     ),
 ]
