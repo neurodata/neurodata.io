@@ -46,6 +46,19 @@ We will conduct our work using the highest open and reproducible science standar
 
 Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
+#### Paper writing
+
+When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite jovo to it and make him owner so that compilation goes faster and we can track changes.  If a collaborator demands google docs for some reason, and we are not senior authors, then we will have to acquiese to their wishes.  In general, when anybody gives feedback on the paper, make sure track changes is on.  I recommend giving feedback via the following convention: 
+
+% TODO blah blah ---jovo
+
+This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app).  When feedback is provided, it is important to address every single comment *in the text itself*.  Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand.  Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares.   
+
+#### Cloud computing
+
+Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. 
+
+
 
 #### Buddies 
 
