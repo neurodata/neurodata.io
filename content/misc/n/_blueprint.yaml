@@ -1,0 +1,2 @@
+path: /about/{base}/
+view: /views/abouts.html

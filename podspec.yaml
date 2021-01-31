@@ -24,6 +24,8 @@ static_dirs:
     serve_at: /static/video/
   - static_dir: /source/docs/
     serve_at: /static/docs/
+  - static_dir: /content/misc/n/images/
+    serve_at: /static/misc/n/images/
 
 meta:
   favicon_path: /source/favicons/favicon.ico
