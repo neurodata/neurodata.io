@@ -5,7 +5,7 @@ $order: 1
 
 <div class="tools-page" style="width: 100%">
   <div class="group">
-    <h3>Recurring Workshops</h3>
+    <h3>Workshops</h3>
       <ul>
       {% for item in g.docs('eventlist')[0].events if item.workshop and not item.hide %}
               <li>
