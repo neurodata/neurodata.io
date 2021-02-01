@@ -18,7 +18,7 @@ NeuroData maintains a Neuroglancer [fork](https://github.com/neurodata/neuroglan
 
 ### View Local Images in Neuroglancer Example
 
-The following example can be used to help you view your own images in neuroglancer. This example uses a [script]([url('/content/guides/upload.py')]) to generate a test image, then convert from tif to precomputed format. You will need to use Python 3, and install all the dependencies of the script, including tifffile, cloudvolume, and joblib. It will also require running a [script](https://github.com/google/neuroglancer/blob/master/cors_webserver.py)  from neuroglancer to host the local data:
+The following example can be used to help you view your own images in neuroglancer. This example uses a <a href="/static/guides/downloadable_files/upload.py" download>script</a> to generate a test image, then convert from tif to precomputed format. You will need to use Python 3, and install all the dependencies of the script, including tifffile, cloudvolume, and joblib. It will also require running a [script](https://github.com/google/neuroglancer/blob/master/cors_webserver.py)  from neuroglancer to host the local data:
 
 1. mkdir ./test_output
 1. python upload.py precomputed://file://test_output/
