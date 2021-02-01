@@ -16,6 +16,24 @@ NeuroData maintains a Neuroglancer [fork](https://github.com/neurodata/neuroglan
 1. Export and load state to/from an external JSON server
 1. Segmentation overlays for ARA and Zbrain ontologies, at [ara.viz.neurodata.io](https://ara.viz.neurodata.io) and [zbrain.viz.neurodata.io](https://zbrain.viz.neurodata.io)
 
+### View Local Images in Neuroglancer Example
+
+The following example can be used to help you view your own images in neuroglancer. This example uses a [script]([url('/content/guides/upload.py')]) to generate a test image, then convert from tif to precomputed format. You will need to use Python 3, and install all the dependencies of the script, including tifffile, cloudvolume, and joblib. It will also require running a [script](https://github.com/google/neuroglancer/blob/master/cors_webserver.py)  from neuroglancer to host the local data:
+
+1. mkdir ./test_output
+1. python upload.py precomputed://file://test_output/
+1. cd ./test_output
+1. python \*\*path to neuroglancer\*\*/cors_webserver.py
+
+At this point, the data can be viewed in neuroglancer:
+
+1. Navigate to a place where neuroglancer is hosted, e.g. [viz.neurodata.io/](https://viz.neurodata.io/)
+1. Click the "+" icon to add a source
+1. In the Source field, type precomputed://http://127.0.0.1:9000
+1. In the green bar above the Source field, make sure the source format is selected to be "image" (not "new" or "auto" etc.)
+
+If you see a 10x10x10 cube of random grayscale intensities, the example succeeded.
+
 ### Selected links
 
 The following URLs link to highlighted visualizations
