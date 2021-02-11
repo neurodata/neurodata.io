@@ -1,6 +1,71 @@
 url: ~
 events:
+  
+  - authors: NSF
+    name: "NeuroNex: Building a Research Network for Neuroscience"
+    place: Online
+    date: Oct. 2020
+    url: https://neuronex3.io/
+    workshop: true
+
   - authors: Joshua T. Vogelstein
     name: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
     place: Johns Hopkins Mathematical Institute for Data Science
     date: Feb. 2020.
+    url:
+
+  - authors: Joshua T. Vogelstein
+    name: NeuroData Workshop
+    place: Kavli Hub North, Johns Hopkins University
+    date: Aug. 2019
+    url: https://neurodata.devpost.com/
+
+  - authors: Joshua T. Vogelstein, Kris Bouchard, Dav Clark, Dimitri Yatsenko
+    name: Neuro Reproducibility Hackashop
+    place: JHU Clark Hall
+    date: March 2019
+    url: https://brainx3.io/
+    workshop: true
+
+  - authors: Eva Dyer, Gregory Kiar, Will Gray Roncal, Alan C. Evans, Konrad P. Kording, Joshua T. Vogelstein
+    name: BigNeuro Workshop at NIPS
+    place: Long Beach Convention Center, California
+    date: Dec. 2017
+    url: http://evadyer.github.io/NIPS-bigneuro-2017.html
+    workshop: true
+
+  - authors: Joshua T. Vogelstein
+    name: "Neurostorm: Accelerating Brain Science Discovery in the Cloud"
+    place: Johns Hopkins Club
+    date: June 2017
+    url: https://brainx2.io/
+
+  - authors: Eva Dyer, Allie Fletcher, Konrad Kording, Jascha Sohl-Dickstein, Joshua T. Vogelstein, Jakob Macke
+    name: "Brains and Bits: Neuroscience Meets Machine Learning"
+    place: Barcelona, Spain
+    date: Dec. 2016
+    url: http://www.stat.ucla.edu/~akfletcher/brainsbits.html
+    workshop: true
+
+
+  - authors: Miyoung Chun, Chris Martin, Jim Deshler, Joshua T. Vogelstein, Michael Miller, Richard Huganir, Brett Mensh
+    name: Global Brain Workshop
+    place: Kavli Neuroscience Discovery Institute and Center for Imaging Science of Johns Hopkins University
+    date: April 2016
+    url: http://brainx.io/
+
+  - authors: Eva Dyer, Joshua T. Vogelstein, Konrad Koerding, Jeremy Freeman, Andreas S. Tolias
+    name: NeurIPS
+    place: Palais des Congres de Montreal
+    date: Dec. 2015
+    url: https://nips.cc/Conferences/2015/Schedule?showEvent=4908
+
+
+
+  # Test of workshop items
+  - authors: Ross
+    name: test
+    date: Tuesdays 2020
+    url: www.google.com
+    workshop : true
+    hide : true

@@ -1,23 +1,25 @@
-$title: Graph Statistics in Python (GrasPy)
-$slug: GrasPy
+$title: Graph Statistics in Python (graspologic)
+$slug: graspologic
 $order: 1
-name: GraSPy
+name: graspologic
 
-github: "neurodata/graspy"
-docs: "https://graspy.neurodata.io"
-installation: "https://graspy.neurodata.io/install.html"
-examples: "https://graspy.neurodata.io/tutorial.html"
+github: "microsoft/graspologic"
+docs: "https://graspologic.readthedocs.io/"
+installation: "https://graspologic.readthedocs.io/en/latest/install.html"
+examples: "https://microsoft.github.io/graspologic/tutorials/index.html"
 
 slides:
-  - header: "graspy"
+  - header: "graspologic"
     link: "https://neurodata.io/talks/graspy.html"
 
 details:
   - "Simple, flexible and powerful graph analysis library grounded in statistical theories."
 
-  - "GrasPy offers scikit-learn compliant APIs and it provides clear feedback upon user error."
+  - "Graspologic offers scikit-learn compliant APIs and it provides clear feedback upon user error."
 
-  - "GrasPy is open-source and commercially usable software, and released under Apache-2.0 License."
+  - "Graspologic is open-source and commercially usable software, and released under MIT License."
+  
+  - "Graspologic was formerly known as GraSPy, and is now co-developed with Microsoft Research."
 
 manuscripts:
   - graspy2019
@@ -40,11 +42,11 @@ description: Utilities and algorithms designed for processing and analysis of gr
 
 packages:
   - name: "GraSPy"
-    github: "neurodata/graspy"
+    github: "microsoft/graspologic"
     lang:
       - "Python"
-    docs: https://graspy.neurodata.io
-    download: https://pypi.org/project/graspy/
+    docs: https://graspologic.readthedocs.io/en/latest/
+    download: https://pypi.org/project/graspologic/
   - name: "graphstats"
     github: "neurodata/graphstats"
     lang:

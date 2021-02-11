@@ -1,6 +1,11 @@
 <div class="col">
     <span class="ids name">
         {{item.name}}
+        {% if "safe-zone" in item.trainings %}
+                <a>
+                    <img src="{{g.static('/source/images/training/safe-zone.png').url.path}}">
+                </a>
+        {% endif %}
     </span>
     {% if item.picture %}
         <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>

@@ -4,8 +4,14 @@ $order: 1
 ---    
 
 <div class="team" id="team">
+
+    <!--Here is where the various training things are displayed-->
+    <img src="{{g.static('/source/images/training/safe-zone.png').url.path}}"> - <a href="https://studentaffairs.jhu.edu/lgbtq/education/safe-zone/">JHU Safezone Training</a>
+
+    <!--End of Trainings-->
+    
     <div class="members">
-        {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate'] %}
+        {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool'] %}
         {% set cats = g.categories('people')|sort_by_index(position_order) %}
         {% for category, docs in cats %}
             {% if category != 'associate' %}

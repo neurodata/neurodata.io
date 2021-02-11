@@ -1,2 +1,2 @@
-path: /team/{base}/
+path: /about/{base}/
 view: /views/abouts.html

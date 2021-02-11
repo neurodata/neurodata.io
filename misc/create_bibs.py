@@ -14,6 +14,18 @@ except ImportError:
 def mo_co(mo):
     MONTH_CONVERT = {
         "": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
         "jan": 1,
         "Jan": 1,
         "january": 1,
@@ -85,7 +97,7 @@ def entries_to_file(entries, fn):
 def main(out_dir):
 
     bibs = [('content/research/publications.html', 'content/pubs/pubs.bib', ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"], "pubs"),
-            ('content/research/talks.html', 'content/talks/talks.bib', ["invited", "other"], "talks")]
+            ('content/research/talks.html', 'content/talks/talks.bib', ["local", "international"], "talks")]
 
     links = []
     for bib in bibs:
