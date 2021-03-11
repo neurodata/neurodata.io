@@ -58,7 +58,7 @@ This enables everyone to easily find all the comments, including if they are edi
 
 #### Cloud computing
 
-Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. 
+Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should not run any code that runs overnight without verifying the code is correct. It must be run on small parameters/dataset, and a figure must be generated on that small run which needs to be approved by the PI.
 
 
 
