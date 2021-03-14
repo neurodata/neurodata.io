@@ -133,7 +133,11 @@ Some links that might be useful to understand best practices for giving and rece
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
 
+#### Contacting Outside Collaborators With Questions
 
+We agree that contacting outside collaborators (or potential collaborators) with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
+  1. Exhaust the resources within ourselves trying to figure out the answer to our problem (this means searching the literature, exploring and writing code, reading books, etc).
+  2. Exhaust the resources within our lab trying to figure out the answer to our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
 
 ### Regular Activities
 
