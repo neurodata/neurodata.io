@@ -168,7 +168,7 @@ To facilitate achieving & documenting these goals, we each agree to the followin
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
-- Update slides for each first author publication you have worked on for the week (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)). Slides should follow the template provided [here](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.gb057dfc16b_2_5)
+- Update [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0) for each first author publication you have worked on for the week.
 - Listen and provide constructive feedback to your teammates as appropriate
 
 Each week we ideally  move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
