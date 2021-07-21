@@ -95,7 +95,7 @@ def entries_to_file(entries, fn):
 
 
 def main(out_dir):
-
+    print('wablatong')
     bibs = [('content/research/publications.html', 'content/pubs/pubs.bib', ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"], "pubs"),
             ('content/research/talks.html', 'content/talks/talks.bib', ["local", "international"], "talks")]
 
