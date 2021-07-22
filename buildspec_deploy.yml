@@ -14,6 +14,7 @@ phases:
       - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
       - sudo apt get install git
       - sudo apt update
+      - rm -r content/bibs
       - sudo apt install yarn
       - sudo yarn install
       - mkdir content/bibs
