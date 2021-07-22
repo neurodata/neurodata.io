@@ -4,41 +4,7 @@ $order: 0
 
 pre_prints:
 - gopalakrishnan2020multiscale
-- Rose2020
-- helm2020partitionbased
-- PloSCB
-- chen2020multiple
-- Bridgeford802629
-- Mehta2020.06
-- Priebe2020Vote
-- 2020arXiv200410117K
-- tomita2020robust
-- perry2020mvlearn
-- vogelstein2020general
-- JovoCovid1
-- panda2019nonparametric
-- powell_covid_2020
-- Shen2019-xv
-- optimal2019
-- Tommy2020
-- mehta2019
-- perry2019manifold
-- mgcpy2019
-- estimatingforests2019
-- networkinference2019
-- graphindependence2019
-- vertex2019
-- bagging2019
-- vogelstein2018geometric
-- ShenDecision2018
-- Greenberg479055
-- Wang2018
-- Tang2017
-- Lyzinski2014
-- mhembere2019
-- Branch639674
-- bridgeford2019
-- vogelstein2018geometric
+
 
 ---
 
@@ -47,8 +13,8 @@ pre_prints:
     {% set index_items = true %}
     <br />
     <h6 id="pre_prints">Pre-prints</h6>
-    {% with pubs = doc.pre_prints %}
-    {% include 'partials/pubs_list.html' %}
+    {% with PUBS = 'content/bibs/pubs_in_review.bib'%}
+    {% include 'partials/ross_pub_list.html' %}
     {% endwith %}
 
 

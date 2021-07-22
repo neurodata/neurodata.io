@@ -4,22 +4,7 @@ $order: 4
 
 tech_reports:
 - graphyti2019
-- kiar2017comprehensive
-- Kair2018
-- tomita2020robust
-- vogelstein2020pvalues
-- wang2020statistical
-- Hayden2020
-- golland2020new
-- Kiar2018
-- vogelstein2020general
-- kiar2018neurostorm
-- Kazhdan2013
-- Banerjee2013
-- Priebe2017
-- Zheng2016
-- Zheng2016c
-- sinha2014automatic
+
 
 ---
 
@@ -28,8 +13,8 @@ tech_reports:
     {% set index_items = true %}
     <br />
     <h6 id="reports">Technical Reports</h6>
-    {% with pubs = doc.tech_reports %}
-    {% include 'partials/pubs_list.html' %}
+    {% with PUBS = 'content/bibs/pubs_tech_reports.bib'%}
+    {% include 'partials/ross_pub_list.html' %}
     {% endwith %}
 
 </div>
