@@ -47,8 +47,7 @@ redirects = [
     ['kharris15', 'data/kharris15/'],
     ['graspy', 'graphs/'],
     ['sporf', 'forests/'],
-    ['mgc', 'testing/'],
-    ['m2g', 'mri/']
+    ['mgc', 'testing/']
 ]
 
 
