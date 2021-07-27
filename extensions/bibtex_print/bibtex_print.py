@@ -4,82 +4,83 @@ from datetime import datetime
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from jinja2.ext import Extension
+import io
+
+def mo_co(mo):
+
+    MONTH_CONVERT = {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "": 0,
+        "jan": 1,
+        "Jan": 1,
+        "january": 1,
+        "January": 1,
+        "feb": 2,
+        "Feb": 2,
+        "february": 2,
+        "February": 2,
+        "mar": 3,
+        "Mar": 3,
+        "march": 3,
+        "March": 3,
+        "apr": 4,
+        "Apr": 4,
+        "april": 4,
+        "April": 4,
+        "may": 5,
+        "May": 5,
+        "jun": 6,
+        "June": 6,
+        "june": 6,
+        "June": 6,
+        "jul": 7,
+        "Jul": 7,
+        "july": 7,
+        "July": 7,
+        "aug": 8,
+        "Aug": 8,
+        "august": 8,
+        "August": 8,
+        "sep": 9,
+        "Sep": 9,
+        "september": 9,
+        "September": 9,
+        "oct": 10,
+        "Oct": 10,
+        "october": 10,
+        "October": 10,
+        "nov": 11,
+        "Nov": 11,
+        "november": 11,
+        "November": 11,
+        "dec": 12,
+        "Dec": 12,
+        "december": 12,
+        "December": 12,
+    }
+    try:
+        return(int(mo))
+    except:
+        return MONTH_CONVERT[mo]
 
 
 def load_bibtex(bibfile):
-    def mo_co(mo):
-
-        MONTH_CONVERT = {
-            "1": 1,
-            "2": 2,
-            "3": 3,
-            "4": 4,
-            "5": 5,
-            "6": 6,
-            "7": 7,
-            "8": 8,
-            "9": 9,
-            "10": 10,
-            "11": 11,
-            "12": 12,
-            "": 0,
-            "jan": 1,
-            "Jan": 1,
-            "january": 1,
-            "January": 1,
-            "feb": 2,
-            "Feb": 2,
-            "february": 2,
-            "February": 2,
-            "mar": 3,
-            "Mar": 3,
-            "march": 3,
-            "March": 3,
-            "apr": 4,
-            "Apr": 4,
-            "april": 4,
-            "April": 4,
-            "may": 5,
-            "May": 5,
-            "jun": 6,
-            "June": 6,
-            "june": 6,
-            "June": 6,
-            "jul": 7,
-            "Jul": 7,
-            "july": 7,
-            "July": 7,
-            "aug": 8,
-            "Aug": 8,
-            "august": 8,
-            "August": 8,
-            "sep": 9,
-            "Sep": 9,
-            "september": 9,
-            "September": 9,
-            "oct": 10,
-            "Oct": 10,
-            "october": 10,
-            "October": 10,
-            "nov": 11,
-            "Nov": 11,
-            "november": 11,
-            "November": 11,
-            "dec": 12,
-            "Dec": 12,
-            "december": 12,
-            "December": 12,
-        }
-
-        try:
-            return(int(mo))
-        except:
-            return MONTH_CONVERT[mo]
 
     parser = BibTexParser()
     parser.ignore_nonstandard_types = False
 
-    with open(bibfile) as bibtex_file:
+    with io.open(bibfile, 'r', encoding='utf-8') as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
 
     bib_entries = bib_database.entries
@@ -87,6 +88,27 @@ def load_bibtex(bibfile):
     bib_entries.sort(key=lambda x: x.get("author", ""))
     bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
     bib_entries.sort(key=lambda x: x.get("year", ""), reverse=True)
+
+    return bib_entries
+
+
+def load_members(bibfile):
+    parser = BibTexParser()
+    parser.ignore_nonstandard_types = False
+
+    with io.open(bibfile, 'r', encoding='utf-8') as bibtex_file:
+        bib_database = bibtexparser.load(bibtex_file, parser=parser)
+
+    bib_entries = bib_database.entries
+
+    position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool']
+
+    order = {key: i  for i, key in enumerate(position_order)}
+    bib_entries.sort(key=lambda d: order[d.get("title")])
+
+    #bib_entries.sort(key=lambda x: x.get("author", ""))
+    #bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
+    #bib_entries.sort(key=lambda x: x.get("year", ""), reverse=True)
 
     return bib_entries
 
@@ -235,6 +257,7 @@ class BIBTEX_PRINT(Extension):
     def __init__(self, environment):
         super(BIBTEX_PRINT, self).__init__(environment)
         environment.filters["load_bibtex"] = load_bibtex
+        environment.filters["load_members"] = load_members
         environment.filters["all_authors"] = all_authors
         environment.filters["all_authors_annotated"] = all_authors_annotated
         environment.filters["print_authors"] = print_authors

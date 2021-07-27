@@ -14,7 +14,7 @@ $order: 1
         {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool'] %}
         {% set PUBS = 'content/bibs/teamtest.bib'|load_members %}
         {% for item in PUBS %}
-            {% if not item.end_year %}
+            {% if not item.number %}
                 {% with render_positions=true %}
                     {% include 'partials/people.html' %}
                 {% endwith %}
