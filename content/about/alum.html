@@ -8,11 +8,20 @@ $path: /about/alum.html
 <div class="about clearfix">
     <div class="team" id="team">
         <div class="members clearfix">
-            {% for item in g.docs('alumni')|sort(attribute="name") if not item.associate %}
+            {% set PUBS = 'content/bibs/teamtest.bib'|load_members %}
+            {% for item in PUBS %}
+                {% if item.end_year %}
+                    {% with render_positions=true %}
+                        {% include 'partials/people.html' %}
+                    {% endwith %}
+                {% endif %}
+            {% endfor %}
+
+        <!--{% for item in g.docs('alumni')|sort(attribute="name") if not item.associate %}
                 {% with render_positions=true %}
                     {% include 'partials/people.html' %}
                 {% endwith %}
-            {% endfor %}
+            {% endfor %}-->
         </div>
     </div>
 </div>
