@@ -10,9 +10,9 @@ $path: /about/alum.html
         <div class="members clearfix">
             {% set PUBS = 'content/bibs/teamtest.bib'|load_members %}
             {% for item in PUBS %}
-                {% if item.number %}
+                {% if item.series %}
                     {% with render_positions=true %}
-                        {% include 'partials/people.html' %}
+                        {% include 'partials/ross_people.html' %}
                     {% endwith %}
                 {% endif %}
             {% endfor %}

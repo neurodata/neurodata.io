@@ -11,15 +11,19 @@ subnavs:
 
 {% set index_items = true %}
 
-{% set TALKS = 'content/bibs/talks_invited.bib'|load_bibtex %}
+{% set TALKS = 'content/bibs/talks.bib'|load_bibtex %}
 <h6 id="local">Local</h6>
 {% set talks = doc.local %}
+{% with KEYWORD = 'local' %}
 {% include 'partials/ross_talks_list.html' %}
+{% endwith %}
 
 
-{% set TALKS = 'content/bibs/talks_other.bib'|load_bibtex %}
+{% set TALKS = 'content/bibs/talks.bib'|load_bibtex %}
 <h6 id="international">International</h6>
 {% set talks = doc.international %}
+{% with KEYWORD = 'international' %}
 {% include 'partials/ross_talks_list.html' %}
+{% endwith %}
 
 </div>

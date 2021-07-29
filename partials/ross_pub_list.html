@@ -4,6 +4,7 @@
 <ol>
 {% endif %}
 {% for item in PUBS %}
+{% if item.keywords == KEYWORD %}
     {% if index_items %}
     <li>
     {% else %}
@@ -21,6 +22,7 @@
         </p>
     </div>
     {% endif %}
+{% endif %}
 {% endfor %}
 {% if index_items %}
 </ol>

@@ -28,7 +28,7 @@
         </div>
     {% endif %} 
     {% if package.manuscripts %} 
-        {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %} 
+        {% set PUBS = 'content/bibs/pubs.bib'|load_bibtex %} 
         {% for man in PUBS %} 
             {% if man.ID in package.manuscripts %}
                 <div class="link">
