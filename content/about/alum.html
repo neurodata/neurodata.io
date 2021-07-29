@@ -8,7 +8,7 @@ $path: /about/alum.html
 <div class="about clearfix">
     <div class="team" id="team">
         <div class="members clearfix">
-            {% set PUBS = 'content/bibs/teamtest.bib'|load_members %}
+            {% set PUBS = 'content/bibs/people.bib'|load_members %}
             {% for item in PUBS %}
                 {% if item.series %}
                     {% with render_positions=true %}

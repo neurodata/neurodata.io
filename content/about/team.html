@@ -12,7 +12,7 @@ $order: 1
     
     <div class="members">
         {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool'] %}
-        {% set PUBS = 'content/bibs/teamtest.bib'|load_members %}
+        {% set PUBS = 'content/bibs/people.bib'|load_members %}
         {% for item in PUBS %}
             {% if not item.series %}
                 {% with render_positions=true %}

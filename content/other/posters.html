@@ -4,6 +4,8 @@ $order: 6
 ---
 
 <div class="list_pubs">
-    {% set TALKS = 'content/bibs/posters.bib'|load_bibtex %}
+    {% set TALKS = 'content/bibs/pubs.bib'|load_bibtex %}
+    {% with KEYWORD = 'abspos' %}
     {% include 'partials/ross_talks_list.html' %}
+    {% endwith %}
 </div>
