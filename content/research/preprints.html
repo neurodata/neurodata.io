@@ -8,8 +8,10 @@ $order: 0
     {% set index_items = true %}
     <br />
     <h6 id="pre_prints">Pre-prints</h6>
-    {% with PUBS = 'content/bibs/pubs_in_review.bib'%}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'in-review' %}
     {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 

@@ -8,8 +8,10 @@ $order: 2
     {% set index_items = true %}
     <br />
     <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
-    {% with PUBS = 'content/bibs/pubs_peer_reviewed.bib'%}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'peer-reviewed' %}
     {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 </div>

@@ -8,8 +8,10 @@ $order: 5
     {% set index_items = true %}
     <br />
     <h6 id="other">Other Publications</h6>
-    {% with PUBS = 'content/bibs/pubs_other.bib'%}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'other' %}
     {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 </div>

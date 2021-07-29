@@ -104,7 +104,7 @@ def load_members(bibfile):
     position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool']
 
     order = {key: i  for i, key in enumerate(position_order)}
-    bib_entries.sort(key=lambda d: order[d.get("title")])
+    bib_entries.sort(key=lambda d: order[d.get("userd")])
 
     #bib_entries.sort(key=lambda x: x.get("author", ""))
     #bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
