@@ -119,7 +119,8 @@ Some categories can be left blank if not applicable, the categories required to 
     - Postdoctoral Fellow = `postdoc`
     - Ph.D. Student = `PhDstudent`
     - Visiting Doctoral Student = `visitingdoc`
-    - Undergraduate Student = `MSstudent`
+    - Masters Student = `MSstudent`
+    - Undergrad Student = `undergrad`
     - High School Student = `HS`
 - Your image can be found here () if you are already on the website
 - Current supported `usere` entries are:
