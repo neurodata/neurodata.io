@@ -4,7 +4,7 @@
 <ol>
 {% endif %}
 {% for item in PUBS %}
-{% if item.keywords == KEYWORD %}
+{% if (item.keywords == KEYWORD) or (item.ID in pubs) %}
     {% if index_items %}
     <li>
     {% else %}
