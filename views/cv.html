@@ -30,7 +30,7 @@
 
             <!-- Publications -->
             {% for publication in section.publications %}
-                {% set PUBS = 'content/pubs/pubs.bib'|load_bibtex %}
+                {% set PUBS = 'content/bibs/pubs.bib'|load_bibtex %}
 
                 <div class="py-2">
                     <span class="capitalize font-bold text-base">{{publication.name}}</span>

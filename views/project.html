@@ -106,7 +106,8 @@
         <div class="tools-pubs">
             <div class="col">
                 {% set pubs = doc.publications %}
-                {% include 'partials/pubs_list.html' %}    
+                {% set PUBS = 'content/bibs/pubs.bib' %}
+                {% include 'partials/ross_pub_list.html' %}    
             </div>
         </div>
     {% endif %}

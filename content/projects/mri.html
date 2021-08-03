@@ -194,15 +194,18 @@ related_papers:
 
     <h3 id="refs">Publications</h3>
     {% set pubs = doc.references %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 
     <h6>Previous Pipeline Papers</h6>
     {% set pubs = doc.previous_pipeline_papers %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 
     <h6>Related Papers</h6>
     {% set pubs = doc.related_papers %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 </div>
 
 <div id="notice">
