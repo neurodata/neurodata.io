@@ -101,9 +101,10 @@ def load_members(bibfile):
 
     bib_entries = bib_database.entries
 
-    position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool']
+    position_order = ['director','faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool', 'other']
 
     order = {key: i  for i, key in enumerate(position_order)}
+    bib_entries.sort(key=lambda d: d.get("author", ""))
     bib_entries.sort(key=lambda d: order[d.get("userd")])
 
     #bib_entries.sort(key=lambda x: x.get("author", ""))
@@ -253,6 +254,42 @@ def print_current_year(_):
     return datetime.now().year
 
 
+def print_usera(bib_entry):
+    usera = bib_entry["usera"]
+    usera = usera.replace("\\&", "&")
+    if usera[0] == "{" and usera[-1] == "}":
+        usera = usera[1:-1]
+    return usera
+
+def print_userb(bib_entry):
+    userb = bib_entry["userb"]
+    userb = userb.replace("\\&", "&")
+    if userb[0] == "{" and userb[-1] == "}":
+        userb = userb[1:-1]
+    return userb
+
+def print_series(bib_entry):
+    series = bib_entry["series"]
+    series = series.replace("\\&", "&")
+    if series[0] == "{" and series[-1] == "}":
+        series = series[1:-1]
+    return series
+
+def print_userd(bib_entry):
+    userd = bib_entry["userd"]
+    userd = userd.replace("\\&", "&")
+    if userd[0] == "{" and userd[-1] == "}":
+        userd = userd[1:-1]
+    return userd
+
+def print_abstract(bib_entry):
+    abstract = bib_entry["abstract"]
+    abstract = abstract.replace("\\&", "&")
+    if abstract[0] == "{" and abstract[-1] == "}":
+        abstract = abstract[1:-1]
+    return abstract
+
+
 class BIBTEX_PRINT(Extension):
     def __init__(self, environment):
         super(BIBTEX_PRINT, self).__init__(environment)
@@ -267,3 +304,8 @@ class BIBTEX_PRINT(Extension):
         environment.filters["print_address"] = print_address
         environment.filters["print_issue_data"] = print_issue_data
         environment.filters["print_current_year"] = print_current_year
+        environment.filters["print_usera"] = print_usera
+        environment.filters["print_userb"] = print_userb
+        environment.filters["print_userd"] = print_userd
+        environment.filters["print_series"] = print_series
+        environment.filters["print_abstract"] = print_abstract

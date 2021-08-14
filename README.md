@@ -67,6 +67,7 @@ Categories for pubs.bib:
 - For technical reports: `tech`
 - For abstracts/posters: `abspos`
 - For other publications: `other`
+- For papers without Jovo as an author, but still referenced on the website: `omit`
 
 categories for talks.bib:
 - For local talks: `local`
@@ -77,7 +78,7 @@ Categories for press.bib:
 
 
 ## Team member addition info
-All information regarding team members for both the website's neurodata.io/about/team/ page, and Jovo's CV (neurodata.io/about/jovo, the Mentorship section) is derived from the bib file located in `content/bibs/people.bib`. It is very important that everyone keep their personal information up to date, as this will be reflected on Jovo's CV. In addition to the information added here, you will need to upload an image to `content/source/images/people` and state its name in the `file` category (for example, `john_doe.jpg`).
+All information regarding team members for both the website's neurodata.io/about/team/ page, and Jovo's CV (neurodata.io/about/jovo, the Mentorship section) is derived from the bib file located in `content/bibs/people.bib`. It is very important that everyone keep their personal information up to date, as this will be reflected on Jovo's CV. In addition to the information added here, you will need to upload an image to `content/source/images/people` and state its name in the `file` category (for example, `john_doe.jpg`). See below if you wish to add someone to the website who shouldn't show up on either the cv or the Teams page.
 
 ```
 @incollection{<ID>,
@@ -145,6 +146,29 @@ An example entry is:
     note = {jdoe234@jhu.edu},
     url = {www.heresjohnny.com},
     usere = {safe-zone},
+    file = {john_doe.jpg}
+}
+```
+
+## Adding someone who shouldn't appear on the Teams page or CV:
+To do this, simply copy the entry below (yes, there should be spaces in the `number` and `series` sections) and change the relevant information. The `other` specification for both `userd` and `keywords` tell the website to ignore showing these people on the Teams page (though they will appear when referenced elsewhere) and for the CV to ignore them on generation.
+```
+@incollection{johndoe,
+    author = {John Doe},
+    usera = {},
+    month = {},
+    year = {},
+    number = { },
+    series = { },
+    abstract = {},
+    userb = {},
+    userc = {},
+    userd = {other},
+    keywords = {other},
+    doi = {},
+    note = {jdoe234@gmail.com},
+    url = {},
+    usere = {},
     file = {john_doe.jpg}
 }
 ```

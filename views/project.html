@@ -117,9 +117,13 @@
         <div class="team">
             <h3 id="people">People on project</h3>
             <div class="members clearfix">
+                {% set PUBS = 'content/bibs/people.bib'|load_members %}
                 {% for person in doc.people %}
-                    {% set item = (g.docs('people') + g.docs('alumni'))|selectattr("base", '==', person)|first%}
-                    {% include 'partials/people.html' %}
+                    {% for item in PUBS %}
+                        {% if item.ID == person %}
+                            {% include 'partials/ross_people.html' %}
+                        {% endif %}
+                    {% endfor %}
                 {% endfor %}
             </div>
         </div>
