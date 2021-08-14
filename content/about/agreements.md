@@ -66,6 +66,11 @@ Everyone is welcome to use either AWS or Azure as desired.  Currently, we have f
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
+#### Collaboration
+
+We agree to reach out to potential collaborators when we find any information that may be useful for the lab such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
+
+
 ### Conduct
 
 #### Safety
@@ -133,6 +138,7 @@ Some links that might be useful to understand best practices for giving and rece
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
 
+One-on-one meetings with jovo can be scheduled through [Calendly](https://calendly.com/joshuav). 
 
 
 ### Regular Activities
@@ -145,6 +151,7 @@ Any day that JHU is open, unless otherwise specified, we agree to be physically 
 - Conduct at least half of one's daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open).
 - Respond to one another within one school day. 
 - Other hours/days: there is no expectation of responding to email/slack.
+- When posting in channels, keep messages concise and professional. 
 - While people are in the lab, we will not intentially interrupt/disturb other people if their headphones are on (or they provide another indicator that they are working).
 - Any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge, in kavli, etc. 
 - If you aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows.
@@ -156,7 +163,7 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Regular Sub-Group Meetings
 
-We agree that at regular intervals (no less frequent than every other week), each sub-group will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
+We agree that at regular intervals (no less frequent than every other week), each sub-group will meet in person (or via [Zoom](https://wse.zoom.us/my/joshuav) when campus is closed) for at least 30 minutes. The goals are:
 
 - document past week's progress towards first author papers
 - get feedback/mentorship from brilliant team of collaborators on existing bottlenecks
@@ -168,7 +175,7 @@ To facilitate achieving & documenting these goals, we each agree to the followin
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
-- Update slides for each first author publication you have worked on for the week (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)). Slides should follow the template provided [here](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.gb057dfc16b_2_5)
+- Update [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0) for each first author publication you have worked on for the week.
 - Listen and provide constructive feedback to your teammates as appropriate
 
 Each week we ideally  move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
@@ -177,7 +184,7 @@ Each week we ideally  move "next week" to "last week", and color code each eleme
 #### Weekly Lab Meetings
 
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will present about 2x / year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat.
+So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will present about 2x / year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat. Team members can sign up for a slot [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
 
 
 #### Annual Group Hangouts
