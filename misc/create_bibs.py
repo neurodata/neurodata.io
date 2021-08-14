@@ -1,5 +1,5 @@
 import codecs
-
+import io
 import bibtexparser
 import yaml
 from bibtexparser.bibdatabase import BibDatabase
@@ -95,7 +95,7 @@ def entries_to_file(entries, fn):
 
 
 def main(out_dir):
-
+    print('wablatong')
     bibs = [('content/research/publications.html', 'content/pubs/pubs.bib', ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"], "pubs"),
             ('content/research/talks.html', 'content/talks/talks.bib', ["local", "international"], "talks")]
 
@@ -106,7 +106,7 @@ def main(out_dir):
 
         categories = bib[2]
 
-        with codecs.open(bib[1], 'r', 'utf-8') as bibtex_file:
+        with io.open(bib[1],'r', encoding='utf-8') as bibtex_file:
             bib_database = bibtexparser.load(bibtex_file)
         entries = bib_database.entries_dict
 

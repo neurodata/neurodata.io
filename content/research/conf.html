@@ -1,30 +1,6 @@
 ---
 $title@: Conf
 $order: 3
-
-conf:
-- geoforests2020
-- zheng2016flashr
-- Browne2018
-- Lillaney2018
-- Nikolaidis343392
-- Cornelis2013
-- Kutten2016
-- Fiori2013
-- Carlson2013a
-- Mhembere2013
-- GrayRoncal2013
-- Koutra2013
-- Kulkarni2013
-- Petralia2013
-- Kutten2016b
-- Huys2009
-- GrayRoncal2015a
-- Zheng2015
-- burns2013open
-- tomita2017roflmao
-- mhembere2017knor
-
 ---
 
 <div class="list_pubs">
@@ -32,8 +8,10 @@ conf:
     {% set index_items = true %}
     <br />
     <h6 id="conf">Peer-Reviewed Conference Proceedings</h6>
-    {% with pubs = doc.conf %}
-    {% include 'partials/pubs_list.html' %}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'conference' %}
+    {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 </div>

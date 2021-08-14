@@ -1,7 +1,7 @@
 <div class="col">
     <span class="ids name">
         {{item.author}}
-        {% if "safe-zone" in item.trainings %}
+        {% if "safe-zone" in item.usere %}
                 <a>
                     <img src="{{g.static('/source/images/training/safe-zone.png').url.path}}">
                 </a>
@@ -15,27 +15,27 @@
         <div class="bw"></div>
         <div class="color"></div>
     {% endif %}
-    {% if item.position and render_positions %}
+    {% if item.usera and render_positions %}
     <span class="ids position"> 
-        {{item.position}}
+        {{item.usera}}
     </span>
     {% endif %}
     <div class="overlay">
         <div class="contact clearfix">
-            {% if item.github %}
-                <a href="https://github.com/{{item.github}}">
+            {% if item.doi %}
+                <a href="https://github.com/{{item.doi}}">
                     <img class="hover" src="{{g.static('/source/images/github-white.png').url.path}}">
                     <img src="{{g.static('/source/images/github-blue.png').url.path}}">
                 </a>
             {% endif %}
-            {% if item.email %}
-                <a href="mailto:{{item.email}}">
+            {% if item.note %}
+                <a href="mailto:{{item.note}}">
                     <img class="hover" src="{{g.static('/source/images/mail-white.png').url.path}}">
                     <img src="{{g.static('/source/images/mail-blue.png').url.path}}">
                 </a>
             {% endif %}
-            {% if item.website %}
-                <a href="{{item.website}}">
+            {% if item.url %}
+                <a href="https://{{item.url}}">
                     <img class="hover" src="{{g.static('/source/images/website-white.png').url.path}}">
                     <img src="{{g.static('/source/images/website-blue.png').url.path}}">
                 </a>

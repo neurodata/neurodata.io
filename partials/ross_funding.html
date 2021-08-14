@@ -1,0 +1,23 @@
+{% set FUNDS = 'content/bibs/funding.bib'|load_bibtex %}
+
+{% if index_items %}
+<ol>
+{% endif %}
+{% for item in FUNDS %}
+    <div class="item">
+    {% if item.keywords == KEYWORD %}
+
+    {% if item.url %}
+        <h5><a href = {{item|print_link}}>{{item|print_userb}}</a></h5><b>{{item|print_series}} ({{item|print_authors}}):</b> {{item|print_userd}}
+        <p>{{item|print_abstract}}</p>
+    {% else %}
+        <h5>{{item|print_userb}}</h5><b>{{item|print_series}} ({{item|print_authors}}):</b> {{item|print_userd}}
+        <p>{{item|print_abstract}}</p>
+    {% endif %}
+    </div>
+
+    {% endif %}
+{% endfor %}
+{% if index_items %}
+</ol>
+{% endif %}

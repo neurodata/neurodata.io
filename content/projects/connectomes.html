@@ -58,7 +58,7 @@ graph_species:
                         <th>Source Host URL</th>
                     </tr>
                 </thead>
-                {% set graphs = g.csv('content/graphs/graphs.csv', locale=species) %}
+                {% set graphs = g.csv('content/data/graphs.csv', locale=species) %}
                 <tbody>                    
                     {% for graph in graphs %}
                         <tr>

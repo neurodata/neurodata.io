@@ -26,7 +26,8 @@
                 <h6>Publications</h6>
                 {% set pubs = doc.manuscripts %}
                 {% set index_items = true %}
-                {% include 'partials/pubs_list.html' %}
+                {% set PUBS = 'content/bibs/pubs.bib' %}
+                {% include 'partials/ross_pub_list.html' %}
             </div>
         {% endif %}
 

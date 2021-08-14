@@ -1,18 +1,6 @@
 ---
 $title@: Other
 $order: 5
-
-other:
-- sfn2017chapter
-- sfn2018chapter
-- oopsi
-- neuro2016
-- GlobalBrain
-- BrainWorkshop
-- burns2014cosmos
-- Yuste2011
-- Vogelstein2011c
-- Vogelstein1999
 ---
 
 <div class="list_pubs">
@@ -20,8 +8,10 @@ other:
     {% set index_items = true %}
     <br />
     <h6 id="other">Other Publications</h6>
-    {% with pubs = doc.other %}
-    {% include 'partials/pubs_list.html' %}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'other' %}
+    {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 </div>

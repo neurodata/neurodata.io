@@ -12,16 +12,18 @@ phases:
       - sudo apt -y --force-yes install nodejs
       - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
       - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+      - sudo apt get install git
       - sudo apt update
       - sudo apt install yarn
       - sudo yarn install
   build:
     commands:
       - export LC_ALL=C.UTF-8
+      - cd content/bibs
+      - pdflatex jovo_cv_SOM.tex
       - grow install
       - grow build --deployment default
       - mkdir build/bib_files
-      - python2 misc/create_bibs.py
   post_build:
     commands:
       - aws s3 sync --delete --cache-control "max-age=10800" build/ "s3://nd-website-deploy"

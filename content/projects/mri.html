@@ -74,7 +74,7 @@ related_papers:
 
     <div class="intro clearfix" id="about">
         <h3>About</h3>
-        <p>This page hosts projectomes produced with <a href="https://github.com/neurodata/m2g" target="_blank" rel="noopener">NeuroData's MRI Graphs pipeline (m2g)</a>. A 'projectome' is a large-scale mapping between regions of the brain, created from fMRI or DTI. Data are from a multitude of labs and experiments. The data are <a href="https://www.biorxiv.org/content/early/2018/04/24/188706" target="_blank" rel="noopener">run through m2g</a>, and after processing, we provide summary statistics, QA, and the projectomes themselves.</p>
+        <p>This page hosts connectomes produced with <a href="https://github.com/neurodata/m2g" target="_blank" rel="noopener">NeuroData's MRI Graphs pipeline (m2g)</a>. A 'projectome' is a large-scale mapping between regions of the brain, created from fMRI or DTI. Data are from a multitude of labs and experiments. The data are <a href="https://www.biorxiv.org/content/early/2018/04/24/188706" target="_blank" rel="noopener">run through m2g</a>, and after processing, we provide summary statistics, QA, and the projectomes themselves.</p>
     </div>
     
     <h3 id="links">Links</h3>
@@ -194,15 +194,18 @@ related_papers:
 
     <h3 id="refs">Publications</h3>
     {% set pubs = doc.references %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 
     <h6>Previous Pipeline Papers</h6>
     {% set pubs = doc.previous_pipeline_papers %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 
     <h6>Related Papers</h6>
     {% set pubs = doc.related_papers %}
-    {% include 'partials/pubs_list.html' %}
+    {% set PUBS = 'content/bibs/pubs.bib' %}
+    {% include 'partials/ross_pub_list.html' %}
 </div>
 
 <div id="notice">
