@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Lawreros 
-jovo
-/
-cv
-4
-2
-4
-Code
-Issues
-2
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-cv/moderncv.cls
-@loftusa
-loftusa Added new files to preprints
-Latest commit 6098b4f on Oct 11, 2018
- History
- 1 contributor
-616 lines (531 sloc)  26.1 KB
- 
 %% start of file `moderncv.cls'.
 %% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
