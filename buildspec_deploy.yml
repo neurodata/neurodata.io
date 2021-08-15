@@ -14,7 +14,7 @@ phases:
       - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
       - sudo apt-get install -y texlive-latex-base
       - sudo apt-get install -y texlive-fonts-recommended
-      - sudo apt-get install -y texlive
+      - sudo apt-get install -y texlive-latex-recommended
       - sudo apt update
       - sudo apt install yarn
       - sudo yarn install
