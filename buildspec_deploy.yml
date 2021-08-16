@@ -6,7 +6,7 @@ phases:
       - echo Installing grow
       - pip install grow==1.0.4 pyyaml==5.3.1 bibtexparser==1.2.0 jinja2==2.11.3
       - echo Installing tailwind
-      - apt install curl
+      #- apt install curl
       #- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       - sudo apt install -y aptitude
       - sudo apt -y --force-yes install nodejs
