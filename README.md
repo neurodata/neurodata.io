@@ -57,7 +57,7 @@ for QC. It is located in the root directory and can be built by running
 General rules:
 - DO NOT add an `@incollection` citation unless you are adding a new member to the `people.bib` file
 - Make sure that `month` is an integer, as this prevents potential ordering issues
-- Avoid symbols [ADD FIXES HERE]
+- Avoid symbols such as `&` and `$` in your entries, as they may cause issues with bib compiling
 
 Categories for pubs.bib:
 - For accepted and published peer-reviewed papers: `peer-reviewed`
