@@ -8,14 +8,14 @@ phases:
       - echo Installing tailwind
       #- apt install curl
       #- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-      - apt-get install -y aptitude
-      - apt-get -y --force-yes install nodejs
+      - yum install -y aptitude
+      - yum -y --force-yes install nodejs
       #- curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
       #- echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-      - apt-get install -y texlive-full
-      - apt update
-      - apt install yarn
-      - yarn install
+      - yum install -y texlive-full
+      - yum update
+      - yum install yarn
+      - yum install
   build:
     commands:
       - export LC_ALL=C.UTF-8
