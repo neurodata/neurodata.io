@@ -54,6 +54,7 @@ for QC. It is located in the root directory and can be built by running
 `make` in the root directory.
 
 ## Bib addition rubric
+When adding a new addition to the bib files, most normal bib entries will work, with the only additional step being the addition of a `keywords` value. Which keywords should be used for each bib file are displayed below, as they are used to organize the file.
 General rules:
 - DO NOT add an `@incollection` citation unless you are adding a new member to the `people.bib` file
 - Make sure that `month` is an integer, as this prevents potential ordering issues
