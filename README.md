@@ -56,6 +56,13 @@ for QC. It is located in the root directory and can be built by running
 ## Bib addition rubric
 When adding a new addition to the bib files, most normal bib entries will work, with the only additional step being the addition of a `keywords` value. Which keywords should be used for each bib file are displayed below, as they are used to organize the file.
 General rules:
+- When adding entries to either the pubs.bib or talks.bib files, include an entry called `author+an`, this serves to underline lab members and bold jovo's name in the publication sections of his CV. Looking at the order of authors for a bib entry, number which authors are lab members (`trainee`) and which is jovo (`highlight`). For example:
+```
+@article{example,
+author = {<lab member> and <not lab member> and <jovo> and <lab member> and <not lab member>},
+author+an = {1=trainee;4=trainee;3=highlight},
+...
+```
 - DO NOT add an `@incollection` citation unless you are adding a new member to the `people.bib` file
 - Make sure that `month` is an integer, as this prevents potential ordering issues
 - Avoid symbols such as `&` and `$` in your entries, as they may cause issues with bib compiling
