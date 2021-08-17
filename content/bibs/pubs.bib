@@ -1,3 +1,35 @@
+@article{Blockset21,
+    author = {Madhyastha, Meghana and Lillaney, Kunal and Browne, James and Vogelstein, Joshua T. and Burns, Randal},
+    author+an={1=trainee,4=highlight},
+    title = {BLOCKSET (Block-Aligned Serialized Trees): Reducing Inference Latency for Tree Ensemble Deployment},
+    year = {2021},
+    isbn = {9781450383325},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3447548.3467368},
+    doi = {10.1145/3447548.3467368},
+    abstract = {We present methods to serialize and deserialize gradient-boosted trees and random
+forests that optimize inference latency when models are not loaded into memory. This
+arises when models are larger than memory, but also systematically when models are
+deployed on low-resource devices in the Internet of Things or run as cloud microservices
+where resources are allocated on demand. Block-Aligned Serialized Trees (BLOCKSET)
+introduce the concept of selective access for random forests and gradient boosted
+trees in which only the parts of the model needed for inference are deserialized and
+loaded into memory. BLOCKSET combines concepts from external memory algorithms and
+data-parallel layouts of random forests that maximize I/O-density for in-memory models.
+Using principles from external memory algorithms, we block-align the serialization
+format in order to minimize the number of I/Os. For gradient boosted trees, this results
+in a more than five time reduction in inference latency over layouts that do not perform
+selective access and a 2 times latency reduction over techniques that are selective,
+but do not encode I/O block boundaries in the layout.},
+    booktitle = {Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    pages = {1170–1179},
+    numpages = {10},
+    location = {Virtual Event, Singapore},
+    series = {KDD '21}
+    keywords = {peer-reviewed}
+}
+
 @article{CloudReg,
     author = {Chandrashekhar, Vikram and Tward, Daniel J and Crowley, Devin and Crow, Ailey K and Wright, Matthew A and Hsueh, Brian Y and Gore, Felicity and Machado, Timothy A and Branch, Audrey and Rosenblum, Jared S and Deisseroth, Karl and Vogelstein, Joshua T},
     author+an = {1=trainee,12=highlight},
