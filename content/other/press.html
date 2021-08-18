@@ -4,8 +4,8 @@ $order: 2
 ---
 
 <div class="list_pubs">
-
-{% set TALKS = 'content/bibs/press.bib'|load_bibtex %}
-{% include 'partials/ross_talks_list.html' %}
-
+  {% set TALKS = 'content/bibs/press.bib'|load_bibtex %}
+  {% with KEYWORD == 'press' %}
+  {% include 'partials/ross_talks_list.html' %}
+  {% endwith %}
 </div>
