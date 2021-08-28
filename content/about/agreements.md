@@ -205,7 +205,7 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 We agree to annually review and update this Agreements document at the end of June.
 
-#### Research Artefacts 
+#### Research Artifacts 
 
 We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
 
