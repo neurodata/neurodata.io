@@ -253,7 +253,7 @@ Typically, the person actually submitting the paper is the first author.  This m
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
 5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
-6. Have ~monthly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
+6. Have check-in meeting (as needed if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
 7. Seeking to maintain lab diversity writ large, including age, seniority, intellectual interests and background, sex, ethnicity, race, country of origin, ability, etc.
 
 
