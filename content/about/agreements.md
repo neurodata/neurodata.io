@@ -182,6 +182,7 @@ Every team member is expected to attend at least one of these regular meetings.
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
+- Document research artifacts from past week goals in the [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0), research artifacts can be anything like screenshots, plots that are good enough for the meeting attendees to give feedback on
 - Arrive on time
 - Update [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0) for each first author publication you have worked on for the week.
 - Listen and provide constructive feedback to your teammates as appropriate
