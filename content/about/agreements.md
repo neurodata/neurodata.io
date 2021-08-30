@@ -137,9 +137,17 @@ Some links that might be useful to understand best practices for giving and rece
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
-
 One-on-one meetings with jovo can be scheduled through [Calendly](https://calendly.com/joshuav). 
 
+#### Contacting People Outside the Lab With Questions
+=======
+
+We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
+  1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
+  2. Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
+  3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
+
+If we do have to ask people outside the lab questions, we agree to make sure to clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask should be about pointing us in the right direction, rather than asking for a time to speak with them.
 
 ### Regular Activities
 
