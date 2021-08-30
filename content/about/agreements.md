@@ -241,7 +241,14 @@ Three months prior to departure, make a 'transition' plan, wherein the technical
 
 #### Authorship Agreements
 
-Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.  
+Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
+
+#### Communication
+
+1. The primary ways for a NeuroData family member to contact jovo will be scheduling 1-on-1 meetings on [calendly](https://calendly.com/joshuav) or directly in the NeuroData calendar, or direct messages on Slack and text
+2. If someone needs to get feedback on a figure from jovo, they are encouraged to mention him in the respective subgroup channel for the paper. This allows for feedback from not only jovo, but other members of the subgroup.
+3. 1-on-1 meetings are highly encouraged as a way to get feedback, for questions about long-term/career guidance, etc.
+4. Adminstrative tasks or general questions can be asked during the "recess" time (3-3:30 daily). These kinds of questions are likely not urgent, so if someone misses a certain time, they will be able to ask the next day.
 
 
 ### Other Kinds of Agreements
