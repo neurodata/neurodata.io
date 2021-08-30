@@ -136,7 +136,7 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 #### Contacting People Outside the Lab With Questions
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
-  1. Consider what it would take for us to solve to our problem (this means searching the literature, exploring and writing code, reading books, etc).
+  1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
   2. Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
   3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
 
