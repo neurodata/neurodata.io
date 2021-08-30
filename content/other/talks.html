@@ -5,133 +5,25 @@ $order: 5
 subnavs:
 - local
 - international
-
-local:
-- minds-feb2020
-- BRAINI18
-- big-data-talk2018
-- BigNeuSta
-- bootcamp2019
-- dc-sfn2017
-- goldsachs2019
-- JovoSOHOPa
-- JovoSOHOPb
-- kndi2016
-- jhu-bmes19
-- kavli19
-- jovodata2019
-- BSI-google2018
-- dibs2018
-- china2017
-- neurostorm2017
-- sfnDC2017
-- OncGetCon
-- OpeSouPla
-- sfnDC2017
-- nd2016
-- ODEN2018
-- post2016
-- open2016
-- src2016
-- KavSpeSymp
-- LowBarEnt
-- BigNeuSta
-- opensource2015
-- DecTheApp
-- ndtools
-- sfn2016
-- brain2016
-- InfSpiTim
-- UN2016
-
-international:
-- whistler-mar2020
-- msr-feb2020
-- rock-jan2020
-- colum-jan2020
-- AreMenPro
-- ModBasOpt
-- InfSpiTra
-- WhaCanTra
-- StaCon
-- OncConWha
-- ConConCla
-- ConClaSta
-- BigNeu2
-- StaInf2
-- StaInf3
-- BeyLitNeu
-- KeyStateBrain
-- BRAINI16
-- TopChaBig
-- perlman3dem
-- bridgefordohbm2018
-- princeton2018
-- sfn2018
-- dipy19
-- j1cohbm2019
-- connectomics2019
-- BigStaBra
-- bigtime2015
-- CasC
-- ConsGraCla
-- disa2017
-- dscore2019
-- feldman2017
-- forestpacking2019
-- FroRagRic
-- jovoyalemgc2018
-- jovodarpamgc2018
-- JovoSimA
-- JovoSimB
-- paninski2015
-- discoveringstanford2017
-- InfSpiTraCI
-- InfSpiTraCI2
-- kiarconnectomecoding2018
-- kiarscienceinthecloud2017
-- l2f18mo
-- l2f1year
-- L2F2018
-- LawLarGra
-- leejsm2017
-- localdistance2015
-- multiscale2016
-- NeuGraThe
-- neuronex-stanford2018
-- neuronex18
-- neuronex19
-- OopFamOpt
-- OpeChaBig
-- OpeConPro
-- OpeProNeu
-- reg2019daniel
-- sdm17
-- SeqMonCar
-- sloan2019
-- StaModInf
-- TowInfAna
-- TowInfNeu
-- connectomics2019
-- OpeSouPla
-- UN2016
-- exactequivalence2019
-- knor2017
-
 ---
-
-{% set TALKS = 'content/talks/talks.bib'|load_bibtex %}
 
 <div class="list_pubs">
 
 {% set index_items = true %}
 
+{% set TALKS = 'content/bibs/talks.bib'|load_bibtex %}
 <h6 id="local">Local</h6>
 {% set talks = doc.local %}
-{% include 'partials/talks_list.html' %}
+{% with KEYWORD = 'local' %}
+{% include 'partials/ross_talks_list.html' %}
+{% endwith %}
 
+
+{% set TALKS = 'content/bibs/talks.bib'|load_bibtex %}
 <h6 id="international">International</h6>
 {% set talks = doc.international %}
-{% include 'partials/talks_list.html' %}
+{% with KEYWORD = 'international' %}
+{% include 'partials/ross_talks_list.html' %}
+{% endwith %}
 
 </div>

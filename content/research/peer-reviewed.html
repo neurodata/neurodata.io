@@ -1,82 +1,6 @@
 ---
 $title@: Peer-Reviewed
 $order: 2
-
-peer_reviewed:
-- JAMIA2020
-- deeplearning2020
-- bottleneck2021
-- HONG2020117322
-- XU2020117346
-- BigOpenBrain2020
-- cho2020
-- HONG2020111
-- francca2020kernel
-- Tomita2018
-- wang2018statistical
-- WANG2020117274
-- NENNING2020117232
-- AStA2020
-- geoforests2020
-- Cytokine2020
-- HONG2020111
-- bagging2019
-- graspy2019
-- Wang2019
-- Kiar2017
-- klein2019
-- connectalcoding
-- lee2017
-- priebe2018two
-- shen2016discovering
-- tang2016law
-- Shen2018
-- burns2018community
-- Durante2017
-- Cohen2018
-- Zheng2016b
-- dyer2017quantifying
-- simhal2017probabilistic
-- Shen201741
-- hildebrand2017whole
-- Chen2017
-- wang2017selected
-- Binkiewicz2014
-- Chen2016b
-- Raag2016
-- Durante2016
-- Chen2015
-- harris2015resource
-- Koutra2016
-- Roncal2015b
-- kasthuri2015saturated
-- Vogelstein2015
-- Vogelstein2015b
-- Lyzinski2015
-- Lyzinski2014a
-- Weiler2014
-- Priebe2015
-- Sweeney2014
-- vogelstein2014discovery
-- Carlson2014
-- Vogelstein2013
-- Craddock2013
-- Priebe2013
-- Dai2012
-- Fishkind2013
-- Roberts2012
-- Gray2012
-- Vogelstein2011b
-- Hofer2011
-- Mishchenko2011
-- Vogelstein2010
-- Paninski2010
-- Vogelstein2009
-- Vogelstein2007
-- Vogelstein2003
-- Greenspan1997
-- Athreya2018
-
 ---
 
 <div class="list_pubs">
@@ -84,8 +8,10 @@ peer_reviewed:
     {% set index_items = true %}
     <br />
     <h6 id="peer_reviewed">Peer-Reviewed Journal Publications</h6>
-    {% with pubs = doc.peer_reviewed %}
-    {% include 'partials/pubs_list.html' %}
+    {% with PUBS = 'content/bibs/pubs.bib'%}
+    {% with KEYWORD = 'peer-reviewed' %}
+    {% include 'partials/ross_pub_list.html' %}
+    {% endwith %}
     {% endwith %}
 
 </div>

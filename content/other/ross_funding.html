@@ -1,0 +1,16 @@
+---
+$title@: Funding
+$order: 2
+---
+
+<div>
+<h2>Current</h2>
+{% with KEYWORD = 'current' %}
+{% include 'partials/ross_funding.html' %}
+{% endwith %}
+
+<h2>Completed</h2>
+{% with KEYWORD = 'complete' %}
+{% include 'partials/ross_funding.html' %}
+{% endwith %}
+</div>

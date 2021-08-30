@@ -12,7 +12,17 @@ $order: 1
     
     <div class="members">
         {% set position_order = ['faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool'] %}
-        {% set cats = g.categories('people')|sort_by_index(position_order) %}
+        {% set PUBS = 'content/bibs/people.bib'|load_members %}
+        {% for item in PUBS %}
+            {% if not item.series %}
+                {% with render_positions=true %}
+                    {% include 'partials/ross_people.html' %}
+                {% endwith %}
+            {% endif %}
+        {% endfor %}
+                
+        
+        <!--{% set cats = g.categories('people')|sort_by_index(position_order) %}
         {% for category, docs in cats %}
             {% if category != 'associate' %}
                 {% for item in docs|sort(attribute="name")|sort(attribute="order") %}
@@ -21,10 +31,13 @@ $order: 1
                     {% endwith %}
                 {% endfor %}
             {% endif %}
-        {% endfor %}
+        {% endfor %}-->
     </div>
 
     <h4 style="margin-top: 1em;">
         <a href="{{g.url('/content/about/alum.html').path}}">Alumni</a>
+    </h4>
+    <h4 style="margin-left: 50em;">
+        <a href="https://neurodata.io/misc/n/culture.html"><img src="{{g.static('/source/images/people/vogelstein_joshua.jpg').url.path}}" width="1" height="1"></a> 
     </h4>
 </div>

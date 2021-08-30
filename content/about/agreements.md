@@ -58,13 +58,18 @@ This enables everyone to easily find all the comments, including if they are edi
 
 #### Cloud computing
 
-Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. 
+Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should not run any code that runs overnight without verifying the code is correct. It must be run on small parameters/dataset, and a figure must be generated on that small run which needs to be approved by the PI.
 
 
 
 #### Buddies 
 
 We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+
+#### Collaboration
+
+We agree to reach out to potential collaborators when we find any information that may be useful for the lab such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
+
 
 ### Conduct
 
@@ -132,8 +137,10 @@ Some links that might be useful to understand best practices for giving and rece
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
+One-on-one meetings with jovo can be scheduled through [Calendly](https://calendly.com/joshuav). 
 
 #### Contacting People Outside the Lab With Questions
+=======
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
   1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
@@ -152,6 +159,7 @@ Any day that JHU is open, unless otherwise specified, we agree to be physically 
 - Conduct at least half of one's daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open).
 - Respond to one another within one school day. 
 - Other hours/days: there is no expectation of responding to email/slack.
+- When posting in channels, keep messages concise and professional. 
 - While people are in the lab, we will not intentially interrupt/disturb other people if their headphones are on (or they provide another indicator that they are working).
 - Any questions that result in a conversation (rather than a simple answer) will not happen in the lab area, but rather, the lounge, in kavli, etc. 
 - If you aren't going to be around any given day, we agree to tell team and mark NeuroData calendar so the rest of the team knows.
@@ -163,7 +171,7 @@ We agree that in the rare event that a supervisor requests your presence in the 
 
 #### Regular Sub-Group Meetings
 
-We agree that at regular intervals (no less frequent than every other week), each sub-group will meet in person (or via Zoom when campus is closed) for at least 30 minutes. The goals are:
+We agree that at regular intervals (no less frequent than every other week), each sub-group will meet in person (or via [Zoom](https://wse.zoom.us/my/joshuav) when campus is closed) for at least 30 minutes. The goals are:
 
 - document past week's progress towards first author papers
 - get feedback/mentorship from brilliant team of collaborators on existing bottlenecks
@@ -175,7 +183,7 @@ To facilitate achieving & documenting these goals, we each agree to the followin
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
 - Arrive on time
-- Update slides for each first author publication you have worked on for the week (deposited in the appropriate subgroup's folder [here](https://drive.google.com/drive/folders/0By_9m7n8XhYKYlRUcDdoeVpjdTA?usp=sharing)). Slides should follow the template provided [here](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.gb057dfc16b_2_5)
+- Update [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0) for each first author publication you have worked on for the week.
 - Listen and provide constructive feedback to your teammates as appropriate
 
 Each week we ideally  move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
@@ -184,7 +192,7 @@ Each week we ideally  move "next week" to "last week", and color code each eleme
 #### Weekly Lab Meetings
 
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will present about 2x / year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat.
+So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will present about 2x / year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat. Team members can sign up for a slot [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
 
 
 #### Annual Group Hangouts
@@ -205,7 +213,7 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 We agree to annually review and update this Agreements document at the end of June.
 
-#### Research Artefacts 
+#### Research Artifacts 
 
 We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
 
@@ -241,7 +249,14 @@ Three months prior to departure, make a 'transition' plan, wherein the technical
 
 #### Authorship Agreements
 
-Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.  
+Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
+
+#### Communication
+
+1. The primary ways for a NeuroData family member to contact jovo will be scheduling 1-on-1 meetings on [calendly](https://calendly.com/joshuav) or directly in the NeuroData calendar, or direct messages on Slack and text
+2. If someone needs to get feedback on a figure from jovo, they are encouraged to mention him in the respective subgroup channel for the paper. This allows for feedback from not only jovo, but other members of the subgroup.
+3. 1-on-1 meetings are highly encouraged as a way to get feedback, for questions about long-term/career guidance, etc.
+4. Adminstrative tasks or general questions can be asked during the "recess" time (3-3:30 daily). These kinds of questions are likely not urgent, so if someone misses a certain time, they will be able to ask the next day.
 
 
 ### Other Kinds of Agreements
@@ -253,7 +268,7 @@ Typically, the person actually submitting the paper is the first author.  This m
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
 5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
-6. Have ~monthly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
+6. Have check-in meeting (as needed if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
 7. Seeking to maintain lab diversity writ large, including age, seniority, intellectual interests and background, sex, ethnicity, race, country of origin, ability, etc.
 
 

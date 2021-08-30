@@ -12,7 +12,7 @@ from .create_bibs import entries_to_file
 bibs = [
     (
         "content/research/publications.html",
-        "content/pubs/pubs.bib",
+        "content/bibs/pubs.bib",
         ["pre_prints", "peer_reviewed", "conf", "tech_reports", "other"],
         "pubs",
     ),

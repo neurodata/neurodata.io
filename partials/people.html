@@ -1,15 +1,15 @@
 <div class="col">
     <span class="ids name">
-        {{item.name}}
+        {{item.author}}
         {% if "safe-zone" in item.trainings %}
                 <a>
                     <img src="{{g.static('/source/images/training/safe-zone.png').url.path}}">
                 </a>
         {% endif %}
     </span>
-    {% if item.picture %}
-        <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.picture).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+    {% if item.file %}
+        <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
     {% else %}
         {# Default images are in style.css #}
         <div class="bw"></div>

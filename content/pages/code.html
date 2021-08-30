@@ -14,11 +14,16 @@ view: /views/research.html
     <div class="group">
         <h3>Featured</h3>
         <ul>
+            <li><h6><a href="https://docs.neurodata.io/notebooks/">Neurodata Notebooks</a></h6>
+            <p>Jupyter Notebooks made by Neurodata lab members.</p>
+            </li>
             {% for item in g.docs('tools') if item.featured %}
                 <li><h6><a href="{{item.url.path}}">{{item.name}} ({{item.heading}})</a></h6>
                 <p>{{item.description}}</p>
                 </li>
             {% endfor %}
+            <li><h6><a href="https://cloudreg.neurodata.io/">reg (Image registration)</a></h6>
+            <p>Performs non-linear affine and deformable image registration</p></li>
         </ul>
     </div>
 

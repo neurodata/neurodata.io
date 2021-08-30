@@ -1,0 +1,15 @@
+<ol>
+    {% for item in TALKS %}
+    {% if item.keywords == KEYWORD %}
+        <li>
+            {% set authors = item|all_authors %}
+            {% if authors|count > 2 %}{{authors[0:-1]|join(", ")}}, and {{authors[-1]}}{% elif authors|count == 2%}{{authors[0] ~ " and " ~ authors[1]}}{% else %}{{authors[0]}}{% endif %}.
+            {% if item.doi or item.url or item.arxivid %}
+                <a href="{{item|print_link}}" target="_blank" rel="noopener">
+            {% endif %}
+            {{item|print_title|render|safe}}{% if item.doi or item.url %}</a>{% endif %}{{ '.' if (item.title[-1] != '}' and item.title[-1] not in ['.','?','!']) or (item.title[-1] == '}' and item.title[-2] not in ['.','?','!']) }}
+            <i>{{item|print_address}}</i>{% if item.address%},{% endif %} {{item.year}}.
+        </li>
+    {% endif %}
+    {% endfor %}
+</ol>

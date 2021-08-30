@@ -4,24 +4,29 @@ phases:
   install:
     commands:
       - echo Installing grow
-      - pip install grow==0.8.27 pyyaml==5.1.2 bibtexparser==1.2.0
+      - pip install grow==1.0.4 pyyaml==5.3.1 bibtexparser==1.2.0 jinja2==2.11.3
       - echo Installing tailwind
-      - apt install curl
-      - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-      - sudo apt install -y aptitude
-      - sudo aptitude install -y nodejs
-      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-      - sudo apt update
-      - sudo apt install yarn
-      - sudo yarn install
+      #- apt install curl
+      #- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+      #- apt-get install -y aptitude
+      #- apt-get -y install nodejs
+      #- curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+      #- echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+      - apt-get update
+      - apt-get install -y texlive-full
+      - apt-get install yarn
+      - yarn install
   build:
     commands:
       - export LC_ALL=C.UTF-8
+      - cd content/bibs
+      - pdflatex jovo_cv_SOM.tex
+      - biber jovo_cv_SOM
+      - pdflatex jovo_cv_SOM.tex
+      - cd ../..
       - grow install
       - grow build --deployment default
       - mkdir build/bib_files
-      - python2 misc/create_bibs.py
   post_build:
     commands:
       - aws s3 sync --delete --cache-control "max-age=10800" build/ "s3://nd-website-deploy"

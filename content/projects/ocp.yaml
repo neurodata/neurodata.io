@@ -16,18 +16,18 @@ tools: !g.url /content/guides/overview.html
 publications:
   - burns2013open
   - burns2014cosmos
-  - Vogelstein2016
+  - neuro2016
   - kleissas2017block
   - burns2018community
-  - vogelstein2011q
+  - vogelstein2011c
 
 data: true
 dataText: "All data are hosted in AWS on the Open NeuroData  Registry <a href=\"https://registry.opendata.aws/open-neurodata\" target=\"_blank\">https://registry.opendata.aws/open-neurodata</a>"
 
 people:
   - jovo
-  - randal
-  - ben
+  - randalburns
+  - benfalk
 
 funding:
   - name: "NeuroNex Technology Hub: Integrated Circuit Cracking (ICC) with Linked Tools for Diverse Systems"
