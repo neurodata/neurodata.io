@@ -1502,18 +1502,6 @@ keywords = {peer-reviewed}
       keywords = {in-review}
 }
 
-@article{Shen2019-xv,
-  title         = {The Chi-Square Test of Distance Correlation},
-  author        = {Shen, Cencheng and Vogelstein, Joshua T},
-  author+an = {2=highlight},
-  month         ={12},
-  year          ={2019},
-  archivePrefix ={arXiv},
-  primaryClass  ={stat.ML},
-  eprint        ={1912.12150},
-  keywords = {in-review}
-}
-
 @article{perry2019manifold,
  author = {Perry, Ronan and Tomita, Tyler M and Patsolic, Jesse and Falk, Benjamin and Vogelstein, Joshua T},
  author+an = {1=trainee;2=trainee;5=highlight},
@@ -1522,17 +1510,6 @@ keywords = {peer-reviewed}
  title = {Manifold Forests: Closing the Gap on Neural Networks},
  url = {https://arxiv.org/abs/1909.11799},
  year = {2019},
- keywords = {in-review}
- }
-
- @article{panda2020d,
- author = {Panda, Sambit and Palaniappan, Satish and Xiong, Junhao and Bridgeford, Eric and Mehta, Ronak and Shen, Cencheng and Vogelstein, Joshua T},
- author+an = {1=trainee;4=trainee;5=trainee;7=highlight},
- journal = {arXiv},
- month = {3},
- title = {hyppo: A Comprehensive Multivariate Hypothesis Testing Python Package},
- url = {https://arxiv.org/abs/1909.11799},
- year = {2020},
  keywords = {in-review}
  }
 
@@ -1599,17 +1576,6 @@ keywords = {peer-reviewed}
  keywords = {in-review}
 }
 
-@article{mgcpy2019,
- author = {Panda, Sambit and Palaniappan, Satish and Xiong, Junhao and Swaminathan, Ananya and Ramachandran, Sandhya and Bridgeford, Eric W. and Shen, Cencheng and Vogelstein, Joshua T.},
- author+an = {1=trainee;6=trainee;8=highlight},
- journal = {arXiv},
- month = {7},
- title = {mgcpy:A Comprehensive High Dimensional Independence Testing Python Package},
- url = {https://arxiv.org/abs/1907.02088},
- year = {2019},
- keywords = {in-review}
-}
-
 @article{networkinference2019,
  author = {Arroyo, Jesús and Athreya, Avanti and Cape, Joshua and Chen, Guodong and Priebe, Carey E. and Vogelstein, Joshua T.},
  author+an = {1=trainee;6=highlight},
@@ -1634,20 +1600,6 @@ keywords = {peer-reviewed}
  title = {Optimal Experimental Design for Big Data: Applications in Brain Imaging},
  url = {https://doi.org/10.1101/802629},
  year = {2019},
- keywords = {in-review}
-}
-
-
-@article{ShenDecision2018,
- abstract = {Decision forests are popular tools for classification and regression. These forests naturally produce proximity matrices measuring how often each pair of observations lies in the same leaf node. Recently it has been demonstrated that these proximity matrices can be thought of as kernels, connecting the decision forest literature to the extensive kernel machine literature. While other kernels are known to have strong theoretical properties, such as being characteristic kernels, no similar result is available for any decision forest based kernel. We show that a decision forest induced proximity can be made into a characteristic kernel, which can be used within an independence test to obtain a universally consistent test. We therefore empirically evaluate this kernel on a suite of 12 high-dimensional independence test settings: the decision forest induced kernel is shown to typically achieve substantially higher power than other methods.},
- author = {Shen, Cencheng and Vogelstein, Joshua T},
- author+an = {2=highlight},
- journal = {arXiv},
- month = {12},
- publisher = {Cold Spring Harbor Laboratory},
- title = {Decision Forests Induce Characteristic Kernels},
- url = {https://arxiv.org/abs/1812.00029},
- year = {2018},
  keywords = {in-review}
 }
 
@@ -3751,4 +3703,69 @@ keywords = {abspos}
  title = {{Competitive Disinhibition Mediates Behavioral Choice and Sequences in Drosophila}},
  volume = {167},
  year = {2016}
+}
+
+
+@article{pandaHyppoMultivariateHypothesis2021,
+  title = {Hyppo: {{A Multivariate Hypothesis Testing Python Package}}},
+  shorttitle = {Hyppo},
+  author = {Panda, Sambit and Palaniappan, Satish and Xiong, Junhao and Bridgeford, Eric W. and Mehta, Ronak and Shen, Cencheng and Vogelstein, Joshua T.},
+  year = {2021},
+  month = apr,
+  journal = {arXiv:1907.02088 [cs, stat]},
+  eprint = {1907.02088},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  abstract = {We introduce hyppo, a unified library for performing multivariate hypothesis testing, including independence, two-sample, and k-sample testing. While many multivariate independence tests have R packages available, the interfaces are inconsistent and most are not available in Python. hyppo includes many state of the art multivariate testing procedures. The package is easy-to-use and is flexible enough to enable future extensions. The documentation and all releases are available at https://hyppo.neurodata.io.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {in-review},
+}
+
+@article{pandaNonparMANOVAIndependence2021,
+  title = {Nonpar {{MANOVA}} via {{Independence Testing}}},
+  author = {Panda, Sambit and Shen, Cencheng and Perry, Ronan and Zorn, Jelle and Lutz, Antoine and Priebe, Carey E. and Vogelstein, Joshua T.},
+  year = {2021},
+  month = apr,
+  journal = {arXiv:1910.08883 [cs, stat]},
+  eprint = {1910.08883},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  abstract = {The \$k\$-sample testing problem tests whether or not \$k\$ groups of data points are sampled from the same distribution. Multivariate analysis of variance (MANOVA) is currently the gold standard for \$k\$-sample testing but makes strong, often inappropriate, parametric assumptions. Moreover, independence testing and \$k\$-sample testing are tightly related, and there are many nonparametric multivariate independence tests with strong theoretical and empirical properties, including distance correlation (Dcorr) and Hilbert-Schmidt-Independence-Criterion (Hsic). We prove that universally consistent independence tests achieve universally consistent \$k\$-sample testing and that \$k\$-sample statistics like Energy and Maximum Mean Discrepancy (MMD) are exactly equivalent to Dcorr. Empirically evaluating these tests for \$k\$-sample scenarios demonstrates that these nonparametric independence tests typically outperform MANOVA, even for Gaussian distributed settings. Finally, we extend these non-parametric \$k\$-sample testing procedures to perform multiway and multilevel tests. Thus, we illustrate the existence of many theoretically motivated and empirically performant \$k\$-sample tests. A Python package with all independence and k-sample tests called hyppo is available from https://hyppo.neurodata.io/.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {in-review},
+}
+
+@article{shenChiSquareTestDistance2021,
+  title = {The {{Chi}}-{{Square Test}} of {{Distance Correlation}}},
+  author = {Shen, Cencheng and Panda, Sambit and Vogelstein, Joshua T.},
+  year = {2021},
+  month = jun,
+  journal = {Journal of Computational and Graphical Statistics},
+  volume = {0},
+  number = {ja},
+  pages = {1--21},
+  publisher = {{Taylor \& Francis}},
+  issn = {1061-8600},
+  doi = {10.1080/10618600.2021.1938585},
+  abstract = {Distance correlation has gained much recent attention in the data science community: the sample statistic is straightforward to compute and asymptotically equals zero if and only if independence, making it an ideal choice to discover any type of dependency structure given sufficient sample size. One major bottleneck is the testing process: because the null distribution of distance correlation depends on the underlying random variables and metric choice, it typically requires a permutation test to estimate the null and compute the p-value, which is very costly for large amount of data. To overcome the difficulty, in this paper we propose a chi-square test for distance correlation. Method-wise, the chi-square test is non-parametric, extremely fast, and applicable to bias-corrected distance correlation using any strong negative type metric or characteristic kernel. The test exhibits a similar testing power as the standard permutation test, and can be utilized for K-sample and partial testing. Theory-wise, we show that the underlying chi-square distribution well approximates and dominates the limiting null distribution in upper tail, prove the chi-square test can be valid and universally consistent for testing independence, and establish a testing power inequality with respect to the permutation test.},
+  copyright = {All rights reserved},
+  keywords = {peer-review},
+  annotation = {\_eprint: https://doi.org/10.1080/10618600.2021.1938585},
+}
+
+@article{shenLearningInterpretableCharacteristic2020,
+  title = {Learning {{Interpretable Characteristic Kernels}} via {{Decision Forests}}},
+  author = {Shen, Cencheng and Panda, Sambit and Vogelstein, Joshua T.},
+  year = {2020},
+  month = sep,
+  journal = {arXiv:1812.00029 [cs, stat]},
+  eprint = {1812.00029},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  abstract = {Decision forests are popular tools for classification and regression. These forests naturally produce proximity matrices measuring how often each pair of observations lies in the same leaf node. It has been demonstrated that these proximity matrices can be thought of as kernels, connecting the decision forest literature to the extensive kernel machine literature. While other kernels are known to have strong theoretical properties such as being characteristic, no similar result is available for any decision forest based kernel. In this manuscript,we prove that the decision forest induced proximity can be made characteristic, which can be used to yield a universally consistent statistic for testing independence. We demonstrate the performance of the induced kernel on a suite of 20 high-dimensional independence test settings. We also show how this learning kernel offers insights into relative feature importance. The decision forest induced kernel typically achieves substantially higher testing power than existing popular methods in statistical tests.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {in-review},
 }
