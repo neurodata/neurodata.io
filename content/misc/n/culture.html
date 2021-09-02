@@ -5,7 +5,7 @@ $path: /misc/n/culture.html
 ---
 
 <html>
-  <body>
+   <body onload="if (document.referrer == '') self.location='/about/team/'">
     <h3 style="margin-top: 1em;">
       <a href="{{g.url('/content/misc/n/culture_vids.html').path}}">Videos</a>, <a href="{{g.url('/content/misc/n/culture_images.html').path}}">Images</a>
     </h3>
