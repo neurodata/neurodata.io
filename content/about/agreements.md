@@ -141,7 +141,6 @@ Feedback for jovo can be provided directly in the #jovofeedback slack channel, i
 One-on-one meetings with jovo can be scheduled through [Calendly](https://calendly.com/joshuav). 
 
 #### Contacting People Outside the Lab With Questions
-=======
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
   1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
@@ -149,6 +148,15 @@ We agree that contacting people outside the lab with questions is effectively as
   3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
 
 If we do have to ask people outside the lab questions, we agree to make sure to clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask should be about pointing us in the right direction, rather than asking for a time to speak with them.
+
+#### Contributing to Widely Used Open-Source Libraries
+
+We agree to use the following guidelines when contributing code to widely used open-source libraries:
+  1. Ensure that you are a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make your membership status public.
+  2. Preface your issue or devlist email with the following:
+    - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+
+Following these steps will add credibility to your contribution, and make it more likely for your issue to be accepted, and your PR to be reviewed.
 
 ### Regular Activities
 
