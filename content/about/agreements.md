@@ -143,6 +143,7 @@ One-on-one meetings with jovo can be scheduled through [Calendly](https://calend
 #### Contacting People Outside the Lab With Questions
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
+
   1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
   2. Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
   3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
@@ -152,8 +153,10 @@ If we do have to ask people outside the lab questions, we agree to make sure to 
 #### Contributing to Widely Used Open-Source Libraries
 
 We agree to use the following guidelines when contributing code to widely used open-source libraries:
+
   1. Ensure that you are a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make your membership status public.
   2. Preface your issue or devlist email with the following:
+
     - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
 
 Following these steps will add credibility to your contribution, and make it more likely for your issue to be accepted, and your PR to be reviewed.
