@@ -1,5 +1,6 @@
 url: ~
 events:
+
   - authors: Joshua T. Vogelstein, Weiwei Yang, Soledad Villar, Johnathan Flowers, Zenna Tavares, Onyema Osuagwu
     name: Out-of-distribution generalization and adaptation in natural and artificial intelligence
     place: Online
