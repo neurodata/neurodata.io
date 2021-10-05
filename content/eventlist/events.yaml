@@ -1,6 +1,6 @@
 url: ~
 events:
-
+  
   - authors: Joshua T. Vogelstein, Weiwei Yang, Soledad Villar, Johnathan Flowers, Zenna Tavares, Onyema Osuagwu
     name: Out-of-distribution generalization and adaptation in natural and artificial intelligence
     place: Online
@@ -61,7 +61,7 @@ events:
     url: http://brainx.io/
 
   - authors: Eva Dyer, Joshua T. Vogelstein, Konrad Koerding, Jeremy Freeman, Andreas S. Tolias
-    name: BigNeuro 2015: Making sense of big neural data
+    name: BigNeuro 2015 Making sense of big neural data
     place: Palais des Congres de Montreal
     date: Dec. 2015
     url: https://nips.cc/Conferences/2015/Schedule?showEvent=4908
