@@ -1,6 +1,6 @@
 $title: DF/DN
 $order: 1
-name: DF/DN
+$slug: DF/DN
 
 github: "neurodata/rf-dn-paper"
 
