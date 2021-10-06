@@ -14,6 +14,7 @@ manuscripts:
 featured: True
 
 name: Streaming Decision Trees and Forests
+heading: Extending batch trees
 description: Exploring streaming options for decision trees and random forests.
 
 cloud: False
