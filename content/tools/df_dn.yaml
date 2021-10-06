@@ -5,7 +5,7 @@ name: DFDN
 github: "neurodata/rf-dn-paper"
 
 details:
-  - "Conceptual and empirical comparisons between decision forests & deep networks at small sample sizes."
+  - "Conceptual and empirical comparisons between decision forests and deep networks at small sample sizes."
   - "Python code in three data domains: tabular, vision, and audition."
 
 manuscripts:
