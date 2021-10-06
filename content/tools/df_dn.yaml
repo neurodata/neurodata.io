@@ -1,12 +1,11 @@
-$title: DF/DN
+$title: DFDN
 $order: 1
-name: DF/DN
+name: DFDN
 
 github: "neurodata/rf-dn-paper"
 
 details:
   - "Conceptual and empirical comparisons between decision forests & deep networks at small sample sizes."
-  
   - "Python code in three data domains: tabular, vision, and audition."
 
 manuscripts:
