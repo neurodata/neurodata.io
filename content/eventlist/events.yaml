@@ -1,6 +1,13 @@
 url: ~
 events:
   
+  - authors: Joshua T. Vogelstein, Weiwei Yang, Soledad Villar, Johnathan Flowers, Zenna Tavares, Onyema Osuagwu
+    name: Out-of-distribution generalization and adaptation in natural and artificial intelligence
+    place: Online
+    date: December 2021
+    url: https://nips.cc/Conferences/2021/Schedule?showEvent=21852
+    workshop: true
+
   - authors: NSF
     name: "NeuroNex: Building a Research Network for Neuroscience"
     place: Online
@@ -11,7 +18,7 @@ events:
   - authors: Joshua T. Vogelstein
     name: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
     place: Johns Hopkins Mathematical Institute for Data Science
-    date: Feb. 2020.
+    date: Feb. 2020
     url:
 
   - authors: Joshua T. Vogelstein
@@ -47,7 +54,6 @@ events:
     url: http://www.stat.ucla.edu/~akfletcher/brainsbits.html
     workshop: true
 
-
   - authors: Miyoung Chun, Chris Martin, Jim Deshler, Joshua T. Vogelstein, Michael Miller, Richard Huganir, Brett Mensh
     name: Global Brain Workshop
     place: Kavli Neuroscience Discovery Institute and Center for Imaging Science of Johns Hopkins University
@@ -55,7 +61,7 @@ events:
     url: http://brainx.io/
 
   - authors: Eva Dyer, Joshua T. Vogelstein, Konrad Koerding, Jeremy Freeman, Andreas S. Tolias
-    name: NeurIPS
+    name: BigNeuro 2015 Making sense of big neural data
     place: Palais des Congres de Montreal
     date: Dec. 2015
     url: https://nips.cc/Conferences/2015/Schedule?showEvent=4908
