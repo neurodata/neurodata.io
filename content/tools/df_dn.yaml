@@ -1,0 +1,30 @@
+$title: DF/DN
+$order: 1
+name: DF/DN
+
+github: "neurodata/rf-dn-paper"
+
+details:
+  - "Conceptual & empirical comparisons between decision forests & deep networks at small sample sizes."
+  
+  - "Python code in three data domains: tabular, vision, and audition."
+
+manuscripts:
+  - Xu2021rfdn
+  - Priebe2020Vote
+
+featured: True
+
+name: Decision Forests vs. Deep Networks
+heading: Conceptual and empirical
+description: Comparisons of two strategies on three data domains: tabular, vision, and audition.
+
+cloud: False
+local: True
+type: "vectors"
+
+lang:
+  - Python
+
+api:
+press:
