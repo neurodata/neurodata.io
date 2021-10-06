@@ -7,7 +7,7 @@ github: "neurodata/SDTF"
 details:
   - "Exploring streaming options for decision tree and random forests."
   - "Includes two ensemble implementations (Stream Decision Forest and Cascade Stream Forest)."
-  - "Based on scikit-learn fork."
+  - "Based on scikit-learn <a href="https://github.com/neurodata/scikit-learn/tree/stream">fork</a>."
 
 manuscripts:
 
