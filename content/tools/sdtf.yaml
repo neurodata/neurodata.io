@@ -1,6 +1,6 @@
 $title: SDTF
 $order: 2
-name: SDTF
+$slug: SDTF
 
 github: "neurodata/SDTF"
 
@@ -14,7 +14,6 @@ manuscripts:
 featured: True
 
 name: Streaming Decision Trees and Forests
-heading:
 description: Exploring streaming options for decision trees and random forests.
 
 cloud: False
