@@ -6,7 +6,7 @@ github: "neurodata/rf-dn-paper"
 
 details:
   - "Conceptual and empirical comparisons between decision forests and deep networks at small sample sizes."
-  - "Python code in three data domains: tabular, vision, and audition."
+  - "Python code in three data domains (tabular, vision, and audition)."
 
 manuscripts:
   - Xu2021rfdn
@@ -16,7 +16,7 @@ featured: True
 
 name: Decision Forests vs. Deep Networks
 heading: Conceptual and empirical
-description: Comparisons of two strategies on three data domains: tabular, vision, and audition.
+description: Comparisons of two strategies on three data domains (tabular, vision, and audition).
 
 cloud: False
 local: True
