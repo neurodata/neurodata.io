@@ -39,8 +39,7 @@ packages:
       - Python
     download: https://pypi.org/project/lolp/
 heading: Supervised dimensionality reduction
-description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks.
-Currently available in <a href="https://github.com/neurodata/lol">R</a> and <a href="https://github.com/neurodata/lollipop">Python</a>
+description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks. Currently available in <a href="https://github.com/neurodata/lol">R</a> and <a href="https://github.com/neurodata/lollipop">Python</a>
 
 cloud: False
 local: True
