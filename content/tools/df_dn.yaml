@@ -3,7 +3,7 @@ $order: 1
 $slug: DF/DN
 
 github: "neurodata/rf-dn-paper"
-
+docs: "https://github.com/neurodata/rf-dn-paper"
 details:
   - "Conceptual and empirical comparisons between decision forests and deep networks at small sample sizes."
   - "Python code in three data domains (tabular, vision, and audition)."
