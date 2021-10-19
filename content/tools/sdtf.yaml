@@ -11,6 +11,7 @@ details:
   - 'Based on scikit-learn <a href="https://github.com/neurodata/scikit-learn/tree/stream">fork</a>.'
 
 manuscripts:
+  - Xu2021sdtf
 
 featured: True
 
