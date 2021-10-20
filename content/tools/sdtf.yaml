@@ -3,7 +3,7 @@ $order: 2
 $slug: SDTF
 
 github: "neurodata/SDTF"
-docs: "https://github.com/neurodata/SDTF"
+docs: "https://github.com/neurodata/SDTF#readme"
 
 details:
   - 'Exploring streaming options for decision tree and random forests.'
