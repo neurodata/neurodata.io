@@ -8,6 +8,7 @@ subnavs:
 - peer_reviewed
 - conf
 - reports
+- talks
 - other
 
 ---
@@ -31,6 +32,9 @@ subnavs:
     <h6 id="reports">Technical Reports</h6>
     {% with pubs = doc.tech_reports %}
     {% endwith %}
+
+    <h6 id="talks">Talks</h6>
+    {% with pubs = doc.talks %}
 
     <h6 id="other">Other Publications</h6>
     {% with pubs = doc.other %}
