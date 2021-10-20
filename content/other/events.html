@@ -1,5 +1,5 @@
 ---
-$title@: Events 
+$title@: Events
 $order: 1
 ---
 
@@ -32,7 +32,7 @@ $order: 1
   <div class="group">
       <h3>Events</h3>
         <ul>
-        {% for item in g.docs('eventlist')[0].events if not item.workship and not item.hide %}
+        {% for item in g.docs('eventlist')[0].events if (not item.workship) and (not item.hide) %}
                 <li>
                   <p class="authors">
                     {{ item.authors }}
