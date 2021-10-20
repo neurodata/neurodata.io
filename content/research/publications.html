@@ -9,6 +9,7 @@ subnavs:
 - conf
 - reports
 - talks
+- posters
 - other
 
 ---
@@ -34,6 +35,10 @@ subnavs:
     {% endwith %}
 
     <h6 id="talks">Talks</h6>
+    {% with pubs = doc.talks %}
+    {% endwith %}
+
+    <h6 id="posters">Posters</h6>
     {% with pubs = doc.talks %}
     {% endwith %}
 
