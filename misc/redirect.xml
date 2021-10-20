@@ -166,7 +166,7 @@
   </RoutingRule>
   <RoutingRule>
     <Condition>
-      <KeyPrefixEquals>tools/mgc</KeyPrefixEquals>
+      <KeyPrefixEquals>tools/hyppo</KeyPrefixEquals>
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
@@ -342,7 +342,7 @@
   </RoutingRule>
   <RoutingRule>
     <Condition>
-      <KeyPrefixEquals>mgc</KeyPrefixEquals>
+      <KeyPrefixEquals>hyppo</KeyPrefixEquals>
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>

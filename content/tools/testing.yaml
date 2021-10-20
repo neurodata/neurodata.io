@@ -1,25 +1,26 @@
-$title: Multiscale Graph Correlation
-$slug: MGC
+$title: hyppo
+$slug: hyppo
 $order: 1
 
-name: MGC
+name: hyppo
 heading: Non-parametric hypothesis testing
-description: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data.
+description: Algorithms, including Multiscale Graph Correlation (MGC), for performing universally consistent testing on high-dimensional and non-Euclidean data.
 
-github: "neurodata/mgc"
-docs: "https://mgc.neurodata.io"
-installation: "https://mgc.neurodata.io/install.html"
-examples: "https://mgc.neurodata.io/tutorials.html"
+github: "neurodata/hyppo"
+docs: "https://hyppo.neurodata.io"
+installation: "https://hyppo.neurodata.io/install.html"
+examples: "https://hyppo.neurodata.io/tutorials.html"
 
 slides: 
 - header: "mgc"
   link: "https://neurodata.io/talks/mgc.html"
 
 details:
-  - 'Multiscale Graph Correlation (MGC, pronounced "magic") is a nonparametric approach for independence and k-sample testing. The MGC framework has been extended to include approaches for reliability and reproducibility, including <a href="https://github.com/neurodata/r-mgc#reproducibility">Discriminability</a>.'
+  - 'hyppo (HYPothesis testing in PythOn, pronounced "hippo") is a Python library containing state-of-the-art algorithms for performing multivariate hypothesis tests. It is open-source and released under the MIT license.'
 
-  - 'Currently available in <a href="https://github.com/neurodata/mgc">Python</a>, with many other standard independence and k-sample tests included.  Development versions in both R (<a href="https://github.com/neurodata/r-mgc
-">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC.'
+  - 'Currently available in <a href="https://github.com/neurodata/hyppo">Python</a>,  Development versions in both R (<a href="https://github.com/neurodata/r-mgc
+">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC. hyppo was formerly known as mgcpy.'
+
   - 'Manuscript reproduction for the Discriminability paper can be found at <a href="https://github.com/neurodata/r-mgc#reproducibility">Discriminability Reproduction</a>.'
 
 manuscripts:
@@ -31,7 +32,10 @@ manuscripts:
   - lee2017
   - shen2016discovering
   - francca2017kernel
-  - graphindependence2019
+  - pandaHyppoMultivariateHypothesis2021
+  - pandaNonparMANOVAIndependence2021
+  - shenChiSquareTestDistance2021
+  - shenLearningInterpretableCharacteristic2020
 
 featured: True
 
@@ -41,11 +45,11 @@ packages:
     lang:
       - R
     docker: https://hub.docker.com/r/neurodata/mgc/
-  - name: "mgcpy"
-    github: "neurodata/mgc"
+  - name: "hyppo"
+    github: "neurodata/hyppo"
     lang:
       - Python
-    docs: https://mgcpy.readthedocs.io/en/latest/
+    docs: https://hyppo.neurodata.io/
   - name: "mgc-matlab"
     github: "neurodata/mgc-matlab"
     lang:
