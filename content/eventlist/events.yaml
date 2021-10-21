@@ -19,31 +19,17 @@ workshops:
     date: March 2019
     url: https://brainx3.io/
 
-  - authors: Eva Dyer, Gregory Kiar, Will Gray Roncal, Alan C. Evans, Konrad P. Kording, Joshua T. Vogelstein
-    name: BigNeuro Workshop at NIPS
-    place: Long Beach Convention Center, California
-    date: Dec. 2017
-    url: http://evadyer.github.io/NIPS-bigneuro-2017.html
-
-  - authors: Eva Dyer, Allie Fletcher, Konrad Kording, Jascha Sohl-Dickstein, Joshua T. Vogelstein, Jakob Macke
-    name: "Brains and Bits: Neuroscience Meets Machine Learning"
-    place: Barcelona, Spain
-    date: Dec. 2016
-    url: http://www.stat.ucla.edu/~akfletcher/brainsbits.html
-
-others:
-
-  - authors: Joshua T. Vogelstein
-    name: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
-    place: Johns Hopkins Mathematical Institute for Data Science
-    date: Feb. 2020
-    url:
-
   - authors: Joshua T. Vogelstein
     name: NeuroData Workshop
     place: Kavli Hub North, Johns Hopkins University
     date: Aug. 2019
     url: https://neurodata.devpost.com/
+
+  - authors: Eva Dyer, Gregory Kiar, Will Gray Roncal, Alan C. Evans, Konrad P. Kording, Joshua T. Vogelstein
+    name: BigNeuro Workshop at NIPS
+    place: Long Beach Convention Center, California
+    date: Dec. 2017
+    url: http://evadyer.github.io/NIPS-bigneuro-2017.html
 
   - authors: Joshua T. Vogelstein
     name: "Neurostorm: Accelerating Brain Science Discovery in the Cloud"
@@ -57,13 +43,25 @@ others:
     date: April 2016
     url: http://brainx.io/
 
+  - authors: Eva Dyer, Allie Fletcher, Konrad Kording, Jascha Sohl-Dickstein, Joshua T. Vogelstein, Jakob Macke
+    name: "Brains and Bits: Neuroscience Meets Machine Learning"
+    place: Barcelona, Spain
+    date: Dec. 2016
+    url: http://www.stat.ucla.edu/~akfletcher/brainsbits.html
+
   - authors: Eva Dyer, Joshua T. Vogelstein, Konrad Koerding, Jeremy Freeman, Andreas S. Tolias
     name: BigNeuro 2015 Making sense of big neural data
     place: Palais des Congres de Montreal
     date: Dec. 2015
     url: https://nips.cc/Conferences/2015/Schedule?showEvent=4908
 
+others:
 
+  - authors: Joshua T. Vogelstein
+    name: "Lifelong Learning: Moving Beyond Avoiding Catastrophic Forgetting"
+    place: Johns Hopkins Mathematical Institute for Data Science
+    date: Feb. 2020
+    url:
 
   # Test of workshop items
   - authors: Ross
