@@ -13,7 +13,7 @@ details:
   - For docs on using these tools and an overview of what they are, see our <a href="{{doc.docs.path}}">docs</a>
 
 github:
-docs: !g.url /content/guides/overview.html
+docs: https://neurodata.io/help/overview/
 installation:
 examples:
 

@@ -1,0 +1,63 @@
+$title: hyppo
+$slug: hyppo
+$order: 1
+
+name: hyppo
+heading: Non-parametric hypothesis testing
+description: Algorithms, including Multiscale Graph Correlation (MGC), for performing universally consistent testing on high-dimensional and non-Euclidean data.
+
+github: "neurodata/hyppo"
+docs: "https://hyppo.neurodata.io"
+installation: "https://hyppo.neurodata.io/install.html"
+examples: "https://hyppo.neurodata.io/tutorials.html"
+
+slides: 
+- header: "mgc"
+  link: "https://neurodata.io/talks/mgc.html"
+
+details:
+  - 'hyppo (HYPothesis testing in PythOn, pronounced "hippo") is a Python library containing state-of-the-art algorithms for performing multivariate hypothesis tests. It is open-source and released under the MIT license.'
+
+  - 'Currently available in <a href="https://github.com/neurodata/hyppo">Python</a>,  Development versions in both R (<a href="https://github.com/neurodata/r-mgc
+">github</a> and <a href="https://cran.r-project.org/web/packages/mgc/">CRAN</a>) and <a href="https://github.com/neurodata/mgc-matlab">MATLAB</a> support only MGC. hyppo was formerly known as mgcpy.'
+
+  - 'Manuscript reproduction for the Discriminability paper can be found at <a href="https://github.com/neurodata/r-mgc#reproducibility">Discriminability Reproduction</a>.'
+
+manuscripts:
+  - bridgeford2019
+  - mehta2019
+  - Vogelstein2018equivalence
+  - Wang2018
+  - Shen2018
+  - lee2017
+  - shen2016discovering
+  - francca2017kernel
+  - pandaHyppoMultivariateHypothesis2021
+  - pandaNonparMANOVAIndependence2021
+  - shenChiSquareTestDistance2021
+  - shenLearningInterpretableCharacteristic2020
+
+featured: True
+
+packages:
+  - name: "MGC-R"
+    github: neurodata/mgc-r
+    lang:
+      - R
+    docker: https://hub.docker.com/r/neurodata/mgc/
+  - name: "hyppo"
+    github: "neurodata/hyppo"
+    lang:
+      - Python
+    docs: https://hyppo.neurodata.io/
+  - name: "mgc-matlab"
+    github: "neurodata/mgc-matlab"
+    lang:
+      - Matlab
+
+cloud: False
+local: True
+type: "vectors"
+
+api:
+press:

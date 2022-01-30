@@ -22,11 +22,44 @@ view: /views/research.html
                 <p>{{item.description}}</p>
                 </li>
             {% endfor %}
-            <li><h6><a href="https://cloudreg.neurodata.io/">reg (Image registration)</a></h6>
+            <li><h6><a href="https://cloudreg.neurodata.io/">CloudReg (Image registration)</a></h6>
             <p>Performs non-linear affine and deformable image registration</p></li>
+            <li><h6><a href="https://proglearn.neurodata.io/">ProgLearn (Omnidirectional Learning)</a></h6>
+            <p>Implements and explores omnidirectional algorithms for lifelong learning</p></li>
         </ul>
     </div>
 
+    <div class="group">
+        <h3>Open-Source Contributions</h3>
+        <ul>
+            <li><h6><a href="https://docs.scipy.org/doc/scipy/">SciPy</a></h6>
+                <p><a href="https://docs.scipy.org/doc/scipy/reference/reference/generated/scipy.optimize.quadratic_assignment.html">quadratic_assignment()</a>:
+                    added FAQ, state of the art algorithm for solving quadratic assignment problem.</p>
+
+                <p><a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multiscale_graphcorr.html">multiscale_graphcorr()</a>:
+                    added mgc, a state of the art method for hypothesis testing we developed in the lab.</p>
+            </li>
+            <li><h6><a href="https://igraph.org/">igraph</a></h6>
+                <p> Added spectral clustering functionality</p>
+            </li>
+            <li><h6><a href="https://github.com/seung-lab/cloud-volume">cloud-volume</a></h6>
+                <p>Added support for additional file types</p>
+            </li>
+            <li><h6><a href="https://fcp-indi.github.io/">C-PAC</a></h6>
+                <p>Added streamlined reproducible pipeline</p>
+            </li>
+            <li><h6><a href="https://github.com/google/neuroglancer">neuroglancer</a></h6>
+                <p>Added multispectral support to enable light microscopy data use</p>
+            </li>
+            <li><h6><a href="https://github.com/saalfeldlab/render">render</a></h6>
+                <p>Added cloud support</p>
+            </li>
+            <li><h6><a href="https://pyts.readthedocs.io/en/stable/generated/pyts.transformation.BOSS.html">boss</a></h6>
+                <p>Developed core functionality</p>
+            </li>
+        </ul>
+    </div>
+    
     <div class="group">
         <h3>Others</h3>
         {% for item in g.docs('tools', order_by='name')|sort(attribute='name', case_sensitive=false) if not item.featured and not item.hide %}

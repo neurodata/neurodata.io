@@ -6,14 +6,14 @@ $order: 5
 [TOC]
 
 
-We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values.  They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, official JHU policies, including:
+We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values. They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, official JHU policies, including:
 1. The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 2. JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 3. [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
 
 
-Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core agreements, and Jovo commits to the supervisor commitments vis-a-vis you.  In other words, failure to comply with the core agreements is sufficient grounds to find other opportunities for you that do not involve being a member of the lab.  There is no judgement associated with not adhering to these agreements, though they are for everyone in the *lab*, they are not for everyone in the *world*. 
+Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core agreements, and Jovo commits to the supervisor commitments vis-a-vis you. In other words, failure to comply with the core agreements is sufficient grounds to find other opportunities for you that do not involve being a member of the lab. There is no judgement associated with not adhering to these agreements, though they are for everyone in the *lab*, they are not for everyone in the *world*. 
 
 
 ### Core Agreements
@@ -22,13 +22,13 @@ Joining the lab, which is made official by signing documents with JHU where JHU 
 
 We agree to focus the majority of our [energy](http://a.co/aPrBEkq) to research and to be present during [typical working hours](#daily-presence). Specifically, this means we will not schedule regularly recurring non-research activities (such as social engagements, sports, or other hobbies) during typical working hours, except for dealing with your dependents, PI/co-advisor organized events, or other explicit exceptions. We will also not invest more energy in extra-curricular activities than we do on research. 
 
-And, if the lab's projects are not sufficient for you, in one way or another, it is totally ok to work on non-lab stuff. If you find yourself in that situation, consider talking to labmates and/or jovo to make sure you are getting satisfaction.  
+And, if the lab's projects are not sufficient for you, in one way or another, it is totally ok to work on non-lab stuff. If you find yourself in that situation, consider talking to labmates and/or jovo to make sure you are getting satisfaction.
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
 We agree to focus our research on projects that we are maximally intrinsically motivated to complete, are likely to be successful given our resources, and are mission critical. 
 
-In the context of each of our research goals, we may have many different interests.  The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve machine and animal intelligences, worldwide</b>. The research projects that we primarily work on, while on the NeuroData team, satisfy the following three criteria:
+In the context of each of our research goals, we may have many different interests. The mission of NeuroData, as stated in our [mission statement](https://neurodata.io/about/), <b>is to understand and improve machine and animal intelligences, worldwide</b>. The research projects that we primarily work on, while on the NeuroData team, satisfy the following three criteria:
 
 1. the project is highly significant with respect to our mission,
 2. given my current resources, my estimate of the probability that I can satisfactorily complete this project is high (which includes shooting for the stars and landing on the moon, or even a gently rolling hill; but excludes shooting for the stars and crashing into the ocean), and
@@ -38,33 +38,33 @@ If I were more motivated to work on some other problem outside the purview of th
 
 #### Focus
 
-We agree to focus on 2 projects, unless otherwise negotiated.  In general, each project should take about 1 year to complete and is complete when the manuscript is published in a journal/conference.  One project is the main focus that we are actively working, the other is more exploratory, that will lead to a similarly large project in the following year. Individual variation is possible with suitable justification.
+We agree to focus on 2 projects, unless otherwise negotiated. In general, each project should take about 1 year to complete and is complete when the manuscript is published in a journal/conference. One project is the main focus that we are actively working, the other is more exploratory, that will lead to a similarly large project in the following year. Individual variation is possible with suitable justification.
 
 #### Open & Reproducible Science
 
-We will conduct our work using the highest open and reproducible science standards.  This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process.  No later than the week of submitting a manuscript, it will be posted to  pre-print server.  Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence).  This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc.  All repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) will be maintained according to [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
+We will conduct our work using the highest open and reproducible science standards. This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process. No later than the week of submitting a manuscript, it will be posted to pre-print server. Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence). This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc. All repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) will be maintained according to [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
 
-Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content.  Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests.  After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
+Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content. Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests. After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
-Prompt feedback is critical both for producing a quality manuscript and for sustaining forward movement on a project.  Our lab-internal one-week feedback policy is intended to keep projects moving forward *AND* solicit the necessary feedback to produce high-quality papers.  Importantly, this is only an expectation NeuroData members have agreed to meet.  When NeuroData members are the first and/or last authors of a manuscript, consider requesting your collaborators also adhere to this lab policy.  When a NeuroData member is a middle author on an outside group's manuscript, proactively request to review any drafts prior to submission and promise feedback in no more than one week.  If a shorter timeline is required, try to be as accommodating as possible.  As individuals and as a lab, it is our professional responsibility to know what is in a manuscript that carries our names, so it is appropriate to request that co-authors share final manuscripts with us prior to submission.
+Prompt feedback is critical both for producing a quality manuscript and for sustaining forward movement on a project. Our lab-internal one-week feedback policy is intended to keep projects moving forward *AND* solicit the necessary feedback to produce high-quality papers. Importantly, this is only an expectation NeuroData members have agreed to meet. When NeuroData members are the first and/or last authors of a manuscript, consider requesting your collaborators also adhere to this lab policy. When a NeuroData member is a middle author on an outside group's manuscript, proactively request to review any drafts prior to submission and promise feedback in no more than one week. If a shorter timeline is required, try to be as accommodating as possible. As individuals and as a lab, it is our professional responsibility to know what is in a manuscript that carries our names, so it is appropriate to request that co-authors share final manuscripts with us prior to submission.
 
 #### Paper writing
 
-When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite jovo to it and make him owner so that compilation goes faster and we can track changes.  If a collaborator demands google docs for some reason, and we are not senior authors, then we will have to acquiese to their wishes.  In general, when anybody gives feedback on the paper, make sure track changes is on.  I recommend giving feedback via the following convention: 
+When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite jovo to it and make him owner so that compilation goes faster and we can track changes. If a collaborator demands google docs for some reason, and we are not senior authors, then we will have to acquiese to their wishes. In general, when anybody gives feedback on the paper, make sure track changes is on. I recommend giving feedback via the following convention: 
 
 % TODO blah blah ---jovo
 
-This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app).  When feedback is provided, it is important to address every single comment *in the text itself*.  Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand.  Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares.   
+This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). When feedback is provided, it is important to address every single comment *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
 
 #### Cloud computing
 
-Everyone is welcome to use either AWS or Azure as desired.  Currently, we have free Azure credits, so that is the preference.  For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/).  Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should not run any code that runs overnight without verifying the code is correct. It must be run on small parameters/dataset, and a figure must be generated on that small run which needs to be approved by the PI.
+Everyone is welcome to use either AWS or Azure as desired. Currently, we have free Azure credits, so that is the preference. For AWS, if you want to use it, the prerequisite is writing a [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should not run any code that runs overnight without verifying the code is correct. It must be run on small parameters/dataset, and a figure must be generated on that small run which needs to be approved by the PI.
 
 
 
 #### Buddies 
 
-We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee.  Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+We agree that when we reach a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee. Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
 #### Collaboration
 
@@ -80,16 +80,17 @@ We endeavor to provide a safe and welcoming community for BIPOC, URM, LGBTQ+, st
 - accomodating student needs so that they feel safe in lab and on campus
 - connecting student with relevant affinity groups on campus
 
-To support this goal we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., Safe Zone Training).  Our purpose in attending diversity training is to gain knowledge and skills we can use to provide a maximally welcoming and productive lab environment for people of all backgrounds.  We hope to convey our commitment to this type of inclusive environment by outwardly displaying lab members' completion of such training on the lab website. 
+To support this goal we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., Safe Zone Training). Our purpose in attending diversity training is to gain knowledge and skills we can use to provide a maximally welcoming and productive lab environment for people of all backgrounds. We hope to convey our commitment to this type of inclusive environment by outwardly displaying lab members' completion of such training on the lab website. 
 
 #### Respect
 
 We agree to provide a harrassment-free experience for everyone (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), regardless of the following:
-age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.  
-Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
-We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not be worn when interacting with lab members or representing the lab in any capacity.
-We also agree to avoid using profane language in public comments, code, or PRs.   
+age, disability, physical appearance, body size, race, ethnicity, nationality, sex, sexual orientation, gender identity and expression, religion, technical/biological experience.
 
+Sexual language and imagery is not appropriate. <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">Racial microaggressions</a> are not appropriate. We agree to this conduct for any NeuroData sanctioned event/activity, including: hackathons, presentations, workshops, social gatherings, social media, or any other online media.
+
+We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not be worn when interacting with lab members or representing the lab in any capacity.
+We also agree to avoid using profane language in public comments, code, or PRs.
 
 (Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
 
@@ -97,7 +98,7 @@ We also agree to avoid using profane language in public comments, code, or PRs.
 
 #### Radical Honesty and Safety
 
-We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback.  While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open fashion.
+We agree to speak with one another honestly (see below for a description of "impeccable agreements"), while at the same time maintaining [psychological safety](http://www.businessinsider.com/google-spent-years-studying-effective-teams-this-is-what-they-found-2018-1) (to [avoid crises](https://qz.com/1039957/the-ultimate-case-against-using-shame-as-a-management-tactic/?mc_cid=c51790d677&mc_eid=a41acedced)) for all team members at all times. This means feeling comfortable both providing and receiving honest critical feedback. While "feeling comfortable" is not something that we can commit to, we agree to strive to communicate with one another in a fully open fashion.
 
 #### Lab Spaces are Brave Spaces
 
@@ -120,13 +121,13 @@ Nobody is perfect, and we will work with each other to make our work environment
 
 #### Frequent Productive Feedback
 
-We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.  
+We agree to provide our supervisors and our supervisees with open, reliable, insight into our experience of our work and work environment. To give a concrete example, we agree that if we feel unduely stressed for any reason (including non-work related reasons, such as having a difficult time sleeping one night), we agree to tell the supervisor the *next day*.
 
-Before even starting a conversation, consider the other person's perspective and current state of mind.  There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long.  About one day later seems about right for most things.  Then, the general flow of the conversation would go like this:
+Before even starting a conversation, consider the other person's perspective and current state of mind. There are times that each of us is more or less receptive to feedback, and there is therefore a balance of finding the right time, but not waiting too long. About one day later seems about right for most things. Then, the general flow of the conversation would go like this:
 
   1. State the facts, e.g., "I failed to sleep"
-  2. *Speculate* about the causes, e.g.,  "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date".
-  3. Inquire about the other side of the story, e.g.,  "what do you think is going on".
+  2. *Speculate* about the causes, e.g., "which I believe is largely because I don't believe I'll be ready with the deliverable by the agreed upon date".
+  3. Inquire about the other side of the story, e.g., "what do you think is going on".
   4. End the meeting with a concrete change, e.g., a change in perspective or a change in behavior.
 
 Some links that might be useful to understand best practices for giving and receiving feedback include
@@ -137,15 +138,34 @@ Some links that might be useful to understand best practices for giving and rece
 - [9 tips for giving feedback](https://www.15five.com/blog/9-ways-to-give-effective-employee-feedback/)
 
 Feedback for jovo can be provided directly in the #jovofeedback slack channel, including anonymous feedback.
-
 One-on-one meetings with jovo can be scheduled through [Calendly](https://calendly.com/joshuav). 
 
+#### Contacting People Outside the Lab With Questions
+
+We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
+
+  1. Consider what it would take for us to solve our problem (this means searching the literature, exploring and writing code, reading books, etc).
+  2. Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
+  3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
+
+If we do have to ask people outside the lab questions, we agree to make sure to clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask should be about pointing us in the right direction, rather than asking for a time to speak with them.
+
+#### Contributing to Widely Used Open-Source Libraries
+
+We agree to use the following guidelines when contributing code to widely used open-source libraries:
+
+  1. Ensure that you are a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make your membership status public.
+  2. Preface your issue or devlist email with the following:
+
+    - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+
+Following these steps will add credibility to your contribution, and make it more likely for your issue to be accepted, and your PR to be reviewed.
 
 ### Regular Activities
 
 #### Daily Presence
 
-Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab (or active online if campus is closed and university is open). Our experience dictates that in person communication and happenstance meetings can dramatically increase our productivity.  At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far).  The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
+Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab (or active online if campus is closed and university is open). Our experience dictates that in person communication and happenstance meetings can dramatically increase our productivity. At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far). The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
 
 - Work 40 hours per week, approximately 50 weeks per year, on our two primary research projects.
 - Conduct at least half of one's daily work during typical hours (approximately 10am to 6pm Eastern Time, Monday to Friday on all days JHU is open).
@@ -159,7 +179,7 @@ Any day that JHU is open, unless otherwise specified, we agree to be physically 
 
 Your most valuable resource while on this team is the team itself.
 
-We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring family responsibilities overruling research priorities.  This includes:  impending grants, conferences, or other internally/externally imposed deadline.
+We agree that in the rare event that a supervisor requests your presence in the lab for a particular time/day, we will make our best efforts to be there, barring family responsibilities overruling research priorities. This includes: impending grants, conferences, or other internally/externally imposed deadline.
 
 #### Regular Sub-Group Meetings
 
@@ -174,17 +194,18 @@ Every team member is expected to attend at least one of these regular meetings.
 To facilitate achieving & documenting these goals, we each agree to the following for each meeting:
 
 - Work 40 hrs on these goals, leaving time for other interesting stuff as it comes up.
+- Document research artifacts from past week goals in the [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0), research artifacts can be anything like screenshots, plots that are good enough for the meeting attendees to give feedback on
 - Arrive on time
 - Update [slides](https://docs.google.com/presentation/d/1oh12uzdPy-jnxozpedrtm6hROyZNiUZKd0M7bC8So20/edit#slide=id.g87d304a7ac_1_0) for each first author publication you have worked on for the week.
 - Listen and provide constructive feedback to your teammates as appropriate
 
-Each week we ideally  move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
+Each week we ideally move "next week" to "last week", and color code each element on the basis of whether it was completed (green), partially completed (yellow), or not even started (red), or something else (blue).
 
 
 #### Weekly Lab Meetings
 
 
-So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to  **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time.  Each of us will present about 2x / year, depending on the size of the team.  Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat. Team members can sign up for a slot [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
+So we all get a more broad view of team activities, we agree to have 1 hour for informal talks, Q&A, and lunch all weeks that JHU is open (including summers, unless otherwise specified). We agree to **practice** before getting in front of 10-20 people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time. Each of us will present about 2x / year, depending on the size of the team. Swapping dates with other lab members will be allowed whenever it is mutually agreed upon. New lab members will be added to the beginning of the queue when they join, and will be required to present their life story while wearing a funny hat. Team members can sign up for a slot [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
 
 
 #### Annual Group Hangouts
@@ -205,9 +226,9 @@ We agree to annual reviews, to document goals and assess trajectory, by filling 
 
 We agree to annually review and update this Agreements document at the end of June.
 
-#### Research Artefacts 
+#### Research Artifacts 
 
-We  agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.  
+We agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.
 
 ##### Publications
 
@@ -218,7 +239,7 @@ We  agree to the contributing to the following research artifacts, depending on 
 
 ##### Conferences
 
-Each team member will present at >=1 conference per year to get feedback, network, and professional development.  Any conferences one desires to attend is fine, conditional on
+Each team member will present at >=1 conference per year to get feedback, network, and professional development. Any conferences one desires to attend is fine, conditional on
 
 - applying to present your work via some mechanism (posters, talks, or boothing), and
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
@@ -226,34 +247,41 @@ Each team member will present at >=1 conference per year to get feedback, networ
 
 ##### Grants
 
-Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance.  Anybody using "extensive" commercial cloud computing (>$1,000/month) is expected to write a AWS Research credits grant at least annually for <$10,000.  If your PI is writing a grant and request a figure/table/text/etc., it becomes the absolute top priority, including over and above impending journal/conference/workshop submission deadlines, unless otherwise agreed upon. 
+Each postdoc will apply for funding each year, targeting a solicitation >2 months in advance. Anybody using "extensive" commercial cloud computing (>$1,000/month) is expected to write a AWS Research credits grant at least annually for <$10,000. If your PI is writing a grant and request a figure/table/text/etc., it becomes the absolute top priority, including over and above impending journal/conference/workshop submission deadlines, unless otherwise agreed upon. 
 
 ##### Research Priorities
 
-In general, the research priority, for any student, is to be working towards writing a paper within the year.  Other priorities include preparing for conferences where you are presenting.  And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency.  In general, prioritize what is most important, rather than most urgent.  However, deadlines with dates are infrequent, and typically strict.  In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority.  Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
+In general, the research priority, for any student, is to be working towards writing a paper within the year. Other priorities include preparing for conferences where you are presenting. And then your PI may have other more immediate responsibilities to attend to, and may ask you to produce a figure/result/etc. with some urgency. In general, prioritize what is most important, rather than most urgent. However, deadlines with dates are infrequent, and typically strict. In other words, if we have an impending deadline, agreeing to it means that all research associated with that product is the top priority. Thus, unless otherwise stated, if a PI asks you to produce *x*, interpret that as the most urgent and top priority.
 
 
 #### Departure Agreements
 
-Three months prior to departure, make a 'transition' plan, wherein the technical expertise you have acquired in the lab is transferred to at least one individual in the lab.  This includes, 
+Three months prior to departure, make a 'transition' plan, wherein the technical expertise you have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If you have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on you;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the corresponding author. 
 
 #### Authorship Agreements
 
-Typically, the person actually submitting the paper is the first author.  This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.  
+Typically, the person actually submitting the paper is the first author. This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
+
+#### Communication
+
+1. The primary ways for a NeuroData family member to contact jovo will be scheduling 1-on-1 meetings on [calendly](https://calendly.com/joshuav) or directly in the NeuroData calendar, or direct messages on Slack and text
+2. If someone needs to get feedback on a figure from jovo, they are encouraged to mention him in the respective subgroup channel for the paper. This allows for feedback from not only jovo, but other members of the subgroup.
+3. 1-on-1 meetings are highly encouraged as a way to get feedback, for questions about long-term/career guidance, etc.
+4. Adminstrative tasks or general questions can be asked during the "recess" time (3-3:30 daily). These kinds of questions are likely not urgent, so if someone misses a certain time, they will be able to ask the next day.
 
 
 ### Other Kinds of Agreements
 
 #### Supervisor Agreements
 
-1. Supporting everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months.  At the end of that experiment, we will collectively decide whether the agreements have been met.  The decision will ideally be unambigous. 
+1. Supporting everybody that meets these agreements. In the event it seems to me that you are not meeting these agreements, I will discuss with you and make a plan with you to get you back to meeting these agreements. This plan will have a timelines of at least one month, and up to three months. At the end of that experiment, we will collectively decide whether the agreements have been met. The decision will ideally be unambigous. 
 2. Prioritizing your personal and professional success over everything else in my life after my family & career.
 3. Receive annual feedback from all members of the team with an open mind, as well as completing my annual feedback.
 4. [Sharpening my saw](https://www.stephencovey.com/7habits/7habits-habit7.php) regularly.
 5. Upon receiving a draft, it is the top priority, modulo more urgent paper/grant deadlines.
-6. Have ~monthly check-in meeting (if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
+6. Have check-in meeting (as needed if requested by NeuroData family member) to facilitate more long-term/career guidance, check alignment between personal and team goals in terms of quarterly, annual, and career goals, and re-align as appropriate. 
 7. Seeking to maintain lab diversity writ large, including age, seniority, intellectual interests and background, sex, ethnicity, race, country of origin, ability, etc.
 
 
@@ -270,7 +298,7 @@ Videoconference technology can make it especially hard for deaf, hard of hearing
 
 #### Regenerative Breaks
 
-While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts.  Therefore, some of us will strive to take them on a daily basis. 
+While we do not necessarily agree to this, some evidence suggests that early afternoon breaks are beneficial, especially those that involve being outside, getting blood flowing, and switching cognitive contexts. Therefore, some of us will strive to take them on a daily basis. 
 
 
 
@@ -298,8 +326,8 @@ On this team, we agree that all our agreements to be impeccable. When we make an
     - If for whatever reason an agreement is not met, only take 100% responsibility.
     - Do not take responsibility for other people’s actions.
     - Make sure nobody else is on your critical path for any agreements that you make.
-  
-####  Recommended Reading on Mentorship and Imposter Syndrome
+
+#### Recommended Reading on Mentorship and Imposter Syndrome
 
 Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
 
@@ -313,8 +341,11 @@ The following resources are recommended to all lab members, especially to those 
 Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
 
 - Weekly lab meeting: Ross
-- Weekly journal club: Pedigo (starting 1st day of classes)
 - Semi-annual social events: Ronan
 - Semi-annual no-jovo meetings: Ali SE 
 - Annual lab trip: Sambit
 - Getting diversity interns: Tommy
+
+### Birthday Privileges
+On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously breakout into an enthusiastic chicken dance at their command.
+

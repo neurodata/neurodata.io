@@ -166,7 +166,7 @@
   </RoutingRule>
   <RoutingRule>
     <Condition>
-      <KeyPrefixEquals>tools/mgc</KeyPrefixEquals>
+      <KeyPrefixEquals>tools/hyppo</KeyPrefixEquals>
       <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
     </Condition>
     <Redirect>
@@ -316,6 +316,39 @@
       <HostName>neurodata.io</HostName>
       <Protocol>https</Protocol>
       <ReplaceKeyWith>data/kharris15/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>graspy</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>graphs/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>sporf</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>forests/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>hyppo</KeyPrefixEquals>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <HostName>neurodata.io</HostName>
+      <Protocol>https</Protocol>
+      <ReplaceKeyWith>testing/</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
 </RoutingRules>
