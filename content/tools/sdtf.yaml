@@ -1,0 +1,30 @@
+$title: SDTF
+$order: 2
+$slug: SDTF
+
+github: "neurodata/SDTF"
+docs: "https://sdtf.neurodata.io"
+
+details:
+  - 'Exploring streaming options for decision tree and random forests.'
+  - 'Includes two ensemble implementations (Stream Decision Forest and Cascade Stream Forest).'
+  - 'Based on scikit-learn <a href="https://github.com/neurodata/scikit-learn/tree/stream">fork</a>.'
+
+manuscripts:
+  - Xu2021sdtf
+
+featured: True
+
+name: Streaming Decision Trees and Forests
+heading: Extending batch trees
+description: Exploring streaming options for decision trees and random forests.
+
+cloud: False
+local: True
+type: "vectors"
+
+lang:
+  - Python
+
+api:
+press:

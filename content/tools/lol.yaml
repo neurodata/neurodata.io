@@ -4,6 +4,7 @@ $order: 2
 name: LOL
 
 github: "neurodata/lol"
+docs: "https://github.com/neurodata/lol"
 installation: "https://github.com/neurodata/lol#installation-guide"
 examples: "https://github.com/neurodata/lol#demo"
 
@@ -38,7 +39,7 @@ packages:
       - Python
     download: https://pypi.org/project/lolp/
 heading: Supervised dimensionality reduction
-description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
+description: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks.
 
 cloud: False
 local: True

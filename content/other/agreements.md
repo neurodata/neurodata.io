@@ -281,6 +281,6 @@ Certain agreements require a member of the lab to commit to be an organizer. Eac
 - Weekly lab meeting: Ross
 - Weekly journal club: Pedigo (starting 1st day of classes)
 - Semi-annual social events: Ronan
-- Semi-annual no-jovo meetings: Ali SE 
+- Semi-annual NoJoVo meetings: Pedigo
 - Annual lab trip: Sambit
 - Getting diversity interns: Tommy

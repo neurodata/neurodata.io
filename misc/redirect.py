@@ -31,7 +31,7 @@ redirects = [
     ['graph-services/download', 'project/connectomes/'],
     ['catmaid', 'data/'],
     ['Kasthurietal2014', 'data/kasthuri15/'],
-    ['tools/mgc', 'tools/'],
+    ['tools/hyppo', 'tools/'],
     ['access', 'help/download/'],
     ['help/access', 'help/download/'],
     ['project/projectomes', 'mri/'],
@@ -44,7 +44,10 @@ redirects = [
     ['about/conduct', 'about/agreements/#respect'],
     ['rerf', 'sporf/'],
     ['mri-cloud', 'mri/'],
-    ['kharris15', 'data/kharris15/']
+    ['kharris15', 'data/kharris15/'],
+    ['graspy', 'graphs/'],
+    ['sporf', 'forests/'],
+    ['hyppo', 'testing/']
 ]
 
 
