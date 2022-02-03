@@ -236,6 +236,7 @@ We agree to the contributing to the following research artifacts, depending on t
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
 
+> We fully support and encourage including quotes in our papers; and, we aspire to include quotes from individuals with diverse backgrounds who live(d) the highest moral standards and serve as role models for us.
 
 ##### Conferences
 
