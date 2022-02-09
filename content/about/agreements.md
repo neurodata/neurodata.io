@@ -236,6 +236,7 @@ We agree to the contributing to the following research artifacts, depending on t
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
 
+> Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers; and, we aspire to include quotes from individuals with diverse backgrounds who live(d) the highest moral standards and serve as role models for us. At the same time, we acknowledge that quotes can come across as an endorsement of the personal life of the author. Therefore, quotes should be carefully chosen and considered by all authors of a paper.
 
 ##### Conferences
 
