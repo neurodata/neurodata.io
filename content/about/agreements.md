@@ -345,7 +345,7 @@ Certain agreements require a member of the lab to commit to be an organizer. Eac
 - Semi-annual social events: Ronan
 - Semi-annual no-jovo meetings: Ali SE 
 - Annual lab trip: Sambit
-- Getting diversity interns: Tommy
+- Internship outreach and management: Tommy
 
 ### Birthday Privileges
 On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously breakout into an enthusiastic chicken dance at their command.
