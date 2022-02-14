@@ -16,9 +16,15 @@
         <div class="color"></div>
     {% endif %}
     {% if item.usera and render_positions %}
-    <span class="ids position"> 
-        {{item.userw}}
-    </span>
+        {% if item.userw %}
+        <span class="ids position"> 
+            {{item.userw}}
+        </span>
+        {% else %}
+        <span class="ids position"> 
+            {{item.usera}}
+        </span>
+        {% endif %}
     {% endif %}
     <div class="overlay">
         <div class="contact clearfix">
