@@ -236,6 +236,7 @@ We agree to the contributing to the following research artifacts, depending on t
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
 
+> Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers; and, we aspire to include quotes from individuals with diverse backgrounds who live(d) the highest moral standards and serve as role models for us. At the same time, we acknowledge that quotes can come across as an endorsement of the personal life of the author. Therefore, quotes should be carefully chosen and considered by all authors of a paper.
 
 ##### Conferences
 
@@ -344,7 +345,7 @@ Certain agreements require a member of the lab to commit to be an organizer. Eac
 - Semi-annual social events: Ronan
 - Semi-annual no-jovo meetings: Ali SE 
 - Annual lab trip: Sambit
-- Getting diversity interns: Tommy
+- Internship outreach and management: Tommy
 
 ### Birthday Privileges
 On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously breakout into an enthusiastic chicken dance at their command.
