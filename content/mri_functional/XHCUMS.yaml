@@ -10,3 +10,7 @@ func: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/XHCUMS/ndmg_0-0
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/XHCUMS/ndmg_0-0-1f/qa/
 ver: 0.0.1f
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/xhcums_1.html
+
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/XHCUMS-11-27-20-m2g-func/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/XHCUMS-11-27-20-m2g-func/XHCUMS_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Functional/XHCUMS-11-27-20-m2g-func .

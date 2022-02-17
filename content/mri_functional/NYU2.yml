@@ -1,0 +1,7 @@
+name: NYU2
+csv: https://www.nitrc.org/frs/downloadlink.php/6738
+ver: N/A
+link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/nyu_2.html
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/NYU_2-11-27-20-m2g-func/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/NYU_2-11-27-20-m2g-func/NYU2_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Functional/NYU_2-11-27-20-m2g-func .

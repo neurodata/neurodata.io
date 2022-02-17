@@ -101,6 +101,10 @@ related_papers:
   </div>
 
     <h3>Explore</h3>
+    <p>Links to the most recent collections of connectomes for each of the datasets below can be downloaded using the <code>Download</code> button. This will download a zipped folder containing
+    all connectomes from the given dataset. There is also a link to explore all files related to the processing of each dataset using m2g. With this you can explore the directory structure
+    and download individual files. The datasets are stored on the open-neurodata aws bucket, which supports more detailed downloading using aws-cli.</p>
+
     <div class="table">
         <h3 id="dmri">Diffusion MRI</h3>
         <table>
@@ -117,24 +121,15 @@ related_papers:
                         <td><a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a></td>
                         <td><a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a></td>
                         <td class="item">
-                            <button class="collapsible">Expand</button>
-                            <div class="processed">
-                                {% if data.reg_dti %}
-                                <a href="{{data.reg_dti}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
+                                {% if data.connectomes %}
+                                <a href="{{data.connectomes}}" target="_blank" rel="noopener" class="button">Download Connectomes</a>
                                 {% endif %}
-                                {% if data.tensors %}
-                                <a href="{{data.tensors}}" target="_blank" rel="noopener" class="button">Tensors</a>
+                                {% if data.tree %}
+                                <a href="{{data.tree}}" target="_blank" rel="noopener" class="button">File Tree</a>
                                 {% endif %}
-                                {% if data.fibers %}
-                                <a href="{{data.fibers}}" target="_blank" rel="noopener" class="button">Fibers</a>
+                                {% if data.aws %}
+                                <a href="" target="_blank" rel="noopener" class="button button1"><code>{{data.aws}} </code></a>
                                 {% endif %}
-                                {% if data.graphs %}
-                                <a href="{{data.graphs}}" target="_blank" rel="noopener" class="button">Graphs</a>
-                                {% endif %}
-                                {% if data.qa %}
-                                <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
-                                {% endif %}
-                            </div>
                           </td>
                         <td style="text-align: center">
                             <a href="https://github.com/neurodata/m2g/tree/v{{data.ver}}" target="_blank" rel="noopener" class="button">v{{data.ver}}</a>
@@ -161,27 +156,15 @@ related_papers:
                         <td><a href="{{data.link}}" target="_blank" rel="noopener">{{data.name}}</a></td>
                         <td><a href="{{data.csv}}" target="_blank" rel="noopener">[@csv]</a></td>
                         <td class="item">
-                            <button class="collapsible">Expand</button>
-                            <div class="processed">
-                                {% if data.preproc %}
-                                <a href="{{data.preproc}}" target="_blank" rel="noopener" class="button">Preprocessed Images</a>
-                                {% endif %}
-                                {% if data.registered%}
-                                <a href="{{data.registered}}" target="_blank" rel="noopener" class="button">Aligned Images</a>
-                                {% endif %}
-                                {% if data.clean %}
-                                <a href="{{data.clean}}" target="_blank" rel="noopener" class="button">Cleaned Images</a>
-                                {% endif %}
-                                {% if data.roi_timeseries %}
-                                <a href="{{data.roi_timeseries}}" target="_blank" rel="noopener" class="button">ROI Timeseries</a>
-                                {% endif %}
-                                {% if data.connectomes %}
-                                <a href="{{data.connectomes}}" target="_blank" rel="noopener" class="button">Graphs</a>
-                                {% endif %}
-                                {% if data.qa %}
-                                <a href="{{data.qa}}" target="_blank" rel="noopener" class="button">QA</a>
-                                {% endif %}
-                            </div>
+                          {% if data.connectomes %}
+                          <a href="{{data.connectomes}}" target="_blank" rel="noopener" class="button">Download Connectomes</a>
+                          {% endif %}
+                          {% if data.tree %}
+                          <a href="{{data.tree}}" target="_blank" rel="noopener" class="button">File Tree</a>
+                          {% endif %}
+                          {% if data.aws %}
+                          <a href="" target="_blank" rel="noopener" class="button button1"><code>{{data.aws}} </code></a>
+                          {% endif %}
                         </td>
                         <td style="text-align: right">
                             <a href="https://github.com/neurodata/m2g/tree/staging-dmri-fmri" target="_blank" rel="noopener" class="button">v{{data.ver}}</a>
