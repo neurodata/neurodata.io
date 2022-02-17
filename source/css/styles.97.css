@@ -2803,6 +2803,7 @@ blockquote {
 
 .detail-wrap .list_pubs ol>li:before {
     content: counter(item) '.';
+    content: attr(value) '.';
     display: inline-block;
     font-weight: bold;
     padding-right: .5rem;
@@ -3771,6 +3772,73 @@ blockquote {
   font-family: "Quadon Regular", Rockwell, serif;
 }
 
+.person-details {
+  float: right;
+  text-align: right;
+}
+.person-wrap h2 {
+  padding-top: 100px;
+}
+.person-wrap {
+  display: block;
+}
+.person-photo {
+  display: none;
+}
+@media screen {
+  .person-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .person-photo {
+    order: 2;
+    display: block;
+  }
+  .person-wrap h2 {
+    order: 0;
+    width: 100%;
+    padding-top: 0;
+  }
+  .person-wrap .person-details {
+    order: 1;
+    flex-grow: 1;
+    text-align: left;
+  }
+  .detail-wrap h3 {
+    margin: 60px 0 30px;
+  }
+  .detail-wrap h2 {
+    margin: 90px 0 60px;
+  }
+}
+
+
+
+@font-face {
+  font-family: "Utopia";
+  src: url(../fonts/utopia/utopia-regular.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Utopia";
+  src: url(../fonts/utopia/utopia-boldosf.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Utopia";
+  src: url(../fonts/utopia/utopia-italic.otf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Utopia";
+  src: url(../fonts/utopia/utopia-bolditalicosf.otf);
+  font-weight: 700;
+  font-style: italic;
+}
 .only-print {
   display: none !important;
 }
@@ -3788,14 +3856,14 @@ body.person-detail .more-info p {
   body.person-detail {
     height: auto;
     margin: 0;
-    font-size: 8pt;
+    font-size: 10pt;
   }
   body.person-detail .cv-container h2 {
-    margin-top: 10pt;
-    font-size: 24pt;
+    margin-top: 12pt;
+    font-size: 30pt;
   }
   body.person-detail .detail-wrap {
-    padding: 10pt;
+    padding: 12pt;
   }
   html {
     background: white;
@@ -3803,6 +3871,9 @@ body.person-detail .more-info p {
   }
   .only-print {
     display: block !important;
+  }
+  .no-print {
+    display: none !important;
   }
   body.person-detail {
     background: white;
@@ -3865,6 +3936,9 @@ body.person-detail .more-info p {
   .cv-item li {
     position: relative;
   }
+  .cv-item .position {
+    font-weight: bold;
+  }
   .cv-item li p {
     margin: 3px 0;
   }
@@ -3889,4 +3963,23 @@ body.person-detail .more-info p {
     height: 0;
     border-top: 5pt solid #3873b2;
   }
+  .print-head {
+    text-align: right;
+  }
+  body, h2, h3, h4 {
+    font-family: "Utopia";
+    text-transform: none;
+  }
 }
+
+
+.cv-item li {
+  position: relative;
+}
+.cv-item .date {
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
