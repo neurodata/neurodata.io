@@ -118,8 +118,66 @@ def load_members(bibfile):
 
     return bib_entries
 
+def auth_formatted(authors):
+    """format the authors in intials. last name
+    e.g. J. V. Vogelstein
+    """
 
-def auth_formatted(authors, highlights):
+    auths_format = []
+    for author in authors:
+        names = author.split(", ")
+        last = names[0]
+        if last[0] == "{" and last[-1] == "}":
+            last = last[1:-1]
+        initials = []
+        if len(names) > 1:
+            for n in names[1].split(" "):
+                if len(n) > 1:
+                    initials += n[0] + ". "
+                else:
+                    initials += n + ". "
+        full_name_format = "".join(initials) + last
+        auths_format.append(full_name_format)
+
+    return auths_format
+
+
+def all_authors(bib_entry):
+    authors = bib_entry["author"].split(" and ")
+
+    auths_format = auth_formatted(authors)
+
+    return auths_format
+
+
+def all_authors_annotated(bib_entry):
+    authors = bib_entry["author"].split(" and ")
+    auths_format = auth_formatted(authors)
+
+    an_entries = bib_entry.get("author+an", None)
+
+    if an_entries is not None:
+        an_entries_list = an_entries.split(";")
+        for an_entry in an_entries_list:
+            an_parts = an_entry.split("=")
+            an_id = int(an_parts[0]) - 1
+            an_type = an_parts[1]
+            cur_auth = auths_format[an_id]
+            if an_type == "highlight":
+                auths_format[an_id] = '<span class="font-bold">' + cur_auth + '</span>'
+            elif an_type == "trainee":
+                auths_format[an_id] = '<span class="italic">' + cur_auth + '</span>'
+    return auths_format
+
+def print_authors(bib_entry):
+    authors = bib_entry["author"].split(" and ")
+
+    auths_format = auth_formatted(authors)
+
+
+### ---------------------- FUNCTIONS FOR JOVO's CV in HTML ---------------------------------
+
+def auth_formatted_jovo(authors, highlights):
     """format the authors in intials. last name
     e.g. J. V. Vogelstein
     """
@@ -145,34 +203,34 @@ def auth_formatted(authors, highlights):
                 else:
                     initials += n + ". "
         full_name_format = "".join(initials) + last
-        # if hl2[len(auths_format)+1] == u"highlight":
-        #   full_name_format = "<strong>" + full_name_format + "</strong>"
-        # if hl2[len(auths_format)+1] == u"trainee":
-        #   full_name_format = "<u>" + full_name_format + "</u>"
+        if hl2[len(auths_format)+1] == u"highlight":
+            full_name_format = "<strong>" + full_name_format + "</strong>"
+        if hl2[len(auths_format)+1] == u"trainee":
+            full_name_format = "<u>" + full_name_format + "</u>"
         auths_format.append(full_name_format)
 
     return auths_format
 
 
-def all_authors(bib_entry):
+def all_authors_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
       authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
       authors_an = []
 
-    auths_format = auth_formatted(authors, authors_an)
+    auths_format = auth_formatted_jovo(authors, authors_an)
 
     return auths_format
 
 
-def all_authors_annotated(bib_entry):
+def all_authors_annotated_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
       authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
       authors_an = []
-    auths_format = auth_formatted(authors, authors_an)
+    auths_format = auth_formatted_jovo(authors, authors_an)
 
     an_entries = bib_entry.get("author+an", None)
 
@@ -192,14 +250,14 @@ def all_authors_annotated(bib_entry):
     return auths_format
 
 
-def print_authors(bib_entry):
+def print_authors_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
       authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
       authors_an = []
 
-    auths_format = auth_formatted(authors, authors_an)
+    auths_format = auth_formatted_jovo(authors, authors_an)
 
     # return et al if # of auths_format > 3
     if len(auths_format) > 3:
@@ -209,6 +267,9 @@ def print_authors(bib_entry):
     else:
         return u"{} and {}.".format(", ".join(auths_format[0:-1]), auths_format[-1])
 
+
+
+### ------------------------------------------------------------------------------------
 
 def print_link(bib_entry):
     if "doi" in bib_entry:
@@ -338,6 +399,9 @@ class BIBTEX_PRINT(Extension):
         super(BIBTEX_PRINT, self).__init__(environment)
         environment.filters["load_bibtex"] = load_bibtex
         environment.filters["load_members"] = load_members
+        environment.filters["all_authors_jovo"] = all_authors_jovo
+        environment.filters["all_authors_annotated_jovo"] = all_authors_annotated_jovo
+        environment.filters["print_authors_jovo"] = print_authors_jovo
         environment.filters["all_authors"] = all_authors
         environment.filters["all_authors_annotated"] = all_authors_annotated
         environment.filters["print_authors"] = print_authors
