@@ -12,7 +12,6 @@ env/
 extensions/*
 !extensions/sorting/
 !extensions/sorting/*
-!extensions/bibtex_print/*
 routescache.json
 .pytest_cache
 .grow

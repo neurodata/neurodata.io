@@ -48,7 +48,7 @@ deployments:
 
 extensions:
   jinja2:
-    # - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
+    - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
     - extensions.sorting.sorting.SortByIndex
 
 ext:
