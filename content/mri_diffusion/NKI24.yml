@@ -1,12 +1,12 @@
-name: NKIENH
+name: NKI24
 fibers: http://mrneurodata.s3-website-us-east-1.amazonaws.com/NKIENH/ndmg_0-0-48/fibers/
 graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/NKIENH/ndmg_0-0-48/graphs/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/NKIENH/ndmg_0-0-48/qa/
 reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/NKIENH/ndmg_0-0-48/reg_dti/
 tensors: http://mrneurodata.s3-website-us-east-1.amazonaws.com/NKIENH/ndmg_0-0-48/tensors/
 ver: 0.0.48
-link: http://fcon_1000.projects.nitrc.org/indi/enhanced/
+link: 
 
-tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/NKIENH-11-01-20-m2g-native-csa-det/
-connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/NKIENH-11-01-20-m2g-native-csa-det/NKIENH_Connectomes.zip
-aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/NKIENH-11-01-20-m2g-native-csa-det .
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/NKI24-11-01-20-m2g-native-csa-det/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/NKI24-11-01-20-m2g-native-csa-det/NKI24_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/NKI24-11-01-20-m2g-native-csa-det .

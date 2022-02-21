@@ -1,0 +1,7 @@
+name: ABIDEII-BNI_1
+csv: http://fcon_1000.projects.nitrc.org/indi/abide/scan_params/ABIDEII-BNI_1_scantable.pdf
+ver: N/A
+link: http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/ABIDEII-BNI_1-8-27-20-m2g-native-csa-det/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/ABIDEII-BNI_1-8-27-20-m2g-native-csa-det/ABIDEII-BNI_1_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/ABIDEII-BNI_1-8-27-20-m2g-native-csa-det .
