@@ -145,10 +145,10 @@ def auth_formatted(authors, highlights):
                 else:
                     initials += n + ". "
         full_name_format = "".join(initials) + last
-        if hl2[len(auths_format)+1] == u"highlight":
-          full_name_format = "<strong>" + full_name_format + "</strong>"
-        if hl2[len(auths_format)+1] == u"trainee":
-          full_name_format = "<u>" + full_name_format + "</u>"
+        # if hl2[len(auths_format)+1] == u"highlight":
+        #   full_name_format = "<strong>" + full_name_format + "</strong>"
+        # if hl2[len(auths_format)+1] == u"trainee":
+        #   full_name_format = "<u>" + full_name_format + "</u>"
         auths_format.append(full_name_format)
 
     return auths_format
