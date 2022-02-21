@@ -894,7 +894,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -915,7 +915,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -936,7 +936,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -957,7 +957,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -978,7 +978,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -999,7 +999,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -1060,7 +1060,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
@@ -1081,7 +1081,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
@@ -1102,7 +1102,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>In {{item.address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
