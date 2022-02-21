@@ -72,10 +72,13 @@ def mo_co(mo):
     try:
         return(int(mo))
     except:
-        return MONTH_CONVERT[mo]
+        try:
+            return MONTH_CONVERT[mo]
+        except:
+            return(0)
 
 
-def load_bibtex(bibfile):
+def load_bibtex(bibfile, keyword=""):
 
     parser = BibTexParser()
     parser.ignore_nonstandard_types = False
@@ -84,6 +87,8 @@ def load_bibtex(bibfile):
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
 
     bib_entries = bib_database.entries
+    if keyword != "":
+      bib_entries = list(filter(lambda x: x["keywords"] == keyword, bib_entries))
 
     bib_entries.sort(key=lambda x: x.get("author", ""))
     bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
@@ -114,10 +119,17 @@ def load_members(bibfile):
     return bib_entries
 
 
-def auth_formatted(authors):
+def auth_formatted(authors, highlights):
     """format the authors in intials. last name
     e.g. J. V. Vogelstein
     """
+    hl2=[u""]*100
+    for hl in highlights:
+      try:
+        hlindex, hltype=hl.split("=", 2)
+        hl2[int(hlindex)]=hltype
+      except:
+        pass
 
     auths_format = []
     for author in authors:
@@ -133,6 +145,10 @@ def auth_formatted(authors):
                 else:
                     initials += n + ". "
         full_name_format = "".join(initials) + last
+        # if hl2[len(auths_format)+1] == u"highlight":
+        #   full_name_format = "<strong>" + full_name_format + "</strong>"
+        # if hl2[len(auths_format)+1] == u"trainee":
+        #   full_name_format = "<u>" + full_name_format + "</u>"
         auths_format.append(full_name_format)
 
     return auths_format
@@ -140,15 +156,23 @@ def auth_formatted(authors):
 
 def all_authors(bib_entry):
     authors = bib_entry["author"].split(" and ")
+    if "author+an" in bib_entry:
+      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+    else:
+      authors_an = []
 
-    auths_format = auth_formatted(authors)
+    auths_format = auth_formatted(authors, authors_an)
 
     return auths_format
 
 
 def all_authors_annotated(bib_entry):
     authors = bib_entry["author"].split(" and ")
-    auths_format = auth_formatted(authors)
+    if "author+an" in bib_entry:
+      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+    else:
+      authors_an = []
+    auths_format = auth_formatted(authors, authors_an)
 
     an_entries = bib_entry.get("author+an", None)
 
@@ -170,8 +194,12 @@ def all_authors_annotated(bib_entry):
 
 def print_authors(bib_entry):
     authors = bib_entry["author"].split(" and ")
+    if "author+an" in bib_entry:
+      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+    else:
+      authors_an = []
 
-    auths_format = auth_formatted(authors)
+    auths_format = auth_formatted(authors, authors_an)
 
     # return et al if # of auths_format > 3
     if len(auths_format) > 3:
@@ -289,6 +317,21 @@ def print_abstract(bib_entry):
         abstract = abstract[1:-1]
     return abstract
 
+def print_month(bib_entry):
+    try:
+      month=mo_co(bib_entry.get("month", ""));
+      months=["", "Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.",
+              "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
+      return months[month];
+    except:
+      return ""
+
+def print_price(price):
+    try:
+      return price.replace("\\$", "$")
+    except:
+      return ""
+
 
 class BIBTEX_PRINT(Extension):
     def __init__(self, environment):
@@ -309,3 +352,5 @@ class BIBTEX_PRINT(Extension):
         environment.filters["print_userd"] = print_userd
         environment.filters["print_series"] = print_series
         environment.filters["print_abstract"] = print_abstract
+        environment.filters["print_month"] = print_month
+        environment.filters["print_price"] = print_price
