@@ -7,7 +7,7 @@ roi_timeseries: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/IPCAS
 anat: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/IPCAS1/ndmg_0-0-1f/anat/
 func: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/IPCAS1/ndmg_0-0-1f/func/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/IPCAS1/ndmg_0-0-1f/qa/
-ver: 0.0.1f
+ver: 0.3.0
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/ipcas_1.html
 
 tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/IPCAS1-11-27-20-m2g-func/

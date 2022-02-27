@@ -1,6 +1,6 @@
 name: IPCAS4
 csv: http://mrneurodata.s3-website-us-east-1.amazonaws.com/data/fmri/covariates/IPCAS4_phenotypic_data.csv
-ver: n/a
+ver: 0.3.0
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/ipcas_4.html
 
 tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/IPCAS4-11-27-20-m2g-func/

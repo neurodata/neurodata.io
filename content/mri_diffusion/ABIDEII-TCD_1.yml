@@ -1,6 +1,6 @@
 name: ABIDEII-TCD_1
 csv: http://fcon_1000.projects.nitrc.org/indi/abide/scan_params/ABIDEII-TCD_1_scantable.pdf
-ver: N/A
+ver: 0.3.0
 link: http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html
 tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/ABIDEII-TCD_1-11-01-20-m2g-native-csa-det/
 connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/ABIDEII-TCD_1-11-01-20-m2g-native-csa-det/ABIDEII-TCD_1_Connectomes.zip

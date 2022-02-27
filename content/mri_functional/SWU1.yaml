@@ -7,7 +7,7 @@ roi_timeseries: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU1/
 anat: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU1/ndmg_0-0-1f/anat/
 func: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU1/ndmg_0-0-1f/func/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU1/ndmg_0-0-1f/qa/
-ver: 0.0.1f
+ver: 0.3.0
 
 # new stuff
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/swu_1.html
