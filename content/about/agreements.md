@@ -181,7 +181,7 @@ In addition to any JHU/SOM requirements, lab members will receive COVID-19 testi
 
 "Travel" loosely means leaving your normal routine in such a way that you were at above-normal risk of exposure.  Examples include planes, trains, and buses to places with elevated risk or even to local events with elevated risks (e.g., high density events like concerts, Baltimore City Jail holding cell, State of the Union address).  The onus is on the individual to assess their recent activities and proactively seek out testing when a high likelihood of exposure existed.  Enumerating all the situations that do/do not impose a "travel" testing requirement is not possible.
 
-Any lab member who receives a **positive test** is expected to quarantine for five days before reentering the lab.  During this period, any lab members who may have been exposed may opt to work remotely for the same five days.  In-person meetings will shift to virtual as needed, but the meeting schedule will be maintained whenever possible.
+Any lab member who receives a **positive test** is expected to quarantine for five days and then only reenter the lab after symptoms have subsided.  During this period, any lab members who may have been exposed may opt to work remotely for the same five days.  In-person meetings will shift to virtual as needed, but the meeting schedule will be maintained whenever possible.
 
 ##### Transparency
 
