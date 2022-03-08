@@ -1,20 +1,22 @@
 ---
-$title@: Agreements
+$title@: Commitments & Agreements
 $order: 5
 ---
 
 [TOC]
 
+> COMMITMENT: A value we hold and abide by.
+> AGREEMENT: A specific action that we will perform as stated. 
 
-We, the NeuroData Family, each agree to all of the below commitments. These agreements are designed to facilitate succeeding at our mission while in alignment with our values. They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these agreements *augment*, and therefore do not replace, official JHU policies, including:
+The below commitments and agreements are designed to facilitate each of us individually and collectively succeeding at our mission while in mind, body, spirit alignment. They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these commitments and agreements *augment*, and therefore do not replace, official JHU policies, including:
 
 1. The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 2. JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 3. [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
 
+Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments and agreements.  If any individual is not acting in a fashion that is consistent with the NeuroData family commitments or agreements, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments and agreements, or supporting them to find an opportunity that is more supportive of them).
 
-Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core agreements, and Jovo commits to the supervisor commitments vis-a-vis you. In other words, failure to comply with the core agreements is sufficient grounds to motivate finding other opportunities for you that do not involve being a member of the lab. There is no judgement associated with not adhering to these agreements, though they are for everyone in the *lab*, they are not for everyone in the *world*. 
 
 
 ## Jovo 
@@ -40,7 +42,7 @@ At various times, this will translate into me being a:
 
 This commitment includes me *not* being any of the following:
 
-    1. victim: in which I fail to take responsibility for my part in any individual outcome,
+    1. victim: in which I fail to take responsibility for my part of outcomes,
     1. villain: in which I blame others for various outcomes,
     2. hero: in which I seek temporary relief, rather than empowerment.  
 
