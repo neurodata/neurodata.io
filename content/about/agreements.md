@@ -22,15 +22,15 @@ Joining the lab, which is made official by signing documents with JHU where JHU 
 
 For everybody in the [NeuroData family](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
 
-> 1. I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of the NeuroData family to flow in, and expand, your individual and collective flourishing.  
+> I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of the NeuroData family to flow in, and expand, your individual and collective flourishing.  
  
 Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves, thus I commit to support you in *your* definition of flourishing and collective, not mine. 
 
-> 2. I commit to providing the financial resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, etc.  
-> 
-> Note that additional fees never effect your salary.
+> I commit to providing the financial resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, etc.  
 
-> 3. I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and human being.  
+Note that additional fees never effect your salary.
+
+> I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and human being.  
 
 At various times, this will translate into me being a:
 
@@ -39,11 +39,12 @@ At various times, this will translate into me being a:
     3. creator: in which I co-create with you to manifest our desired outcomes. 
 
 This commitment includes me *not* being any of the following:
+
     1. victim: in which I fail to take responsibility for my part in any individual outcome,
     1. villain: in which I blame others for various outcomes,
     2. hero: in which I seek temporary relief, rather than empowerment.  
 
-> 4. I commit to maintaining lab diversity writ large, including age, seniority, intellectual interests and background, sex, sexual/romantic orientation, gender, ethnicity, race, country of origin, ability, etc.
+> I commit to maintaining lab diversity writ large, including age, seniority, intellectual interests and background, sex, sexual/romantic orientation, gender, ethnicity, race, country of origin, ability, etc.
 
 
 ### Agreements
