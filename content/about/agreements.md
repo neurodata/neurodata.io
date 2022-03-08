@@ -163,6 +163,30 @@ Following these steps will add credibility to your contribution, and make it mor
 
 ### Regular Activities
 
+#### COVID-19 Expectations
+
+As a baseline, the lab will follow JHU's COVID-19 policies.  These policies continue to evolve, and the lab policies will evolve accordingly with the exception of the specific additional measures outlined below (which will be explicitly revised by the lab as needed).
+
+##### Symptoms
+
+If you are experiencing any symptoms that may or may not be caused by a COVID-19 infection, your labmates' expectation is that you will stay home to prevent spreading an illness to others.  Use your best judgment to decide whether to come to lab if you know your symptoms are from something other than a contagious disease (e.g., seasonal allergies).  If you believe there is any chance you have contracted COVID-19, you are expected to get tested.
+
+##### Testing Requirements Following Travel/Symptoms/Exposure
+
+In addition to any JHU/SOM requirements, lab members will receive COVID-19 testing through Hopkins (to facilitate quickly receiving high quality testing and appropriate notifications):
+
+* as soon as possible upon exhibiting COVID-19 symptoms,
+* as near as possible to five days following exposure to an individual who reports a positive test for COVID-19, and
+* as near as possible to five days following travel.
+
+"Travel" loosely means leaving your normal routine in such a way that you were at above-normal risk of exposure.  Examples include planes, trains, and buses to places with elevated risk or even to local events with elevated risks (e.g., high density events like concerts, Baltimore City Jail holding cell, State of the Union address).  The onus is on the individual to assess their recent activities and proactively seek out testing when a high likelihood of exposure existed.  Enumerating all the situations that do/do not impose a "travel" testing requirement is not possible.
+
+Any lab member who receives a **positive test** is expected to quarantine for five days and then only reenter the lab after symptoms have subsided.  During this period, any lab members who may have been exposed may opt to work remotely for the same five days.  In-person meetings will shift to virtual as needed, but the meeting schedule will be maintained whenever possible.
+
+##### Transparency
+
+The intent of this COVID-19 policy is to help all lab members make informed decisions about when they will feel comfortable working in the lab.  Accordingly, reporting symptoms and test results to the group is important.  When a potential COVID-19 exposure has been reported in the lab, Jong will initiate a Slack poll to identify other lab members who require testing.  Jong will follow up with individuals to obtain the results of all tests and inform the broader lab population as needed.
+
 #### Daily Presence
 
 Any day that JHU is open, unless otherwise specified, we agree to be physically at the lab (or active online if campus is closed and university is open). Our experience dictates that in person communication and happenstance meetings can dramatically increase our productivity. At the same time, many of us need some time to think or write in quiet, often in isolation. Therefore, we have found that a balance of the two is optimal for everyone (so far). The particular distribution of time alone vs. with the team is idiosyncratic per person. To respect the individual with the goals of the team we each agree:
