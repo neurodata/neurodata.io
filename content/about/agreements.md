@@ -5,8 +5,6 @@ $order: 5
 
 [TOC]
 
-> COMMITMENT: A value we hold and abide by.
-> AGREEMENT: A specific action that we will perform as stated. 
 
 The below commitments and agreements are designed to facilitate each of us individually and collectively succeeding at our mission while in mind, body, spirit alignment. They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these commitments and agreements *augment*, and therefore do not replace, official JHU policies, including:
 
@@ -18,21 +16,35 @@ The below commitments and agreements are designed to facilitate each of us indiv
 Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments and agreements.  If any individual is not acting in a fashion that is consistent with the NeuroData family commitments or agreements, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments and agreements, or supporting them to find an opportunity that is more supportive of them).
 
 
+The expectation is that each of us meet all of these commitments 90% of the time.  
+
+In the event it seems that anybody in NeuroData is not in aligment with these agreements, Jovo will candidly and compassionate share his perspective with you, owning his part and acknowledging all stories and feelings as such.  Such conversations may lead to changes in perspectives, behaviors, and roles for all relevant stakeholders. 
+
+
+
+
+> COMMITMENT: A value we hold and abide by.
+
+> AGREEMENT: A specific action that we will perform as stated. 
+
+
 
 ## Jovo 
 ### Commitments 
 
-For everybody in the [NeuroData family](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
+For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
 
-> I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of the NeuroData family to flow in, and expand, your individual and collective flourishing.  
+> I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
  
 Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves, thus I commit to support you in *your* definition of flourishing and collective, not mine. 
 
 > I commit to providing the financial resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, etc.  
 
-Note that additional fees never effect your salary.
+1. Other fees never effect your salary.
+2. I will spend at least 1 hour per week in person with each PhD student every week, except for weeks that I am traveling, or the week is short due to academic calendar days off, or a disease/family emergency. 
 
-> I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and human being.  
+
+> I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
 
 At various times, this will translate into me being a:
 
@@ -46,34 +58,40 @@ This commitment includes me *not* being any of the following:
     1. villain: in which I blame others for various outcomes,
     2. hero: in which I seek temporary relief, rather than empowerment.  
 
-> I commit to maintaining lab diversity writ large, including age, seniority, intellectual interests and background, sex, sexual/romantic orientation, gender, ethnicity, race, country of origin, ability, etc.
+> I commit to maintaining lab diversity. 
 
 
-### Agreements
-
-2. I will spend at least 1 hour per week with each PhD student every week, except for weeks that I am traveling, or the week is short due to academic calendar days off. 
-
-1. In the event it seems to me that you are not meeting our agreements, I will candidly and compassionate share my perspective with you, owning my part and acknowledging all stories and feelings as such.  Such conversations may lead to changes in both of our perspectives, behaviors, and roles. 
-
-I expect to meet all of these commitments 90% of the time.  I hope that whenever I fail to meet any of these commitments in any way, that you share your perspective with me, so that I may learn and grow from your perspective, no matter what it is. 
+Specifically, this includes actively recruiting lab members at all levels, specifically including individuals with various sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy,  disability, physical appearance, body size, race, ethnicity, nationality, religion, political views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identities.  
 
 
-## NeuroData Family
 
-The following commitments and agreements apply to all current members of the [NeuroData family](https://neurodata.io/about/team/), Jovo included
+> I commit to modeling the way
+
+These means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
+
+> I commit to seek, gather, appreciate, and learn from feedback.
+
+
+
+I hope that whenever I fail to meet any of these commitments in any way, that you share your perspective with me, so that I may learn and grow from your perspective, no matter what it is. 
+
+
+## NeuroData 
+
+The following commitments and agreements apply to all current members of  [NeuroData](https://neurodata.io/about/team/), Jovo included
 
 ### Commitments
 
 #### Genius
 
-> I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a single project in my  [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zone of genius.
+> I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a few projects in my  [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zone of genius.
 
-The overlap condition ensures that Jovo can provide appropriate support and guidance, as otherwise, he is not within his zone of genius. Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
+Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
 
 #### Maximally Intrinsically Motivated for Successful Mission Critical Research
 
-> I commit to focus my primary research project on work that I am intrinsically motivated to complete, and given our time, energy, expertise, and other resources. I commit to focusing on a project that I estimate is likely to be successful and impactful with regard to our mission. 
+> I commit to focus my primary research project(s) on work that I am intrinsically motivated to complete, and given our time, energy, expertise, and other resources. I commit to focusing on a project that I estimate is likely to be successful and impactful with regard to our mission. 
 
 See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, each project should take about 1 year to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
 
@@ -183,9 +201,15 @@ Nobody is perfect, and we will work with each other to make our work environment
 
 #### Feedback
 
-> I commit to providing authentic feedback about my experience of them, while owning my projections and my responsibility for co-creating this situation. I commit to sharing feedback directly to the people with whom I have an issue or concern, and encouraging others to talk directly to people with whom they have an issue or concern.
+> I commit to seeking, gathering, appreciating, and learning from feedback. I commit authentically and consciously sharing feedback. 
 
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is commonly best practice to provide such feedback in private. 
+All data we get in the world is feedback for us, and so the opportunity to learn and grow from each interaction is ever present.  *Receiving* feedback with curiousity and openness, however, can often be a challenge.  Similarly, providing explicit feedback to others can also be a challenge, partially because you may not want to offend them, partially because we are not trained to offer or receive feedback consciously.  
+
+Consciously offering feedback includes owning my projections and my responsibility for co-creating this situation, and specifically offering it directly to the person(s) with whom the feedback is about.
+Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances. 
+
+
+The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private. 
 
 
 Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
@@ -323,7 +347,7 @@ Typically, the person actually submitting the paper is the first author. This me
 
 #### Communication
 
-The primary ways for a NeuroData family member to contact Jovo is at their weekly 1-on-1 in person meetings. Time permitting, other slots may be available in [calendly](https://calendly.com/joshuav/).
+The primary ways for a NeuroData member to contact Jovo is at their weekly 1-on-1 in person meetings. Time permitting, other slots may be available in [calendly](https://calendly.com/joshuav/).
 
 
 #### Accessibility
