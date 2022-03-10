@@ -20,7 +20,7 @@ Joining the lab, which is made official by signing documents with JHU where JHU 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
 
-### Principal Investigators
+### Jovo
 
 
 For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
@@ -82,7 +82,7 @@ The following commitments and agreements apply to all current members of  [Neuro
 Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
 
-#####  Alignment
+####  Alignment
 
 > I commit to focus my primary research project(s) on work that aligns with our mission, our resources/expertise, and my genius. 
 
@@ -90,7 +90,7 @@ Abiding by this commitment requires assessing your zone of genius. Note that thi
 See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, the expectation is that each project  takes about one year to sufficiently complete to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
 
 
-##### Open, Accessible, & Reproducible Science
+#### Open, Accessible, & Reproducible Science
 
 > I commit to conducting my work using the highest standards for open, accessible, and reproducible science. 
 
@@ -98,14 +98,14 @@ This commitment leads to all of our research derivatives being open, accessible 
 
 
 
-##### Honesty
+#### Honesty
 
 > I commit to speaking inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 
 This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility. 
 
 
-##### Play
+#### Play
 
 > I commit to play by honoring rest, renewal and rhythm.
 
@@ -115,7 +115,7 @@ Manifestations of play include participating in daily recess (3pm daily on schoo
 
 
 
-##### Diversity and Inclusion 
+#### Diversity and Inclusion 
 
 > I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), for **everyone**.
 
@@ -141,7 +141,7 @@ We recognize the unique struggles of being a member of a marginalized community 
 
 
 
-##### Feedback
+#### Feedback
 
 > I commit to seeking, gathering, appreciating, and learning from feedback. I commit authentically and consciously offering feedback. 
 
@@ -186,7 +186,7 @@ This enables everyone to easily find all the comments, including if they are edi
 
 
 
-#### Internal communication
+### Internal communication
 
 All data we get in the world is feedback for us, and so the opportunity to learn and grow from each interaction is ever present.  *Receiving* feedback with curiousity and openness, however, can often be a challenge.  Similarly, providing explicit feedback to others can also be a challenge, partially because you may not want to offend them, partially because we are not trained to offer or receive feedback consciously.  
 
@@ -194,7 +194,7 @@ Consciously offering feedback includes owning my projections and my responsibili
 Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances, and only when you are ready. 
 
 
-#### External communication
+### External communication
 
 Contacting people outside the lab with questions is effectively asking them to spend their limited time helping us for free. Since we would prefer to be the ones offering help rather than receiving it, we recommend, prior to asking them for help, to:
 
@@ -206,7 +206,7 @@ If we do have to ask people outside the lab questions, clarify to them the exten
 
 Reach out to potential collaborators when we find any information that may be useful for the lab, such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
 
-#### Video conferencing
+### Video conferencing
 
 Use closed captioning technology when presenting our work virtually, whenever possible. Videoconference technology can make it especially hard for deaf, hard of hearing, and/or non-native English speakers to understand speech. Such technology is available on Google slides, and Microsoft Office 365. In order to make this practice maximally effective, we strive to:
 
@@ -222,76 +222,63 @@ Use closed captioning technology when presenting our work virtually, whenever po
 3. If you just join the lab, sign up for the beginning of the queue [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing), and present your life story while wearing a funny hat. Team members can sign up for a slot.
 4. When making slides to present to other lab members, use either our [google slides folder](https://docs.google.com/presentation/d/1HLuQK7uNnhfiWO44a_XTMZMNag1KrjJgNNYtyXUuaG8/edit?usp=sharing), or use some markdown presentation system (such as [remark](https://github.com/remarkjs/remark) or [marp](https://marp.app/) (which also has [vs code integration](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)), and commit the slides to your repo.
 
+### Research Artifacts 
 
 
-## Activities
-
-##### Annual Group Hangouts
-
-To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
-
-
-##### Semi-Annual No JoVo Meeting
-
-We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [radically candid](https://www.radicalcandor.com/) feedback.
-
-
-##### Annual Reviews
-
-We agree to annual reviews, to document goals and assess trajectory, by filling out either the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2), or the BME PhD student questionnaire, annually, and then scheduling a meeting with Jovo to discuss. These meetings will typically happen in July. 
-
-##### Agreements update
-
-We agree to update these Agreements as appropriate.
-
-
-## Research Artifacts 
-
-We agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.
-
-###### Publications
+#### Publications
 
 - *MSE thesis students* and *Research staff*: submit a first author publication each year
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
 - *Postdocs*: submit a first author publication once per year
 
-> Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers; and, we aspire to include quotes from individuals with diverse backgrounds who live(d) the highest moral standards and serve as role models for us. At the same time, we acknowledge that quotes can come across as an endorsement of the personal life of the author. Therefore, quotes should be carefully chosen and considered by all authors of a paper. Any quote from a non-scientist will be held to a very high moral standard. 
+> Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers. Only include quotes from non-scientists, or non-scientific quotes, from individuals whose moral characters we stand behind.
 
-###### Conferences
+#### Conferences
 
-We agree to present at >=1 conference per year to get feedback, network, and professional development. Any conferences one desires to attend is fine, conditional on
-
-- applying to present your work via some mechanism (posters, talks, or boothing), and
-- for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
-- for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
-
-###### Grants
-
-We (postdocs) agree to apply for funding each year, targeting a solicitation >2 months in advance. 
-
-We (anybody using "extensive" commercial cloud computing (>$1,000/month)) will write a AWS Research credits grant at least annually for <$10,000. 
+- Present at >=1 conference per year to get feedback, network, and professional development. 
+- Attend any number of conferences you desire, though we recommend you: 
+  - apply to present your work via some mechanism (posters, talks, or boothing), 
+  - for conferences with proceedings, provide a "submission ready" draft to co-authors >= 1 month prior to submission deadline, or
+  - for conferences with posters, provide a "presentation ready" poster to co-authors >= 2 weeks prior to the event.
 
 
-##### Departure Agreements
+#### Departure
 
-We agree to make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
+If you are leaving the lab, make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on us;
-- A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the corresponding author. 
+- A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the co-authors. 
 
-##### Authorship Agreements
+#### Authorship
 
-Typically, the person actually submitting the paper is the first author. This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
+The person who submits the paper is the first author. This means after revisions, if the original first author decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
 
-##### Communication
+#### Communication
 
 The primary ways for a NeuroData member to contact Jovo is at their weekly 1-on-1 in person meetings. Time permitting, other slots may be available in [calendly](https://calendly.com/joshuav/).
 
 
-##### Accessibility
+
+## Activities
+
+### Annual Group Hangouts
+
+To build community and deeper inter-personal connections, and to have fun, we have annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
+
+
+### Semi-Annual No JoVo Meeting
+
+We meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [radically candid](https://www.radicalcandor.com/) feedback.
+
+
+### Annual Reviews
+
+- Annual reviews are required by the BME PhD program, and recommended for all members of the team, to document goals and assess trajectory, by filling out either the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2). 
+- After completing the forms, schedule a meeting with Jovo. 
+- These meetings will typically happen in July. 
 
 
 
-##### Summer Community Outreach
+### Summer Community Outreach
 
 We agree to support >= 1 summer student each summer. There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
 
@@ -330,12 +317,16 @@ We collectively co-create our community.  Being a part of this community affords
 5. The priviledge of being an official member of the team comes with the responsibility of 
   6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies,  
   7. responding to other lab members queries in a timely fashion (e.g., within a week),
-  8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, and
-  9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server.
+  8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
+  9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
+  10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
+  11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
+  12. make reasonable effort to attend official lab events.  
 7. If I am priviledged to be funded by a grant, I am responsible for contributing to all grant related responsibilities, including making/giving talks, attending grant meetings, regular reporting, and any other commitments specified in the grant.
 8. If I desire computing resources beyond my personal computer, I have the privilege of using CIS/MINDS clusters pending availability.  Prior to using shared resources, I am responsible for running the code on very small datasets to check for veracity. To acquire the priviledge of commercial cloud computing, I am responsible for writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. 
 11. The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-12. THe priviledge of being a PhD or postdoc comes with the responsibility of attending weekly lab meeting regularly, and presenting at lab meeting once per cycle. 
+12. The priviledge of being a PhD or postdoc comes with the responsibility of attending weekly lab meeting regularly, and presenting at lab meeting once per cycle. 
+13. The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
 
 
 ## Other
