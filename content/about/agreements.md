@@ -242,7 +242,7 @@ Use closed captioning technology when presenting our work virtually, whenever po
   - for conferences with posters, provide a "presentation ready" poster to co-authors >= 2 weeks prior to the event.
 
 
-#### Departure
+#### Transition
 
 If you are leaving the lab, make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on us;
@@ -278,25 +278,7 @@ We meet at least 2x annual without jovo to discuss ways we can collectively impr
 
 
 
-### Summer Community Outreach
 
-We agree to support >= 1 summer student each summer. There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
-
-- ICM Summer Internship with UMBC or Morgan State - [website](https://icm.jhu.edu/academics/undergraduate-programs/internships/)
-- Mentor student from local college through JHMI Summer Internship Program - [website](https://www.hopkinsmedicine.org/som/Opportunities-High-School-Undergraduate-Postbac-Students/)
-- Research experience for women in Baltimore City schools through WSE's WISE program - [website](https://engineering.jhu.edu/outreach/get-involved/women-in-science-and-engineering-wise-program/)
-- Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students - [website](https://www.codeintheschools.org/codescholar)
-
-
-##### Recommended Reading on Mentorship and Imposter Syndrome
-
-Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
-
-The following resources are recommended to all lab members, especially to those who serve as mentors. They are also encouraged to seek additional resources to learn how to create an equitable and supportive lab environment.
-
-- [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
-- [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
-- [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
 
 #### Individual Commitments to Upholding Agreements
 Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
@@ -353,3 +335,62 @@ To support this goal, we encourage all lab members to attend diversity training 
 The lab website will display badges for all members who have completed any such training, to express our commitment to diversity and inclusion. 
 
 
+### Summer Community Outreach
+
+We agree to support >= 1 summer student each summer. There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
+
+- ICM Summer Internship with UMBC or Morgan State - [website](https://icm.jhu.edu/academics/undergraduate-programs/internships/)
+- Mentor student from local college through JHMI Summer Internship Program - [website](https://www.hopkinsmedicine.org/som/Opportunities-High-School-Undergraduate-Postbac-Students/)
+- Research experience for women in Baltimore City schools through WSE's WISE program - [website](https://engineering.jhu.edu/outreach/get-involved/women-in-science-and-engineering-wise-program/)
+- Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students - [website](https://www.codeintheschools.org/codescholar)
+
+
+##### Recommended Reading on Mentorship and Imposter Syndrome
+
+Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
+
+The following resources are recommended to all lab members, especially to those who serve as mentors. They are also encouraged to seek additional resources to learn how to create an equitable and supportive lab environment.
+
+- [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
+- [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
+- [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
+
+
+# Code of Conduct
+
+
+*This code of conduct is heavily based on that of [Microsoft](https://opensource.microsoft.com/codeofconduct/):*
+
+### Conduct
+
+**This code of conduct outlines expectations for participation in Neurodata-managed open source communities, as well as steps for reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all. People violating this code of conduct may be banned from the community.**
+
+Our open source communities strive to:
+
+- **Be friendly and patient:** Remember you might not be communicating in someone else's primary spoken or programming language, and others may not have your level of understanding.
+- **Be welcoming:** Our communities welcome and support people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+- **Be respectful:** We are a world-wide community of professionals, and we conduct ourselves professionally. Disagreement is no excuse for poor behavior and poor manners. Disrespectful and unacceptable behavior includes, but is not limited to:
+    - Violent threats or language.
+    - Discriminatory or derogatory jokes and language.
+    - Posting sexually explicit or violent material.
+    - Posting, or threatening to post, people's personally identifying information ("doxing").
+    - Insults, especially those using discriminatory terms or slurs.
+    - Behavior that could be perceived as sexual attention.
+    - Advocating for or encouraging any of the above behaviors.
+- **Understand Disagreements:** Disagreements, both social and technical, are useful learning opportunities. Seek to understand the other viewpoints and resolve differences constructively.
+- This code is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect the code to be followed in spirit as much as in the letter.
+
+
+### Reporting Code of Conduct Issues
+
+We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting support@neurodata.io.
+
+In your report please include:
+
+- Your contact information.
+- Names (real, usernames or pseudonyms) of any individuals involved. If there are additional witnesses, please include them as well.
+- Your account of what occurred, and if you believe the incident is ongoing. If there is a publicly available record (e.g. a mailing list archive or a public chat log), please include a link or attachment.
+- Any additional information that may be helpful.
+- All reports will be reviewed by a multi-person team and will result in a response that is deemed necessary and appropriate to the circumstances. Where additional perspectives are needed, the team may seek insight from others with relevant expertise or experience. The confidentiality of the person reporting the incident will be kept at all times. Involved parties are never part of the review team.
+
+Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the review team may take any action they deem appropriate, including a permanent ban from the community.
