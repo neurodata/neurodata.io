@@ -21,7 +21,6 @@ The expectation is that each of us meet all of these commitments 90% of the time
 
 ## Principal Investigators
 
-### Commitments 
 
 For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
 
@@ -66,7 +65,6 @@ These means that I will act in a fashion that I believe is in aligment with our 
 
 The following commitments and agreements apply to all current members of  [NeuroData](https://neurodata.io/about/team/), Jovo included.
 
-### Commitments
 
 #### Genius
 
