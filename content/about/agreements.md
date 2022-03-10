@@ -18,14 +18,9 @@ Joining the lab, which is made official by signing documents with JHU where JHU 
 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
-In the event it seems that anybody in NeuroData is not in aligment with these agreements, Jovo will candidly and compassionate share his perspective with you, owning his part and acknowledging all stories and feelings as such.  Such conversations may lead to changes in perspectives, behaviors, and roles for all relevant stakeholders. 
+In the event it seems that anybody in NeuroData is not in aligment with these agreements, Jovo will candidly and compassionate share his perspective with said person, owning his part and acknowledging all stories and feelings as such.  Such conversations may lead to changes in perspectives, behaviors, and roles for all relevant stakeholders. 
 
 
-
-
-> COMMITMENT: A value we hold and abide by.
-
-> AGREEMENT: A specific action that we will perform as stated. 
 
 
 
@@ -61,11 +56,11 @@ This commitment includes me *not* being any of the following:
 > I commit to maintaining lab diversity. 
 
 
-Specifically, this includes actively recruiting lab members at all levels, specifically including individuals with various sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy,  disability, physical appearance, body size, race, ethnicity, nationality, religion, political views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identities.  
+This includes actively recruiting lab members spanning levels, specifically including individuals with various sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy,  disability, physical appearance, body size, race, ethnicity, nationality, religion, political views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identities.  
 
 
 
-> I commit to modeling the way
+> I commit to modeling the way.
 
 These means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
 
@@ -77,7 +72,7 @@ I hope that whenever I fail to meet any of these commitments in any way, that yo
 
 ## NeuroData 
 
-The following commitments and agreements apply to all current members of  [NeuroData](https://neurodata.io/about/team/), Jovo included
+The following commitments and agreements apply to all current members of  [NeuroData](https://neurodata.io/about/team/), Jovo included.
 
 ### Commitments
 
@@ -88,9 +83,9 @@ The following commitments and agreements apply to all current members of  [Neuro
 Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
 
-#### Project alignment
+####  Alignment
 
-> I commit to focus my primary research project(s) on work aligns with our mission, our resources/expertise, and my genius. 
+> I commit to focus my primary research project(s) on work that aligns with our mission, our resources/expertise, and my genius. 
 
 
 See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, the expectation is that each project  takes about one year to sufficiently complete to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
@@ -100,16 +95,18 @@ See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.h
 
 > I commit to conducting my work using the highest standards for open, accessible, and reproducible science. 
 
+This means that our work will result in open source code, open access data derivatives, and open access publications, and other open access research derivatives. Ideally, our work is open throughout the entire scientific process. Note that external collaborators may have other commitments, and so we will always work to be in alignment with their commitments and ours. 
+
+
 ##### Code
 
-This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process. Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence). 
-
-Established NeuroData best practices for contributing code to widely used open-source libraries, include:
+Established NeuroData best practices for code contributing code to widely used open-source libraries, include:
 
   1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
   2. Preface my issue or devlist email with the following:
 
     - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+
   3. Adopt best practices for diversity and inclusion for code. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and figures that are color-blind sensitive, use >10 point font, etc. 
   4. All NeuroData repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
 
