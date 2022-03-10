@@ -297,13 +297,13 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
 5. The priviledge of being an official member of the team comes with the responsibility of 
-  6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies,  
-  7. responding to other lab members queries in a timely fashion (e.g., within a week),
-  8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
-  9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
-  10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
-  11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
-  12. make reasonable effort to attend official lab events.  
+   6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
+   7. responding to other lab members queries in a timely fashion (e.g., within a week),
+   8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
+   9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
+   10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
+   11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
+   12. make reasonable effort to attend official lab events.  
 7. If I am priviledged to be funded by a grant, I am responsible for contributing to all grant related responsibilities, including making/giving talks, attending grant meetings, regular reporting, and any other commitments specified in the grant.
 8. If I desire computing resources beyond my personal computer, I have the privilege of using CIS/MINDS clusters pending availability.  Prior to using shared resources, I am responsible for running the code on very small datasets to check for veracity. To acquire the priviledge of commercial cloud computing, I am responsible for writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. 
 11. The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
