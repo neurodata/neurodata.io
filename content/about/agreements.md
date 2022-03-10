@@ -5,7 +5,7 @@ $order: 5
 
 [TOC]
 
-# Commitments
+## Commitments
 
 The below commitments are designed to facilitate each of us individually and collectively flourishing. They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
 
@@ -20,25 +20,25 @@ Joining the lab, which is made official by signing documents with JHU where JHU 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
 
-## Principal Investigators
+### Principal Investigators
 
 
 For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
 
-### Flourish
+#### Flourish
 
 > I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
  
 Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves, thus I commit to support you in *your* definition of flourishing and collective, not mine. 
 
-### Resources
+#### Resources
 
 > I commit to providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a labtop, monitors,  etc.  
 
 1. Other fees never effect your salary.
 2. I will spend at least 1 hour per week in person with each PhD student every week, except for weeks that I am traveling, or the week is short due to academic calendar days off, or a disease/family emergency. 
 
-### Guidance
+#### Guidance
 
 > I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
 
@@ -54,7 +54,7 @@ This commitment includes me *not* being any of the following:
     1. villain: in which I blame others for various outcomes,
     2. hero: in which I seek temporary relief, rather than empowerment.  
 
-### Diversity
+#### Diversity
 
 > I commit to maintaining lab diversity. 
 
@@ -62,7 +62,7 @@ This commitment includes me *not* being any of the following:
 This includes actively recruiting lab members spanning levels, specifically including individuals with various sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy,  disability, physical appearance, body size, race, ethnicity, nationality, religion, political views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identities.  
 
 
-### Modeling
+#### Modeling
 
 > I commit to modeling the way.
 
@@ -70,19 +70,19 @@ These means that I will act in a fashion that I believe is in aligment with our 
 
 
 
-## NeuroData 
+### NeuroData 
 
 The following commitments and agreements apply to all current members of  [NeuroData](https://neurodata.io/about/team/), Jovo included.
 
 
-### Genius
+#### Genius
 
 > I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a few projects in my  [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zone of genius.
 
 Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
 
-####  Alignment
+#####  Alignment
 
 > I commit to focus my primary research project(s) on work that aligns with our mission, our resources/expertise, and my genius. 
 
@@ -90,7 +90,7 @@ Abiding by this commitment requires assessing your zone of genius. Note that thi
 See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, the expectation is that each project  takes about one year to sufficiently complete to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
 
 
-#### Open, Accessible, & Reproducible Science
+##### Open, Accessible, & Reproducible Science
 
 > I commit to conducting my work using the highest standards for open, accessible, and reproducible science. 
 
@@ -98,14 +98,14 @@ This commitment leads to all of our research derivatives being open, accessible 
 
 
 
-#### Honesty
+##### Honesty
 
 > I commit to speaking inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 
 This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility. 
 
 
-#### Play
+##### Play
 
 > I commit to play by honoring rest, renewal and rhythm.
 
@@ -115,7 +115,7 @@ Manifestations of play include participating in daily recess (3pm daily on schoo
 
 
 
-#### Diversity and Inclusion 
+##### Diversity and Inclusion 
 
 > I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), for **everyone**.
 
@@ -141,7 +141,7 @@ We recognize the unique struggles of being a member of a marginalized community 
 
 
 
-#### Feedback
+##### Feedback
 
 > I commit to seeking, gathering, appreciating, and learning from feedback. I commit authentically and consciously offering feedback. 
 
@@ -149,9 +149,9 @@ We recognize the unique struggles of being a member of a marginalized community 
 The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
 
 
-# Recommended Practices
+## Recommended Practices
 
-## Code
+### Code
 
 NeuroData recommendations for code contributing code to widely used open-source libraries, include:
 
@@ -164,7 +164,7 @@ NeuroData recommendations for code contributing code to widely used open-source 
 
 We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
 
-## Papers
+### Papers
 
 NeuroData recommendations for papers are as follows: 
 1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
@@ -186,7 +186,7 @@ This enables everyone to easily find all the comments, including if they are edi
 
 
 
-### Internal communication
+#### Internal communication
 
 All data we get in the world is feedback for us, and so the opportunity to learn and grow from each interaction is ever present.  *Receiving* feedback with curiousity and openness, however, can often be a challenge.  Similarly, providing explicit feedback to others can also be a challenge, partially because you may not want to offend them, partially because we are not trained to offer or receive feedback consciously.  
 
@@ -194,7 +194,7 @@ Consciously offering feedback includes owning my projections and my responsibili
 Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances, and only when you are ready. 
 
 
-### External communication
+#### External communication
 
 Contacting people outside the lab with questions is effectively asking them to spend their limited time helping us for free. Since we would prefer to be the ones offering help rather than receiving it, we recommend, prior to asking them for help, to:
 
@@ -206,7 +206,7 @@ If we do have to ask people outside the lab questions, clarify to them the exten
 
 Reach out to potential collaborators when we find any information that may be useful for the lab, such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
 
-### Video conferencing
+#### Video conferencing
 
 Use closed captioning technology when presenting our work virtually, whenever possible. Videoconference technology can make it especially hard for deaf, hard of hearing, and/or non-native English speakers to understand speech. Such technology is available on Google slides, and Microsoft Office 365. In order to make this practice maximally effective, we strive to:
 
@@ -214,7 +214,7 @@ Use closed captioning technology when presenting our work virtually, whenever po
 - link audio output to input, so the captioning can pick up speech from the audience. This can be done by playing audio out loud through computer speakers, or by using software such as [this](https://webcaptioner.com/help/integrations/captioning-audio-from-another-program-microphone).
 
 
-##  Lab Meetings, slides, and other presentations
+###  Lab Meetings, slides, and other presentations
 
 
 1. **Practice** before getting in front of other people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time. 
@@ -224,32 +224,32 @@ Use closed captioning technology when presenting our work virtually, whenever po
 
 
 
-# Activities
+## Activities
 
-#### Annual Group Hangouts
+##### Annual Group Hangouts
 
 To build community and deeper inter-personal connections, and to have fun, we agree to having annual activities like going to dinner as a team. These occasions will include a celebration of past successes, as well as a discussion of collective goals for the subsequent year. These occasions will be organized by trainees.
 
 
-#### Semi-Annual No JoVo Meeting
+##### Semi-Annual No JoVo Meeting
 
 We will meet at least 2x annual without jovo to discuss ways we can collectively improve the lab, and provide detailed and [radically candid](https://www.radicalcandor.com/) feedback.
 
 
-#### Annual Reviews
+##### Annual Reviews
 
 We agree to annual reviews, to document goals and assess trajectory, by filling out either the following [questionnaire](https://goo.gl/forms/U5relYG8tV3fECqL2), or the BME PhD student questionnaire, annually, and then scheduling a meeting with Jovo to discuss. These meetings will typically happen in July. 
 
-#### Agreements update
+##### Agreements update
 
 We agree to update these Agreements as appropriate.
 
 
-# Research Artifacts 
+## Research Artifacts 
 
 We agree to the contributing to the following research artifacts, depending on the "stage" of our careers, and our career objectives. We have different milestones and deliverables, but annual productivity is a crucial component of any career development.
 
-##### Publications
+###### Publications
 
 - *MSE thesis students* and *Research staff*: submit a first author publication each year
 - *PhD students*: submit a first author publication once per each of the last three years of the PhD
@@ -257,7 +257,7 @@ We agree to the contributing to the following research artifacts, depending on t
 
 > Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers; and, we aspire to include quotes from individuals with diverse backgrounds who live(d) the highest moral standards and serve as role models for us. At the same time, we acknowledge that quotes can come across as an endorsement of the personal life of the author. Therefore, quotes should be carefully chosen and considered by all authors of a paper. Any quote from a non-scientist will be held to a very high moral standard. 
 
-##### Conferences
+###### Conferences
 
 We agree to present at >=1 conference per year to get feedback, network, and professional development. Any conferences one desires to attend is fine, conditional on
 
@@ -265,33 +265,33 @@ We agree to present at >=1 conference per year to get feedback, network, and pro
 - for conferences with proceedings, a "submission ready" draft is provided >= 1 month prior to submission deadline, or
 - for conferences with posters, a "presentation ready" poster is provided >= 2 weeks prior to the event.
 
-##### Grants
+###### Grants
 
 We (postdocs) agree to apply for funding each year, targeting a solicitation >2 months in advance. 
 
 We (anybody using "extensive" commercial cloud computing (>$1,000/month)) will write a AWS Research credits grant at least annually for <$10,000. 
 
 
-#### Departure Agreements
+##### Departure Agreements
 
 We agree to make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on us;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the corresponding author. 
 
-#### Authorship Agreements
+##### Authorship Agreements
 
 Typically, the person actually submitting the paper is the first author. This means that sometimes, if we get feedback after an individual has left the lab, and that person decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
 
-#### Communication
+##### Communication
 
 The primary ways for a NeuroData member to contact Jovo is at their weekly 1-on-1 in person meetings. Time permitting, other slots may be available in [calendly](https://calendly.com/joshuav/).
 
 
-#### Accessibility
+##### Accessibility
 
 
 
-#### Summer Community Outreach
+##### Summer Community Outreach
 
 We agree to support >= 1 summer student each summer. There are a variety of summer mentorship opportunities in partnership with some Baltimore public education institution (e.g. state university, public high school) that can foster stronger connections with our surrounding community. Examples include:
 
@@ -301,7 +301,7 @@ We agree to support >= 1 summer student each summer. There are a variety of summ
 - Volunteering at CodeScholar, a summer bootcamp for Baltimore School System students - [website](https://www.codeintheschools.org/codescholar)
 
 
-#### Recommended Reading on Mentorship and Imposter Syndrome
+##### Recommended Reading on Mentorship and Imposter Syndrome
 
 Mentors can anticipate that many of their mentees may experience imposter syndrome. This can be compounded by stereotype threat and experiences of discrimination that have happened in the past or their current environment (which should be addressed by the team). Mentors can support their mentees (and vice versa) by educating themselves on imposter syndrome’s causes, indications, and counteractive tools or practices. Mentors can thus learn to listen in a new way to their mentees and validate their experiences, to use positive and constructive feedback to affirm their value, to share their own uncertainties and learning process, and to ask if their mentees would like support in connecting with resources such as affinity networks for people with shared experiences or articles with tools for managing imposter syndrome. 
 
@@ -311,7 +311,7 @@ The following resources are recommended to all lab members, especially to those 
 - [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 - [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
 
-### Individual Commitments to Upholding Agreements
+#### Individual Commitments to Upholding Agreements
 Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
 
 - Weekly lab meeting: Ross
@@ -320,10 +320,10 @@ Certain agreements require a member of the lab to commit to be an organizer. Eac
 - Annual lab trip: Sambit
 - Internship outreach and management: Tommy
 
-### Birthday Privileges
+#### Birthday Privileges
 On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously breakout into an enthusiastic chicken dance at their command.
 
-# Privileges & Responsibilities
+## Privileges & Responsibilities
 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
@@ -338,9 +338,9 @@ We collectively co-create our community.  Being a part of this community affords
 12. THe priviledge of being a PhD or postdoc comes with the responsibility of attending weekly lab meeting regularly, and presenting at lab meeting once per cycle. 
 
 
-# Other
+## Other
 
-## Brave Space
+### Brave Space
 
 
 
