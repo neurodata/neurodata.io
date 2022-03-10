@@ -1,30 +1,26 @@
 ---
-$title@: Commitments & Agreements
+$title@: Commitments
 $order: 5
 ---
 
 [TOC]
 
 
-The below commitments and agreements are designed to facilitate each of us individually and collectively succeeding at our mission while in mind, body, spirit alignment. They are in a continual process of refinement; in life, work, and science, we experiment, learn, and grow. Note that these commitments and agreements *augment*, and therefore do not replace, official JHU policies, including:
+The below commitments are designed to facilitate each of us individually and collectively flourishing. They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
 
 1. The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 2. JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 3. [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
 
-Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments and agreements.  If any individual is not acting in a fashion that is consistent with the NeuroData family commitments or agreements, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments and agreements, or supporting them to find an opportunity that is more supportive of them).
+Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments.  If any individual is not acting in a fashion that is in alignment with  these commitments, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments, or supporting them to find an opportunity that is more supportive of them).
 
 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
-In the event it seems that anybody in NeuroData is not in aligment with these agreements, Jovo will candidly and compassionate share his perspective with said person, owning his part and acknowledging all stories and feelings as such.  Such conversations may lead to changes in perspectives, behaviors, and roles for all relevant stakeholders. 
 
+## Principal Investigators
 
-
-
-
-## Jovo 
 ### Commitments 
 
 For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
@@ -64,10 +60,6 @@ This includes actively recruiting lab members spanning levels, specifically incl
 
 These means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
 
-> I commit to seek, gather, appreciate, and learn from feedback.
-
-
-I hope that whenever I fail to meet any of these commitments in any way, that you share your perspective with me, so that I may learn and grow from your perspective, no matter what it is. 
 
 
 ## NeuroData 
@@ -95,40 +87,30 @@ See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.h
 
 > I commit to conducting my work using the highest standards for open, accessible, and reproducible science. 
 
-This means that our work will result in open source code, open access data derivatives, and open access publications, and other open access research derivatives. Ideally, our work is open throughout the entire scientific process. Note that external collaborators may have other commitments, and so we will always work to be in alignment with their commitments and ours. 
+This commitment leads to all of our research derivatives being open, accessible and reproducible, including code, data, data derivatives, publications, talks, posters, etc. At the highest level, our work is open throughout the entire scientific process. Note that external collaborators may have other commitments, and so are committed to always work to be in alignment with their commitments and ours. 
 
 
-##### Code
 
-Established NeuroData best practices for code contributing code to widely used open-source libraries, include:
+#### Honesty
 
-  1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
-  2. Preface my issue or devlist email with the following:
+> I commit to speaking inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 
-    - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility. 
 
-  3. Adopt best practices for diversity and inclusion for code. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and figures that are color-blind sensitive, use >10 point font, etc. 
-  4. All NeuroData repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
 
-We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
+#### Play
 
-##### Papers
+> I commit to play by honoring rest, renewal and rhythm.
 
-Established NeuroData best practices for papers are as follows: 
-1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
-2. Share the pre-print with co-authors at least one week in advance of planning to post/submit it.
-3. Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
-4. Be aware that collaborators outside the lab may have other practices. 
+Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”
 
-If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
-
-Prompt feedback is critical both for producing a quality manuscript and for sustaining forward movement on a project. Our lab-internal one-week feedback policy is intended to keep projects moving forward *AND* solicit the necessary feedback to produce high-quality papers. Importantly, this is only an expectation NeuroData members have agreed to meet. When NeuroData members are the first and/or last authors of a manuscript, consider requesting your collaborators also adhere to this lab policy. When a NeuroData member is a middle author on an outside group's manuscript, consider proactively requesting reviews of any drafts prior to submission and promise feedback in no more than one week. If a shorter timeline is required, try to be as accommodating as possible. As individuals and as a lab, it is our professional responsibility to know what is in a manuscript that carries our names, so it is appropriate to request that co-authors share final manuscripts with us prior to submission.
+Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events.  
 
 
 
 #### Diversity and Inclusion 
 
-> I commit to co-creating a safe and comfortable environment, and harassment-free experience (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), for everyone, regardless of the following
+> I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harrassment for details](https://en.wikipedia.org/wiki/Harassment)), for everyone, regardless of their 
 sex,
 gender,
 gender identity and expression,
@@ -147,45 +129,68 @@ veteran status,
 experience or lack of,
 or other historically and contemporaneously marginalized identity. 
 
-We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals that are members of multiple such communities) in STEM and are committed to creating a environment where everyone feels supported, appreciated, and welcome. This includes:
-
-- accomodating student needs so that they feel safe in lab and on campus
-- connecting students with relevant affinity groups on campus as desired
-
-To support this goal we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., [Safe Zone Training](https://studentaffairs.jhu.edu/lgbtq/education/safe-zone/)). Our purpose in attending diversity training is to gain knowledge and skills we can use to co-create a welcoming and productive lab environment for people of all backgrounds. 
-
-The lab website will display badges for all members who have completed any such training, to express to the world our commitment to diversity and inclusion. 
-
-#### Honesty
-
-> I commit to speaking inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth and keeping my agreements. 
-
-This means that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  See this definition of [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/).
 
 
-#### Play
-
-> I commit to play by honoring rest, renewal and rhythm.
-
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”
-
-Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events.  Some styles of play include
-
-- JOKER: Play always revolves around some sort of nonsense. Making silly sounds with a child or playing a practical joke on a friend fall under this category. 
-- KINESTHETE: Those in this group include athletes, dancers, and others who like to push their bodies and feel the result.
-- EXPLORER: These people delight in trying new experiences, such as physically going to new places, emotionally exploring and deepening feelings, and mentally researching or discovering new points of view. 
-- COMPETITOR: This person enjoys a competitive game with specific rules and loves fighting for number one! 
-- DIRECTOR: These players like planning and executing scenes and events. They are born organizers who give parties and instigate group events. 
-- COLLECTOR: This type of player relishes the thrill of having the most and best collection of objects or experiences, such as antiques, cars, or wine. 
-- ARTIST/CREATOR: This person’s joy comes from making things. Sculpting, woodworking, sewing, and gardening are a few examples. The point is to make something beautiful or functional. 
-- STORYTELLER: Here the imagination is the key to the kingdom of play. This group includes novelists, cartoonists, and screenwriters as well as those who like reading stories and watching movies. They are also the performers who use dance, magic, and acting to create an imaginative world.
-
-(taken from Dethmer, Jim; Chapman, Diana; Klemp, Kaley. The 15 Commitments of Conscious Leadership: A New Paradigm for Sustainable Success (pp. 211-212). Conscious Leadership Forum 54 Cumbre Lane, Scotts Valley 95066. Kindle Edition. )
+We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals that are members of multiple such communities) in STEM. And we recognize ways in which we may benefit from and/or contribute to marginalization of certain groups. 
 
 
-#### Brave space
 
-> I commit to co-creating the lab as a [_brave space_](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf).
+#### Feedback
+
+> I commit to seeking, gathering, appreciating, and learning from feedback. I commit authentically and consciously offering feedback. 
+
+
+The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
+
+
+### Current NeuroData Recommendations
+
+##### Code
+
+NeuroData recommendations for code contributing code to widely used open-source libraries, include:
+
+  1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
+  2. Preface my issue or devlist email with the following:
+
+    - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+
+  3. Adopt best practices for diversity and inclusion for code. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and figures that are color-blind sensitive, use >10 point font, etc. 
+  4. All NeuroData repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
+
+We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
+
+##### Papers
+
+NeuroData recommendations for papers are as follows: 
+1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
+2. When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. 
+2. Share the pre-print with co-authors at least one week in advance of planning to post/submit it. If for some reason a lab member cannot be reached during this time, there is no need to wait for them. 
+3. Track changes (see below for details)
+4. Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
+5. Be aware that collaborators outside the lab may have other practices, and seek to achieve win-for-all solutions where everybody is in alignment with all decisions. 
+6. When we are middle authors, consider proactively inquiring about their lab practices and seek to agree to a procedure that is in alignment for all stakeholders. 
+7. Encourage and support all co-authors to have access to the final submitted manuscript.
+
+
+
+For tracking changes, considering adding comments as: 
+
+% TODO blah blah ---jovo
+
+This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). When feedback is provided, it is important to address every single comment *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
+
+#### Cloud computing
+
+Use cloud computing on services with existing credits, or local resources, prior to using paid credits.   For AWS, the prerequisite to using it is writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should first check that it runs on a small dataset prior to running overnight. 
+
+
+#### Buddies 
+
+Upon reaching a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), consider accepting a "buddy" mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+
+
+#### Space
+
 
 A brave space is one which abides by the following tenets:
 - “Controversy with civility,” where varying opinions are accepted
@@ -194,65 +199,25 @@ A brave space is one which abides by the following tenets:
 - “Respect,” where students show respect for one another’s basic personhood
 - “No attacks,” where students agree not to intentionally inflict harm on one another 
 
-Lab members are free to profess any belief and debate any issue they choose provided they continuously demonstrate respect for each other. Disagreement can be productive as it can help us gain perspective for another point of view, examine our own beliefs and opinions, and look for common ground. Disagreement in a respectful environment is an opportunity for collective growth. These benefits are overshadowed, however, when debates become attacks and we cease to show respect for each other.
-This also means that there is a responsibility on the offended party to make the offender aware of their offense if they would like change.
-People who choose to talk about challenging topics around you do not have priority in the workspace and you can always ask a group to leave.
-Respect implies that when someone asks you do something reasonable, like stop talking about a certain topic or to talk somewhere else, you respect them and their boundaries.
-"No attacks" implies no malicious intent directed at anyone. Pointing out shortcomings via constructive criticism is possible to perceive as an attack, but we commit to assume the best of our peers. We should feel free to clarify with anyone, at any time, if a comment is intended as an attack or not. Clarifying intent is likely to alleviate harmful misconceptions.
-Nobody is perfect, and we will work with each other to make our work environment better.
+A commitment to D&I includes a commitment to not  use sexual language, imagery, or <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">racial microaggressions</a> at any NeuroData sactioned event or content, including: code,
+talks, presentations, demos,  hackathons,  workshops, social gatherings, social media, or any other online media.
 
-#### Feedback
+We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not at official lab gatherings or when representing the lab in any capacity.
+We also agree to avoid using profane language in public comments, code, or PRs.
 
-> I commit to seeking, gathering, appreciating, and learning from feedback. I commit authentically and consciously sharing feedback. 
+To support this goal, we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., [Safe Zone Training](https://studentaffairs.jhu.edu/lgbtq/education/safe-zone/)). Our purpose in attending diversity training is to gain knowledge and skills we can use to co-create a welcoming and productive lab environment for people of all backgrounds. 
+
+The lab website will display badges for all members who have completed any such training, to express our commitment to diversity and inclusion. 
+
+#### Internal communication
 
 All data we get in the world is feedback for us, and so the opportunity to learn and grow from each interaction is ever present.  *Receiving* feedback with curiousity and openness, however, can often be a challenge.  Similarly, providing explicit feedback to others can also be a challenge, partially because you may not want to offend them, partially because we are not trained to offer or receive feedback consciously.  
 
-Consciously offering feedback includes owning my projections and my responsibility for co-creating this situation, and specifically offering it directly to the person(s) with whom the feedback is about.
-Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances. 
+Consciously offering feedback includes owning my projections and my responsibility for co-creating this situation, and specifically offering it directly to the person(s) with whom the feedback is about, only if they explicit acknowledge that they are ready for it.
+Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances, and only when you are ready. 
 
 
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private. 
-
-
-Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
-
-### Agreements
-
-#### Paper writing
-
-We agree that when it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. If a collaborator prefers google docs for some reason, we will strive to come to a consensus agreement (and defer to the senior author's choice if we cannot reach a concensus). In general, when anybody gives feedback on the paper, track changes. Consider giving feedback via the following convention: 
-
-% TODO blah blah ---jovo
-
-This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). When feedback is provided, it is important to address every single comment *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
-
-#### Cloud computing
-
-We agree to use cloud computing on services with existing credits prior to using paid credits.   For AWS, the prerequisite to using it is writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should first check that it runs on a small dataset prior to running overnight. 
-
-
-#### Buddies 
-
-We agree that when each trainee reaches a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), we will be open to accepting a "buddy" mentee. Our responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-
-#### Collaboration
-
-We agree to reach out to potential collaborators when we find any information that may be useful for the lab such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
-
-
-#### Respect
-
-We agree to not include or use sexual language, imagery, or <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">racial microaggressions</a> at any NeuroData sactioned event or content, including: code,
-talks, presentations, demos,  hackathons,  workshops, social gatherings, social media, or any other online media.
-
-We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not be worn when interacting with lab members or representing the lab in any capacity.
-We also agree to avoid using profane language in public comments, code, or PRs.
-
-(Much of this language is taken from <a href="https://hackcodeofconduct.org/">hack code of conduct</a>.)
-
-
-
-#### Contacting People Outside the Lab With Questions
+#### External communication
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
 
@@ -262,7 +227,7 @@ We agree that contacting people outside the lab with questions is effectively as
 
 If we do have to ask people outside the lab questions, we agree to make sure to clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask should be about pointing us in the right direction, rather than asking for a time to speak with them.
 
-#### Contributing to Widely Used Open-Source Libraries
+We agree to reach out to potential collaborators when we find any information that may be useful for the lab such as algorithms or public code we want to incorporate into our package. Invite them to co-author any papers we produce, and in general include them in our community. 
 
 
 ### Regular Activities
