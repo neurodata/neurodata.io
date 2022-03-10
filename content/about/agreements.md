@@ -238,7 +238,7 @@ Use closed captioning technology when presenting our work virtually, whenever po
 - link audio output to input, so the captioning can pick up speech from the audience. This can be done by playing audio out loud through computer speakers, or by using software such as [this](https://webcaptioner.com/help/integrations/captioning-audio-from-another-program-microphone).
 
 
-###  Lab Meetings, slides, and other presentations
+###  Presentations
 
 
 1. **Practice** before getting in front of other people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time. 
@@ -251,6 +251,20 @@ Use closed captioning technology when presenting our work virtually, whenever po
   - for conferences with proceedings, provide a "submission ready" draft to co-authors >= 1 month prior to submission deadline, or
   - for conferences with posters, provide a "presentation ready" poster to co-authors >= 2 weeks prior to the event.
 
+### Meetings
+
+We recommend the following meeting agenda (adapted from [this](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1):
+
+1. [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
+2. intention sharing/setting
+3. iterating sharing, listening, decision making
+  3. participants full authentic self-expression
+  1. others [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) 
+  4. curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
+  5. [collective decision making](https://conscious.is/video/defining-decision-rights)
+5. review action items (who/what/when)
+6. check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
+7. check-out
 
 
 ### Transitions
