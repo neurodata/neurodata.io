@@ -72,7 +72,6 @@ These means that I will act in a fashion that I believe is in aligment with our 
 > I commit to seek, gather, appreciate, and learn from feedback.
 
 
-
 I hope that whenever I fail to meet any of these commitments in any way, that you share your perspective with me, so that I may learn and grow from your perspective, no matter what it is. 
 
 
@@ -89,11 +88,12 @@ The following commitments and agreements apply to all current members of  [Neuro
 Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
 
-#### Maximally Intrinsically Motivated for Successful Mission Critical Research
+#### Project alignment
 
-> I commit to focus my primary research project(s) on work that I am intrinsically motivated to complete, and given our time, energy, expertise, and other resources. I commit to focusing on a project that I estimate is likely to be successful and impactful with regard to our mission. 
+> I commit to focus my primary research project(s) on work aligns with our mission, our resources/expertise, and my genius. 
 
-See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, each project should take about 1 year to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
+
+See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, the expectation is that each project  takes about one year to sufficiently complete to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
 
 
 #### Open, Accessible, & Reproducible Science
@@ -104,21 +104,26 @@ See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.h
 
 This means that our work will result in open source code, open access data derivatives, and open access publication (posting to a pre-print server) no later than journal submission, and ideally, throughout the entire scientific process. Code will only be not open source if there are external reasons (e.g., patient privacy, external collaborator insistence). 
 
+Established NeuroData best practices for contributing code to widely used open-source libraries, include:
 
-When contributing code to widely used open-source libraries, I will:
-
-  1. ensure that I am a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
+  1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
   2. Preface my issue or devlist email with the following:
 
     - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+  3. Adopt best practices for diversity and inclusion for code. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and figures that are color-blind sensitive, use >10 point font, etc. 
+  4. All NeuroData repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
 
-Following these steps will add credibility to my contribution, and make it more likely for my issue to be accepted, and my PR to be reviewed.
-
-This also includes adopting best practices for diversity and inclusion in all of our activities. For example, see [https://github.com/mozilla/inclusion] for some examples with respect to code, and we make figures that are color-blind sensitive, use >10 point font, etc. All repo's that we maintain officially (i.e., that are mentioned in a pre-print/paper) will be maintained according to [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
+We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
 
 ##### Papers
 
-Crucially, posting to pre-print servers, and submitting to journals, do *not* explicitly require supervisor approval of the content. Rather, assuming the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) are followed, then all lab co-authors have 1 week to provide feedback and modification requests. After another week passes, the manuscript may be submitted and the pre-print may be posted, even in the absence of further feedback from any lab members (including Jovo). Note that collaborators outside the lab are not beholden to this agreement. If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
+Established NeuroData best practices for papers are as follows: 
+1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
+2. Share the pre-print with co-authors at least one week in advance of planning to post/submit it.
+3. Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
+4. Be aware that collaborators outside the lab may have other practices. 
+
+If for some reason a lab member cannot be reached during this time, we can still post/submit, but agree to remove said lab person from the co-author list if they so choose within 1 week of their return. One week extensions can be granted to lab members if necessary, but only one week extension is permissable. 
 
 Prompt feedback is critical both for producing a quality manuscript and for sustaining forward movement on a project. Our lab-internal one-week feedback policy is intended to keep projects moving forward *AND* solicit the necessary feedback to produce high-quality papers. Importantly, this is only an expectation NeuroData members have agreed to meet. When NeuroData members are the first and/or last authors of a manuscript, consider requesting your collaborators also adhere to this lab policy. When a NeuroData member is a middle author on an outside group's manuscript, consider proactively requesting reviews of any drafts prior to submission and promise feedback in no more than one week. If a shorter timeline is required, try to be as accommodating as possible. As individuals and as a lab, it is our professional responsibility to know what is in a manuscript that carries our names, so it is appropriate to request that co-authors share final manuscripts with us prior to submission.
 
