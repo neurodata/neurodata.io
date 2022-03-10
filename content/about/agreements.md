@@ -214,6 +214,8 @@ All data we get in the world is feedback for us, and so the opportunity to learn
 Consciously offering feedback includes owning my projections and my responsibility for co-creating this situation, and specifically offering it directly to the person(s) with whom the feedback is about, only if they explicit acknowledge that they are ready for it.
 Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances, and only when you are ready. 
 
+The most effective means to communicate with other individuals in the lab to to schedule a 1-on-1 meeting. If your weekly 1-on-1 meeting with Jovo is inadequate for some reason, schedule additional time [here](https://calendly.com/joshuav/).
+
 
 ### External communication
 
@@ -250,17 +252,16 @@ Use closed captioning technology when presenting our work virtually, whenever po
 
 
 
-#### Transition
+### Transitions
 
 If you are leaving the lab, make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on us;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the co-authors. 
 
 
-#### Communication
+### Agreements
 
-The primary ways for a NeuroData member to contact Jovo is at their weekly 1-on-1 in person meetings. Time permitting, other slots may be available in [calendly](https://calendly.com/joshuav/).
-
+While these agreements are a living breathing document, changing them costs energy for everybody, and can lead to an experience of instability.  Consider the costs upon proposing a modification. If you propose one, you are responsible for getting a majority of Neurodata members to approve the change.
 
 
 ## Activities
