@@ -7,7 +7,7 @@ $order: 5
 
 ## Commitments
 
-The below commitments are designed to facilitate each of us individually and collectively flourishing. They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
+The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
 
 1. The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 2. JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
@@ -27,7 +27,7 @@ For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration
 
 #### Flourish
 
-> I commit to flow in, and expand, our individual and collective flourishing I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
+> I commit to [flow](https://smile.amazon.com/dp/0061339202/ref=cm_sw_r_tw_dp_98W0QE34BZEKYH6DNFS9) in, and expand, our individual and collective flourishing I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
  
 Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves, thus I commit to support you in *your* definition of flourishing and collective, not mine. 
 
@@ -40,7 +40,7 @@ Implicit in this commitment is an acknowledgement that each of us defines flouri
 
 #### Guidance
 
-> I commit to providing direction and guidance to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
+> I commit to providing [conscious guidance and direction](https://conscious.is/excercises-guides/creator-coach-challenger-cards) to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
 
 At various times, this will translate into me being a:
 
@@ -64,7 +64,7 @@ This includes actively recruiting lab members spanning levels, specifically incl
 
 #### Modeling
 
-> I commit to modeling the way.
+> I commit to [modeling the way](https://amz.run/5O5C).
 
 These means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
 
@@ -100,18 +100,16 @@ This commitment leads to all of our research derivatives being open, accessible 
 
 #### Honesty
 
-> I commit to speaking inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
+> I commit to speaking & writing inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguble truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 
-This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility. 
+This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgement of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility.  This also means we do not overclaim in our discussions, nor do we write things in abstracts that are not yet true. 
 
 
 #### Play
 
 > I commit to play by honoring rest, renewal and rhythm.
 
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”
-
-Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events.  
+Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events.  
 
 
 
@@ -149,6 +147,16 @@ We recognize the unique struggles of being a member of a marginalized community 
 The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
 
 
+#### Accountability
+
+> I commit to being [accountable](https://conscious.is/15-commitments/responsibility) for my contribution to any outcome.
+
+
+We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. Use the [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) to resolve any conflict.  If that fails, send the information from the clearing model questions and answers to support@neurodata.io, who will seek a [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
+
+
+
+
 ## Recommended Practices
 
 ### Code
@@ -175,16 +183,29 @@ NeuroData recommendations for papers are as follows:
 5. Be aware that collaborators outside the lab may have other practices, and seek to achieve win-for-all solutions where everybody is in alignment with all decisions. 
 6. When we are middle authors, consider proactively inquiring about their lab practices and seek to agree to a procedure that is in alignment for all stakeholders. 
 7. Encourage and support all co-authors to have access to the final submitted manuscript.
+8. If you are a 
+  - *MSE thesis students* and *Research staff*: submit a first author publication each year
+  - *PhD students*: submit a first author publication once per each of the last three years of the PhD
+  - *Postdocs*: submit a first author publication once per year
+9. Use quotes sparingly, and be conscious of the current views of the moral standing of the quoted individual. 
+10. For tracking changes, considering adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). 
+11. Upon receiving feedback, address every single piece of feedback  *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
+11. The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
 
+### General communication
 
-
-For tracking changes, considering adding comments as: 
-
-% TODO blah blah ---jovo
-
-This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). When feedback is provided, it is important to address every single comment *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
-
-
+- **Be friendly and patient:** Remember you might not be communicating in someone else's primary spoken, written, or programming language, and others may not have your level of understanding.
+- **Be welcoming:** Our community welcomes and supports people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+- **Be respectful:** We are a community of professionals, and we conduct ourselves professionally. Disagreement is no excuse for poor behavior and poor manners. Disrespectful behavior includes, but is not limited to:
+    - Violent threats or language.
+    - Discriminatory or derogatory jokes and language.
+    - Posting sexually explicit or violent material.
+    - Posting, or threatening to post, people's personally identifying information ("doxing").
+    - Insults, especially those using discriminatory terms or slurs.
+    - Explicit or intentional sexual attention.
+    - Advocating for, or encouraging, any of the above behaviors.
+- **Understand Disagreements:** Disagreements, both social and technical, are useful learning opportunities. Seek to understand the other viewpoints and resolve differences constructively.
+- This code is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect the code to be followed in spirit as much as in the letter.
 
 ### Internal communication
 
@@ -221,25 +242,12 @@ Use closed captioning technology when presenting our work virtually, whenever po
 2. Plan to present your work internally about 2x / year. 
 3. If you just join the lab, sign up for the beginning of the queue [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing), and present your life story while wearing a funny hat. Team members can sign up for a slot.
 4. When making slides to present to other lab members, use either our [google slides folder](https://docs.google.com/presentation/d/1HLuQK7uNnhfiWO44a_XTMZMNag1KrjJgNNYtyXUuaG8/edit?usp=sharing), or use some markdown presentation system (such as [remark](https://github.com/remarkjs/remark) or [marp](https://marp.app/) (which also has [vs code integration](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)), and commit the slides to your repo.
-
-### Research Artifacts 
-
-
-#### Publications
-
-- *MSE thesis students* and *Research staff*: submit a first author publication each year
-- *PhD students*: submit a first author publication once per each of the last three years of the PhD
-- *Postdocs*: submit a first author publication once per year
-
-> Quotes can be a useful device in adding style or establishing context in scientific writing, so we fully support and encourage including quotes in our papers. Only include quotes from non-scientists, or non-scientific quotes, from individuals whose moral characters we stand behind.
-
-#### Conferences
-
-- Present at >=1 conference per year to get feedback, network, and professional development. 
-- Attend any number of conferences you desire, though we recommend you: 
+1. Present at >=1 conference per year to get feedback, network, and professional development. 
+2. Attend any number of conferences you desire, though we recommend you: 
   - apply to present your work via some mechanism (posters, talks, or boothing), 
   - for conferences with proceedings, provide a "submission ready" draft to co-authors >= 1 month prior to submission deadline, or
   - for conferences with posters, provide a "presentation ready" poster to co-authors >= 2 weeks prior to the event.
+
 
 
 #### Transition
@@ -248,9 +256,6 @@ If you are leaving the lab, make a 'transition' plan no later than 3 months prio
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintanence is no longer dependent on us;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an indivudal who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the co-authors. 
 
-#### Authorship
-
-The person who submits the paper is the first author. This means after revisions, if the original first author decides to prioritize other work, the 2nd author may be responsible for resubmitting, and the author order may switch accordingly.
 
 #### Communication
 
@@ -278,21 +283,13 @@ We meet at least 2x annual without jovo to discuss ways we can collectively impr
 
 
 
+## Priviledges and Responsibilities
 
-
-#### Individual Commitments to Upholding Agreements
-Certain agreements require a member of the lab to commit to be an organizer. Each year, a new member of the lab will commit for the following year or until someone else agrees to take responsibility. The following individuals are currently committed to upholding the listed aspects of the lab agreement.
-
-- Weekly lab meeting: Ross
-- Semi-annual social events: Ronan
-- Semi-annual no-jovo meetings: Pedigo 
-- Annual lab trip: Sambit
-- Internship outreach and management: Tommy
-
-#### Birthday Privileges
+### Birthday Privileges
 On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously breakout into an enthusiastic chicken dance at their command.
 
-## Privileges & Responsibilities
+
+### Other Privileges & Responsibilities
 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
@@ -304,11 +301,30 @@ We collectively co-create our community.  Being a part of this community affords
    10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
    11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
    12. make reasonable effort to attend official lab events.  
-7. If I am priviledged to be funded by a grant, I am responsible for contributing to all grant related responsibilities, including making/giving talks, attending grant meetings, regular reporting, and any other commitments specified in the grant.
-8. If I desire computing resources beyond my personal computer, I have the privilege of using CIS/MINDS clusters pending availability.  Prior to using shared resources, I am responsible for running the code on very small datasets to check for veracity. To acquire the priviledge of commercial cloud computing, I am responsible for writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. 
 11. The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-12. The priviledge of being a PhD or postdoc comes with the responsibility of attending weekly lab meeting regularly, and presenting at lab meeting once per cycle. 
-13. The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
+12. The priviledge of being a PhD or postdoc comes with the additional responsibility of
+   1. attending weekly lab meeting regularly,  
+   2. presenting at lab meeting once per cycle, 
+   3. applying to present at a conference annually 
+14. The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
+1. The privilege of being funded by a grant comes with the responsibility for contributing to all grant related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
+8. The privilege of accessing commerical cloud resources comes with the responsibility of first
+  9.  try things locally on your computer, then
+  10. try things locally on institutional resources, then
+  11. write (not win) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and check the status every three months, then
+  12. educate oneself about proper use of commerical cloud resources, then
+  13. try things on commercial clouds for which we have credits, then
+  14. spend grant money on additional commerical cloud resources. 
+
+
+### Individual Responsibilities
+
+
+- Weekly lab meeting: Ross
+- Semi-annual social events: Ronan
+- Semi-annual no-jovo meetings: Pedigo 
+- Annual lab trip: Sambit
+- Internship outreach and management: Tommy
 
 
 ## Other
@@ -318,6 +334,7 @@ We collectively co-create our community.  Being a part of this community affords
 
 
 A brave space is one which abides by the following tenets:
+
 - “Controversy with civility,” where varying opinions are accepted
 - “Owning intentions and impacts,” in which students acknowledge and discuss instances where a dialogue has affected the emotional well-being of another person
 - “Challenge by choice,” where students have an option to step in and out of challenging conversations
@@ -354,43 +371,3 @@ The following resources are recommended to all lab members, especially to those 
 - [mentoring someone with imposter syndrome](https://hbr.org/2019/02/mentoring-someone-with-imposter-syndrome)
 - [mitigating imposter syndrome](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 - [the minority experience and imposter syndrome](https://www.nytimes.com/2018/06/12/smarter-living/dealing-with-impostor-syndrome-when-youre-treated-as-an-impostor.html)
-
-
-# Code of Conduct
-
-
-*This code of conduct is heavily based on that of [Microsoft](https://opensource.microsoft.com/codeofconduct/):*
-
-### Conduct
-
-**This code of conduct outlines expectations for participation in Neurodata-managed open source communities, as well as steps for reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all. People violating this code of conduct may be banned from the community.**
-
-Our open source communities strive to:
-
-- **Be friendly and patient:** Remember you might not be communicating in someone else's primary spoken or programming language, and others may not have your level of understanding.
-- **Be welcoming:** Our communities welcome and support people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
-- **Be respectful:** We are a world-wide community of professionals, and we conduct ourselves professionally. Disagreement is no excuse for poor behavior and poor manners. Disrespectful and unacceptable behavior includes, but is not limited to:
-    - Violent threats or language.
-    - Discriminatory or derogatory jokes and language.
-    - Posting sexually explicit or violent material.
-    - Posting, or threatening to post, people's personally identifying information ("doxing").
-    - Insults, especially those using discriminatory terms or slurs.
-    - Behavior that could be perceived as sexual attention.
-    - Advocating for or encouraging any of the above behaviors.
-- **Understand Disagreements:** Disagreements, both social and technical, are useful learning opportunities. Seek to understand the other viewpoints and resolve differences constructively.
-- This code is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect the code to be followed in spirit as much as in the letter.
-
-
-### Reporting Code of Conduct Issues
-
-We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting support@neurodata.io.
-
-In your report please include:
-
-- Your contact information.
-- Names (real, usernames or pseudonyms) of any individuals involved. If there are additional witnesses, please include them as well.
-- Your account of what occurred, and if you believe the incident is ongoing. If there is a publicly available record (e.g. a mailing list archive or a public chat log), please include a link or attachment.
-- Any additional information that may be helpful.
-- All reports will be reviewed by a multi-person team and will result in a response that is deemed necessary and appropriate to the circumstances. Where additional perspectives are needed, the team may seek insight from others with relevant expertise or experience. The confidentiality of the person reporting the incident will be kept at all times. Involved parties are never part of the review team.
-
-Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the review team may take any action they deem appropriate, including a permanent ban from the community.
