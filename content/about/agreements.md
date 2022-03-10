@@ -44,15 +44,15 @@ Implicit in this commitment is an acknowledgement that each of us defines flouri
 
 At various times, this will translate into me being a:
 
-    1. coach: in which encouragement you & facilitate self-empowerment,
-    2. challenger: in which I catalyze you to take action,
-    3. creator: in which I co-create with you to manifest our desired outcomes. 
+1. coach: in which encouragement you & facilitate self-empowerment,
+2. challenger: in which I catalyze you to take action,
+3. creator: in which I co-create with you to manifest our desired outcomes. 
 
 This commitment includes me *not* being any of the following:
 
-    1. victim: in which I fail to take responsibility for my part of outcomes,
-    1. villain: in which I blame others for various outcomes,
-    2. hero: in which I seek temporary relief, rather than empowerment.  
+1. victim: in which I fail to take responsibility for my part of outcomes,
+1. villain: in which I blame others for various outcomes,
+2. hero: in which I seek temporary relief, rather than empowerment.  
 
 #### Diversity
 
@@ -163,9 +163,9 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 NeuroData recommendations for code contributing code to widely used open-source libraries, include:
 
-  1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
-  4. Follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
-  2. Preface your issue or devlist email with the following:
+1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
+2. Follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
+3. Preface your issue or devlist email with the following:
 
     - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
 
@@ -175,6 +175,7 @@ We believe that following these steps will add credibility to the contribution, 
 ### Papers
 
 NeuroData recommendations for papers are as follows: 
+
 1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
 2. When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. 
 2. Share the pre-print with co-authors at least one week in advance of planning to post/submit it. If for some reason a lab member cannot be reached during this time, there is no need to wait for them. 
@@ -184,9 +185,9 @@ NeuroData recommendations for papers are as follows:
 6. When we are middle authors, consider proactively inquiring about their lab practices and seek to agree to a procedure that is in alignment for all stakeholders. 
 7. Encourage and support all co-authors to have access to the final submitted manuscript.
 8. If you are a 
-  - *MSE thesis students* and *Research staff*: submit a first author publication each year
-  - *PhD students*: submit a first author publication once per each of the last three years of the PhD
-  - *Postdocs*: submit a first author publication once per year
+    - *MSE thesis students* and *Research staff*: submit a first author publication each year
+    - *PhD students*: submit a first author publication once per each of the last three years of the PhD
+    - *Postdocs*: submit a first author publication once per year
 9. Use quotes sparingly, and be conscious of the current views of the moral standing of the quoted individual. 
 10. For tracking changes, considering adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). 
 11. Upon receiving feedback, address every single piece of feedback  *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
@@ -295,27 +296,27 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
 5. The priviledge of being an official member of the team comes with the responsibility of 
-   6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
-   7. responding to other lab members queries in a timely fashion (e.g., within a week),
-   8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
-   9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
-   10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
-   11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
-   12. make reasonable effort to attend official lab events.  
+    6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
+    7. responding to other lab members queries in a timely fashion (e.g., within a week),
+    8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
+    9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
+    10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
+    11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
+    12. make reasonable effort to attend official lab events.  
 11. The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 12. The priviledge of being a PhD or postdoc comes with the additional responsibility of
-   1. attending weekly lab meeting regularly,  
-   2. presenting at lab meeting once per cycle, 
-   3. applying to present at a conference annually 
+    1. attending weekly lab meeting regularly,  
+    2. presenting at lab meeting once per cycle, 
+    3. applying to present at a conference annually 
 14. The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
 1. The privilege of being funded by a grant comes with the responsibility for contributing to all grant related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
 8. The privilege of accessing commerical cloud resources comes with the responsibility of first
-  9.  try things locally on your computer, then
-  10. try things locally on institutional resources, then
-  11. write (not win) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and check the status every three months, then
-  12. educate oneself about proper use of commerical cloud resources, then
-  13. try things on commercial clouds for which we have credits, then
-  14. spend grant money on additional commerical cloud resources. 
+   9.  try things locally on your computer, then
+   10. try things locally on institutional resources, then
+   11. write (not win) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and check the status every three months, then
+   12. educate oneself about proper use of commerical cloud resources, then
+   13. try things on commercial clouds for which we have credits, then
+   14. spend grant money on additional commerical cloud resources. 
 
 
 ### Individual Responsibilities
