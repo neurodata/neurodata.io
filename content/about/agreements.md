@@ -141,9 +141,9 @@ We recognize the unique struggles of being a member of a marginalized community 
 The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
 
 
-### Current NeuroData Recommendations
+## Current Recommendations
 
-##### Code
+### Code
 
 NeuroData recommendations for code contributing code to widely used open-source libraries, include:
 
@@ -157,7 +157,7 @@ NeuroData recommendations for code contributing code to widely used open-source 
 
 We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
 
-##### Papers
+### Papers
 
 NeuroData recommendations for papers are as follows: 
 1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
@@ -177,17 +177,17 @@ For tracking changes, considering adding comments as:
 
 This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). When feedback is provided, it is important to address every single comment *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
 
-#### Cloud computing
+### Cloud computing
 
 Use cloud computing on services with existing credits, or local resources, prior to using paid credits.   For AWS, the prerequisite to using it is writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/). Request just under $10,000 for small projects, and request up to $100,000 for larger ones. For the Brainlit project, we have an NIH grant, and that is what we should be using entirely until it runs out of money. However, anyone who is using cloud computing should first check that it runs on a small dataset prior to running overnight. 
 
 
-#### Buddies 
+### Buddies 
 
 Upon reaching a certain level of seniority on the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team), consider accepting a "buddy" mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 
 
-#### Space
+### Space
 
 
 A brave space is one which abides by the following tenets:
@@ -207,7 +207,7 @@ To support this goal, we encourage all lab members to attend diversity training 
 
 The lab website will display badges for all members who have completed any such training, to express our commitment to diversity and inclusion. 
 
-#### Internal communication
+### Internal communication
 
 All data we get in the world is feedback for us, and so the opportunity to learn and grow from each interaction is ever present.  *Receiving* feedback with curiousity and openness, however, can often be a challenge.  Similarly, providing explicit feedback to others can also be a challenge, partially because you may not want to offend them, partially because we are not trained to offer or receive feedback consciously.  
 
@@ -215,7 +215,7 @@ Consciously offering feedback includes owning my projections and my responsibili
 Consciously receiving feedback includes understanding that whoever is offering feedback is projecting somewhat, and *partially* responsible for co-creating this situation, and so are you. It also includes only receiving feedback directly about you, unless there are extenuating circumstances, and only when you are ready. 
 
 
-#### External communication
+### External communication
 
 We agree that contacting people outside the lab with questions is effectively asking them to spend their limited time helping us. Since we would prefer to be the ones offering help rather than receiving it, we agree, prior to asking them for help, to:
 
