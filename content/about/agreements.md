@@ -182,11 +182,7 @@ The most effective means to communicate with other individuals in the lab is to 
 
 ### External communication
 
-Contacting people outside the lab with questions is effectively asking them to spend their limited time helping us for free. Since we would prefer to be the ones offering help rather than receiving it, we recommend, prior to asking them for help, to:
-
-  - Consider what it would take for us to solve our problem without their help (this means searching the literature, exploring and writing code, reading books, etc).
-  - Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
-  - Make a judgment call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
+Contacting people outside the lab with questions is effectively asking them to spend their limited time helping us for free. Since we would prefer to be the ones offering help rather than receiving it, we recommend, prior to asking them for help, considering what it would take for us to solve our problem without their help (this means searching the literature, exploring and writing code, reading books, talking to lab mates etc).
 
 If we do have to ask people outside the lab questions, clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask are about pointing us in the right direction, rather than asking for a time to speak with them.
 
@@ -285,14 +281,6 @@ We collectively co-create our community.  Being a part of this community affords
    - try things on commercial clouds for which we have credits, then
    - spend grant money on additional commercial cloud resources. 
 
-
-### Individual Responsibilities
-
-- Weekly lab meeting: Ross
-- Semi-annual social events: Ronan
-- Semi-annual no-jovo meetings: Pedigo 
-- Annual lab trip: Sambit
-- Internship outreach and management: Tommy
 
 ## Other
 
