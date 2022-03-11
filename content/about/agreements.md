@@ -87,7 +87,7 @@ This commitment leads to all of our research derivatives being open, accessible 
 
 #### Honesty
 
-> I commit to speaking & writing inarguably/impeccably, including acknowledging all authentic feelings, expressing the inarguable truth, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
+> I commit to speaking & writing inarguably, including acknowledging all authentic feelings, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 
 This means, for example, that we use "I" statements, such as "I heard X", rather than "You said X", and "My judgment of you is that you are X", rather than "You are X".  Honesty demands an appropriate level of epistemic humility.  This also means we do not overclaim in our discussions, nor do we write things in abstracts that are not yet true. 
 
@@ -152,6 +152,9 @@ NeuroData recommendations for papers are as follows:
 
 ### General communication
 
+At any NeuroData sactioned event or content, including: code,
+talks, presentations, demos,  hackathons,  workshops, social gatherings, social media, or any other online media, we abide by the following guidelines:
+
 - **Be friendly and patient:** Remember you might not be communicating in someone else's primary spoken, written, or programming language, and others may not have your level of understanding.
 - **Be welcoming:** Our community welcomes and supports people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 - **Be respectful:** We are a community of professionals, and we conduct ourselves professionally. Disagreement is no excuse for poor behavior and poor manners. Disrespectful behavior includes, but is not limited to:
@@ -162,6 +165,10 @@ NeuroData recommendations for papers are as follows:
     - Insults, especially those using discriminatory terms or slurs.
     - Explicit or intentional sexual attention.
     - Advocating for, or encouraging, any of the above behaviors.
+    - [Racial microaggressions](https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf).
+    - Dress appropriately in lab spaces (both physical and virtual), including covering appropriate body parts and avoiding clothing with  offensive or inappropriate designs or stamps.
+    - Avoid using profane language in written materials when representing NeuroData.
+
 - **Understand Disagreements:** Disagreements, both social and technical, are useful learning opportunities. Seek to understand the other viewpoints and resolve differences constructively.
 - This code is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect the code to be followed in spirit as much as in the letter.
 
@@ -290,7 +297,7 @@ We collectively co-create our community.  Being a part of this community affords
 
 ## Other
 
-### Brave Space
+### Brave Space and Training
 
 A brave space is one which abides by the following tenets:
 
@@ -299,12 +306,6 @@ A brave space is one which abides by the following tenets:
 - “Challenge by choice,” where students have an option to step in and out of challenging conversations
 - “Respect,” where students show respect for one another’s basic personhood
 - “No attacks,” where students agree not to intentionally inflict harm on one another 
-
-A commitment to D&I includes a commitment to not  use sexual language, imagery, or <a href="https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf">racial microaggressions</a> at any NeuroData sactioned event or content, including: code,
-talks, presentations, demos,  hackathons,  workshops, social gatherings, social media, or any other online media.
-
-We agree to dress appropriately in lab spaces (both physical and virtual). Lab members are expected to be fully clothed in the work environment (including virtual meetings). Clothing with offensive or inappropriate designs or stamps should not be used at official lab gatherings or when representing the lab in any capacity.
-We also agree to avoid using profane language in public comments, code, or PRs.
 
 To support this goal, we encourage all lab members to attend diversity training opportunities hosted by the university (e.g., [Safe Zone Training](https://studentaffairs.jhu.edu/lgbtq/education/safe-zone/)). Our purpose in attending diversity training is to gain knowledge and skills we can use to co-create a welcoming and productive lab environment for people of all backgrounds. 
 
