@@ -168,7 +168,6 @@ talks, presentations, demos,  hackathons,  workshops, social gatherings, social 
     - [Racial microaggressions](https://www.sph.umn.edu/site/docs/hewg/microaggressions.pdf).
     - Dress appropriately in lab spaces (both physical and virtual), including covering appropriate body parts and avoiding clothing with  offensive or inappropriate designs or stamps.
     - Avoid using profane language in written materials when representing NeuroData.
-
 - **Understand Disagreements:** Disagreements, both social and technical, are useful learning opportunities. Seek to understand the other viewpoints and resolve differences constructively.
 - This code is not exhaustive or complete. It serves to capture our common understanding of a productive, collaborative environment. We expect the code to be followed in spirit as much as in the letter.
 
@@ -219,10 +218,10 @@ We recommend the following meeting agenda (adapted from [this](https://www.dropb
 - Get present: [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
 - Agree to goal of the meeting
 - Listen consciously to one another's ideas (Yes/and)
-   - participants full authentic self-expression
-   - others [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) 
-   - curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
-- Define measurable next action steps [collectively]((https://conscious.is/video/defining-decision-rights) (who will do what by when?)
+    - participants full authentic self-expression
+    - others [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) 
+    - curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
+- Define measurable next action steps [collectively](https://conscious.is/video/defining-decision-rights) (who will do what by when?)
 - check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
 - check-out
 
