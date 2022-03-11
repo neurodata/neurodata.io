@@ -9,9 +9,9 @@ $order: 5
 
 The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
 
-1. The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
-2. JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
-3. [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
+- The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
+- JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
+- [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
 
 Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments.  If any individual is not acting in a fashion that is in alignment with  these commitments, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments, or supporting them to find an opportunity that is more supportive of them).
@@ -35,8 +35,8 @@ Implicit in this commitment is an acknowledgement that each of us defines flouri
 
 > I commit to providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a labtop, monitors,  etc.  
 
-1. Other fees never effect your salary.
-2. I will spend at least 1 hour per week in person with each PhD student every week, except for weeks that I am traveling, or the week is short due to academic calendar days off, or a disease/family emergency. 
+- Other fees never effect your salary.
+- I will spend at least 1 hour per week in person with each PhD student every week, except for weeks that I am traveling, or the week is short due to academic calendar days off, or a disease/family emergency. 
 
 #### Guidance
 
@@ -44,15 +44,15 @@ Implicit in this commitment is an acknowledgement that each of us defines flouri
 
 At various times, this will translate into me being a:
 
-1. coach: in which encouragement you & facilitate self-empowerment,
-2. challenger: in which I catalyze you to take action,
-3. creator: in which I co-create with you to manifest our desired outcomes. 
+- coach: in which encouragement you & facilitate self-empowerment,
+- challenger: in which I catalyze you to take action,
+- creator: in which I co-create with you to manifest our desired outcomes. 
 
 This commitment includes me *not* being any of the following:
 
-1. victim: in which I fail to take responsibility for my part of outcomes,
-1. villain: in which I blame others for various outcomes,
-2. hero: in which I seek temporary relief, rather than empowerment.  
+- victim: in which I fail to take responsibility for my part of outcomes,
+- villain: in which I blame others for various outcomes,
+- hero: in which I seek temporary relief, rather than empowerment.  
 
 #### Diversity
 
@@ -163,11 +163,9 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 NeuroData recommendations for code contributing code to widely used open-source libraries, include:
 
-1. Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
-2. Follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
-3. Preface your issue or devlist email with the following:
-
-    - My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
+- Be a member of the [`neurodata`](https://github.com/neurodata) organization on Github, and make my membership status public.
+- Follow [FIRM standards](https://docs.google.com/document/d/1MEloi0hGa8IhwxE-HXdklAUoftTJGw-E_VliEqez150/edit?usp=sharing). 
+- Preface your issue or devlist email with the following: My name is [name here] and I am a member of @neurodata of Johns Hopkins University. We design, build, study, and apply statistical machine learning and big data science techniques, and are highly active in the open source community. You can find a list of our open source contributions [here](https://neurodata.io/code/). 
 
 
 We believe that following these steps will add credibility to the contribution, and make it more likely for the issue/PR  to be reviewed/accepted. 
@@ -176,22 +174,22 @@ We believe that following these steps will add credibility to the contribution, 
 
 NeuroData recommendations for papers are as follows: 
 
-1. Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
-2. When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. 
-2. Share the pre-print with co-authors at least one week in advance of planning to post/submit it. If for some reason a lab member cannot be reached during this time, there is no need to wait for them. 
-3. Track changes (see below for details)
-4. Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
-5. Be aware that collaborators outside the lab may have other practices, and seek to achieve win-for-all solutions where everybody is in alignment with all decisions. 
-6. When we are middle authors, consider proactively inquiring about their lab practices and seek to agree to a procedure that is in alignment for all stakeholders. 
-7. Encourage and support all co-authors to have access to the final submitted manuscript.
-8. If you are a 
+- Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
+- When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. 
+- Share the pre-print with co-authors at least one week in advance of planning to post/submit it. If for some reason a lab member cannot be reached during this time, there is no need to wait for them. 
+- Track changes (see below for details)
+-. Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
+-. Be aware that collaborators outside the lab may have other practices, and seek to achieve win-for-all solutions where everybody is in alignment with all decisions. 
+- When we are middle authors, consider proactively inquiring about their lab practices and seek to agree to a procedure that is in alignment for all stakeholders. 
+- Encourage and support all co-authors to have access to the final submitted manuscript.
+- If you are a 
     - *MSE thesis students* and *Research staff*: submit a first author publication each year
     - *PhD students*: submit a first author publication once per each of the last three years of the PhD
     - *Postdocs*: submit a first author publication once per year
-9. Use quotes sparingly, and be conscious of the current views of the moral standing of the quoted individual. 
-10. For tracking changes, considering adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). 
-11. Upon receiving feedback, address every single piece of feedback  *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
-11. The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
+- Use quotes sparingly, and be conscious of the current views of the moral standing of the quoted individual. 
+- For tracking changes, considering adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). 
+- Upon receiving feedback, address every single piece of feedback  *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
+- The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
 
 ### General communication
 
@@ -222,9 +220,9 @@ The most effective means to communicate with other individuals in the lab to to 
 
 Contacting people outside the lab with questions is effectively asking them to spend their limited time helping us for free. Since we would prefer to be the ones offering help rather than receiving it, we recommend, prior to asking them for help, to:
 
-  1. Consider what it would take for us to solve our problem without their help (this means searching the literature, exploring and writing code, reading books, etc).
-  2. Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
-  3. Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
+  - Consider what it would take for us to solve our problem without their help (this means searching the literature, exploring and writing code, reading books, etc).
+  - Consider what it would take for peers within the lab to help with our problem (this means asking labmates for help or literature recommendations, or asking jovo for help or literature recommendations).
+  - Make a judgement call that the ratio of the effort required in #1 or #2 to the effort required to contact someone outside the lab is high enough to justify the potential cost to their time.
 
 If we do have to ask people outside the lab questions, clarify to them the extent to which we are grateful for their time, and that we have exhausted our internal resources prior to reaching out. Any questions we ask are about pointing us in the right direction, rather than asking for a time to speak with them.
 
@@ -241,12 +239,12 @@ Use closed captioning technology when presenting our work virtually, whenever po
 ###  Presentations
 
 
-1. **Practice** before getting in front of other people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time. 
-2. Plan to present your work internally about 2x / year. 
-3. If you just join the lab, sign up for the beginning of the queue [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing), and present your life story while wearing a funny hat. Team members can sign up for a slot.
-4. When making slides to present to other lab members, use either our [google slides folder](https://docs.google.com/presentation/d/1HLuQK7uNnhfiWO44a_XTMZMNag1KrjJgNNYtyXUuaG8/edit?usp=sharing), or use some markdown presentation system (such as [remark](https://github.com/remarkjs/remark) or [marp](https://marp.app/) (which also has [vs code integration](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)), and commit the slides to your repo.
-1. Present at >=1 conference per year to get feedback, network, and professional development. 
-2. Attend any number of conferences you desire, though we recommend you: 
+- **Practice** before getting in front of other people, because every minute you speak you have implicitly asked many other people to devote to you, so please be respectful of other people's time. 
+- Plan to present your work internally about 2x / year. 
+- If you just join the lab, sign up for the beginning of the queue [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing), and present your life story while wearing a funny hat. Team members can sign up for a slot.
+- When making slides to present to other lab members, use either our [google slides folder](https://docs.google.com/presentation/d/1HLuQK7uNnhfiWO44a_XTMZMNag1KrjJgNNYtyXUuaG8/edit?usp=sharing), or use some markdown presentation system (such as [remark](https://github.com/remarkjs/remark) or [marp](https://marp.app/) (which also has [vs code integration](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)), and commit the slides to your repo.
+- Present at >=1 conference per year to get feedback, network, and professional development. 
+- Attend any number of conferences you desire, though we recommend you: 
   - apply to present your work via some mechanism (posters, talks, or boothing), 
   - for conferences with proceedings, provide a "submission ready" draft to co-authors >= 1 month prior to submission deadline, or
   - for conferences with posters, provide a "presentation ready" poster to co-authors >= 2 weeks prior to the event.
@@ -255,16 +253,15 @@ Use closed captioning technology when presenting our work virtually, whenever po
 
 We recommend the following meeting agenda (adapted from [this](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1):
 
-1. [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
-2. intention sharing/setting
-3. iterating sharing, listening, decision making
-  3. participants full authentic self-expression
-  1. others [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) 
-  4. curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
-  5. [collective decision making](https://conscious.is/video/defining-decision-rights)
-5. review action items (who/what/when)
-6. check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
-7. check-out
+- Get present: [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
+- Agree to goal of the meeting
+- Listen consciously to one another's ideas (Yes/and)
+   - participants full authentic self-expression
+   - others [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) 
+   - curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
+- Define measurable next action steps [collectively]((https://conscious.is/video/defining-decision-rights) (who will do what by when?)
+- check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
+- check-out
 
 
 ### Transitions
@@ -309,28 +306,28 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
-5. The priviledge of being an official member of the team comes with the responsibility of 
-    6. being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
-    7. responding to other lab members queries in a timely fashion (e.g., within a week),
-    8. posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
-    9. making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
-    10. updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
-    11. proposing updates our agreements/etc. whenever potential improvements are envisioned, and
-    12. make reasonable effort to attend official lab events.  
-11. The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-12. The priviledge of being a PhD or postdoc comes with the additional responsibility of
-    1. attending weekly lab meeting regularly,  
-    2. presenting at lab meeting once per cycle, 
-    3. applying to present at a conference annually 
-14. The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
-1. The privilege of being funded by a grant comes with the responsibility for contributing to all grant related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
-8. The privilege of accessing commerical cloud resources comes with the responsibility of first
-   9.  try things locally on your computer, then
-   10. try things locally on institutional resources, then
-   11. write (not win) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and check the status every three months, then
-   12. educate oneself about proper use of commerical cloud resources, then
-   13. try things on commercial clouds for which we have credits, then
-   14. spend grant money on additional commerical cloud resources. 
+- The priviledge of being an official member of the team comes with the responsibility of 
+    - being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
+    - responding to other lab members queries in a timely fashion (e.g., within a week),
+    - posting any papers (in which I am the first author) to a pre-print server no later than the date of submission, 
+    - making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to pre-print server, 
+    - updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
+    - proposing updates our agreements/etc. whenever potential improvements are envisioned, and
+    - make reasonable effort to attend official lab events.  
+- The priviledge of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is lots of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+- The priviledge of being a PhD or postdoc comes with the additional responsibility of
+    - attending weekly lab meeting regularly,  
+    - presenting at lab meeting once per cycle, 
+    - applying to present at a conference annually 
+- The priviledge of being a postdoc comes with the responsibility of applying for funding to cover each year you are here,  targeting a solicitation >3 months in advance. 
+- The privilege of being funded by a grant comes with the responsibility for contributing to all grant related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
+- The privilege of accessing commerical cloud resources comes with the responsibility of first
+   -  try things locally on your computer, then
+   - try things locally on institutional resources, then
+   - write (not win) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and check the status every three months, then
+   - educate oneself about proper use of commerical cloud resources, then
+   - try things on commercial clouds for which we have credits, then
+   - spend grant money on additional commerical cloud resources. 
 
 
 ### Individual Responsibilities
