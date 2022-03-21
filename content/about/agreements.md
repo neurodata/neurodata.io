@@ -208,9 +208,9 @@ Use closed captioning technology when presenting our work virtually, whenever po
 
 ### Meetings
 
-In order to facilitate efficient and effective meetings among participants, we collectively agree to adhere to the following [format](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1). When checking in for the meeting, we physically/mentally/emotionally prepare ourselves to establish `devotional connection` with every participants. Here we follow [this](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) simple two-step process as a general guideline. Before and/or at the beginning of the meeting, we start by sharing the intention of the meeting to hone in on a common goal. Throughout the meeting, we expect everyone's `full authentic self-expression` of the discussion, which will coincide with [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) by audience and curious/[unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections for the speaker. Constructive exchange among participants will then generate [collective decision making](https://conscious.is/video/defining-decision-rights) for each agenda. At the conclusion of the meeting, we will comprehensively review the action items clearly assigning who is doing what by when. When all participants commit to the [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) to the outcome, we finally check out from the meeting.
+<!-- In order to facilitate efficient and effective meetings among participants, we collectively agree to adhere to the following [format](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1). When checking in for the meeting, we physically/mentally/emotionally prepare ourselves to establish `devotional connection` with every participants. Here we follow [this](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) simple two-step process as a general guideline. Before and/or at the beginning of the meeting, we start by sharing the intention of the meeting to hone in on a common goal. Throughout the meeting, we expect everyone's `full authentic self-expression` of the discussion, which will coincide with [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) by audience and curious/[unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections for the speaker. Constructive exchange among participants will then generate [collective decision making](https://conscious.is/video/defining-decision-rights) for each agenda. At the conclusion of the meeting, we will comprehensively review the action items clearly assigning who is doing what by when. When all participants commit to the [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) to the outcome, we finally check out from the meeting. -->
 
-<!-- We recommend the following meeting agenda (adapted from [this](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1):
+To facilitate efficient and effective meetings among participants, we recommend the following meeting agenda (adapted from [this](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1):
 
 - Get present: [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
 - Agree to goal of the meeting
@@ -221,6 +221,10 @@ In order to facilitate efficient and effective meetings among participants, we c
 - Define measurable next action steps [collectively](https://conscious.is/video/defining-decision-rights) (who will do what by when?)
 - check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
 - check-out -->
+
+### Conservation of Reviews
+
+The scientific cannon depends on individuals generously reviewing the work of our peers for free.  Every time we submit a manuscript to a journal/conference, we get about three reviews. Thus, to ensure that we are not taking advantage of the system, we agree to review three articles for any journal/conference that we submit to. 
 
 ### Transitions
 
