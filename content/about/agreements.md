@@ -7,13 +7,13 @@ $order: 5
 
 ## Commitments
 
-The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspepcts of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
+The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspects of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
 
 - The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 - JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 - [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
-Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments.  If any individual is not acting in a fashion that is in alignment with  these commitments, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments, or supporting them to find an opportunity that is more supportive of them).
+Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments.  If any individual is not acting in a fashion that is in alignment with these commitments, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments, or supporting them to find an opportunity that is more supportive of them).
 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
@@ -23,9 +23,9 @@ For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration
 
 #### Flourish
 
-> I commit to [flow](https://smile.amazon.com/dp/0061339202/ref=cm_sw_r_tw_dp_98W0QE34BZEKYH6DNFS9) in, and expand, our individual and collective flourishing I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
+> I commit to [flow](https://smile.amazon.com/dp/0061339202/ref=cm_sw_r_tw_dp_98W0QE34BZEKYH6DNFS9) in, and expand, our individual and collective flourishing. I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
  
-Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves, thus I commit to support you in *your* definition of flourishing and collective, not mine. 
+Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves; thus I commit to support you in *your* definitions of flourishing and collective, not mine. 
 
 #### Resources
 
@@ -60,7 +60,7 @@ This includes actively recruiting lab members spanning levels, specifically incl
 
 > I commit to [modeling the way](https://amz.run/5O5C).
 
-These means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
+This means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
 
 ### NeuroData 
 
@@ -69,7 +69,7 @@ The following commitments and agreements apply to all current members of [NeuroD
 
 #### Genius
 
-> I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a few projects in my [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zone of genius.
+> I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a few projects in my [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zones of genius.
 
 Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
 
@@ -103,13 +103,13 @@ Stuart Brown defines play in his book as “an absorbing, apparently purposeless
 
 > I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harassment for details](https://en.wikipedia.org/wiki/Harassment)), for **everyone**.
 
-This commitment holds regardless of an individual's sex, gender,  gender identity and expression, age, sexual orientation, marital status, pregnancy, disability, physical appearance, body size, race, ethnicity, nationality, religion, political or other views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identity.  We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals that are members of multiple such communities) in STEM. And we recognize ways in which we may benefit from and/or contribute to marginalization of certain groups. 
+This commitment holds regardless of an individual's sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy, disability, physical appearance, body size, race, ethnicity, nationality, religion, political or other views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identity.  We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals who are members of multiple such communities) in STEM. And we recognize ways in which we may benefit from and/or contribute to marginalization of certain groups. 
 
 #### Feedback
 
 > I commit to seeking, gathering, appreciating, and learning from feedback. I commit to authentically and consciously offer feedback. 
 
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
+The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
 
 #### Accountability
 
@@ -134,7 +134,7 @@ We believe that following these steps will add credibility to the contribution, 
 NeuroData recommendations for papers are as follows: 
 
 - Follow the [recommended guidelines](https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html) for writing papers.
-- When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) overleaf repo, invite Jovo to it and make him owner so that compilation goes faster and we can track changes. 
+- When it is time to start writing a paper, clone our [latex template](https://www.overleaf.com/read/mnmbyrtgphkp) Overleaf repo, invite Jovo to it, and make him owner so that compilation goes faster and we can track changes. 
 - Share the preprint with co-authors at least one week in advance of planning to post/submit it. If for some reason a lab member cannot be reached during this time, there is no need to wait for them. 
 - Track changes (see below for details).
 - Post/submit when you feel ready, regardless of the feedback (or lack thereof), even from Jovo. 
@@ -146,8 +146,8 @@ NeuroData recommendations for papers are as follows:
     - *PhD students*: submit a first author publication once per each of the last three years of the PhD
     - *Postdocs*: submit a first author publication once per year
 - Use quotes sparingly, and be conscious of the current views of the moral standing of the quoted individual. 
-- For tracking changes, consider adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the overleaf web app). 
-- Upon receiving feedback, address every single piece of feedback *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person that cares. 
+- For tracking changes, consider adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the Overleaf web app). 
+- Upon receiving feedback, address every single piece of feedback *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person who cares. 
 - The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
 
 ### General Communication
@@ -224,7 +224,7 @@ To facilitate efficient and effective meetings among participants, we recommend 
 
 ### Conservation of Reviews
 
-The scientific cannon depends on individuals generously reviewing the work of our peers for free.  Every time we submit a manuscript to a journal/conference, we get about three reviews. Thus, to ensure that we are not taking advantage of the system, we agree to review three articles for any journal/conference that we submit to. 
+The scientific canon depends on individuals generously reviewing the work of our peers for free.  Every time we submit a manuscript to a journal/conference, we get about three reviews. Thus, to ensure that we are not taking advantage of the system, we agree to review three articles for any journal/conference that we submit to. 
 
 ### Transitions
 
@@ -263,10 +263,10 @@ We collectively co-create our community.  Being a part of this community affords
 
 - The privilege of being an official member of the team comes with the responsibility of 
     - being physically present in the lab 2+ days/week for all full weeks in the academic calendar, modulo vacations, disease, or family emergencies, 
-    - responding to other lab members queries in a timely fashion (e.g., within a week),
+    - responding to other lab members' queries in a timely fashion (e.g., within a week),
     - posting any papers (in which I am the first author) to a preprint server no later than the date of submission, 
     - making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to preprint server, 
-    - updating our lab cv no later than one week after posting new papers, revisions, presentations, etc., 
+    - updating our lab CV no later than one week after posting new papers, revisions, presentations, etc., 
     - proposing updates to our agreements/etc. whenever potential improvements are envisioned, and
     - making a reasonable effort to attend official lab events.  
 - The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
@@ -275,7 +275,7 @@ We collectively co-create our community.  Being a part of this community affords
     - presenting at lab meeting once per cycle, 
     - applying to present at a conference annually 
 - The privilege of being a postdoc comes with the responsibility of applying for funding to cover each year you are here, targeting a solicitation >3 months in advance. 
-- The privilege of being funded by a grant comes with the responsibility for contributing to all grant related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
+- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
 - The privilege of accessing commercial cloud resources comes with the responsibility of first
    - trying things locally on your computer, then
    - trying things locally on institutional resources, then
