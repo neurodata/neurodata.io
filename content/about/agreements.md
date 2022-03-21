@@ -32,7 +32,6 @@ Implicit in this commitment is an acknowledgement that each of us defines flouri
 > I commit to providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  
 
 - Other fees never affect your salary.
-- I will spend at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. 
 
 #### Guidance
 
@@ -48,7 +47,9 @@ This commitment includes me *not* being any of the following:
 
 - victim: in which I fail to take responsibility for my part of outcomes,
 - villain: in which I blame others for various outcomes,
-- hero: in which I seek temporary relief, rather than empowerment.  
+- hero: in which I seek temporary relief, rather than empowerment.
+
+I will spend at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. 
 
 #### Diversity
 
