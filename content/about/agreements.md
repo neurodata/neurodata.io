@@ -96,11 +96,9 @@ This means, for example, that we use "I" statements, such as "I heard X," rather
 
 > I commit to play by honoring rest, renewal, and rhythm.
 
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events.  
+Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
 
-
-
-#### Diversity and Inclusion 
+#### Diversity and Inclusion
 
 > I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harassment for details](https://en.wikipedia.org/wiki/Harassment)), for **everyone**.
 
