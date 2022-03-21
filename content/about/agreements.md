@@ -185,7 +185,7 @@ Any lab member who receives a **positive test** is expected to quarantine for fi
 
 ##### Transparency
 
-The intent of this COVID-19 policy is to help all lab members make informed decisions about when they will feel comfortable working in the lab.  Accordingly, reporting symptoms and test results to the group is important.  When a potential COVID-19 exposure has been reported in the lab, Jong will initiate a Slack poll to identify other lab members who require testing.  Jong will follow up with individuals to obtain the results of all tests and inform the broader lab population as needed.
+The intent of this COVID-19 policy is to help all lab members make informed decisions about when they will feel comfortable working in the lab.  Accordingly, reporting symptoms and test results to the group is important.  When a potential COVID-19 exposure has been reported in the lab, Jong will initiate a Slack poll to identify other lab members who require testing.  Jong will follow up with individuals to obtain the results of all tests and inform the broader lab population as needed.  All Slack posting related to COVID-19 will occur in #core to maximize visibility across the entire lab.
 
 #### Daily Presence
 
