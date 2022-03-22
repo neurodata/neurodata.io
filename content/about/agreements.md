@@ -27,12 +27,6 @@ For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration
  
 Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves; thus I commit to support you in *your* definitions of flourishing and collective, not mine. 
 
-#### Resources
-
-> I commit to providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  
-
-- Other fees never affect your salary.
-
 #### Guidance
 
 > I commit to providing [conscious guidance and direction](https://conscious.is/excercises-guides/creator-coach-challenger-cards) to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
@@ -282,6 +276,11 @@ We collectively co-create our community.  Being a part of this community affords
    - educating oneself about proper use of commercial cloud resources, then
    - trying things on commercial clouds for which we have credits, then
    - spending grant money on additional commercial cloud resources. 
+
+
+### Jovo specific responsibilities
+
+I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
 
 
 ## Other
