@@ -55,7 +55,7 @@ This includes actively recruiting lab members spanning levels, specifically incl
 
 > I commit to [modeling the way](https://amz.run/5O5C).
 
-This means that I will act in a fashion that I believe is in aligment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
+This means that I will act in a fashion that I believe is in alignment with our commitments, in an effort to provide an example for you for one way that acting in aligment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
 
 ### NeuroData 
 
