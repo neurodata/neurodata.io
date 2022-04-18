@@ -213,7 +213,9 @@ To facilitate efficient and effective meetings among participants, we recommend 
     - curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
 - Define measurable next action steps [collectively](https://conscious.is/video/defining-decision-rights) (who will do what by when?)
 - check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
-- check-out -->
+- check-out 
+
+If you are presenting a talk or poster, or submitting a paper, you are encouraged to spend your 1 hour meeting with Jovo in advance of that reviewing/practicing with him.  You are encouraged to review/practice with other members of the lab prior to that practice. 
 
 ### Conservation of Reviews
 
