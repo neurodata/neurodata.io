@@ -1,12 +1,15 @@
 name: SWU2
 csv: http://mrneurodata.s3-website-us-east-1.amazonaws.com/data/fmri/covariates/SWU2_phenotypic_data.csv
 clean: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/clean/
-connectomes: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/connectomes/
 preproc: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/preproc/
 registered: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/registered/
 roi_timeseries: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/roi-timeseries/
 anat: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/anat/
 func: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/func/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/fmri/SWU2/ndmg_0-0-1f/qa/
-ver: 0.0.1f
+ver: 0.3.0
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/swu_2.html
+
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/SWU2-11-27-20-m2g-func/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/SWU2-11-27-20-m2g-func/SWU2_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Functional/SWU2-11-27-20-m2g-func .

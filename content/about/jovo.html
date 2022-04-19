@@ -9,7 +9,7 @@ data:
     - title: Primary Appointment
       listitems:
         - date: 08/14 –
-          position: Assistant Professor
+          position: Associate Professor
           institution: Department of Biomedical Engineering, JHU.
     - title: Joint Appointments
       listitems:
@@ -795,7 +795,7 @@ data:
 <div class="detail-wrap">
 <div class="only-print print-head">
   <strong>Joshua T. Vogelstein, Ph.D.</strong>
-  <span>Assistant Professor, JHU – Curriculum Vitae</span>
+  <span>Associate Professor, JHU – Curriculum Vitae</span>
   <time>{{doc.data.updated}}</time>
 </div>
 <div class="person-wrap">
@@ -803,7 +803,7 @@ data:
   <img src="{{g.static('/source/images/people/vogelstein_joshua.jpg').url.path}}">
 </div>
 <div class="person-details">
-  Assistant Professor,<br />
+  Associate Professor,<br />
   Department of Biomedical Engineering<br />
   Johns Hopkins University<br />
   <a href="mailto:jovo@jhu.edu" target="_blank">jovo@jhu.edu</a><br />
@@ -813,7 +813,7 @@ data:
 </div>
 
 <p class="no-print">
-  I am an Assistant Professor in the Department of <a href="http://www.bme.jhu.edu/">Biomedical Engineering</a>, 
+  I am an Associate Professor in the Department of <a href="http://www.bme.jhu.edu/">Biomedical Engineering</a>, 
   with joint appointments in Applied Mathematics and Statistics, Computer Science, Electrical and Computer Engineering, Neuroscience, and Biostatistics at 
   <a href="https://www.jhu.edu/">Johns Hopkins University</a>. I am affiliated with the <a href="http://www.icm.jhu.edu/">Institute for Computational Medicine</a>, 
   the Center for Imaging Science, and the Kavli Neuroscience Discovery Institute, and am affiliated with the Mathematical Institute for Data Science and Institute for 
@@ -894,7 +894,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -915,7 +915,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -936,7 +936,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -957,7 +957,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -978,7 +978,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -999,7 +999,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_venue}}</i>, {{item|print_issue_data}}{{item.year}}.
@@ -1060,7 +1060,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
@@ -1081,7 +1081,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>{{item|print_address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
@@ -1102,7 +1102,7 @@ data:
   <li>
     <span class="date">[{{loop.revindex}}]</span>
     <p>
-      {% set authors = item|all_authors %}
+      {% set authors = item|all_authors_jovo %}
       {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{authors[0]|safe ~ " and " ~ authors[1]|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
       "{{item|print_title|render|safe}}"
       <i>In {{item.address}}</i>, {{item|print_issue_data}}{{item|print_month}} {{item.year}}.
