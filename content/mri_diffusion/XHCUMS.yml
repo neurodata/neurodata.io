@@ -1,0 +1,8 @@
+name: XHCUMS
+csv: http://mrneurodata.s3-website-us-east-1.amazonaws.com/data/fmri/covariates/XHCUMS_phenotypic_data.csv
+ver: 0.3.0
+link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/xhcums_1.html
+
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/XHCUMS-8-27-20-m2g-native-csa-det/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/XHCUMS-8-27-20-m2g-native-csa-det/XHCUMS_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/XHCUMS-8-27-20-m2g-native-csa-det .

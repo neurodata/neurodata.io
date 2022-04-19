@@ -1,8 +1,12 @@
-name: MRN1313
+name: MRN_1
 fibers: http://mrneurodata.s3-website-us-east-1.amazonaws.com/MRN1313/ndmg_0-0-48/fibers/
 graphs: http://mrneurodata.s3-website-us-east-1.amazonaws.com/MRN1313/ndmg_0-0-48/graphs/
 qa: http://mrneurodata.s3-website-us-east-1.amazonaws.com/MRN1313/ndmg_0-0-48/qa/
 reg_dti: http://mrneurodata.s3-website-us-east-1.amazonaws.com/MRN1313/ndmg_0-0-48/reg_dti/
 tensors: http://mrneurodata.s3-website-us-east-1.amazonaws.com/MRN1313/ndmg_0-0-48/tensors/
-ver: 0.0.48
+ver: 0.3.0
 link: '#'
+
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/MRN_1-8-27-20-m2g-native-csa-det/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/MRN_1-8-27-20-m2g-native-csa-det/MRN_1_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/MRN_1-8-27-20-m2g-native-csa-det .

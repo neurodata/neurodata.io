@@ -302,6 +302,16 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+a.button1 {background-color: #000000;
+    color:#ffffff;
+    padding: 0 12px;
+    font: 9px/22px;
+}
+
+/* .table a.button1 code{
+    font-size: 10px;
+} */
+
 a.button.hollow {
     background-color: transparent;
 }
@@ -1317,7 +1327,7 @@ blockquote {
 
 .doc-nav li:hover,
 .doc-nav.sub ul li:hover,
-.doc-nav.subsub ul li:hover,
+.doc-nav.subsub ul li:hover
     {
     background: #020202;
 }

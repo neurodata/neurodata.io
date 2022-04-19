@@ -1,0 +1,7 @@
+name: ABIDEII-TCD_1
+csv: http://fcon_1000.projects.nitrc.org/indi/abide/scan_params/ABIDEII-TCD_1_scantable.pdf
+ver: 0.3.0
+link: http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html
+tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/ABIDEII-TCD_1-11-27-20-m2g-func/
+connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/ABIDE-TCD_1-11-27-20-m2g-func/ABIDEII-TCD_1_Connectomes.zip
+aws: aws s3 sync s3://open-neurodata/m2g/Functional/ABIDEII-TCD_1-11-27-20-m2g-func .
