@@ -43,7 +43,6 @@ This commitment includes me *not* being any of the following:
 - villain: in which I blame others for various outcomes,
 - hero: in which I seek temporary relief, rather than empowerment.
 
-I will spend at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. 
 
 #### Diversity
 
@@ -201,8 +200,6 @@ Use closed captioning technology when presenting our work virtually, whenever po
 
 ### Meetings
 
-<!-- In order to facilitate efficient and effective meetings among participants, we collectively agree to adhere to the following [format](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1). When checking in for the meeting, we physically/mentally/emotionally prepare ourselves to establish `devotional connection` with every participants. Here we follow [this](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) simple two-step process as a general guideline. Before and/or at the beginning of the meeting, we start by sharing the intention of the meeting to hone in on a common goal. Throughout the meeting, we expect everyone's `full authentic self-expression` of the discussion, which will coincide with [deep listening](https://www.dropbox.com/s/4gs3l78v89duwav/CLG-Conscious%20Listening.pdf?dl=1) by audience and curious/[unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections for the speaker. Constructive exchange among participants will then generate [collective decision making](https://conscious.is/video/defining-decision-rights) for each agenda. At the conclusion of the meeting, we will comprehensively review the action items clearly assigning who is doing what by when. When all participants commit to the [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) to the outcome, we finally check out from the meeting. -->
-
 To facilitate efficient and effective meetings among participants, we recommend the following meeting agenda (adapted from [this](https://www.dropbox.com/s/ce5gnu74z3e45ti/CLG-Conscious%20Meeting%20Agenda.pdf?dl=1)):
 
 - Get present: [check-in](https://www.dropbox.com/s/371o9wq7x8ggllk/CLG-Checkins.pdf?dl=1) / devotional connection
@@ -262,6 +259,7 @@ We collectively co-create our community.  Being a part of this community affords
     - updating our lab CV no later than one week after posting new papers, revisions, presentations, etc., 
     - proposing updates to our agreements/etc. whenever potential improvements are envisioned, and
     - making a reasonable effort to attend official lab events.  
+- The privilege of being a PhD student in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
 - The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 - The privilege of being a PhD student or postdoc comes with the additional responsibility of
     - attending the weekly lab meeting regularly,  
@@ -280,8 +278,8 @@ We collectively co-create our community.  Being a part of this community affords
 
 ### Jovo specific responsibilities
 
-I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
-
+- I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
+- I am rensponsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family. 
 
 ## Other
 
