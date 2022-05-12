@@ -9,7 +9,11 @@
     </span>
     {% if item.file %}
         <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
-        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+        {% if item.file == "vogelstein_joshua.jpg" %}
+            <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat 0% 0%;"></div>
+        {% else %}
+            <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
+        {% endif %}
     {% else %}
         {# Default images are in style.css #}
         <div class="bw"></div>
