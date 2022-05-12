@@ -20,9 +20,12 @@
         <div class="color"></div>
     {% endif %}
     {% if item.usera and render_positions %}
-        {% if item.userw %}
+        {% if item.userw and item.usera %}
         <span class="ids position"> 
-            {{item.userw}}
+            <div align="right">
+                {{item.userw}} <br>
+                {{"(" + item.usera + ")"}}
+            </div>
         </span>
         {% else %}
         <span class="ids position"> 
