@@ -266,7 +266,7 @@ We collectively co-create our community.  Being a part of this community affords
     - presenting at lab meeting once per cycle, 
     - applying to present at a conference annually 
 - The privilege of being a postdoc comes with the responsibility of applying for funding to cover each year you are here, targeting a solicitation >3 months in advance. 
-- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant.
+- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant, and addressing all jovo grant related requests no later than the end of the next business day (e.g., if the request arrives at 4pm Friday, then it is completed no later than 5pm on Monday.
 - The privilege of accessing commercial cloud resources comes with the responsibility of first
    - trying things locally on your computer, then
    - trying things locally on institutional resources, then
