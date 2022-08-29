@@ -7,14 +7,16 @@
             <a href="{{g.url('/content/pages/about.html').path}}"><h5>Philosophy</h5></a>
         </li>
         {% for item in g.docs('about') %}
-            {% if item.title != "Joshua T. Vogelstein, Ph.D." %}
-                <li {% if item.base == doc.base %}
-                        class="highlight"
-                    {% endif %}
-                >
-                    <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
-                </li>
+            <li {% if item.base == doc.base %}
+            class="highlight"
             {% endif %}
+            >
+            {% if item.order == 1 %}
+                <a href="{{item.url.path}}"><h5>{{"About Jovo"}}</h5></a></li>
+            {% else %}
+                <a href="{{item.url.path}}"><h5>{{item.title}}</h5></a></li>
+            {% endif %}
+        </li>
         {% endfor %}
     </ul>
     <select onChange="window.location.href=this.value">
