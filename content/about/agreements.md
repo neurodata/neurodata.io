@@ -279,7 +279,13 @@ We collectively co-create our community.  Being a part of this community affords
 ### Jovo specific responsibilities
 
 - I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
-- I am rensponsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family. 
+- I am rensponsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family.
+
+### COVID-19 related responsibilities
+
+If you test positive and/or have systems and/or were exposed to COVID-19,
+- please stay at home for 5 days and wear a mask for 5 days in lab after coming back
+- inform your labmates and the PI as soon as possible
 
 ## Other
 
