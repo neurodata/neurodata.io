@@ -286,6 +286,7 @@ We collectively co-create our community.  Being a part of this community affords
 If you test positive and/or have systems and/or were exposed to COVID-19,
 - please stay at home for 5 days and wear a mask for 5 days in lab after coming back
 - inform your labmates and the PI as soon as possible
+- update the lab COVID record (link available in Core Slack channel)
 
 ## Other
 
