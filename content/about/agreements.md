@@ -109,6 +109,12 @@ The model for feedback we use is the Conscious Leadership Group's [clearing mode
 
 We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. Use the [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) to resolve any conflict.  If that fails, send the information from the clearing model questions and answers to support@neurodata.io, who will seek a [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
 
+#### Lab meetings
+
+> I commit to being present at weekly lab meetings and lab check-ins.
+
+Lab members should be present at these meetings (ideally, in-person) whenever possible. Reasonable exceptions include travel, vacation, sickness, etc.
+
 ## Recommended Practices
 
 ### Code
