@@ -228,6 +228,10 @@ If you are leaving the lab, make a 'transition' plan no later than 3 months prio
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintenance is no longer dependent on us;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an individual who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the co-authors. 
 
+### Travel
+
+Travel plans (when you are going to be out of lab for some period of time) should be updated in the NeuroData travel calendar.
+
 ### Agreements
 
 While these agreements are a living, breathing document, changing them costs energy for everybody, and can lead to an experience of instability.  Consider the costs upon proposing a modification. If you propose one, you are responsible for getting a majority of Neurodata members to approve the change.
