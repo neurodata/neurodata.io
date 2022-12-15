@@ -101,7 +101,7 @@ This commitment holds regardless of an individual's sex, gender, gender identity
 
 > I commit to seeking, gathering, appreciating, and learning from feedback. I commit to authentically and consciously offer feedback. 
 
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
+The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format). For feedback on work such as writing or code, lab members should regularly post their work in the #feedback Slack channel. Further, everyone should strive to also give feedback to other lab members at approximately the same rate.
 
 #### Accountability
 
