@@ -101,13 +101,19 @@ This commitment holds regardless of an individual's sex, gender, gender identity
 
 > I commit to seeking, gathering, appreciating, and learning from feedback. I commit to authentically and consciously offer feedback. 
 
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format).
+The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format). For feedback on work such as writing or code, lab members should regularly post their work in the #feedback Slack channel. Further, everyone should strive to also give feedback to other lab members at approximately the same rate.
 
 #### Accountability
 
 > I commit to being [accountable](https://conscious.is/15-commitments/responsibility) for my contribution to any outcome.
 
 We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. Use the [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) to resolve any conflict.  If that fails, send the information from the clearing model questions and answers to support@neurodata.io, who will seek a [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
+
+#### Lab meetings
+
+> I commit to being present at weekly lab meetings and lab check-ins.
+
+Lab members should be present at these meetings (ideally, in-person) whenever possible. Reasonable exceptions include travel, vacation, sickness, etc.
 
 ## Recommended Practices
 
@@ -221,6 +227,10 @@ The scientific canon depends on individuals generously reviewing the work of our
 If you are leaving the lab, make a 'transition' plan no later than 3 months prior to departure, wherein the technical expertise we have acquired in the lab is transferred to at least one individual in the lab. This includes, 
 - If we have written a numerical package, that the core components of it are integrated into another package, so maintenance is no longer dependent on us;
 - A plan for how to address completing papers that are not yet 'done' (where done means we've already sent proofs back). This includes identifying an individual who will be the point of contact for future correspondence with journals, etc. Authorship inclusion and order may change in this process, including elevating/relegating to/from first author, as deemed appropriate by the co-authors. 
+
+### Travel
+
+Travel plans (when you are going to be out of lab for some period of time) should be updated in the NeuroData travel calendar.
 
 ### Agreements
 
