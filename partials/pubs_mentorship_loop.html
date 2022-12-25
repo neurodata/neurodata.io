@@ -1,0 +1,11 @@
+<ul class="cv-item">
+    {% for subitem in loops %}
+      <li>
+        <span class="date">{{subitem.number}}</span>
+        <span class="position">{{subitem.author}} {{subitem.userb}}</span>
+        <span class="person">{{subitem.usera}}</span>
+        <span class="institution">{{subitem.userc}}</span>
+        <p>{{subitem.abstract}}</p>
+      </li>
+    {% endfor %}
+</ul>
