@@ -112,11 +112,11 @@ $view: /views/base-person.html
 
 
 <h3>Published Peer-Reviewed Research Articles</h3>
+{% set loops = 'content/bibs/pubs.bib'|load_bibtex("peer-reviewed") %}
 <p class="cv-list-desc">
   Note: CV author in bold; Trainees are underlined,<br />
-  <strong>({{PUBSpeer|length}} papers; top 10 cited 3,922 times; H-index 36; 12 first, 13 last, 48 middle authorships)</strong> as of {{ docs.data.updated }}
+  <strong>({{loops|length}} papers; top 10 cited 3,922 times; H-index 36; 12 first, 13 last, 48 middle authorships)</strong> as of {{ docs.data.updated }}
 </p>
-{% set loops = 'content/bibs/pubs.bib'|load_bibtex("peer-reviewed") %}
 {% include 'partials/pubs_loop.html' %}
 
 <h3>Manuscripts Not Yet Accepted</h3>
