@@ -1,5 +1,5 @@
 data:
-  updated: 2022/12/25
+  updated: 2022/12/31
   personal:
     - title: Primary Appointment
       listitems:
@@ -40,7 +40,7 @@ data:
         - date: 10/12 –
           position: Affiliated Faculty
           institution: Institute for Data Intensive Engineering and Sciences, JHU.
-    - title: "Education & Training"
+    - title: Education
       listitems:
         - date: 2003 – 2009
           position: Ph.D in Neuroscience
@@ -54,6 +54,16 @@ data:
         - date: 1998 – 2002
           position: B.A. in Biomedical Engineering
           institution: Washington University, St. Louis
+    - title: Training
+      listitems:
+        - date: 2022 
+          institution: Foundations in Somatic Abolitionism for White Bodies (14 Hours)
+        - date: 2022
+          institution: Sacred Sons Leadership Training Level 1
+        - date: 2022
+          institution: Creatorhood Initiate Training - Phase 1
+        - date: 2021
+          institution: JHU SafeZone training
     - title: Academic Experience
       listitems:
         - date: 08/18 –
