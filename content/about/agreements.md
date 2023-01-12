@@ -238,11 +238,11 @@ While these agreements are a living, breathing document, changing them costs ene
 
 ## Schedule
 The following schedule is planned beginning Spring semester 2023:
-- Jovo plans to be on campus (at least) on Mondays and Tuesdays all day. This should facillitate time for quick things one might need from Jovo.
+- Jovo plans to be on campus (at least) on Mondays and Tuesdays all day. This should facilitate time for quick things one might need from Jovo.
 - Lab meetings will be 12-1pm on Mondays.
 - The first Monday of every month, lab meeting will be **global**, i.e. advertised and available online and open to anyone. These meetings should occur after the presenter has given a version of the talk locally and incorporated any feedback into the presentation.
 - Weekly check-ins will be after lab meeting, 1-1:30pm on Mondays.
-- Recess will be (at least) 1:30-2pm on Mondays.
+- Recess will be (at least) 1:30-2pm on Mondays, and is optional.
 - Jovo will have meeting blocks for 3-4 2-hour "deep dives" per week, open to multiple people working on a group of related ideas. These blocks will be Mondays {2-4pm, 4-6pm} on campus, Wednesdays 12-2pm (and every other week 4-6pm) at Jovo's house. These blocks can be reserved via the "neurodata" option on Calendly. Some suggested groups include:
    - Causal learning
    - Forests
