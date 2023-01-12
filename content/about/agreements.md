@@ -236,6 +236,22 @@ Travel plans (when you are going to be out of lab for some period of time) shoul
 
 While these agreements are a living, breathing document, changing them costs energy for everybody, and can lead to an experience of instability.  Consider the costs upon proposing a modification. If you propose one, you are responsible for getting a majority of Neurodata members to approve the change.
 
+## Schedule
+The following schedule is planned beginning Spring semester 2023:
+- Jovo plans to be on campus (at least) on Mondays and Tuesdays all day. This should facillitate time for quick things one might need from Jovo.
+- Lab meetings will be 12-1pm on Mondays.
+- The first Monday of every month, lab meeting will be **global**, i.e. advertised and available online and open to anyone. These meetings should occur after the presenter has given a version of the talk locally and incorporated any feedback into the presentation.
+- Weekly check-ins will be after lab meeting, 1-1:30pm on Mondays.
+- Recess will be (at least) 1:30-2pm on Mondays.
+- Jovo will have meeting blocks for 3-4 2-hour "deep dives" per week, open to multiple people working on a group of related ideas. These blocks will be Mondays {2-4pm, 4-6pm} on campus, Wednesdays 12-2pm (and every other week 4-6pm) at Jovo's house. These blocks can be reserved via the "neurodata" option on Calendly. Some suggested groups include:
+   - Causal learning
+   - Forests
+   - Out-of-distribution learning
+   - Sensie-related work
+   - Connectomes
+- Meetings with Sensie will happen starting at 2pm every other Monday, starting on Jan 9th 2023.
+- Jovo is open to meetings Friday afternoon at his house (and not on Zoom). Meetings can be scheduled (30 min blocks) via the "day" option on Calendly. 
+
 ## Activities
 
 ### Annual Group Hangouts
