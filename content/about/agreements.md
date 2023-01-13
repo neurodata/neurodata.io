@@ -239,7 +239,7 @@ While these agreements are a living, breathing document, changing them costs ene
 ## Schedule
 The following schedule is planned beginning Spring semester 2023:
 - Jovo plans to be on campus (at least) on Mondays and Tuesdays all day. This should facilitate time for quick things one might need from Jovo.
-- Lab meetings will be 12-1pm on Mondays.
+- Lab meetings will be 12-1pm on Mondays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing). 
 - The first Monday of every month, lab meeting will be **global**, i.e. advertised and available online and open to anyone. These meetings should occur after the presenter has given a version of the talk locally and incorporated any feedback into the presentation.
 - Weekly check-ins will be after lab meeting, 1-1:30pm on Mondays.
 - Recess will be (at least) 1:30-2pm on Mondays, and is optional.
