@@ -9,10 +9,10 @@ jobs:
     - name: Send CDO Message
       if: contains(github.event.issue.labels.*.name, 'CDO :fire:')
       run: |
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"[CDO] Issue on Github was just closed* :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.JMS_KEY }}
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"[CDO] Issue on Github was just closed* :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.PI_KEY }}
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"[CDO] Issue on Github was just closed :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.JMS_KEY }}
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"[CDO] Issue on Github was just closed :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.PI_KEY }}
     - name: Send Regular Message
       if: "!contains(github.event.issue.labels.*.name, 'CDO :fire:')"
       run: |
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"[Regular] Issue on Github was just closed* :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.JMS_KEY }}
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"[Regular] Issue on Github was just closed* :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.PI_KEY }}
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"[Regular] Issue on Github was just closed :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.JMS_KEY }}
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"[Regular] Issue on Github was just closed :tada:\n:small_blue_diamond:${{ github.event.issue.title }} (Issue <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>)"}' ${{ secrets.PI_KEY }}
