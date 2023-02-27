@@ -238,19 +238,11 @@ While these agreements are a living, breathing document, changing them costs ene
 
 ## Schedule
 The following schedule is planned beginning Spring semester 2023:
-- Jovo plans to be on campus (at least) on Mondays and Tuesdays all day. This should facilitate time for quick things one might need from Jovo.
+- Everyone in lab Mon & Thurs afternoon (if you can't make it, you are responsible for letting everyone know in advance).
+- Weekly jovo meetings on Mon and Wed, sign up in advance. Additional meetings available as needed. 
 - Lab meetings will be 12-1pm on Mondays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing). 
 - The first Monday of every month, lab meeting will be **global**, i.e. advertised and available online and open to anyone. These meetings should occur after the presenter has given a version of the talk locally and incorporated any feedback into the presentation.
 - Weekly check-ins will be after lab meeting, 1-1:30pm on Mondays.
-- Recess will be (at least) 1:30-2pm on Mondays, and is optional.
-- Jovo will have meeting blocks for 3-4 2-hour "deep dives" per week, open to multiple people working on a group of related ideas. These blocks will be Mondays {2-4pm, 4-6pm} on campus, Wednesdays 12-2pm (and every other week 4-6pm) at Jovo's house. These blocks can be reserved via the "neurodata" option on Calendly. Some suggested groups include:
-   - Causal learning
-   - Forests
-   - Out-of-distribution learning
-   - Sensie-related work
-   - Connectomes
-- Meetings with Sensie will happen starting at 2pm every other Monday, starting on Jan 9th 2023.
-- Jovo is open to meetings Friday afternoon at his house (and not on Zoom). Meetings can be scheduled (30 min blocks) via the "day" option on Calendly. 
 
 ## Activities
 
@@ -308,12 +300,16 @@ We collectively co-create our community.  Being a part of this community affords
 - I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
 - I am responsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family.
 
-### COVID-19 related responsibilities
+### Sick policies
+
 
 If you test positive and/or have symptoms and/or have been exposed to COVID-19,
-- please stay at home for 5 days and wear a mask for 5 days in lab after coming back
-- inform your labmates and the PI as soon as possible
-- update the lab COVID record (link available in Core Slack channel)
+- stay at home for 5 days and wear a mask for 5 days in lab after coming back
+- inform your labmates and the PI as soon as possible.
+
+If you have any other symptoms of illness (including stomach illness, flu, otherwise)
+- Stay home until symptoms have subsided for at least 24 hrs.
+
 
 ## Other
 
