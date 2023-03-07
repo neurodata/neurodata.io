@@ -113,7 +113,7 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 > I commit to being present at weekly lab meetings and lab check-ins.
 
-Lab members should be present at these meetings (ideally, in-person) whenever possible. Reasonable exceptions include travel, vacation, sickness, etc.
+Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend.
 
 ## Recommended Practices
 
