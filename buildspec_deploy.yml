@@ -20,8 +20,8 @@ phases:
     commands:
       - export LC_ALL=C.UTF-8
       - cd content/bibs
-      - pdflatex content/tex/jovo_cv_SOM.tex
-      - biber content/tex/jovo_cv_SOM
+      - pdflatex ../../content/tex/jovo_cv_SOM.tex
+      - biber ../../content/tex/jovo_cv_SOM
       # - pdflatex jovo_cv_SOM.tex
       # - pdflatex jovo_cv_SOM.tex
       - cd ../..
