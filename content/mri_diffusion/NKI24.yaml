@@ -9,4 +9,4 @@ link:
 
 tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Diffusion/NKI24-11-01-20-m2g-native-csa-det/
 connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Diffusion/NKI24-11-01-20-m2g-native-csa-det/NKI24_Connectomes.zip
-aws: aws s3 sync s3://open-neurodata/m2g/Diffusion/NKI24-11-01-20-m2g-native-csa-det .
+aws: aws s3 sync --no-sign-request s3://open-neurodata/m2g/Diffusion/NKI24-11-01-20-m2g-native-csa-det .
