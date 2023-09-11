@@ -149,7 +149,7 @@ NeuroData recommendations for papers are as follows:
 - The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
 - When a paper is released publicly, the lead author should
     - Update the website
-    - If relevant, generate a video demonstrating the code in a notebook. The video and notebook should be released publicly via a tweetprint.
+    - If relevant, generate a video demonstrating the code in a notebook. The video and notebook should be linked in Github repo and released publicly via a tweetprint.
 
 ### General Communication
 
