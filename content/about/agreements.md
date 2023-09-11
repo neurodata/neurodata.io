@@ -113,7 +113,7 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 > I commit to being present at weekly lab meetings and lab check-ins.
 
-Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend.
+Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend. They are encouraged to invite at least one person who is not in the lab to attend.
 
 ## Recommended Practices
 
@@ -147,6 +147,9 @@ NeuroData recommendations for papers are as follows:
 - For tracking changes, consider adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the Overleaf web app). 
 - Upon receiving feedback, address every single piece of feedback *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person who cares. 
 - The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
+- When a paper is released publicly, the lead author should
+    - Update the website
+    - If relevant, generate a video demonstrating the code in a notebook. The video and notebook should be released publicly via a tweetprint.
 
 ### General Communication
 
@@ -239,10 +242,8 @@ While these agreements are a living, breathing document, changing them costs ene
 ## Schedule
 The following schedule is planned beginning Spring semester 2023:
 - Everyone in lab Mon & Thurs afternoon (if you can't make it, you are responsible for letting everyone know in advance).
-- Weekly jovo meetings on Mon and Wed, sign up in advance. Additional meetings available as needed. 
-- Lab meetings will be 12-1pm on Mondays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing). 
-- The first Monday of every month, lab meeting will be **global**, i.e. advertised and available online and open to anyone. These meetings should occur after the presenter has given a version of the talk locally and incorporated any feedback into the presentation.
-- Weekly check-ins will be after lab meeting, 1-1:30pm on Mondays.
+- Weekly jovo meetings on Mon and Thurs, sign up in advance. Additional meetings available as needed. 
+- Lab meetings will be 12-1pm on Thursdays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
 
 ## Activities
 
