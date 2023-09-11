@@ -111,7 +111,7 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 #### Lab meetings
 
-> I commit to being present at weekly lab meetings and lab check-ins.
+> I commit to being present at weekly lab meetings.
 
 Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend. They are encouraged to invite at least one person who is not in the lab to attend.
 
@@ -148,7 +148,7 @@ NeuroData recommendations for papers are as follows:
 - Upon receiving feedback, address every single piece of feedback *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person who cares. 
 - The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
 - When a paper is released publicly, the lead author should
-    - Update the website
+    - Update the website.
     - If relevant, generate a video demonstrating the code in a notebook. The video and notebook should be released publicly via a tweetprint.
 
 ### General Communication
