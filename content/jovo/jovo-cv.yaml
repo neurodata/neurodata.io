@@ -274,6 +274,9 @@ data:
           institution: Search Committee, BME, Neuroengineering, 2018
     - title: Service in Scientific Community
       listitems:
+        - date: 2023 –
+          position: Member
+          institution: National Advisory Mental Health Council Workgroup on High-Dimensional Datasets
         - date: 2019 –
           position: Mentor
           institution: Black in AI
@@ -312,6 +315,9 @@ data:
           desc: PLoS Computational Biology
     - title: "Journal Service: Conference and Journal Reviewer"
       listitems:
+        - position: Neural Information Processing Systems (NeurIPS)
+        - position: International Conference on Learning Representations (ICLR) 
+        - position: International Conference on Machine Learning (ICML)
         - position: Annals of Applied Statistics (AOAS)
         - position: Bioinformatics
         - position: International Conference on Learning Representations (ICLR)
@@ -564,65 +570,36 @@ data:
           
     - title: "Open-Source Software: Active"
       listitems:
+        - date: 2021 –
+          title: scikit-tree
+          url: https://docs.neurodata.io/scikit-tree/dev/index.html#
+          desc: "Scikit-tree is a package for modern tree-based algorithms for supervised and unsupervised learning problems. It extends the robust API of scikit-learn for tree algorithms that achieve strong performance in benchmark tasks."
+          stats: 38 stars, 7 forks
         - date: 2020 –
-          title: ProgLearn (Progressive Learning)
-          url: https://github.com/neurodata/ProgLearn
-          desc: A Python package for exploring and using progressive learning algorithms
-          stats: 22 stars, 29 forks, 37 downloads/month
-        - date: 2019 –
-          title: ARDENT (Affine and Regularized Deformative Numeric Transform)
-          url: https://github.com/neurodata/ardent
-          desc: A Python package for performing automated image registration using LDDMM
-          stats: 10 stars, 5 forks
+          title: hyppo ((HYPothesis Testing in PythOn)
+          url: https://hyppo.neurodata.io/
+          desc: "An open-source software package for multivariate hypothesis testing. It intends to be a comprehensive multivariate hypothesis testing package that runs on all major versions of operating systems. It also includes novel tests not found in other packages."
+          stats: 201 stars, 82 forks
+        - date: 2020 –
+          title: brainlit
+          url: http://brainlit.neurodata.io/
+          desc: "This repository is a container of methods that Neurodata usees to expose their open-source code while it is in the process of being merged with larger scientific libraries such as scipy, scikit-image, or scikit-learn."
+          stats: 23 stars, 17 forks
         - date: 2019 –
           title: graspologic (Graph Statistics)
           url: https://neurodata.io/graspy/
           desc: "Co-developed with Microsoft Research: Utilities and algorithms designed for processing and analysis of graphs with specialized graph statistical algorithms"
           stats: 134 stars, 56 forks, 2,516 downloads/month
         - date: 2019 –
-          title: reg (Image registration)
-          url: https://neurodata.io/reg/
-          desc: A Python package which performs non-linear affine and deformable image registration
-          stats: 6 stars, 4 forks, 61 downloads/month
-        - date: 2019 –
           title: neuroparc
           url: https://github.com/neurodata/neuroparc
           desc: This repository contains a number of useful parcellations, templates, masks, and transforms to (and from) MNI152NLin6 space. The files are named according to the BIDs specification
           stats: 26 stars, 4 forks
-        - date: 2019 –
-          title: https://neurodata.io/forests/
-          url: Sparse Projection Oblique Randomer Forests (Classification and regression)
-          desc: SPORF is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of > 100 benchmark problems
-          stats: 54 stars, 35 forks, 73 downloads/month, 36 docker pulls
-        - date: 2019 –
-          title: Uncertainty-Forest
-          url: https://github.com/neurodata/uncertainty-forest
-          desc: A Python package containing estimation procedures for posterior distributions, conditional entropy, and mutual information between random variables X and Y
-          stats: 2 stars, 1 fork
-        - date: 2018 –
-          title: LOL (Supervised dimensionality reduction)
-          url: https://neurodata.io/lol/
-          desc: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
-          stats: 8 stars, 6 forks, 60 downloads/month
-        - date: 2018 –
-          title: MGC (Non-parametric hypothesis testing)
-          url: https://neurodata.io/mgc/
-          desc: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data
-          stats: 28 stars, 11 forks, 120 downloads/month, 266 docker pulls
         - date: 2018 –
           title: m2g (MR graph analysis)
           url: https://neurodata.io/m2g/
           desc: A Python pipeline which uses diffusion MRI data from individuals to generate connectomes reliably and scalably
           stats: 35 stars, 26 forks, 218 downloads/month, 7,900 docker pulls
-        - date: 2018 –
-          title: ndcloud (NeuroData Cloud)
-          url: https://neurodata.io/nd_cloud/
-          desc: The deployment of tools which support the Open Connectome Project
-        - date: 2016 –
-          title: Non-Parametric-Clustering
-          url: https://github.com/neurodata/non-parametric-clustering
-          desc: A program which uses non-parametric-clustering to minimize or maximize a given criterion function
-          stats: 3 stars, 2 forks
 
     - title: "Open-source Software: Contributed"
       listitems:
@@ -656,6 +633,50 @@ data:
           desc: Developed core functionality
     - title: "Open-source Software: Archived"
       listitems:
+        - date: 2020 – 202x
+          title: ProgLearn (Progressive Learning)
+          url: https://github.com/neurodata/ProgLearn
+          desc: A Python package for exploring and using progressive learning algorithms
+          stats: 22 stars, 29 forks, 37 downloads/month
+        - date: 2019 – 202x
+          title: ARDENT (Affine and Regularized Deformative Numeric Transform)
+          url: https://github.com/neurodata/ardent
+          desc: A Python package for performing automated image registration using LDDMM
+          stats: 10 stars, 5 forks
+        - date: 2019 – 202x
+          title: reg (Image registration)
+          url: https://neurodata.io/reg/
+          desc: A Python package which performs non-linear affine and deformable image registration
+          stats: 6 stars, 4 forks, 61 downloads/month
+        - date: 2019 – 202x
+          title: https://neurodata.io/forests/
+          url: Sparse Projection Oblique Randomer Forests (Classification and regression)
+          desc: SPORF is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of > 100 benchmark problems
+          stats: 54 stars, 35 forks, 73 downloads/month, 36 docker pulls
+        - date: 2019 – 202x
+          title: Uncertainty-Forest
+          url: https://github.com/neurodata/uncertainty-forest
+          desc: A Python package containing estimation procedures for posterior distributions, conditional entropy, and mutual information between random variables X and Y
+          stats: 2 stars, 1 fork
+        - date: 2018 – 202x
+          title: LOL (Supervised dimensionality reduction)
+          url: https://neurodata.io/lol/
+          desc: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
+          stats: 8 stars, 6 forks, 60 downloads/month
+        - date: 2018 – 202x
+          title: MGC (Non-parametric hypothesis testing)
+          url: https://neurodata.io/mgc/
+          desc: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data
+          stats: 28 stars, 11 forks, 120 downloads/month, 266 docker pulls
+        - date: 2018 – 202x
+          title: ndcloud (NeuroData Cloud)
+          url: https://neurodata.io/nd_cloud/
+          desc: The deployment of tools which support the Open Connectome Project
+        - date: 2016 – 202x
+          title: Non-Parametric-Clustering
+          url: https://github.com/neurodata/non-parametric-clustering
+          desc: A program which uses non-parametric-clustering to minimize or maximize a given criterion function
+          stats: 3 stars, 2 forks
         - date: 2017 – 2019
           title: ndex
           url: https://github.com/neurodata/ndex
@@ -753,11 +774,19 @@ data:
     - title: Startups
       listitems:
         - date: 2017
+          position: Chief Intelligence Officer
+          url: http://joinsensie.com
+          title: sensie
+          desc: |
+             Sensie is a startup devoted to unblocking intelligence to optimize our collective wellness.
+          stats: 21 employees.
+        - date: 2017
           position: Co-Founder
           url: http://gigantum.io
           title: gigantum
           desc: |
             The future of data science is open, decentralized and user friendly. That is why we created a platform that enables anybody to create and share totally reproducible computational work with the world. Completed initial round of seed funding for undisclosed amount from <a href="https://www.digital-science.com/">Digital Science</a>, which also funds figshare, readcube, altmetric, overleaf, and more.
+            Gigantum was acquired by nVidia in early 2022. 
           stats: 15 employees.
         - date: 2016
           position: Co-Founder
@@ -768,3 +797,9 @@ data:
             R/Shiny web applications and basic data cleaning., Provides data science consulting for a
             variety of companies, specifically biomedical data science
           stats: 4 employees.
+        - date: 2016
+          position: Co-Founder
+          title: global domain partners
+          desc: |
+            Global Domain Partners is a quantitative hedge fund that was acquired by Mosaic Investment Partners in 2012
+          stats: 6 employees.
