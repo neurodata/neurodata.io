@@ -563,16 +563,6 @@
 	address = {NAIsys, Cold Spring Harbor, NY, USA}
 },
 
-@inproceedings{ThomasNeuro2020,
-	title = {Automated Neuron Tracing of Sparse Fluorescently Labeled Neurons},
-	author = {Athey, Thomas L and Sulam, Jeremias and Vogelstein, Joshua and Tward, Daniel and Miller, Michael},
-	author+an = {3=highlight; 1=trainee},
-	year = {2020},
-	keywords = {abspos},
-	month = {11},
-	address = {Neuromatch 3}
-},
-
 @inproceedings{Gray2010,
 	title = {Graph-Theoretical Methods for Statistical Inference on MR Connectome Data},
 	author = {Gray, William R and Vogelstein, Joshua T and Bogovic, J and Carass, A and Prince, J L and Landman, B and Pham, D and Ferrucci, L and Resnick, S M and Priebe, Carey E and Vogelstein, R Jacob},
@@ -613,16 +603,6 @@
 	url = {http://dx.doi.org/10.6084/m9.figshare.1284153},
 	month = {6},
 	address = {OHBM, Seattle, WA, USA}
-},
-
-@inproceedings{Tommy_BIM2019,
-	title = {Low-level Neuron Segmentation in Sub-Micron Resolution Images of the Complete Mouse Brain},
-	author = {Athey, Thomas L. and Vogelstein, Joshua T.},
-	author+an = {1=trainee; 2=highlight},
-	year = {2019},
-	keywords = {abspos},
-	month = {4},
-	address = {Brain Initiative Investigators Meeting, Washington DC, USA}
 },
 
 @inproceedings{Ronan_OHBM2020,
@@ -704,16 +684,6 @@
 	address = {COSYNE, Salt Lake City, UT, USA}
 },
 
-@inproceedings{Tommy_BIM2019_2,
-	title = {Investigating Neuron Trajectories with Splines},
-	author = {Athey, Thomas L. and Vogelstein, Joshua T.},
-	author+an = {1=trainee; 2=highlight},
-	year = {2019},
-	keywords = {abspos},
-	month = {4},
-	address = {Brain Initiative Investigators Meeting, Washington DC, USA}
-},
-
 @inproceedings{PedigoNeuro2020,
 	title = {Statistical tools for nanoscale connectomics: clustering neurons in Drosophila larva brain and other applications},
 	author = {Pedigo, Benjamin D. and Winding, Michael and Saad-Eldin, Ali and Liu, Tingshan and Cardona, Albert and Zlatic, Marta and Priebe, Carey E. and Vogelstein, Joshua T.},
@@ -738,16 +708,6 @@
 	title = {NeuroGraphMatch},
 	author = {Saad-Eldin, Ali and Pedigo, Benjamin D. and Park, Youngser and Priebe, Carey E. and Vogelstein, Joshua T.},
 	author+an = {1=trainee; 2=trainee; 3=trainee; 5=highlight},
-	year = {2020},
-	keywords = {abspos},
-	month = {11},
-	address = {Neuromatch 3}
-},
-
-@inproceedings{TingshanNeuro2020,
-	title = {Hierarchical stochastic block modeling in the Drosophila connectome},
-	author = {Liu, Tingshan and Pedigo, Benjamin D. and Athey, Thomas L. and Vogelstin, Joshua T.},
-	author+an = {1=trainee; 2=trainee; 3=trainee; 4=highlight},
 	year = {2020},
 	keywords = {abspos},
 	month = {11},
@@ -1372,6 +1332,7 @@
 	title = {hyppo: A Multivariate Hypothesis Testing Python Package},
 	author = {Panda, Sambit and Palaniappan, Satish and Xiong, Junhao and Bridgeford, Eric W. and Mehta, Ronak and Shen, Cencheng and Vogelstein, Joshua T.},
 	year = {2021},
+	author+an = {1=trainee;4=trainee;5=trainee;6=trainee;7=highlight},
 	keywords = {in-review},
 	url = {https://arxiv.org/abs/1907.02088},
 	month = {4},
@@ -1450,17 +1411,6 @@
 	journal = {arXiv}
 },
 
-@article{Tommy2020,
-	title = {AutoGMM: Automatic and Hierarchical Gaussian Mixture Modeling in Python},
-	author = {Athey, Thomas L. and Liu, Tingshan and Pedigo, Benjamin D. and Vogelstein, Joshua T.},
-	author+an = {1 = trainee; 2 = trainee; 3 = trainee; 4 = highlight},
-	year = {2021},
-	keywords = {in-review},
-	url = {https://arxiv.org/abs/1909.02688},
-	journal = {arxiv},
-	arxivid = {1909.02688}
-},
-
 @article{optimal2019,
 	title = {Optimal Experimental Design for Big Data: Applications in Brain Imaging},
 	author = {Bridgeford, Eric W. and Wang, Shangsi and Yang, Zhi and Wang, Zeyi and Xu, Ting and Craddock, Cameron and Kiar, Gregory and Gray-Roncal, William and Priebe, Carey E. and Caffo, Brian and Milham, Michael and Zuo, Xi-Nian and (CoRR) and Vogelstein, Joshua T.},
@@ -1516,13 +1466,13 @@
 @article{shenLearningInterpretableCharacteristic2020,
 	title = {Learning Interpretable Characteristic Kernels via Decision Forests},
 	author = {Shen, Cencheng and Panda, Sambit and Vogelstein, Joshua T.},
-	author+an = {2=trainee,3=highlight},
-	year = {2020},
+	author+an = {1=trainee;2=trainee;3=highlight},
+	year = {2023},
 	keywords = {in-review},
 	url = {https://arxiv.org/abs/1812.00029},
 	month = {9},
 	journal = {arXiv},
-	abstract = {Decision forests are popular tools for classification and regression. These forests naturally produce proximity matrices measuring how often each pair of observations lies in the same leaf node. It has been demonstrated that these proximity matrices can be thought of as kernels, connecting the decision forest literature to the extensive kernel machine literature. While other kernels are known to have strong theoretical properties such as being characteristic, no similar result is available for any decision forest based kernel. In this manuscript,we prove that the decision forest induced proximity can be made characteristic, which can be used to yield a universally consistent statistic for testing independence. We demonstrate the performance of the induced kernel on a suite of 20 high-dimensional independence test settings. We also show how this learning kernel offers insights into relative feature importance. The decision forest induced kernel typically achieves substantially higher testing power than existing popular methods in statistical tests.},
+	abstract = {Decision forests are widely used for classification and regression tasks. A lesser known property of tree-based methods is that one can construct a proximity matrix from the tree(s), and these proximity matrices are induced kernels. While there has been extensive research on the applications and properties of kernels, there is relatively little research on kernels induced by decision forests. We construct Kernel Mean Embedding Random Forests (KMERF), which induce kernels from random trees and/or forests using leaf-node proximity. We introduce the notion of an asymptotically characteristic kernel, and prove that KMERF kernels are asymptotically characteristic for both discrete and continuous data. Because KMERF is data-adaptive, we suspected it would outperform kernels selected a priori on finite sample data. We illustrate that KMERF nearly dominates current state-of-the-art kernel-based tests across a diverse range of high-dimensional two-sample and independence testing settings. Furthermore, our forest-based approach is interpretable, and provides feature importance metrics that readily distinguish important dimensions, unlike other high-dimensional non-parametric testing procedures. Hence, this work demonstrates the decision forest-based kernel can be more powerful and more interpretable than existing methods, flying in the face of conventional wisdom of the trade-off between the two.},
 	eprint = {1812.00029},
 	archiveprefix = {arXiv},
 	primaryclass = {cs, stat},
@@ -1534,6 +1484,7 @@
 	title = {Nonpar MANOVA via Independence Testing},
 	author = {Panda, Sambit and Shen, Cencheng and Perry, Ronan and Zorn, Jelle and Lutz, Antoine and Priebe, Carey E. and Vogelstein, Joshua T.},
 	year = {2021},
+	author+an = {1=trainee;2=trainee;3=trainee;7=highlight},
 	keywords = {in-review},
 	url = {https://arxiv.org/abs/1910.08883},
 	month = {4},
@@ -2503,7 +2454,7 @@
 @article{shenChiSquareTestDistance2021,
 	title = {The Chi-Square Test of Distance Correlation},
 	author = {Shen, Cencheng and Panda, Sambit and Vogelstein, Joshua T.},
-	author+an = {2=trainee,3=highlight},
+	author+an = {1=trainee;2=trainee,3=highlight},
 	year = {2021},
 	keywords = {peer-reviewed},
 	url = {https://www.tandfonline.com/doi/full/10.1080/10618600.2021.1938585},
@@ -4026,3 +3977,14 @@
 	keywords = {tech},
 	journal = {Neuroinformatics}
 }
+
+@article{de2023value,
+  title={The value of out-of-distribution data},
+  author={De Silva, Ashwin and Ramesh, Rahul and Priebe, Carey and Chaudhari, Pratik and Vogelstein, Joshua T},
+  author+an = {1=trainee; 5=highlight},
+  year={2023},
+  month={7},
+  journal={International Conference on Machine Learning},
+  keywords={conference}
+}
+
