@@ -103,6 +103,17 @@ data:
   educational:
     - title: Teaching Experience - Ongoing Courses
       listitems:
+        - date: Fall '23
+          title: Philosophy of Life - A Data Science Perspective
+          ref: EN.580.419, Course Director, JHU, enrollment 10.
+        - date: Spring '22
+          url: https://neurodatadesign.io/
+          title: NeuroData Design II
+          ref: EN.580.438/638, Course Director, JHU, enrollment 20.
+        - date: Fall '21
+          url: https://neurodatadesign.io/
+          title: NeuroData Design I
+          ref: EN.580.437/697, Course Director, JHU, enrollment 27.
         - date: Spring '21
           url: https://neurodatadesign.io/
           title: NeuroData Design II
