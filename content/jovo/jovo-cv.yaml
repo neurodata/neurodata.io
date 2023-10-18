@@ -614,7 +614,7 @@ data:
 
     - title: "Open-source Software: Contributed"
       listitems:
-        - date: 2019 –
+        - date: 2019
           title: cloud-volume
           url: https://github.com/neurodata/cloud-volume
           desc: Added support for additional file types
@@ -644,46 +644,46 @@ data:
           desc: Developed core functionality
     - title: "Open-source Software: Archived"
       listitems:
-        - date: 2020 – 202x
+        - date: 2020 – 2022
           title: ProgLearn (Progressive Learning)
           url: https://github.com/neurodata/ProgLearn
           desc: A Python package for exploring and using progressive learning algorithms
           stats: 22 stars, 29 forks, 37 downloads/month
-        - date: 2019 – 202x
+        - date: 2019 – 2020
           title: ARDENT (Affine and Regularized Deformative Numeric Transform)
           url: https://github.com/neurodata/ardent
           desc: A Python package for performing automated image registration using LDDMM
           stats: 10 stars, 5 forks
-        - date: 2019 – 202x
+        - date: 2019 – 2021
           title: reg (Image registration)
           url: https://neurodata.io/reg/
           desc: A Python package which performs non-linear affine and deformable image registration
           stats: 6 stars, 4 forks, 61 downloads/month
-        - date: 2019 – 202x
+        - date: 2019 – 2019
           title: https://neurodata.io/forests/
           url: Sparse Projection Oblique Randomer Forests (Classification and regression)
           desc: SPORF is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of > 100 benchmark problems
           stats: 54 stars, 35 forks, 73 downloads/month, 36 docker pulls
-        - date: 2019 – 202x
+        - date: 2019 – 2020
           title: Uncertainty-Forest
           url: https://github.com/neurodata/uncertainty-forest
           desc: A Python package containing estimation procedures for posterior distributions, conditional entropy, and mutual information between random variables X and Y
           stats: 2 stars, 1 fork
-        - date: 2018 – 202x
+        - date: 2018 – 2021
           title: LOL (Supervised dimensionality reduction)
           url: https://neurodata.io/lol/
           desc: Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks
           stats: 8 stars, 6 forks, 60 downloads/month
-        - date: 2018 – 202x
+        - date: 2018 – 2021
           title: MGC (Non-parametric hypothesis testing)
           url: https://neurodata.io/mgc/
           desc: Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data
           stats: 28 stars, 11 forks, 120 downloads/month, 266 docker pulls
-        - date: 2018 – 202x
+        - date: 2018 – 2019
           title: ndcloud (NeuroData Cloud)
           url: https://neurodata.io/nd_cloud/
           desc: The deployment of tools which support the Open Connectome Project
-        - date: 2016 – 202x
+        - date: 2016 – 2019
           title: Non-Parametric-Clustering
           url: https://github.com/neurodata/non-parametric-clustering
           desc: A program which uses non-parametric-clustering to minimize or maximize a given criterion function
@@ -814,3 +814,4 @@ data:
           desc: |
             Global Domain Partners is a quantitative hedge fund that was acquired by Mosaic Investment Partners in 2012
           stats: 6 employees.
+`
