@@ -1,0 +1,359 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'tex/jovo_cv_SOM_5pg.blg'
+[36] biber:340> INFO - === Sat Oct 21, 2023, 14:25:58
+[46] Biber.pm:419> INFO - Reading 'tex/jovo_cv_SOM_5pg.bcf'
+[92] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[92] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[92] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[92] Biber.pm:976> INFO - Using all citekeys in bib section 2
+[92] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[105] Biber.pm:4419> INFO - Processing section 1
+[111] Biber.pm:4610> INFO - Looking for bibtex file 'pubs_5pg.bib' for section 1
+[130] bibtex.pm:1713> INFO - LaTeX decoding ...
+[338] bibtex.pm:1519> INFO - Found BibTeX data source 'pubs_5pg.bib'
+[2031] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2031] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2031] Biber.pm:4239> INFO - Sorting list 'ydmdt/global//global/global' of type 'entry' with template 'ydmdt' and locale 'en-US'
+[2031] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2148] Biber.pm:4419> INFO - Processing section 2
+[2148] Biber.pm:4610> INFO - Looking for bibtex file 'funding.bib' for section 2
+[2151] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2180] bibtex.pm:1519> INFO - Found BibTeX data source 'funding.bib'
+[2243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2243] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2243] Biber.pm:4239> INFO - Sorting list 'ydmdt/global//global/global' of type 'entry' with template 'ydmdt' and locale 'en-US'
+[2243] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2252] bbl.pm:660> INFO - Writing 'tex/jovo_cv_SOM_5pg.bbl' with encoding 'UTF-8'
+[2388] bbl.pm:763> INFO - Output to tex/jovo_cv_SOM_5pg.bbl
+[2388] Biber.pm:131> WARN - ISBN '10.1371/journal.pone.0095753' in entry 'Sweeney2014' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '10.1186/2042-1001-1-16' in entry 'Fiori2013' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1405.3133' in entry 'Lyzinski2014a' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - legacy month field 'October' in entry 'Wang_2023_ICCV' is not an integer - this will probably not sort properly.
+[2389] Biber.pm:131> WARN - ISBN '2050-084X (Electronic)2050-084X (Linking)' in entry 'schlegel2016synaptic' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '2045-2322' in entry 'Vogelstein2011b' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0162-8828 VO - 35' in entry 'Vogelstein2013' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1471-0048 (Electronic)1̊471-003X (Linking)' in entry 'Jones2009' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1476-4687 (Electronic)0̊028-0836 (Linking)' in entry 'takemura2013visual' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1476-4687 (Electronic)0̊028-0836 (Linking)' in entry 'bock2011network' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0022-3077 (Print)0̊022-3077 (Linking)' in entry 'Vogelstein2003' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1095-9203 (Electronic)0̊036-8075 (Linking)' in entry 'amunts2013bigbrain' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0092-8674' in entry 'jovanic2016competitive' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1548-70911̊548-7105' in entry 'randlett2015whole' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1932-6157' in entry 'Mishchenko2011' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '2050-084x' in entry 'fushiki2016circuit' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - Name in key 'Mhembere2013a' is empty (probably consecutive 'and'): skipping entry 'Mhembere2013a'
+[2389] Biber.pm:131> WARN - ISBN '1097-4199 (Electronic)0̊896-6273 (Linking)' in entry 'burns2014cosmos' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1946-6242 (Electronic)1̊946-6234 (Linking)' in entry 'Roberts2012' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0176-4268' in entry 'Vogelstein2015b' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0929-5313' in entry 'Paninski2010' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '10.1186/2042-1001-1-16' in entry 'Petralia2013' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1559-6095 (Electronic)1̊559-6095 (Linking)' in entry 'Yuste2011' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1548-7091' in entry 'vladimirov2014light' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '0893-6080' in entry 'Vogelstein2007' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1662-5129 (Electronic) 1662-5129 (Linking)' in entry 'burette2015knowing' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '10.1186/2042-1001-1-16' in entry 'Vogelstein2011c' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1097-4172 (Electronic)0̊092-8674 (Linking)' in entry 'kasthuri2015saturated' is invalid - run biber with '--validate_datamodel' for details.
+[2389] Biber.pm:131> WARN - ISBN '1662-5196' in entry 'Roncal2015b' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '0092-8674' in entry 'bumbarger2013system' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '1546-1726 (Electronic)1̊097-6256 (Linking)' in entry 'Hofer2011' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '1546-1726 (Electronic)1̊097-6256 (Linking)' in entry 'wanner2016dense' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '2052-4463 (Electronic) 2052-4463 (Linking)' in entry 'harris2015resource' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '0006-3495' in entry 'Vogelstein2009' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '2050-084X (Electronic)2050-084X (Linking)' in entry 'berck2016wiring' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'Kudithipudi2022' is not an integer - this will probably not sort properly.
+[2390] Biber.pm:131> WARN - ISBN '1476-4687 (Electronic)0̊028-0836 (Linking)' in entry 'ohyama2015multilevel' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '0932-8092' in entry 'Dai2012' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '1548-7105 (Electronic)1̊548-7091 (Linking)' in entry 'Craddock2013' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '0022-3077' in entry 'Vogelstein2010' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '1529-2401 (Electronic)0̊270-6474 (Linking)' in entry 'collman2015mapping' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - ISBN '0028-0836' in entry 'lein2007genome' is invalid - run biber with '--validate_datamodel' for details.
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 18, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 30, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 41, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 51, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 61, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 71, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 80, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 91, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 102, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 113, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 124, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 134, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 144, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 154, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 165, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 176, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 187, warning: 1 characters of junk seen at toplevel
+[2390] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 198, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 209, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 219, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 230, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 241, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 252, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 263, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 274, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 285, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 295, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 306, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 317, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 328, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 339, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 350, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 361, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 372, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 383, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 392, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 402, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 413, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 424, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 433, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 444, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 455, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 465, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 476, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 490, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 502, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 513, warning: 1 characters of junk seen at toplevel
+[2391] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 524, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 535, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 546, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 556, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 566, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 577, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 587, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 597, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 608, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 618, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 627, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 637, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 646, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 656, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 666, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 676, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 687, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 697, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 707, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 717, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 727, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 737, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 747, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 756, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 771, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 786, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 800, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 813, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 827, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 841, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 860, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 875, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 895, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 914, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 929, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 946, warning: 1 characters of junk seen at toplevel
+[2392] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 965, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 984, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1001, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1011, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1027, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1045, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1061, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1075, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1094, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1106, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1118, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1130, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1145, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1154, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1167, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1181, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1192, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1205, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1218, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1229, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1244, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1258, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1271, warning: 1 characters of junk seen at toplevel
+[2393] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1284, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1300, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1313, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1332, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1342, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1362, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1373, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1384, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1403, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1423, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1434, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1446, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1462, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1475, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1487, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1507, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1524, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1541, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1553, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1568, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1577, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1592, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1607, warning: 1 characters of junk seen at toplevel
+[2394] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1622, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1635, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1650, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1665, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1680, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1695, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1710, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1726, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1736, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1751, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1768, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1780, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1795, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1807, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1820, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1832, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1850, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1860, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1874, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1889, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1905, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1918, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1930, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1941, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1956, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1972, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1982, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 1992, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2003, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2015, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2028, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2039, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2055, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2066, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2084, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2095, warning: 1 characters of junk seen at toplevel
+[2395] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2114, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2132, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2143, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2153, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2163, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2180, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2198, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2213, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2230, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2244, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2266, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2284, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2302, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2320, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2329, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2340, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2361, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2375, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2393, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2406, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2417, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2431, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2451, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2467, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2479, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2496, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2516, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2532, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2546, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2563, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2584, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2605, warning: 1 characters of junk seen at toplevel
+[2396] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2626, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2646, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2663, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2679, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2695, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2712, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2732, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2748, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2764, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2780, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2795, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2816, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2831, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2848, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2865, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2885, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2903, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2922, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2941, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2956, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2974, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 2993, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3010, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3026, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3040, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3056, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3073, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3093, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3113, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3133, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3145, warning: 1 characters of junk seen at toplevel
+[2397] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3158, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3176, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3187, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3205, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3218, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3229, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3246, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3262, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3282, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3295, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3314, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3331, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3348, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3370, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3383, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3394, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3411, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3429, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3447, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3469, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3480, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3501, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3517, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3529, warning: 1 characters of junk seen at toplevel
+[2398] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3540, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3558, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3572, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3587, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3599, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3612, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3626, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3640, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3654, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3670, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3687, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3698, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3713, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3724, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3736, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3750, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3765, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3779, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3792, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3806, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3817, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3832, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3846, warning: 1 characters of junk seen at toplevel
+[2399] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3860, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3871, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3885, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3900, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3912, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3924, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3939, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3952, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3963, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3975, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 3989, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/5n/_yywdkrx3z749vtyggb7c5yh0000gp/T/biber_tmp_N3El/a3ecdeb0fb5301352dc5c4528355a6a1_50577.utf8, line 4003, warning: 1 characters of junk seen at toplevel
+[2400] Biber.pm:131> WARN - BibTeX subsystem: substring 10, warning: empty substring
+[2400] Biber.pm:131> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[2400] Biber.pm:133> INFO - WARNINGS: 331
