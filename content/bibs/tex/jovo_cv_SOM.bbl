@@ -303,6 +303,196 @@
       \annotation{item}{author}{default}{1}{}{0}{trainee}
       \annotation{item}{author}{default}{5}{}{0}{highlight}
     \endentry
+    \entry{pedigo2023connectome}{article}{}
+      \name{author}{20}{}{%
+        {{hash=0cd82831fe620a929fa10c4dd4780139}{%
+           family={Winding},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cce4b4d8aded257f79326962a545c73a}{%
+           family={Pedigo},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4a9b4801ac57ee6e83a21babc20d3eec}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1d324029c8022749b1935f1512abfd6c}{%
+           family={Patsolic},
+           familyi={P\bibinitperiod},
+           given={Heather\bibnamedelima G},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=cc0dca3c1c23b7f98e7c7f8f9d945823}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Youngser},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d218d695940b877fb4e52563bc123522}{%
+           family={Kazimiers},
+           familyi={K\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=44adf7d5498d33188f37cf93acde7ae9}{%
+           family={Fushiki},
+           familyi={F\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8b713726c3652488c705b99396f41034}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Ingrid\bibnamedelima V},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=6de60737cfd64a79650c6181b821eb71}{%
+           family={Khandelwal},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ec31f83b5cdc5bcaaa7e00d84b896951}{%
+           family={Valdes-Aleman},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6c9be9b5d612bffdc6eba5985ff59e6f}{%
+           family={Randel},
+           familyi={R\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0816ab9032c322d4fee3c22ef2fdf5f1}{%
+           family={Barsotti},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9a94cc9acbd0a21675c70253920ac74c}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b90ef70f582fc5ff032b2aebfaa09640}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=42001dc02d560e1d285d4ba61ad8da0a}{%
+           family={Priebe},
+           familyi={P\bibinitperiod},
+           given={Carey\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=863e81711362b73909705ca198fc742e}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{034ea50ea7a0d740f662cd82d1aa28f8}
+      \strng{fullhash}{e38b4583406de9873328709050da17c5}
+      \strng{bibnamehash}{e38b4583406de9873328709050da17c5}
+      \strng{authorbibnamehash}{e38b4583406de9873328709050da17c5}
+      \strng{authornamehash}{034ea50ea7a0d740f662cd82d1aa28f8}
+      \strng{authorfullhash}{e38b4583406de9873328709050da17c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Brains contain networks of interconnected neurons and so knowing the network architecture is essential for understanding brain function. We therefore mapped the synaptic-resolution connectome of an entire insect brain (Drosophila larva) with rich behavior, including learning, value computation, and action selection, comprising 3016 neurons and 548,000 synapses. We characterized neuron types, hubs, feedforward and feedback pathways, as well as cross-hemisphere and brain-nerve cord interactions. We found pervasive multisensory and interhemispheric integration, highly recurrent architecture, abundant feedback from descending neurons, and multiple novel circuit motifs. The brain’s most recurrent circuits comprised the input and output neurons of the learning center. Some structural features, including multilayer shortcuts and nested recurrent loops, resembled state-of-the-art deep learning architectures. The identified brain architecture provides a basis for future experimental and theoretical studies of neural circuits.}
+      \field{journaltitle}{science}
+      \field{month}{3}
+      \field{title}{The connectome of an insect brain}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.add9330
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.add9330
+      \endverb
+      \keyw{peer-reviewed}
+      \annotation{item}{author}{default}{1}{}{0}{trainee}
+      \annotation{item}{author}{default}{2}{}{0}{trainee}
+      \annotation{item}{author}{default}{4}{}{0}{trainee,5=trainee,6=trainee,7=trainee,9=highlight}
+    \endentry
+    \entry{pedigo2023generative}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cce4b4d8aded257f79326962a545c73a}{%
+           family={Pedigo},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=03e6425703f5e309dd5c13bae8590378}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a1176573270773f5a6a7ddb4431236a}{%
+           family={Bridgeford},
+           familyi={B\bibinitperiod},
+           given={Eric\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0cd82831fe620a929fa10c4dd4780139}{%
+           family={Winding},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=42001dc02d560e1d285d4ba61ad8da0a}{%
+           family={Priebe},
+           familyi={P\bibinitperiod},
+           given={Carey\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=863e81711362b73909705ca198fc742e}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6759c20a712aeeef9e58ded48b711963}
+      \strng{fullhash}{96098a32ce63d02103db591055152f47}
+      \strng{bibnamehash}{96098a32ce63d02103db591055152f47}
+      \strng{authorbibnamehash}{96098a32ce63d02103db591055152f47}
+      \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
+      \strng{authorfullhash}{96098a32ce63d02103db591055152f47}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife Sciences Publications, Ltd}
+      \field{month}{3}
+      \field{title}{Generative network modeling reveals quantitative definitions of bilateral symmetry exhibited by a whole insect brain connectome}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://elifesciences.org/articles/83739
+      \endverb
+      \verb{url}
+      \verb https://elifesciences.org/articles/83739
+      \endverb
+      \keyw{peer-reviewed}
+      \annotation{field}{author}{default}{}{}{0}{}
+      \annotation{item}{author}{default}{1}{}{0}{trainee}
+      \annotation{item}{author}{default}{6}{}{0}{highlight}
+    \endentry
     \entry{bridgeford2023learning}{article}{}
       \name{author}{9}{}{%
         {{hash=9a1176573270773f5a6a7ddb4431236a}{%
@@ -465,7 +655,7 @@
       \strng{authorbibnamehash}{d4d3b7e9f0125f5226d8889b80bfa1f5}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{d4d3b7e9f0125f5226d8889b80bfa1f5}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -592,7 +782,7 @@
       \strng{authorbibnamehash}{96098a32ce63d02103db591055152f47}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{96098a32ce63d02103db591055152f47}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4454,7 +4644,7 @@
       \strng{authorbibnamehash}{51a2b8fd6f08601f7f0984eef206749a}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{51a2b8fd6f08601f7f0984eef206749a}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -4583,7 +4773,7 @@
       \strng{authorbibnamehash}{e5d95949e0bf34cd7805190442a19f75}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{e5d95949e0bf34cd7805190442a19f75}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -8220,7 +8410,7 @@
       \strng{authorbibnamehash}{30af1d1e500d2406e3e1825fb8575c11}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{30af1d1e500d2406e3e1825fb8575c11}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -21412,7 +21602,7 @@
       \verb{url}
       \verb www.google.com
       \endverb
-      \keyw{current}
+      \keyw{complete}
     \endentry
     \entry{nsf20540}{mvbook}{}
       \name{author}{1}{}{%
@@ -21637,7 +21827,7 @@
       \field{userf}{\$383,482 (total) \$251,325 (direct)}
       \field{year}{2019}
       \true{nocite}
-      \keyw{current}
+      \keyw{complete}
     \endentry
     \entry{nihr01mh120482}{mvbook}{}
       \name{author}{1}{}{%
@@ -21794,7 +21984,7 @@
       \field{userf}{\$199,179 (total) \$121,667 (direct)}
       \field{year}{2017}
       \true{nocite}
-      \keyw{current}
+      \keyw{complete}
     \endentry
     \entry{fa86501827834_1}{mvbook}{}
       \name{author}{1}{}{%
@@ -21825,7 +22015,7 @@
       \field{userf}{\$199,179 (total) \$121,667 (direct)}
       \field{year}{2017}
       \true{nocite}
-      \keyw{current}
+      \keyw{complete}
     \endentry
     \entry{nsf1707298}{mvbook}{}
       \name{author}{1}{}{%
@@ -21901,7 +22091,7 @@
       \verb{url}
       \verb http://grantome.com/grant/NIH/U19-NS104653-02
       \endverb
-      \keyw{current}
+      \keyw{complete}
     \endentry
     \entry{nih1r01dc016784}{mvbook}{}
       \name{author}{1}{}{%
@@ -26357,6 +26547,196 @@
       \annotation{item}{author}{default}{1}{}{0}{trainee}
       \annotation{item}{author}{default}{5}{}{0}{highlight}
     \endentry
+    \entry{pedigo2023connectome}{article}{}
+      \name{author}{20}{}{%
+        {{hash=0cd82831fe620a929fa10c4dd4780139}{%
+           family={Winding},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cce4b4d8aded257f79326962a545c73a}{%
+           family={Pedigo},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4a9b4801ac57ee6e83a21babc20d3eec}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1d324029c8022749b1935f1512abfd6c}{%
+           family={Patsolic},
+           familyi={P\bibinitperiod},
+           given={Heather\bibnamedelima G},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=cc0dca3c1c23b7f98e7c7f8f9d945823}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Youngser},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d218d695940b877fb4e52563bc123522}{%
+           family={Kazimiers},
+           familyi={K\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=44adf7d5498d33188f37cf93acde7ae9}{%
+           family={Fushiki},
+           familyi={F\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8b713726c3652488c705b99396f41034}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Ingrid\bibnamedelima V},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=6de60737cfd64a79650c6181b821eb71}{%
+           family={Khandelwal},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ec31f83b5cdc5bcaaa7e00d84b896951}{%
+           family={Valdes-Aleman},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6c9be9b5d612bffdc6eba5985ff59e6f}{%
+           family={Randel},
+           familyi={R\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0816ab9032c322d4fee3c22ef2fdf5f1}{%
+           family={Barsotti},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9a94cc9acbd0a21675c70253920ac74c}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b90ef70f582fc5ff032b2aebfaa09640}{%
+           family={Fetter},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6469e23f6e55008a8f1d6ad677777332}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=42001dc02d560e1d285d4ba61ad8da0a}{%
+           family={Priebe},
+           familyi={P\bibinitperiod},
+           given={Carey\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=863e81711362b73909705ca198fc742e}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=704fa1d6130928d88680f2323fd9ff84}{%
+           family={Cardona},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=54ef774522747de83e9fa543d2756cbc}{%
+           family={Zlatic},
+           familyi={Z\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{034ea50ea7a0d740f662cd82d1aa28f8}
+      \strng{fullhash}{e38b4583406de9873328709050da17c5}
+      \strng{bibnamehash}{e38b4583406de9873328709050da17c5}
+      \strng{authorbibnamehash}{e38b4583406de9873328709050da17c5}
+      \strng{authornamehash}{034ea50ea7a0d740f662cd82d1aa28f8}
+      \strng{authorfullhash}{e38b4583406de9873328709050da17c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Brains contain networks of interconnected neurons and so knowing the network architecture is essential for understanding brain function. We therefore mapped the synaptic-resolution connectome of an entire insect brain (Drosophila larva) with rich behavior, including learning, value computation, and action selection, comprising 3016 neurons and 548,000 synapses. We characterized neuron types, hubs, feedforward and feedback pathways, as well as cross-hemisphere and brain-nerve cord interactions. We found pervasive multisensory and interhemispheric integration, highly recurrent architecture, abundant feedback from descending neurons, and multiple novel circuit motifs. The brain’s most recurrent circuits comprised the input and output neurons of the learning center. Some structural features, including multilayer shortcuts and nested recurrent loops, resembled state-of-the-art deep learning architectures. The identified brain architecture provides a basis for future experimental and theoretical studies of neural circuits.}
+      \field{journaltitle}{science}
+      \field{month}{3}
+      \field{title}{The connectome of an insect brain}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.add9330
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.add9330
+      \endverb
+      \keyw{peer-reviewed}
+      \annotation{item}{author}{default}{1}{}{0}{trainee}
+      \annotation{item}{author}{default}{2}{}{0}{trainee}
+      \annotation{item}{author}{default}{4}{}{0}{trainee,5=trainee,6=trainee,7=trainee,9=highlight}
+    \endentry
+    \entry{pedigo2023generative}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cce4b4d8aded257f79326962a545c73a}{%
+           family={Pedigo},
+           familyi={P\bibinitperiod},
+           given={Benjamin\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=03e6425703f5e309dd5c13bae8590378}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a1176573270773f5a6a7ddb4431236a}{%
+           family={Bridgeford},
+           familyi={B\bibinitperiod},
+           given={Eric\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=0cd82831fe620a929fa10c4dd4780139}{%
+           family={Winding},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=42001dc02d560e1d285d4ba61ad8da0a}{%
+           family={Priebe},
+           familyi={P\bibinitperiod},
+           given={Carey\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=863e81711362b73909705ca198fc742e}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6759c20a712aeeef9e58ded48b711963}
+      \strng{fullhash}{96098a32ce63d02103db591055152f47}
+      \strng{bibnamehash}{96098a32ce63d02103db591055152f47}
+      \strng{authorbibnamehash}{96098a32ce63d02103db591055152f47}
+      \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
+      \strng{authorfullhash}{96098a32ce63d02103db591055152f47}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{eLife Sciences Publications, Ltd}
+      \field{month}{3}
+      \field{title}{Generative network modeling reveals quantitative definitions of bilateral symmetry exhibited by a whole insect brain connectome}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://elifesciences.org/articles/83739
+      \endverb
+      \verb{url}
+      \verb https://elifesciences.org/articles/83739
+      \endverb
+      \keyw{peer-reviewed}
+      \annotation{field}{author}{default}{}{}{0}{}
+      \annotation{item}{author}{default}{1}{}{0}{trainee}
+      \annotation{item}{author}{default}{6}{}{0}{highlight}
+    \endentry
     \entry{bridgeford2023learning}{article}{}
       \name{author}{9}{}{%
         {{hash=9a1176573270773f5a6a7ddb4431236a}{%
@@ -26519,7 +26899,7 @@
       \strng{authorbibnamehash}{d4d3b7e9f0125f5226d8889b80bfa1f5}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{d4d3b7e9f0125f5226d8889b80bfa1f5}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -26646,7 +27026,7 @@
       \strng{authorbibnamehash}{96098a32ce63d02103db591055152f47}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{96098a32ce63d02103db591055152f47}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -30508,7 +30888,7 @@
       \strng{authorbibnamehash}{51a2b8fd6f08601f7f0984eef206749a}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{51a2b8fd6f08601f7f0984eef206749a}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -30637,7 +31017,7 @@
       \strng{authorbibnamehash}{e5d95949e0bf34cd7805190442a19f75}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{e5d95949e0bf34cd7805190442a19f75}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -34274,7 +34654,7 @@
       \strng{authorbibnamehash}{30af1d1e500d2406e3e1825fb8575c11}
       \strng{authornamehash}{6759c20a712aeeef9e58ded48b711963}
       \strng{authorfullhash}{30af1d1e500d2406e3e1825fb8575c11}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
