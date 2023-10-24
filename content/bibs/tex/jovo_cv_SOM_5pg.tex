@@ -1,0 +1,734 @@
+\documentclass[10pt,colorlinks=true,urlcolor=blue]{moderncv}
+\usepackage{todonotes}
+\usepackage{ulem}
+\usepackage{utopia}
+\usepackage[unicode]{hyperref}
+\usepackage{color}
+\usepackage{pdfpages}
+\usepackage{breakurl}
+\usepackage[yyyymmdd]{datetime}
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+%JLP\usepackage[resetlabels]{multibib}
+\usepackage[%
+    backend=biber,
+    defernumbers=true,
+    refsection=section,
+    sorting=ydmdt,
+    firstinits=false,
+    maxbibnames=999]{biblatex}
+%\usepackage{etoolbox}
+%\addbibresource{peer.bib}
+%\addbibresource{pre.bib}
+%\addbibresource{talks.bib}
+%\addbibresource{other_talks.bib}
+%\addbibresource{posters.bib}
+\appto{\bibsetup}{\raggedright}
+%%
+%\addbibresource{pubs_peer_reviewed.bib}
+%\addbibresource{pubs_in_review.bib}
+%\addbibresource{pubs_conf.bib}
+%\addbibresource{pubs_other.bib}
+%\addbibresource{pubs_tech_reports.bib}
+%\addbibresource{pubs_excluded_entries.bib}
+%\addbibresource{talks_invited.bib}
+%\addbibresource{talks_other.bib}
+%\addbibresource{talks_excluded_entries.bib}
+%\addbibresource[label=posters]{posters.bib}
+\addbibresource{pubs.bib}
+\addbibresource{pubs_5pg.bib}
+\addbibresource{talks.bib}
+\addbibresource{press.bib}
+\addbibresource{funding.bib}
+\addbibresource{people.bib}
+\newcommand*{\subsubsectionfont}{\uline{\large\mdseries\itshape}}% New subsubsection font
+\newcommand*{\subsubsectionstyle}[1]{{\subsubsectionfont\textcolor{color1}{#1}}}
+\makeatletter
+\NewDocumentCommand{\subsubsection}{sm}{%
+  \par\addvspace{1ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsubsection}{#2}%
+  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+    \raggedleft\hintstyle{} &{\strut\subsubsectionstyle{#2}}%
+  \end{tabular}%
+  \par\nobreak\addvspace{0.4ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
+
+%Change Journal name from being in quotes to being italicized 
+\DeclareFieldFormat[article]{journaltitle}{\textit{#1}}
+
+% Count total number of entries in each refsection
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+%\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+%\newrobustcmd*{\mkbibdesc}[1]{%
+%  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+
+
+
+% Where the different filters are defined
+\defbibfilter{peer-reviewed}{keyword=peer-reviewed}
+\defbibfilter{peer-reviewed-5pg}{keyword=peer-reviewed-5pg}
+\defbibfilter{in-review}{keyword=in-review}
+\defbibfilter{conference}{keyword=conference}
+\defbibfilter{book}{keyword=book}
+\defbibfilter{tech}{keyword=tech}
+\defbibfilter{abspos}{keyword=abspos}
+\defbibfilter{other}{keyword=other}
+\defbibfilter{local}{keyword=local}
+\defbibfilter{international}{keyword=international}
+\defbibfilter{press}{keyword=press}
+\defbibfilter{researchtrackfaculty}{keyword=researchtrackfaculty}
+\defbibfilter{staffresearch}{keyword=staffresearch}
+\defbibfilter{postdoc}{keyword=postdoc}
+\defbibfilter{PhDstudent}{keyword=PhDstudent}
+\defbibfilter{visiting-PhDstudent}{keyword=visiting-PhDstudent}
+\defbibfilter{MSstudent}{keyword=MSstudent}
+\defbibfilter{undergrad}{keyword=undergrad}
+\defbibfilter{highschool}{keyword=highschool}
+
+
+% ===== 
+% Function for applying the filters to the bib files and counting in descending order
+\makeatletter
+\patchcmd{\blx@printbibliography}
+  {\blx@bibliography\blx@tempa}
+  {\setcounter{bibitemtotal}{0}%
+   \setlength{\labelnumberwidth}{0pt}%
+   \begingroup
+   \def\do##1{\stepcounter{bibitemtotal}}%
+   \dolistloop{\blx@tempa}%
+   \endgroup
+   \blx@setlabwidth{\labelnumberwidth}{%
+     \csuse{abx@ffd@*@labelnumberwidth}{\arabic{bibitemtotal}}}%
+   \blx@bibliography\blx@tempa}{}{}
+\makeatother
+
+\newcounter{bibitemtotal}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\value{bibitemtotal}+1-#1\relax}
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{\printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+% =====
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {
+        \ifitemannotation{trainee}
+            {\uline{#1}}
+            {#1}
+    }
+}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {
+        \ifitemannotation{trainee}
+            {\uline{#1}}
+            {#1}
+    }
+}
+
+%\usepackage{pdfpages}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagenumbering{roman}
+\chead{\textbf{Joshua T. Vogelstein, Ph.D.}, Associate Professor, JHU -- Curriculum Vitae}
+\rhead{\textbf{\today}}
+
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+
+\DeclareSortingTemplate{ydmdt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field[padside=left,padwidth=4,padchar=0]{volume}
+    \literal{0000}
+  }
+  \sort{
+    \field{sorttitle}
+  }
+}
+
+\usepackage[scale=0.87]{geometry}
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvline{}{}{%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }%
+}
+%
+% usage: \cvreference{name}{address line 1}{address line 2}{address line 3}{address line 4}{e-mail address}{phone number}
+% Everything but the name is optxional
+% If \addresssymbol, \emailsymbol or \phonesymbol are specified, they will be used.
+% (Per default, \addresssymbol isn't specified, the other two are specified.)
+% If you don't like the symbols, remove them from the following code, including the tilde ~ (space).
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+  \AtBeginDocument{\recomputelengths}
+  \firstname{Joshua T.~}
+  \familyname{Vogelstein}
+  \address{Associate Professor, \\
+   Department of Biomedical Engineering \\
+   Johns Hopkins University \\
+   }{}
+  \email{jovo@jhu.edu}
+  \homepage{jovo.me}
+
+%change order and wrap into \cvline
+\DeclareBibliographyDriver{people}{%
+  \cventry{\printfield{number}}{\usebibmacro{author}\printfield{userb}}{\printfield{usera}}{\printfield{userc}}{}{\usebibmacro{abstract}}}
+
+
+\DeclareBibliographyDriver{funding}{%
+%\cventry{\usebibmacro{author}}{\printfield{number}}{\printfield{series}}{\printfield{userc}}{}{}
+\cventry{\printfield{number}}{\printfield{usera}}{\printfield{userb}}{\printfield{series}}
+{\newline PI: \usebibmacro{author}
+\newline Role on Project: \printfield{userc}
+\newline Term: \printfield{userd}
+\newline Funding to lab, entire period: \printfield{usere}
+\newline Funding to lab, current year: \printfield{userf}
+\newline \usebibmacro{abstract}
+}
+}
+
+\DeclareBibliographyAlias{incollection}{people}
+\DeclareBibliographyAlias{mvbook}{funding}
+
+\defbibenvironment{mypubs}
+ {\list
+     {}
+     {\setlength{\leftmargin}{\bibhang}%
+      \setlength{\itemindent}{-\leftmargin}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
+
+\begin{document}
+\pagecolor{white}
+\maketitle
+
+
+\section{Personal Information}
+\subsection{Primary Appointment}
+\cventry{02/22 -- }{Associate Professor}{Department of Biomedical Engineering}{JHU, Baltimore, MD, USA}{}{}
+\cventry{08/14 -- 02/22}{Associate Professor}{Department of Biomedical Engineering}{JHU, Baltimore, MD, USA}{}{}
+
+\subsection{Joint Appointments}
+\cventry{09/19 -- }{Joint Appointment}{Department of Biostatistics}{Johns Hopkins University, Baltimore, MD, USA}{}{}
+\cventry{08/15 -- }{Joint Appointment}{Department of Applied Mathematics and Statistics}{JHU, Baltimore, MD, USA}{}{}
+\cventry{08/14 -- }{Joint Appointment}{Department of Neuroscience}{JHU, Baltimore, MD, USA}{}{}
+\cventry{08/14 -- }{Joint Appointment}{Department of Computer Science}{JHU, Baltimore, MD, USA}{}{}
+
+
+\subsection{Institutional and Center Appointments}
+\cventry{08/15 -- }{Steering Committee}{Kavli Neuroscience Discovery Institute (KNDI)}{Baltimore, MD, USA}{}{}
+\cventry{08/14 -- }{Core Faculty} {Institute for Computational Medicine}{JHU, Baltimore, MD, USA}{}{}
+\cventry{08/14 -- }{Core Faculty} {Center for Imaging Science}{JHU, Baltimore, MD, USA}{}{}
+\cventry{08/14 -- }{Assistant Research Faculty}{Human Language Technology Center of Excellence}{JHU, Baltimore, MD, USA}{}{}
+\cventry{10/12 -- }{Affiliated Faculty}{Institute for Data Intensive Engineering and Sciences}{JHU, Baltimore, MD, USA}{}{}
+
+
+\subsection{Education \& Training}
+\cventry{2003 -- 2009}{Ph.D in Neuroscience}{Johns Hopkins School of Medicine}{\newline Advisor: Eric Young}{\newline \textbf{Thesis:} OOPSI: a family of optical spike inference algorithms for inferring neural connectivity from population calcium imaging }{}{}
+\cventry{2009 -- 2009}{M.S. in Applied Mathematics \& Statistics}{ Johns Hopkins University}{}{}{}
+\cventry{1998 -- 2002}{B.A. in Biomedical Engineering}{Washington University, St.~Louis}{}{}{}
+
+% \subsection{Academic Experience}
+% \cventry{08/18 -- }{\href{https://www.bme.jhu.edu/graduate/mse/degree-requirements/biomedical-data-science/}{Director of Biomedical Data Science Focus Area}}{Department of Biomedical Engineering}{Johns Hopkins University, Baltimore, MD, USA}{}{}{}
+% \cventry{05/16 -- }{Visiting Scientist} {Howard Hughes Medical Institute}{Janelia Research Campus, Ashburn, VA, USA}{}{}
+% \cventry{10/12 -- 08/14}{Endeavor Scientist}{Child Mind Institute}{New York, NY, USA}{}{}
+% \cventry{08/12 -- 08/14}{Affiliated Faculty}{Kenan Institute for Ethics}{Duke University, Durham, NC, USA}{}{}
+% \cventry{08/12 -- 08/14}{Adjunct Faculty}{Department of Computer Science}{JHU, Baltimore, MD, USA}{}{}
+% \cventry{12/09 -- 01/11}{Post-Doctoral Fellow}{Department of Applied Mathematics and Statistics}{Supervised by Carey E.~Priebe}{JHU, Baltimore, MD, USA}{\textbf{Research} Statistics of populations of networks.}
+% \cventry{06/01 -- 09/01}{Research Assistant}{Prof. Randy O'Reilly, Dept.~of Psychology}{University of Colorado, Denver, CO, USA}{}{}
+% \cventry{06/00 -- 09/00}{Clinical Engineer}{Johns Hopkins Hospital}{JHU, Baltimore, MD, USA}{}{}
+% \cventry{06/99 -- 08/99}{Research Assistant under Dr. Jeffrey Williams}{Dept. of Neurosurgery, Johns Hopkins Hospital}{Baltimore, MD, USA}{}{}
+% \cventry{06/98 -- 08/98}{Research Assistant under Professor Kathy Cho}{Dept. of Pathology, Johns Hopkins School of Medicine}{Baltimore, MD, USA}{}{}
+
+
+\section{\href{https://neurodata.io/research/\#peer_reviewed}{Published Peer-Reviewed Research Articles}}
+\begin{refsection}[pubs_5pg.bib] 
+    \nocite{*}
+    \defbibnote{a1}{{Note: CV author in bold; Trainees are underlined. Only showing the most recent 19 citations for brevity.\\
+            \textbf{(100 papers; top 10 cited 3,997 times; H-index 38; 12 first, 17 last, 53 middle authorships)} as of \today}}
+            % \text{}
+    \printbibliography[%
+        prenote=a1,% 
+        heading=none,%
+        filter = peer-reviewed-5pg,
+        resetnumbers = true
+        ]
+
+    % \printbibliography[%
+    %     title=\href{https://neurodata.io/research/\#pre_prints}{Manuscripts Not Yet Accepted},%
+    %     heading=bibliography,%
+    %     filter = in-review,
+    %     resetnumbers=true
+    %     ]
+
+    % \printbibliography[%
+    %     title=\href{https://neurodata.io/publications/\#conf}{Conference Papers},%
+    %     heading=bibliography,%
+    %     filter = conference,
+    %     resetnumbers=true
+    %     ]
+
+    % \printbibliography[%
+    %     title={Book Chapters},%
+    %     heading=bibliography,%
+    %     filter = book,
+    %     resetnumbers=true
+    %     ]
+
+    % \printbibliography[%
+    % title=\href{https://neurodata.io/publications/\#pre_prints}{Technical Reports},%
+    % heading=bibliography,%
+    % filter = tech,
+    % resetnumbers=true
+    % ]
+
+    % \printbibliography[%
+    %     title=\href{https://neurodata.io/publications/\#other}{Other Publications},%
+    %     heading=bibliography,%
+    %     filter = other,
+    %     resetnumbers=true
+    %     ]
+    \end{refsection}
+    
+
+
+    \section{Funding}
+    %The table below shows my direct (total) cost expenditures since being hired, indicating a steady increase >30\% per year.\newline \newline
+    
+    %\centering
+    %\begin{tabular}{p{3cm}p{2cm}p{3cm}}
+    %Financial Year & Direct & Total \\
+    %2015: & \$113,761 & \$168,924 \\
+    %2016: & \$360,123 & \$524,225 \\
+    %2017: & \$459,523 & \$709,019 \\
+    %2018: & \$550,011 & \$887,186 \\
+    %2019: & \$850,836 & \$1,366,308\\
+    %2020: & \$ & \$
+    %\end{tabular}
+    
+    \begin{refsection}[funding.bib]
+        \nocite{*}
+        \printbibliography[
+            title=External Research Support: Current,
+            heading=subbibliography,
+            env=mypubs,
+            keyword=current
+            ]
+        % \printbibliography[%
+        %     title=External Research Support: Completed,
+        %     heading=subbibliography,%
+        %     env=mypubs,
+        %     keyword=complete
+            % ]
+    \end{refsection}
+
+
+    % \begin{refsection}[talks.bib]
+    %     %\newrefcontext{I}
+    %     \nocite{*}
+    %     \printbibliography[%
+    %         title=\href{https://neurodata.io/talks/}{Invited Talks},% 
+    %         %NB: Institutional means invited talks.  (No idea why)
+    %         heading=bibliography,%
+    %         filter = local,
+    %         resetnumbers=true
+    %         ]
+
+    %     \printbibliography[%
+    %         title=\href{https://neurodata.io/talks/}{Other Talks},%
+    %         %NB: International means non-invited talks.  (Again, no idea why)
+    %         heading=bibliography,%
+    %         filter = international,
+    %         resetnumbers=true
+    %         ]
+    % \end{refsection}
+    
+    
+    
+    % \section{\href{https://neurodata.io/posters/}{Abstracts/Poster Presentations}}
+    % \begin{refsection}[pubs.bib]
+    %     \nocite{*}
+    %     \printbibliography[%
+    %         title=\href{https://neurodata.io/posters/}{Abstracts / Posters},%
+    %         heading=none,%
+    %         filter=abspos,
+    %         resetnumbers=true
+    %         ]
+    % \end{refsection}
+    
+
+% \section{Educational Activities}
+
+% \subsection{Teaching Experience - Ongoing Courses}
+% \cventry{Spring '21}{Course Director, JHU}{EN.580.419}{Philosophy of Life - A Data Science Perspective}{enrollment 10}{}
+% \cventry{Spring '22}{Course Director, JHU}{EN.580.438/638}{\href{https://neurodatadesign.io/}{NeuroData Design II}}{enrollment 20}{}
+% \cventry{Fall '21}{Course Director, JHU}{EN.580.437/697}{\href{https://neurodatadesign.io/}{NeuroData Design I}}{enrollment 27}{}
+% \cventry{Spring '21}{Course Director, JHU}{EN.580.438/638}{\href{https://neurodatadesign.io/}{NeuroData Design II}}{enrollment 30}{}
+% \cventry{Fall '20}{Course Director, JHU}{EN.580.237/437/697}{\href{https://neurodatadesign.io/}{NeuroData Design I}}{enrollment 38}{}
+% \cventry{Spring '20}{Course Director, JHU}{EN.580.438/638}{\href{https://neurodatadesign.io/}{NeuroData Design II}}{enrollment 32}{}
+% \cventry{Fall '19}{Course Director, JHU}{EN.580.237/437/637}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design I}}{enrollment 46}{}
+% \cventry{Spring '19}{Course Director, JHU}{EN.580.438/638}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design II}}{enrollment 18}{}
+% \cventry{Fall '18}{Course Director, JHU}{EN.580.237/437/637}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design I}}{enrollment 22}{}
+% \cventry{Spring '17}{Course Director, JHU}{EN.580.238/438/638}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design II}}{enrollment 14}{}
+% \cventry{Winter '17}{Course Director, JHU}{EN.580.574}{BME Research Intersession}{enrollment 6}{}
+% \cventry{Fall '17}{Course Director, JHU}{EN.580.247/437/637}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design I}}{enrollment 15}{}
+% \cventry{Spring '16}{Course Director, JHU}{EN.580.468}{\href{https://github.com/Upward-Spiral-Science/Syllabus}{The Art of Data Science}}{enrollment 24}{}
+% \cventry{Fall '16}{Course Director, JHU}{EN.580.437}{\href{https://github.com/NeuroDataDesign/Syllabus}{NeuroData Design I}}{enrollment 16}{}
+% \cventry{Spring '15}{Course Director, JHU}{EN.580.694}{\href{https://github.com/openconnectome/Statistical-Connectomics-Class}{Statistical Connectomics}}{enrollment 26}{}
+
+
+% \subsection{Teaching Experience - One-Time}
+% \cventry{Spring '19}{Guest Lecturer, JHU}{EN.580.422}{Systems Bioengineering II}{}{2 Lectures}
+% \cventry{Spring '19}{Guest Lecturer, JHU}{AS.080.321}{Computational Neuroscience}{}{2 Lectures}
+% \cventry{Spring '18}{Guest Lecturer, JHU}{EN.580.422}{Systems Bioengineering II}{}{2 Lectures}
+% \cventry{Spring '18}{Guest Lecturer, JHU}{AS.080.321}{Computational Neuroscience}{}{2 Lectures}
+% \cventry{Spring '17}{Guest Lecturer, JHU}{EN.580.422}{Systems Bioengineering II}{}{2 Lectures}
+% \cventry{Spring '16}{Guest Lecturer, JHU}{EN.580.422}{Systems Bioengineering II}{}{2 Lectures}
+% \cventry{Winter '16}{Guest Lecturer, JHU}{EN.600.221}{Introduction to Connectomics}{}{1 Lecture}
+% \cventry{Fall '16}{Guest Lecturer, JHU}{EN.580.111}{BME Modeling and Design}{}{1 Lecture}
+% \cventry{Fall '15}{Course Co-Director, JHU}{Introduction to Computational Medicine}{}{}{}
+
+% \subsubsection{Educational Workshops}
+% \cventry{Summer '19}{\href{https://workshop.dipy.org}{DiPy Workshop}}{}{Bloomington, Indiana}{1 day  lecture on statistical connectomics}{}
+% \cventry{Fall '18}{\href{https://www.sfn.org/meetings/neuroscience-2018/sessions-and-events/neuroscience-2018-program}{Society for Neuroscience Annual Meeting}}{Educational Workshop}{San Diego, CA}{1 day  lecture on statistical connectomics}{}
+% \cventry{Fall '17}{\href{https://www.sfn.org/meetings/neuroscience-2017}{Society for Neuroscience Annual Meeting}}{Educational Workshop}{San Diego, CA}{1 day  lecture on statistical connectomics}{}
+% \cventry{Summer '16}{\href{http://crcns.org/previous-courses/2016_course}{CRCNS Course on Mining and Modeling of Neuroscience Data}}{Redwood Center for Theoretical Neuroscience}{University of California, Berkeley}{2 day  lecture on statistical connectomics}{}
+
+
+% \section{Mentorship}
+% \begin{refsection}[people.bib]
+%     %\newrefcontext{T}
+%     \nocite{*}
+%     \printbibliography[%
+%         title=Research Track Faculty Mentorship,%
+%         heading=subbibliography,%
+%         filter = researchtrackfaculty,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+
+%     \printbibliography[%
+%         title=Staff Research Scientists,%
+%         heading=subbibliography,%
+%         filter = staffresearch,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+
+%     \printbibliography[%
+%         title=Postdoctoral Fellows,%
+%         heading=subbibliography,%
+%         filter = postdoc,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+
+%     \printbibliography[%
+%         title=Ph.D. Students,%
+%         heading=subbibliography,%
+%         filter = PhDstudent,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+
+%     \printbibliography[%
+%         title=Visiting Doctoral Student,%
+%         heading=subbibliography,%
+%         filter = visiting-PhDstudent,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+
+%     \printbibliography[%
+%         title=M.S. Students,%
+%         heading=subbibliography,%
+%         filter = MSstudent,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+%     \printbibliography[%
+%         title=Undergraduate Students,%
+%         heading=subbibliography,%
+%         filter = undergrad,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+%     \printbibliography[%
+%         title=Highschool Student,%
+%         heading=subbibliography,%
+%         filter = highschool,
+%         env=mypubs,%
+%         resetnumbers=true
+%         ]
+% \end{refsection}
+
+
+
+% \subsection{Thesis Committee Service (BME unless noted otherwise)}
+%     \cventry{2019}{Browne, James}{Computer Science}{JHU Ph.D. Student}{Graduated 2019}{}
+%     \cventry{2019}{Mhembere, Disa}{Computer Science}{JHU Ph.D. Student}{Graduated 2019}{}
+%     \cventry{2018}{Kutten, Kwame}{JHU Ph.D. Student}{Graduated 2018}{}{}{}
+%     \cventry{2018}{Wang, Shangsi}{Applied Mathematics and Statistics}{JHU Ph.D. Student}{Graduated 2018}{}
+%     \cventry{2018}{Tang, Runze}{Applied Mathematics and Statistics}{JHU Ph.D. Student}{Graduated 2018}{}
+%     \cventry{2018}{Lee, Youjin}{Biostatistics}{JHU Ph.D. Student}{Graduated 2018}{}
+%     \cventry{2017}{Zheng, D}{Computer Science}{JHU Ph.D. Student}{Graduated 2017}{}
+%     \cventry{2017}{Binkiewicz, Norbert}{Statistics}{University of Wisconsin Ph.D. Student}{Graduated 2017}{}
+%     \cventry{2016}{Gray-Roncal, Will}{Computer Science}{JHU Ph.D. Student}{Graduated 2016}{}
+
+
+    
+% \section{Service}
+
+% \subsection{Grant Review Service}
+% \cventry{2015}{NSF Review Panel}{Review for NSF BIG DATA Program}{}{}{}
+
+% \subsection{University Service}
+% \cventry{Winter '19}{Track Organizer}{AI in Healthcare: From Bench to Bedside}{Organizer for Breakout Topic Sessions on artificial intelligence}{}{}
+% \cventry{08/15 -- 07/18}{Co-Developer}{\href{http://icm.jhu.edu/academics/undergraduate-minor/}{Computational Medicine Minor}}{JHU, Baltimore, MD, USA}{}{}
+% \cventry{2015 -- 2017}{Co-Founder and Faculty Advisor}{\href{http://medhacks.org}{MedHacks}}{Medhacks is one of the first and largest hackathons dedicated specifically to hacking on medical advances, started entirely by BME undergrads at JHU}{}{}
+% \cventry{08/14 -- 08/18}{\href{http://icm.jhu.edu/academics/undergraduate-minor/}{Director of Undergraduate Studies}}{Institute for Computational Medicine}{JHU, Baltimore, MD, USA}{}{}
+
+
+% \subsection{Department Service}
+% \cventry{2019}{Member}{Search Committee}{BME}{Neuroengineering, 2019}{}
+% \cventry{2019}{Member}{Search Committee}{BME}{Data Science, 2019}{}
+% \cventry{2018}{Member}{Search Committee}{BME}{Neuroengineering, 2018}{}    
+
+% \subsection{Service in Scientific Community}
+% \cventry{2019 -- }{Mentor}{Black in AI}{}{}{}{}
+% \cventry{2017 -- }{Scientific Advisory Board}{NSF NeuroNex}{Enhanced resolution for 3DEM analysis of synapses across brain regions and taxa. Provided scientific, computational, and statistical guidance to a flagship NSF funded BRAIN Initiative program}{}{}
+% \cventry{2017 -- }{Chair of Committee of Data  Cores}{U19 Data Cores}{}{The U19 program is NIH's flagship BRAIN Initative program, with five original awardees, each with a dedicated Data  Core and designated PI. I was elected the chair of the committee of Data Core PIs}{}
+% \cventry{2017}{Consultant for Nature Publishing Group}{}{}{The journal Nature, flagship journal of Nature Publishing Group, decided to create a ``Code and Software Submission Checklist''.  They consulted me on their first draft, and I helped re-write it. An image of the final checklist is available \href{https://github.com/jovo/cv/raw/master/Code-and-Software-Submission-Checklist.png}{here}}{}
+% \cventry{2011 -- }{Open Connectome Project}{}{}{The co-founder of the ``Open Connectome Project'' (OCP), for several years, I was the only neuroscientist that could easily store, manage, and analyze very big datasets, spanning first tens of terabytes, and then hundreds.  For that reason, I was an essential co-author on a number of big data papers. Specifically, though I sometimes contributed relatively little to the scientific ideas, I often was required to complete, visualize, and/or share the data. Perhaps more importantly, both funding agencies and journals began mandating that these large datasets be publicly shared, and OCP was literally the only option. This is despite often not having funding, nor being a co-author, on the manuscripts}{}
+% \cventry{2010 -- }{AWS Open Neuro Data Registry}{}{}{Our lab co-founded the \href{https://registry.opendata.aws/open-neurodata/}{Registry of Open Data on Amazon Web Serivces} (AWS). The implication of this is that now, pending a few minor considerations, any neuroscientist that collects large image data can deposit it online \textit{for free}.  This means that neither they nor we must request funding to store the data. Our lab maintains this repository, but only by virtue of ensuring instructions for uploading, visualizing, and downloading are up to date, and acting as a gatekeeper to ensure only appropriate data are deposited there}{}
+
+
+% \subsection{Journal Service}
+
+% \subsubsection{Editorial Board}
+%     \cventry{2019 -- }{Associate Editor}{Journal of the American Statistical Association}{}{}{}
+%     \cventry{2018 -- }{Editor}{Neurons, Behavior, Data analysis, and Theory}{}{}{}
+%     \cventry{2016}{Guest Associate Editor}{PLoS Computational Biology}{}{}{}
+
+% \subsubsection{Conference and Journal Reviewer}
+%     \cventry{}{Neural Information Processing Systems (NeurIPS)}{}{}{}{}
+%     \cventry{}{International Conference on Learning Representations (ICLR)}{}{}{}{}
+%     \cventry{}{International Conference on Machine Learning (ICML)}{}{}{}{}
+%     \cventry{}{Annals of Applied Statistics (AOAS)}{}{}{}{}
+%     \cventry{}{Bioinformatics}{}{}{}{}
+%     \cventry {} {International Conference on Learning Representations (ICLR)} {}{}{}{}
+%     \cventry {} {Network Science} {}{}{}{}
+%     \cventry {} {Current Opinion in Neurobiology} {}{}{}{}
+%     \cventry {} {Biophysical Journal} {}{}{}{}
+%     \cventry {} {IEEE International Conference on eScience} {}{}{}{}
+%     \cventry {} {IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}{}{}{}{}
+%     \cventry{}{IEEE Global Conference on Signal and Information Processing (GlobalSIP)}{}{}{}{}
+%     \cventry {} {IEEE Signal Processing Letters} {} {} {} {}
+%     \cventry {} {IEEE Transactions on Signal Processing} {}{}{}{}
+%     \cventry {} {Frontiers in Brain Imaging Methods} {}{}{}{}
+%     \cventry {} {Journal of Machine Learning Research (JMLR)} {}{}{}{}
+%     \cventry {} {Journal of Neurophysiology} {}{}{}{}
+%     \cventry {} {Journal of the Royal Statistical Society B (JRSSB)} {}{}{}{}
+%     \cventry {} {Nature Communications} {}{}{}{}
+%     \cventry {} {Nature Methods} {}{}{}{}
+%     \cventry {} {Nature Reviews Neuroscience} {}{}{}{}
+%     \cventry {} {Neural Computation} {}{}{}{}
+%     \cventry {} {Neural Information Processing Systems (Neurips)} {}{}{}{}
+%     \cventry {} {NeuroImage} {}{}{}{}
+%     \cventry {} {Neuroinformatics} {}{}{}{}
+%     \cventry {} {PLoS One} {}{}{}{}
+%     \cventry {} {PLoS Computational Biology} {}{}{}{}
+
+
+% \subsection{Conferences and Hackathon Organizer}
+% \cventry{Summer '20}{Co-Chair}{SciPy mini-symposium: Biology and Bioinformatics}{}{}{}{}
+% \cventry{Winter '19}{Organizer}{Decision Forest Hackathon}{}{}{}
+% \cventry{Summer '19}{Organizer}{NeuroData Workshop}{\url{https://neurodata.devpost.com}}{Hackashop to train brain scientists in machine learning for big data ($\sim$ 50) participants from around the country}{}
+% \cventry{March '19}{Organizer}{Neuro Reproducibility Hackashop}{\url{https://brainx3.io/}}{Hackashop to train brain scientists in best practices in reproducible science, co-organized with two startups: Vathes, LLC and Gigantum ($\sim$ 50 participants)}{}
+% \cventry{Spring '18}{Organizer}{NeuroData Hackathon}{}{}{}    
+% \cventry{Fall '17}{Organizer}{NeuroData Mini-Hackathon}{}{}{}
+% \cventry{Summer '17}{Organizer}{NeuroStorm}{\url{https://brainx2.io}}{Workshop to bring together thought leaders from academia, national labs, industry, and non-profits around the world to take next steps towards accelerating brain science discovery in the cloud ($\sim$ 50 participants and 5 observers from funding institutions)}{}
+% \cventry{2016}{Organizer}{Global Brain Workshop}{\url{http://brainx.io}}{First ever international Brain Initiative workshop, bringing together leaders from around the world, covered by Nature and Science ($\sim$ 75 participants)}{}    
+% \cventry{2016}{Co-Organizer}{Brains and Bits: Neuroscience Meets Machine Learning, NIPS Workshop}{\url{http://www.stat.ucla.edu/~akfletcher/brainsbits_overview.html}}{}{}
+% \cventry{Winter '15}{Organizer}{Hack@NeuroData}{\url{http://hack.neurodata.io/}}{}{}
+% \cventry{2015}{Co-Organizer}{BigNeuro2015: Making Sense of Big Neural Data, NIPS Workshop}{\url{http://neurodata.io/bigneuro2015}}{}{}    
+% \cventry{2012}{Co-Organizer}{\href{https://openwiki.janelia.org/wiki/download/attachments/8687459/final+agenda+EM+Connectomics+100512.pdf}{Scaling up EM Connectomics Conference}}{}{The world's first connectomics workshop, now run annually alternating between Janelia Research and Max Plank locations ($\sim$ 80 participants)}{}
+
+% \section{\href{https://neurodata.io/about/awards/}{Awards and Recognition}}
+% \subsection{Individual}
+%     \cventry{2002}{Dean's List}{Washington University}{}{}{}
+    
+% \subsection{Shared (10)}
+%     \cventry{2019}{\href{https://kavlijhu.org/funding/awards}{Kavli NDI Distinguished Postdoctoral Fellow}}{Celine Drieu, PhD}{}{}{}{}
+%     \cventry{2019}{\href{https://kavlijhu.org/funding/awards}{Kavli NDI Distinguished Postdoctoral Fellow}}{Austin Graves, PhD}{}{}{}{}
+%     \cventry{2019}{Winner of Pistritto Fellowship.}{Vivek Gopalakrishnan}{}{}{}{}
+%     \cventry{2017}{\href{https://kavlijhu.org/funding/awards}{Kavli NDI Distinguished Postdoctoral Fellow}}{Audrey Branch, PhD}{}{}{}{} 
+%     \cventry{2017}{\href{http://www.hpdc.org/2017/awards/best-paper-award}{Best Presentation Award HPDC}}{Mhembere et al. (2017)}{}{}{}
+%     \cventry{2017}{Nonparametric Statistics of the American Statistical Association Student Paper Award}{Lee et al. (2017)}{}{}{}
+%     \cventry{2014}{F1000 Prime Recommended}{Vogelstein et al. (2014)}{}{}{}
+%     \cventry{2013}{Spotlight}{Neural Information Processing Systems (NIPS)}{}{}{}
+%     \cventry{2011}{Trainee Abstract Award}{Organization for Human Brain Mapping}{}{}{}
+%     \cventry{2008}{Spotlight}{Computational and Systems Neuroscience (CoSyNe)}{}{}{}
+
+% \section{Other Media}
+% \begin{refsection}[press.bib]
+%     \nocite{*}
+%     \printbibliography[%
+%         heading=none,%
+%         filter=press,
+%         resetnumbers=true
+%         ]
+% \end{refsection}
+
+
+% \section{Professional/Social Media Presence}
+%     % \todo{JOVO: put the $\sim$30 blogs here.}
+%     \cventry{}{\href{https://twitter.com/neuro_data}{@neuro\_data}}{}{Twitter account with a approximately 7,000 followers, over 250K impressions in December 2019, and approximately 100 new followers, and upwards of 100 new tweets, per month, and 25 link clicks per day. Follower demographics include $< 50\%$ high school graduates, $46\%$ female}{}{}{}
+%     \cventry{}{\href{https://bitsandbrains.io/}{Bits and Brains}}{}{Professional blog reguarding all things academic, neurological, and statistical, with approximately 30 blog posts, approximately one new post per month (9,000 page views, 3,200 unique users) \newline Most Popular Post: \href{https://bitsandbrains.io/2019/02/10/how-to-write-a-paper.html}{10 Simple Rules to Write a Paper from Start to Finish}}{}{}{}
+%     \cventry{}{\href{https://medium.com/@progl}{medium.com/@progl}}{}{My Medium account where I post articles on both personal and professional topics}{}{}{}
+    
+
+% \section{Translation / Technology Transfer Activities}
+%     \subsection{Open Datasets}
+%         \cventry{2019 -- }{\href{https://neurodata.io/data/templier2019}{Templier et al.  (2019)}}{}{The non-destructive collection of ultrathin sections onto silicon wafers for post-embedding staining and volumetric correlative light and electron microscopy using MagC. MagC allows the correlative visualization of neuroanatomical tracers within their ultrastructural volumetric electron microscopy context}{}{0 citations, 119 unique visitors}{}
+%         \cventry{2018 -- }{\href{https://neurodata.io/data/bloss2018}{Bloss et al. (2018)}}{}{Images of CA1 pyramidal neurons for analysis involving feature-selective firing as a result of dendritic integration of inputs from multiple brain regions. Show that single presynaptic axons form multiple, spatially clustered inputs onto the distal, but not proximal, dendrites of CA1 pyramidal neurons}{}{20 citations, 530 unique visitors}{}
+%         \cventry{2018 -- }{\href{https://neurodata.io/data/branch18}{Branch (2018)}}{}{Adult generated neurons in aging M. musculus imaged using array tomography, multi-spectral light microscopy, and  electron microscopy}{}{2 citations, 223 unique visitors}{}
+%         \cventry{2017 -- }{\href{https://neurodata.io/data/allen_atlas}{Allen Atlas}}{}{Anatomical reference atlases that illustrate the adult mouse brain in coronal and sagittal planes. They are the spatial framework for datasets such as in situ hybridization, cell projection maps, and in vitro cell characterization.\href{http://atlas.brain-map.org/}{atlas.brain-map.org}}{}{142 citations, 1058 unique visitors}{}
+%         \cventry{2017 -- }{\href{https://neurodata.io/data/hildebrand17}{Hildebrand et al. (2017)}}{}{A multi-resolution serial-section electron microscopy data set containing the anterior quarter of a 5.5 days post fertilization larval zebrafish, including its complete brain acquired by Hildebrand and colleagues. Electron micrographs and reconstructions are available for view in CATMAID}{}{70 citations, 1,014 unique visitors}{}
+%         \cventry{2017 -- }{\href{https://neurodata.io/data/tobin17}{Tobin et al. (2017)}}{}{Wiring variations that enable and constrain neural computation in a sensory microcircuit}{}{28 citations, 43 unique visitors}{}
+%         \cventry{2016 -- }{\href{https://neurodata.io/data/bloss2016}{Bloss et al. (2016)}}{}{Images of molecularly defined inhibitory interneurons and CA1 pyramidal cell dendrites collected using correlative light-electron microscopy and large-volume array tomography}{}{41 citations, 701 unique visitors}{}
+%         \cventry{2016 -- }{\href{https://neurodata.io/data/xbrain}{Dyer et al.  (2016)}}{}{Mesoscale (1 cubic micron resolution) resolution images generated with the use of synchrotron X-ray microtomography (microCT) from millimeter-scale volumes of mouse brain. X-ray tomography promises rapid quantification of large brain volumes}{}{21 citations, 216 unique visitors}{}
+%         \cventry{2016 -- }{\href{https://neurodata.io/data/lee16}{Lee et al. (2016)}}{}{Electron microscopy data collected at $4 \times 4 \times 40$ nm per voxel from the visual cortex in Mouse V1 used in a study of an excitatory network}{}{132 citations, 725 unique visitors}{}
+%         \cventry{2016 -- }{\href{https://neurodata.io/data/wanner16}{Wanner et al. (2016}}{}{Serial block face scanning EM (SBEM) and conductive sample embedding image stack from an olfactory bulb (OB) of a zebrafish larva at a voxel resolution of $9.25 \times 9.25 \times 25$ nm3}{}{12 citations, 328 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/bigbrain}{Amunts et al. (2015)}}{}{BigBrain is an ultrahigh-resolution three-dimensional model of a full human brain at 20 micrometer resolution, enabling an unprecedented look into the human brain at micro- and macro-scopic scale}{}{262 citations, 1,041 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/bhatla15}{Bhatla et al. (2015)}}{}{Nikhil Bhatla and Rita Droste in Bob Horvitz's Lab reconstruction of the anterior half of the C. elegans feeding organ, the pharynx. Volumes for three adult hermaphrodite worms include volumetric tracing of all neurons, selected cell types, I2 neuron synapses. 50 nm thick sections with an image resolution of 2 nm per pixel}{}{16 citations, 467 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/collman15}{Collman et al. (2015)}}{}{Mouse cortex collected using conjugate array tomography (AT), a volumetric imaging method that integrates immunofluorescence and EM imaging modalities in voxel-conjugate fashion}{}{69 citations, 382 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/tomer15}{Deisseroth et al. (2015)}}{}{Twelve CLARITY mouse brains (5 wild type controls and 7 behaviorally challenged) were prepared by Li Ye, and imaged using CLARITY-Optimized Light-sheet Microscopy (COLM) (whole brain COLM imaging and data stitching performed by R. Tomer, in preparation)}{}{5 citations, 208 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/kharris15}{Harris et al.  (2015)}}{}{Three volumes of hippocampal CA1 neuropil in adult rat imaged by the laboratory of Kristen M Harris, PhD, at an XY resolution of ~2 nm on serial sections of ~50-60 nm thickness}{}{9 citations, 463 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/kasthuri15}{Kasthuri et al. (2015)}}{}{Saturated reconstruction of a sub-volume of mouse neocortex collected using automated technologies in which all cellular objects (axons, dendrites, and glia) and many sub-cellular components are rendered and itemized in a database. Provides access to the complexity of the neocortex and enables further data-driven inquiries}{}{323 citations, 1,299 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/kristina15}{Micheva et al. (2015)}}{}{Multi-channel array tomography data of the barrel cortex of an adult mouse (C57BL/6J)}{}{57 citations, 190 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/acardona_0111_8}{Ohyama et al. (2015)}}{}{The side view of the approximately 7,000 neurons reconstructed so far, either in full or partially, of the approximately 12,000 neurons of the central nervous system of Drosophila larva. The 0111-8 data set was originally sectioned and imaged by Richard D. Fetter and his two tech assistants}{}{136 citations, 299 unique visitors}{}
+%         \cventry{2015 -- }{\href{https://neurodata.io/data/zbrain_atlas}{Randlett et al. (2015)}}{}{Zebrafish brain atlas with surface mesh of different regions intended for the analysis of whole-brain activity mapping}{}{124 citations, 498 unique visitors}{}
+%         \cventry{2014 -- }{\href{https://neurodata.io/data/weiler14}{Weiler (2014)}}{}{Images of whisker-associated barrel columns of mouse somatosensory cortex stained with antibodies against selected antigens (DAPI, YFP), and indirect immunofluorescence. Images collected by the lab of Stephen J Smith}{}{6 citations, 123 unique visitors}{}
+%         \cventry{2013 -- }{\href{https://neurodata.io/data/bumbarger13}{Bumbarger et al. (2013)}}{}{Serial, thin section data generated by Dan Bumbarger in Ralf Sommer's lab in order to compare the pharyngeal connectomes of the pharyngeal nervous system between Caenorhabditis elegans and Pristionchus pacificus. In P. pacificus they found clearly homologous neurons for all of the 20 pharyngeal neurons in C. elegans, and massive rewiring of synaptic connectivity between the two species}{}{67 citations, 22 unique visitors}{}
+%         \cventry{2013 -- }{\href{https://neurodata.io/data/takemura13}{Takemura et al. (2013)}}{}{The right part of the brain of a wild-type Oregon R female fly that was serially sectioned into 40-nm slices. A total of 1,769 sections, traversing the medulla and downstream neuropils, were imaged at a magnification of 35,000X}{}{323 citations, 144 unique visitors}{}
+%         \cventry{2011 -- }{\href{https://neurodata.io/data/bock11}{Bock et al. (2011)}}{}{Volume of mouse primary visual cortical data, spanning layers 1, 2/3, and upper layer 4 collected as electron microscope (EM) data and two-photon microscopy data collected by Davi Bock, Ph.D. and Wei-Chung Allen Lee, Ph.D.. Images have a resolution of 4x4x45 cubic nanometers}{}{430 citations, 511 unique visitors}{}
+    
+%     \subsection{Open-Source Software: Active}
+     
+%         Stars denote an individual users appreciation, downloads indicates a user downloading the code, and a fork indicates a user modifying the code.
+%             \cventry{2021 -- }{\href{https://docs.neurodata.io/scikit-tree/}{scikit-trees}}{}{Scikit-tree is a package for modern tree-based algorithms for supervised and unsupervised learning problems.It benchmarkIt extends the robust API of scikit-learn for tree algorithms that achieve strong performance in benchmark tasks.}{}{38 stars, 7 forks}{}
+%             \cventry{2020 -- }{\href{https://hyppo.neurodata.io/}{hyppo}}{}{An comprehensiveAn open-source software package for multivariate hypothesis testing. It intends to be a comprehensive multivariate includes multivariate hypothesis testing package that runs on all major versions of operating systems. It also includes novel novel tests not found in other packages.}{}{201 stars, 82 forks}{}
+%             \cventry{2020 -- }{\href{https://brainlit.neurodata.io}{brainlit}}{}{This repository is a container of methods that Neurodata usees to expose their open-source code while it is in the process of being merged with larger scientific libraries such as scipy, scikit-image, or scikit-learn. Additionally, methods for computational neuroscience on brains too specific for a general scientific library can be found here, such as image registration software tuned specifically for large brain volumes.}{}{23 stars, 17 forks}{}
+%             \cventry{2019 -- }{\href{https://neurodata.io/graspy/}{graspologic (Graph Statistics)}}{}{Co-developed with Microsoft Research: Utilities and algorithms designed for processing and analysis of graphs with specialized graph statistical algorithms}{}{134 stars, 56 forks, 2,516 downloads/month}{}
+%             \cventry{2019 -- }{\href{https://github.com/neurodata/neuroparc}{neuroparc}}{}{This repository contains a number of useful parcellations, templates, masks, and transforms to (and from) MNI152NLin6 space. The files are named according to the BIDs specification}{}{26 stars, 4 forks}{}
+%             \cventry{2018 -- }{\href{https://neurodata.io/m2g/}{m2g (MR graph analysis)}}{}{A Python pipeline which uses diffusion MRI data from individuals to generate connectomes reliably and scalably}{}{35 stars, 26 forks, 218 downloads/month, 7,900 docker pulls}{}
+        
+%     \subsection{Open-source Software: Contributed}
+%             \cventry{2019}{\href{https://github.com/neurodata/cloud-volume}{cloud-volume}}{}{Added support for additional file types}{}{}{}
+%             \cventry{2019}{\href{https://github.com/FCP-INDI/C-PAC}{C-PAC}}{}{Added streamlined reproducible pipeline}{}{}{}
+%             \cventry{2019}{\href{https://github.com/neurodata/scipy}{scipy}}{}{Added mgc, a state of the art method for hypothesis testing we developed in the lab}{}{}{}
+%             \cventry{2018 -- 2019}{\href{https://github.com/neurodata/neuroglancer}{neuroglancer}}{}{Added multispectral support to enable light microscopy data use}{}{}{}
+%             \cventry{2018}{\href{https://igraph.org}{igraph}}{}{Added spectral clustering functionality}{}{}{}
+%             \cventry{2017 -- 2018}{\href{https://github.com/neurodata/render}{render}}{}{Added cloud support}{}{}{}
+%             \cventry{2017}{\href{https://github.com/neurodata/boss}{boss}}{}{Developed core functionality}{}{}{}
+        
+        
+%     \subsection{Open-source Software: Archived}
+%             \cventry{2020 -- 2022}{\href{https://github.com/neurodata/ProgLearn}{ProgLearn (Progressive Learning)}}{}{A Python package for exploring and using progressive learning algorithms}{}{22 stars, 29 forks, 37 downloads/month}{}
+%             \cventry{2019 -- 2020}{\href{https://github.com/neurodata/ardent}{ARDENT (Affine and Regularized Deformative Numeric Transform)}}{}{A Python package for performing automated image registration using LDDMM}{}{10 stars, 5 forks}{}
+%             \cventry{2019 -- 2021}{\href{https://neurodata.io/reg/}{reg (Image registration)}}{}{A Python package which performs non-linear affine and deformable image registration}{}{6 stars, 4 forks, 61 downloads/month}{}
+%             \cventry{2019 -- 2029}{\href{https://neurodata.io/forests/}{Sparse Projection Oblique Randomer Forests (Classification and regression)}}{}{SPORF is an improved random forest algorithm that achieves better accuracy and scaling than previous implementations on a standard suite of > 100 benchmark problems}{}{54 stars, 35 forks, 73 downloads/month, 36 docker pulls}{}
+%             \cventry{2019 -- 2020}{\href{https://github.com/neurodata/uncertainty-forest}{Uncertainty-Forest}}{}{A Python package containing estimation procedures for posterior distributions, conditional entropy, and mutual information between random variables X and Y}{}{2 stars, 1 fork}{}
+%             \cventry{2018 -- 2019}{\href{https://neurodata.io/lol/}{LOL (Supervised dimensionality reduction)}}{}{Linear Optimal Low-rank (LOL) projection for improved classification performance in high-dimensional classification tasks}{}{8 stars, 6 forks, 60 downloads/month}{}
+%             \cventry{2018 -- 2021}{\href{https://neurodata.io/mgc/}{MGC (Non-parametric hypothesis testing)}}{}{Multiscale Graph Correlation (MGC) is a framework for universally consistent testing high-dimensional and non-Euclidean data}{}{28 stars, 11 forks, 120 downloads/month, 266 docker pulls}{}
+%             \cventry{2018 -- 2019}{\href{https://neurodata.io/nd_cloud/}{ndcloud (NeuroData Cloud)}}{}{The deployment of tools which support the Open Connectome Project}{}{}{}
+%             \cventry{2016 -- 2019}{\href{https://github.com/neurodata/non-parametric-clustering}{Non-Parametric-Clustering}}{}{A program which uses non-parametric-clustering to minimize or maximize a given criterion function}{}{3 stars, 2 forks}{}
+%             \cventry{2017 -- 2019}{\href{https://github.com/neurodata/ndex}{ndex}}{}{Python 3 command-line program to exchange (download/upload) image data with NeuroData's cloud deployment of APL's BOSS spatial database}{}{3 stars, 0 forks, 89 downloads/month}{}
+%             \cventry{2017 -- 2019}{\href{https://github.com/flashxio/knorPy}{knor (Clustering)}}{}{Python version of knor, a highly optimized and fast library for computing k-means in parallel with accelerations for Non-Uniform Memory Access (NUMA) architectures}{}{1 stars, 3 forks, 115 downloads/month}{}
+%             \cventry{2017 -- 2019}{\href{https://github.com/aksimhal/SynapseAnalysis}{SynapseAnalysis (Synapse Detection)}}{}{A framework to evaluate synaptic antibodies for array tomography applications}{}{2 stars, 0 forks}{}
+%             \cventry{2017 -- 2018}{\href{https://github.com/neurodata/pymeda}{MEDA (Matrix Exploratory Data Analysis)}}{}{A python package for matrix exploratory data analysis}{}{0 stars, 3 forks, 56 downloads/month, 21 docker pulls}{}
+%             \cventry{2017 -- 2018}{\href{https://github.com/neurodata/ndwebtools}{ndwebtools}}{}{ndwebtools (ndweb) is a Django application to provide a user-friendly interface for interacting with NeuroData resources and data}{}{0 stars, 1 forks}{}
+%             \cventry{2015 -- 2018}{\href{https://github.com/neurodata/ndviz}{ndviz}}{}{Web visualization and analysis tools for neuroimaging datasets, powered by Neuroglancer}{}{8 stars, 4 forks, 48 docker pulls}{}
+%             \cventry{2015 -- 2016}{\href{https://github.com/mkazhdan/DMG}{DMG}}{}{An implementation of a distributed multigrid Poisson solver for image stitching, smoothing, and sharpenting}{}{19 stars, 6 forks}{}
+%             \cventry{2015}{\href{https://github.com/neurodata/vesicle}{VESICLE (EM Synapse Detection)}}{}{Reference synapse detection program for processing serial electron microscopy data}{}{3 stars, 3 forks}{}
+%             \cventry{2015}{\href{https://github.com/neurodata/CAJAL}{CAJAL}}{}{A MATLAB API that provides a simple to use interface with Open Connectome Project servers and provides RAMON Objects, unit tests, configuration scripts, and utilities}{}{6 stars, 5 forks}{}
+%             \cventry{2012 -- 2017}{\href{https://github.com/flashxio/FlashX}{FlashGraph (Scalable Analytics)}}{}{General-purpose graph analysis framework that exposes vertex-centric programming interface for users to express varieties of graph algorithms}{}{220 stars, 42 forks}{}
+%             \cventry{2012 -- 2017}{\href{https://github.com/flashxio/FlashX}{FlashX (Scalable machine learning)}}{}{A matrix computation engine that provides a small set of generalized matrix operations on sparse matrices and dense matrices to express varieties of data mining and machine learning algorithms}{}{220 stars, 42 forks}{}
+%             \cventry{2011 -- 2016}{\href{https://github.com/jovo/oopsi}{oopsi (Calcium Spike Sorting)}}{}{Model-based spike train inference from calcium imaging}{}{20 stars, 9 forks}{}
+%             \cventry{2011 -- 2017}{\href{https://github.com/neurodata/ndstore}{ndstore}}{}{Scalable database cluster for the spatial analysis and annotation of high-throughput brain imaging data}{}{37 stars, 13 forks}{}
+        
+        
+        
+
+    % \subsection{Consultancy}
+    % \cventry{2017}{Consultant}{\href{https://www.greenspringassociates.com}{Greenspring Associates}}{}{}{}
+    % \cventry{2016}{Consultant}{Scanadu}{}{}{}
+    
+
+
+% \subsection{Advisory Board Appointments}
+% \cventry{2018 -- }{Advisory Board}{\href{https://mind-x.io/}{Mind-X}}{A  neurotechnology company combining brain-computer interfaces and artificial intelligence to make the world\'s information available with the speed and ease of a single thought.}{Incubated at Camden Partners Nexus, completed an initial round of funding for an undisclosed amount}{15  employees.}
+% \cventry{2017 -- }{Advisory Board}{\href{https://www.pivotalpath.com/}{PivotalPath}}{PivotalPath is a leading hedge fund research and intelligence organization built by a team of experienced alternative investment professionals and fintech developers.}{Raised undisclosed amount of funding}{11 employees.}
+
+
+\section{Startups}
+\cventry{2017 -- }{Chief Intelligent Officer}{\href{http://joinsensie.com}{sensie}}{Sensie is a startup devoted to unblocking intelligence to optimize our collective wellness}{}{}%{21 employees.}
+\cventry{2017 -- }{Co-Founder}{gigantum}{The future of data science is open, decentralized and user friendly. That is why we created a platform that enables anybody to create and share totally reproducible computational work with the world.}{Completed initial round of seed funding for undisclosed amount from \href{https://www.digital-science.com/}{Digital Science}, which also funds figshare, readcube, altmetric, overleaf, and more. Gigantum was acquired by nVidia in early 2022}{}%{15 employees.}
+% \cventry{2016 -- }{Co-Founder}{\href{http://www.d8alab.com}{d8alab}}{Our services include evaluating model performance, building prototype R/Shiny web applications and basic data cleaning.}{Provides data science consulting for a variety of companies, specifically biomedical data science}{}%{4 employees.}
+\cventry{2016 -- }{Co-Founder}{global domain partners}{Global Domain Partners is a quantitative hedge fund that was acquired by Mosaic Investment Partners in 2012}{}{}%{6 employees.}
+
+\end{document}
