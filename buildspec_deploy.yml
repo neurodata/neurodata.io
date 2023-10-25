@@ -19,10 +19,7 @@ phases:
   build:
     commands:
       - export LC_ALL=C.UTF-8
-      - cd content/bibs
-      - biber tex/jovo_cv_SOM
-      - cd tex
-      - pdflatex jovo_cv_SOM.tex
+      - cd content/bibs/tex
       - pdflatex jovo_cv_SOM.tex
       - cd ..
       - biber tex/jovo_cv_SOM
