@@ -89,7 +89,7 @@ This means, for example, that we use "I" statements, such as "I heard X," rather
 
 > I commit to play by honoring rest, renewal, and rhythm.
 
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (2:30-3pm daily on school days - outdoors when possible), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
+Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3-3:30pm daily on school days - outdoors when possible), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
 
 #### Diversity and Inclusion
 
