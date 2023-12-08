@@ -4,4 +4,4 @@ ver: 0.3.0
 link: http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bmb_1.html
 tree: http://open-neurodata.s3-website-us-east-1.amazonaws.com/Functional/BMB_1-11-27-20-m2g-func/
 connectomes: https://open-neurodata.s3.amazonaws.com/m2g/Functional/BMB_1-11-27-20-m2g-func/BMB_1_Connectomes.zip
-aws: aws s3 sync s3://open-neurodata/m2g/Functional/BMB_1-11-27-20-m2g-func .
+aws: aws s3 sync --no-sign-request s3://open-neurodata/m2g/Functional/BMB_1-11-27-20-m2g-func .

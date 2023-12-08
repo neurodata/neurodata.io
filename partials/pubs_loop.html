@@ -1,0 +1,18 @@
+<ul class="cv-item">
+  {% for item in loops %}
+    <li>
+      <span class="date">[{{loop.revindex}}]</span>
+      <p>
+        {% set authors = item|all_authors_jovo %}
+        {% if authors|count > 2 %}{{authors[0:-1]|join(", ")|safe}}, and {{authors[-1]|safe}}{% elif authors|count == 2%}{{(authors[0] ~ " and " ~ authors[1])|safe}}{% else %}{{authors[0]|safe}}{% endif %}.
+        "{{item|print_title|render|safe}}"
+        <i>{{item|print_venue or item|print_address}}</i>, {{item|print_issue_data}}{{item.year}}.
+        {% if item.doi %}
+        [<a href="{{item|print_link}}" target="_blank" rel="noopener">DOI</a>]
+        {% elif item.url %}
+        [<a href="{{item.url}}" target="_blank" rel="noopener">URL</a>]
+        {% endif %}
+      </p>
+    </li>
+  {% endfor %}
+</ul>

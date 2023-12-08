@@ -8,9 +8,9 @@
         {% endif %}
     </span>
     {% if item.file %}
-    {% if item.file == "vogelstein_joshua.jpg" %}
-        <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat" 0% 0%;></div>
-        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat 0% 0%;"></div>
+    {% if item.file == "vogelstein_joshua_v2.jpg" %}
+        <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat; background-size: cover; background-position-y: 20%;"></div>
+        <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat; background-size: cover; background-position-y: 20%;"></div>
         {% else %}
             <div class="bw" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>
             <div class="color" style="background: url('{{g.static("/source/images/people/" + item.file).url.path}}')no-repeat center bottom; background-size: cover;"></div>

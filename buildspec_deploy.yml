@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Installing grow
       - pip install grow==1.0.4 pyyaml==5.3.1 bibtexparser==1.2.0 jinja2==2.11.3
-      - echo Installing tailwind
+      #- echo Installing tailwind
       #- apt install curl
       #- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
       #- apt-get install -y aptitude
@@ -19,12 +19,15 @@ phases:
   build:
     commands:
       - export LC_ALL=C.UTF-8
-      - cd content/bibs
+      - cd content/bibs/tex
       - pdflatex jovo_cv_SOM.tex
-      - biber jovo_cv_SOM
-      - pdflatex jovo_cv_SOM.tex
-      - pdflatex jovo_cv_SOM.tex
+      - cd ..
+      - biber tex/jovo_cv_SOM
+      # - pdflatex jovo_cv_SOM.tex
+      # - pdflatex jovo_cv_SOM.tex
       - cd ../..
+      # 3/10/2023 dependency conflict resolution
+      - pip install markupsafe==2.0.1
       - grow install
       - grow build --deployment default
       - mkdir build/bib_files

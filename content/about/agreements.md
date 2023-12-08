@@ -89,7 +89,7 @@ This means, for example, that we use "I" statements, such as "I heard X," rather
 
 > I commit to play by honoring rest, renewal, and rhythm.
 
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3pm daily on school days), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
+Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3-3:30pm daily on school days - outdoors when possible), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
 
 #### Diversity and Inclusion
 
@@ -111,9 +111,9 @@ We encourage all communities to resolve issues on their own whenever possible. T
 
 #### Lab meetings
 
-> I commit to being present at weekly lab meetings and lab check-ins.
+> I commit to being present at weekly lab meetings.
 
-Lab members should be present at these meetings (ideally, in-person) whenever possible. Reasonable exceptions include travel, vacation, sickness, etc.
+Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend. They are encouraged to invite at least one person who is not in the lab to attend.
 
 ## Recommended Practices
 
@@ -147,6 +147,9 @@ NeuroData recommendations for papers are as follows:
 - For tracking changes, consider adding comments as:  `% TODO blah blah ---jovo`.  This enables everyone to easily find all the comments, including if they are editing locally (or simply not in the Overleaf web app). 
 - Upon receiving feedback, address every single piece of feedback *in the text itself*. Recall: the author of a manuscript is literally the least qualified person in the world to ascertain whether what that person has written is *clear to other people*, which is the question at hand. Therefore, if you are the author, and you think it was clear, *you are wrong*, in that it certainly was not clear to at least one person who cares. 
 - The person who submits the paper is the first author. After revisions, if somebody else submits the revised paper, the author order may switch.
+- When a paper is released publicly, the lead author should
+    - Update the website.
+    - If relevant, generate a video demonstrating the code in a notebook. The video and notebook should be linked in Github repo and released publicly via a tweetprint.
 
 ### General Communication
 
@@ -216,7 +219,9 @@ To facilitate efficient and effective meetings among participants, we recommend 
     - curious and [unarguable](https://www.dropbox.com/s/vek8pmzt0zkx08w/CLG-Speaking%20Unarguably.pdf?dl=1) reflections
 - Define measurable next action steps [collectively](https://conscious.is/video/defining-decision-rights) (who will do what by when?)
 - check [whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes) for all
-- check-out -->
+- check-out 
+
+If you are presenting a talk or poster, or submitting a paper, you are encouraged to spend your 1 hour meeting with Jovo in advance of that reviewing/practicing with him.  You are encouraged to review/practice with other members of the lab prior to that practice. 
 
 ### Conservation of Reviews
 
@@ -235,6 +240,12 @@ Travel plans (when you are going to be out of lab for some period of time) shoul
 ### Agreements
 
 While these agreements are a living, breathing document, changing them costs energy for everybody, and can lead to an experience of instability.  Consider the costs upon proposing a modification. If you propose one, you are responsible for getting a majority of Neurodata members to approve the change.
+
+## Schedule
+The following schedule is planned beginning Spring semester 2023:
+- Everyone in lab Mon & Thurs afternoon (if you can't make it, you are responsible for letting everyone know in advance).
+- Weekly jovo meetings on Mon and Thurs, sign up in advance. Additional meetings available as needed. 
+- Lab meetings will be 12-1pm on Thursdays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
 
 ## Activities
 
@@ -292,12 +303,16 @@ We collectively co-create our community.  Being a part of this community affords
 - I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
 - I am responsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family.
 
-### COVID-19 related responsibilities
+### Sick policies
+
 
 If you test positive and/or have symptoms and/or have been exposed to COVID-19,
-- please stay at home for 5 days and wear a mask for 5 days in lab after coming back
-- inform your labmates and the PI as soon as possible
-- update the lab COVID record (link available in Core Slack channel)
+- stay at home for 5 days and wear a mask for 5 days in lab after coming back
+- inform your labmates and the PI as soon as possible.
+
+If you have any other symptoms of illness (including stomach illness, flu, otherwise)
+- Stay home until symptoms have subsided for at least 24 hrs.
+
 
 ## Other
 
