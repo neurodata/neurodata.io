@@ -4,8 +4,8 @@ $order: 2
 name: m2g
 
 github: "neurodata/m2g"
-docs: "https://ndmg.neurodata.io/"
-installation: "https://ndmg.neurodata.io/tutorials/install.html#installation-guide"
+docs: "https://docs.neurodata.io/m2g"
+installation: "https://docs.neurodata.io/m2g/install.html"
 examples: "https://github.com/neurodata/m2g/tree/deploy/tutorials"
 
 slides:
