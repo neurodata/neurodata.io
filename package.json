@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/neurodata/neurodata.io#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-postcss": "^8.0.0",
     "tailwindcss": "^1.1.4"
   },
   "dependencies": {
-    "gulp-cli": "^2.2.0",
+    "gulp-cli": "^3.0.0",
     "yarn": "^1.22.17"
   }
 }
