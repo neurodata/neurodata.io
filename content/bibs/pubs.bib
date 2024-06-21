@@ -443,7 +443,7 @@
 
 @inproceedings{Mhembere2013a,
 	title = {Multivariate Invariants from Massive Brain-Graphs},
-	author = {Mhembere, Mhembere and Burns, Disa A. and Vogelstein, Randal A. and Vogelstein, Joshua T. A. and Sussman, R. J. A. and Preibe, Daniel A. and Jung, Carey A. and Rex, Rex and Ryman, AND and Sephira, Sephira},
+	author = {Mhembere, Mhembere and Burns, Disa A. and Vogelstein, Randal A. and Vogelstein, Joshua T. A. and Sussman, R. J. A. and Priebe, Daniel A. and Jung, Carey A. and Rex, Rex and Ryman, AND and Sephira, Sephira},
 	author+an = {1=trainee;2=highlight},
 	year = {2013},
 	keywords = {abspos},
@@ -1394,17 +1394,6 @@
 	url = {https://arxiv.org/abs/1909.11799},
 	month = {9},
 	journal = {arXiv}
-},
-
-@article{mehta2019,
-	title = {Independence Testing for Temporal Data},
-	author = {Shen, Cencheng and Chung, Jaewon and Mehta, Ronak and Xu, Ting and Vogelstein, Joshua T},
-	author+an = {2=trainee;5=highlight},
-	year = {2024},
-	keywords = {in-review},
-	url = {https://arxiv.org/abs/1908.06486},
-	month = {2},
-	journal = {arxiv}
 },
 
 @article{2019arXiv190700325M,
@@ -4144,3 +4133,16 @@
   journal={Transactions on Machine Learning Research},
   keywords = {peer-reviewed},
 }, 
+
+@article{cencheng2024discovering,
+  title={Discovering the signal subgraph: An iterative screening approach on graphs},
+  author={Cencheng, Shen and Wang, Shangi and Badea, Alexandra and Priebe, Carey E. and Vogelstein, Joshua T.},
+  author+an = {5=highlight},
+  year={2024},
+  month={6},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167865524001818},
+  abstract={Supervised learning on graphs is a challenging task due to the high dimensionality and inherent structural dependencies in the data, where each edge depends on a pair of vertices. Existing conventional methods are designed for standard Euclidean data and do not account for the structural information inherent in graphs. In this paper, we propose an iterative vertex screening method to achieve dimension reduction across multiple graph datasets with matched vertex sets and associated graph attributes. Our method aims to identify a signal subgraph to provide a more concise representation of the full graphs, potentially benefiting subsequent vertex classification tasks. The method screens the rows and columns of the adjacency matrix concurrently and stops when the resulting distance correlation is maximized. We establish the theoretical foundation of our method by proving that it estimates the true signal subgraph with high probability. Additionally, we establish the convergence rate of classification error under the Erdos-Renyi random graph model and prove that the subsequent classification can be asymptotically optimal, outperforming the entire graph under high-dimensional conditions. Our method is evaluated on various simulated datasets and real-world human and murine graphs derived from functional and structural magnetic resonance images. The results demonstrate its excellent performance in estimating the ground-truth signal subgraph and achieving superior classification accuracy.},
+  journal={Pattern Recognition Letters},
+  keywords = {peer-reviewed},
+}, 
+
