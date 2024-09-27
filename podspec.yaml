@@ -28,6 +28,8 @@ static_dirs:
     serve_at: /static/misc/n/images/
   - static_dir: /content/bibs/
     serve_at: /static/bibs/
+  - static_dir: /content/bibs/tex
+    serve_at: /static/bibs/tex
   - static_dir: /content/guides/downloadable_files/
     serve_at: /static/guides/downloadable_files/
 
