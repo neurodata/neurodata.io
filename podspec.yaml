@@ -33,6 +33,7 @@ static_dirs:
   - static_dir: /content/guides/downloadable_files/
     serve_at: /static/guides/downloadable_files/
 
+
 meta:
   favicon_path: /source/favicons/favicon.ico
 
