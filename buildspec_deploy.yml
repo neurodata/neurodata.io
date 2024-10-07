@@ -21,7 +21,7 @@ phases:
       - export LC_ALL=C.UTF-8
       - cd content/bibs/tex
       - pdflatex jovo_cv_SOM.tex
-      - cp content/bibs/tex/jovo_cv_SOM.pdf source/images/people/jovo_cv_SOM.pdf
+      # - cp content/bibs/tex/jovo_cv_SOM.pdf source/images/people/jovo_cv_SOM.pdf
       - cd ..
       - biber tex/jovo_cv_SOM
       # - pdflatex jovo_cv_SOM.tex
