@@ -273,26 +273,25 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
 - The privilege of being an official member of the team comes with the responsibility of 
-    - being physically present on Monday and Thursday afternoon for all full weeks in the academic calendar, modulo classes, vacations, disease, or family emergencies,
-    - scheduling weekly subgroup meetings,
+    - being physically present on Monday through Thursday afternoon whenever JHU is open, modulo classes, vacations, disease, or family emergencies,
+    - scheduling and attending at least 1 weekly subgroup meeting,
     - responding to other lab members' queries in a timely fashion (e.g., within a week),
-    - posting any papers (in which I am the first author) to a preprint server no later than the date of submission, 
+    - posting any papers (in which I am the first author) to a preprint server no later than the date of submission (unless otherwise explicitly permitted), 
     - making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to preprint server, 
-    - updating our lab CV no later than one week after posting new papers, revisions, presentations, etc., 
+    - updating our lab webpage no later than one week after posting new papers, revisions, presentations, posters, etc., 
     - proposing updates to our agreements/etc. whenever potential improvements are envisioned, and
     - making a reasonable effort to attend official lab events.  
-- The privilege of being a PhD student in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
-- The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-- The privilege of being a PhD student or postdoc comes with the additional responsibility of
     - attending the weekly lab meeting regularly,  
     - presenting at lab meeting once per cycle, 
     - applying to present at a conference annually 
+- The privilege of being a PhD student in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
+- The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee, if one requests. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 - The privilege of being a postdoc comes with the responsibility of applying for funding to cover each year you are here, targeting a solicitation >3 months in advance. 
 - The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant, and addressing all jovo grant related requests no later than the end of the next business day (e.g., if the request arrives at 4pm Friday, then it is completed no later than 5pm on Monday.
 - The privilege of accessing commercial cloud resources comes with the responsibility of first
    - trying things locally on your computer, then
    - trying things locally on institutional resources, then
-   - writing (not winning) an [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/) for $10k for small projects, and checking the status every three months, then
+   - writing (not winning) a cloud research grant (e.g., [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/)) and checking the status every three months, then
    - educating oneself about proper use of commercial cloud resources, then
    - trying things on commercial clouds for which we have credits, then
    - spending grant money on additional commercial cloud resources. 
@@ -300,8 +299,8 @@ We collectively co-create our community.  Being a part of this community affords
 
 ### Jovo specific responsibilities
 
-- I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits,  computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
-- I am responsible for devoting at least 1 hour per week in person with each PhD student, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment to family.
+- I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits, computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
+- I am responsible for devoting at least 1 hour per week in person with each PhD/postdoc trainee, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment.
 
 ### Sick policies
 
