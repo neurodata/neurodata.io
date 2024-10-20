@@ -241,12 +241,6 @@ Travel plans (when you are going to be out of lab for some period of time) shoul
 
 While these agreements are a living, breathing document, changing them costs energy for everybody, and can lead to an experience of instability.  Consider the costs upon proposing a modification. If you propose one, you are responsible for getting a majority of Neurodata members to approve the change.
 
-## Schedule
-The following schedule is planned beginning Spring semester 2023:
-- Everyone in lab Mon & Thurs afternoon (if you can't make it, you are responsible for letting everyone know in advance).
-- Weekly jovo meetings on Mon and Thurs, sign up in advance. Additional meetings available as needed. 
-- Lab meetings will be 12-1pm on Thursdays. Sign-up sheet may be found [here](https://docs.google.com/spreadsheets/d/1pysmRprg6r2ToyddZhNx3AqCHm2aeHUy949h4KkcQso/edit?usp=sharing).
-
 ## Activities
 
 ### Annual Group Hangouts
@@ -274,20 +268,20 @@ We collectively co-create our community.  Being a part of this community affords
 
 - The privilege of being an official member of the team comes with the responsibility of 
     - being physically present on Monday through Thursday afternoon whenever JHU is open, modulo classes, vacations, disease, or family emergencies,
-    - scheduling and attending at least 1 weekly subgroup meeting,
+    - scheduling and attending at least one weekly subgroup meeting devoted to your project,
     - responding to other lab members' queries in a timely fashion (e.g., within a week),
-    - posting any papers (in which I am the first author) to a preprint server no later than the date of submission (unless otherwise explicitly permitted), 
-    - making any code necessary to reproduce the figures in any paper I write open access no later than the date of submission to preprint server, 
-    - updating our lab webpage no later than one week after posting new papers, revisions, presentations, posters, etc., 
-    - proposing updates to our agreements/etc. whenever potential improvements are envisioned, and
+    - posting any papers to a preprint server no later than the date of submission (unless otherwise explicitly permitted), 
+    - making any code necessary to reproduce the figures in any paper no later than the date of submission to preprint server, 
+    - updating our lab webpage the day of new papers, revisions, presentations, posters, etc., 
     - making a reasonable effort to attend official lab events.  
-    - attending the weekly lab meeting regularly,  
+    - attending the weekly lab meeting weekly (slack everyone in advance if not attending),  
     - presenting at lab meeting once per cycle, 
-    - applying to present at a conference annually 
-- The privilege of being a PhD student in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
-- The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee, if one requests. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
+    - applying to present at a conference annually, and
+    - proposing updates to our agreements/etc. whenever potential improvements are envisioned.
+- The privilege of being a PhD/postdoc trainee in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
+- The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee, if one requests it. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
 - The privilege of being a postdoc comes with the responsibility of applying for funding to cover each year you are here, targeting a solicitation >3 months in advance. 
-- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant, and addressing all jovo grant related requests no later than the end of the next business day (e.g., if the request arrives at 4pm Friday, then it is completed no later than 5pm on Monday.
+- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant, and addressing all jovo requests no later than the end of the next business day (e.g., if the request arrives at 4pm Friday, then it is completed no later than 5pm on Monday.
 - The privilege of accessing commercial cloud resources comes with the responsibility of first
    - trying things locally on your computer, then
    - trying things locally on institutional resources, then
