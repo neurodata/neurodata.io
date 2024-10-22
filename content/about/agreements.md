@@ -273,7 +273,7 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
 
 - The privilege of being an official member of the team comes with the responsibility of 
-    - being physically present on Monday and Thursday afternoon for all full weeks in the academic calendar, modulo classes, vacations, disease, or family emergencies,
+    - being physically present on Monday and Thursday afternoon for all full weeks in the academic calendar, modulo classes, vacations, disease, or family emergencies (co-advised students are required to be physically present for at least 2 afternoons per week)
     - scheduling weekly subgroup meetings,
     - responding to other lab members' queries in a timely fashion (e.g., within a week),
     - posting any papers (in which I am the first author) to a preprint server no later than the date of submission, 
