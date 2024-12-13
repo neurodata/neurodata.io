@@ -183,3 +183,12 @@ To do this, simply copy the entry below (yes, there should be spaces in the `num
 
 ## Hosting files on the website:
 CURRENTLY UNDER DEVELOPMENT
+
+## Compiling pdf version of the CV for Jovo's personal page:
+You can compile the pdf locally by running the `pdflatex` command on the `jovo_cv_SOM.tex` file under `content/bibs/tex/`. If you have made any changes to the bib files, you will need to run the `biber`command on the `jovo_cv_SOM` file as well:
+```
+biber jovo_cv_SOM
+pdflatex jovo_cv_SOM.tex
+```
+
+
