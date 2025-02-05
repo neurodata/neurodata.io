@@ -5,15 +5,43 @@ $order: 5
 
 [TOC]
 
-## Commitments
+## Agrements
 
-The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspects of life (including work and science), we experiment, learn, and grow. These commitments *augment*, and therefore do not replace, official JHU policies, including:
+We are priveledged to collectively co-create our community.  Being a part of this community affords us access to many amazing resources. As members of the JHU commmunity, we already have agreed to follow the following guidelines:
 
 - The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 - JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 - [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
 
-Joining the lab, which is made official by signing documents with JHU where JHU commits to you, amounts to also agreeing to all of the below core commitments.  If any individual is not acting in a fashion that is in alignment with these commitments, that indicates that our environment is not adequately supportive of their flourishing, and therefore, we will seek to find something more in alignment with them (which could happen by modifying the commitments, or supporting them to find an opportunity that is more supportive of them).
+As members of the lab, we also agree to the following.  
+
+
+### Birthday agreements
+On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously break out into an enthusiastic chicken dance at their command.
+
+### Other agreements
+
+  Associated with access to those resources and privileges are a number of responsibilities. We therefore agree to the following:
+
+- be physically present on Monday through Thursday 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies,
+- prioritize any request from jovo over all other school responsibilities
+- attend your weekly subgroup meeting,
+- attend weekly lab meeting and present 1x per cycle
+- respond to other lab members' queries within a week,
+- upon submitting a paper, by that day 
+    - post manuscript to a preprint server, 
+    - post  reproducible code, 
+    - update our lab webpage, 
+- apply to present at a conference annually, and
+- apply for fellowships after completing year 2
+
+If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
+
+## Commitments
+
+The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspects of life (including work and science), we experiment, learn, and grow. These commitments *augment*, 
+
+
 
 The expectation is that each of us meet all of these commitments 90% of the time.  
 
@@ -109,11 +137,6 @@ The model for feedback we use is the Conscious Leadership Group's [clearing mode
 
 We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. Use the [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) to resolve any conflict.  If that fails, send the information from the clearing model questions and answers to support@neurodata.io, who will seek a [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
 
-#### Lab meetings
-
-> I commit to being present at weekly lab meetings.
-
-Lab members should be present at these meetings (ideally, in-person) whenever possible. They should communicate beforehand if they are not able to attend. They are encouraged to invite at least one person who is not in the lab to attend.
 
 ## Recommended Practices
 
@@ -257,42 +280,9 @@ We meet at least 2x annually without jovo to discuss ways we can collectively im
 - After completing the form, schedule a meeting with Jovo. 
 - These meetings will typically happen in July. 
 
-## Privileges and Responsibilities
-
-### Birthday Privileges
-On the day of a lab members' birthday, all other members shall refer to them as "Your Supreme Superbity." Also, all lab members must spontaneously break out into an enthusiastic chicken dance at their command.
-
-### Other Privileges & Responsibilities
-
-We collectively co-create our community.  Being a part of this community affords us access to many amazing resources.  Associated with access to those resources and privileges are a number of responsibilities.
-
-- The privilege of being an official member of the team comes with the responsibility of 
-
-    - being physically present on Monday through Thursday afternoon whenever JHU is open, modulo classes, vacations, disease, or family emergencies,
-    - scheduling and attending at least one weekly subgroup meeting devoted to your project,
-    - responding to other lab members' queries in a timely fashion (e.g., within a week),
-    - posting any papers to a preprint server no later than the date of submission (unless otherwise explicitly permitted), 
-    - making any code necessary to reproduce the figures in any paper no later than the date of submission to preprint server, 
-    - updating our lab webpage the day of new papers, revisions, presentations, posters, etc., 
-    - making a reasonable effort to attend official lab events.  
-    - attending the weekly lab meeting weekly (slack everyone in advance if not attending),  
-    - presenting at lab meeting once per cycle, 
-    - applying to present at a conference annually, and
-    - proposing updates to our agreements/etc. whenever potential improvements are envisioned.
-- The privilege of being a PhD/postdoc trainee in the lab comes with Jovo offering 1 hour per week of devotion, and the responsibility to cancel the meeting in the calendar as soon as you chose to not attend (there is no need to request or explain anything to anybody, just cancel). 
-- The privilege of being a senior member of the team (have successfully submitted >=1 first author peer-reviewed manuscript on our team) comes with the responsibility of accepting a buddy mentee, if one requests it. The responsibility associated with this mentee will be to onboard the mentee. There is a lot of literature to suggest this is good for everyone on the team, for example, see [here](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them) and [here](https://hbr.org/2019/06/every-new-employee-needs-an-onboarding-buddy).
-- The privilege of being a postdoc comes with the responsibility of applying for funding to cover each year you are here, targeting a solicitation >3 months in advance. 
-- The privilege of being funded by a grant comes with the responsibility for contributing to all grant-related agreements, including making/giving talks, attending grant meetings, regular reporting, and any other agreements specified in the grant, and addressing all jovo requests no later than the end of the next business day (e.g., if the request arrives at 4pm Friday, then it is completed no later than 5pm on Monday.
-- The privilege of accessing commercial cloud resources comes with the responsibility of first
-   - trying things locally on your computer, then
-   - trying things locally on institutional resources, then
-   - writing (not winning) a cloud research grant (e.g., [AWS Cloud Credits for Research grant](https://aws.amazon.com/research-credits/)) and checking the status every three months, then
-   - educating oneself about proper use of commercial cloud resources, then
-   - trying things on commercial clouds for which we have credits, then
-   - spending grant money on additional commercial cloud resources. 
 
 
-### Jovo specific responsibilities
+## Jovo specific responsibilities
 
 - I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits, computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
 - I am responsible for devoting at least 1 hour per week in person with each PhD/postdoc trainee, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment.
