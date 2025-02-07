@@ -5,7 +5,7 @@ $order: 5
 
 [TOC]
 
-## Agrements
+## Agreements
 
 We are priveledged to collectively co-create our community.  Being a part of this community affords us access to many amazing resources. As members of the JHU commmunity, we already have agreed to follow the following guidelines:
 
@@ -23,7 +23,8 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 
   Associated with access to those resources and privileges are a number of responsibilities. We therefore agree to the following:
 
-- be physically present on Monday through Thursday 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies,
+- be physically present on Monday through Thursday 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies
+  * time commitment of co-advised students will be determined on a case-by-case basis
 - prioritize any request from jovo over all other school responsibilities
 - attend your weekly subgroup meeting,
 - attend weekly lab meeting and present 1x per cycle
