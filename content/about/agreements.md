@@ -23,19 +23,20 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 
   Associated with access to those resources and privileges are a number of responsibilities. We therefore agree to the following:
 
-- be physically present on Monday through Thursday 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies,
-- prioritize any request from jovo over all other school responsibilities
+- be physically present M-Th 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies,
+- prioritize any request from jovo over all other school responsibilities,
 - attend your weekly subgroup meeting,
-- attend weekly lab meeting and present 1x per cycle
+- attend weekly lab meeting and present 1x per cycle,
 - respond to other lab members' queries within a week,
+- all research artefacts are always open to everyone in the lab,
 - upon submitting a paper, by that day 
     - post manuscript to a preprint server, 
     - post  reproducible code, 
     - update our lab webpage, 
 - apply to present at a conference annually, and
-- apply for fellowships after completing year 2
+- apply for fellowships after completing year 2.
 
-If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
+Exceptions can be made with written permission. If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
 
 ## Commitments
 
