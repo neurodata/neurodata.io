@@ -29,6 +29,7 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 - attend weekly lab meeting and present 1x per cycle,
 - respond to other lab members' queries within a week,
 - all research artefacts are always open to everyone in the lab,
+- jovo is the final arbiter of the co-authorship list, order, and target venue (you are the arbiter of other details, see below), 
 - upon submitting a paper, by that day 
     - post manuscript to a preprint server, 
     - post  reproducible code, 
