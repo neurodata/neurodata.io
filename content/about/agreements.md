@@ -12,6 +12,7 @@ We are priveledged to collectively co-create our community.  Being a part of thi
 - The rights and responsibilities of all JHU students (documented [here](http://web.jhu.edu/administration/provost/docs/Rights_Responsibilities_Final.pdf)). 
 - JHU advisor-PhD student relationships commitments set forth by the [University Provost](https://provost.jhu.edu/wp-content/uploads/sites/4/2019/08/JHU-Mentorship-Commitments-of-Faculty-Advisors-and-PhD-Students.pdf). 
 - [University's policies on Academic Freedom](http://web.jhu.edu/administration/provost/initiatives/academicfreedom/AcademicFreedomatJohnsHopkins.pdf).
+- [Collective bargaining agreement between university and PhD students](https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/).
 
 As members of the lab, we also agree to the following.  
 
