@@ -30,6 +30,7 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 - respond to other lab members' queries within a week,
 - all research artefacts are always open to everyone in the lab,
 - jovo is the final arbiter of the co-authorship list, order, and target venue (you are the arbiter of other details, see below), 
+- do research 20 hrs/wk if you are  completing course work, add another 20 hrs/wk once coursework is completed (prorate for days/weeks school is closed)
 - upon submitting a paper, by that day 
     - post manuscript to a preprint server, 
     - post  reproducible code, 
@@ -37,7 +38,7 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 - apply to present at a conference annually, and
 - apply for fellowships after completing year 2.
 
-Exceptions can be made with written permission. If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
+Exceptions can be made by stating so in advance. If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
 
 ## Commitments
 
