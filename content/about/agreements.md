@@ -22,8 +22,6 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 
 ### Other agreements
 
-  Associated with access to those resources and privileges are a number of responsibilities. We therefore agree to the following:
-
 - be physically present M-Th 12-4 whenever JHU is open, modulo classes, travel, disease, or family emergencies,
 - prioritize any request from jovo over all other school responsibilities,
 - attend your weekly subgroup meeting,
@@ -41,105 +39,33 @@ On the day of a lab members' birthday, all other members shall refer to them as 
 
 Exceptions can be made by stating so in advance. If any individual is not acting in a fashion that is in alignment with these agreements,  we will revise the agreements or the relationship, as warranted.
 
-## Commitments
+### Jovo Agreements
 
-The below [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment) are designed to facilitate each of us individually and collectively [flourishing](https://amz.run/5O5A). They are in a continual process of refinement; in all aspects of life (including work and science), we experiment, learn, and grow. These commitments *augment*, 
-
-
-
-The expectation is that each of us meet all of these commitments 90% of the time.  
-
-### Jovo
-
-For everybody in [NeuroData](https://neurodata.io/about/team/), for the duration of your tenure as a team member:
-
-#### Flourish
-
-> I commit to [flow](https://smile.amazon.com/dp/0061339202/ref=cm_sw_r_tw_dp_98W0QE34BZEKYH6DNFS9) in, and expand, our individual and collective flourishing. I commit to supporting all the members of  NeuroData to flow in, and expand, your individual and collective flourishing.  
- 
-Implicit in this commitment is an acknowledgement that each of us defines flourishing and collective for ourselves; thus I commit to support you in *your* definitions of flourishing and collective, not mine. 
-
-#### Guidance
-
-> I commit to providing [conscious guidance and direction](https://conscious.is/excercises-guides/creator-coach-challenger-cards) to the best of my abilities in support of your growth and maturation as a student, scientist, and conscious being.  
-
-At various times, this will translate into me being a:
-
-- coach: in which I encourage you & facilitate self-empowerment,
-- challenger: in which I catalyze you to take action,
-- creator: in which I co-create with you to manifest our desired outcomes. 
-
-This commitment includes me *not* being any of the following:
-
-- victim: in which I fail to take responsibility for my part of outcomes,
-- villain: in which I blame others for various outcomes,
-- hero: in which I seek temporary relief, rather than empowerment.
+- Co-forge an environment that inspires each of us to fully expressive our creative potential in aligment with our team mission
+- Provide the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits, computing costs, conference fees, travel expenses, publication fees, desk, chair, computer, display, etc.  Expenses never impact your salary or benefits. 
+- Devote 1+ hour per week in person with each PhD/postdoc trainee, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment.
 
 
-#### Diversity
+## Recommended Readings
 
-> I commit to maintaining lab diversity. 
+### Books
 
-This includes actively recruiting lab members spanning levels, specifically including individuals with various sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy, disability, physical appearance, body size, race, ethnicity, nationality, religion, political views, veteran status, experience or lack thereof, or other historically and contemporaneously marginalized identities.  
+- [15 commitments](https://a.co/d/hZLy6da)
+- [writing science](https://a.co/d/aMKyvH4)
 
-#### Modeling
+### Blog posts
 
-> I commit to [modeling the way](https://amz.run/5O5C).
-
-This means that I will act in a fashion that I believe is in alignment with our commitments, in an effort to provide an example for you for one way that acting in alignment with these commitments can look.  And, I understand that manifesting these commitments will look different for each person.
-
-### NeuroData 
-
-The following commitments and agreements apply to all current members of [NeuroData](https://neurodata.io/about/team/), Jovo included.
-
-
-#### Genius
-
-> I commit to focusing the majority of my research [energy](http://a.co/aPrBEkq) on a few projects in my [zone of genius](https://www.amazon.com/dp/B07S7L6FV2?ref=KC_GS_GB_US), and to support and inspire others to fully express their creativity and live in their zones of genius.
-
-Abiding by this commitment requires assessing your zone of genius. Note that this commitment leaves plenty of room to work on non-lab stuff, and play. 
-
-####  Alignment
-
-> I commit to focus my primary research project(s) on work that aligns with our mission, our resources/expertise, and my genius. 
-
-See [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html) for more tips on how to choose a project. In general, the expectation is that each project takes about one year to sufficiently complete to make public (e.g., post to arXiv), and is complete when the manuscript is published in a journal/conference. 
-
-#### Open, Accessible, & Reproducible Science
-
-> I commit to conducting my work using the highest standards for open, accessible, and reproducible science. 
-
-This commitment leads to all of our research derivatives being open, accessible and reproducible, including code, data, data derivatives, publications, talks, posters, etc. At the highest level, our work is open throughout the entire scientific process. Note that external collaborators may have other commitments, and so are committed to always work to be in alignment with their commitments and ours. 
-
-#### Honesty
-
-> I commit to speaking & writing inarguably, including acknowledging all authentic feelings, and only making [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
-
-This means, for example, that we use "I" statements, such as "I heard X," rather than "You said X," and "My judgment of you is that you are X," rather than "You are X."  Honesty demands an appropriate level of epistemic humility.  This also means we do not overclaim in our discussions, nor do we write things in abstracts that are not yet true. 
-
-#### Play
-
-> I commit to play by honoring rest, renewal, and rhythm.
-
-Stuart Brown defines play in his book as “an absorbing, apparently purposeless activity that provides enjoyment and suspends self-consciousness and a sense of time. It is also self-motivating and makes you want to do it again.”  Manifestations of play include participating in daily recess (3-3:30pm daily on school days - outdoors when possible), and/or other regular social/playful events. This also includes taking regular breaks and vacations from work.
-
-#### Diversity and Inclusion
-
-> I commit to co-creating a safe, comfortable, and [brave](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)  space, and harassment-free experience (see [wikipedia's definition of harassment for details](https://en.wikipedia.org/wiki/Harassment)), for **everyone**.
-
-This commitment holds regardless of an individual's sex, gender, gender identity and expression, age, sexual orientation, marital status, pregnancy, disability, physical appearance, body size, race, ethnicity, nationality, religion, political or other views, veteran status, experience or lack of, or other historically and contemporaneously marginalized identity.  We recognize the unique struggles of being a member of a marginalized community (and all the more so for individuals who are members of multiple such communities) in STEM. And we recognize ways in which we may benefit from and/or contribute to marginalization of certain groups. 
-
-#### Feedback
-
-> I commit to seeking, gathering, appreciating, and learning from feedback. I commit to authentically and consciously offer feedback. 
-
-The model for feedback we use is the Conscious Leadership Group's [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  It is often best practice to provide such feedback in private.  Feedback for Jovo can be provided directly in the #jovofeedback Slack channel, the [anonymous feedback form](https://forms.gle/6CZDgEHKuUhWh8Su7), or by scheduling a [one-on-one meeting]((https://calendly.com/joshuav)) with Jovo (the preferred format). For feedback on work such as writing or code, lab members should regularly post their work in the #feedback Slack channel. Further, everyone should strive to also give feedback to other lab members at approximately the same rate.
-
-#### Accountability
-
-> I commit to being [accountable](https://conscious.is/15-commitments/responsibility) for my contribution to any outcome.
-
-We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. Use the [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) to resolve any conflict.  If that fails, send the information from the clearing model questions and answers to support@neurodata.io, who will seek a [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
+- [Impeccable agreements](https://conscious.is/blogs/impeccable-agreements-tool-or-weapon-your-choice)
+- [Whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes)
+- [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment)
+- [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html)
+- [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
+- [brave spaces](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)
+- [wikipedia's definition of harassment for details](https://en.wikipedia.org/wiki/Harassment)
+- [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  
+- [accountable](https://conscious.is/15-commitments/responsibility) for my contribution to any outcome.
+- [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) 
+- [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
 
 
 ## Recommended Practices
@@ -286,10 +212,6 @@ We meet at least 2x annually without jovo to discuss ways we can collectively im
 
 
 
-## Jovo specific responsibilities
-
-- I am responsible for providing the financial, computational, space, and other resources appropriate for your position, potentially including salary, benefits, computing costs, conference fees, travel expenses, publication fees, a desk, a laptop, monitors, etc.  Crucially, expenses never impact your salary or benefits. 
-- I am responsible for devoting at least 1 hour per week in person with each PhD/postdoc trainee, except for weeks that I am traveling, or when the week is short due to academic calendar days off, or in the case of a disease/family emergency. These meetings will always be in person unless Jovo is not in person for some other commitment.
 
 ### Sick policies
 
