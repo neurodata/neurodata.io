@@ -53,19 +53,18 @@ Exceptions can be made by stating so in advance. If any individual is not acting
 - [15 commitments](https://a.co/d/hZLy6da)
 - [writing science](https://a.co/d/aMKyvH4)
 
-### Blog posts
+### Articles and blog posts
 
 - [Impeccable agreements](https://conscious.is/blogs/impeccable-agreements-tool-or-weapon-your-choice)
 - [Whole body yes](https://conscious.is/concepts/leading-and-living-from-your-whole-body-yes)
 - [commitments](https://conscious.is/blogs/going-deeper-with-the-15-commitments-the-power-of-clear-commitment)
 - [how to choose a project](https://bitsandbrains.io/2018/08/31/sig-and-feas.html)
-- [impeccable agreements](http://www.toltecspirit.com/four-agreements/impeccable-word/). 
 - [brave spaces](https://www.naspa.org/images/uploads/main/Policy_and_Practice_No_2_Safe_Brave_Spaces.pdf)
 - [wikipedia's definition of harassment for details](https://en.wikipedia.org/wiki/Harassment)
-- [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1).  
-- [accountable](https://conscious.is/15-commitments/responsibility) for my contribution to any outcome.
-- [clearing model](https://www.dropbox.com/s/3o2js6vme2zh3fu/CLG-Clearing%20Model.pdf?dl=1) 
-- [win-for-all](https://conscious.is/15-commitments/win-for-all) solution.
+- [clearing model](https://conscious.is/excercises-guides/the-clearing-model).  
+- [responsibility](https://conscious.is/15-commitments/responsibility).
+- [win-for-all](https://conscious.is/15-commitments/win-for-all)
+- [decision rights](https://conscious.is/blogs/clear-decision-rights-to-reduce-drama)
 
 
 ## Recommended Practices
