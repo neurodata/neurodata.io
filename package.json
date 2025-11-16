@@ -18,7 +18,7 @@
   "homepage": "https://github.com/neurodata/neurodata.io#readme",
   "devDependencies": {
     "gulp": "^5.0.0",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^10.0.0",
     "tailwindcss": "^1.1.4"
   },
   "dependencies": {
