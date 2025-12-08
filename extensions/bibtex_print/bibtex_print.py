@@ -6,6 +6,7 @@ from bibtexparser.bparser import BibTexParser
 from jinja2.ext import Extension
 import io
 
+
 def mo_co(mo):
 
     MONTH_CONVERT = {
@@ -70,12 +71,12 @@ def mo_co(mo):
         "December": 12,
     }
     try:
-        return(int(mo))
+        return int(mo)
     except:
         try:
             return MONTH_CONVERT[mo]
         except:
-            return(0)
+            return 0
 
 
 def load_bibtex(bibfile, keyword=""):
@@ -83,12 +84,12 @@ def load_bibtex(bibfile, keyword=""):
     parser = BibTexParser()
     parser.ignore_nonstandard_types = False
 
-    with io.open(bibfile, 'r', encoding='utf-8') as bibtex_file:
+    with io.open(bibfile, "r", encoding="utf-8") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
 
     bib_entries = bib_database.entries
     if keyword != "":
-      bib_entries = list(filter(lambda x: x["keywords"] == keyword, bib_entries))
+        bib_entries = list(filter(lambda x: x["keywords"] == keyword, bib_entries))
 
     bib_entries.sort(key=lambda x: x.get("author", ""))
     bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
@@ -101,22 +102,34 @@ def load_members(bibfile):
     parser = BibTexParser()
     parser.ignore_nonstandard_types = False
 
-    with io.open(bibfile, 'r', encoding='utf-8') as bibtex_file:
+    with io.open(bibfile, "r", encoding="utf-8") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file, parser=parser)
 
     bib_entries = bib_database.entries
 
-    position_order = ['director','faculty','faculty - research','staff','postdoc','student','undergrad','associate','highschool', 'other']
+    position_order = [
+        "director",
+        "faculty",
+        "faculty - research",
+        "staff",
+        "postdoc",
+        "student",
+        "undergrad",
+        "associate",
+        "highschool",
+        "other",
+    ]
 
-    order = {key: i  for i, key in enumerate(position_order)}
+    order = {key: i for i, key in enumerate(position_order)}
     bib_entries.sort(key=lambda d: d.get("author", ""))
     bib_entries.sort(key=lambda d: order[d.get("userd")])
 
-    #bib_entries.sort(key=lambda x: x.get("author", ""))
-    #bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
-    #bib_entries.sort(key=lambda x: x.get("year", ""), reverse=True)
+    # bib_entries.sort(key=lambda x: x.get("author", ""))
+    # bib_entries.sort(key=lambda x: mo_co(x.get("month", "")), reverse=True)
+    # bib_entries.sort(key=lambda x: x.get("year", ""), reverse=True)
 
     return bib_entries
+
 
 def auth_formatted(authors):
     """format the authors in intials. last name
@@ -164,10 +177,11 @@ def all_authors_annotated(bib_entry):
             an_type = an_parts[1]
             cur_auth = auths_format[an_id]
             if an_type == "highlight":
-                auths_format[an_id] = '<span class="font-bold">' + cur_auth + '</span>'
+                auths_format[an_id] = '<span class="font-bold">' + cur_auth + "</span>"
             elif an_type == "trainee":
-                auths_format[an_id] = '<span class="italic">' + cur_auth + '</span>'
+                auths_format[an_id] = '<span class="italic">' + cur_auth + "</span>"
     return auths_format
+
 
 def print_authors(bib_entry):
     authors = bib_entry["author"].split(" and ")
@@ -177,17 +191,18 @@ def print_authors(bib_entry):
 
 ### ---------------------- FUNCTIONS FOR JOVO's CV in HTML ---------------------------------
 
+
 def auth_formatted_jovo(authors, highlights):
     """format the authors in intials. last name
     e.g. J. V. Vogelstein
     """
-    hl2=[u""]*100
+    hl2 = [""] * 100
     for hl in highlights:
-      try:
-        hlindex, hltype=hl.split("=", 2)
-        hl2[int(hlindex)]=hltype
-      except:
-        pass
+        try:
+            hlindex, hltype = hl.split("=", 2)
+            hl2[int(hlindex)] = hltype
+        except:
+            pass
 
     auths_format = []
     for author in authors:
@@ -203,9 +218,9 @@ def auth_formatted_jovo(authors, highlights):
                 else:
                     initials += n + ". "
         full_name_format = "".join(initials) + last
-        if hl2[len(auths_format)+1] == u"highlight":
+        if hl2[len(auths_format) + 1] == "highlight":
             full_name_format = "<strong>" + full_name_format + "</strong>"
-        if hl2[len(auths_format)+1] == u"trainee":
+        if hl2[len(auths_format) + 1] == "trainee":
             full_name_format = "<u>" + full_name_format + "</u>"
         auths_format.append(full_name_format)
 
@@ -215,9 +230,9 @@ def auth_formatted_jovo(authors, highlights):
 def all_authors_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
-      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+        authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
-      authors_an = []
+        authors_an = []
 
     auths_format = auth_formatted_jovo(authors, authors_an)
 
@@ -227,9 +242,9 @@ def all_authors_jovo(bib_entry):
 def all_authors_annotated_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
-      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+        authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
-      authors_an = []
+        authors_an = []
     auths_format = auth_formatted_jovo(authors, authors_an)
 
     an_entries = bib_entry.get("author+an", None)
@@ -243,9 +258,9 @@ def all_authors_annotated_jovo(bib_entry):
 
             cur_auth = auths_format[an_id]
             if an_type == "highlight":
-                auths_format[an_id] = '<span class="font-bold">' + cur_auth + '</span>'
+                auths_format[an_id] = '<span class="font-bold">' + cur_auth + "</span>"
             elif an_type == "trainee":
-                auths_format[an_id] = '<span class="italic">' + cur_auth + '</span>'
+                auths_format[an_id] = '<span class="italic">' + cur_auth + "</span>"
 
     return auths_format
 
@@ -253,9 +268,9 @@ def all_authors_annotated_jovo(bib_entry):
 def print_authors_jovo(bib_entry):
     authors = bib_entry["author"].split(" and ")
     if "author+an" in bib_entry:
-      authors_an = re.split("[,;] ?", bib_entry["author+an"])
+        authors_an = re.split("[,;] ?", bib_entry["author+an"])
     else:
-      authors_an = []
+        authors_an = []
 
     auths_format = auth_formatted_jovo(authors, authors_an)
 
@@ -265,11 +280,11 @@ def print_authors_jovo(bib_entry):
     elif len(auths_format) == 1:
         return auths_format[0] + "."
     else:
-        return u"{} and {}.".format(", ".join(auths_format[0:-1]), auths_format[-1])
-
+        return "{} and {}.".format(", ".join(auths_format[0:-1]), auths_format[-1])
 
 
 ### ------------------------------------------------------------------------------------
+
 
 def print_link(bib_entry):
     if "doi" in bib_entry:
@@ -279,6 +294,8 @@ def print_link(bib_entry):
     if "arxivid" in bib_entry:
         arxivID = bib_entry["arxivid"].replace("arXiv:", "")
         return "https://arxiv.org/abs/{}".format(arxivID)
+    if "file" in bib_entry:
+        return bib_entry["file"]
     print("{} did not have a link".format(bib_entry["ID"]))
     # print('here are the keys')
     # for key in bib_entry:
@@ -350,12 +367,14 @@ def print_usera(bib_entry):
         usera = usera[1:-1]
     return usera
 
+
 def print_userb(bib_entry):
     userb = bib_entry["userb"]
     userb = userb.replace("\\&", "&")
     if userb[0] == "{" and userb[-1] == "}":
         userb = userb[1:-1]
     return userb
+
 
 def print_series(bib_entry):
     series = bib_entry["series"]
@@ -364,12 +383,14 @@ def print_series(bib_entry):
         series = series[1:-1]
     return series
 
+
 def print_userd(bib_entry):
     userd = bib_entry["userd"]
     userd = userd.replace("\\&", "&")
     if userd[0] == "{" and userd[-1] == "}":
         userd = userd[1:-1]
     return userd
+
 
 def print_abstract(bib_entry):
     abstract = bib_entry["abstract"]
@@ -378,20 +399,35 @@ def print_abstract(bib_entry):
         abstract = abstract[1:-1]
     return abstract
 
+
 def print_month(bib_entry):
     try:
-      month=mo_co(bib_entry.get("month", ""));
-      months=["", "Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.",
-              "Aug.", "Sep.", "Oct.", "Nov.", "Dec."]
-      return months[month];
+        month = mo_co(bib_entry.get("month", ""))
+        months = [
+            "",
+            "Jan.",
+            "Feb.",
+            "Mar.",
+            "Apr.",
+            "May",
+            "Jun.",
+            "Jul.",
+            "Aug.",
+            "Sep.",
+            "Oct.",
+            "Nov.",
+            "Dec.",
+        ]
+        return months[month]
     except:
-      return ""
+        return ""
+
 
 def print_price(price):
     try:
-      return price.replace("\\$", "$")
+        return price.replace("\\$", "$")
     except:
-      return ""
+        return ""
 
 
 class BIBTEX_PRINT(Extension):
