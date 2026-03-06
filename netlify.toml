@@ -1,0 +1,10 @@
+[build]
+  command = "grow install; grow build; cp robots-demo.txt build/robots.txt"
+  publish = "build"
+
+[build.environment]
+  PYTHON_VERSION = "3.8"
+  NETLIFY_BUILD_IMAGE = "focal"
+
+[context.deploy-preview]
+  command = "grow install; grow build; cp robots-demo.txt build/robots.txt"
