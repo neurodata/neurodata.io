@@ -1,5 +1,5 @@
 [build]
-  command = "grow install; grow build; cp robots-demo.txt build/robots.txt"
+  command = "grow install && GROW_THREADS=1 grow build && cp robots-demo.txt build/robots.txt"
   publish = "build"
 
 [build.environment]
@@ -7,4 +7,4 @@
   NETLIFY_BUILD_IMAGE = "focal"
 
 [context.deploy-preview]
-  command = "grow install; grow build; cp robots-demo.txt build/robots.txt"
+  command = "grow install && GROW_THREADS=1 grow build && cp robots-demo.txt build/robots.txt"
