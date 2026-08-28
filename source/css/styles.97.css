@@ -3931,6 +3931,7 @@ body.person-detail .more-info p {
     margin-left: 1in;
     color: #3873b2;
     font-size: 1.5em;
+    break-after: avoid-page;
   }
   body.person-detail .detail-wrap h3::before {
     content: '';
@@ -3947,10 +3948,7 @@ body.person-detail .more-info p {
     font-family: "Gentona Regular", "Arial", sans-serif;
     color: #3873b2;
     font-size: 1.3em;
-  }
-  body.person-detail .detail-wrap {
-  }
-  body.person-detail .detail-wrap {
+    break-after: avoid-page;
   }
   .cv-item {
     margin-left: 1in;
