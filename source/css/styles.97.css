@@ -3879,8 +3879,12 @@ body.person-detail .more-info p {
   margin: 0;
 }
 @media print {
+  /* Typography matched to cv/cv_new's Playwright-generated PDF (EB Garamond
+     body + Oswald condensed headers), and the item layout below matched to
+     its CSS-grid date column, so the site's own "Print / Save as PDF" output
+     looks like that reference PDF rather than a generic web-page printout. */
   @page {
-    margin: 1in;
+    margin: 0.55in 0.65in 0.6in 0.65in;
   }
   * {
     /* several elements (e.g. .main) have a `transition: 0.5s ... all`
@@ -3894,42 +3898,40 @@ body.person-detail .more-info p {
   body.person-detail {
     height: auto;
     margin: 0;
-    font-size: 10pt;
-    line-height: 1.25;
-  }
-  .cv-item, .cv-item li {
-    margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  body.person-detail .cv-container h2 {
-    margin-top: 0;
-    font-size: 30pt;
-  }
-  body.person-detail .detail-wrap {
-    padding: 0;
-  }
-  html {
-    background: white;
-    color: black;
-  }
-  body.person-detail {
+    font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+    font-size: 10.6pt;
+    line-height: 1.26;
     /* the base body rule sets a near-invisible text-shadow (a screen
        anti-aliasing trick); Chromium can't represent text-shadow as
        vector text in a PDF's content stream, so it silently rasterizes
        every line of text as an image instead -- this alone was
        responsible for a 44-page CV exporting as a 30+MB PDF. */
     text-shadow: none;
+    background: white;
+    color: #161616;
+  }
+  html {
+    background: white;
+    color: #161616;
+  }
+  body.person-detail .cv-container h2 {
+    margin-top: 0;
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22pt;
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+    color: #111;
+  }
+  body.person-detail .detail-wrap {
+    padding: 0;
+    max-width: none;
   }
   .only-print {
     display: block !important;
   }
   .no-print {
     display: none !important;
-  }
-  body.person-detail {
-    background: white;
-    color: black;
   }
   body.person-detail .header.about-header {
     /* its only content (the "Team" heading) is hidden below, but the
@@ -3938,7 +3940,7 @@ body.person-detail .more-info p {
     display: none;
   }
   body.person-detail .header h2 {
-    color: black;
+    color: #111;
     display: none;
     text-align: left;
   }
@@ -3951,79 +3953,106 @@ body.person-detail .more-info p {
   body.person-detail .doc-nav {
     display: none;
   }
-  body.person-detail .detail-wrap {
-    max-width: none;
-  }
+
+  /* ---- section / subsection headers ---- */
   body.person-detail .detail-wrap h3 {
-    position: relative;
-    margin-left: 1in;
-    color: #3873b2;
-    font-size: 1.5em;
+    margin: 12pt 0 5pt 0;
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 13pt;
+    letter-spacing: 2.4pt;
+    text-transform: uppercase;
+    color: #111;
+    border-bottom: 0.9pt solid #b8b8b8;
+    padding-bottom: 2pt;
     break-after: avoid-page;
   }
-  body.person-detail .detail-wrap h3::before {
-    content: '';
-    position: absolute;
-    width: 0.8in;
-    height: 3pt;
-    left: -1in;
-    top: 6.5pt;
-    background: #3873b2;
+  body.person-detail .detail-wrap h3:first-of-type {
+    margin-top: 0;
   }
   body.person-detail .detail-wrap h4 {
-    position: relative;
-    margin-left: 1in;
-    font-family: "Gentona Regular", "Arial", sans-serif;
-    color: #3873b2;
-    font-size: 1.3em;
+    margin: 7pt 0 3pt 0;
+    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+    color: #555;
     break-after: avoid-page;
   }
+
+  /* ---- dated item rows: date pulled into the margin via position:absolute
+     (NOT css grid -- grid's fragmentation handling has its own bugs in
+     Chromium's paginated PDF export, confirmed by testing; grid measured
+     correctly in every plain-viewport check, and still broke -- specifically
+     -- in the real paginated PDF, dropping the date column and forcing
+     position/institution onto separate lines instead of flowing inline.
+     position:absolute (this) and float (an earlier attempt) both survive
+     pagination correctly; this keeps the .position/.institution spans
+     flowing inline on one line exactly as they did before, only pulling
+     .date out into the margin.) ---- */
   .cv-item {
-    margin-left: 1in;
-    padding-left: 0;
-  }
-  .cv-item.pub {
-    /* just enough room for the absolutely-positioned "[123]" index
-       (measured ~30px wide) plus its 10px gap -- was 10px, which cut
-       the bracket numbers off the printable page entirely */
-    margin-left: 45px;
+    margin: 0;
+    padding: 0;
   }
   .cv-item li {
     position: relative;
-  }
-  .cv-item .position {
-    font-weight: bold;
-  }
-  .cv-item li p {
-    margin: 3px 0;
+    margin-bottom: 2pt;
+    padding-left: 0.85in;
+    break-inside: avoid-page;
   }
   .cv-item li .date {
     position: absolute;
-    right: calc(100% + 10px);
-    top: 0;
+    left: 0;
+    width: 0.75in;
+    font-size: 9.1pt;
+    color: #7a7a7a;
+    letter-spacing: 0.3pt;
     white-space: nowrap;
   }
+  .cv-item li,
+  .cv-item li > *:not(.date) {
+    font-size: 9.9pt;
+    color: #333;
+  }
+  .cv-item .position {
+    font-weight: 600;
+    color: #161616;
+  }
+  .cv-item li p {
+    margin: 0.5pt 0 0;
+  }
+
+  /* ---- publications/talks/abstracts: numbered hanging indent, no wide
+     date gutter (they share .cv-item's rules above, just narrower) ---- */
+  .cv-item.pub li {
+    padding-left: 2.3em;
+    margin-bottom: 5.5pt;
+  }
+  .cv-item.pub li .date {
+    width: 2em;
+    font-size: 9pt;
+    color: #888;
+  }
+  .cv-item.pub li p {
+    font-size: 9.9pt;
+    line-height: 1.42;
+    margin: 0;
+  }
+
   .funding-intro {
-    margin-left: 1in;
+    margin-left: 0.85in;
     margin-bottom: 12pt;
   }
   .funding-intro table {
-    margin-left: 150px;
+    margin-left: 100px;
     min-width: 40%;
   }
   .funding-intro table th {
     text-align: left;
   }
-  body.person-detail .detail-wrap h3::before {
-    height: 0;
-    border-top: 5pt solid #3873b2;
-  }
   .print-head {
     text-align: right;
-  }
-  body, h2, h3, h4 {
-    font-family: "Utopia";
-    text-transform: none;
   }
 }
 
