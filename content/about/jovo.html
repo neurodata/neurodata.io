@@ -10,7 +10,7 @@ $view: /views/base-person.html
 </div>
 
 {% include 'partials/about_nav.html' %}
-{% set docs = g.yaml('content/jovo/jovo-cv.yaml') %}
+{% set cv = 'content/bibs/tex/jovo_cv_SOM.tex'|load_tex_cv %}
 
 <div class="cv-container">
 <div class="detail-wrap">
@@ -103,7 +103,7 @@ $view: /views/base-person.html
 <h2 class="no-print">CV</h2>
 
 <h3>Personal Information</h3>
-{% for section in docs.data.personal %}
+{% for section in cv.personal %}
   <h4>{{ section.title }}</h4>
   <ul class="cv-item">
     {% if section.listitems %}
@@ -112,7 +112,7 @@ $view: /views/base-person.html
           <span class="date">{{subitem.date}}</span>
           <span class="position">{{subitem.position}}</span>
           <span class="institution">{{subitem.institution|safe|replace("\n","<br>"|safe)}}</span>
-          
+
         </li>
       {% endfor %}
     {% endif %}
@@ -124,7 +124,7 @@ $view: /views/base-person.html
 {% set loops = 'content/bibs/pubs.bib'|load_bibtex("peer-reviewed") %}
 <p class="cv-list-desc">
   Note: CV author in bold; Trainees are underlined,<br />
-  <strong>({{loops|length}} papers; 19,457 total citations; top 10 cited 8,722 times; H-index 60; 13 first, 33 last, 78 middle authorships)</strong> as of {{ docs.data.updated }}
+  <strong>({{loops|length}} papers; 19,457 total citations; top 10 cited 8,722 times; H-index 60; 13 first, 33 last, 78 middle authorships)</strong> as of {{ cv.updated }}
 </p>
 {% include 'partials/pubs_loop.html' %}
 
@@ -202,15 +202,15 @@ $view: /views/base-person.html
 
 
 <h3>Educational Activities</h3>
-{% for section in docs.data.educational %}
+{% for section in cv.educational %}
   <h4>{{ section.title }}</h4>
     <ul class="cv-item">
     {% if section.listitems %}
       {% for subitem in section.listitems %}
         <li>
           <span class="date">{{subitem.date}}</span>
-          <span class="title">{{subitem.title}}</span>
-          <span class="ref">{{subitem.ref}}</span>
+          <span class="title">{{subitem.title|safe}}</span>
+          <span class="ref">{{subitem.ref|safe}}</span>
           {% if subitem.url %}
             <span class="url">[<a href="{{subitem.url}}">URL</a>]</span>
           {% endif %}
@@ -256,29 +256,29 @@ $view: /views/base-person.html
 
 <h4>Thesis Committee Service (BME unless noted otherwise)</h4>
 <ul class="cv-item">
-{% for subitem in docs.data.thesiscomitee %}
+{% for subitem in cv.thesiscomitee %}
   <li>
     <span class="date">{{subitem.date}}</span>
     <span class="position">{{subitem.person}}</span>
     <span class="person">{{subitem.course}}</span>
-    <span class="institution">{{subitem.desc}}</span>
+    <span class="institution">{{subitem.desc|safe}}</span>
   </li>
 {% endfor %}
 </ul>
 
 
 <h3>Service</h3>
-{% for section in docs.data.service %}
+{% for section in cv.service %}
   <h4>{{ section.title }}</h4>
   <ul class="cv-item">
     {% if section.listitems %}
       {% for subitem in section.listitems %}
         <li>
           <span class="date">{{subitem.date}}</span>
-          <span class="position">{{subitem.position}}</span>
-          <span class="desc">{{subitem.institution}}</span>
+          <span class="position">{{subitem.position|safe}}</span>
+          <span class="desc">{{subitem.institution|safe}}</span>
           {% if subitem.desc %}
-              <p>{{subitem.desc}}</p>
+              <p>{{subitem.desc|safe}}</p>
           {% endif %}
         </li>
       {% endfor %}
@@ -287,15 +287,15 @@ $view: /views/base-person.html
 {% endfor %}
 
 <h3>Awards and Recognition</h3>
-{% for section in docs.data.awards %}
+{% for section in cv.awards %}
   <h4>{{ section.title }}</h4>
   <ul class="cv-item">
     {% if section.listitems %}
       {% for subitem in section.listitems %}
         <li>
           <span class="date">{{subitem.date}}</span>
-          <span class="award">{{subitem.award}}</span>
-          <span class="desc">{{subitem.desc}}</span>
+          <span class="award">{{subitem.award|safe}}</span>
+          <span class="desc">{{subitem.desc|safe}}</span>
         </li>
       {% endfor %}
     {% endif %}
@@ -339,20 +339,20 @@ $view: /views/base-person.html
 </ul>
 
 <h3>Translation / Technology Transfer Activities</h3>
-{% for section in docs.data.transfer %}
+{% for section in cv.transfer %}
   <h4>{{ section.title }}</h4>
   <ul class="cv-item">
     {% if section.listitems %}
       {% for subitem in section.listitems %}
         <li>
           <span class="date">{{subitem.date}}</span>
-          <span class="title"><strong>{{subitem.position}}</strong> {{subitem.title}}</span>
+          <span class="title"><strong>{{subitem.position|safe}}</strong> {{subitem.title|safe}}</span>
           <span class="publication">{{subitem.publication}}</span>
           {% if subitem.url %}
             <span class="url">[<a href="{{subitem.url}}">URL</a>]</span>
           {% endif %}
-          <p>{{subitem.desc}}</p>
-          <p><em>{{subitem.stats}}</em></p>
+          <p>{{subitem.desc|safe}}</p>
+          <p><em>{{subitem.stats|safe}}</em></p>
         </li>
       {% endfor %}
     {% endif %}

@@ -53,6 +53,7 @@ extensions:
   jinja2:
     - extensions.bibtex_print.bibtex_print.BIBTEX_PRINT
     - extensions.sorting.sorting.SortByIndex
+    - extensions.tex_cv.tex_cv.TEX_CV
 
 ext:
   - extensions.html_min.HtmlMinExtension

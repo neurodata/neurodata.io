@@ -12,6 +12,8 @@ env/
 extensions/*
 !extensions/sorting/
 !extensions/sorting/*
+!extensions/tex_cv/
+!extensions/tex_cv/*
 routescache.json
 .pytest_cache
 .grow
