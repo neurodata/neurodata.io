@@ -3879,17 +3879,29 @@ body.person-detail .more-info p {
   margin: 0;
 }
 @media print {
+  @page {
+    margin: 1in;
+  }
+  * {
+    /* several elements (e.g. .main) have a `transition: 0.5s ... all`
+       for screen UI, which also animates the print/screen style changes
+       (e.g. padding-left) when print media activates. A PDF/print engine
+       can capture the page mid-transition, producing wrong, inconsistent
+       margins depending on timing. Printed output should never be
+       mid-animation. */
+    transition: none !important;
+  }
   body.person-detail {
     height: auto;
     margin: 0;
     font-size: 10pt;
   }
   body.person-detail .cv-container h2 {
-    margin-top: 12pt;
+    margin-top: 0;
     font-size: 30pt;
   }
   body.person-detail .detail-wrap {
-    padding: 12pt;
+    padding: 0;
   }
   html {
     background: white;
@@ -3914,7 +3926,10 @@ body.person-detail .more-info p {
     color: black;
   }
   body.person-detail .header.about-header {
-    background: white;
+    /* its only content (the "Team" heading) is hidden below, but the
+       empty header bar itself still rendered an 8px shell plus margin,
+       pushing everything else down -- hide the whole thing */
+    display: none;
   }
   body.person-detail .header h2 {
     color: black;
@@ -3932,7 +3947,6 @@ body.person-detail .more-info p {
   }
   body.person-detail .detail-wrap {
     max-width: none;
-    padding: 20px 30px;
   }
   body.person-detail .detail-wrap h3 {
     position: relative;

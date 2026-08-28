@@ -158,7 +158,7 @@ $view: /views/base-person.html
 {% for subitem in FUNDcurrent %}
   <li>
     <span class="date">{{subitem.number}}</span>
-    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem.userb}} {{subitem.series}}</span>
+    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem|print_userb}} {{subitem.series}}</span>
     <p>
       PI: {{subitem.author}}<br />
       Role on Project: {{subitem.userc}}<br />
@@ -175,13 +175,13 @@ $view: /views/base-person.html
 {% for subitem in FUNDcomplete %}
   <li>
     <span class="date">{{subitem.number}}</span>
-    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem.userb}} {{subitem.series}}</span>
+    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem|print_userb}} {{subitem.series}}</span>
     <p>
       PI: {{subitem.author}}<br />
       Role on Project: {{subitem.userc}}<br />
       Term: {{subitem.userd}}<br />
-      Funding to lab, entire period: {{subitem.usere}}<br />
-      Funding to lab, current year: {{subitem.userf}}
+      Funding to lab, entire period: {{subitem.usere|print_price}}<br />
+      Funding to lab, current year: {{subitem.userf|print_price}}
     </p>
     <p>{{subitem.abstract}}</p>
   </li>
