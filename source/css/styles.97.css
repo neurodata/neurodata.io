@@ -3977,7 +3977,10 @@ body.person-detail .more-info p {
     padding-left: 0;
   }
   .cv-item.pub {
-    margin-left: 10px;
+    /* just enough room for the absolutely-positioned "[123]" index
+       (measured ~30px wide) plus its 10px gap -- was 10px, which cut
+       the bracket numbers off the printable page entirely */
+    margin-left: 45px;
   }
   .cv-item li {
     position: relative;
