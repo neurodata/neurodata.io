@@ -5,28 +5,12 @@ phases:
     commands:
       - echo Installing grow
       - pip install grow==1.0.4 pyyaml==5.3.1 bibtexparser==1.2.0 jinja2==2.11.3
-      #- echo Installing tailwind
-      #- apt install curl
-      #- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-      #- apt-get install -y aptitude
-      #- apt-get -y install nodejs
-      #- curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-      #- echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
       - apt-get update
-      - apt-get install -y texlive-full
       - apt-get install yarn
       - yarn install
   build:
     commands:
       - export LC_ALL=C.UTF-8
-      - cd content/bibs/tex
-      - pdflatex jovo_cv_SOM.tex
-      # - cp content/bibs/tex/jovo_cv_SOM.pdf source/images/people/jovo_cv_SOM.pdf
-      - cd ..
-      - biber tex/jovo_cv_SOM
-      # - pdflatex jovo_cv_SOM.tex
-      # - pdflatex jovo_cv_SOM.tex
-      - cd ../..
       # 3/10/2023 dependency conflict resolution
       - pip install markupsafe==2.0.1
       - grow install
