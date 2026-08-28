@@ -8,19 +8,18 @@ phases:
       - apt-get update
       - apt-get install yarn
       - yarn install
-      - cd cv/cv_new && npm install && npx playwright install --with-deps chromium && cd ../..
   build:
     commands:
       - export LC_ALL=C.UTF-8
-      # regenerate the downloadable CV PDF from content/bibs/ + content/bibs/tex,
-      # so it always matches whatever's on the site -- must run before `grow
-      # build` packages source/images/people/jovo_cv_SOM.pdf as a static file
-      - cd cv/cv_new
-      - python3 build_cv.py
-      - python3 assemble.py
-      - node render.js
-      - cd ../..
-      - cp cv/cv_new/jovo_cv.pdf source/images/people/jovo_cv_SOM.pdf
+      # NOTE: this used to also regenerate source/images/people/jovo_cv_SOM.pdf
+      # here via cv/cv_new (Python -> HTML -> Playwright), so it always matched
+      # content/bibs/. Pulled back out: deploys stopped completing after this
+      # was added (never confirmed live even after several hours), most likely
+      # `npx playwright install --with-deps chromium` failing or hanging in
+      # this CodeBuild image/network -- untestable without console access to
+      # the actual build logs. Until that's debugged with real logs, the PDF
+      # goes back to being built out-of-band and committed directly to
+      # source/images/people/jovo_cv_SOM.pdf (still works, just not automatic).
       # 3/10/2023 dependency conflict resolution
       - pip install markupsafe==2.0.1
       - grow install
