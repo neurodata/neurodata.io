@@ -3811,7 +3811,7 @@ blockquote {
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
     width: 220px;
   }
@@ -3824,7 +3824,7 @@ blockquote {
     height: auto;
   }
   .person-sidebar .person-details {
-    text-align: center;
+    text-align: left;
   }
   .person-wrap .person-text {
     order: 2;
