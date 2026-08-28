@@ -3895,6 +3895,14 @@ body.person-detail .more-info p {
     background: white;
     color: black;
   }
+  body.person-detail {
+    /* the base body rule sets a near-invisible text-shadow (a screen
+       anti-aliasing trick); Chromium can't represent text-shadow as
+       vector text in a PDF's content stream, so it silently rasterizes
+       every line of text as an image instead -- this alone was
+       responsible for a 44-page CV exporting as a 30+MB PDF. */
+    text-shadow: none;
+  }
   .only-print {
     display: block !important;
   }
