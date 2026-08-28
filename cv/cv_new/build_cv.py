@@ -6,8 +6,8 @@ from bibparse import parse_bib, parse_author_an, split_authors
 from latexutil import tex_to_html, format_authors
 from texparse import parse_sections, strip_href_title
 
-BIB_DIR = '../cv_build'
-TEX_PATH = '../cv_build/tex/jovo_cv_SOM.tex'
+BIB_DIR = '../../content/bibs'
+TEX_PATH = '../../content/bibs/tex/jovo_cv_SOM.tex'
 
 MONTH_NUM = {
     'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3,
