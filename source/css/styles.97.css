@@ -3799,20 +3799,25 @@ blockquote {
   .person-wrap {
     display: flex;
     flex-wrap: wrap;
-    
+    align-items: flex-start;
+    gap: 30px;
   }
   .person-photo {
-    order: 2;
+    order: 1;
     display: block;
+    flex: 0 0 auto;
   }
   .person-wrap h2 {
     order: 0;
     width: 100%;
     padding-top: 0;
   }
+  .person-wrap .person-text {
+    order: 2;
+    flex: 1 1 300px;
+    min-width: 300px;
+  }
   .person-wrap .person-details {
-    order: 1;
-    flex-grow: 1;
     text-align: left;
   }
   .detail-wrap h3 {
