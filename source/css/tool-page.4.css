@@ -4,117 +4,78 @@
   box-sizing: border-box;
 }
 
+/* JHU brand typography update -- see styles.97.css for the full note.
+   Same aliasing approach: family names stay "Gentona"/"Quadon" so the
+   rest of this file (and views/tool-page-base.html) needed no changes,
+   only the underlying font files did. */
 @font-face {
   font-family: "Gentona Book";
-  src: url("../fonts/gentona/Gentona-Book.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-Book.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-Book.woff") format("woff"),
-    url("../fonts/gentona/Gentona-Book.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gentona";
-  src: url("../fonts/gentona/Gentona-Light.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-Light.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-Light.woff") format("woff"),
-    url("../fonts/gentona/Gentona-Light.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gentona Italic";
-  src: url("../fonts/gentona/Gentona-MediumItalic.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-MediumItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-MediumItalic.woff") format("woff"),
-    url("../fonts/gentona/Gentona-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-MediumItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gentona Book Italic";
-  src: url("../fonts/gentona/Gentona-BookItalic.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-BookItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-BookItalic.woff") format("woff"),
-    url("../fonts/gentona/Gentona-BookItalic.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gentona Bold";
-  src: url("../fonts/gentona/Gentona-Bold.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-Bold.woff") format("woff"),
-    url("../fonts/gentona/Gentona-Bold.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gentona Bold Italic";
-  src: url("../fonts/gentona/Gentona-BookItalic.eot");
-  src: local("☺"),
-    url("../fonts/gentona/Gentona-BoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/gentona/Gentona-BoldItalic.woff") format("woff"),
-    url("../fonts/gentona/Gentona-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/jhu/WorkSans-BoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Quadon Regular";
-  src: url("../fonts/quadon/Quadon-Regular.eot");
-  src: local("☺"),
-    url("../fonts/quadon/Quadon-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/quadon/Quadon-Regular.woff") format("woff"),
-    url("../fonts/quadon/Quadon-Regular.ttf") format("truetype");
+  src: url("../fonts/jhu/Oswald-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
+  /* Oswald has no italic master; using the upright face rather than
+     declaring a mismatched font-style: italic against upright glyphs */
   font-family: "Quadon Regular Italic";
-  src: url("../fonts/quadon/Quadon-RegularItalic.eot");
-  src: local("☺"),
-    url("../fonts/quadon/Quadon-RegularItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/quadon/Quadon-RegularItalic.woff") format("woff"),
-    url("../fonts/quadon/Quadon-RegularItalic.ttf") format("truetype");
+  src: url("../fonts/jhu/Oswald-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Quadon Medium";
-  src: url("../fonts/quadon/Quadon-Medium.eot");
-  src: local("☺"),
-    url("../fonts/quadon/Quadon-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/quadon/Quadon-Medium.woff") format("woff"),
-    url("../fonts/quadon/Quadon-Medium.ttf") format("truetype");
+  src: url("../fonts/jhu/Oswald-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Quadon Medium Italic";
-  src: url("../fonts/quadon/Quadon-MediumItalic.eot");
-  src: local("☺"),
-    url("../fonts/quadon/Quadon-MediumItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/quadon/Quadon-MediumItalic.woff") format("woff"),
-    url("../fonts/quadon/Quadon-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/jhu/Oswald-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
