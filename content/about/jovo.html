@@ -22,11 +22,9 @@ $view: /views/base-person.html
 </div>
 <div class="person-details">
   Co-Founder, Flourish<br />
-  Associate Professor (on leave), Biomedical Engineering<br />
+  Associate Professor, Biomedical Engineering<br />
   Johns Hopkins University<br />
-  <a href="mailto:j@progl.ai" target="_blank">j@progl.ai</a><br />
-  <a href="https://jovo.me" target="_blank">jovo.me</a><br />
-  <a href="{{g.static('/source/images/people/jovo_cv_SOM.pdf').url.path}}">Download CV</a>
+  <a href="mailto:j@progl.ai" target="_blank">j@progl.ai</a> &middot; <a href="https://jovo.me" target="_blank">jovo.me</a>
 </div>
 </div>
 
@@ -158,7 +156,7 @@ $view: /views/base-person.html
 {% for subitem in FUNDcurrent %}
   <li>
     <span class="date">{{subitem.number}}</span>
-    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem.userb}} {{subitem.series}}</span>
+    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem|print_userb}} {{subitem.series}}</span>
     <p>
       PI: {{subitem.author}}<br />
       Role on Project: {{subitem.userc}}<br />
@@ -175,13 +173,13 @@ $view: /views/base-person.html
 {% for subitem in FUNDcomplete %}
   <li>
     <span class="date">{{subitem.number}}</span>
-    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem.userb}} {{subitem.series}}</span>
+    <span class="title"><strong>{{subitem.usera}}</strong>, {{subitem|print_userb}} {{subitem.series}}</span>
     <p>
       PI: {{subitem.author}}<br />
       Role on Project: {{subitem.userc}}<br />
       Term: {{subitem.userd}}<br />
-      Funding to lab, entire period: {{subitem.usere}}<br />
-      Funding to lab, current year: {{subitem.userf}}
+      Funding to lab, entire period: {{subitem.usere|print_price}}<br />
+      Funding to lab, current year: {{subitem.userf|print_price}}
     </p>
     <p>{{subitem.abstract}}</p>
   </li>
