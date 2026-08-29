@@ -4016,7 +4016,10 @@ body.person-detail .more-info p {
     color: #333;
   }
   .cv-item .position {
-    font-weight: 600;
+    /* 700 (not 600) so this reuses the same EB Garamond bold file that
+       <strong> (the pub-list highlighted-author tag) already needs --
+       one fewer font weight to embed */
+    font-weight: 700;
     color: #161616;
   }
   .cv-item li p {
