@@ -3865,6 +3865,46 @@ blockquote {
   font-weight: 700;
   font-style: italic;
 }
+/* Print typography: JHU's current official open-source typefaces
+   (brand.jhu.edu, updated Sept 2025) -- Source Serif 4 for body text,
+   Oswald for headings. Self-hosted as static, single-weight TTF instances
+   (via fonttools varLib.instancer from Google's variable-font source)
+   rather than linked from Google Fonts: Chromium's print/PDF export
+   embeds variable webfonts as Type 3 (a bitmap-like per-glyph procedure,
+   several times larger than a normal embedded outline font, and prone to
+   the same font duplicating across multiple subset objects) -- confirmed
+   via `pdffonts` on an actual "Save as PDF" output. Static TTFs served
+   from our own origin don't hit that path. */
+@font-face {
+  font-family: "Source Serif 4 Print";
+  src: url(../fonts/print/SourceSerif4-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Serif 4 Print";
+  src: url(../fonts/print/SourceSerif4-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Serif 4 Print";
+  src: url(../fonts/print/SourceSerif4-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Oswald Print";
+  src: url(../fonts/print/Oswald-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald Print";
+  src: url(../fonts/print/Oswald-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 .only-print {
   display: none !important;
 }
@@ -3898,7 +3938,7 @@ body.person-detail .more-info p {
   body.person-detail {
     height: auto;
     margin: 0;
-    font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+    font-family: 'Source Serif 4 Print', Garamond, 'Times New Roman', Times, serif;
     font-size: 10.6pt;
     line-height: 1.26;
     /* the base body rule sets a near-invisible text-shadow (a screen
@@ -3916,7 +3956,7 @@ body.person-detail .more-info p {
   }
   body.person-detail .cv-container h2 {
     margin-top: 0;
-    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Oswald Print', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 22pt;
     letter-spacing: 1.6pt;
@@ -3957,7 +3997,7 @@ body.person-detail .more-info p {
   /* ---- section / subsection headers ---- */
   body.person-detail .detail-wrap h3 {
     margin: 12pt 0 5pt 0;
-    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Oswald Print', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 13pt;
     letter-spacing: 2.4pt;
@@ -3972,7 +4012,7 @@ body.person-detail .more-info p {
   }
   body.person-detail .detail-wrap h4 {
     margin: 7pt 0 3pt 0;
-    font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Oswald Print', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size: 10pt;
     letter-spacing: 1.6pt;
