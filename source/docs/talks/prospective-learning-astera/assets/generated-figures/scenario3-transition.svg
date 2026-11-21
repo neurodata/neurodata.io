@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" role="img" aria-label="A hierarchical Markov process with two alternating transition rules. Rule A encloses states one and two, and rule B encloses states three and four.">
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.2" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a6b2c4"/></marker></defs>
+  <style>.group{fill:#f6c343;fill-opacity:.055;stroke:#f6c343;stroke-width:3}.node{fill:#101722;stroke:#f4f7fb;stroke-width:3}.label{fill:#f4f7fb;font:700 48px Arial,sans-serif;text-anchor:middle}.small{fill:#a6b2c4;font:600 19px Arial,sans-serif;text-anchor:middle}.accent{fill:#f6c343;font:750 40px Arial,sans-serif;text-anchor:middle}.edge{fill:none;stroke:#a6b2c4;stroke-width:3;marker-end:url(#arrow)}</style>
+  <ellipse class="group" cx="230" cy="270" rx="140" ry="152"/><ellipse class="group" cx="610" cy="270" rx="140" ry="152"/>
+  <path class="edge" d="M370 250 L470 250"/><path class="edge" d="M470 290 L370 290"/>
+  <text class="accent" x="230" y="182">A</text><text class="accent" x="610" y="182">B</text>
+  <circle class="node" cx="150" cy="300" r="43"/><circle class="node" cx="315" cy="300" r="43"/><text class="label" x="150" y="311">1</text><text class="label" x="315" y="311">2</text>
+  <path class="edge" d="M193 288 Q232 247 272 288"/><path class="edge" d="M272 314 Q232 355 193 314"/>
+  <path class="edge" d="M117 277 Q72 218 135 216 Q184 221 173 267"/><path class="edge" d="M347 323 Q393 382 330 384 Q281 379 292 333"/>
+  <circle class="node" cx="530" cy="300" r="43"/><circle class="node" cx="695" cy="300" r="43"/><text class="label" x="530" y="311">3</text><text class="label" x="695" y="311">4</text>
+  <path class="edge" d="M573 288 Q612 247 652 288"/><path class="edge" d="M652 314 Q612 355 573 314"/>
+  <path class="edge" d="M497 277 Q452 218 515 216 Q564 221 553 267"/><path class="edge" d="M727 323 Q773 382 710 384 Q661 379 672 333"/>
+</svg>

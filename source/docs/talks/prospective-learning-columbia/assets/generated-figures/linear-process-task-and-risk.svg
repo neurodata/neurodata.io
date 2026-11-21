@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="982.308425pt" height="363.967188pt" viewBox="0 0 982.308425 363.967188" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-20T18:19:04.256150</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 363.967188 
+L 982.308425 363.967188 
+L 982.308425 0 
+L 0 0 
+L 0 363.967188 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.219519 278.731188 
+L 275.179519 278.731188 
+L 275.179519 31.627187 
+L 15.219519 31.627187 
+L 15.219519 278.731188 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.21875 256.927893 
+L 270.180288 176.982482 
+L 270.180288 136.282999 
+L 20.21875 216.228411 
+z
+" clip-path="url(#pd12f81333b)" style="fill: #5d6a7e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.21875 174.075376 
+L 270.180288 94.129964 
+L 270.180288 53.430482 
+L 20.21875 133.375893 
+z
+" clip-path="url(#pd12f81333b)" style="fill: #f4f7fb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="20.21875" y="298.183688" transform="rotate(-0 20.21875 298.183688)">early</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="270.180288" y="298.183688" transform="rotate(-0 270.180288 298.183688)">late</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="145.199519" y="324.43525" transform="rotate(-0 145.199519 324.43525)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_3">
+    <path d="M 20.21875 194.425117 
+L 270.180288 114.479705 
+" clip-path="url(#pd12f81333b)" style="fill: none; stroke-dasharray: 4.8,4.8; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.6"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="40.215673" y="246.753023" transform="rotate(-0 40.215673 246.753023)">1</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: start; fill: #05070b" x="40.215673" y="159.539846" transform="rotate(-0 40.215673 159.539846)">0</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="15.219519" y="18.627187" transform="rotate(-0 15.219519 18.627187)">Task</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 344.502186 278.731188 
+L 951.075519 278.731188 
+L 951.075519 31.627187 
+L 344.502186 31.627187 
+L 344.502186 278.731188 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_4"/>
+     <g id="text_7">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="344.502186" y="298.183688" transform="rotate(-0 344.502186 298.183688)">50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_5"/>
+     <g id="text_8">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="951.075519" y="298.183688" transform="rotate(-0 951.075519 298.183688)">450</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="647.788853" y="324.24775" transform="rotate(-0 647.788853 324.24775)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_1">
+     <g id="line2d_6"/>
+     <g id="text_10">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: end; fill: #a6b2c4" x="336.502186" y="284.457438" transform="rotate(-0 336.502186 284.457438)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7"/>
+     <g id="text_11">
+      <text style="font-size: 16px; font-family: 'Arial'; text-anchor: end; fill: #a6b2c4" x="336.502186" y="37.353437" transform="rotate(-0 336.502186 37.353437)">1</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #a6b2c4" x="312.027186" y="155.179188" transform="rotate(-90 312.027186 155.179188)">prospective risk</text>
+    </g>
+   </g>
+   <g id="line2d_8">
+    <path d="M 344.502186 278.731188 
+L 951.075519 278.731188 
+" clip-path="url(#p1e0bfea801)" style="fill: none; stroke-dasharray: 3.6,5.4; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.8"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 344.502186 155.179188 
+L 951.075519 155.179188 
+" clip-path="url(#p1e0bfea801)" style="fill: none; stroke-dasharray: 11,11; stroke-dashoffset: 0; stroke: #f6c343; stroke-width: 2.2"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 344.502186 175.68882 
+L 420.323853 172.00697 
+L 496.145519 165.730528 
+L 571.967186 157.501965 
+L 647.788853 155.179188 
+L 723.610519 155.179188 
+L 799.432186 155.179188 
+L 875.253853 155.179188 
+L 951.075519 155.179188 
+" clip-path="url(#p1e0bfea801)" style="fill: none; stroke: #91a0b6; stroke-width: 2.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 344.502186 166.298868 
+L 420.323853 168.152148 
+L 496.145519 165.038637 
+L 571.967186 163.704275 
+L 647.788853 162.221652 
+L 723.610519 163.506592 
+L 799.432186 163.531303 
+L 875.253853 174.650983 
+L 951.075519 189.773748 
+" clip-path="url(#p1e0bfea801)" style="fill: none; stroke: #ef5a50; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 344.502186 165.606976 
+L 420.323853 176.084186 
+L 496.145519 199.559066 
+L 571.967186 202.746708 
+L 647.788853 264.325024 
+L 723.610519 274.999917 
+L 799.432186 278.731188 
+L 875.253853 278.731188 
+L 951.075519 278.731188 
+" clip-path="url(#p1e0bfea801)" style="fill: none; stroke-dasharray: 15.2,7.6; stroke-dashoffset: 0; stroke: #ef5a50; stroke-width: 3.8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 344.502186 278.731188 
+L 344.502186 31.627187 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 344.502186 278.731188 
+L 951.075519 278.731188 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="344.502186" y="18.627187" transform="rotate(-0 344.502186 18.627187)">Non-periodic linear process</text>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_13">
+    <path d="M 214.770613 346.680156 
+L 232.770613 346.680156 
+L 250.770613 346.680156 
+" style="fill: none; stroke-dasharray: 3.6,5.4; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.8"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="262.770613" y="351.930156" transform="rotate(-0 262.770613 351.930156)">Bayes risk</text>
+   </g>
+   <g id="line2d_14">
+    <path d="M 352.203425 346.680156 
+L 370.203425 346.680156 
+L 388.203425 346.680156 
+" style="fill: none; stroke-dasharray: 11,11; stroke-dashoffset: 0; stroke: #f6c343; stroke-width: 2.2"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="400.203425" y="351.930156" transform="rotate(-0 400.203425 351.930156)">Chance</text>
+   </g>
+   <g id="line2d_15">
+    <path d="M 472.151863 346.680156 
+L 490.151863 346.680156 
+L 508.151863 346.680156 
+" style="fill: none; stroke: #91a0b6; stroke-width: 2.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="520.151863" y="351.930156" transform="rotate(-0 520.151863 351.930156)">Follow-the-leader</text>
+   </g>
+   <g id="line2d_16">
+    <path d="M 656.276863 346.680156 
+L 674.276863 346.680156 
+L 692.276863 346.680156 
+" style="fill: none; stroke: #ef5a50; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="704.276863" y="351.930156" transform="rotate(-0 704.276863 351.930156)">PLiC, Fourier</text>
+   </g>
+   <g id="line2d_17">
+    <path d="M 812.88155 346.680156 
+L 830.88155 346.680156 
+L 848.88155 346.680156 
+" style="fill: none; stroke-dasharray: 15.2,7.6; stroke-dashoffset: 0; stroke: #ef5a50; stroke-width: 3.8"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #f4f7fb" x="860.88155" y="351.930156" transform="rotate(-0 860.88155 351.930156)">PLiC, polynomial</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd12f81333b">
+   <rect x="15.219519" y="31.627187" width="259.96" height="247.104"/>
+  </clipPath>
+  <clipPath id="p1e0bfea801">
+   <rect x="344.502186" y="31.627187" width="606.573333" height="247.104"/>
+  </clipPath>
+ </defs>
+</svg>

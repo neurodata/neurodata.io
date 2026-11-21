@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="735" height="430" viewBox="0 0 735 430" role="img" aria-labelledby="title desc">
+  <title id="title">Prospective foraging environment</title>
+  <desc id="desc">A seven-cell track with reward patches A and B, alternating reward regimes and decaying reward curves.</desc>
+  <defs>
+    <linearGradient id="policy" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f6c343" stop-opacity=".22"/><stop offset="1" stop-color="#f6c343" stop-opacity=".05"/></linearGradient>
+    <style>
+      .label{fill:#f3f5f7;font:600 20px Arial,sans-serif}.small{fill:#aeb8c4;font:17px Arial,sans-serif}.axis{fill:#aeb8c4;font:16px Arial,sans-serif}.node{fill:#0b111a;stroke:#36414d;stroke-width:2}.rule{stroke:#36414d;stroke-width:2}.arrow{stroke:#dce2e7;stroke-width:2.5;fill:none;marker-end:url(#head)}.a{stroke:#f6c343;fill:none;stroke-width:3}.b{stroke:#cf79b7;fill:none;stroke-width:3}.dash{stroke-dasharray:7 7}
+    </style>
+    <marker id="head" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L9 4L0 8Z" fill="#dce2e7"/></marker>
+  </defs>
+  <g transform="translate(22 16)">
+    <rect class="node" x="0" y="30" width="690" height="62" rx="2"/>
+    <g class="rule">
+      <path d="M98 30V92M196 30V92M294 30V92M392 30V92M490 30V92M588 30V92"/>
+    </g>
+    <circle cx="49" cy="61" r="16" fill="#f6c343"/><text x="43" y="67" fill="#061018" font-family="Arial" font-size="20" font-weight="700">A</text>
+    <circle cx="637" cy="61" r="16" fill="#cf79b7"/><text x="631" y="67" fill="#061018" font-family="Arial" font-size="20" font-weight="700">B</text>
+    <path d="M331 76l14-24 14 24z" fill="#e9edf0"/><text class="small" x="345" y="116" text-anchor="middle">agent</text>
+    <text class="small" x="0" y="147">active patch</text>
+    <g transform="translate(0 159)">
+      <rect x="0" y="0" width="172.5" height="34" fill="#f6c343"/><rect x="172.5" y="0" width="172.5" height="34" fill="#cf79b7"/><rect x="345" y="0" width="172.5" height="34" fill="#f6c343"/><rect x="517.5" y="0" width="172.5" height="34" fill="#cf79b7"/>
+      <g fill="#061018" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle"><text x="86" y="23">A</text><text x="259" y="23">B</text><text x="431" y="23">A</text><text x="604" y="23">B</text></g>
+    </g>
+    <g transform="translate(0 218)">
+      <path class="rule" d="M48 0V150M48 150H690"/>
+      <g class="axis" text-anchor="end"><text x="39" y="155">0</text><text x="39" y="83">5</text><text x="39" y="12">10</text></g>
+      <g class="rule" stroke-opacity=".45"><path d="M48 78H690M48 6H690"/></g>
+      <g class="axis" text-anchor="middle"><text x="48" y="177">0</text><text x="208" y="177">10</text><text x="369" y="177">20</text><text x="529" y="177">30</text><text x="690" y="177">40</text></g>
+      <text class="small" x="369" y="208" text-anchor="middle">time (t)</text>
+      <text class="small" transform="translate(-28 78) rotate(-90)" text-anchor="middle">reward</text>
+      <path class="a" d="M48 7 C62 59 85 118 208 149"/><path class="b" d="M208 7 C222 59 245 118 369 149"/><path class="a" d="M369 7 C383 59 406 118 529 149"/><path class="b" d="M529 7 C543 59 566 118 690 149"/>
+      <path class="a dash" d="M208 150V7M529 150V7"/><path class="b dash" d="M369 150V7"/>
+    </g>
+  </g>
+</svg>
