@@ -79,10 +79,10 @@ def require_clean_main():
 
 def main():
     require_clean_main()
+    if DEST.exists():
+        shutil.rmtree(DEST)
     for name, (src, drops) in TALKS.items():
         out = DEST / name
-        if out.exists():
-            shutil.rmtree(out)
         out.mkdir(parents=True)
         md = out / "_public.md"
         md.write_text(trim((src / "deck.md").read_text(), drops))
@@ -103,6 +103,8 @@ def main():
             if not f.is_file():
                 sys.exit(f"{name}: missing {r}")
             target = (out / r).resolve()
+            if not target.is_relative_to(DEST):
+                sys.exit(f"{name}: {r} escapes {DEST}")
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(f, target)
         print(f"{name}: {len(refs)} files")
