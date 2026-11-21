@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="945.894047pt" height="328.183187pt" viewBox="0 0 945.894047 328.183187" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-29T16:54:57.780348</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 328.183187 
+L 945.894047 328.183187 
+L 945.894047 0 
+L 0 0 
+L 0 328.183187 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.555797 231.283187 
+L 460.515797 231.283187 
+L 460.515797 31.627187 
+L 69.555797 31.627187 
+L 69.555797 231.283187 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: middle" x="69.555797" y="250.735687" transform="rotate(-0 69.555797 250.735687)">50</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: middle" x="460.515797" y="250.735687" transform="rotate(-0 460.515797 250.735687)">450</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="fill: #a6b2c4; font: 18px 'Arial'; text-anchor: middle" x="265.035797" y="276.79975" transform="rotate(-0 265.035797 276.79975)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3"/>
+     <g id="text_4">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: end" x="61.555797" y="237.009437" transform="rotate(-0 61.555797 237.009437)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4"/>
+     <g id="text_5">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: end" x="61.555797" y="37.353437" transform="rotate(-0 61.555797 37.353437)">1</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #a6b2c4; font: 18px 'Arial'; text-anchor: middle" x="37.080797" y="131.455187" transform="rotate(-90 37.080797 131.455187)">prospective risk</text>
+    </g>
+   </g>
+   <g id="line2d_5">
+    <path d="M 69.555797 231.283187 
+L 460.515797 231.283187 
+" clip-path="url(#pbecc553ebc)" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.7"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 69.555797 131.455187 
+L 460.515797 131.455187 
+" clip-path="url(#pbecc553ebc)" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #6c7b90; stroke-width: 1.7"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 69.555797 129.239006 
+L 118.425797 130.257251 
+L 167.295797 129.019384 
+L 216.165797 130.896151 
+L 265.035797 127.462067 
+L 313.905797 129.798043 
+L 362.775797 126.104407 
+L 411.645797 129.658283 
+L 460.515797 126.603547 
+" clip-path="url(#pbecc553ebc)" style="fill: none; stroke: #9aa7ba; stroke-width: 2.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 69.555797 162.142315 
+L 118.425797 186.680037 
+L 167.295797 214.272496 
+L 216.165797 228.5479 
+L 265.035797 231.223291 
+L 313.905797 231.283187 
+L 362.775797 231.283187 
+L 411.645797 231.283187 
+L 460.515797 231.283187 
+" clip-path="url(#pbecc553ebc)" style="fill: none; stroke: #f6c343; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 69.555797 130.436942 
+L 118.425797 129.877905 
+L 167.295797 130.476873 
+L 216.165797 130.476873 
+L 265.035797 129.079281 
+L 313.905797 128.620072 
+L 362.775797 128.04107 
+L 411.645797 130.397011 
+L 460.515797 111.829003 
+" clip-path="url(#pbecc553ebc)" style="fill: none; stroke: #c586d4; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 69.555797 231.283187 
+L 69.555797 31.627187 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 69.555797 231.283187 
+L 460.515797 231.283187 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #f4f7fb; font: 700 22px 'Arial'; text-anchor: start" x="69.555797" y="18.627187" transform="rotate(-0 69.555797 18.627187)">Periodic process</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 538.707797 231.283187 
+L 929.667797 231.283187 
+L 929.667797 31.627187 
+L 538.707797 31.627187 
+L 538.707797 231.283187 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_10"/>
+     <g id="text_8">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: middle" x="538.707797" y="250.735687" transform="rotate(-0 538.707797 250.735687)">50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_11"/>
+     <g id="text_9">
+      <text style="fill: #a6b2c4; font: 16px 'Arial'; text-anchor: middle" x="929.667797" y="250.735687" transform="rotate(-0 929.667797 250.735687)">450</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill: #a6b2c4; font: 18px 'Arial'; text-anchor: middle" x="734.187797" y="276.79975" transform="rotate(-0 734.187797 276.79975)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_12"/>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13"/>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 538.707797 231.283187 
+L 929.667797 231.283187 
+" clip-path="url(#p689c04418f)" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.7"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 538.707797 131.455187 
+L 929.667797 131.455187 
+" clip-path="url(#p689c04418f)" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #6c7b90; stroke-width: 1.7"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 538.707797 148.026635 
+L 587.577797 145.051761 
+L 636.447797 139.980499 
+L 685.317797 133.331954 
+L 734.187797 131.455187 
+L 783.057797 131.455187 
+L 831.927797 131.455187 
+L 880.797797 131.455187 
+L 929.667797 131.455187 
+" clip-path="url(#p689c04418f)" style="fill: none; stroke: #9aa7ba; stroke-width: 2.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 538.707797 140.439707 
+L 587.577797 141.937127 
+L 636.447797 139.421462 
+L 685.317797 138.343319 
+L 734.187797 137.145383 
+L 783.057797 138.183595 
+L 831.927797 138.20356 
+L 880.797797 147.18808 
+L 929.667797 159.407027 
+" clip-path="url(#p689c04418f)" style="fill: none; stroke: #f6c343; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 538.707797 139.880671 
+L 587.577797 148.346085 
+L 636.447797 167.313405 
+L 685.317797 169.888967 
+L 734.187797 219.643243 
+L 783.057797 228.268382 
+L 831.927797 231.283187 
+L 880.797797 231.283187 
+L 929.667797 231.283187 
+" clip-path="url(#p689c04418f)" style="fill: none; stroke: #c586d4; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 538.707797 231.283187 
+L 538.707797 31.627187 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 538.707797 231.283187 
+L 929.667797 231.283187 
+" style="fill: none; stroke: #536174; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #f4f7fb; font: 700 22px 'Arial'; text-anchor: start" x="538.707797" y="18.627187" transform="rotate(-0 538.707797 18.627187)">Non-periodic linear process</text>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="line2d_19">
+    <path d="M 8.88 310.896156 
+L 26.88 310.896156 
+L 44.88 310.896156 
+" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #f4f7fb; stroke-width: 1.7"/>
+   </g>
+   <g id="text_12">
+    <text style="fill: #f4f7fb; font: 15px 'Arial'; text-anchor: start" x="56.88" y="316.146156" transform="rotate(-0 56.88 316.146156)">Bayes risk</text>
+   </g>
+   <g id="line2d_20">
+    <path d="M 149.312813 310.896156 
+L 167.312813 310.896156 
+L 185.312813 310.896156 
+" style="fill: none; stroke-dasharray: 5.1,6.8; stroke-dashoffset: 0; stroke: #6c7b90; stroke-width: 1.7"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #f4f7fb; font: 15px 'Arial'; text-anchor: start" x="197.312813" y="316.146156" transform="rotate(-0 197.312813 316.146156)">chance</text>
+   </g>
+   <g id="line2d_21">
+    <path d="M 268.928437 310.896156 
+L 286.928437 310.896156 
+L 304.928437 310.896156 
+" style="fill: none; stroke: #9aa7ba; stroke-width: 2.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="fill: #f4f7fb; font: 15px 'Arial'; text-anchor: start" x="316.928437" y="316.146156" transform="rotate(-0 316.928437 316.146156)">follow-the-leader</text>
+   </g>
+   <g id="line2d_22">
+    <path d="M 451.058906 310.896156 
+L 469.058906 310.896156 
+L 487.058906 310.896156 
+" style="fill: none; stroke: #f6c343; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="fill: #f4f7fb; font: 15px 'Arial'; text-anchor: start" x="499.058906" y="316.146156" transform="rotate(-0 499.058906 316.146156)">prospective MLP, Fourier</text>
+   </g>
+   <g id="line2d_23">
+    <path d="M 687.93 310.896156 
+L 705.93 310.896156 
+L 723.93 310.896156 
+" style="fill: none; stroke: #c586d4; stroke-width: 3.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="fill: #f4f7fb; font: 15px 'Arial'; text-anchor: start" x="735.93" y="316.146156" transform="rotate(-0 735.93 316.146156)">prospective MLP, monomial</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbecc553ebc">
+   <rect x="69.555797" y="31.627187" width="390.96" height="199.656"/>
+  </clipPath>
+  <clipPath id="p689c04418f">
+   <rect x="538.707797" y="31.627187" width="390.96" height="199.656"/>
+  </clipPath>
+ </defs>
+</svg>

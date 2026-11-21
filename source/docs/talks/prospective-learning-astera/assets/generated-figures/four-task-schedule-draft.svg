@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 20 1600 180" role="img" aria-labelledby="title desc">
+  <title id="title">Four-task cyclical schedule</title>
+  <desc id="desc">Task distributions A through D repeat, each lasting ten observations.</desc>
+  <style>
+    .label { fill:#f3f4f6; font-family:Arial,sans-serif; font-size:39px; font-weight:700; }
+    .sub { fill:#aeb8c8; font-family:Arial,sans-serif; font-size:28px; }
+    .tick { fill:#aeb8c8; font-family:Arial,sans-serif; font-size:25px; }
+    .letter-dark { fill:#f3f4f6; font-family:Arial,sans-serif; font-size:38px; font-weight:700; }
+    .letter-light { fill:#081014; font-family:Arial,sans-serif; font-size:38px; font-weight:700; }
+  </style>
+  <text class="label" x="80" y="54">Four task distributions cycle every 10 observations</text>
+  <text class="sub" x="80" y="85">MNIST and CIFAR-10</text>
+  <g transform="translate(80 101)">
+    <rect x="0" y="0" width="180" height="55" fill="#28303b"/><text class="letter-dark" x="90" y="39" text-anchor="middle">A</text>
+    <rect x="180" y="0" width="180" height="55" fill="#505a68"/><text class="letter-dark" x="270" y="39" text-anchor="middle">B</text>
+    <rect x="360" y="0" width="180" height="55" fill="#8994a2"/><text class="letter-light" x="450" y="39" text-anchor="middle">C</text>
+    <rect x="540" y="0" width="180" height="55" fill="#c5ccd4"/><text class="letter-light" x="630" y="39" text-anchor="middle">D</text>
+    <rect x="720" y="0" width="180" height="55" fill="#28303b"/><text class="letter-dark" x="810" y="39" text-anchor="middle">A</text>
+    <rect x="900" y="0" width="180" height="55" fill="#505a68"/><text class="letter-dark" x="990" y="39" text-anchor="middle">B</text>
+    <rect x="1080" y="0" width="180" height="55" fill="#8994a2"/><text class="letter-light" x="1170" y="39" text-anchor="middle">C</text>
+    <rect x="1260" y="0" width="180" height="55" fill="#c5ccd4"/><text class="letter-light" x="1350" y="39" text-anchor="middle">D</text>
+    <g class="tick"><text x="0" y="85" text-anchor="middle">0</text><text x="180" y="85" text-anchor="middle">10</text><text x="360" y="85" text-anchor="middle">20</text><text x="540" y="85" text-anchor="middle">30</text><text x="720" y="85" text-anchor="middle">40</text><text x="900" y="85" text-anchor="middle">50</text><text x="1080" y="85" text-anchor="middle">60</text><text x="1260" y="85" text-anchor="middle">70</text><text x="1440" y="85" text-anchor="middle">80</text></g>
+  </g>
+</svg>
