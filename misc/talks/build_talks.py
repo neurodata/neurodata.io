@@ -6,8 +6,10 @@ Relative paths keep the decks-repository layout, so fonts land in
 talks/theme/fonts/ and shared images in talks/people/ and so on.
 
 Run from the repository root:  python3 misc/talks/build_talks.py
+The decks repository (DECKS_DIR, default ~/github/decks) must be on a clean main.
 """
 import html as htmllib
+import os
 import re
 import shutil
 import subprocess
@@ -15,9 +17,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
-HOME = Path.home()
-DECKS = HOME / "github/decks"
-COLUMBIA = HOME / "github/decks-prospective-learning-columbia"
+DECKS = Path(os.environ.get("DECKS_DIR", Path.home() / "github/decks"))
 DEST = Path("source/docs/talks").resolve()
 
 # name: (source deck folder, [(drop-from title, drop-until title or None)])
@@ -31,7 +31,7 @@ TALKS = {
         [("Appendix", None)],
     ),
     "prospective-learning-columbia": (
-        COLUMBIA / "prospective-learning-columbia",
+        DECKS / "prospective-learning-columbia",
         [],
     ),
 }
@@ -67,7 +67,18 @@ def trim(md, drops):
     return f"---{front}---" + body
 
 
+def require_clean_main():
+    git = ["git", "-C", str(DECKS)]
+    branch = subprocess.run(git + ["branch", "--show-current"],
+                            capture_output=True, text=True, check=True).stdout.strip()
+    dirty = subprocess.run(git + ["status", "--porcelain", "--untracked-files=no"],
+                           capture_output=True, text=True, check=True).stdout.strip()
+    if branch != "main" or dirty:
+        sys.exit(f"{DECKS} must be on a clean main (branch {branch!r}, changes: {bool(dirty)})")
+
+
 def main():
+    require_clean_main()
     for name, (src, drops) in TALKS.items():
         out = DEST / name
         if out.exists():
